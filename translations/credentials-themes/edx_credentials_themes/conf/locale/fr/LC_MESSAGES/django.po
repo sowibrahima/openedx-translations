@@ -2,31 +2,28 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
-# Translators:
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2023
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-10-25 21:30+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2023\n"
-"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: French <openedx-translation@googlegroups.com>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_CA\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: templates/edx.org/_footer.html:7
 msgid "Legal Policies"
-msgstr "Politiques juridiques"
+msgstr "Politiques légales"
 
 #: templates/edx.org/_footer.html:11
 msgid "Terms of Service & Honor Code"
-msgstr "Conditions d'utilisation & code d'honneur"
+msgstr "Conditions d'utilisation et code d'honneur"
 
 #: templates/edx.org/_footer.html:16
 msgid "Privacy Policy"
@@ -229,3 +226,8 @@ msgstr ""
 "L'achèvement des programmes XSeries exige que les apprenants obtiennent "
 "des {link_start}certificats vérifiés{link_end} de chacun des cours "
 "inclus dans le programme."
+
+
+
+
+

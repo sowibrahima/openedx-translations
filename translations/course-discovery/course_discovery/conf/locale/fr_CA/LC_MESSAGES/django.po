@@ -53,7 +53,21 @@ msgstr "La date de début ne peut être après la date de fin"
 
 #: apps/api/serializers.py:1028
 msgid "Term cannot be changed"
-msgstr "La session ne peut pas être modifiée"
+msgstr "Le terme ne peut pas être modifié"
+
+#: apps/api/serializers.py:1159
+msgid "Minimum effort and Maximum effort cannot be the same"
+msgstr "L'effort minimum et l'effort maximum ne peuvent pas être identiques"
+
+#: apps/api/v1/views/course_runs.py:363
+#, python-brace-format
+msgid ""
+"The course run type '{course_run_type}' is not valid for this course type "
+"'{course_type}'."
+msgstr ""
+"Le type de session de cours '{course_run_type}' n'est pas valide pour ce type de cours "
+"'{course_type}'."
+
 
 #: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
@@ -519,7 +533,8 @@ msgstr "Retiré"
 #. similar to a normal university course.
 #: apps/course_metadata/choices.py:30
 msgid "Instructor-paced"
-msgstr "Au rythme de l'enseignant"
+msgstr "À rythme imposé par l'instructeur"
+
 
 #. Translators: Self-paced refers to course runs that operate on the student's
 #. schedule.
@@ -555,6 +570,47 @@ msgstr "démo"
 msgid "other"
 msgstr "autre"
 
+#: apps/course_metadata/choices.py:54
+msgid "Course Create"
+msgstr "Création de cours"
+
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "Mise à jour partielle"
+
+#: apps/course_metadata/choices.py:56
+msgid "Course Rerun"
+msgstr "Reprise de cours"
+
+#: apps/course_metadata/choices.py:57
+msgid "Course Editor Update"
+msgstr "Mise à jour de l'éditeur de cours"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "En attente"
+
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "En cours de traitement"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "Terminé"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "Échoué"
+
+#: apps/course_metadata/choices.py:69
+msgid "Partially Completed"
+msgstr "Partiellement terminé"
+
+#: apps/course_metadata/choices.py:70
+msgid "Errored"
+msgstr "Erreur"
+
+
 #: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "Vérifié"
@@ -573,11 +629,25 @@ msgstr "Professionnel"
 
 #: apps/course_metadata/choices.py:78
 msgid "Executive Education"
-msgstr "Formation des cadres"
+msgstr "Formation pour cadres"
 
 #: apps/course_metadata/choices.py:79
 msgid "Paid Executive Education"
-msgstr "Formation exécutive rémunérée"
+msgstr "Formation exécutive payante"
+
+
+#: apps/course_metadata/choices.py:79
+msgid "Paid Executive Education"
+msgstr "Formation exécutive payante"
+
+#: apps/course_metadata/choices.py:81
+msgid "Paid Bootcamp"
+msgstr "Bootcamp payant"
+
+#: apps/course_metadata/choices.py:82
+msgid "Unpaid Bootcamp"
+msgstr "Bootcamp non rémunéré"
+
 
 #: apps/course_metadata/choices.py:80
 msgid "Unpaid Executive Education"
@@ -585,11 +655,366 @@ msgstr "Formation des cadres non rémunérée"
 
 #: apps/course_metadata/choices.py:81
 msgid "Paid Bootcamp"
-msgstr "Camp d'entraînement payant"
+msgstr "Bootcamp payant"
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:10
+msgid "Backpopulate new-style CourseType and CourseRunType where possible."
+msgstr "Remplir à nouveau les CourseType et CourseRunType de nouveau style lorsque cela est possible."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:22
+msgid "Course to backpopulate."
+msgstr "Cours à remplir à nouveau."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:29
+msgid "Organization to backpopulate."
+msgstr "Organisation à remplir à nouveau."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:35
+msgid ""
+"CourseType/CourseRunType mismatches to allow. Specify like course-type-slug:"
+"run-type-slug."
+msgstr ""
+"Inadéquations CourseType/CourseRunType à autoriser. Spécifiez comme course-type-slug:"
+"run-type-slug."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:71
+#, python-brace-format
+msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
+msgstr "Le slug de type d'exécution de cours fourni [{rt_slug}] n'existe pas."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:78
+#, python-brace-format
+msgid "Supplied Course Type slug [{ct_slug}] does not exist."
+msgstr "Le slug de type de cours fourni [{ct_slug}] n'existe pas."
+
+#: apps/course_metadata/management/commands/backpopulate_course_type.py:101
+#, python-brace-format
+msgid ""
+"Could not backpopulate a course type for the following courses: {course_keys}"
+msgstr ""
+"Impossible de remplir à nouveau un type de cours pour les cours suivants : {course_keys}"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:21
+msgid "Delete duplicate persons in course_metadata."
+msgstr "Supprimer les personnes en double dans les métadonnées de cours."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:28
+msgid "People to delete, in UUID:TARGET_UUID form."
+msgstr "Personnes à supprimer, sous la forme UUID:TARGET_UUID."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:43
+msgid ""
+"Use arguments from the DeletePersonDupsConfig model instead of the command "
+"line."
+msgstr ""
+"Utilisez les arguments du modèle DeletePersonDupsConfig au lieu de la ligne de commande."
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:60
+msgid "Malformed argument \"{}\", should be in form of UUID:TARGET_UUID"
+msgstr "Argument malformé \"{}\", doit être sous la forme UUID:TARGET_UUID"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:62
+msgid "Malformed argument \"{}\", UUIDs cannot be equal"
+msgstr "Argument malformé \"{}\", les UUID ne peuvent pas être égaux"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:85
+msgid "Would delete"
+msgstr "Supprimerait"
+
+#: apps/course_metadata/management/commands/delete_person_dups.py:89
+msgid "Course Runs"
+msgstr "Exécutions de cours"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:23
+#, python-brace-format
+msgid "Publishing course run {key}"
+msgstr "Publication de l'exécution de cours {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:28
+#, python-brace-format
+msgid "Failed to publish {key}"
+msgstr "Échec de la publication de {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:31
+#, python-brace-format
+msgid "Successfully published {key}"
+msgstr "Publié avec succès {key}"
+
+#: apps/course_metadata/management/commands/publish_live_course_runs.py:34
+msgid "One or more course runs failed to publish."
+msgstr "La publication d'une ou plusieurs exécutions de cours a échoué."
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
+msgid "Remove all redirects to all courses"
+msgstr "Supprimer toutes les redirections vers tous les cours"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:23
+msgid "Redirects to remove"
+msgstr "Redirections à supprimer"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:25
+msgid ""
+"Use arguments from the RemoveRedirectsConfig model instead of the command "
+"line."
+msgstr ""
+"Utilisez les arguments du modèle RemoveRedirectsConfig au lieu de la ligne de commande."
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:32
+msgid "Invalid arguments"
+msgstr "Arguments non valides"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:56
+#, python-brace-format
+msgid "Cannot remove active url_slug {url_slug}"
+msgstr "Impossible de supprimer le slug d'URL actif {url_slug}"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
+#, python-brace-format
+msgid "Path /course/{url_slug} not in use, nothing to delete"
+msgstr "Le chemin /course/{url_slug} n'est pas utilisé, rien à supprimer"
+
+#: apps/course_metadata/management/commands/remove_redirects_from_courses.py:65
+#, python-brace-format
+msgid "Path {url_path} not in use, nothing to delete"
+msgstr "Le chemin {url_path} n'est pas utilisé, rien à supprimer"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:42
+msgid "One or more courses failed to unpublish."
+msgstr "La dépublication d'un ou plusieurs cours a échoué."
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:48
+#, python-brace-format
+msgid "Successfully unpublished runs in course {key}"
+msgstr "Exécutions dépubliées avec succès dans le cours {key}"
+
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:51
+#, python-brace-format
+msgid "Failed to unpublish runs in course {key}"
+msgstr "Échec de la dépublication des exécutions dans le cours {key}"
+
 
 #: apps/course_metadata/choices.py:82
 msgid "Unpaid Bootcamp"
-msgstr "Camp d'entraînement non rémunéré"
+msgstr "Bootcamp non rémunéré"
+
+#: apps/course_metadata/models.py:239
+msgid ""
+"Please do not use any spaces or special characters other than period, "
+"underscore or hyphen. This key will be used in the course's course key."
+msgstr ""
+"Veuillez n'utiliser aucun espace ou caractère spécial autre que le point, "
+"le trait de soulignement ou le trait d'union. Cette clé sera utilisée dans la clé de cours du cours."
+
+#: apps/course_metadata/models.py:244
+msgid "If populated, this field will overwrite name in platform."
+msgstr "S'il est rempli, ce champ écrasera le nom dans la plateforme."
+
+#: apps/course_metadata/models.py:249
+msgid "Spanish Description"
+msgstr "Description en espagnol"
+
+#: apps/course_metadata/models.py:250
+msgid ""
+"For seo, this field allows for alternate spanish description to be manually "
+"inputted"
+msgstr ""
+"Pour le référencement, ce champ permet de saisir manuellement une description alternative en espagnol"
+
+#: apps/course_metadata/models.py:275 apps/course_metadata/models.py:1529
+#: apps/course_metadata/models.py:2371
+msgid ""
+"Pick a tag from the suggestions. To make a new tag, add a comma after the "
+"tag name."
+msgstr ""
+"Choisissez une étiquette parmi les suggestions. Pour créer une nouvelle étiquette, ajoutez une virgule après le "
+"nom de l'étiquette."
+
+#: apps/course_metadata/models.py:279
+msgid "Automatically generate course run keys"
+msgstr "Générer automatiquement les clés d'exécution de cours"
+
+#: apps/course_metadata/models.py:281
+msgid ""
+"When this flag is enabled, the key of a new course run will be auto "
+"generated.  When this flag is disabled, the key can be manually set."
+msgstr ""
+"Lorsque cet indicateur est activé, la clé d'une nouvelle exécution de cours sera générée automatiquement. "
+"Lorsque cet indicateur est désactivé, la clé peut être définie manuellement."
+
+#: apps/course_metadata/models.py:287
+msgid ""
+"This field signifies if any of this org's courses are in the enterprise "
+"subscription catalog"
+msgstr ""
+"Ce champ indique si l'un des cours de cette organisation se trouve dans le catalogue d'abonnement "
+"d'entreprise"
+
+#: apps/course_metadata/models.py:290
+msgid ""
+"The 6 character-hex-value of the orgnization theme color,\n"
+"            all related course under same organization will use this color "
+"as theme color.\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
+msgstr ""
+"La valeur hexadécimale à 6 caractères de la couleur du thème de l'organisation,\n"
+"            tous les cours associés sous la même organisation utiliseront cette couleur "
+"comme couleur de thème.\n"
+"            (par exemple, \"#ff0000\" qui équivaut au rouge) Pas besoin de fournir le `#`"
+
+#: apps/course_metadata/models.py:306
+msgid "The timestamp of the last time the organization data was modified."
+msgstr "L'horodatage de la dernière modification des données de l'organisation."
+
+#: apps/course_metadata/models.py:322
+msgid ""
+"Please do not use any spaces or special characters other than period, "
+"underscore or hyphen in the key field."
+msgstr ""
+"Veuillez n'utiliser aucun espace ou caractère spécial autre que le point, "
+"le trait de soulignement ou le trait d'union dans le champ de la clé."
+
+#: apps/course_metadata/models.py:393
+msgid "Corresponding organization code in an external product source"
+msgstr "Code d'organisation correspondant dans une source de produit externe"
+
+#: apps/course_metadata/models.py:450
+msgid "LevelType model translations"
+msgstr "Traductions du modèle LevelType"
+
+#: apps/course_metadata/models.py:475
+msgid ""
+"Seat types that qualify for completion of programs of this type. Learners "
+"completing associated courses, but enrolled in other seat types, will NOT "
+"have their completion of the course counted toward the completion of the "
+"program."
+msgstr ""
+"Types de places qui qualifient pour l'achèvement des programmes de ce type. Les apprenants "
+"qui terminent les cours associés, mais qui sont inscrits à d'autres types de places, n'auront PAS "
+"leur achèvement du cours compté pour l'achèvement du "
+"programme."
+
+#: apps/course_metadata/models.py:489
+msgid "Please provide an image file with transparent background"
+msgstr "Veuillez fournir un fichier image avec un fond transparent"
+
+#: apps/course_metadata/models.py:492 apps/course_metadata/models.py:536
+#: apps/course_metadata/models.py:702 apps/course_metadata/models.py:740
+#: apps/course_metadata/models.py:1464 apps/course_metadata/models.py:3384
+msgid "Leave this field blank to have the value generated automatically."
+msgstr "Laissez ce champ vide pour que la valeur soit générée automatiquement."
+
+#: apps/course_metadata/models.py:533
+msgid "Name of the external source."
+msgstr "Nom de la source externe."
+
+#: apps/course_metadata/models.py:538
+msgid "Description of the external source."
+msgstr "Description de la source externe."
+
+#: apps/course_metadata/models.py:543
+msgid "Programs of these types will be OFAC restricted"
+msgstr "Les programmes de ces types seront soumis à des restrictions OFAC"
+
+#: apps/course_metadata/models.py:557
+msgid "ProgramType model translations"
+msgstr "Traductions du modèle ProgramType"
+
+#: apps/course_metadata/models.py:571
+msgid "This mode requires ID verification."
+msgstr "Ce mode nécessite une vérification d'identité."
+
+#: apps/course_metadata/models.py:574
+msgid "Completion can grant credit toward an organization’s degree."
+msgstr "L'achèvement peut donner droit à des crédits pour un diplôme d'une organisation."
+
+#: apps/course_metadata/models.py:578
+msgid ""
+"Certificate type granted if this mode is eligible for a certificate, or "
+"blank if not."
+msgstr ""
+"Type de certificat accordé si ce mode est éligible à un certificat, ou "
+"vide sinon."
+
+#: apps/course_metadata/models.py:582
+msgid ""
+"Who gets paid for the course? Platform is the site owner, Organization is "
+"the school."
+msgstr ""
+"Qui est payé pour le cours ? La plate-forme est le propriétaire du site, l'organisation est "
+"l'école."
+
+#: apps/course_metadata/models.py:679
+msgid "Sets the order for displaying Course Run Types."
+msgstr "Définit l'ordre d'affichage des types d'exécution de cours."
+
+#: apps/course_metadata/models.py:682
+msgid ""
+"Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
+"this course type in Publisher."
+msgstr ""
+"Laissez ce champ vide pour autoriser toutes les organisations. Sinon, spécifiez quelles organisations peuvent voir "
+"ce type de cours dans Publisher."
+
+#: apps/course_metadata/models.py:732
+msgid "Subject model translations"
+msgstr "Traductions du modèle de sujet"
+
+#: apps/course_metadata/models.py:779
+msgid "Topic model translations"
+msgstr "Traductions du modèle de rubrique"
+
+#: apps/course_metadata/models.py:846
+msgid "SEO Meta tags for Products"
+msgstr "Balises méta SEO pour les produits"
+
+#: apps/course_metadata/models.py:881
+msgid ""
+"The ID of the Taxi Form (by 2U) that would be rendered in place of the "
+"hubspot capture form"
+msgstr ""
+"L'ID du formulaire Taxi (par 2U) qui serait rendu à la place du "
+"formulaire de capture Hubspot"
+
+#: apps/course_metadata/models.py:887
+msgid ""
+"The grouping of the Taxi Form (by 2U) that would be rendered instead of the "
+"hubspot capture form"
+msgstr ""
+"Le regroupement du formulaire Taxi (par 2U) qui serait rendu à la place du "
+"formulaire de capture Hubspot"
+
+#: apps/course_metadata/models.py:933
+msgid "The URL of the paid landing page on external site"
+msgstr "L'URL de la page de destination payante sur le site externe"
+
+#: apps/course_metadata/models.py:939
+msgid "The URL of the organic landing page on external site"
+msgstr "L'URL de la page de destination organique sur le site externe"
+
+#: apps/course_metadata/models.py:950
+msgid "The start date of the external course offering for marketing purpose"
+msgstr "La date de début de l'offre de cours externe à des fins de marketing"
+
+#: apps/course_metadata/models.py:954
+msgid "The ends date of the external course offering for marketing purpose"
+msgstr "La date de fin de l'offre de cours externe à des fins de marketing"
+
+#: apps/course_metadata/models.py:958
+msgid "The suggested deadline for enrollment for marketing purpose"
+msgstr "La date limite suggérée pour l'inscription à des fins de marketing"
+
+#: apps/course_metadata/models.py:962
+msgid "The identifier for a product variant."
+msgstr "L'identifiant d'une variante de produit."
+
+#: apps/course_metadata/models.py:966
+msgid "Course override"
+msgstr "Remplacement de cours"
+
+#: apps/course_metadata/models.py:967
+msgid "This field allows for override the default course term"
+msgstr "Ce champ permet de remplacer le terme de cours par défaut"
+
 
 #: apps/course_metadata/choices.py:86
 msgid "Platform"

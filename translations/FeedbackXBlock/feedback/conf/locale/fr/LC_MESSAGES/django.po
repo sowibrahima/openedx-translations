@@ -2,27 +2,20 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
-# Translators:
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2023
-# Gabriel D'Amours <gabriel@opencraft.com>, 2024
-# Nathan Robertson, 2024
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-06 00:53+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
-"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: French <openedx-translation@googlegroups.com>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_CA\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: feedback.py:30
 msgid "What did you learn from this? What was missing?"
@@ -88,7 +81,7 @@ msgstr "Quel pourcentage du temps cela doit-il être affiché ?"
 
 #: feedback.py:105
 msgid "A list of user votes"
-msgstr "Une liste de votes des utilisateurs"
+msgstr "Une liste de votes d'utilisateurs"
 
 #: feedback.py:109
 msgid "Feedback"
@@ -142,7 +135,7 @@ msgstr "Veuillez évaluer votre expérience globale"
 msgid "Please take a moment to thoughtfully reflect."
 msgstr "Veuillez prendre un moment pour bien réfléchir."
 
-#: feedback.py:389
+#: feedback.py:387
 msgid "Please vote!"
 msgstr "Veuillez voter !"
 
@@ -172,7 +165,7 @@ msgstr "Vote"
 
 #: static/html/feedback_instructor.html:40
 msgid "No vote"
-msgstr "Aucun vote"
+msgstr "Pas de vote"
 
 #: templates/html/feedback.html:17
 msgid "Submit Feedback"
@@ -198,7 +191,7 @@ msgstr "Le nom du composant."
 
 #: templates/html/studio_view.html:20
 msgid "The message to show after user vote."
-msgstr "Le message à afficher après le vote utilisateur."
+msgstr "Le message à afficher après le vote de l'utilisateur."
 
 #: templates/html/studio_view.html:28
 msgid "The message to show after user feedback."
@@ -215,6 +208,10 @@ msgstr "Faux"
 #: templates/html/studio_view.html:36
 msgid "True"
 msgstr "Vrai"
+
+#: templates/html/studio_view.html:39
+msgid "Whether to show the aggregate report to students."
+msgstr "Indique s'il faut afficher le rapport agrégé aux étudiants."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
@@ -239,6 +236,10 @@ msgstr "Jeu d'icônes de Likert"
 #: templates/html/studio_view.html:62
 msgid "Faces (happy to sad)"
 msgstr "Visages (content à triste)"
+
+#: templates/html/studio_view.html:63
+msgid "Faces (sad to happy)"
+msgstr "Visages (triste à content)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"
@@ -307,3 +308,4 @@ msgstr "Enregistrer"
 #: templates/html/studio_view.html:126
 msgid "Cancel"
 msgstr "Annuler"
+
