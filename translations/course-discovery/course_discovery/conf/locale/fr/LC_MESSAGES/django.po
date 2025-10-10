@@ -134,6 +134,15 @@ msgstr ""
 "Vous pouvez seulement mettre à jour le statut, les restrictions ofac et les "
 "commentaires ofac"
 
+#: apps/api/v1/views/course_runs.py:363
+#, python-brace-format
+msgid ""
+"The course run type '{course_run_type}' is not valid for this course type "
+"'{course_type}'."
+msgstr ""
+"Le type de session de cours '{course_run_type}' n'est pas valide pour ce type de cours "
+"'{course_type}'."
+
 #: apps/api/v1/views/course_runs.py:381
 msgid "Course run is in review. Editing disabled."
 msgstr ""
@@ -555,9 +564,49 @@ msgstr "démo"
 msgid "other"
 msgstr "autre"
 
+#: apps/course_metadata/choices.py:54
+msgid "Course Create"
+msgstr "Création de cours"
+
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "Mise à jour partielle"
+
+#: apps/course_metadata/choices.py:56
+msgid "Course Rerun"
+msgstr "Réexécution du cours"
+
+#: apps/course_metadata/choices.py:57
+msgid "Course Editor Update"
+msgstr "Mise à jour de l'éditeur de cours"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "En attente"
+
 #: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "Vérifié"
+
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "En cours de traitement"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "Terminé"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "Échoué"
+
+#: apps/course_metadata/choices.py:69
+msgid "Partially Completed"
+msgstr "Partiellement terminé"
+
+#: apps/course_metadata/choices.py:70
+msgid "Errored"
+msgstr "En erreur"
 
 #: apps/course_metadata/choices.py:74
 msgid "Honor"
@@ -1452,6 +1501,16 @@ msgid "Estimated number of weeks needed to complete this course run."
 msgstr ""
 "Nombre estimé de semaines nécessaire pour compléter cette session du cours."
 
+#: apps/course_metadata/models.py:2328
+msgid ""
+"A JSON dict detailing the available translations and transcriptions for this "
+"run. The dict has two keys: translation_languages and "
+"transcription_languages."
+msgstr ""
+"Un dictionnaire JSON détaillant les traductions et transcriptions disponibles pour cette "
+"session. Le dictionnaire a deux clés : translation_languages et "
+"transcription_languages."
+
 #: apps/course_metadata/models.py:2335
 msgid "Total number of learners who have enrolled in this course run"
 msgstr ""
@@ -1961,6 +2020,10 @@ msgstr ""
 "Il s'attend à ce que les données soient fournies dans un format de fichier "
 "csv"
 
+#: apps/course_metadata/models.py:4736
+msgid "A csv file containing uuid of the courses to be archived"
+msgstr "Un fichier csv contenant l'uuid des cours à archiver"
+
 #: apps/course_metadata/models.py:4750 apps/course_metadata/models.py:4763
 #: apps/course_metadata/models.py:4776 apps/course_metadata/models.py:4811
 #: apps/course_metadata/models.py:4824 apps/course_metadata/models.py:4843
@@ -2017,6 +2080,34 @@ msgstr ""
 #: apps/course_metadata/models.py:4977 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
 msgstr "UUIDs de cours"
+
+#: apps/course_metadata/models.py:5042
+msgid "User who uploaded the file"
+msgstr "Utilisateur qui a téléchargé le fichier"
+
+#: apps/course_metadata/models.py:5047
+msgid "Summary of the task"
+msgstr "Résumé de la tâche"
+
+#: apps/course_metadata/models.py:5050
+msgid "Task Type"
+msgstr "Type de tâche"
+
+#: apps/course_metadata/models.py:5053
+msgid "Type of Bulk Task to be performed"
+msgstr "Type de tâche en masse à effectuer"
+
+#: apps/course_metadata/models.py:5056
+msgid "Status"
+msgstr "Statut"
+
+#: apps/course_metadata/models.py:5059
+msgid "Status of the Bulk Task"
+msgstr "Statut de la tâche en masse"
+
+#: apps/course_metadata/models.py:5062
+msgid "Identifier of the celery task associated with this bulk task"
+msgstr "Identifiant de la tâche celery associée à cette tâche en masse"
 
 #: apps/course_metadata/salesforce.py:78
 msgid "Attempted to query Salesforce with no client for partner={}"
@@ -2076,6 +2167,148 @@ msgstr "Voir le commentaire dans Publisher"
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:11
 msgid "The edX team"
 msgstr "L'équipe edX"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:9
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
+msgid "Hi Course Team,"
+msgstr "Bonjour l'équipe du cours,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:12
+#, python-format
+msgid ""
+"\n"
+"        This is an automated reminder that the course "
+"\"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in "
+"%(days)s on %(course_end_date)s.\n"
+"        "
+msgstr ""
+"\n"
+"        Ceci est un rappel automatique que le cours "
+"\"%(course_name)s\" (Clé du cours : %(course_key)s) est prévu de se terminer dans "
+"%(days)s le %(course_end_date)s.\n"
+"        "
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:16
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+msgid ""
+"To ensure uninterrupted learner access and enrollment, please take one of "
+"the following actions:"
+msgstr ""
+"Pour garantir un accès et une inscription ininterrompus des apprenants, veuillez prendre l'une "
+"des mesures suivantes :"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:20
+#, python-format
+msgid ""
+"\n"
+"        This is an automated reminder that the course "
+"\"%(course_name)s\" (Course Key: %(course_key)s) has officially ended as of "
+"%(course_end_date)s.\n"
+"        "
+msgstr ""
+"\n"
+"        Ceci est un rappel automatique que le cours "
+"\"%(course_name)s\" (Clé du cours : %(course_key)s) s'est officiellement terminé le "
+"%(course_end_date)s.\n"
+"        "
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:24
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:20
+msgid ""
+"If this was intentional, no action is needed. However, if this course was "
+"meant to remain available, you have two options to restore access:"
+msgstr ""
+"Si cela était intentionnel, aucune action n'est nécessaire. Cependant, si ce cours devait "
+"rester disponible, vous avez deux options pour restaurer l'accès :"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:28
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:24
+msgid ""
+"Extend the current course run's end date if the same course is meant to "
+"remain available."
+msgstr ""
+"Prolonger la date de fin de la session de cours actuelle si le même cours doit "
+"rester disponible."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:25
+msgid ""
+"Create a new course run if you are planning to offer this course again with "
+"updated content, pacing, or a new cohort of learners."
+msgstr ""
+"Créer une nouvelle session de cours si vous prévoyez d'offrir ce cours à nouveau avec "
+"du contenu mis à jour, un rythme différent ou une nouvelle cohorte d'apprenants."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
+msgid "Visit the Course in Publisher"
+msgstr "Visiter le cours dans Publisher"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:27
+msgid "You can review and modify the course end settings here:"
+msgstr "Vous pouvez consulter et modifier les paramètres de fin de cours ici :"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:41
+#, python-format
+msgid ""
+"\n"
+"        If no action is taken, the course will no longer be available for "
+"enrollment or access by learners on \n"
+"        <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> "
+"after the end date.\n"
+"        "
+msgstr ""
+"\n"
+"        Si aucune action n'est prise, le cours ne sera plus disponible pour "
+"l'inscription ou l'accès par les apprenants sur \n"
+"        <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> "
+"après la date de fin.\n"
+"        "
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:47
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:34
+msgid "Thanks"
+msgstr "Merci"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:6
+#, python-format
+msgid ""
+"\n"
+"This is an automated reminder that the course \"%(course_name)s\" (Course "
+"Key: %(course_key)s) is scheduled to end in %(days)s on "
+"%(course_end_date)s.\n"
+msgstr ""
+"\n"
+"Ceci est un rappel automatique que le cours \"%(course_name)s\" (Clé du "
+"cours : %(course_key)s) est prévu de se terminer dans %(days)s le "
+"%(course_end_date)s.\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:11
+#, python-format
+msgid ""
+"\n"
+"This is an automated reminder that the course \"%(course_name)s\" (Course "
+"Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
+msgstr ""
+"\n"
+"Ceci est un rappel automatique que le cours \"%(course_name)s\" (Clé du "
+"cours : %(course_key)s) s'est officiellement terminé le %(course_end_date)s.\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:23
+msgid "Visit the Course in Publisher:"
+msgstr "Visiter le cours dans Publisher :"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:29
+#, python-format
+msgid ""
+"\n"
+"If no action is taken, the course will no longer be available for enrollment "
+"or access by learners on %(partner_marketing_site_url)s after the end date.\n"
+msgstr ""
+"\n"
+"Si aucune action n'est prise, le cours ne sera plus disponible pour l'inscription "
+"ou l'accès par les apprenants sur %(partner_marketing_site_url)s après la date de fin.\n"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:3
 #, python-format
