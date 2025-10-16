@@ -4455,7 +4455,7 @@ msgstr "par {date}"
 #: cms/templates/group_configurations.html:109
 #: lms/templates/courseware/program_marketing.html:319
 msgid "Learn More"
-msgstr "Apprendre encore plus"
+msgstr "Apprendre plus"
 
 #: lms/djangoapps/courseware/date_summary.py:553
 msgid "Retry Verification"
@@ -16886,7 +16886,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:81
 msgid " Learn more"
-msgstr " Apprendre encore plus"
+msgstr " Apprendre plus"
 
 #: cms/templates/course_outline.html:87
 msgid "Share feedback"
@@ -18159,7 +18159,7 @@ msgstr "Révision de la sémantique, de la syntaxe et des données requises"
 
 #: cms/templates/import.html:156
 msgid "Updating Library"
-msgstr "Mise à jour de la bibliothèque"
+msgstr "Bibliothèques"
 
 #: cms/templates/import.html:158
 msgid "Updating Course"
@@ -20263,7 +20263,7 @@ msgstr "Navigation dans le cours"
 
 #: cms/templates/widgets/header.html:100 cms/templates/widgets/header.html:105
 msgid "Outline"
-msgstr "Contour"
+msgstr "Plan"
 
 #: cms/templates/widgets/header.html:155
 msgid "Videos"
@@ -20615,7 +20615,7 @@ msgstr "Vous n'avez pas accès à ce bloc de dépendances."
 
 #: lms/templates/course.html:13
 msgid "LEARN MORE"
-msgstr "APPRENDRE ENCORE PLUS"
+msgstr "APPRENDRE PLUS"
 
 #: lms/templates/course.html:29 lms/templates/course.html:39
 #: lms/templates/course.html:41
@@ -27439,7 +27439,7 @@ msgstr "J'ai compris!"
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
-msgstr "Apprendre encore plus"
+msgstr "Apprendre plus"
 
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23

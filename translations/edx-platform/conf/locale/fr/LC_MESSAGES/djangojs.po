@@ -7778,7 +7778,7 @@ msgstr "Partage de vidéo"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
-msgstr "Apprendre encore plus"
+msgstr "Apprendre plus"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:3
 msgid "Transcript Turnaround"
@@ -10002,7 +10002,7 @@ msgstr "Afficher moins"
 
 #: lms/templates/discovery/course_card.underscore:6
 msgid "LEARN MORE"
-msgstr "APPRENDRE ENCORE PLUS"
+msgstr "APPRENDRE PLUS"
 
 #: lms/templates/discovery/course_card.underscore:17
 #, python-format
@@ -10676,7 +10676,7 @@ msgstr "Opportunités de crédit supplémentaires"
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:143
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:172
 msgid "Learn More"
-msgstr "Apprendre encore plus"
+msgstr "Apprendre plus"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:53
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:157
