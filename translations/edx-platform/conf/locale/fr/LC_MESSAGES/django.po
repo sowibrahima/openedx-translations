@@ -25215,7 +25215,7 @@ msgstr ""
 
 #: lms/templates/header/navbar-authenticated.html:51
 msgid "Discover New"
-msgstr "Découvrir Nouveau"
+msgstr "Découvrir"
 
 #: lms/templates/header/navbar-logo-header.html:24
 #, python-brace-format
