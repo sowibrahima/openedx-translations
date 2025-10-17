@@ -83,7 +83,7 @@
   "login.third.party.auth.account.not.linked": "Vous vous êtes connecté avec succès à {currentProvider}, mais votre compte {currentProvider} n'a pas de compte {platformName} associé. Pour lier vos comptes, connectez-vous maintenant en utilisant votre mot de passe {platformName}.",
   "login.tpa.authentication.failure": "Nous sommes désolés, vous n'êtes pas autorisé à accéder à {platform_name} via ce canal. Veuillez contacter votre administrateur ou responsable de formation afin d'accéder à {platform_name}.{lineBreak}{lineBreak}Détails de l'erreur :{lineBreak}{errorMessage}",
   "login.user.identity.label": "Nom d'utilisateur ou email",
-  "logistration.register": "Registre",
+  "logistration.register": "S'inscrire",
   "logistration.sign.in": "Se connecter",
   "modal.description": "Vous pouvez compléter votre profil dans les paramètres à tout moment si vous changez d'avis.",
   "modal.title": "Merci de nous l'avoir fait savoir.",
