@@ -775,9 +775,6 @@ msgid "Discussion"
 msgstr "Discussion"
 
 #: wutiskill_bbb/course_tab.py:49
-msgid "Meetings"
-msgstr "Réunions"
-
 #: wutiskill_bbb/templates/wutiskill_bbb/course_tab.html
 msgid "Meetings"
 msgstr "Réunions"
@@ -785,6 +782,12 @@ msgstr "Réunions"
 msgid "Manage meetings and recordings for this course."
 msgstr "Gérer les réunions et enregistrements pour ce cours."
 
+#: cms/templates/group_configurations.html:45
+#: cms/templates/manage_users.html:27 cms/templates/manage_users_lib.html:28
+#: cms/templates/settings.html:54 cms/templates/settings_advanced.html:78
+#: cms/templates/settings_graders.html:49
+#: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:297
+#: lms/templates/wiki/includes/article_menu.html:57
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -794,141 +797,200 @@ msgstr "Retour au cours"
 msgid "Notification"
 msgstr "Notification"
 
+#: openedx/core/djangoapps/user_api/admin.py:72 cms/templates/export.html:161
+#: cms/templates/import.html:177
 msgid "Success"
 msgstr "Succès"
 
+#: lms/templates/oauth2_provider/authorize.html:54
+#: openedx/core/djangoapps/content_staging/data.py:25
+#: lms/templates/ccx/schedule.html:78
 msgid "Error"
 msgstr "Erreur"
 
 msgid "Information"
 msgstr "Information"
 
-#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:152
 msgid "Live Meeting"
 msgstr "Réunion en direct"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:166
 msgid "Meeting Configuration"
 msgstr "Configuration des réunions"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:175
 msgid "General Settings"
 msgstr "Paramètres généraux"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:180
 msgid "Enable BBB for this course"
 msgstr "Activer BBB pour ce cours"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:182
 msgid "Allow meetings and recordings for this course"
 msgstr "Autoriser les réunions et enregistrements pour ce cours"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:186
 msgid "Maximum participants"
 msgstr "Participants maximum"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:190
 msgid "Maximum number of allowed participants"
 msgstr "Nombre maximum de participants autorisés"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:195
 msgid "Meeting duration (minutes)"
 msgstr "Durée de la réunion (minutes)"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:199
 msgid "0 = unlimited"
 msgstr "0 = illimité"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:204
 msgid "Maximum recordings"
 msgstr "Enregistrements maximum"
 
-msgid "Maximum number of recordings to keep"
-msgstr "Nombre maximum d'enregistrements à conserver"
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:207
+msgid "Set by organization"
+msgstr "Défini par l'organisation"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:214
 msgid "Features"
 msgstr "Fonctionnalités"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:219
 msgid "Enable recording"
 msgstr "Activer l'enregistrement"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:221
 msgid "Allow recording of meetings"
 msgstr "Autoriser l'enregistrement des réunions"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:227
 msgid "Waiting room"
 msgstr "Salle d'attente"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:229
 msgid "Requires moderator approval to join"
 msgstr "Nécessite l'approbation du modérateur pour rejoindre"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:235
 msgid "Breakout rooms"
 msgstr "Salles de sous-groupes"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:237
 msgid "Enable breakout rooms feature"
 msgstr "Activer la fonctionnalité de salles de sous-groupes"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:243
 msgid "Webcams"
 msgstr "Webcams"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:245
 msgid "Allow participants to use webcams"
 msgstr "Autoriser les participants à utiliser les webcams"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:251
 msgid "Microphones"
 msgstr "Microphones"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:253
 msgid "Allow participants to use microphones"
 msgstr "Autoriser les participants à utiliser les microphones"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:259
 msgid "Chat"
 msgstr "Chat"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:261
 msgid "Allow text chat during meetings"
 msgstr "Autoriser le chat textuel pendant les réunions"
 
-msgid "Cancel"
-msgstr "Annuler"
-
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:270
 msgid "Save settings"
 msgstr "Enregistrer les paramètres"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:286
 msgid "Error loading meeting status"
 msgstr "Erreur lors du chargement du statut de la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:287
 msgid "Failed to create meeting"
 msgstr "Échec de la création de la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:288
 msgid "Error creating meeting"
 msgstr "Erreur lors de la création de la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:289
 msgid "Error joining meeting"
 msgstr "Erreur lors de la connexion à la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:290
 msgid "Are you sure you want to end this meeting?"
 msgstr "Êtes-vous sûr de vouloir terminer cette réunion ?"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:291
 msgid "Error ending meeting"
 msgstr "Erreur lors de la fin de la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:292
 msgid "Meetings are not enabled for this course."
 msgstr "Les réunions ne sont pas activées pour ce cours."
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:293
 msgid "A meeting is in progress."
 msgstr "Une réunion est en cours."
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:294
 msgid "The meeting is ready. Click Join to start."
 msgstr "La réunion est prête. Cliquez sur Rejoindre pour commencer."
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:295
 msgid "Join meeting"
 msgstr "Rejoindre la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:296
 msgid "End meeting"
 msgstr "Terminer la réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:297
 msgid "No meeting is currently in progress."
 msgstr "Aucune réunion n'est en cours actuellement."
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:298
 msgid "Start a meeting"
 msgstr "Démarrer une réunion"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:299
 msgid "Settings saved successfully!"
 msgstr "Paramètres enregistrés avec succès !"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:300
 msgid "Failed to save settings"
 msgstr "Échec de l'enregistrement des paramètres"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:301
 msgid "Error saving settings"
 msgstr "Erreur lors de l'enregistrement des paramètres"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:439
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:445
+msgid "Organization limit"
+msgstr "Limite de l'organisation"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:445
+msgid "minutes"
+msgstr "minutes"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:455
+msgid "recordings used"
+msgstr "enregistrements utilisés"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:464
+msgid "Recording limit reached. Delete some recordings to enable."
+msgstr "Limite d'enregistrements atteinte. Supprimez des enregistrements pour activer."
 
 #: wutiskill_bbb/templates/wutiskill_bbb/recordings_widget.html
 msgid "Recordings"
@@ -964,26 +1026,18 @@ msgstr "Dépublier"
 msgid "Publish"
 msgstr "Publier"
 
+#: lms/templates/wiki/plugins/attachments/index.html:92
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
+#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
+#: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
+#: cms/templates/studio_xblock_wrapper.html:203
 msgid "Delete"
 msgstr "Supprimer"
 
+#: wutiskill_bbb/templates/wutiskill_bbb/recordings_widget.html:156
 msgid "participants"
 msgstr "participants"
-
-msgid "Set by organization"
-msgstr "Défini par l'organisation"
-
-msgid "recordings used"
-msgstr "enregistrements utilisés"
-
-msgid "Organization limit"
-msgstr "Limite de l'organisation"
-
-msgid "minutes"
-msgstr "minutes"
-
-msgid "Recording limit reached. Delete some recordings to enable."
-msgstr "Limite d'enregistrements atteinte. Supprimez des enregistrements pour activer."
 
 #: cms/djangoapps/contentstore/views/component.py:284
 #: lms/templates/video.html:57
@@ -7621,18 +7675,13 @@ msgstr ""
 #: cms/templates/index.html:200 cms/templates/manage_users.html:68
 #: cms/templates/manage_users_lib.html:69
 #: cms/templates/videos_index_pagination.html:15
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:269
 msgid "Cancel"
 msgstr "Annuler"
 
 #: lms/templates/oauth2_provider/authorize.html:48
 msgid "Allow"
 msgstr "Permettre"
-
-#: lms/templates/oauth2_provider/authorize.html:54
-#: openedx/core/djangoapps/content_staging/data.py:25
-#: lms/templates/ccx/schedule.html:78
-msgid "Error"
-msgstr "Erreur"
 
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:11
 #: lms/templates/support/edx_ace/wholecoursereset/email/subject.txt:3
@@ -7842,15 +7891,6 @@ msgid "Delete article"
 msgstr "Supprimer l'article"
 
 #: lms/templates/wiki/delete.html:8
-#: lms/templates/wiki/plugins/attachments/index.html:92
-#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:4
-#: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
-#: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
-#: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
-#: cms/templates/studio_xblock_wrapper.html:203
-msgid "Delete"
-msgstr "Supprimer"
-
 #: lms/templates/wiki/delete.html:11 wiki/templates/wiki/delete.html:10
 msgid "You cannot delete a root article."
 msgstr "Vous ne pouvez pas supprimer un article racine."
@@ -10404,11 +10444,6 @@ msgstr "Autorisation refusée"
 #: openedx/core/djangoapps/user_api/admin.py:62
 msgid "Retirement does not exist!"
 msgstr "La retraite n'existe pas !"
-
-#: openedx/core/djangoapps/user_api/admin.py:72 cms/templates/export.html:161
-#: cms/templates/import.html:177
-msgid "Success"
-msgstr "Succès"
 
 #: openedx/core/djangoapps/user_api/admin.py:118
 #: cms/templates/studio_xblock_wrapper.html:163
@@ -16305,15 +16340,6 @@ msgstr "et"
 
 #: wiki/templates/wiki/includes/article_menu.html:9
 #: wiki/templates/wiki/settings.html:4 cms/templates/certificates.html:56
-#: cms/templates/group_configurations.html:45
-#: cms/templates/manage_users.html:27 cms/templates/manage_users_lib.html:28
-#: cms/templates/settings.html:54 cms/templates/settings_advanced.html:78
-#: cms/templates/settings_graders.html:49
-#: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:297
-#: lms/templates/wiki/includes/article_menu.html:57
-msgid "Settings"
-msgstr "Paramètres"
-
 #: wiki/templates/wiki/source.html:4
 msgid "Source of"
 msgstr "Source de"
