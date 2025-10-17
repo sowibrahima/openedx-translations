@@ -28,7 +28,7 @@
   "learner-dash.courseCard.CourseCardDetails.courseStarts": "Le cours commence le {startDate}",
   "learner-dash.courseCard.CourseCardDetails.unknownProviderName": "Inconnu",
   "learner-dash.courseCard.actions.beginCourse": "Commencer le cours",
-  "learner-dash.courseCard.actions.resume": "CV",
+  "learner-dash.courseCard.actions.resume": "Reprendre",
   "learner-dash.courseCard.actions.selectSession": "Sélectionnez une séance",
   "learner-dash.courseCard.actions.viewCourse": "Voir le cours",
   "learner-dash.courseCard.bannerAlt": "Miniature du cours",
