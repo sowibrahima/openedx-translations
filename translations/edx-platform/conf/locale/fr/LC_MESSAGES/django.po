@@ -774,6 +774,217 @@ msgstr "{platform_name} Niveaux d'assistance :"
 msgid "Discussion"
 msgstr "Discussion"
 
+#: wutiskill_bbb/course_tab.py:49
+msgid "Meetings"
+msgstr "Réunions"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/course_tab.html
+msgid "Meetings"
+msgstr "Réunions"
+
+msgid "Manage meetings and recordings for this course."
+msgstr "Gérer les réunions et enregistrements pour ce cours."
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Back to course"
+msgstr "Retour au cours"
+
+msgid "Notification"
+msgstr "Notification"
+
+msgid "Success"
+msgstr "Succès"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Information"
+msgstr "Information"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html
+msgid "Live Meeting"
+msgstr "Réunion en direct"
+
+msgid "Meeting Configuration"
+msgstr "Configuration des réunions"
+
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+msgid "Enable BBB for this course"
+msgstr "Activer BBB pour ce cours"
+
+msgid "Allow meetings and recordings for this course"
+msgstr "Autoriser les réunions et enregistrements pour ce cours"
+
+msgid "Maximum participants"
+msgstr "Participants maximum"
+
+msgid "Maximum number of allowed participants"
+msgstr "Nombre maximum de participants autorisés"
+
+msgid "Meeting duration (minutes)"
+msgstr "Durée de la réunion (minutes)"
+
+msgid "0 = unlimited"
+msgstr "0 = illimité"
+
+msgid "Maximum recordings"
+msgstr "Enregistrements maximum"
+
+msgid "Maximum number of recordings to keep"
+msgstr "Nombre maximum d'enregistrements à conserver"
+
+msgid "Features"
+msgstr "Fonctionnalités"
+
+msgid "Enable recording"
+msgstr "Activer l'enregistrement"
+
+msgid "Allow recording of meetings"
+msgstr "Autoriser l'enregistrement des réunions"
+
+msgid "Waiting room"
+msgstr "Salle d'attente"
+
+msgid "Requires moderator approval to join"
+msgstr "Nécessite l'approbation du modérateur pour rejoindre"
+
+msgid "Breakout rooms"
+msgstr "Salles de sous-groupes"
+
+msgid "Enable breakout rooms feature"
+msgstr "Activer la fonctionnalité de salles de sous-groupes"
+
+msgid "Webcams"
+msgstr "Webcams"
+
+msgid "Allow participants to use webcams"
+msgstr "Autoriser les participants à utiliser les webcams"
+
+msgid "Microphones"
+msgstr "Microphones"
+
+msgid "Allow participants to use microphones"
+msgstr "Autoriser les participants à utiliser les microphones"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Allow text chat during meetings"
+msgstr "Autoriser le chat textuel pendant les réunions"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Save settings"
+msgstr "Enregistrer les paramètres"
+
+msgid "Error loading meeting status"
+msgstr "Erreur lors du chargement du statut de la réunion"
+
+msgid "Failed to create meeting"
+msgstr "Échec de la création de la réunion"
+
+msgid "Error creating meeting"
+msgstr "Erreur lors de la création de la réunion"
+
+msgid "Error joining meeting"
+msgstr "Erreur lors de la connexion à la réunion"
+
+msgid "Are you sure you want to end this meeting?"
+msgstr "Êtes-vous sûr de vouloir terminer cette réunion ?"
+
+msgid "Error ending meeting"
+msgstr "Erreur lors de la fin de la réunion"
+
+msgid "Meetings are not enabled for this course."
+msgstr "Les réunions ne sont pas activées pour ce cours."
+
+msgid "A meeting is in progress."
+msgstr "Une réunion est en cours."
+
+msgid "The meeting is ready. Click Join to start."
+msgstr "La réunion est prête. Cliquez sur Rejoindre pour commencer."
+
+msgid "Join meeting"
+msgstr "Rejoindre la réunion"
+
+msgid "End meeting"
+msgstr "Terminer la réunion"
+
+msgid "No meeting is currently in progress."
+msgstr "Aucune réunion n'est en cours actuellement."
+
+msgid "Start a meeting"
+msgstr "Démarrer une réunion"
+
+msgid "Settings saved successfully!"
+msgstr "Paramètres enregistrés avec succès !"
+
+msgid "Failed to save settings"
+msgstr "Échec de l'enregistrement des paramètres"
+
+msgid "Error saving settings"
+msgstr "Erreur lors de l'enregistrement des paramètres"
+
+#: wutiskill_bbb/templates/wutiskill_bbb/recordings_widget.html
+msgid "Recordings"
+msgstr "Enregistrements"
+
+msgid "Error loading recordings"
+msgstr "Erreur lors du chargement des enregistrements"
+
+msgid "Error updating recording"
+msgstr "Erreur lors de la mise à jour de l'enregistrement"
+
+msgid "Are you sure you want to delete this recording? This action is irreversible."
+msgstr "Êtes-vous sûr de vouloir supprimer cet enregistrement ? Cette action est irréversible."
+
+msgid "Error deleting recording"
+msgstr "Erreur lors de la suppression de l'enregistrement"
+
+msgid "No recordings available at the moment."
+msgstr "Aucun enregistrement disponible pour le moment."
+
+msgid "Published"
+msgstr "Publié"
+
+msgid "Unpublished"
+msgstr "Non publié"
+
+msgid "Watch"
+msgstr "Regarder"
+
+msgid "Unpublish"
+msgstr "Dépublier"
+
+msgid "Publish"
+msgstr "Publier"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "participants"
+msgstr "participants"
+
+msgid "Set by organization"
+msgstr "Défini par l'organisation"
+
+msgid "recordings used"
+msgstr "enregistrements utilisés"
+
+msgid "Organization limit"
+msgstr "Limite de l'organisation"
+
+msgid "minutes"
+msgstr "minutes"
+
+msgid "Recording limit reached. Delete some recordings to enable."
+msgstr "Limite d'enregistrements atteinte. Supprimez des enregistrements pour activer."
+
 #: cms/djangoapps/contentstore/views/component.py:284
 #: lms/templates/video.html:57
 msgid "Video"
@@ -8707,7 +8918,7 @@ msgstr ""
 #: openedx/core/djangoapps/course_live/plugins.py:25
 #: openedx/core/djangoapps/course_live/tab.py:47
 msgid "Live"
-msgstr "En direct"
+msgstr "Direct"
 
 #: openedx/core/djangoapps/course_live/plugins.py:26
 msgid "Enable in-platform video conferencing by configuring live"
