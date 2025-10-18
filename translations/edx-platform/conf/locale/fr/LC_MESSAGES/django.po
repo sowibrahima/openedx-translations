@@ -776,11 +776,11 @@ msgstr "Discussion"
 
 #: wutiskill_bbb/course_tab.py:49
 #: wutiskill_bbb/templates/wutiskill_bbb/course_tab.html
-msgid "Meetings"
-msgstr "Réunions"
+msgid "Virtual Classrooms"
+msgstr "Classes Virtuelles"
 
-msgid "Manage meetings and recordings for this course."
-msgstr "Gérer les réunions et enregistrements pour ce cours."
+msgid "Manage virtual classrooms and recordings for this course."
+msgstr "Gérer les classes virtuelles et enregistrements pour ce cours."
 
 #: cms/templates/group_configurations.html:45
 #: cms/templates/manage_users.html:27 cms/templates/manage_users_lib.html:28
@@ -812,12 +812,12 @@ msgid "Information"
 msgstr "Information"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:152
-msgid "Live Meeting"
-msgstr "Réunion en direct"
+msgid "Virtual Classroom"
+msgstr "Classe Virtuelle"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:166
-msgid "Meeting Configuration"
-msgstr "Configuration des réunions"
+msgid "Virtual Classroom Configuration"
+msgstr "Configuration des classes virtuelles"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:175
 msgid "General Settings"
@@ -828,8 +828,8 @@ msgid "Enable BBB for this course"
 msgstr "Activer BBB pour ce cours"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:182
-msgid "Allow meetings and recordings for this course"
-msgstr "Autoriser les réunions et enregistrements pour ce cours"
+msgid "Allow virtual classrooms and recordings for this course"
+msgstr "Autoriser les classes virtuelles et enregistrements pour ce cours"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:186
 msgid "Maximum participants"
@@ -864,8 +864,8 @@ msgid "Enable recording"
 msgstr "Activer l'enregistrement"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:221
-msgid "Allow recording of meetings"
-msgstr "Autoriser l'enregistrement des réunions"
+msgid "Allow recording of virtual classrooms"
+msgstr "Autoriser l'enregistrement des classes virtuelles"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:227
 msgid "Waiting room"
@@ -904,8 +904,8 @@ msgid "Chat"
 msgstr "Chat"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:261
-msgid "Allow text chat during meetings"
-msgstr "Autoriser le chat textuel pendant les réunions"
+msgid "Allow text chat during virtual classrooms"
+msgstr "Autoriser le chat textuel pendant les classes virtuelles"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:270
 msgid "Save settings"
@@ -936,8 +936,8 @@ msgid "Error ending meeting"
 msgstr "Erreur lors de la fin de la réunion"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:292
-msgid "Meetings are not enabled for this course."
-msgstr "Les réunions ne sont pas activées pour ce cours."
+msgid "Virtual classrooms are not enabled for this course."
+msgstr "Les salles de classe virtuelle ne sont pas activées pour ce cours."
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:293
 msgid "A meeting is in progress."
