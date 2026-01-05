@@ -815,4 +815,4 @@ msgstr "Veuillez vérifier les valeurs que vous avez saisies."
 
 #: public/js/drag_and_drop_edit.js:748
 msgid "Saving"
-msgstr "Économie"
+msgstr "Sauvegarde en cours"
