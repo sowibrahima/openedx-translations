@@ -1033,7 +1033,7 @@ msgstr "Vous devez fournir target_index ({target_index}) comme un entier."
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
 msgstr ""
-"Les étudiants doivent obtenir {score}{pct_sign} ou plus afin d'accéder au "
+"Les apprenants doivent obtenir {score}{pct_sign} ou plus afin d'accéder au "
 "matériel de cours."
 
 #. Translators: This is the percent sign. It will be used to represent
@@ -1154,7 +1154,7 @@ msgstr ""
 
 #: common/djangoapps/course_modes/helpers.py:42
 msgid "You're enrolled as a verified student"
-msgstr "Vous êtes inscrit comme un étudiant vérifié"
+msgstr "Vous êtes inscrit comme un apprenant vérifié"
 
 #: common/djangoapps/course_modes/helpers.py:43
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:16
@@ -1182,7 +1182,7 @@ msgstr "Code d'honneur"
 
 #: common/djangoapps/course_modes/helpers.py:50
 msgid "You're enrolled as a professional education student"
-msgstr "Vous êtes inscrit comme une étudiant de formation professionnelle"
+msgstr "Vous êtes inscrit comme une apprenant de formation professionnelle"
 
 #: common/djangoapps/course_modes/helpers.py:51
 msgid "Professional Ed"
@@ -1363,9 +1363,9 @@ msgstr ""
 #, python-format
 msgid "%(count)d student account was unlocked."
 msgid_plural "%(count)d student accounts were unlocked."
-msgstr[0] "%(count)d compte étudiant a été débloqué."
-msgstr[1] "%(count)d comptes étudiants ont été débloqués."
-msgstr[2] "%(count)d comptes étudiants ont été débloqués."
+msgstr[0] "%(count)d compte apprenant a été débloqué."
+msgstr[1] "%(count)d comptes apprenants ont été débloqués."
+msgstr[2] "%(count)d comptes apprenants ont été débloqués."
 
 #: common/djangoapps/student/admin.py:714
 #, python-brace-format
@@ -3501,7 +3501,7 @@ msgid ""
 msgstr ""
 "Une attestation {cert_type} démontre un niveau élevé de réussite dans un "
 "programme d'éducation, et comprend la vérification de l'identité de "
-"l'étudiant."
+"l'apprenant."
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:127
@@ -3541,8 +3541,8 @@ msgid ""
 "{platform_name} acknowledges achievements through certificates, which are "
 "awarded for course activities that {platform_name} students complete."
 msgstr ""
-"{platform_name} reconnaît les réalisations des étudiants par le biais "
-"d'attestations attribuées lorsque les étudiants complètent diverses "
+"{platform_name} reconnaît les réalisations des apprenants par le biais "
+"d'attestations attribuées lorsque les apprenants complètent diverses "
 "activités {platform_name}."
 
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
@@ -3602,7 +3602,7 @@ msgstr "À propos des attestations {platform_name}"
 msgid "How {platform_name} Validates Student Certificates"
 msgstr ""
 "Comment {platform_name} effectue la validation des attestations des "
-"étudiants"
+"apprenants"
 
 #. Translators:  This text describes the validation mechanism for a
 #. certificate file (known as GPG security)
@@ -3661,7 +3661,7 @@ msgstr "Rejoindre {platform_name}"
 #: lms/djangoapps/certificates/views/webview.py:238
 #, python-brace-format
 msgid "{platform_name} acknowledges the following student accomplishment"
-msgstr "{platform_name} reconnaît les accomplissements de l'étudiant suivant"
+msgstr "{platform_name} reconnaît les accomplissements de l'apprenant suivant"
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:256
@@ -4277,7 +4277,7 @@ msgid ""
 "specific student."
 msgstr ""
 "Ce type de composant ne peut pas être affiché tout en consultant le cours "
-"comme étudiant spécifique."
+"comme apprenant spécifique."
 
 #: lms/djangoapps/courseware/models.py:468
 #: lms/djangoapps/courseware/models.py:504
@@ -4871,7 +4871,7 @@ msgid ""
 " for further information."
 msgstr ""
 "Erreur '{error}' lors de l'envoi d'un courriel au nouvel utilisateur (user "
-"email={email}). Sans le courriel l'étudiant ne pourra se connecter. S'il "
+"email={email}). Sans le courriel l'apprenant ne pourra se connecter. S'il "
 "vous plaît contacter le support pour plus d'informations."
 
 #: lms/djangoapps/instructor/views/api.py:1147
@@ -5147,7 +5147,7 @@ msgstr "Le cours n'a pas de section d'examen d'entrée valide."
 #: lms/djangoapps/instructor/views/api.py:2107
 #: lms/djangoapps/instructor/views/api.py:2343
 msgid "All Students"
-msgstr "Tous les étudiants"
+msgstr "Tous les apprenants"
 
 #: lms/djangoapps/instructor/views/api.py:2253
 #, python-brace-format
@@ -5267,7 +5267,7 @@ msgstr "note du problème"
 #: lms/djangoapps/instructor/views/api.py:3230
 #, python-brace-format
 msgid "Successfully changed due date for student {0} for {1} to {2}"
-msgstr "Date de remise modifiée avec succès pour étudiant {0} de {1} à {2}"
+msgstr "Date de remise modifiée avec succès pour apprenant {0} de {1} à {2}"
 
 #: lms/djangoapps/instructor/views/api.py:3277
 msgid ""
@@ -5280,17 +5280,17 @@ msgstr ""
 #, python-brace-format
 msgid "Successfully reset due date for student {0} for {1} to {2}"
 msgstr ""
-"Réinitialisation réussie de la date de remise étudiant {0} de {1} à {2}"
+"Réinitialisation réussie de la date de remise apprenant {0} de {1} à {2}"
 
 #: lms/djangoapps/instructor/views/api.py:3450
 #, python-format
 msgid "This student (%s) will skip the entrance exam."
-msgstr "Cet étudiant (%s) va sauter l'examen d'entrée."
+msgstr "Cet apprenant (%s) va sauter l'examen d'entrée."
 
 #: lms/djangoapps/instructor/views/api.py:3452
 #, python-format
 msgid "This student (%s) is already allowed to skip the entrance exam."
-msgstr "Cet étudiant (%s) a déjà la permission de sauter l'examen d'entrée."
+msgstr "Cet apprenant (%s) a déjà la permission de sauter l'examen d'entrée."
 
 #: lms/djangoapps/instructor/views/api.py:3476
 msgid ""
@@ -5298,7 +5298,7 @@ msgid ""
 "started. You can view the status of the generation task in the \"Pending "
 "Tasks\" section."
 msgstr ""
-"La tâche de génération des attestations pour tous les étudiants de ce cours "
+"La tâche de génération des attestations pour tous les apprenants de ce cours "
 "a été démarrée. Vous pouvez consulter le statut de cette tâche dans la "
 "section \"Tâches en attente\"."
 
@@ -5347,7 +5347,7 @@ msgstr ""
 #, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr ""
-"Étudiant (utilisateur/courriel={user}) déjà dans la liste de dérogation des "
+"Apprenant (utilisateur/courriel={user}) déjà dans la liste de dérogation des "
 "attestations."
 
 #: lms/djangoapps/instructor/views/api.py:3677
@@ -5364,7 +5364,7 @@ msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
 msgstr ""
-"Le champ étudiant utilisateur/courriel est nécessaire et ne peut être vide. "
+"Le champ apprenant utilisateur/courriel est nécessaire et ne peut être vide. "
 "Veuillez remplir utilisateur/courriel et ensuite appuyer le bouton \"Ajouter"
 " à la liste de Dérogation\"."
 
@@ -5383,7 +5383,7 @@ msgstr "Données invalide, generate_for doit être \"nouveau\" ou \"tout\"."
 #: lms/djangoapps/instructor/views/api.py:3778
 msgid "Certificate generation started for students on the allowlist."
 msgstr ""
-"La génération des attestations a commencé pour les étudiants sur la liste "
+"La génération des attestations a commencé pour les apprenants sur la liste "
 "d'autorisation."
 
 #: lms/djangoapps/instructor/views/api.py:3831
@@ -5422,8 +5422,8 @@ msgid ""
 "Certificate for student {user} is already invalid, kindly verify that "
 "certificate was generated for this student and then proceed."
 msgstr ""
-"L'attestation pour l'étudiant {user} est déjà invalide, bien vouloir "
-"vérifier que l'attestation a été générée pour cet étudiant et ensuite "
+"L'attestation pour l'apprenant {user} est déjà invalide, bien vouloir "
+"vérifier que l'attestation a été générée pour cet apprenant et ensuite "
 "procéder."
 
 #: lms/djangoapps/instructor/views/api.py:4048
@@ -5439,7 +5439,7 @@ msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
 msgstr ""
-"Le champ nom d'utilisateur / courriel de l'étudiant est requis et ne peut "
+"Le champ nom d'utilisateur / courriel de l'apprenant est requis et ne peut "
 "être vide. Bien vouloir remplir nom d'utilisateur / courriel et appuyer sur "
 "le boutton \"Invalider Attestation\"."
 
@@ -5450,7 +5450,7 @@ msgid ""
 "Kindly verify student username/email and the selected course are correct and"
 " try again."
 msgstr ""
-"L'étudiant {student} n'a pas d'attestation pour le cours {course}. Bien "
+"L'apprenant {student} n'a pas d'attestation pour le cours {course}. Bien "
 "vouloir vérifier que les champs nom d'utilisateur / courriel et le cours "
 "sélectionnés sont corrects et essayer de nouveau."
 
@@ -5464,7 +5464,7 @@ msgid ""
 "To gain insights into student enrollment and participation {link_start}visit"
 " {analytics_dashboard_name}, our new course analytics product{link_end}."
 msgstr ""
-"Pour mieux comprendre les inscriptions et la participation des étudiants "
+"Pour mieux comprendre les inscriptions et la participation des apprenants "
 "{link_start}visiter {analytics_dashboard_name}, notre nouveau produit "
 "d'analyse de cours{link_end}."
 
@@ -5519,7 +5519,7 @@ msgstr "Discussions"
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:570
 #: lms/templates/ccx/coach_dashboard.html:66
 msgid "Student Admin"
-msgstr "Admin Étudiant"
+msgstr "Admin Apprenant"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:616
 msgid "Extensions"
@@ -5588,8 +5588,8 @@ msgid ""
 "You must provide either unique_student_identifier or set all_students to "
 "True."
 msgstr ""
-"Vous devez fournir soit un identifiant_étudiant_unique, soit définir "
-"tous_les_étudiants à Vrai."
+"Vous devez fournir soit un identifiant_apprenant_unique, soit définir "
+"tous_les_apprenants à Vrai."
 
 #: lms/djangoapps/instructor/views/serializer.py:565
 msgid "The URL name of the problem to override the score for."
@@ -5603,7 +5603,7 @@ msgstr "Le score de remplacement à définir."
 #, python-brace-format
 msgid "Could not find student matching identifier: {student_identifier}"
 msgstr ""
-"Impossible de trouver un étudiant correspondant à l'identifiant : "
+"Impossible de trouver un apprenant correspondant à l'identifiant : "
 "{student_identifier}"
 
 #: lms/djangoapps/instructor/views/tools.py:93
@@ -5617,7 +5617,7 @@ msgstr "Impossible de trouver le module pour le url : {0}"
 
 #: lms/djangoapps/instructor/views/tools.py:171
 msgid "Could not find student enrollment in the course."
-msgstr "N'a pas pu trouver les étudiants inscrits à ce cours."
+msgstr "N'a pas pu trouver les apprenants inscrits à ce cours."
 
 #: lms/djangoapps/instructor/views/tools.py:199
 #, python-brace-format
@@ -5834,7 +5834,7 @@ msgstr "Progrès : {action} {succeeded} de {attempted} jusqu'à maintenant"
 #, python-brace-format
 msgid "Unable to find submission to be {action} for student '{student}'"
 msgstr ""
-"Impossible de trouver une soumission à être {action} pour l'étudiant "
+"Impossible de trouver une soumission à être {action} pour l'apprenant "
 "'{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
@@ -5843,7 +5843,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:164
 #, python-brace-format
 msgid "Problem failed to be {action} for student '{student}'"
-msgstr "Problème a échoué à être {action} pour l'étudiant '{student}'"
+msgstr "Problème a échoué à être {action} pour l'apprenant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5851,7 +5851,7 @@ msgstr "Problème a échoué à être {action} pour l'étudiant '{student}'"
 #: lms/djangoapps/instructor_task/views.py:168
 #, python-brace-format
 msgid "Problem successfully {action} for student '{student}'"
-msgstr "Problème {action} avec succès pour étudiant '{student}'"
+msgstr "Problème {action} avec succès pour apprenant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -5862,35 +5862,35 @@ msgid ""
 "'{student}'"
 msgstr ""
 "Impossible de trouver la soumission de l'examen d'entrée à être {action} "
-"pour étudiant '{student}'"
+"pour apprenant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py:179
 #, python-brace-format
 msgid "Entrance exam successfully {action} for student '{student}'"
-msgstr "Examen d'entrée {action} avec succès pour étudiant '{student}'"
+msgstr "Examen d'entrée {action} avec succès pour apprenant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py:184
 #, python-brace-format
 msgid "Unable to find any students with submissions to be {action}"
 msgstr ""
-"Impossible de trouver des étudiants avec des soumissions à être {action}"
+"Impossible de trouver des apprenants avec des soumissions à être {action}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:187
 #, python-brace-format
 msgid "Problem failed to be {action} for any of {attempted} students"
-msgstr "Problème échoué à être {action} pour tous les {attempted} étudiants"
+msgstr "Problème échoué à être {action} pour tous les {attempted} apprenants"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py:191
 #, python-brace-format
 msgid "Problem successfully {action} for {attempted} students"
-msgstr "Problème {action} avec succès pour {attempted} étudiants"
+msgstr "Problème {action} avec succès pour {attempted} apprenants"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.  # lint-amnesty, pylint:
@@ -5898,7 +5898,7 @@ msgstr "Problème {action} avec succès pour {attempted} étudiants"
 #: lms/djangoapps/instructor_task/views.py:194
 #, python-brace-format
 msgid "Problem {action} for {succeeded} of {attempted} students"
-msgstr "Problème {action} pour {succeeded} des {attempted} étudiants"
+msgstr "Problème {action} pour {succeeded} des {attempted} apprenants"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py:199
@@ -6080,7 +6080,7 @@ msgid ""
 "The list of group configurations for partitioning students in content "
 "experiments."
 msgstr ""
-"La liste des configurations de groupe afin de partitionner les étudiants "
+"La liste des configurations de groupe afin de partitionner les apprenants "
 "dans des tests de contenu."
 
 #: lms/djangoapps/lti_provider/models.py:39
@@ -6734,7 +6734,7 @@ msgstr "Vous pouvez ensuite vous inscrire à %(course_name)s."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:1
 msgid "Dear student,"
-msgstr "Cher étudiant,"
+msgstr "Cher apprenant,"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:4
 #, python-format
@@ -6796,7 +6796,7 @@ msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:1
 msgid "Dear Student,"
-msgstr "Cher étudiant,"
+msgstr "Cher apprenant,"
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:12
 #, python-format
@@ -8239,7 +8239,7 @@ msgstr "Vous ne pouvez créer deux cohortes avec le même nom"
 msgid ""
 "There must be one cohort to which students can automatically be assigned."
 msgstr ""
-"Il doit exister une cohorte à laquelle les étudiants peuvent être "
+"Il doit exister une cohorte à laquelle les apprenants peuvent être "
 "automatiquement assignés."
 
 #: openedx/core/djangoapps/course_groups/views.py:204
@@ -8391,7 +8391,7 @@ msgid ""
 "requested credit."
 msgstr ""
 "URL du fournisseur de crédit où l'utilisateur peut vérifier le statut de sa "
-"demande de crédit. Ceci est affiché aux étudiants *après* qu'ils aient fait "
+"demande de crédit. Ceci est affiché aux apprenants *après* qu'ils aient fait "
 "une demande de crédit."
 
 #: openedx/core/djangoapps/credit/models.py:104
@@ -8647,7 +8647,7 @@ msgstr "Assistant d'enseignement de la communauté"
 
 #: openedx/core/djangoapps/django_comment_common/models.py:29
 msgid "Student"
-msgstr "Étudiant"
+msgstr "Apprenant"
 
 #: openedx/core/djangoapps/embargo/forms.py:46
 msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
@@ -11056,7 +11056,7 @@ msgstr "Script évalué personnalisé"
 #: xmodule/capa/responsetypes.py:2187
 #, python-brace-format
 msgid "error getting student answer from {student_answers}"
-msgstr "erreur d'obtention de réponse étudiant de {student_answers}"
+msgstr "erreur d'obtention de réponse apprenant de {student_answers}"
 
 #: xmodule/capa/responsetypes.py:2211
 msgid "No answer entered!"
@@ -11205,7 +11205,7 @@ msgstr "Réponse JSON invalide reçu par l'API de Codejail"
 
 #: xmodule/capa_block.py:186
 msgid "Number of attempts taken by the student on this problem"
-msgstr "Nombre de tentatives de l'étudiant sur ce problème"
+msgstr "Nombre de tentatives de l'apprenant sur ce problème"
 
 #: xmodule/capa_block.py:191 xmodule/modulestore/inheritance.py:146
 msgid "Maximum Attempts"
@@ -11216,7 +11216,7 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr ""
-"Définit le nombre de fois où un étudiant peut tenter de répondre à ce "
+"Définit le nombre de fois où un apprenant peut tenter de répondre à ce "
 "problème. Si cette valeur n'est pas définie, un nombre infini de tentatives "
 "est permis."
 
@@ -11230,7 +11230,7 @@ msgid ""
 "the last submission made by the student."
 msgstr ""
 "Définissez la méthode de notation pour ce problème. Par défaut, il s'agit de"
-" la note de la dernière soumission effectuée par l'étudiant."
+" la note de la dernière soumission effectuée par l'apprenant."
 
 #: xmodule/capa_block.py:205 xmodule/capa_block.py:507
 msgid "Last Score"
@@ -11335,7 +11335,7 @@ msgid ""
 "Number of times the student must attempt to answer the question before the "
 "Show Answer button appears."
 msgstr ""
-"Nombre de fois où l'étudiant doit tenter de répondre à la question avant que"
+"Nombre de fois où l'apprenant doit tenter de répondre à la question avant que"
 " le bouton Afficher la réponse ne s'affiche."
 
 #: xmodule/capa_block.py:259
@@ -11374,7 +11374,7 @@ msgstr "Sur réinitialisation"
 
 #: xmodule/capa_block.py:282
 msgid "Per Student"
-msgstr "Par étudiant"
+msgstr "Par apprenant"
 
 #: xmodule/capa_block.py:286
 msgid "XML data for the problem"
@@ -11382,7 +11382,7 @@ msgstr "Données XML pour le problème"
 
 #: xmodule/capa_block.py:291
 msgid "Dictionary with the correctness of current student answers"
-msgstr "Dictionaire avec l'exactitude des réponses de l'étudiant"
+msgstr "Dictionaire avec l'exactitude des réponses de l'apprenant"
 
 #: xmodule/capa_block.py:294
 msgid "List of correctness maps for each attempt"
@@ -11394,7 +11394,7 @@ msgstr "Dictionnaire pour maintenir le statut de inputtypes"
 
 #: xmodule/capa_block.py:297
 msgid "Dictionary with the current student responses"
-msgstr "Dictionnaire avec les réponses de l'étudiant"
+msgstr "Dictionnaire avec les réponses de l'apprenant"
 
 #: xmodule/capa_block.py:299
 msgid "List of student answers for each attempt"
@@ -11402,7 +11402,7 @@ msgstr "Liste des réponses des élèves pour chaque tentative"
 
 #: xmodule/capa_block.py:303
 msgid "Dictionary with the current student score"
-msgstr "Dictionnaire avec le score actuel de l'étudiant"
+msgstr "Dictionnaire avec le score actuel de l'apprenant"
 
 #: xmodule/capa_block.py:305
 msgid "List of scores for each attempt"
@@ -11415,11 +11415,11 @@ msgstr ""
 
 #: xmodule/capa_block.py:309
 msgid "Whether the student has answered the problem"
-msgstr "Si l'étudiant a répondu au problème"
+msgstr "Si l'apprenant a répondu au problème"
 
 #: xmodule/capa_block.py:310
 msgid "Random seed for this student"
-msgstr "Suite aléatoire pour cet étudiant"
+msgstr "Suite aléatoire pour cet apprenant"
 
 #: xmodule/capa_block.py:311
 msgid "Last submission time"
@@ -11434,7 +11434,7 @@ msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
-"Nombre de secondes que l'étudiant doit attendre entre chaque soumission pour"
+"Nombre de secondes que l'apprenant doit attendre entre chaque soumission pour"
 " un problème avec des tentatives multiples."
 
 #: xmodule/capa_block.py:318
@@ -11815,7 +11815,7 @@ msgid ""
 " registration price is set by an administrator in the database, that price "
 "will be displayed instead of this one."
 msgstr ""
-"Le prix affiché aux étudiants pour l'inscription à ce cours. Si le prix "
+"Le prix affiché aux apprenants pour l'inscription à ce cours. Si le prix "
 "d'inscription d'un cours payant est défini par un administrateur dans la "
 "base de donnéesm ce prix sera affiché à la place de celui-ci."
 
@@ -11854,7 +11854,7 @@ msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les étudiants peuvent voir la "
+"Entrer vrai (true) ou faux (false). Si vrai, les apprenants peuvent voir la "
 "calculatrice dans le cours."
 
 #: xmodule/course_block.py:388
@@ -11902,7 +11902,7 @@ msgid ""
 "brackets: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
 "\"2015-10-08\"]] "
 msgstr ""
-"Entrer les paires de dates entre lesquelles les étudiants ne pourront poste "
+"Entrer les paires de dates entre lesquelles les apprenants ne pourront poste "
 "dans les forums de discussions. Entre les crochets fournis, entrez un jeu "
 "additionel de crochets autour de chaque paire de dates que vous ajoutez. "
 "Formater chaque paire de dates comme [\"YYYY-MM-DD\", \"YYYY-MM-DD\"]. Pour "
@@ -12024,7 +12024,7 @@ msgstr "Désactiver les graphiques de progrès"
 #: xmodule/course_block.py:485
 msgid "Enter true or false. If true, students cannot view the progress graph."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les étudiants ne pourront voir "
+"Entrer vrai (true) ou faux (false). Si vrai, les apprenants ne pourront voir "
 "le graphique de progrès."
 
 #: xmodule/course_block.py:490
@@ -12110,7 +12110,7 @@ msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les étudiants pourront créer "
+"Entrer vrai (true) ou faux (false). Si vrai, les apprenants pourront créer "
 "des messages de discussion qui sont anonymes pour tous les utilisateurs."
 
 #: xmodule/course_block.py:541
@@ -12123,8 +12123,8 @@ msgid ""
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les étudiants pourront créer "
-"des messages anonymes pour les autres étudiants. Ce paramètre ne rend pas "
+"Entrer vrai (true) ou faux (false). Si vrai, les apprenants pourront créer "
+"des messages anonymes pour les autres apprenants. Ce paramètre ne rend pas "
 "les messages anonymes pour le personnel du cours."
 
 #: xmodule/course_block.py:549 xmodule/library_root_xblock.py:36
@@ -12164,7 +12164,7 @@ msgstr "Domaine de connexion externe"
 #: xmodule/course_block.py:571
 msgid "Enter the external login method students can use for the course."
 msgstr ""
-"Entrer la méthode de connexion externe que les étudiants peuvent utiliser "
+"Entrer la méthode de connexion externe que les apprenants peuvent utiliser "
 "pour ce cours."
 
 #: xmodule/course_block.py:575
@@ -12176,7 +12176,7 @@ msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les étudiants pourront "
+"Entrer vrai (true) ou faux (false). Si vrai, les apprenants pourront "
 "télécharger les attestations avant la fin du cours, s'ils ont rencontré les "
 "exigences de l'attestation."
 
@@ -12239,7 +12239,7 @@ msgid ""
 msgstr ""
 "Utilisez ce paramètre seulement quand vous générez des attestations PDF. "
 "Entre guillemets, entrez le nom court du cours qui sera utilisé sur "
-"l'attestation que les étudiants recevront quand ils auront complété le "
+"l'attestation que les apprenants recevront quand ils auront complété le "
 "cours."
 
 #: xmodule/course_block.py:632
@@ -12254,7 +12254,7 @@ msgid ""
 msgstr ""
 "Utilisez ce paramètre seulement quand vous générez des attestations PDF. "
 "Entre guillemets, entrez le nom long du cours qui sera utilisé sur "
-"l'attestation que les étudiants recevront quand ils auront complété le "
+"l'attestation que les apprenants recevront quand ils auront complété le "
 "cours."
 
 #: xmodule/course_block.py:642
@@ -12371,7 +12371,7 @@ msgid ""
 " an unlimited number of students, enter null."
 msgstr ""
 "Entrer le nombre maximum qui peuvent s'inscrire au cours. Pour permettre un "
-"nombre illimité d'étudiants, entrez null."
+"nombre illimité d'apprenants, entrez null."
 
 #: xmodule/course_block.py:739
 msgid "Allow Public Wiki Access"
@@ -12400,7 +12400,7 @@ msgstr "Nom du sondage pré-cours"
 
 #: xmodule/course_block.py:757
 msgid "Name of SurveyForm to display as a pre-course survey to the user."
-msgstr "Nom du SurveyForm à afficher comme sondage pré-cours à l'étudiant."
+msgstr "Nom du SurveyForm à afficher comme sondage pré-cours à l'apprenant."
 
 #: xmodule/course_block.py:764
 msgid "Pre-Course Survey Required"
@@ -12412,7 +12412,7 @@ msgid ""
 "course content. If you set this value to true, you must add a name for the "
 "survey to the Course Survey Name setting above."
 msgstr ""
-"Spécifie si les étudiants doivent compléter un sondage avant qu'ils ne "
+"Spécifie si les apprenants doivent compléter un sondage avant qu'ils ne "
 "puissent voir le contenu de votre cours. Si vous avez initialisé cette "
 "valeur à vrai, vous devez ajouter un nom pour le sondage dans le paramètre "
 "nom du sondage plus haut."
@@ -12447,7 +12447,7 @@ msgid ""
 " your course content. Note, you must enable Entrance Exams for this course "
 "setting to take effect."
 msgstr ""
-"Spécifier si les étudiants doivent compléter un examen d'entrée avant de "
+"Spécifier si les apprenants doivent compléter un examen d'entrée avant de "
 "voir le contenu de votre cours. Note, vous devez activer les examens "
 "d'entrée pour ce cours afin que ce paramètre prenne effet."
 
@@ -12462,7 +12462,7 @@ msgid ""
 "course setting to take effect."
 msgstr ""
 "Spécifier un score minimum en pourcentage pour un examen d'entrée avant de "
-"permettre aux étudiants de voir le contenu de votre cours. Prendre note, "
+"permettre aux apprenants de voir le contenu de votre cours. Prendre note, "
 "vous devez activer les examens d'entrées pour ce cours afin que ce paramètre"
 " puisse prendre effet."
 
@@ -12614,7 +12614,7 @@ msgid ""
 msgstr ""
 "Définir à vrai \"true\" afin de marquer ce cours comme étant à votre rythme."
 " Les cours à votre rythme n'ont pas de dates remises pour les devoirs, et "
-"les étudiants peuvent progresser dans le cours à n'importe quel rythme avant"
+"les apprenants peuvent progresser dans le cours à n'importe quel rythme avant"
 " la fin du cours."
 
 #: xmodule/course_block.py:945
@@ -12636,7 +12636,7 @@ msgstr "Information sur l'apprentissage dans ce cours"
 
 #: xmodule/course_block.py:957
 msgid "Specify what student can learn from the course."
-msgstr "Indiquer ce que les étudiants peuvent apprendre dans cours."
+msgstr "Indiquer ce que les apprenants peuvent apprendre dans cours."
 
 #: xmodule/course_block.py:963
 msgid "Course Visibility For Unenrolled Learners"
@@ -12653,7 +12653,7 @@ msgid ""
 msgstr ""
 "Définit les autorisations d'accès pour les apprenants non inscrits. Cela "
 "peut être défini sur l'une des trois valeurs suivantes: \"private\" "
-"(visibilité par défaut, uniquement autorisé pour les étudiants inscrits), "
+"(visibilité par défaut, uniquement autorisé pour les apprenants inscrits), "
 "\"public_outline\" (autoriser l'accès au plan de cours) et \"public\" "
 "(autoriser l'accès au plan et au contenu du cours)."
 
@@ -12883,7 +12883,7 @@ msgstr "Cru"
 
 #: xmodule/html_block.py:399
 msgid "Hide Page From Learners"
-msgstr "Cacher la page aux étudiants"
+msgstr "Cacher la page aux apprenants"
 
 #: xmodule/html_block.py:400
 msgid ""
@@ -13121,7 +13121,7 @@ msgid ""
 "in the current page. This setting is only used when Hide External Tool is "
 "set to False.  "
 msgstr ""
-"Sélectionner vrai (true) si vous voulez que les étudiants cliquent sur un "
+"Sélectionner vrai (true) si vous voulez que les apprenants cliquent sur un "
 "lien qui ouvre l'outil LTI dans une nouvelle fenêtre. Sélectionner faux "
 "(false) si vous voulez que le contenu LTI ouvre dans un IFrame dans la page "
 "courante. Ce paramètre est seulement utilisé quand Cacher les outils "
@@ -13390,9 +13390,9 @@ msgid ""
 "specific number, you cannot set the Maximum Attempts for individual problems"
 " to unlimited."
 msgstr ""
-"Entrer le nombre maximum de tentatives qu'un étudiant peut faire afin de "
+"Entrer le nombre maximum de tentatives qu'un apprenant peut faire afin de "
 "répondre aux problèmes. Par défaut, le nombre de tentatives maximum est "
-"défini à null, permettant ainsi aux étudiants d'avoir un nombre illimité de "
+"défini à null, permettant ainsi aux apprenants d'avoir un nombre illimité de "
 "tentatives afin de répondre aux problèmes. Vous pouvez modifier cette valeur"
 " globale pour des problèmes individuels. Cependant, si cette valeur est un "
 "nombre spécifique, vous ne pourrez modifier le nombre de tentatives maximum "
@@ -13452,7 +13452,7 @@ msgid ""
 " to the next unit and autoplay the first video."
 msgstr ""
 "Préciser si le bouton pour l'avancement automatique doit être affichée sur "
-"les vidéos. Si l'étudiant clique dessus, l'étudiant passera automatiquement "
+"les vidéos. Si l'apprenant clique dessus, l'apprenant passera automatiquement "
 "à la prochaine vidéo lorsque la précédente sera terminée."
 
 #: xmodule/modulestore/inheritance.py:182
@@ -13491,22 +13491,22 @@ msgstr ""
 
 #: xmodule/modulestore/inheritance.py:211
 msgid "Enable Student Notes"
-msgstr "Activer les notes étudiant"
+msgstr "Activer les notes apprenant"
 
 #: xmodule/modulestore/inheritance.py:212
 msgid ""
 "Enter true or false. If true, students can use the Student Notes feature."
 msgstr ""
-"Entrer vrai (true) ou faux (false). Si vrai, les étudiants peuvent utiliser "
-"la fonctionnalité des notes étudiant."
+"Entrer vrai (true) ou faux (false). Si vrai, les apprenants peuvent utiliser "
+"la fonctionnalité des notes apprenant."
 
 #: xmodule/modulestore/inheritance.py:218
 msgid ""
 "Indicates whether Student Notes are visible in the course. Students can also"
 " show or hide their notes in the courseware."
 msgstr ""
-"Indiquer si les notes des étudiants sont visibles dans le cours. Les "
-"étudiants peuvent aussi afficher ou cacher leurs notes dans le cours."
+"Indiquer si les notes des apprenants sont visibles dans le cours. Les "
+"apprenants peuvent aussi afficher ou cacher leurs notes dans le cours."
 
 #: xmodule/modulestore/inheritance.py:225
 msgid "Tag this block as part of an Entrance Exam section"
@@ -13553,15 +13553,15 @@ msgstr "Partition pour segmenter les utilisateurs par voie d'inscription"
 
 #: xmodule/poll_block.py:57
 msgid "Whether this student has voted on the poll"
-msgstr "Si l'étudiant a voté dans le sondage"
+msgstr "Si l'apprenant a voté dans le sondage"
 
 #: xmodule/poll_block.py:62
 msgid "Student answer"
-msgstr "Réponse de l'étudiant"
+msgstr "Réponse de l'apprenant"
 
 #: xmodule/poll_block.py:67
 msgid "Poll answers from all students"
-msgstr "Les réponses aux sondages de tous les étudiants"
+msgstr "Les réponses aux sondages de tous les apprenants"
 
 #: xmodule/poll_block.py:73
 msgid "Poll answers from xml"
@@ -13608,7 +13608,7 @@ msgid ""
 "This setting indicates whether students have a limited time to view or "
 "interact with this courseware component."
 msgstr ""
-"Ce paramètre indique si les étudiantss ont une vue limitée dans le temps "
+"Ce paramètre indique si les apprenantss ont une vue limitée dans le temps "
 "pour voir ou intéragir avec ce composant de cours."
 
 #: xmodule/seq_block.py:162
@@ -13620,7 +13620,7 @@ msgid ""
 "The number of minutes available to students for viewing or interacting with "
 "this courseware component."
 msgstr ""
-"Le nombre de minutes pendant lequel les étudiants peuvent voir ou intéragir "
+"Le nombre de minutes pendant lequel les apprenants peuvent voir ou intéragir "
 "avec ce composant de cours."
 
 #: xmodule/seq_block.py:171
@@ -13698,7 +13698,7 @@ msgstr ""
 msgid ""
 "A list summarizing what students should look forward to in this section."
 msgstr ""
-"Une liste résumant ce à quoi les étudiants doivent s'attendre dans cette "
+"Une liste résumant ce à quoi les apprenants doivent s'attendre dans cette "
 "section."
 
 #: xmodule/split_test_block.py:42
@@ -13726,7 +13726,7 @@ msgid ""
 msgstr ""
 "Cette configuration définie comment les utilisateurs sont regroupés pour les"
 " tests de contenu. Attention : Modifier la configuration de groupe d'un test"
-" visible par les étudiants va impacter les données de test."
+" visible par les apprenants va impacter les données de test."
 
 #: xmodule/split_test_block.py:98
 msgid "Group Configuration"
@@ -13735,7 +13735,7 @@ msgstr "Configuration de groupe"
 #: xmodule/split_test_block.py:109
 msgid "Which child block students in a particular group_id should see"
 msgstr ""
-"Quel bloc enfant les étudiants d'un group_id particulier devraient voir"
+"Quel bloc enfant les apprenants d'un group_id particulier devraient voir"
 
 #: xmodule/split_test_block.py:295
 #, python-brace-format
@@ -13994,7 +13994,7 @@ msgid ""
 "they cannot use the edX video player or do not have access to YouTube. You "
 "must add at least one non-YouTube URL in the Video File URLs field."
 msgstr ""
-"Permettre aux étudiants de télécharger les version du vidéo dans les "
+"Permettre aux apprenants de télécharger les version du vidéo dans les "
 "différents formats si ils ne peuvent utiliser lecteur vidéo edX ou si ils "
 "n'ont pas accès à YouTube. Vous devez ajouter au moins un URL non-YouTube "
 "dans le champ URLs des fichiers vidéo."
@@ -14015,9 +14015,9 @@ msgstr ""
 "Le URL ou les URLs où vous avez posté des versions non-YouTube de votre "
 "vidéo. Chaque URL doit se terminer en .mpeg, .mp4, .ogg, ou .webm et ne peut"
 " être un URL YouTube. (Pour la compatibilité des navigateurs, nous "
-"recommandons fortement les formats .mp4 et .webm.) Les étudiants pourront "
+"recommandons fortement les formats .mp4 et .webm.) Les apprenants pourront "
 "voir le premier vidéo compatible avec leur ordinateur. Pour permettre aux "
-"étudiants de télécharger ces vidéos, définir Téléchargement de vidéo permis "
+"apprenants de télécharger ces vidéos, définir Téléchargement de vidéo permis "
 "à vrai."
 
 #: xmodule/video_block/video_xfields.py:93
@@ -14034,13 +14034,13 @@ msgid ""
 " the URL for the transcript here. Students see a link to download that "
 "transcript below the video."
 msgstr ""
-"Par défaut, les étudiants peuvent télécharger une transcription .srt ou .txt"
+"Par défaut, les apprenants peuvent télécharger une transcription .srt ou .txt"
 " quand vous définissez Téléchargement des transcripts permis à vrai (true). "
 "Si vous voulez fournir une transcription téléchargeable dans un format "
 "différent, nous recommandons que vous téléversiez une copie en utilisant le "
 "champ Upload a Handout field. Si cela n'est pas possible, vous pouvez poster"
 " un fichier de transcripton sur la page fichiers & téléchargements ou sur "
-"Internet, et ensuite ajouter le URL de la transcription ici. Les étudiants "
+"Internet, et ensuite ajouter le URL de la transcription ici. Les apprenants "
 "verront un lien pour télécharger cette transcription sous le vidéo."
 
 #: xmodule/video_block/video_xfields.py:102
@@ -14054,7 +14054,7 @@ msgid ""
 "file. If you want to provide the transcript for download in a different "
 "format, upload a file by using the Upload Handout field."
 msgstr ""
-"Permet aux étudiants de télécharger la transcription chronométrée. Un lien "
+"Permet aux apprenants de télécharger la transcription chronométrée. Un lien "
 "pour télécharger le fichier apparaît sous le vidéo. Par défaut, la "
 "transcription est un fichier .srt ou .txt. Si vous désirez fournir la "
 "transcription pour téléchargement dans un format différent, téléverser un "
@@ -14147,7 +14147,7 @@ msgid ""
 "Upload a handout to accompany this video. Students can download the handout "
 "by clicking Download Handout under the video."
 msgstr ""
-"Téléverser un document accompagnant ce vidéo. Les étudiants peuvent "
+"Téléverser un document accompagnant ce vidéo. Les apprenants peuvent "
 "télécharger ce document en cliquant Télécharger document sous le vidéo."
 
 #: xmodule/video_block/video_xfields.py:179
@@ -14257,7 +14257,7 @@ msgstr "Que cet apprenant a posté ou non des mots sur le nuage de mots-clés."
 
 #: xmodule/word_cloud_block.py:101
 msgid "Student answer."
-msgstr "Réponse de l'étudiant."
+msgstr "Réponse de l'apprenant."
 
 #: xmodule/word_cloud_block.py:106
 msgid "All possible words from all learners."
@@ -16055,7 +16055,7 @@ msgid ""
 "discussion topics or wiki."
 msgstr ""
 "Vous êtes le seul membre du personnel du nouveau cours. Aucun-e élève n'est "
-"encore inscrit-e, et il n'y a aucune donnée étudiante. Il n'y a aucun "
+"encore inscrit-e, et il n'y a aucune donnée apprenante. Il n'y a aucun "
 "contenu dans le wiki ou les sujets de discussion."
 
 #: cms/templates/course-create-rerun.html:151
@@ -16076,10 +16076,10 @@ msgid ""
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
 msgstr ""
-"Utilisez les mises à jours des cours pour prévenir les étudiants des dates "
+"Utilisez les mises à jours des cours pour prévenir les apprenants des dates "
 "importantes comme les examens, pour mettre en évidence des discussions "
 "particulières dans les forums, pour annoncer des changements dans l'horaire "
-"et pour répondre aux questions des étudiants. Vous pouvez ajouter ou éditer "
+"et pour répondre aux questions des apprenants. Vous pouvez ajouter ou éditer "
 "les mises à jour en HTML."
 
 #: cms/templates/course_outline.html:15 cms/templates/course_outline.html:205
@@ -16388,20 +16388,20 @@ msgid ""
 "course slides, and a course calendar. "
 msgstr ""
 "Vous pouvez créer et éditer des pages personnalisées pour fournir des "
-"informations aux étudiants sur le contenu additionnel du cours. Par exemple,"
+"informations aux apprenants sur le contenu additionnel du cours. Par exemple,"
 " vous pouvez créer des pages sur le système de notation, les supports de "
 "cours et un calendrier de cours."
 
 #: cms/templates/edit-tabs.html:181
 msgid "How do pages look to students in my course?"
-msgstr "Comment ces pages sont-elles vues dans mon cours par les étudiants?"
+msgstr "Comment ces pages sont-elles vues dans mon cours par les apprenants?"
 
 #: cms/templates/edit-tabs.html:182
 msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
 msgstr ""
-"Les étudiants voient les pages par défaut et les pages personnalisées en "
+"Les apprenants voient les pages par défaut et les pages personnalisées en "
 "haut de votre cours et utilisent ces liens pour naviguer."
 
 #: cms/templates/edit-tabs.html:182 cms/templates/edit-tabs.html:193
@@ -16419,13 +16419,13 @@ msgid ""
 "course syllabus, and a course calendar. "
 msgstr ""
 "Vous pouvez créer et éditer des pages personnalisées pour donner aux "
-"étudiants du contenu de cours additionnel. Par exemple, vous pouvez créer "
+"apprenants du contenu de cours additionnel. Par exemple, vous pouvez créer "
 "des pages pour les méthodes d'évaluation, le plan de cours et le calendrier "
 "de cours."
 
 #: cms/templates/edit-tabs.html:192
 msgid "How do custom pages look to students in my course?"
-msgstr "Comment apparaît des pages personnalisées aux étudiants du cours?"
+msgstr "Comment apparaît des pages personnalisées aux apprenants du cours?"
 
 #: cms/templates/edit-tabs.html:193
 msgid ""
@@ -16814,7 +16814,7 @@ msgid ""
 "imports are configured."
 msgstr ""
 "Ceci déclenchera une mise à jour automatique du site principal du LMS et la "
-"mise à jour des contenus de votre cours qui sont accessible aux étudiants, "
+"mise à jour des contenus de votre cours qui sont accessible aux apprenants, "
 "si les importations automatiques depuis git sont configurées."
 
 #: cms/templates/export_git.html:35
@@ -16936,7 +16936,7 @@ msgid ""
 msgstr ""
 "Utilisez les configurations de groupe de test de contenu si vous faites des "
 "tests, aussi connu sous test A/B, dans votre cours. Les configurations de "
-"test de contenu définissent combien de groupes d'étudiants sont dans un test"
+"test de contenu définissent combien de groupes d'apprenants sont dans un test"
 " de contenu. Lorsque vous créez un test de contenu pour un cours, vous "
 "sélectionnez la configuration de groupe à utiliser."
 
@@ -17003,7 +17003,7 @@ msgstr ""
 "La structure de votre cours constitue son fil directeur. {studio_name} offre"
 " un éditeur de {strong_start}progression{strong_end}, qui propose une "
 "hiérarchie simple et un système facile de glisser-déposer pour vous aider, "
-"vous et vos étudiants, à rester organisés."
+"vous et vos apprenants, à rester organisés."
 
 #: cms/templates/howitworks.html:58
 msgid "Simple Organization For Content"
@@ -17042,7 +17042,7 @@ msgid ""
 "incrementally. You don't have to have it all done at once."
 msgstr ""
 "Construisez et publiez les {strong_start}sections{strong_end} à vos "
-"étudiants progressivement. Vous n'avez pas l'obligation de tout préparer "
+"apprenants progressivement. Vous n'avez pas l'obligation de tout préparer "
 "d'un coup."
 
 #: cms/templates/howitworks.html:85 cms/templates/howitworks.html:86
@@ -17070,7 +17070,7 @@ msgid ""
 "Help your students understand one concept at a time with multimedia, HTML, "
 "and exercises."
 msgstr ""
-"Aidez vos étudiants à comprendre un concept à la fois avec des ressources "
+"Aidez vos apprenants à comprendre un concept à la fois avec des ressources "
 "multimédia, du HTML, et des exercices."
 
 #: cms/templates/howitworks.html:104
@@ -17082,7 +17082,7 @@ msgid ""
 "Work visually and see exactly what your students will see. Reorganize all "
 "your content with drag and drop."
 msgstr ""
-"Travaillez graphiquement et voyez exactement ce que verront vos étudiants. "
+"Travaillez graphiquement et voyez exactement ce que verront vos apprenants. "
 "Réorganisez l'intégralité de votre contenu avec le glisser-déposer."
 
 #: cms/templates/howitworks.html:109
@@ -17214,7 +17214,7 @@ msgid ""
 "publish it to your students for you."
 msgstr ""
 "Affectez simplement une date à une section ou une sous-section, et "
-"{studio_name} la publiera à vos étudiants pour vous."
+"{studio_name} la publiera à vos apprenants pour vous."
 
 #: cms/templates/html_error.html:11
 msgid "We're having trouble rendering your component"
@@ -17225,7 +17225,7 @@ msgid ""
 "Students will not be able to access this component. Re-edit your component "
 "to fix the error."
 msgstr ""
-"Les étudiants ne seront pas en mesure d'accéder à ce composant. Modifiez "
+"Les apprenants ne seront pas en mesure d'accéder à ce composant. Modifiez "
 "votre composant pour corriger l'erreur."
 
 #: cms/templates/html_error.html:18 lms/templates/course_modes/error.html:26
@@ -17503,9 +17503,9 @@ msgid ""
 msgstr ""
 "Si vous faites une importation pendant qu'un cours est en train de "
 "s'exécuter, et que vous changez les noms d'URL (ou les noeuds url_name) de "
-"n'importe quels composants de problème, les données des étudiants associées "
+"n'importe quels composants de problème, les données des apprenants associées "
 "à ces composantes peuvent être perdues. Ces données incluent les points des "
-"étudiants pour le problème."
+"apprenants pour le problème."
 
 #: cms/templates/import.html:250
 msgid "Learn more about importing a course"
@@ -18034,7 +18034,7 @@ msgstr ""
 " de contenu aléatoire à votre cours. Dans les paramètres pour chaque bloc de"
 " contenu aléatoire, sélectionnez cette bibliothèque comme la bibliothèque "
 "source, et spécifier le nombre de problèmes à être aléatoirement "
-"sélectionnés et affichés à chaque étudiant."
+"sélectionnés et affichés à chaque apprenant."
 
 #: cms/templates/library.html:101
 msgid "Learn more about content libraries"
@@ -18242,7 +18242,7 @@ msgstr "Page de Sommaire du Cours"
 
 #: cms/templates/settings.html:92
 msgid "(for student enrollment and access)"
-msgstr "(pour l'inscription des étudiants et l'accès)"
+msgstr "(pour l'inscription des apprenants et l'accès)"
 
 #: cms/templates/settings.html:103
 #, python-brace-format
@@ -18262,11 +18262,11 @@ msgstr ""
 
 #: cms/templates/settings.html:112
 msgid "Send a note to students via email"
-msgstr "Envoyer une note aux étudiants par courriel"
+msgstr "Envoyer une note aux apprenants par courriel"
 
 #: cms/templates/settings.html:114
 msgid "Invite your students"
-msgstr "Inviter vos étudiants"
+msgstr "Inviter vos apprenants"
 
 #: cms/templates/settings.html:122
 #, python-brace-format
@@ -18469,7 +18469,7 @@ msgstr "Date de début des inscriptions"
 
 #: cms/templates/settings.html:306
 msgid "First day students can enroll"
-msgstr "Premier jour d'inscription des étudiants"
+msgstr "Premier jour d'inscription des apprenants"
 
 #: cms/templates/settings.html:310
 msgid "Enrollment Start Time"
@@ -18481,7 +18481,7 @@ msgstr "Date de fin d'inscription"
 
 #: cms/templates/settings.html:325
 msgid "Last day students can enroll."
-msgstr "Dernier jour où les étudiants peuvent s'inscrire."
+msgstr "Dernier jour où les apprenants peuvent s'inscrire."
 
 #: cms/templates/settings.html:327 cms/templates/settings.html:348
 #, python-brace-format
@@ -18501,7 +18501,7 @@ msgstr "Date limite de mise à niveau"
 #: cms/templates/settings.html:347
 msgid "Last day students can upgrade to a verified enrollment."
 msgstr ""
-"Le dernier jour où les étudiants peuvent passer à une inscription vérifiée."
+"Le dernier jour où les apprenants peuvent passer à une inscription vérifiée."
 
 #: cms/templates/settings.html:353
 msgid "Upgrade Deadline Time"
@@ -18532,7 +18532,7 @@ msgstr "Présentation de votre Cours"
 
 #: cms/templates/settings.html:389
 msgid "Information for prospective students"
-msgstr "Information pour les futurs étudiants"
+msgstr "Information pour les futurs apprenants"
 
 #: cms/templates/settings.html:397
 msgid "Course Title"
@@ -18579,7 +18579,7 @@ msgid ""
 "Appears on the course catalog page when students roll over the course name. "
 "Limit to ~150 characters"
 msgstr ""
-"ApparaÎt dans la page de catalogue des cours, quand l'étudiant survole le "
+"ApparaÎt dans la page de catalogue des cours, quand l'apprenant survole le "
 "nom du cours. Limité à ~150 caractères. "
 
 #: cms/templates/settings.html:428
@@ -18764,7 +18764,7 @@ msgstr "Pré-requis"
 
 #: cms/templates/settings.html:618
 msgid "Expectations of the students taking this course"
-msgstr "Attentes envers les étudiants suivant ce cours"
+msgstr "Attentes envers les apprenants suivant ce cours"
 
 #: cms/templates/settings.html:624
 msgid "Hours of Effort per Week"
@@ -18784,7 +18784,7 @@ msgstr "Aucun"
 
 #: cms/templates/settings.html:638
 msgid "Course that students must complete before beginning this course"
-msgstr "Cours que les étudiants doivent compléter avant de commencer ce cours"
+msgstr "Cours que les apprenants doivent compléter avant de commencer ce cours"
 
 #: cms/templates/settings.html:639
 msgid "set pre-requisite course"
@@ -18792,7 +18792,7 @@ msgstr "définir un cours préalable"
 
 #: cms/templates/settings.html:648
 msgid "Require students to pass an exam before beginning the course."
-msgstr "Demande que les étudiants passent un examen avant le début du cours."
+msgstr "Demande que les apprenants passent un examen avant le début du cours."
 
 #: cms/templates/settings.html:652
 #, python-brace-format
@@ -18816,7 +18816,7 @@ msgid ""
 "The score student must meet in order to successfully complete the entrance "
 "exam. "
 msgstr ""
-"La note de passage que les étudiants doivent obtenir afin de compléter avec "
+"La note de passage que les apprenants doivent obtenir afin de compléter avec "
 "succès l'examen d'entrée."
 
 #: cms/templates/settings.html:672
@@ -18842,7 +18842,7 @@ msgid ""
 "Your course's schedule determines when students can enroll in and begin a "
 "course."
 msgstr ""
-"La planification de votre cours détermine quand les étudiants peuvent "
+"La planification de votre cours détermine quand les apprenants peuvent "
 "s’inscrire et débuter le cours."
 
 #: cms/templates/settings.html:693
@@ -18855,7 +18855,7 @@ msgstr ""
 "D'autres informations provenant de cette page apparaissent sur la page \"À "
 "propos\" de votre cours. Ces informations comprennent un aperçu de votre "
 "cours, l'image du cours, la vidéo d'introduction, le temps de travail estimé"
-" ainsi que les pré-requis. Les étudiants utilisent les pages \"À propos\" "
+" ainsi que les pré-requis. Les apprenants utilisent les pages \"À propos\" "
 "pour choisir de nouveaux cours à suivre."
 
 #: cms/templates/settings_advanced.html:46
@@ -18950,7 +18950,7 @@ msgstr "Plage d'évaluation globale"
 
 #: cms/templates/settings_graders.html:62
 msgid "Your overall grading scale for student final grades"
-msgstr "Votre échelle globale d'évaluation des notes finales des étudiants"
+msgstr "Votre échelle globale d'évaluation des notes finales des apprenants"
 
 #: cms/templates/settings_graders.html:68
 msgid "Add grade"
@@ -18980,7 +18980,7 @@ msgstr "Règles et politiques de notation"
 msgid "Deadlines, requirements, and logistics around grading student work"
 msgstr ""
 "Dates limites, exigences et logistique autour de la notation du travail des "
-"étudiants"
+"apprenants"
 
 #: cms/templates/settings_graders.html:121
 msgid "Grace Period on Deadline:"
@@ -19021,7 +19021,7 @@ msgid ""
 "You can specify whether your course offers students a grace period for late "
 "assignments."
 msgstr ""
-"Vous pouvez spécifier si votre cours peut offrir aux étudiants une période "
+"Vous pouvez spécifier si votre cours peut offrir aux apprenants une période "
 "de grâce pour les devoirs en retard."
 
 #: cms/templates/settings_graders.html:154
@@ -19083,9 +19083,9 @@ msgid ""
 "information."
 msgstr ""
 "Diviser votre manuel en plusieurs chapitres réduit le temps de chargement "
-"pour les étudiants, et en particulier pour ceux ayant une connexion internet"
+"pour les apprenants, et en particulier pour ceux ayant une connexion internet"
 " lente. La division du manuel en chapitres peut également aider les "
-"étudiants à trouver plus facilement des informations sur un sujet donné."
+"apprenants à trouver plus facilement des informations sur un sujet donné."
 
 #: cms/templates/textbooks.html:94
 msgid "What if my book isn't divided into chapters?"
@@ -19903,7 +19903,7 @@ msgstr "Ne pas s'inscrire"
 
 #: lms/templates/enroll_students.html:4
 msgid "Student Enrollment Form"
-msgstr "Formulaire d'Inscription Étudiant"
+msgstr "Formulaire d'Inscription Apprenant"
 
 #: lms/templates/enroll_students.html:6
 msgid "Course: "
@@ -19911,19 +19911,19 @@ msgstr "Cours :"
 
 #: lms/templates/enroll_students.html:10
 msgid "Add new students"
-msgstr "Ajouter des nouveaux étudiants"
+msgstr "Ajouter des nouveaux apprenants"
 
 #: lms/templates/enroll_students.html:16
 msgid "Existing students:"
-msgstr "Étudiants existants :"
+msgstr "Apprenants existants :"
 
 #: lms/templates/enroll_students.html:20
 msgid "New students added: "
-msgstr "Nouveaux étudiants ajoutés :"
+msgstr "Nouveaux apprenants ajoutés :"
 
 #: lms/templates/enroll_students.html:23
 msgid "Students rejected: "
-msgstr "Étudiants rejetés :"
+msgstr "Apprenants rejetés :"
 
 #: lms/templates/enroll_students.html:26
 msgid "Debug: "
@@ -20097,7 +20097,7 @@ msgstr "Cliquer pour commencer"
 
 #: lms/templates/manage_user_standing.html:10
 msgid "Manage student accounts"
-msgstr "Gérer les comptes des étudiants"
+msgstr "Gérer les comptes des apprenants"
 
 #: lms/templates/manage_user_standing.html:12
 msgid "Username:"
@@ -20137,7 +20137,7 @@ msgstr "Retirer l'image de profil"
 
 #: lms/templates/manage_user_standing.html:43
 msgid "Students whose accounts have been disabled"
-msgstr "Étudiants dont les comptes ont été désactivés"
+msgstr "Apprenants dont les comptes ont été désactivés"
 
 #: lms/templates/manage_user_standing.html:44
 msgid "(reload your page to refresh)"
@@ -20518,18 +20518,18 @@ msgstr "Note (pour remplacer seulement)"
 
 #: lms/templates/staff_problem_info.html:81
 msgid "Reset Learner's Attempts to Zero"
-msgstr "Réinitialiser les essais de l'étudiant à zéro"
+msgstr "Réinitialiser les essais de l'apprenant à zéro"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:120
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
 #: lms/templates/staff_problem_info.html:84
 msgid "Delete Learner's State"
-msgstr "Supprimer le statut de l’étudiant"
+msgstr "Supprimer le statut de l’apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:93
 #: lms/templates/staff_problem_info.html:87
 msgid "Rescore Learner's Submission"
-msgstr "Réévaluer la soumission d'un étudiant"
+msgstr "Réévaluer la soumission d'un apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:94
 #: lms/templates/staff_problem_info.html:89
@@ -21918,7 +21918,7 @@ msgstr "Inscription Automatique"
 #: lms/templates/ccx/coach_dashboard.html:78
 #: lms/templates/ccx/student_admin.html:5
 msgid "Student Grades"
-msgstr "Notes des étudiants"
+msgstr "Notes des apprenants"
 
 #: lms/templates/ccx/coach_dashboard.html:154
 msgid "Please enter a valid CCX name."
@@ -22008,12 +22008,12 @@ msgstr "S'inscrire"
 
 #: lms/templates/ccx/enrollment.html:71
 msgid "Student List Management"
-msgstr "Gestion de la liste des étudiants"
+msgstr "Gestion de la liste des apprenants"
 
 #: lms/templates/ccx/enrollment.html:73
 msgid "CCX student list management response message"
 msgstr ""
-"Message de réponse de la gestion de la liste des étudiants du cours CCX"
+"Message de réponse de la gestion de la liste des apprenants du cours CCX"
 
 #: lms/templates/ccx/enrollment.html:85 lms/templates/ccx/enrollment.html:93
 msgid "Revoke access"
@@ -22135,7 +22135,7 @@ msgstr "Voir le carnet de notes"
 
 #: lms/templates/ccx/student_admin.html:7
 msgid "Download student grades"
-msgstr "Télécharger les notes des étudiants"
+msgstr "Télécharger les notes des apprenants"
 
 #: lms/templates/certificates/_accomplishment-banner.html:50
 msgid "Print or share your certificate:"
@@ -22547,7 +22547,7 @@ msgstr "Bulletin de notes"
 
 #: lms/templates/courseware/gradebook.html:51
 msgid "Search students"
-msgstr "Rechercher des étudiants"
+msgstr "Rechercher des apprenants"
 
 #: lms/templates/courseware/gradebook.html:91
 #: lms/templates/courseware/gradebook.html:116
@@ -23529,7 +23529,7 @@ msgstr "par maximum de votes"
 
 #: lms/templates/edxnotes/edxnotes.html:13
 msgid "Student Notes"
-msgstr "Notes de l'étudiant"
+msgstr "Notes de l'apprenant"
 
 #: lms/templates/edxnotes/edxnotes.html:28
 msgid "Highlights and notes you've made in course content"
@@ -23552,7 +23552,7 @@ msgid ""
 "You have not made any notes in this course yet. Other students in this "
 "course are using notes to:"
 msgstr ""
-"Vous n'avez pas encore pris de notes pour ce cours. Les autres étudiants de "
+"Vous n'avez pas encore pris de notes pour ce cours. Les autres apprenants de "
 "ce cours utilisent les notes pour :"
 
 #: lms/templates/edxnotes/edxnotes.html:75
@@ -23692,7 +23692,7 @@ msgid ""
 "template below."
 msgstr ""
 "Un fichier CSV contenant vos URL d'inscription est joint. Veuillez "
-"distribuer ces URL à chaque étudiant souhaitant s'inscrire en utilisant le "
+"distribuer ces URL à chaque apprenant souhaitant s'inscrire en utilisant le "
 "modèle d'e-mail ci-dessous."
 
 #. Translators: This is followed by the instructor or course team name (so
@@ -23761,7 +23761,7 @@ msgid ""
 "on your student dashboard at {url}"
 msgstr ""
 "(4) Vous devriez pouvoir cliquer sur le bouton 'voir les cours' ou voir "
-"votre cours sur votre tableau de bord d'étudiant sur {url}"
+"votre cours sur votre tableau de bord d'apprenant sur {url}"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:100
 msgid ""
@@ -23942,7 +23942,7 @@ msgid ""
 "{support_link}."
 msgstr ""
 "Si vous avez une question quelconque, vous pouvez contacter l'aide aux "
-"étudiants au {support_link}."
+"apprenants au {support_link}."
 
 #: lms/templates/emails/reverification_processed.txt:27
 msgid "Thanks,"
@@ -24186,16 +24186,16 @@ msgstr "Rafraîchir le statut"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:60
 msgid "Student-Generated Certificates"
-msgstr "Attestations auto-générées par les étudiants"
+msgstr "Attestations auto-générées par les apprenants"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:65
 msgid "Disable Student-Generated Certificates"
-msgstr "Désactiver les attestations auto-générées par les étudiants"
+msgstr "Désactiver les attestations auto-générées par les apprenants"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:71
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:77
 msgid "Enable Student-Generated Certificates"
-msgstr "Activer les attestations auto-générées par les étudiants"
+msgstr "Activer les attestations auto-générées par les apprenants"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:75
 msgid ""
@@ -24203,7 +24203,7 @@ msgid ""
 "student-generated certificates."
 msgstr ""
 "Vous devez générer avec succès les exemples d'attestations avant que vous "
-"puissiez activer les attestations auto-générées par les étudiants."
+"puissiez activer les attestations auto-générées par les apprenants."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:86
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:90
@@ -24328,7 +24328,7 @@ msgstr "Information d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:14
 msgid "Number of enrollees (admins, staff, and students) by track"
-msgstr "Nombre d'inscrits (admins, personnel, et étudiants) par mode"
+msgstr "Nombre d'inscrits (admins, personnel, et apprenants) par mode"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:19
 msgid "Audit"
@@ -24438,7 +24438,7 @@ msgid ""
 "The CSV of anonymized student IDs download has been relocated to the Reports"
 " section below."
 msgstr ""
-"Le fichier CSV du téléchargement des identifiants étudiants anonymes a été "
+"Le fichier CSV du téléchargement des identifiants apprenants anonymes a été "
 "déplacé dans la section Rapports ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:26
@@ -24473,7 +24473,7 @@ msgid ""
 "Click to generate a CSV file of all students enrolled in this course, along "
 "with profile information such as email address and username:"
 msgstr ""
-"Cliquer pour générer un fichier CSV de tous les étudiants inscrits au cours,"
+"Cliquer pour générer un fichier CSV de tous les apprenants inscrits au cours,"
 " avec leurs informations de profil comme l'adresse électronique et leur nom "
 "d'utilisateur :"
 
@@ -24497,11 +24497,11 @@ msgstr "Télécharger au format CSV une liste des apprenants pouvant s'inscrire"
 msgid "Click to download a CSV of anonymized student IDs:"
 msgstr ""
 "Cliquer pour télécharger un fichier CSV contenant les ID anonymisés des "
-"étudiants :"
+"apprenants :"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:45
 msgid "Get Student Anonymized IDs CSV"
-msgstr "Obtenir le CSV des IDs anonymes des étudiants"
+msgstr "Obtenir le CSV des IDs anonymes des apprenants"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:48
 msgid ""
@@ -24573,11 +24573,11 @@ msgid ""
 " directly on this page:"
 msgstr ""
 "Pour les petits cours, cliquer pour afficher directement sur cette page la "
-"liste des informations de profil des étudiants inscrits :"
+"liste des informations de profil des apprenants inscrits :"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:95
 msgid "List enrolled students' profile information"
-msgstr "Lister les informations de profil des étudiants inscrits"
+msgstr "Lister les informations de profil des apprenants inscrits"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:100
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/grading.html:25
@@ -24585,7 +24585,7 @@ msgid ""
 "Click to generate a CSV grade report for all currently enrolled students."
 msgstr ""
 "Cliquer pour générer un rapport de notes au format CSV pour tous les "
-"étudiants actuellement inscrits."
+"apprenants actuellement inscrits."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:102
 msgid "Generate Grade Report"
@@ -24652,7 +24652,7 @@ msgid ""
 "policies.{li_end}{ul_end}"
 msgstr ""
 "{strong_start} Note {strong_end}  : {ul_start} {li_start} Pour protéger les "
-"données des étudiants, vous ne pouvez pas enregistrer ou envoyer ces liens "
+"données des apprenants, vous ne pouvez pas enregistrer ou envoyer ces liens "
 "par courrier électronique pour un accès direct. Les copies des liens "
 "expirent dans les 5 minutes. {li_end} {li_start} Les fichiers de rapport "
 "sont supprimés 90 jours après leur génération. Si vous avez besoin d'accéder"
@@ -24729,7 +24729,7 @@ msgid ""
 " a particular student."
 msgstr ""
 "Dans cette section, vous pouvez accorder des extensions sur des sous-"
-"sections spécifiques à des étudiants individuels. Veuillez noter que la "
+"sections spécifiques à des apprenants individuels. Veuillez noter que la "
 "dernière date est toujours utilisée; vous ne pouvez pas utiliser cet outil "
 "pour effectuer une tâche due plus tôt pour un élève particulier."
 
@@ -24741,13 +24741,13 @@ msgid ""
 "Specify the {platform_name} email address or username of a student here:"
 msgstr ""
 "Spécifier l'adresse courriel {platform_name} ou le nom d'utilisateur d'un "
-"étudiant ici :"
+"apprenant ici :"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:17
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:72
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:95
 msgid "Student Email or Username"
-msgstr "Adresse courriel de l'étudiant ou nom d'utilisateur"
+msgstr "Adresse courriel de l'apprenant ou nom d'utilisateur"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:20
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:55
@@ -24772,7 +24772,7 @@ msgstr "Raison de l'extension"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:39
 msgid "Change due date for student"
-msgstr "Changer l'échéance pour l'étudiant"
+msgstr "Changer l'échéance pour l'apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:45
 msgid "Viewing granted extensions"
@@ -24792,22 +24792,22 @@ msgid ""
 "students who have extensions for the given subsection."
 msgstr ""
 "Choisissez une sous-section et cliquez sur le bouton pour obtenir une liste "
-"de tous les étudiants qui ont des extensions pour la sous-section donnée."
+"de tous les apprenants qui ont des extensions pour la sous-section donnée."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:63
 msgid "List all students with due date extensions"
 msgstr ""
-"Afficher tous les étudiants bénéficiant d'une prolongation de la date "
+"Afficher tous les apprenants bénéficiant d'une prolongation de la date "
 "d'échéance"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:67
 msgid "Specify a student to see all of that student's extensions."
 msgstr ""
-"Choisissez un étudiant pour voir toutes les extensions de cet étudiant."
+"Choisissez un apprenant pour voir toutes les extensions de cet apprenant."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:74
 msgid "List date extensions for student"
-msgstr "Afficher les prolongations d'échéance pour l'étudiant"
+msgstr "Afficher les prolongations d'échéance pour l'apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:86
 msgid "Resetting extensions"
@@ -24820,8 +24820,8 @@ msgid ""
 "back to the problem's original due date."
 msgstr ""
 "La réinitialisation de la date d'échéance d'un problème annule une extension"
-" de date d'échéance d'une sous-section particulière pour un étudiant. Cela "
-"ramènera la date d'échéance pour l'étudiant à la date d'échéance d'origine "
+" de date d'échéance d'une sous-section particulière pour un apprenant. Cela "
+"ramènera la date d'échéance pour l'apprenant à la date d'échéance d'origine "
 "du problème."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:105
@@ -24830,7 +24830,7 @@ msgstr "Raison de la réinitialisation"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:111
 msgid "Reset due date for student"
-msgstr "Remettre à zéro l'échéance pour l'étudiant"
+msgstr "Remettre à zéro l'échéance pour l'apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:7
 msgid "Generate Registration Code Modal"
@@ -24984,7 +24984,7 @@ msgstr ""
 msgid ""
 "Enter the reason why the students are to be manually enrolled or unenrolled."
 msgstr ""
-"Entrer la raison pour laquelle les étudiants seront inscrits ou désinscrits "
+"Entrer la raison pour laquelle les apprenants seront inscrits ou désinscrits "
 "manuellement."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:19
@@ -25009,7 +25009,7 @@ msgstr "Raison"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:64
 msgid "Register/Enroll Students"
-msgstr "Inscrire/Enregistrer des étudiants"
+msgstr "Inscrire/Enregistrer des apprenants"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:65
 msgid ""
@@ -25248,7 +25248,7 @@ msgid ""
 msgstr ""
 "Les coaches CCX peuvent créer leur propre cours personnalisés basés sur ce "
 "cours, qu'ils peuvent utiliser afin de fournir des instructions "
-"personnalisés à leurs propres étudiants et basés sur le matériel de ce "
+"personnalisés à leurs propres apprenants et basés sur le matériel de ce "
 "cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:306
@@ -25412,7 +25412,7 @@ msgstr "Section d'allocation"
 
 #: lms/templates/instructor/instructor_dashboard_2/special_exams.html:23
 msgid "Student Onboarding Status"
-msgstr "Statut d'intégration de l'étudiant"
+msgstr "Statut d'intégration de l'apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/special_exams.html:28
 msgid "Student Special Exam Attempts"
@@ -25437,7 +25437,7 @@ msgid ""
 "enrolled learners."
 msgstr ""
 "Remarque : Cette fonctionnalité est seulement disponible pour les cours avec"
-" de petits nombres d'étudiants inscrits."
+" de petits nombres d'apprenants inscrits."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:22
 msgid "View a specific learner's enrollment status"
@@ -25593,7 +25593,7 @@ msgstr "Ajuster les résultats de l'examen d'entrée d'un apprenant"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:147
 msgid "Allow the learner to take the exam again."
-msgstr "Permettre à l'étudiant de faire l'examen de nouveau."
+msgstr "Permettre à l'apprenant de faire l'examen de nouveau."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:152
 msgid "Allow Skip"
@@ -25602,11 +25602,11 @@ msgstr "Permettre d'outrepasser"
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:153
 msgid "Waive the requirement for the learner to take the exam."
 msgstr ""
-"Renoncer aux exigences afin de permettre à l'étudiant de faire l'examen."
+"Renoncer aux exigences afin de permettre à l'apprenant de faire l'examen."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:155
 msgid "Let Learner Skip Entrance Exam"
-msgstr "Laisser l'étudiant outrepasser l'examen d'entrée"
+msgstr "Laisser l'apprenant outrepasser l'examen d'entrée"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:161
 msgid ""
@@ -25656,7 +25656,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:210
 msgid "Allows all learners to work on the problem again."
-msgstr "Permettre aux étudiants de travailler sur le problème de nouveau."
+msgstr "Permettre aux apprenants de travailler sur le problème de nouveau."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:216
 msgid ""
@@ -25669,7 +25669,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:219
 msgid "Rescore All Learners' Submissions"
-msgstr "Réévaluer toutes les soumissions des étudiants"
+msgstr "Réévaluer toutes les soumissions des apprenants"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:220
 msgid "Rescore Only If Scores Improve"
@@ -25711,7 +25711,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:78
 msgid "Click to download a CSV of                 anonymized student IDs:"
 msgstr ""
-"Cliquez pour télécharger un fichier CSV d'identifiants étudiants anonymisés "
+"Cliquez pour télécharger un fichier CSV d'identifiants apprenants anonymisés "
 ":"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:81
@@ -25745,7 +25745,7 @@ msgid ""
 "enrolled students directly on this page:"
 msgstr ""
 "Pour les cours plus petits, cliquez pour afficher les informations de profil"
-" des étudiants inscrits directement sur cette page :"
+" des apprenants inscrits directement sur cette page :"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:95
 msgid ""
@@ -25753,7 +25753,7 @@ msgid ""
 "this course, along with profile information such as email address and"
 "                 username:"
 msgstr ""
-"Cliquez pour générer un fichier CSV de tous les étudiants inscrits à ce "
+"Cliquez pour générer un fichier CSV de tous les apprenants inscrits à ce "
 "cours, ainsi que des informations de profil telles que l'adresse courriel et"
 " le nom d'utilisateur :"
 
@@ -25785,7 +25785,7 @@ msgid ""
 "Click to generate a CSV                 ORA grade report for all currently "
 "enrolled students."
 msgstr ""
-"Cliquez pour générer un rapport de notation CSV ORA pour tous les étudiants "
+"Cliquez pour générer un rapport de notation CSV ORA pour tous les apprenants "
 "actuellement inscrits."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:112
@@ -25794,7 +25794,7 @@ msgid ""
 "currently enrolled students."
 msgstr ""
 "Cliquez pour générer un rapport de notation du problème CSV pour tous les "
-"étudiants actuellement inscrits."
+"apprenants actuellement inscrits."
 
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
 msgid "My Courses"
@@ -25939,7 +25939,7 @@ msgstr "Cacher la question"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:33
 msgid "Student Response"
-msgstr "Réponse de l'étudiant"
+msgstr "Réponse de l'apprenant"
 
 #: lms/templates/peer_grading/peer_grading_problem.html:47
 msgid "Written Feedback"
@@ -26194,11 +26194,11 @@ msgstr "Se connecter ou s'inscrire"
 #: lms/templates/support/certificates.html:21
 #: lms/templates/support/index.html:12 lms/templates/support/index.html:17
 msgid "Student Support"
-msgstr "Aide aux étudiants"
+msgstr "Aide aux apprenants"
 
 #: lms/templates/support/certificates.html:26
 msgid "Student Support: Certificates"
-msgstr "Aide aux étudiants : attestations"
+msgstr "Aide aux apprenants : attestations"
 
 #: lms/templates/support/contact_us.html:16
 #, python-brace-format
@@ -26207,11 +26207,11 @@ msgstr "Contactez le support {platform_name}"
 
 #: lms/templates/support/enrollment.html:27
 msgid "Student Support: Enrollment"
-msgstr "Aide aux étudiants : Inscriptions"
+msgstr "Aide aux apprenants : Inscriptions"
 
 #: lms/templates/support/feature_based_enrollments.html:16
 msgid "Student Support: Feature Based Enrollments"
-msgstr "Soutien aux étudiants : Inscriptions basées sur les fonctionnalités"
+msgstr "Soutien aux apprenants : Inscriptions basées sur les fonctionnalités"
 
 #: lms/templates/support/feature_based_enrollments.html:33
 msgid "Content Type Gating"
@@ -26232,7 +26232,7 @@ msgstr "Aucun résultat trouvé"
 
 #: lms/templates/support/manage_user.html:28
 msgid "Student Support: Manage User"
-msgstr "Aide aux étudiants : Gérer utilisateur"
+msgstr "Aide aux apprenants : Gérer utilisateur"
 
 #: lms/templates/support/program_enrollments_inspector.html:19
 msgid "Program Enrollments Inspector"
@@ -26277,7 +26277,7 @@ msgid ""
 "we can make your course experience."
 msgstr ""
 "Nous utilisons les informations fournies pour améliorer nos cours pour les "
-"actuels étudiants et à venir. Le plus nous en savons sur vos besoins "
+"actuels apprenants et à venir. Le plus nous en savons sur vos besoins "
 "particuliers, le mieux nous pouvons améliorer votre expérience des cours."
 
 #: lms/templates/survey/survey.html:65

@@ -70,7 +70,7 @@ msgid ""
 "Enter the name that students see for this component. Analytics reports may "
 "also use the display name to identify this component."
 msgstr ""
-"Saisissez le nom que les étudiants voient pour ce composant. Les rapports "
+"Saisissez le nom que les apprenants voient pour ce composant. Les rapports "
 "d'analytiques peuvent également utiliser le nom d'affichage pour identifier "
 "ce composant."
 
@@ -690,7 +690,7 @@ msgid ""
 "Students don't have permissions to perform LTI Deep Linking configuration "
 "launches."
 msgstr ""
-"Les étudiants ne disposent pas des autorisations nécessaires pour effectuer "
+"Les apprenants ne disposent pas des autorisations nécessaires pour effectuer "
 "des configurations de lancement LTI Deep Linking."
 
 #: templates/html/lti_1p3_studio.html:3

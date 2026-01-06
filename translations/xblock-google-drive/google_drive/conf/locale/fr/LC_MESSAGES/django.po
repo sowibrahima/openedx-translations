@@ -52,7 +52,7 @@ msgid ""
 "The calendar view that students see by default. A student can change this "
 "view."
 msgstr ""
-"La vue du calendrier que les étudiants voient par défaut. Un étudiant peut "
+"La vue du calendrier que les apprenants voient par défaut. Un apprenant peut "
 "changer cette vision."
 
 #: google_docs.py:65 templates/html/google_docs_edit.html:28

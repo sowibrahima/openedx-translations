@@ -120,7 +120,7 @@ msgstr "Merci pour votre commentaire !"
 
 #: feedback.py:130
 msgid "Show aggregate to students"
-msgstr "Afficher le résumé aux étudiants"
+msgstr "Afficher le résumé aux apprenants"
 
 #: feedback.py:159
 msgid "Please reflect on this course material"
@@ -184,8 +184,8 @@ msgid ""
 "This may be helpful either for course improvement, or to give students a "
 "chance to reflect on what they have done."
 msgstr ""
-"Ce XBlock vous permet de recueillir les commentaires des étudiants sur des parties du cours. "
-"Cela peut être utile soit pour l'amélioration du cours, soit pour donner aux étudiants une "
+"Ce XBlock vous permet de recueillir les commentaires des apprenants sur des parties du cours. "
+"Cela peut être utile soit pour l'amélioration du cours, soit pour donner aux apprenants une "
 "chance de réfléchir à ce qu'ils ont fait."
 
 #: templates/html/studio_view.html:9
@@ -206,7 +206,7 @@ msgstr "Le message à afficher après le commentaire de l'utilisateur."
 
 #: templates/html/studio_view.html:33
 msgid "Show aggregate report to students"
-msgstr "Afficher le rapport agrégé aux étudiants"
+msgstr "Afficher le rapport agrégé aux apprenants"
 
 #: templates/html/studio_view.html:35
 msgid "False"
@@ -230,7 +230,7 @@ msgstr "Texte de remplacement pour le champ libre"
 
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
-msgstr "Ceci est affiché en texte grisé avant que l'étudiant n'ait répondu."
+msgstr "Ceci est affiché en texte grisé avant que l'apprenant n'ait répondu."
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"

@@ -162,7 +162,7 @@
   "frontend-app-ora.XBlockView.DueDateMessage.responseDue": "{step} est dû le {dueDate}",
   "frontend-app-ora.XBlockView.DueDateMessage.responseWasDue": "{step} était dû le {dueDate}",
   "frontend-app-ora.XBlockView.DueDateMessage.selfAssessment": "Auto-évaluation",
-  "frontend-app-ora.XBlockView.DueDateMessage.studentAssessment": "Évaluation des étudiants",
+  "frontend-app-ora.XBlockView.DueDateMessage.studentAssessment": "Évaluation des apprenants",
   "frontend-app-ora.XBlockView.DueDateMessage.waitingForPeerGrades": "Vous attendez que vos pairs aient fini de noter votre travail.",
   "frontend-app-ora.XBlockView.DueDateMessage.yourResponse": "Votre réponse",
   "frontend-app-ora.XBlockView.DueDateMessage.yourSelfAssessment": "Votre auto-évaluation",

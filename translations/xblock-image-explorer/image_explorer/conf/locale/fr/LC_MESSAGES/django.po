@@ -38,7 +38,7 @@ msgstr "Coordonnées centrées des zones sensibles"
 
 #: image_explorer.py:72
 msgid "Store hotspots opened by student, for completion"
-msgstr "Conserve les zones sensibles ouvertes par l'étudiant, pour complétion"
+msgstr "Conserve les zones sensibles ouvertes par l'apprenant, pour complétion"
 
 #: image_explorer.py:77
 msgid "XML contents to display for this module"

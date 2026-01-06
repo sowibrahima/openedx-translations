@@ -24,7 +24,7 @@ msgstr ""
 
 #: done.py:39
 msgid "Is the student done?"
-msgstr "L'étudiant a-t-il terminé ?"
+msgstr "L'apprenant a-t-il terminé ?"
 
 #: done.py:45
 msgid "Align left/right/center"
@@ -87,9 +87,9 @@ msgid ""
 "completed and  which still need to be watched or read."
 msgstr ""
 "C'est un composant très simple sans options de configuration. Il est "
-"utilisé pour aider l'étudiant à suivre la partie d'un cours qu'il a "
+"utilisé pour aider l'apprenant à suivre la partie d'un cours qu'il a "
 "terminée. Par exemple, vous pouvez le placer sous chaque composant de texte et de vidéo, "
-"et les étudiants peuvent voir sur leur page de progression quelles parties sont "
+"et les apprenants peuvent voir sur leur page de progression quelles parties sont "
 "terminées et lesquelles doivent encore être regardées ou lues."
 
 #: templates/studioview.html:6
@@ -97,7 +97,7 @@ msgid ""
 "It is also helpful to give students a way to sign off on having completed "
 "something. They are less likely to skip material that way."
 msgstr ""
-"Il est également utile de donner aux étudiants un moyen de signifier qu'ils ont terminé "
+"Il est également utile de donner aux apprenants un moyen de signifier qu'ils ont terminé "
 "quelque chose. Ils sont moins susceptibles de sauter du matériel de cette façon."
 
 #: templates/studioview.html:8

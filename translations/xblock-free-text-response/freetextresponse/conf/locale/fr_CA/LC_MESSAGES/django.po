@@ -34,19 +34,19 @@ msgstr ""
 
 #: models.py:49
 msgid "Display Other Student Responses"
-msgstr "Afficher les réponses des autres étudiants"
+msgstr "Afficher les réponses des autres apprenants"
 
 #: models.py:51
 msgid ""
 "This will display other student responses to the student after they submit "
 "their response."
 msgstr ""
-"Cela affichera les réponses des autres étudiants à l’étudiant après qu’il "
+"Cela affichera les réponses des autres apprenants à l’apprenant après qu’il "
 "aura soumis sa réponse."
 
 #: models.py:60
 msgid "System selected answers to give to students"
-msgstr "Réponses sélectionnées par le système à donner aux étudiants"
+msgstr "Réponses sélectionnées par le système à donner aux apprenants"
 
 #: models.py:63
 msgid "Display Name"
@@ -89,7 +89,7 @@ msgid ""
 "This is the maximum number of times a student is allowed to attempt the "
 "problem"
 msgstr ""
-"C'est le nombre maximum de fois qu'un étudiant est autorisé à tenter le "
+"C'est le nombre maximum de fois qu'un apprenant est autorisé à tenter le "
 "problème"
 
 #: models.py:101
@@ -116,7 +116,7 @@ msgstr "Invite"
 msgid ""
 "This is the prompt students will see when asked to enter their response"
 msgstr ""
-"Il s’agit de l’invite que les étudiants verront lorsqu’on leur demandera de "
+"Il s’agit de l’invite que les apprenants verront lorsqu’on leur demandera de "
 "répondre."
 
 #: models.py:131
@@ -125,7 +125,7 @@ msgstr "Message de soumission reçue"
 
 #: models.py:133
 msgid "This is the message students will see upon submitting their response"
-msgstr "C'est le message que les étudiants verront en soumettant leur réponse"
+msgstr "C'est le message que les apprenants verront en soumettant leur réponse"
 
 #: models.py:140
 msgid "Weight"
@@ -142,7 +142,7 @@ msgstr "Message d'ébauche reçue"
 #: models.py:152
 msgid "This is the message students will see upon submitting a draft response"
 msgstr ""
-"C'est le message que les étudiants verront lors de la soumission d'une "
+"C'est le message que les apprenants verront lors de la soumission d'une "
 "ébauche de réponse"
 
 #: templates/view.html:15

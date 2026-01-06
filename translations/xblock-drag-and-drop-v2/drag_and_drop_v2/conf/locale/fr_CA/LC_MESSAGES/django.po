@@ -161,7 +161,7 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr ""
-"Définit le nombre de fois où un étudiant peut tenter de répondre à ce "
+"Définit le nombre de fois où un apprenant peut tenter de répondre à ce "
 "problème. Si cette valeur n'est pas définie, un nombre infini de tentatives "
 "est permis."
 
@@ -329,14 +329,14 @@ msgstr "Indique si un apprenant a complété le problème au moins une fois"
 msgid ""
 "DEPRECATED. Keeps maximum score achieved by student as a weighted value."
 msgstr ""
-"DÉCONSEILLÉ. Conserve le score maximum atteint par l'étudiant en tant que "
+"DÉCONSEILLÉ. Conserve le score maximum atteint par l'apprenant en tant que "
 "valeur pondérée."
 
 #: drag_and_drop_v2.py:237
 msgid ""
 "Keeps maximum score achieved by student as a raw value between 0 and 1."
 msgstr ""
-"Conserve le score maximum atteint par l'étudiant en tant que valeur brute "
+"Conserve le score maximum atteint par l'apprenant en tant que valeur brute "
 "entre 0 et 1."
 
 #: drag_and_drop_v2.py:244

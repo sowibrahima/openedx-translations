@@ -113,7 +113,7 @@ msgstr "ID de soumission"
 
 #: data.py:930
 msgid "Anonymized Student ID"
-msgstr "ID d'étudiant anonymisé"
+msgstr "ID d'apprenant anonymisé"
 
 #: data.py:961
 msgid "Assessment ID"
@@ -329,7 +329,7 @@ msgstr "Permettre les réponses en LaTeX"
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:97
 msgid "Specify whether learners can write LaTeX formatted strings"
 msgstr ""
-"Préciser si les étudiants peuvent écrire des chaînes de caractères formatées"
+"Préciser si les apprenants peuvent écrire des chaînes de caractères formatées"
 " en LaTeX"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:102
@@ -487,8 +487,8 @@ msgid ""
 "also receive feedback from others in their final grade. Often, though not "
 "always, this step is preceded by Self Assessment or Learner Training steps."
 msgstr ""
-"L'évaluation par les pairs permet aux étudiants de fournir des commentaires "
-"à d'autres étudiants et de recevoir également des commentaires des autres "
+"L'évaluation par les pairs permet aux apprenants de fournir des commentaires "
+"à d'autres apprenants et de recevoir également des commentaires des autres "
 "dans leur note finale. Souvent, mais pas toujours, cette étape est précédée "
 "par des étapes d'auto-évaluation ou de formation des apprenants."
 
@@ -499,8 +499,8 @@ msgid ""
 "student must grade. Additional options can be specified."
 msgstr ""
 "Configuration : Pour que cette étape soit configurée, vous devez spécifier "
-"le nombre d'évaluation par les pairs avec lesquels un étudiant sera évalué, "
-"et le nombre de pairs qu'un étudiant doit noter. Des options supplémentaires"
+"le nombre d'évaluation par les pairs avec lesquels un apprenant sera évalué, "
+"et le nombre de pairs qu'un apprenant doit noter. Des options supplémentaires"
 " peuvent être spécifiées."
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:23
@@ -716,7 +716,7 @@ msgstr "Horaire limite de rendu des réponses"
 #: templates/legacy/edit/oa_edit_schedule.html:87
 msgid "The date and time when learners can no longer submit responses."
 msgstr ""
-"La date et l'heure auxquels les étudiants ne peuvent plus soumettre les "
+"La date et l'heure auxquels les apprenants ne peuvent plus soumettre les "
 "réponses."
 
 #: templates/legacy/edit/oa_edit_self_assessment.html:8
@@ -756,7 +756,7 @@ msgid ""
 "Staff Assessment gates sets the final grade for students if enabled with "
 "other steps, though it can also be used as a standalone step."
 msgstr ""
-"Les évaluations du personnel définissent la note finale des étudiants si "
+"Les évaluations du personnel définissent la note finale des apprenants si "
 "elles sont activées avec d'autres étapes, bien qu'elles puissent également "
 "être utilisées en tant qu'étape autonome."
 
@@ -770,7 +770,7 @@ msgid ""
 "submission in order to train them on the rubric and ensure learner's "
 "understand the rubric for either Self or Peer Assessment steps."
 msgstr ""
-"La formation des apprenants est utilisée pour aider les étudiants à "
+"La formation des apprenants est utilisée pour aider les apprenants à "
 "s'exercer à noter une soumission par les pairs afin de les former sur la "
 "grille et de s'assurer que les apprenants comprennent la grille pour les "
 "étapes d'auto-évaluation ou d'évaluation par les pairs."
@@ -2228,7 +2228,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"Réponse de l'étudiant supprimée par %(removed_by_username)s le%(removed_datetime)s"
+"Réponse de l'apprenant supprimée par %(removed_by_username)s le%(removed_datetime)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:43
 #, python-format
@@ -2238,7 +2238,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"Réponse de l'étudiant supprimée le %(removed_datetime)s"
+"Réponse de l'apprenant supprimée le %(removed_datetime)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:50
 #, python-format
@@ -2326,9 +2326,9 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
-"La réponse de l'étudiant a été supprimée de la notation par les pairs. "
-"L'étudiant obtient une note nulle à moins de supprimer l'état de l'exercice "
-"pour l'étudiant afin de lui permettre de proposer une nouvelle réponse."
+"La réponse de l'apprenant a été supprimée de la notation par les pairs. "
+"L'apprenant obtient une note nulle à moins de supprimer l'état de l'exercice "
+"pour l'apprenant afin de lui permettre de proposer une nouvelle réponse."
 
 #: templates/legacy/staff_area/oa_student_info.html:172
 msgid ""
@@ -2562,7 +2562,7 @@ msgstr ""
 
 #: templates/legacy/student_training/student_training_error.html:18
 msgid "Error Loading Learner Training Examples"
-msgstr "Erreur lors du chargement des exemples d'entraînement des étudiants"
+msgstr "Erreur lors du chargement des exemples d'entraînement des apprenants"
 
 #: templates/legacy/student_training/student_training_error.html:21
 msgid "The Learner Training Step of this assignment could not be loaded."
@@ -2813,9 +2813,9 @@ msgid ""
 "receives a grade of zero unless you delete the learner's state for the "
 "problem to allow them to resubmit a response."
 msgstr ""
-"La réponse de l'étudiant a été supprimée de la notation par les pairs. "
-"L'étudiant obtient une note nulle à moins de supprimer l'état de l'exercice "
-"pour l'étudiant afin de lui permettre de proposer une nouvelle réponse."
+"La réponse de l'apprenant a été supprimée de la notation par les pairs. "
+"L'apprenant obtient une note nulle à moins de supprimer l'état de l'exercice "
+"pour l'apprenant afin de lui permettre de proposer une nouvelle réponse."
 
 #: xblock/staff_area_mixin.py:789
 msgid ""
@@ -3024,7 +3024,7 @@ msgstr ""
 #: xblock/utils/validation.py:369
 msgid "Leaderboard number is invalid."
 msgstr ""
-"Le numéro associé au tableau de classement des étudiants est invalide."
+"Le numéro associé au tableau de classement des apprenants est invalide."
 
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."

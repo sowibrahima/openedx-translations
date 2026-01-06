@@ -47,7 +47,7 @@ msgstr ""
 
 #: templates/edit.html:32
 msgid "Label for Student Answer"
-msgstr "Étiquette pour la réponse de l'étudiant"
+msgstr "Étiquette pour la réponse de l'apprenant"
 
 #: templates/edit.html:35
 msgid "Label for the text area containing the student's answer"
