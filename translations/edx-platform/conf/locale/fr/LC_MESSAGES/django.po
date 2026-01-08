@@ -28059,3 +28059,31 @@ msgstr "Mettez votre texte de droit d'auteur ici !"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Éditeur de code"
+
+#: themes/wutiskill-openedx-theme/themes/tenant1/lms/templates/course.html
+msgid "Certificate"
+msgstr "Certificat"
+
+#: themes/wutiskill-openedx-theme/themes/tenant1/lms/templates/course.html
+msgid "Learn more about"
+msgstr "En savoir plus sur"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Take your career to the"
+msgstr "Propulsez votre carrière vers le"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "next level"
+msgstr "niveau supérieur"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Welcome to"
+msgstr "Bienvenue sur"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Unlock your potential with our comprehensive learning platform. Master new skills, advance your career, and join thousands of successful learners."
+msgstr "Libérez votre potentiel avec notre plateforme d'apprentissage complète. Maîtrisez de nouvelles compétences, faites progresser votre carrière et rejoignez des milliers d'apprenants qui réussissent."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Header illustration"
+msgstr "Illustration d'en-tête"

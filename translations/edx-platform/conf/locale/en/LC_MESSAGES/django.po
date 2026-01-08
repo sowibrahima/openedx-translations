@@ -24141,3 +24141,31 @@ msgstr ""
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr ""
+
+#: themes/wutiskill-openedx-theme/themes/tenant1/lms/templates/course.html
+msgid "Certificate"
+msgstr ""
+
+#: themes/wutiskill-openedx-theme/themes/tenant1/lms/templates/course.html
+msgid "Learn more about"
+msgstr ""
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Take your career to the"
+msgstr ""
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "next level"
+msgstr ""
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Welcome to"
+msgstr ""
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Unlock your potential with our comprehensive learning platform. Master new skills, advance your career, and join thousands of successful learners."
+msgstr ""
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Header illustration"
+msgstr ""
