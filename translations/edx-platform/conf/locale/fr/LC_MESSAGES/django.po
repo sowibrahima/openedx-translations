@@ -20553,6 +20553,7 @@ msgid "Contextual Online Help"
 msgstr "Aide contextuelle en ligne"
 
 #: cms/templates/widgets/header.html:382
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
 msgid "Sign Up"
 msgstr "S'inscrire"
 
@@ -27096,6 +27097,7 @@ msgstr ""
 "pour devenir traducteur !{link_end}"
 
 #: lms/templates/navigation/navbar-not-authenticated.html:33
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
 msgid "Explore Courses"
 msgstr "Explorer les cours"
 
@@ -28113,10 +28115,6 @@ msgid "Browse our catalog of professional courses designed by industry experts a
 msgstr "Parcourez notre catalogue de cours professionnels conçus par des experts et trouvez le cours parfait pour vos objectifs."
 
 #: themes/wutiskill-openedx-theme/lms/templates/index.html
-msgid "Sign Up"
-msgstr "S'inscrire"
-
-#: themes/wutiskill-openedx-theme/lms/templates/index.html
 msgid "Create your free account in seconds and get immediate access to course materials and learning resources."
 msgstr "Créez votre compte gratuit en quelques secondes et accédez immédiatement aux supports de cours et aux ressources d'apprentissage."
 
@@ -28139,10 +28137,6 @@ msgstr "Offrant des opportunités d'apprentissage en ligne de premier ordre."
 #: themes/wutiskill-openedx-theme/lms/templates/index.html
 msgid "We provide world-class education accessible to everyone, everywhere. Our courses are designed to help you achieve your professional and personal goals."
 msgstr "Nous offrons une éducation de classe mondiale accessible à tous, partout. Nos cours sont conçus pour vous aider à atteindre vos objectifs professionnels et personnels."
-
-#: themes/wutiskill-openedx-theme/lms/templates/index.html
-msgid "Explore Courses"
-msgstr "Explorer les cours"
 
 #: themes/wutiskill-openedx-theme/lms/templates/index.html
 msgid "Premium Learning Experience"
