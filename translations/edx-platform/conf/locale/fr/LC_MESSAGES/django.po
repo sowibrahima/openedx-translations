@@ -28087,3 +28087,79 @@ msgstr "Libérez votre potentiel avec notre plateforme d'apprentissage complète
 #: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
 msgid "Header illustration"
 msgstr "Illustration d'en-tête"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Start learning"
+msgstr "Commencer à apprendre"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
+msgid "Browse courses"
+msgstr "Parcourir les cours"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Your Online Learning Journey Made Easy"
+msgstr "Votre parcours d'apprentissage en ligne simplifié"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Start your educational journey in three simple steps. Our platform guides you from discovery to mastery."
+msgstr "Commencez votre parcours éducatif en trois étapes simples. Notre plateforme vous guide de la découverte à la maîtrise."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Choose Your Course"
+msgstr "Choisissez votre cours"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Browse our catalog of professional courses designed by industry experts and find the perfect match for your goals."
+msgstr "Parcourez notre catalogue de cours professionnels conçus par des experts et trouvez le cours parfait pour vos objectifs."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Sign Up"
+msgstr "S'inscrire"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Create your free account in seconds and get immediate access to course materials and learning resources."
+msgstr "Créez votre compte gratuit en quelques secondes et accédez immédiatement aux supports de cours et aux ressources d'apprentissage."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Learn and Engage"
+msgstr "Apprendre et participer"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Dive into interactive lessons, connect with fellow learners, and earn certificates upon completion."
+msgstr "Plongez dans des leçons interactives, connectez-vous avec d'autres apprenants et obtenez des certificats à la fin."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Popular Courses"
+msgstr "Cours populaires"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Offering premier online learning opportunities."
+msgstr "Offrant des opportunités d'apprentissage en ligne de premier ordre."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "We provide world-class education accessible to everyone, everywhere. Our courses are designed to help you achieve your professional and personal goals."
+msgstr "Nous offrons une éducation de classe mondiale accessible à tous, partout. Nos cours sont conçus pour vous aider à atteindre vos objectifs professionnels et personnels."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Explore Courses"
+msgstr "Explorer les cours"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Premium Learning Experience"
+msgstr "Expérience d'apprentissage premium"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Access high-quality content created by industry professionals and leading educators."
+msgstr "Accédez à du contenu de haute qualité créé par des professionnels de l'industrie et des éducateurs de premier plan."
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Learn at Your Own Pace"
+msgstr "Apprenez à votre rythme"
+
+#: themes/wutiskill-openedx-theme/lms/templates/index.html
+msgid "Flexible schedules that fit your lifestyle. Study whenever and wherever works best for you."
+msgstr "Des horaires flexibles qui s'adaptent à votre mode de vie. Étudiez quand et où cela vous convient le mieux."
+
+#: themes/wutiskill-openedx-theme/lms/templates/courseware/courses.html
+msgid "Advance your career with professional courses designed for real-world application."
+msgstr "Faites progresser votre carrière avec des cours professionnels conçus pour une application concrète."
