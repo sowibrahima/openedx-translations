@@ -28157,3 +28157,20 @@ msgstr "Des horaires flexibles qui s'adaptent à votre mode de vie. Étudiez qua
 #: themes/wutiskill-openedx-theme/lms/templates/courseware/courses.html
 msgid "Advance your career with professional courses designed for real-world application."
 msgstr "Faites progresser votre carrière avec des cours professionnels conçus pour une application concrète."
+
+#: custom_certificates/cert.html
+msgid "of Achievement"
+msgstr "de Réussite"
+
+#: custom_certificates/cert.html
+msgid "This certificate is presented to"
+msgstr "Ce certificat est décerné à"
+
+#: custom_certificates/cert.html
+msgid "has successfully completed the course"
+msgstr "a suivi et validé la formation"
+
+#: custom_certificates/cert.html
+msgid "Signature"
+msgstr "Signature"
+

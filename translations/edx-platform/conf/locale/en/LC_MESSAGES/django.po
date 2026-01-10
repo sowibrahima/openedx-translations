@@ -24169,3 +24169,19 @@ msgstr ""
 #: themes/wutiskill-openedx-theme/lms/templates/index_overlay.html
 msgid "Header illustration"
 msgstr ""
+
+#: custom_certificates/cert.html
+msgid "of Achievement"
+msgstr ""
+
+#: custom_certificates/cert.html
+msgid "This certificate is presented to"
+msgstr ""
+
+#: custom_certificates/cert.html
+msgid "has successfully completed the course"
+msgstr ""
+
+#: custom_certificates/cert.html
+msgid "Signature"
+msgstr ""
