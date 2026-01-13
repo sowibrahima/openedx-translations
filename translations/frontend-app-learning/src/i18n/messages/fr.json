@@ -476,5 +476,14 @@
   "tours.weeklyGoalsCheckpoint.title": "Fixer un objectif de cours",
   "tray.close.button": "Fermer le bac",
   "unit.bookmark.button.add.bookmark": "Ajouter cette page à vos favoris",
-  "unit.bookmark.button.remove.bookmark": "Mis en signet"
+  "unit.bookmark.button.remove.bookmark": "Mis en signet",
+  "wutiskillAi.chat.title": "Assistant IA",
+  "wutiskillAi.chat.placeholder": "Posez-moi une question...",
+  "wutiskillAi.chat.welcome": "Je suis ici pour vous aider. Posez-moi n'importe quelle question !",
+  "wutiskillAi.chat.typing": "Réponse en cours...",
+  "wutiskillAi.chat.disclaimer": "L'IA peut faire des erreurs. Veuillez vérifier les informations importantes.",
+  "wutiskillAi.chat.send": "Envoyer le message",
+  "wutiskillAi.chat.open": "Ouvrir {title}",
+  "wutiskillAi.chat.close": "Fermer le chat",
+  "wutiskillAi.chat.error": "Quelque chose s'est mal passé. Veuillez réessayer."
 }
