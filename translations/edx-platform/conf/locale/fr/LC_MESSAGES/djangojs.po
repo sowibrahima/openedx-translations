@@ -58,7 +58,7 @@ msgstr "Erreur d'enregistrement OpenAssessment"
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
 msgid "Saving"
-msgstr "Économie"
+msgstr "Enregistrement"
 
 #: cms/static/js/base.js:113
 msgid "This link will open in a new browser window/tab"
