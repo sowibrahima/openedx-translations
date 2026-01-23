@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xblock-live-session 0.1\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2026-01-23 12:00+0000\n"
-"PO-Revision-Date: 2026-01-23 12:00+0000\n"
+"POT-Creation-Date: 2026-01-23 15:00+0000\n"
+"PO-Revision-Date: 2026-01-23 15:00+0000\n"
 "Last-Translator: WutiSkill Team <support@wutiskill.com>\n"
 "Language-Team: French <openedx-translation@googlegroups.com>\n"
 "Language: fr\n"
@@ -17,14 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#. ==========================================
 #. Tab labels
+#. ==========================================
 #: static/html/studio.html
 msgid "General"
 msgstr "Général"
 
 #: static/html/studio.html
 msgid "Schedule"
-msgstr "Planification"
+msgstr "Calendrier"
 
 #: static/html/studio.html
 msgid "Meeting"
@@ -38,26 +40,51 @@ msgstr "Accès"
 msgid "Notifications"
 msgstr "Notifications"
 
-#. Form labels and sections
+#. ==========================================
+#. General tab
+#. ==========================================
 #: static/html/studio.html
-msgid "Session Information"
-msgstr "Informations sur la session"
+msgid "Basic Information"
+msgstr "Informations de base"
 
 #: static/html/studio.html
 msgid "Display Name"
 msgstr "Nom d'affichage"
 
 #: static/html/studio.html
+msgid "Name shown to students in the course outline"
+msgstr "Nom affiché aux apprenants dans le plan du cours"
+
+#: static/html/studio.html
 msgid "Description"
 msgstr "Description"
+
+#: static/html/studio.html
+msgid "e.g., Weekly Office Hours"
+msgstr "ex. : Heures de bureau hebdomadaires"
+
+#: static/html/studio.html
+msgid "Brief description of what this session covers..."
+msgstr "Brève description du contenu de cette session..."
+
+#: static/html/studio.html
+msgid "Optional description displayed to students"
+msgstr "Description optionnelle affichée aux apprenants"
+
+#. ==========================================
+#. Schedule tab
+#. ==========================================
+#: static/html/studio.html
+msgid "Session Type"
+msgstr "Type de session"
 
 #: static/html/studio.html
 msgid "Schedule Type"
 msgstr "Type de planification"
 
 #: static/html/studio.html
-msgid "One-off Session"
-msgstr "Session unique"
+msgid "One-off Session (specific date)"
+msgstr "Session unique (date spécifique)"
 
 #: static/html/studio.html
 msgid "Weekly Recurring"
@@ -68,12 +95,56 @@ msgid "Session Date"
 msgstr "Date de la session"
 
 #: static/html/studio.html
+msgid "Date"
+msgstr "Date"
+
+#: static/html/studio.html
+msgid "Recurring Days"
+msgstr "Jours récurrents"
+
+#: static/html/studio.html
 msgid "Days of Week"
 msgstr "Jours de la semaine"
 
 #: static/html/studio.html
+msgid "Mon"
+msgstr "Lun"
+
+#: static/html/studio.html
+msgid "Tue"
+msgstr "Mar"
+
+#: static/html/studio.html
+msgid "Wed"
+msgstr "Mer"
+
+#: static/html/studio.html
+msgid "Thu"
+msgstr "Jeu"
+
+#: static/html/studio.html
+msgid "Fri"
+msgstr "Ven"
+
+#: static/html/studio.html
+msgid "Sat"
+msgstr "Sam"
+
+#: static/html/studio.html
+msgid "Sun"
+msgstr "Dim"
+
+#: static/html/studio.html
+msgid "Click to select one or more days"
+msgstr "Cliquez pour sélectionner un ou plusieurs jours"
+
+#: static/html/studio.html
 msgid "End Date"
 msgstr "Date de fin"
+
+#: static/html/studio.html
+msgid "Leave blank for indefinite recurrence"
+msgstr "Laissez vide pour une récurrence indéfinie"
 
 #: static/html/studio.html
 msgid "Time Settings"
@@ -92,13 +163,16 @@ msgid "Duration:"
 msgstr "Durée :"
 
 #: static/html/studio.html
-msgid "(max %(max)s min)"
-msgstr "(max %(max)s min)"
+#, python-brace-format
+msgid "(max {max} min)"
+msgstr "(max {max} min)"
 
+#. ==========================================
 #. Meeting tab
+#. ==========================================
 #: static/html/studio.html
 msgid "Meeting Features"
-msgstr "Fonctionnalités de la réunion"
+msgstr "Fonctionnalités de réunion"
 
 #: static/html/studio.html
 msgid "Enable Recording"
@@ -106,7 +180,7 @@ msgstr "Activer l'enregistrement"
 
 #: static/html/studio.html
 msgid "Record the session for later viewing by students who missed it"
-msgstr "Enregistrer la session pour un visionnage ultérieur par les apprenants absents"
+msgstr "Enregistrer la session pour que les apprenants absents puissent la visionner plus tard"
 
 #: static/html/studio.html
 msgid "Enable Waiting Room"
@@ -117,12 +191,16 @@ msgid "Require moderator approval before participants can join"
 msgstr "Exiger l'approbation du modérateur avant que les participants puissent rejoindre"
 
 #: static/html/studio.html
-msgid "Enable Webcams"
-msgstr "Activer les webcams"
+msgid "Allow Webcams"
+msgstr "Autoriser les webcams"
 
 #: static/html/studio.html
-msgid "Allow participants to share their camera"
-msgstr "Autoriser les participants à partager leur caméra"
+msgid "Allow participants to enable their webcams during the session"
+msgstr "Autoriser les participants à activer leurs webcams pendant la session"
+
+#: static/html/studio.html
+msgid "Capacity"
+msgstr "Capacité"
 
 #: static/html/studio.html
 msgid "Maximum Participants"
@@ -132,7 +210,9 @@ msgstr "Nombre maximum de participants"
 msgid "Maximum allowed by your organization"
 msgstr "Maximum autorisé par votre organisation"
 
+#. ==========================================
 #. Access tab
+#. ==========================================
 #: static/html/studio.html
 msgid "Join Window"
 msgstr "Fenêtre de connexion"
@@ -142,16 +222,24 @@ msgid "Early Access"
 msgstr "Accès anticipé"
 
 #: static/html/studio.html
-msgid "before session"
-msgstr "avant la session"
+msgid "minutes before"
+msgstr "minutes avant"
+
+#: static/html/studio.html
+msgid "How early students can join before the start time"
+msgstr "Combien de temps avant l'heure de début les apprenants peuvent rejoindre"
 
 #: static/html/studio.html
 msgid "Late Access"
 msgstr "Accès tardif"
 
 #: static/html/studio.html
-msgid "after session starts"
-msgstr "après le début de la session"
+msgid "minutes after"
+msgstr "minutes après"
+
+#: static/html/studio.html
+msgid "How late students can still join after the start time"
+msgstr "Combien de temps après l'heure de début les apprenants peuvent encore rejoindre"
 
 #: static/html/studio.html
 msgid "Access Window Preview"
@@ -159,32 +247,34 @@ msgstr "Aperçu de la fenêtre d'accès"
 
 #: static/html/studio.html
 msgid "Join opens"
-msgstr "L'accès s'ouvre"
+msgstr "Ouverture"
 
 #: static/html/studio.html
 msgid "Session starts"
-msgstr "La session commence"
+msgstr "Début de la session"
 
 #: static/html/studio.html
 msgid "Join closes"
-msgstr "L'accès se ferme"
+msgstr "Fermeture"
 
+#. ==========================================
 #. Notifications tab
-#: static/html/studio.html
-msgid "Email Notifications"
-msgstr "Notifications par e-mail"
-
+#. ==========================================
 #: static/html/studio.html
 msgid "Enable Email Notifications"
 msgstr "Activer les notifications par e-mail"
 
 #: static/html/studio.html
-msgid "Send reminder emails to enrolled students"
-msgstr "Envoyer des rappels par e-mail aux apprenants inscrits"
+msgid "Send email reminders to enrolled students before sessions"
+msgstr "Envoyer des rappels par e-mail aux apprenants inscrits avant les sessions"
 
 #: static/html/studio.html
-msgid "Reminder Times"
-msgstr "Heures de rappel"
+msgid "Reminder Schedule"
+msgstr "Calendrier des rappels"
+
+#: static/html/studio.html
+msgid "Send reminders at:"
+msgstr "Envoyer des rappels :"
 
 #: static/html/studio.html
 msgid "24 hours before"
@@ -194,7 +284,20 @@ msgstr "24 heures avant"
 msgid "1 hour before"
 msgstr "1 heure avant"
 
-#. JavaScript translations
+#. ==========================================
+#. Form actions
+#. ==========================================
+#: static/html/studio.html
+msgid "Cancel"
+msgstr "Annuler"
+
+#: static/html/studio.html
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. ==========================================
+#. JavaScript translations (data attributes)
+#. ==========================================
 #: static/html/studio.html
 msgid "Exceeds organization limit of"
 msgstr "Dépasse la limite de l'organisation de"
@@ -240,10 +343,6 @@ msgid "Saving..."
 msgstr "Enregistrement..."
 
 #: static/html/studio.html
-msgid "Save"
-msgstr "Enregistrer"
-
-#: static/html/studio.html
 msgid "Failed to save:"
 msgstr "Échec de l'enregistrement :"
 
@@ -259,45 +358,101 @@ msgstr "Erreur de connexion. Veuillez réessayer."
 msgid "Please fix the following errors:"
 msgstr "Veuillez corriger les erreurs suivantes :"
 
+#. ==========================================
 #. Python backend
+#. ==========================================
 #: live_session_xblock.py
+#, python-brace-format
 msgid "Session duration ({duration} min) exceeds your organization's maximum allowed duration ({max_duration} min). Please reduce the session length."
 msgstr "La durée de la session ({duration} min) dépasse la durée maximale autorisée par votre organisation ({max_duration} min). Veuillez réduire la durée de la session."
 
-#. Day names
-#: static/html/studio.html
-msgid "Mon"
-msgstr "Lun"
+#. ==========================================
+#. Student view
+#. ==========================================
+#: static/html/student.html
+msgid "Live Now"
+msgstr "En direct"
 
-#: static/html/studio.html
-msgid "Tue"
-msgstr "Mar"
+#: static/html/student.html
+msgid "The session is currently in progress."
+msgstr "La session est actuellement en cours."
 
-#: static/html/studio.html
-msgid "Wed"
-msgstr "Mer"
+#: static/html/student.html
+msgid "Join Session"
+msgstr "Rejoindre la session"
 
-#: static/html/studio.html
-msgid "Thu"
-msgstr "Jeu"
+#: static/html/student.html
+msgid "Upcoming Session"
+msgstr "Session à venir"
 
-#: static/html/studio.html
-msgid "Fri"
-msgstr "Ven"
+#: static/html/student.html
+msgid "min"
+msgstr "min"
 
-#: static/html/studio.html
-msgid "Sat"
-msgstr "Sam"
+#: static/html/student.html
+msgid "Starts in"
+msgstr "Commence dans"
 
-#: static/html/studio.html
-msgid "Sun"
-msgstr "Dim"
+#: static/html/student.html
+msgid "Access opens 10 minutes before the session starts."
+msgstr "L'accès s'ouvre 10 minutes avant le début de la session."
 
-#. Buttons
-#: static/html/studio.html
-msgid "Cancel"
-msgstr "Annuler"
+#: static/html/student.html
+msgid "Scheduled"
+msgstr "Planifiée"
 
-#: static/html/studio.html
-msgid "Save Settings"
-msgstr "Enregistrer les paramètres"
+#: static/html/student.html
+msgid "Next session:"
+msgstr "Prochaine session :"
+
+#: static/html/student.html
+msgid "Session Ended"
+msgstr "Session terminée"
+
+#: static/html/student.html
+msgid "This session has concluded."
+msgstr "Cette session est terminée."
+
+#: static/html/student.html
+msgid "Watch Recording"
+msgstr "Voir l'enregistrement"
+
+#: static/html/student.html
+msgid "No Upcoming Sessions"
+msgstr "Aucune session à venir"
+
+#: static/html/student.html
+msgid "Check back later for schedule updates."
+msgstr "Revenez plus tard pour les mises à jour du calendrier."
+
+#: static/html/student.html
+msgid "Recording enabled"
+msgstr "Enregistrement activé"
+
+#: static/html/student.html
+msgid "Your timezone"
+msgstr "Votre fuseau horaire"
+
+#: static/html/student.html
+msgid "Instructor Controls"
+msgstr "Contrôles de l'instructeur"
+
+#: static/html/student.html
+msgid "End Meeting"
+msgstr "Terminer la réunion"
+
+#: static/html/student.html
+msgid "Start Meeting"
+msgstr "Démarrer la réunion"
+
+#: static/html/student.html
+msgid "Join as Moderator"
+msgstr "Rejoindre en tant que modérateur"
+
+#: static/html/student.html
+msgid "As an instructor, you can join anytime."
+msgstr "En tant qu'instructeur, vous pouvez rejoindre à tout moment."
+
+#: static/html/student.html
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
