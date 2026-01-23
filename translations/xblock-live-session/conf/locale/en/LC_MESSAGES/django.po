@@ -1,0 +1,302 @@
+# Live Session XBlock translation file.
+# Copyright (C) 2026 WutiSkill
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# WutiSkill Team <support@wutiskill.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-live-session 0.1\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2026-01-23 12:00+0000\n"
+"PO-Revision-Date: 2026-01-23 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: English <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tab labels
+#: static/html/studio.html
+msgid "General"
+msgstr "General"
+
+#: static/html/studio.html
+msgid "Schedule"
+msgstr "Schedule"
+
+#: static/html/studio.html
+msgid "Meeting"
+msgstr "Meeting"
+
+#: static/html/studio.html
+msgid "Access"
+msgstr "Access"
+
+#: static/html/studio.html
+msgid "Notifications"
+msgstr "Notifications"
+
+#. Form labels and sections
+#: static/html/studio.html
+msgid "Session Information"
+msgstr "Session Information"
+
+#: static/html/studio.html
+msgid "Display Name"
+msgstr "Display Name"
+
+#: static/html/studio.html
+msgid "Description"
+msgstr "Description"
+
+#: static/html/studio.html
+msgid "Schedule Type"
+msgstr "Schedule Type"
+
+#: static/html/studio.html
+msgid "One-off Session"
+msgstr "One-off Session"
+
+#: static/html/studio.html
+msgid "Weekly Recurring"
+msgstr "Weekly Recurring"
+
+#: static/html/studio.html
+msgid "Session Date"
+msgstr "Session Date"
+
+#: static/html/studio.html
+msgid "Days of Week"
+msgstr "Days of Week"
+
+#: static/html/studio.html
+msgid "End Date"
+msgstr "End Date"
+
+#: static/html/studio.html
+msgid "Time Settings"
+msgstr "Time Settings"
+
+#: static/html/studio.html
+msgid "Start Time"
+msgstr "Start Time"
+
+#: static/html/studio.html
+msgid "End Time"
+msgstr "End Time"
+
+#: static/html/studio.html
+msgid "Duration:"
+msgstr "Duration:"
+
+#: static/html/studio.html
+msgid "(max %(max)s min)"
+msgstr "(max %(max)s min)"
+
+#. Meeting tab
+#: static/html/studio.html
+msgid "Meeting Features"
+msgstr "Meeting Features"
+
+#: static/html/studio.html
+msgid "Enable Recording"
+msgstr "Enable Recording"
+
+#: static/html/studio.html
+msgid "Record the session for later viewing by students who missed it"
+msgstr "Record the session for later viewing by students who missed it"
+
+#: static/html/studio.html
+msgid "Enable Waiting Room"
+msgstr "Enable Waiting Room"
+
+#: static/html/studio.html
+msgid "Require moderator approval before participants can join"
+msgstr "Require moderator approval before participants can join"
+
+#: static/html/studio.html
+msgid "Enable Webcams"
+msgstr "Enable Webcams"
+
+#: static/html/studio.html
+msgid "Allow participants to share their camera"
+msgstr "Allow participants to share their camera"
+
+#: static/html/studio.html
+msgid "Maximum Participants"
+msgstr "Maximum Participants"
+
+#: static/html/studio.html
+msgid "Maximum allowed by your organization"
+msgstr "Maximum allowed by your organization"
+
+#. Access tab
+#: static/html/studio.html
+msgid "Join Window"
+msgstr "Join Window"
+
+#: static/html/studio.html
+msgid "Early Access"
+msgstr "Early Access"
+
+#: static/html/studio.html
+msgid "before session"
+msgstr "before session"
+
+#: static/html/studio.html
+msgid "Late Access"
+msgstr "Late Access"
+
+#: static/html/studio.html
+msgid "after session starts"
+msgstr "after session starts"
+
+#: static/html/studio.html
+msgid "Access Window Preview"
+msgstr "Access Window Preview"
+
+#: static/html/studio.html
+msgid "Join opens"
+msgstr "Join opens"
+
+#: static/html/studio.html
+msgid "Session starts"
+msgstr "Session starts"
+
+#: static/html/studio.html
+msgid "Join closes"
+msgstr "Join closes"
+
+#. Notifications tab
+#: static/html/studio.html
+msgid "Email Notifications"
+msgstr "Email Notifications"
+
+#: static/html/studio.html
+msgid "Enable Email Notifications"
+msgstr "Enable Email Notifications"
+
+#: static/html/studio.html
+msgid "Send reminder emails to enrolled students"
+msgstr "Send reminder emails to enrolled students"
+
+#: static/html/studio.html
+msgid "Reminder Times"
+msgstr "Reminder Times"
+
+#: static/html/studio.html
+msgid "24 hours before"
+msgstr "24 hours before"
+
+#: static/html/studio.html
+msgid "1 hour before"
+msgstr "1 hour before"
+
+#. JavaScript translations
+#: static/html/studio.html
+msgid "Exceeds organization limit of"
+msgstr "Exceeds organization limit of"
+
+#: static/html/studio.html
+msgid "minutes"
+msgstr "minutes"
+
+#: static/html/studio.html
+msgid "hour"
+msgstr "hour"
+
+#: static/html/studio.html
+msgid "hours"
+msgstr "hours"
+
+#: static/html/studio.html
+msgid "Display name is required"
+msgstr "Display name is required"
+
+#: static/html/studio.html
+msgid "Start time is required"
+msgstr "Start time is required"
+
+#: static/html/studio.html
+msgid "Session date is required for one-off sessions"
+msgstr "Session date is required for one-off sessions"
+
+#: static/html/studio.html
+msgid "At least one day of week is required for recurring sessions"
+msgstr "At least one day of week is required for recurring sessions"
+
+#: static/html/studio.html
+msgid "Duration must be between 15 minutes and 24 hours"
+msgstr "Duration must be between 15 minutes and 24 hours"
+
+#: static/html/studio.html
+msgid "Session duration exceeds your organization maximum allowed duration"
+msgstr "Session duration exceeds your organization maximum allowed duration"
+
+#: static/html/studio.html
+msgid "Saving..."
+msgstr "Saving..."
+
+#: static/html/studio.html
+msgid "Save"
+msgstr "Save"
+
+#: static/html/studio.html
+msgid "Failed to save:"
+msgstr "Failed to save:"
+
+#: static/html/studio.html
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#: static/html/studio.html
+msgid "Connection error. Please try again."
+msgstr "Connection error. Please try again."
+
+#: static/html/studio.html
+msgid "Please fix the following errors:"
+msgstr "Please fix the following errors:"
+
+#. Python backend
+#: live_session_xblock.py
+msgid "Session duration ({duration} min) exceeds your organization's maximum allowed duration ({max_duration} min). Please reduce the session length."
+msgstr "Session duration ({duration} min) exceeds your organization's maximum allowed duration ({max_duration} min). Please reduce the session length."
+
+#. Day names
+#: static/html/studio.html
+msgid "Mon"
+msgstr "Mon"
+
+#: static/html/studio.html
+msgid "Tue"
+msgstr "Tue"
+
+#: static/html/studio.html
+msgid "Wed"
+msgstr "Wed"
+
+#: static/html/studio.html
+msgid "Thu"
+msgstr "Thu"
+
+#: static/html/studio.html
+msgid "Fri"
+msgstr "Fri"
+
+#: static/html/studio.html
+msgid "Sat"
+msgstr "Sat"
+
+#: static/html/studio.html
+msgid "Sun"
+msgstr "Sun"
+
+#. Buttons
+#: static/html/studio.html
+msgid "Cancel"
+msgstr "Cancel"
+
+#: static/html/studio.html
+msgid "Save Settings"
+msgstr "Save Settings"
