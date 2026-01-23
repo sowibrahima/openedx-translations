@@ -13355,9 +13355,9 @@ msgid ""
 msgstr ""
 "Définit les autorisations d'accès pour afficher le cours dans le catalogue "
 "de cours. Cela peut être défini sur l'une des trois valeurs suivantes : "
-"\"les deux\" (afficher dans le catalogue et autoriser l'accès à la page à "
-"propos), \"à propos\" (autoriser uniquement l'accès à la page à propos), "
-"\"aucun\" (ne pas afficher dans le catalogue et ne pas autoriser l'accès à "
+"'both' (afficher dans le catalogue et autoriser l'accès à la page à "
+"propos), 'about' (autoriser uniquement l'accès à la page à propos), "
+"'none' (ne pas afficher dans le catalogue et ne pas autoriser l'accès à "
 "une page à propos)."
 
 #: xmodule/course_block.py:793
