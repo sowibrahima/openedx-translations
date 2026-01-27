@@ -831,10 +831,6 @@ msgstr "Activer BBB pour ce cours"
 msgid "Allow virtual classrooms and recordings for this course"
 msgstr "Autoriser les classes virtuelles et enregistrements pour ce cours"
 
-#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:186
-msgid "Maximum participants"
-msgstr "Participants maximum"
-
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:190
 msgid "Maximum number of allowed participants"
 msgstr "Nombre maximum de participants autorisés"
@@ -950,10 +946,6 @@ msgstr "La réunion est prête. Cliquez sur Rejoindre pour commencer."
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:295
 msgid "Join meeting"
 msgstr "Rejoindre la réunion"
-
-#: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:296
-msgid "End meeting"
-msgstr "Terminer la réunion"
 
 #: wutiskill_bbb/templates/wutiskill_bbb/meeting_widget.html:297
 msgid "No meeting is currently in progress."
@@ -2397,7 +2389,7 @@ msgstr "Un pseudo de configuration."
 #: common/djangoapps/third_party_auth/templates/third_party_auth/post_custom_auth_entry.html:5
 #: lms/templates/student_account/finish_auth.html:16
 msgid "Please wait"
-msgstr "S'il vous plaît, attendez"
+msgstr "Veuillez patienter"
 
 #. Translators: the translation for "LONG_DATE_FORMAT" must be a format
 #. string for formatting dates in a long form.  For example, the
@@ -2436,7 +2428,7 @@ msgstr "TIME_FORMAT"
 #: common/djangoapps/util/date_utils.py:263
 msgctxt "am/pm indicator"
 msgid "AM"
-msgstr "SUIS"
+msgstr "AM"
 
 #. Translators: This is an AM/PM indicator for displaying times.  It is
 #. used for the %p directive in date-time formats. See http://strftime.org
@@ -2444,7 +2436,7 @@ msgstr "SUIS"
 #: common/djangoapps/util/date_utils.py:267
 msgctxt "am/pm indicator"
 msgid "PM"
-msgstr "MP"
+msgstr "PM"
 
 #. Translators: this is a weekday name that will be used when displaying
 #. dates, as in "Monday Februrary 10, 2014". It is used for the %A
@@ -2524,7 +2516,7 @@ msgstr "Mar"
 #: common/djangoapps/util/date_utils.py:313
 msgctxt "abbreviated weekday name"
 msgid "Wed"
-msgstr "Épouser"
+msgstr "Mer"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Thu Feb 13, 2014". It is used for the %a
@@ -2548,7 +2540,7 @@ msgstr "Ven"
 #: common/djangoapps/util/date_utils.py:325
 msgctxt "abbreviated weekday name"
 msgid "Sat"
-msgstr "Assis"
+msgstr "Sam"
 
 #. Translators: this is an abbreviated weekday name that will be used when
 #. displaying dates, as in "Sun Feb 16, 2014". It is used for the %a
@@ -2556,7 +2548,7 @@ msgstr "Assis"
 #: common/djangoapps/util/date_utils.py:329
 msgctxt "abbreviated weekday name"
 msgid "Sun"
-msgstr "Soleil"
+msgstr "Dim"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jan 10, 2014". It is used for the %b
@@ -2596,7 +2588,7 @@ msgstr "Avr"
 #: common/djangoapps/util/date_utils.py:352
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr "Peut"
+msgstr "Mai"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jun 10, 2014". It is used for the %b
@@ -2604,7 +2596,7 @@ msgstr "Peut"
 #: common/djangoapps/util/date_utils.py:356
 msgctxt "abbreviated month name"
 msgid "Jun"
-msgstr "juin"
+msgstr "Jun"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Jul 10, 2014". It is used for the %b
@@ -2612,7 +2604,7 @@ msgstr "juin"
 #: common/djangoapps/util/date_utils.py:360
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr "Juillet"
+msgstr "Jul"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Aug 10, 2014". It is used for the %b
@@ -2620,7 +2612,7 @@ msgstr "Juillet"
 #: common/djangoapps/util/date_utils.py:364
 msgctxt "abbreviated month name"
 msgid "Aug"
-msgstr "Août"
+msgstr "Aoû"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Sep 10, 2014". It is used for the %b
@@ -2636,7 +2628,7 @@ msgstr "Sep"
 #: common/djangoapps/util/date_utils.py:372
 msgctxt "abbreviated month name"
 msgid "Oct"
-msgstr "Octobre"
+msgstr "Oct"
 
 #. Translators: this is an abbreviated month name that will be used when
 #. displaying dates, as in "Nov 10, 2014". It is used for the %b
@@ -2692,7 +2684,7 @@ msgstr "Avril"
 #: common/djangoapps/util/date_utils.py:403
 msgctxt "month name"
 msgid "May"
-msgstr "Peut"
+msgstr "Mai"
 
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "June 10, 2014". It is used for the %B directive in
@@ -28173,4 +28165,346 @@ msgstr "a suivi et validé la formation"
 #: custom_certificates/cert.html
 msgid "Signature"
 msgstr "Signature"
+
+# =============================================================================
+# LiveSession XBlock Translations
+# =============================================================================
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Meeting"
+msgstr "Réunion"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Access"
+msgstr "Accès"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Name shown to students in the course outline"
+msgstr "Nom affiché aux apprenants dans le plan du cours"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "e.g., Weekly Office Hours"
+msgstr "ex. : Heures de bureau hebdomadaires"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Brief description of what this session covers..."
+msgstr "Brève description du contenu de cette session..."
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Optional description displayed to students"
+msgstr "Description optionnelle affichée aux apprenants"
+
+# Studio view - Schedule tab
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Session Type"
+msgstr "Type de session"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Schedule Type"
+msgstr "Type de planification"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "One-off Session (specific date)"
+msgstr "Session unique (date spécifique)"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Weekly Recurring"
+msgstr "Récurrence hebdomadaire"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Session Date"
+msgstr "Date de la session"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Recurring Days"
+msgstr "Jours récurrents"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Days of Week"
+msgstr "Jours de la semaine"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Click to select one or more days"
+msgstr "Cliquez pour sélectionner un ou plusieurs jours"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "End Date"
+msgstr "Date de fin"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Leave blank for indefinite recurrence"
+msgstr "Laissez vide pour une récurrence indéfinie"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Time Settings"
+msgstr "Paramètres horaires"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Start Time"
+msgstr "Heure de début"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "End Time"
+msgstr "Heure de fin"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Duration:"
+msgstr "Durée :"
+
+# Studio view - Meeting tab
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Meeting Features"
+msgstr "Fonctionnalités de réunion"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Record the session for later viewing by students who missed it"
+msgstr "Enregistrer la session pour que les apprenants absents puissent la visionner plus tard"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Enable Waiting Room"
+msgstr "Activer la salle d'attente"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Require moderator approval before participants can join"
+msgstr "Exiger l'approbation du modérateur avant que les participants puissent rejoindre"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Allow Webcams"
+msgstr "Autoriser les webcams"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Allow participants to enable their webcams during the session"
+msgstr "Autoriser les participants à activer leurs webcams pendant la session"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Capacity"
+msgstr "Capacité"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Maximum Participants"
+msgstr "Nombre maximum de participants"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Maximum allowed by your organization"
+msgstr "Maximum autorisé par votre organisation"
+
+# Studio view - Access tab
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Join Window"
+msgstr "Fenêtre de connexion"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Early Access"
+msgstr "Accès anticipé"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "minutes before"
+msgstr "minutes avant"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "How early students can join before the start time"
+msgstr "Combien de temps avant l'heure de début les apprenants peuvent rejoindre"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Late Access"
+msgstr "Accès tardif"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "minutes after"
+msgstr "minutes après"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "How late students can still join after the start time"
+msgstr "Combien de temps après l'heure de début les apprenants peuvent encore rejoindre"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Access Window Preview"
+msgstr "Aperçu de la fenêtre d'accès"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Join opens"
+msgstr "Ouverture"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Session starts"
+msgstr "Début de la session"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Join closes"
+msgstr "Fermeture"
+
+# Studio view - Notifications tab
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Enable Email Notifications"
+msgstr "Activer les notifications par e-mail"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Send email reminders to enrolled students before sessions"
+msgstr "Envoyer des rappels par e-mail aux apprenants inscrits avant les sessions"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Reminder Schedule"
+msgstr "Calendrier des rappels"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Send reminders at:"
+msgstr "Envoyer des rappels :"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "24 hours before"
+msgstr "24 heures avant"
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "1 hour before"
+msgstr "1 heure avant"
+
+# JavaScript translations
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Exceeds organization limit of"
+msgstr "Dépasse la limite de l'organisation de"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "hour"
+msgstr "heure"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "hours"
+msgstr "heures"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Display name is required"
+msgstr "Le nom d'affichage est requis"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Start time is required"
+msgstr "L'heure de début est requise"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Session date is required for one-off sessions"
+msgstr "La date de session est requise pour les sessions uniques"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "At least one day of week is required for recurring sessions"
+msgstr "Au moins un jour de la semaine est requis pour les sessions récurrentes"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Duration must be between 15 minutes and 24 hours"
+msgstr "La durée doit être comprise entre 15 minutes et 24 heures"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Session duration exceeds your organization maximum allowed duration"
+msgstr "La durée de la session dépasse la durée maximale autorisée par votre organisation"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Saving..."
+msgstr "Enregistrement..."
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Failed to save:"
+msgstr "Échec de l'enregistrement :"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Connection error. Please try again."
+msgstr "Erreur de connexion. Veuillez réessayer."
+
+#: xblock-live-session/live_session/static/js/studio.js
+msgid "Please fix the following errors:"
+msgstr "Veuillez corriger les erreurs suivantes :"
+
+# Student view
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Live Now"
+msgstr "En direct"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "The session is currently in progress."
+msgstr "La session est actuellement en cours."
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Join Session"
+msgstr "Rejoindre la session"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Upcoming Session"
+msgstr "Session à venir"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "min"
+msgstr "min"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Starts in"
+msgstr "Commence dans"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Access opens 10 minutes before the session starts."
+msgstr "L'accès s'ouvre 10 minutes avant le début de la session."
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Scheduled"
+msgstr "Planifiée"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Next session:"
+msgstr "Prochaine session :"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Session Ended"
+msgstr "Session terminée"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "This session has concluded."
+msgstr "Cette session est terminée."
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Watch Recording"
+msgstr "Voir l'enregistrement"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "No Upcoming Sessions"
+msgstr "Aucune session à venir"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Check back later for schedule updates."
+msgstr "Revenez plus tard pour les mises à jour du calendrier."
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Recording enabled"
+msgstr "Enregistrement activé"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Your timezone"
+msgstr "Votre fuseau horaire"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Instructor Controls"
+msgstr "Contrôles de l'instructeur"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "End Meeting"
+msgstr "Terminer la réunion"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Start Meeting"
+msgstr "Démarrer la réunion"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Join as Moderator"
+msgstr "Rejoindre en tant que modérateur"
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "As an instructor, you can join anytime."
+msgstr "En tant qu'instructeur, vous pouvez rejoindre à tout moment."
+
+#: xblock-live-session/live_session/static/html/student.html
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
+
+#: xblock-live-session/live_session/static/html/studio.html
+msgid "Live Session"
+msgstr "Session en direct"
 
