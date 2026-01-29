@@ -28264,6 +28264,9 @@ msgstr "Enregistrer la session pour que les apprenants absents puissent la visio
 msgid "Enable Waiting Room"
 msgstr "Activer la salle d'attente"
 
+msgid "Enable Recording"
+msgstr "Activer l'enregistrement"
+
 #: xblock-live-session/live_session/static/html/studio.html
 msgid "Require moderator approval before participants can join"
 msgstr "Exiger l'approbation du modérateur avant que les participants puissent rejoindre"
