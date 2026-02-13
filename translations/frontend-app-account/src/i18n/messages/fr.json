@@ -122,7 +122,7 @@
     "account.settings.field.social.platform.name.facebook.empty": "Ajouter un profil Facebook",
     "account.settings.field.social.platform.name.linkedin": "LinkedIn",
     "account.settings.field.social.platform.name.linkedin.empty": "Ajouter un profil LinkedIn",
-    "account.settings.field.social.platform.name.twitter": "Gazouillement",
+    "account.settings.field.social.platform.name.twitter": "Twitter",
     "account.settings.field.social.platform.name.twitter.empty": "Ajouter un profil Twitter",
     "account.settings.field.state": "État",
     "account.settings.field.state.empty": "Ajouter un état",
@@ -328,7 +328,7 @@
     "notification.preference.help.push": "Pousser",
     "notification.preference.load.more.courses": "Charger plus de cours",
     "notification.preference.title": "{ text, select, core {Activity notifications} newDiscussionPost {New discussion posts} newQuestionPost {New question posts} contentRapporté {Reported content} coursMises à jour {Course updates} oraStaffNotifications {New ORA submission for staff grading} oraGradeAssigned {Essay assignment grade received} newInstructorAllLearnersPost {New posts from instructors} autre {{text}} }",
-    "notification.preference.type.label": "Taper",
+    "notification.preference.type.label": "Type",
     "notification.preference.web.label": "Web",
     "notification.preferences.notifications.label": "Notifications"
 }
