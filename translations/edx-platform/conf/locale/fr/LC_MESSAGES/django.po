@@ -1906,11 +1906,11 @@ msgstr ""
 
 #: common/djangoapps/student/models/user.py:463
 msgid "Male"
-msgstr "Mâle"
+msgstr "Homme"
 
 #: common/djangoapps/student/models/user.py:464
 msgid "Female"
-msgstr "Femelle"
+msgstr "Femme"
 
 #. Translators: 'Other' refers to the student's gender
 #: common/djangoapps/student/models/user.py:466
@@ -1927,7 +1927,7 @@ msgstr "Master ou diplôme professionnel"
 
 #: common/djangoapps/student/models/user.py:479
 msgid "Bachelor's degree"
-msgstr "licence"
+msgstr "Licence"
 
 #: common/djangoapps/student/models/user.py:480
 msgid "Associate degree"
@@ -1935,11 +1935,11 @@ msgstr "Diplôme d'associé"
 
 #: common/djangoapps/student/models/user.py:481
 msgid "Secondary/high school"
-msgstr "École secondaire/lycée"
+msgstr "Lycée"
 
 #: common/djangoapps/student/models/user.py:482
 msgid "Junior secondary/junior high/middle school"
-msgstr "Collège/lycée/collège"
+msgstr "Collège"
 
 #: common/djangoapps/student/models/user.py:483
 msgid "Elementary/primary school"
@@ -3082,7 +3082,7 @@ msgid ""
 "able to log back into your account until you have activated it."
 msgstr ""
 "Vous y êtes presque ! Utilisez le lien ci-dessous pour activer votre compte "
-"et accéder à des cours %(platform_name)s attrayants et de haute qualité. "
+"et accéder à des cours attrayants et de haute qualité sur %(platform_name). "
 "Notez que vous ne pourrez pas vous reconnecter à votre compte tant que vous "
 "ne l'aurez pas activé."
 
@@ -9075,6 +9075,12 @@ msgstr ""
 msgid "Description for the credit provider displayed to users."
 msgstr "Description du fournisseur de crédit affichée aux utilisateurs."
 
+#: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
+msgid "Search all posts"
+msgstr "Recherche"
+
 #: openedx/core/djangoapps/credit/models.py:112
 msgid ""
 "Plain text or html content for displaying further steps on receipt page "
@@ -11505,7 +11511,7 @@ msgstr ""
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
 msgid "Home"
-msgstr "Maison"
+msgstr "Accueil"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:17
 msgid "Enterprise Course Enrollments"
@@ -13757,7 +13763,7 @@ msgstr "{section_type} {index} Inédit - 0 % (?/?)"
 #: xmodule/graders.py:415
 #, python-brace-format
 msgid "The lowest {drop_count} {section_type} scores are dropped."
-msgstr "Les scores {drop_count} {section_type} les plus bas sont supprimés."
+msgstr "Les {drop_count} scores {section_type} les plus bas sont supprimés."
 
 #. Translators: "Homework Average = 0%"
 #: xmodule/graders.py:433

@@ -430,7 +430,7 @@
   "progress.footnotes.droppableAssignments": "Le score {numDroppable, plural, one{# {assignmentType} le plus bas est}} les autres scores {# {assignmentType} sont}} supprimés.",
   "progress.footnotes.title": "Notes de bas de page du résumé des notes",
   "progress.gradeSummary": "Résumé des notes",
-  "progress.gradeSummary.grade": "Grade",
+  "progress.gradeSummary.grade": "Note",
   "progress.gradeSummary.limitedAccessExplanation": "Vous disposez d'un accès limité aux devoirs notés dans le cadre de la piste d'audit de ce cours. {upgradeLink}",
   "progress.gradeSummary.tooltip.alt": "Info-bulle du résumé des notes",
   "progress.gradeSummary.tooltip.body": "Le poids de votre devoir de cours est déterminé par votre instructeur. En multipliant votre note par la pondération de ce type de devoir, votre note pondérée est calculée. Votre note pondérée est ce qui est utilisé pour déterminer si vous réussissez le cours.",
