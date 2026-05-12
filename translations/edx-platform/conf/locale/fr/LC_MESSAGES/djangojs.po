@@ -7654,7 +7654,7 @@ msgstr "Statut de sortie :"
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
-msgstr "Libéré:"
+msgstr "Publié:"
 
 #: cms/templates/js/course-outline.underscore:293
 #: cms/templates/js/publish-xblock.underscore:17

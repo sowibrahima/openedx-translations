@@ -1062,7 +1062,7 @@
   "course-authoring.course-outline.xblock-status.prerequisite.label": "Prérequis : {prereqDisplayName}",
   "course-authoring.course-outline.xblock-status.proctoredExam.value": "Examen surveillé",
   "course-authoring.course-outline.xblock-status.releaseStatusScreenReader.title": "Statut de sortie :",
-  "course-authoring.course-outline.xblock-status.released.label": "Libéré:",
+  "course-authoring.course-outline.xblock-status.released.label": "Publié:",
   "course-authoring.course-outline.xblock-status.restrictedUnitAccess.text": "L'accès à cette unité est limité à : {selectedGroupsLabel}",
   "course-authoring.course-outline.xblock-status.restrictedUnitAccessToSomeContent.text": "L'accès à certains contenus de cette unité est limité à des groupes spécifiques d'apprenants",
   "course-authoring.course-outline.xblock-status.scheduled.label": "Programmé:",
