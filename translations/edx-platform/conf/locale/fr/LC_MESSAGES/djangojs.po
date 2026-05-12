@@ -5442,7 +5442,7 @@ msgstr[1] "{num_points} points possibles (notés)"
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
 msgstr[0] "{num_points} point possible (non noté)"
-msgstr[1] "{num_points} points possibles (non noté)"
+msgstr[1] "{num_points} points possibles (non notés)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -5462,7 +5462,7 @@ msgstr[1] "{earned}/{possible} points (notés)"
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "{earned}/{possible} point (non noté)"
-msgstr[1] "{earned}/{possible} points (non noté)"
+msgstr[1] "{earned}/{possible} points (non notés)"
 
 #: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."

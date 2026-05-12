@@ -21357,13 +21357,13 @@ msgid ""
 "Some problems have options such as save, reset, hints, or show answer. These"
 " options follow the Submit button."
 msgstr ""
-"Certains problèmes comportent des options telles que l'enregistrement, la "
-"réinitialisation, des astuces ou l'affichage de la réponse. Ces options "
-"suivent le bouton Soumettre."
+"Certains exercices comportent des options comme enregistrer, réinitialiser, "
+"afficher un indice ou afficher la réponse. Ces options suivent le bouton "
+"Soumettre."
 
 #: lms/templates/problem.html:154
 msgid "Answers are displayed within the problem"
-msgstr "Les réponses sont affichées dans le problème"
+msgstr "Les réponses s'affichent dans l'exercice"
 
 #: lms/templates/problem_notifications.html:14
 msgid "Next Hint"
@@ -21371,7 +21371,7 @@ msgstr "Indice suivant"
 
 #: lms/templates/problem_notifications.html:17
 msgid "Review"
-msgstr "Revoir"
+msgstr "Vérifier"
 
 #: lms/templates/provider_login.html:38
 msgid "Log In"
@@ -28516,4 +28516,3 @@ msgstr "Veuillez patienter..."
 #: xblock-live-session/live_session/static/html/studio.html
 msgid "Live Session"
 msgstr "Session en direct"
-
