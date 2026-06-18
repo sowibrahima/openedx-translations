@@ -1,33 +1,33 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
 # Brian Smith, 2024
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
 # Menna Mamdouh <menna.mamdouh@notionwave.com>, 2024
-# Sulaiman Muthanna, 2025
+# Sulaiman Muthanna, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-03 00:41+0000\n"
+"POT-Creation-Date: 2026-02-08 00:54+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Sulaiman Muthanna, 2025\n"
+"Last-Translator: Sulaiman Muthanna, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 "Language: ar\n"
@@ -40,7 +40,7 @@ msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
 msgstr ""
-"قد يكون السبب مشكلة في خادمنا أو في اتصالك بالشبكة، جَرِّب تحديث الصفحة أو "
+"قد يكون السبب مشكلة في خادمنا أو في اتصالك بالشبكة، جرِّب تحديث الصفحة أو "
 "التأكُّد من اتصالك بالشبكة."
 
 #: cms/static/cms/js/main.js:47
@@ -57,10 +57,8 @@ msgstr "نأسف لحدوث خطأ في حفظ التقييم المفتوح."
 #: cms/static/js/views/asset.js:85 cms/static/js/views/container.js:48
 #: cms/static/js/views/course_info_handout.js:58
 #: cms/static/js/views/course_info_update.js:170
-#: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
 #: cms/static/js/views/modals/edit_xblock.js:216
-#: cms/static/js/views/tabs.js:86 cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
@@ -73,7 +71,7 @@ msgstr "سيفتح هذا الرابط في نافذة متصفّح جديدة/�
 
 #: cms/static/js/base.js:120
 msgid "This link will open in a modal window"
-msgstr "سيُفتَح هذا الرابِط في نافِذة مُنبَثِقة جديدة."
+msgstr "سيُفتح هذا الرابط في نافذة مشروطة جديدة."
 
 #: cms/static/js/certificates/models/certificate.js:78
 msgid "Certificate name is required."
@@ -97,7 +95,7 @@ msgstr ""
 
 #: cms/static/js/certificates/views/certificate_details.js:48
 msgid "Yes, allow edits to the active Certificate"
-msgstr "نعم، اقبل التعديل على على الشهادت النشطة."
+msgstr "نعم، اقبَل بتعديل الشهادة النشطة"
 
 #. Translators: This field pertains to the custom label for a certificate.
 #. Translators: this refers to a collection of certificates.
@@ -118,7 +116,7 @@ msgstr "أعدّ شهادتك"
 #. has been inserted
 #: cms/static/js/certificates/views/certificates_list.js:22
 msgid "You have not created any certificates yet."
-msgstr "لم تُنشِئ أي شهادات بعد."
+msgstr "لم تُنشِئ شهادات بعد."
 
 #: cms/static/js/certificates/views/signatory_editor.js:134
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
@@ -127,12 +125,11 @@ msgstr "هل تريد حذف \"<%- signatoryName %>\" من لائحة الموق
 #: cms/static/js/certificates/views/signatory_editor.js:137
 #: cms/static/js/views/course_info_update.js:238
 msgid "This action cannot be undone."
-msgstr "لا يُمكِن التَراجُع عن هذه العملية لاحقاً."
+msgstr "لا يمكن التراجع عن هذه العملية لاحقاً."
 
 #: cms/static/js/certificates/views/signatory_editor.js:140
 #: cms/static/js/views/asset.js:57 cms/static/js/views/list_item.js:60
 #: cms/static/js/views/manage_users_and_roles.js:32
-#: cms/static/js/views/show_textbook.js:39
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
 #: cms/templates/js/certificate-details.underscore:66
 #: cms/templates/js/certificate-details.underscore:67
@@ -154,7 +151,6 @@ msgstr "لا يُمكِن التَراجُع عن هذه العملية لاحق
 #: cms/templates/js/partition-group-details.underscore:31
 #: cms/templates/js/partition-group-details.underscore:32
 #: cms/templates/js/partition-group-details.underscore:36
-#: cms/templates/js/show-textbook.underscore:43
 #: cms/templates/js/signatory-editor.underscore:5
 #: cms/templates/js/video-transcripts.underscore:47
 #: cms/templates/js/xblock-outline.underscore:31
@@ -165,11 +161,10 @@ msgstr "حذف"
 
 #: cms/static/js/certificates/views/signatory_editor.js:143
 #: cms/static/js/views/course_info_update.js:249
-#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
-#: cms/static/js/views/tabs.js:174
+#: cms/static/js/views/list_item.js:63
 #: cms/static/js/views/utils/xblock_utils.js:216
 msgid "Deleting"
-msgstr "جاري الحذف"
+msgstr "حذف"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -185,7 +180,6 @@ msgstr "جاري الحذف"
 #: cms/static/js/views/modals/course_outline_modals.js:260
 #: cms/static/js/views/modals/preview_v2_library_changes.js:37
 #: cms/static/js/views/modals/select_v2_library_content.js:60
-#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
 #: lms/static/js/Markdown.Editor.js:1092
@@ -198,7 +192,6 @@ msgstr "جاري الحذف"
 #: cms/templates/js/content-group-editor.underscore:32
 #: cms/templates/js/course_info_handouts.underscore:20
 #: cms/templates/js/course_info_update.underscore:15
-#: cms/templates/js/edit-textbook.underscore:26
 #: cms/templates/js/group-configuration-editor.underscore:46
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
@@ -217,7 +210,7 @@ msgstr "ألغِ"
 
 #: cms/static/js/certificates/views/signatory_editor.js:177
 msgid "Upload signature image."
-msgstr "يُرجى تحميل صورة الموقِّع."
+msgstr "ارفع صورة التوقيع."
 
 #: cms/static/js/certificates/views/signatory_editor.js:178
 msgid "Image must be in PNG format."
@@ -281,11 +274,6 @@ msgstr "اخفِ الإعدادات المهملة"
 msgid "Show Deprecated Settings"
 msgstr "إظهار الإعدادات المهملة"
 
-#: cms/static/js/factories/textbooks.js:20
-#: cms/static/js/views/pages/group_configurations.js:84
-msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr "لديك تغييرات غير محفّظة. هل تريد حقًّا أن تغادر الصفحة؟"
-
 #: cms/static/js/features/import/factories/import.js:22
 msgid "There was an error during the upload process."
 msgstr "نأسف لحدوث خطأ خلال عملية التحميل."
@@ -305,7 +293,7 @@ msgstr "اختر ملف جديد"
 #: cms/static/js/features/import/factories/import.js:48
 msgid ""
 "File format not supported. Please upload a file with a {ext} extension."
-msgstr "صيغة الملف غير مدعومة رجاءً قم يتحميل ملف بامتداد {ext}."
+msgstr "صيغة الملف غير مدعومة. من فضلك ارفَع ملفاً بصيغة {ext}."
 
 #: cms/static/js/features/import/factories/import.js:56
 msgid "There was an error while importing the new library to our database."
@@ -357,18 +345,6 @@ msgstr "استُكمل التحميل "
 msgid "Upload failed"
 msgstr "عذرًا، لم ينجح التحميل."
 
-#: cms/static/js/models/chapter.js:35
-msgid "Chapter name and asset_path are both required"
-msgstr "كل من الحقلين ’اسم الفصل‘ و ’مسار المادّة الموجودة‘ مطلوب."
-
-#: cms/static/js/models/chapter.js:40
-msgid "Chapter name is required"
-msgstr "اسم الفصل مطلوب"
-
-#: cms/static/js/models/chapter.js:45
-msgid "asset_path is required"
-msgstr "مسار المادة الموجودة مطلوب"
-
 #: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
 msgid "You must specify a name"
 msgstr "عليك أن تحدّد اسمًا."
@@ -411,7 +387,7 @@ msgstr "يجب أن يكون للمساق تاريخ بدء معيّن."
 
 #: cms/static/js/models/settings/course_details.js:63
 msgid "The course end date must be later than the course start date."
-msgstr "يَجِب أنْ يَكون تاريخ انتِهاء المُقَرَّر بَعد تاريخ بَدْئِه."
+msgstr "يجب أن يكون تاريخ انتهاء المساق بعد تاريخ بدئه."
 
 #: cms/static/js/models/settings/course_details.js:68
 msgid "The course start date must be later than the enrollment start date."
@@ -429,7 +405,7 @@ msgstr ""
 
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
-msgstr "يَجِب أنْ يَكون تاريخ إتاحة الشَهادة بَعد تاريخ انتِهاء المُقَرَّر."
+msgstr "يجب أن يكون تاريخ إتاحة الشهادة بعد تاريخ انتهاء المساق."
 
 #: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
@@ -483,25 +459,13 @@ msgstr "يجب تحديد فترة السماح بصيغة HH:MM."
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr "لم يمكن تحديد درجة النجاح عند أقلّ من %(minimum_grade_cutoff)s%."
 
-#: cms/static/js/models/textbook.js:62
-msgid "Textbook name is required"
-msgstr "اسم الكتاب مطلوب"
-
-#: cms/static/js/models/textbook.js:68
-msgid "Please add at least one chapter"
-msgstr "يٌرجى إضافة فصل واحد على الأقل"
-
-#: cms/static/js/models/textbook.js:81
-msgid "All chapters must have a name and asset"
-msgstr "يجب أن يتوفّر اسم ومادّة لجميع الفصول."
-
 #: cms/static/js/models/uploads.js:17
 msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
 msgstr ""
-"يُمكِن رفع ملفات <%- fileTypes %> فقط. من فَضلِك اختَر ملفاً ينتهي بـ <%- "
-"(fileExtensions) %> لرفعه."
+"يمكن رفع ملفات <%- fileTypes %> فقط. من فضلك اختَر ملفاً ينتهي بـ <%- "
+"(fileExtensions) %> لإرساله."
 
 #: cms/static/js/models/uploads.js:63
 #: lms/templates/student_account/hinted_login.underscore:21
@@ -552,7 +516,7 @@ msgstr "تحميل مقاطع الفيديو"
 
 #: cms/static/js/views/active_video_upload_list.js:30
 msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
-msgstr "اسحَب وأفلِت أو {spanStart} تَصفَّح حاسوبك {spanEnd}."
+msgstr "اسحَب وأفلِت أو {spanStart} تصفَّح حاسوبك {spanEnd}."
 
 #: cms/static/js/views/active_video_upload_list.js:57
 msgid "Maximum file size: {maxFileSize} GB"
@@ -595,7 +559,7 @@ msgstr "تم تحميل الفيديو:"
 
 #: cms/static/js/views/active_video_upload_list.js:435
 msgid "Previous Uploads table has been updated."
-msgstr "تم تحديث قائمة التحميلات السابقة."
+msgstr "حُدِّث جدول المرفوعات السابق."
 
 #: cms/static/js/views/asset.js:53
 msgid "Delete File Confirmation"
@@ -675,11 +639,11 @@ msgstr "تحميل ملف آخر"
 #: cms/static/js/views/components/add_library_content.js:23
 #: cms/static/js/views/modals/select_v2_library_content.js:18
 msgid "Add library content"
-msgstr "أضِف مُحتَوًى للمكتبة"
+msgstr "أضِف محتوًى للمكتبة"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:651
+#: cms/static/js/views/pages/container.js:655
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "جاري الإضافة"
@@ -698,8 +662,8 @@ msgstr "هل أنت واثق من رغبتك في حذف هذا التحديث؟
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:423
-#: cms/static/js/views/pages/container.js:435 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:426
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -709,76 +673,76 @@ msgid "OK"
 msgstr "موافق"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:778
+#: cms/static/js/views/pages/container.js:782
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "نسخ"
 
 #: cms/static/js/views/course_outline.js:331
 msgid "Copy of \"{componentDisplayName}\""
-msgstr "نُسخة مِن \"{componentDisplayName}\""
+msgstr "نسخة من \"{componentDisplayName}\""
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:394
+#: cms/static/js/views/pages/container.js:397
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "لصق"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:418
+#: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "حدثت بعض الأخطاء"
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:420
+#: cms/static/js/views/pages/container.js:423
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
-msgstr "تعذر إضافة الملفات المطلوبة التالية إلى الدورة التدريبية:"
+msgstr "تعذّر إضافة الملفات المطلوبة التالية إلى المساق:"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:428
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "قد تحتاج إلى تحديث ملف (ملفات) يدويًا"
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:431
+#: cms/static/js/views/pages/container.js:434
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
 " used by the component you pasted:"
 msgstr ""
 "الملفات التالية موجودة بالفِعل في هذا المساق ولكنها لا توافق الإصدار الذي "
-"يستخدمه المُكوّن الذي ألصقته:"
+"يستخدمه المكوّن الذي ألصقته:"
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:440
+#: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "تمت إضافة ملف (ملفات) جديدة إلى الملفات والتحميلات."
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:442
+#: cms/static/js/views/pages/container.js:445
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
-msgstr "تم استيراد الملفات المطلوبة التالية إلى هذه الدورة التدريبية:"
+msgstr "استُورِدَت الملفات المطلوبة التالية إلى هذا المساق:"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:447
+#: cms/static/js/views/pages/container.js:450
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "عرض الملفات"
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:456
+#: cms/static/js/views/pages/container.js:459
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "رفض العملية"
 
 #: cms/static/js/views/course_rerun.js:53
 msgid "Create Re-run"
-msgstr "أَنشِئ نُسخة مُكَرَّرة "
+msgstr "أنشِئ نسخة مكررة "
 
 #: cms/static/js/views/course_rerun.js:60
 msgid "Processing Re-run Request"
@@ -799,11 +763,11 @@ msgstr "لا شيء"
 
 #: cms/static/js/views/course_video_settings.js:307
 msgid "Select turnaround"
-msgstr "حَدِّد مُدّة الإنجاز"
+msgstr "حدِّد مُدّة الإنجاز"
 
 #: cms/static/js/views/course_video_settings.js:335
 msgid "Select fidelity"
-msgstr "حدد الدقة"
+msgstr "اختَر الدقة"
 
 #: cms/static/js/views/course_video_settings.js:387
 #: cms/static/js/views/course_video_settings.js:423
@@ -845,14 +809,6 @@ msgstr "النصوص التلقائية معطلة."
 #: cms/static/js/views/course_video_settings.js:719
 msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} تم حفظ بيانات بيانات التعريف الخاصة بك"
-
-#: cms/static/js/views/edit_chapter.js:62
-msgid "Upload a new PDF to “<%- name %>”"
-msgstr "رفع ملف PDF جديد إلى \"<%- name %>\""
-
-#: cms/static/js/views/edit_chapter.js:64
-msgid "Please select a PDF file to upload."
-msgstr "يُرجى اختيار ملف PDF لتحميله. "
 
 #: cms/static/js/views/export.js:312
 msgid "There has been an error while exporting."
@@ -927,7 +883,7 @@ msgstr[5] "يحوي {count} مجموعةٍ"
 #: cms/static/js/views/group_configuration_details.js:82
 #: cms/static/js/views/partition_group_details.js:66
 msgid "Not in Use"
-msgstr "غَير مُستَخدَم"
+msgstr "غير مستخدم "
 
 #. Translators: 'count' is number of units that the group
 #. configuration is used in.
@@ -937,12 +893,12 @@ msgstr "غَير مُستَخدَم"
 #: cms/static/js/views/partition_group_details.js:74
 msgid "Used in {count} location"
 msgid_plural "Used in {count} locations"
-msgstr[0] "غير مُستَخدَم في أيّ موضع"
-msgstr[1] "مُستخدَم في موضع واحد"
-msgstr[2] "مُستَخدَم في موضعين"
-msgstr[3] "مُستَخدَم في {count} مواضع"
-msgstr[4] "مُستخدَم في {count} موضعاً"
-msgstr[5] "مُستَخدَم في {count} موضع"
+msgstr[0] "غير مستخدم في أيّ موضع"
+msgstr[1] "مستخدم في موضع واحد"
+msgstr[2] "مستخدم في موضعين"
+msgstr[3] "مستخدم في {count} مواضع"
+msgstr[4] "مستخدم في {count} موضعاً"
+msgstr[5] "مستخدم في {count} موضعٍ"
 
 #. Translators: this refers to a collection of groups.
 #: cms/static/js/views/group_configuration_item.js:26
@@ -956,7 +912,7 @@ msgstr "أضف أوّل إعداداتك للمجموعة"
 
 #: cms/static/js/views/group_configurations_list.js:22
 msgid "You have not created any group configurations yet."
-msgstr "لَم تُنشِئ أي إعدادات للمَجموعات بَعد."
+msgstr "لم تُنشِئ أي إعدادات للمجموعات بعد."
 
 #: cms/static/js/views/instructor_info.js:78
 msgid "Upload instructor image."
@@ -991,7 +947,7 @@ msgstr "النسخة"
 
 #: cms/static/js/views/license.js:22
 msgid "Attribution"
-msgstr "الإسناد"
+msgstr "النِّسبة"
 
 #: cms/static/js/views/license.js:25
 msgid ""
@@ -1130,7 +1086,6 @@ msgstr "تحميل الملف"
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/course_info_handouts.underscore:19
-#: cms/templates/js/edit-textbook.underscore:25
 #: cms/templates/js/group-configuration-editor.underscore:45
 #: cms/templates/js/section-name-edit.underscore:3
 #: cms/templates/js/signatory-actions.underscore:3
@@ -1140,7 +1095,7 @@ msgstr "تحميل الملف"
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:15
 #: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:35
 msgid "Save"
-msgstr "حفظ"
+msgstr "احفظ"
 
 #: cms/static/js/views/modals/course_outline_modals.js:124
 msgid "{display_name} Settings"
@@ -1208,7 +1163,7 @@ msgstr "صفحة كاملة"
 
 #: cms/static/js/views/modals/course_outline_modals.js:1492
 msgid "Embed Link"
-msgstr "ضَمِّن الرابط"
+msgstr "ضمِّن الرابط"
 
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js:23
@@ -1258,20 +1213,19 @@ msgstr "اقبَل التغييرات"
 
 #: cms/static/js/views/modals/preview_v2_library_changes.js:36
 msgid "Ignore changes"
-msgstr "تَجاهَل التَغييرات"
+msgstr "تجاهَل التغييرات"
 
 #: cms/static/js/views/modals/preview_v2_library_changes.js:99
 msgid "Ignore these changes?"
-msgstr "أتُريد تَجاهل هذه التَغييرات؟"
+msgstr "أتُريد تجاهل هذه التغييرات؟"
 
 #: cms/static/js/views/modals/preview_v2_library_changes.js:100
 msgid ""
 "Would you like to permanently ignore this updated version? If so, you won't "
 "be able to update this until a newer version is published (in the library)."
 msgstr ""
-"أتُريد تَجاهل هذه النُسخة المُحَدَثة بِشكلٍ نِهائي؟ إذا كُنتَ تريد ذلك، "
-"فإنَّك لن تتمكن من تحدِيث النُسخة الحاليّة إلى أنْ تُنشَرَ نُسخة أحدَث (في "
-"المَكتبة)."
+"أتُريد تجاهل هذه النسخة المحدثة بشكل نهائي؟ إذا كنت تريد ذلك، فإنّك لن تتمكن"
+" من تحديث النسخة الحالية إلى أن تُنشَر نسخة أحدث (في المكتبة)."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1333,7 +1287,7 @@ msgstr "تاريخ الإضافة "
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:730
+#: cms/static/js/views/pages/container.js:734
 msgid "Editing access for: {title}"
 msgstr "تعديل الدخول لـ: {title}"
 
@@ -1398,6 +1352,10 @@ msgstr "فهرس المساق"
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
 msgstr "نأسف لحدوث أخطاء في إعادة فهرسة محتويات المساق."
+
+#: cms/static/js/views/pages/group_configurations.js:84
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "لديك تغييرات غير محفّظة. هل تريد حقًّا أن تغادر الصفحة؟"
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1494,21 +1452,20 @@ msgid ""
 "Your changes will not take effect until you save your progress. Take care "
 "with key and value formatting, as validation is not implemented."
 msgstr ""
-"لن تُعتمَد التغييرات التي أجريتها إلى أن تحفظ تعديلاتك. يُرجى مُراعاة "
-"الدِقّة في ضبط تنسيق المفتاح والقيمة، إذ أنَّ عملية التحقّق من المُدخلات غير"
-" مطبّقة. "
+"لن تصبح التغييرات التي أجريتها نافذة إلى أن تحفظ تقدمك. يُرجى مراعاة الدقة "
+"في ضبط تنسيق المفتاح والقيمة، لأن النظام لن يتحقق من صحّة المُدخلات."
 
 #: cms/static/js/views/settings/advanced.js:142
 msgid "Your policy changes have been saved."
-msgstr "جرى حفظ التغييرات التي أدخلتها على السياسة."
+msgstr "حُفظت التغييرات التي أجريتها على سياسة مساقك."
 
 #: cms/static/js/views/settings/advanced.js:143
 msgid ""
 "No validation is performed on policy keys or value pairs. If you are having "
 "difficulties, check your formatting."
 msgstr ""
-"لم يجري تنفيذ عملية تحقّق من صحّة زوج القيم أو مفاتيح السياسة. في حال كنت "
-"تواجه أية مشكلات، يُرجى مراجعة التنسيق."
+"لم يُتحَقّق من صحّة أزواج المفاتيح والقِيَم المتعلقة بالسياسات. إذا كنت "
+"تواجه أيّ مشكلة، فتحقَّق من نَسَق الإدخال."
 
 #: cms/static/js/views/settings/grader.js:58
 msgid ""
@@ -1519,7 +1476,7 @@ msgstr ""
 
 #: cms/static/js/views/settings/main.js:62
 msgid "Course Credit Requirements"
-msgstr "مُتَطَلَّبات الساعات الدراسية المُعتمدة للمُقَرَّر"
+msgstr "متطلبات الساعات الدراسية المعتمدة للمساق"
 
 #: cms/static/js/views/settings/main.js:63
 msgid "The minimum grade for course credit is not set."
@@ -1539,40 +1496,17 @@ msgstr "تحميل صورتك الخاصة بالمساق."
 
 #: cms/static/js/views/settings/main.js:463
 msgid "Upload your banner image."
-msgstr "ارفَع صورة اللافِتة الخاصة بك."
+msgstr "ارفع صورة اللافتة الخاصة بك."
 
 #: cms/static/js/views/settings/main.js:469
 msgid "Upload your video thumbnail image."
-msgstr "ارفع صورة الفيديو المصغرة."
-
-#: cms/static/js/views/show_textbook.js:33
-msgid "Delete “<%- name %>”?"
-msgstr "هل تريد حذف “<%- name %>”؟"
-
-#: cms/static/js/views/show_textbook.js:36
-msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in"
-" your courseware's navigation will also be removed."
-msgstr ""
-"لا يمكن التراجع لاحقًا عن عملية حذف الكتاب> وحالما تحذفه، سيجري أيضًا حذف "
-"أيٍّ من مراجعه الواردة في صفحاتك لمنهاج المساق. "
-
-#: cms/static/js/views/tabs.js:160
-msgid "Delete Page Confirmation"
-msgstr "تأكيد حذف الصفحة"
-
-#: cms/static/js/views/tabs.js:161
-msgid ""
-"Are you sure you want to delete this page? This action cannot be undone."
-msgstr ""
-"هل أنت واثق من رغبتك في حذف هذه الصفحة؟ لا يُمكِن التَراجُع عن هذه العملية "
-"لاحقاً. "
+msgstr "ارفع الصورة المصغّرة للفيديو."
 
 #: cms/static/js/views/uploads.js:30
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
 #: cms/templates/js/video/metadata-translations-item.underscore:5
 msgid "Upload"
-msgstr "تحميل"
+msgstr "ارفع"
 
 #: cms/static/js/views/uploads.js:122
 msgid "We're sorry, there was an error"
@@ -1583,16 +1517,16 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
-"لا يُمكِن أنْ يزيد مجموع الحُروف في حقول المُؤَسَّسة ورقم المُقَرَّر ومُدَّة"
-" المُقَرَّر عن <%- limit %> من الحروف."
+"لا يمكن أن يزيد مجموع الحروف في حقول المؤسسة ورقم المساق ومُدّة المساق عن "
+"<%- limit %> من الحروف."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
-"لا يُمكِن أنْ يزيد مجموع الحروف في حَقْلَيّ المُؤَسَّسة ورمز المكتبة عن <%- "
-"limit %> من الحروف."
+"لا يمكن أن يزيد مجموع الحروف في حَقلَيّ المؤسسة ورمز المكتبة عن <%- limit %>"
+" من الحروف."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
@@ -1602,7 +1536,7 @@ msgstr "تمت العملية بنجاح! \"{displayName}\" تمّ تحريكه.
 msgid ""
 "Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
 "location."
-msgstr "أُلغِيَت عملية النقل. \"{sourceDisplayName}\" أُرجِعَ إلى مكانه الأول."
+msgstr "أُلغِيَت عملية النقل. \"{sourceDisplayName}\" أُرجِع إلى مكانه الأول."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:76
 msgid "Undo move"
@@ -1667,8 +1601,7 @@ msgstr "لقد أجريت بعض التغييرات."
 
 #: cms/static/js/views/validation.js:23
 msgid "Your changes will not take effect until you save your progress."
-msgstr ""
-"لن تصبح التغييرات التي أجريتها نافذة حتى تحفّظ خطوات التقدّم التي اتّخذتها. "
+msgstr "لن تصبح التغييرات التي أجريتها نافذة إلى أن تحفظ تقدمك."
 
 #: cms/static/js/views/validation.js:24
 msgid "You've made some changes, but there are some errors"
@@ -1688,7 +1621,7 @@ msgstr "حفّظ التغييرات"
 #: lms/static/js/discussions_management/views/divided_discussions_inline.js:143
 #: lms/static/js/views/fields.js:73
 msgid "Your changes have been saved."
-msgstr "تم حفظ التغييرات."
+msgstr "حُفظت تعديلاتك."
 
 #: cms/static/js/views/video/transcripts/file_uploader.js:115
 msgid "Please select a file in .srt format."
@@ -1744,11 +1677,11 @@ msgstr "هل أنت واثق من أنّك تودّ حذف هذا المنشور
 msgid ""
 "If you remove this transcript, the transcript will not be available for this"
 " component."
-msgstr "إذا قمت بإزالة هذا النص، لن يتوفر النص لهذا المكون."
+msgstr "إذا أزلت هذا التفريغ النصّي، فلن يكون متاحاً لهذا المكون."
 
 #: cms/static/js/views/video/translations_editor.js:174
 msgid "Remove Transcript"
-msgstr "نص الفيديو"
+msgstr "أزِل النص"
 
 #: cms/static/js/views/video/translations_editor.js:225
 msgid "Upload translation"
@@ -1756,11 +1689,11 @@ msgstr "تحميل الترجمة"
 
 #: cms/static/js/views/video_thumbnail.js:31
 msgid "Add Thumbnail"
-msgstr "إضافة صورة مصغرة"
+msgstr "أضِف صورة مصغّرة"
 
 #: cms/static/js/views/video_thumbnail.js:35
 msgid "Edit Thumbnail"
-msgstr "تحرير الصورة المصغرة"
+msgstr "عدِّل الصورة المصغّرة"
 
 #. Translators: This is a 2 part text which tells the image requirements.
 #: cms/static/js/views/video_thumbnail.js:39
@@ -1792,12 +1725,12 @@ msgstr "{maxWidth}x{maxHeight} بكسل"
 #. Translators: message will be like Thumbnail for Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:138
 msgid "Thumbnail for {videoName}"
-msgstr "صورة مصغرة لـ{videoName}"
+msgstr "صورة مصغّرة لـ{videoName}"
 
 #. Translators: message will be like Add Thumbnail - Arrow.mp4
 #: cms/static/js/views/video_thumbnail.js:146
 msgid "Add Thumbnail - {videoName}"
-msgstr "أضف صورة مصغرة - {videoName}"
+msgstr "أضِف صورة مصغّرة - {videoName}"
 
 #. Translators: humanizeDuration will be like 10 minutes, an hour and 20
 #. minutes etc
@@ -1881,7 +1814,7 @@ msgstr "اخفِ النص ({transcriptCount})"
 
 #: cms/static/js/views/video_transcripts.js:149
 msgid "Show transcripts ({transcriptCount})"
-msgstr "إظهار النصوص ({transcriptCount})"
+msgstr "أظهِر النصوص ({transcriptCount})"
 
 #: cms/static/js/views/video_transcripts.js:167
 msgid ""
@@ -1900,7 +1833,8 @@ msgid ""
 "If you remove this transcript, the transcript will not be available for any "
 "components that use this video."
 msgstr ""
-"إذا أزلت هذا النص ، فلن يكون النص متاحاً لأي عناصر تستخدم هذا الفيديو."
+"إذا أزلت هذا التفريغ النصّي، فلن يكون متاحاً لأيّ مكوناتٍ تستخدم هذا "
+"الفيديو."
 
 #: cms/static/js/views/xblock_editor.js:49
 msgid "Editor"
@@ -2001,7 +1935,7 @@ msgstr "جاري تحميل المحتوى"
 
 #: common/static/common/js/discussion/utils.js:211
 msgid "Your request could not be processed. Refresh the page and try again."
-msgstr "تعذر معالجة طلبك، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر معالجة طلبك. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/utils.js:484
 #: common/static/common/js/discussion/utils.js:506
@@ -2021,7 +1955,7 @@ msgstr "تم حذف الصورة"
 #: common/static/common/js/discussion/views/discussion_content_view.js:285
 msgid "there is currently {numVotes} vote"
 msgid_plural "there are currently {numVotes} votes"
-msgstr[0] "لا يوجد أي صوت حاليا"
+msgstr[0] "لا يوجد أيّ صوت حاليا"
 msgstr[1] "يوجد حالياً صوت واحد"
 msgstr[2] "يوجد حالياً صوتان"
 msgstr[3] "يوجد حالياً {numVotes} أصوات"
@@ -2041,72 +1975,70 @@ msgstr[5] "{numVotes} صوت"
 #: common/static/common/js/discussion/views/discussion_content_view.js:359
 msgid ""
 "You could not be subscribed to this post. Refresh the page and try again."
-msgstr "تعذر اشتراكك في هذا المنشور، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر اشتراكك في هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:361
 msgid ""
 "You could not be unsubscribed from this post. Refresh the page and try "
 "again."
-msgstr ""
-"تعذر إلغاء مشاركتك في هذا المنشور، فضلًا قم بتحديث الصفحة وإعادة المحاولة. "
+msgstr "تعذّر إلغاء اشتراكك في هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:388
 msgid ""
 "This response could not be marked as an answer. Refresh the page and try "
 "again."
-msgstr ""
-"تعذر تحديد هذا الرد بأنه إجابة، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر تحديد هذا الرد كجواب. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:390
 msgid ""
 "This response could not be unmarked as an answer. Refresh the page and try "
 "again."
-msgstr ""
-"تعذر إلغاء تحديد هذا الرد بأنه إجابة، فضلًا قم بتحديث الصفحة وإعادة "
-"المحاولة."
+msgstr "تعذّر إلغاء تحديد هذا الرد كجواب. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:394
 msgid ""
 "This response could not be marked as endorsed. Refresh the page and try "
 "again."
 msgstr ""
-"تعذر تحديد هذا الرد بأنه مؤيد، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+"تعذّر تحديد هذه الإجابة كإجابة موصى بها. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:396
 msgid "This response could not be unendorsed. Refresh the page and try again."
-msgstr "تعذر إلغاء تأييد هذا الرد، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+msgstr ""
+"تعذّر إلغاء تحديد هذه الإجابة كإجابة موصى بها. حدِّث الصفحة ثمّ حاوِل "
+"مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:428
 msgid "This vote could not be processed. Refresh the page and try again."
-msgstr "لا يمكن معالجة هذا التصويت. قم بتحديث الصفحة وحاول مرة أخرى."
+msgstr "تعذّر معالجة هذا التصويت. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:444
 msgid "This post could not be pinned. Refresh the page and try again."
-msgstr "لا يمكن إزالة تثبيت هذا المنشور. قم بتحديث الصفحة وحاول مرة أخرى."
+msgstr "تعذّر تثبيت هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:446
 msgid "This post could not be unpinned. Refresh the page and try again."
-msgstr "لا يمكن إزالة تثبيت هذا المنشور. قم بتحديث الصفحة وحاول مرة أخرى."
+msgstr "تعذّر إزالة تثبيت هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:462
 msgid ""
 "This post could not be flagged for abuse. Refresh the page and try again."
 msgstr ""
-"لا يمكن الإبلاغ عن اساءة في هذا المنشور. قم بتحديث الصفحة وحاول مرة أخرى."
+"تعذّر الإبلاغ عن هذا المنشور كمنشور مسيء. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:465
 msgid ""
 "This post could not be unflagged for abuse. Refresh the page and try again."
 msgstr ""
-"لا يمكن الإبلاغ عن اساءة في هذا المنشور. قم بتحديث الصفحة وحاول مرة أخرى."
+"تعذّر إزالة الإبلاغ عن إساءة هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:485
 msgid "This post could not be closed. Refresh the page and try again."
-msgstr "تعذر إغلاق هذا المنشور، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر إغلاق هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:487
 msgid "This post could not be reopened. Refresh the page and try again."
-msgstr "لا يمكن إعادة فتح هذا المنشور. قم بتحديث الصفحة وحاول مرة أخرى."
+msgstr "تعذّر إعادة فتح هذا المنشور. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:183
 msgid "Show Discussion"
@@ -2119,7 +2051,7 @@ msgstr "اخفِ المناقشة"
 
 #: common/static/common/js/discussion/views/discussion_inline_view.js:210
 msgid "This discussion could not be loaded. Refresh the page and try again."
-msgstr "لا يمكن تحميل هذه المناقشة. قم بتحديث الصفحة وحاول مرة أخرى."
+msgstr "تعذّر تحميل هذه المناقشة. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:229
 msgid "There are no posts in this topic yet."
@@ -2131,7 +2063,7 @@ msgstr "تحميل المزيد من المواضيع"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:327
 msgid "Additional posts could not be loaded. Refresh the page and try again."
-msgstr "لا يمكن تحميل المشاركات الإضافية. قم بتحديث الصفحة وحاول مرة أخرى."
+msgstr "تعذّر تحميل المنشورات الإضافية. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:392
 msgid "Current conversation"
@@ -2163,20 +2095,20 @@ msgstr "تم حذف المنشور الذي قمت بتحديده."
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:229
 msgid "Responses could not be loaded. Refresh the page and try again."
-msgstr "تعذر تحميل الردود، فضلًا قم بتحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر تحميل الإجابات. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:234
 msgid ""
 "Additional responses could not be loaded. Refresh the page and try again."
-msgstr "تعذر تحميل ردود إضافية، يُرجى تحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر تحميل الإجابات الإضافية. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:251
 msgid "{numResponses} other response"
 msgid_plural "{numResponses} other responses"
-msgstr[0] "لا ردود أُخرى"
+msgstr[0] "لا ردود أخرى"
 msgstr[1] "رد واحد آخَر"
 msgstr[2] "ردّان آخَران"
-msgstr[3] "{numResponses} ردود أُخرى"
+msgstr[3] "{numResponses} ردود أخرى"
 msgstr[4] "{numResponses} رداً آخَر"
 msgstr[5] "{numResponses} رد آخَر"
 
@@ -2210,7 +2142,7 @@ msgstr "تحميل كافة الردود"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:290
 msgid "Load next {numResponses} responses"
-msgstr "تحميل الردود {numResponses} التالية"
+msgstr "حمِّل {numResponses} من الإجابات التالية"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:460
 msgid "Are you sure you want to delete this post?"
@@ -2232,7 +2164,7 @@ msgstr "هل أنت واثق من أنّك تودّ حذف هذا التعليق
 
 #: common/static/common/js/discussion/views/response_comment_view.js:122
 msgid "This comment could not be deleted. Refresh the page and try again."
-msgstr "تعذر حذف هذا التعليق، يُرجى تحديث الصفحة وإعادة المحاولة."
+msgstr "تعذّر حذف هذا التعليق. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: common/static/common/js/discussion/views/thread_response_view.js:232
 msgid "Are you sure you want to delete this response?"
@@ -2367,7 +2299,7 @@ msgstr[5] "%d سنة"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:39
 msgid "Select a section or problem"
-msgstr "اِختَر قِسماً أو مَسأَلَةً"
+msgstr "اختَر قِسماً أو مسألة"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:82
 msgid "Create a report of problem responses"
@@ -2448,7 +2380,7 @@ msgstr "حدث خطأ معين، حاول مجدداً."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:127
 msgid "Add Attachment"
-msgstr "إضافة مرفق"
+msgstr "أضِف مرفقاً"
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:128
 msgid "(Optional)"
@@ -2715,7 +2647,7 @@ msgid ""
 "This learner will be removed from the team,allowing another learner to take "
 "the available spot."
 msgstr ""
-"سيتم استبعاد هذا المتعلم من الفريق، مما يسمح لمتعلم آخر بأخذ المكان المتاح."
+"سيُستبعد هذا المتعلم من الفريق، مما يتيح لمتعلم آخَر شغل المكان المتاح."
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:33
 msgid "Delete this team?"
@@ -2776,8 +2708,8 @@ msgid ""
 "If you leave, you can no longer post in this team's discussions.Your place "
 "will be available to another learner."
 msgstr ""
-"عند اختيارك لخيار مغادرة الفريق الفريق، فلن يكون بإمكانك النشر في المناقشات،"
-" وسيكون مكانك متاحًا لمتعلم آخر."
+"إذا غادرت الفريق، فلن تتمكن بعد ذلك من النشر في مناقشاته. وسيُتاح مكانك "
+"لمتعلم آخَر."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js:147
 #: lms/static/js/verify_student/views/reverify_view.js:50
@@ -2863,7 +2795,7 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:303
 #: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:11
 msgid "Edit Team"
-msgstr "تعديل الفريق"
+msgstr "عدِّل الفريق"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:305
 msgid ""
@@ -3044,18 +2976,18 @@ msgstr "الرابط"
 
 #: lms/static/js/Markdown.Editor.js:50
 msgid "Please provide a valid URL."
-msgstr "يُرجى إضافة رابط صحيح."
+msgstr "من فضلك أدخِل رابطاً صحيحاً."
 
 #. Translators: 'errorCount' is the number of errors found in the form.
 #: lms/static/js/Markdown.Editor.js:1062
 msgid "%(errorCount)s error found in form."
 msgid_plural "%(errorCount)s errors found in form."
-msgstr[0] "لم يُعثَر على أخطاء في النموذج."
-msgstr[1] "عُثِرَ على خطأ واحد في النموذج."
-msgstr[2] "عُثِرَ على خطأين في النموذج."
-msgstr[3] "عُثِرَ على %(errorCount)s أخطاء في النموذج."
-msgstr[4] "عُثِرَ على %(errorCount)s خطأً في النموذج."
-msgstr[5] "عُثِرَ على %(errorCount)s خطأ في النموذج."
+msgstr[0] "لم يُعثر على أيّ خطأ في النموذج."
+msgstr[1] "عُثِر على خطأ واحد في النموذج."
+msgstr[2] "عُثِر على خطأين في النموذج."
+msgstr[3] "عُثِر على %(errorCount)s أخطاء في النموذج."
+msgstr[4] "عُثِر على %(errorCount)s خطأً في النموذج."
+msgstr[5] "عُثِر على %(errorCount)s خطأ في النموذج."
 
 #: lms/static/js/Markdown.Editor.js:1451
 msgid "Bold (Ctrl+B)"
@@ -3180,7 +3112,7 @@ msgstr "اختر فصلًا"
 
 #: lms/static/js/ccx/schedule.js:267 lms/static/js/ccx/schedule.js:278
 msgid "Save changes"
-msgstr "حفظ التغييرات"
+msgstr "احفظ التغييرات"
 
 #: lms/static/js/ccx/schedule.js:299
 msgid "Please enter valid start date and time."
@@ -3188,7 +3120,7 @@ msgstr "يُرجى إدخال تاريخ بدء وتوقيت صالحين."
 
 #: lms/static/js/ccx/schedule.js:306
 msgid "Due date cannot be before start date."
-msgstr "لايُمكِن أنْ يسبق تاريخُ الاستحقاق تاريخَ البدء."
+msgstr "لا يمكن أن يسبق تاريخُ الاستحقاق تاريخَ البدء."
 
 #: lms/static/js/ccx/schedule.js:435
 msgid "Enter Due Date and Time"
@@ -3232,7 +3164,7 @@ msgstr ""
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:69
 #: lms/static/js/certificates/views/certificate_invalidation_view.js:98
 msgid "Server Error, Please refresh the page and try again."
-msgstr "خطأ في المخدّم، يُرجى تحديث الصفحة وإعادة المحاولة."
+msgstr "خطأ في الخادم، حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:64
 msgid "<%- user %> already in exception list."
@@ -3248,11 +3180,11 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
-msgstr "تم إضافة الطلّاب بنجاح إلى قائمة الإستثناء"
+msgstr "أُضيف المتعلمون إلى قائمة الإستثناء بنجاح"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:107
 msgid " learner was successfully added to the exception list"
-msgstr "جرت إضافة طالب بنجاح إلى قائمة الإستثناء"
+msgstr "أُضيف المتعلمون إلى قائمة الإستثناء بنجاح"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:112
 msgid ""
@@ -3530,7 +3462,7 @@ msgstr "أي مواضيع محادثة مقسمة على أساس الشعبة."
 
 #: lms/static/js/discussions_management/views/discussions.js:195
 msgid "Your changes have been saved. {details}"
-msgstr "تم حفظ التغييرات التي قمت بها. {details}"
+msgstr "حُفظت تعديلاتك. {details}"
 
 #: lms/static/js/discussions_management/views/discussions.js:210
 msgid "We have encountered an error. Refresh your browser and then try again."
@@ -3716,7 +3648,7 @@ msgstr "عنوان البريد الإلكتروني غير صالح: {email}"
 
 #: lms/static/js/groups/views/cohort_editor.js:284
 msgid "Cohort assignment not allowed: {email_or_username}"
-msgstr "لا يُسمَح تحديد الشُعبة: {email_or_username}"
+msgstr "لا يُسمَح بتحديد الشُعبة: {email_or_username}"
 
 #: lms/static/js/groups/views/cohort_editor.js:291
 msgid "There was an error when trying to add learners:"
@@ -3746,7 +3678,7 @@ msgstr "مجموعة المحتوى المنتقاة غير موجودة"
 
 #: lms/static/js/groups/views/cohort_form.js:143
 msgid "The cohort cannot be saved"
-msgstr "لا يمكن حفظ الشعبة"
+msgstr "تعذّر حفظ الشعبة"
 
 #: lms/static/js/groups/views/cohort_form.js:143
 msgid "The cohort cannot be added"
@@ -3877,8 +3809,8 @@ msgid ""
 "Error generating list of inactive students who are enrolled in a course. "
 "Please try again."
 msgstr ""
-"حدث خطأ أثناء إنشاء قائمة بالطلّاب غير النَشِطين المُسجَّلين في المُقَرَّر. "
-"من فَضلِك حاوِل مَرّةً أُخرى."
+"حدث خطأ أثناء إنشاء قائمة بالطلاب غير النشطين المُسجَّلين في المساق. من فضلك"
+" حاوِل مرة أخرى."
 
 #: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
@@ -4022,7 +3954,7 @@ msgstr ""
 #: lms/static/js/instructor_dashboard/membership.js:518
 #: lms/static/js/instructor_dashboard/membership.js:728
 msgid "This field must not be blank"
-msgstr "يَجِب ألّا يُترَك هذا الحقل خالياً"
+msgstr "يجب ألّا يُترَك هذا الحقل خالياً"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
@@ -4092,15 +4024,14 @@ msgid ""
 "Email was sent to the following users. They will be allowed to enroll once "
 "they register:"
 msgstr ""
-"لقد أُرسِلَ بريداً إلكترونياً للمُستخدِمين التاليين. سَيُسمَح لهم بأنْ "
-"يَنضَمّوا للمُقَرَّر عندما يقومون بفتح حساب جديد:"
+"لقد أُرسِل بريداً إلكترونياً للمستخدمين التاليين. سيُسمَح لهم بالانضمام "
+"للمساق حلما يقومون بفتح حساب جديد:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
 msgid "These users will be allowed to enroll once they register:"
 msgstr ""
-"سيُسمَح للمُستَخدِمين التالين بالإلتِحاق بالمَساق حالما يَقومون بِفَتح حِساب"
-" جديد: "
+"سيُسمَح للمستخدمين التالين بالالتحاق بالمساق حالما يقومون بفتح حساب جديد: "
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:816
@@ -4108,8 +4039,8 @@ msgid ""
 "Email was sent to the following users. They will be enrolled once they "
 "register:"
 msgstr ""
-"لقد أُرسِلَ بريداً إلكترونياً للمُستخدِمين التالِيين. سيقومون بالانضِمام "
-"للمُقَرَّر عندما يقومون بفتح حساب جديد:"
+"لقد أُرسِل بريداً إلكترونياً للمستخدمين التاليين. سيقومون بالانضمام للمساق "
+"عندما يقومون بفتح حساب جديد:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4134,7 +4065,7 @@ msgstr "لم يعد المستخدمون التالون مسجّلين بالم�
 msgid ""
 "These users were not affiliated with the course so could not be unenrolled:"
 msgstr ""
-"لم يكن هؤلاء المستخدمون منتسبين إلى المساق وبالتالي تعذّر إلغاء تسجيلهم:"
+"لم يَكُن هؤلاء المستخدمون منتسبين إلى المساق، لذا تعذّر إلغاء تسجيلهم:"
 
 #: lms/static/js/instructor_dashboard/send_email.js:68
 msgid "Your message must have a subject."
@@ -4153,8 +4084,8 @@ msgid ""
 "There are invalid keywords in your email. Check the following keywords and "
 "try again."
 msgstr ""
-"هناك كلمات مِفتاحية خاطئة في بريدك. تحقَّق من الكلمات التالية وحاوِل مَرّة "
-"أُخرى."
+"هناك كلمات مفتاحية خاطئة في بريدك. تحقَّق من الكلمات التالية وحاوِل مرة "
+"أخرى."
 
 #: lms/static/js/instructor_dashboard/send_email.js:85
 msgid "Yourself"
@@ -4662,7 +4593,7 @@ msgstr "هل أنت متأكد من رغبتك بالتغيير لجلسة أخ�
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:324
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:327
 msgid "Any course progress or grades from your current session will be lost."
-msgstr "ستَفقِد أي تقدُّم أو درجات أحرزتها من جَلستك الحالية."
+msgstr "ستَفقِد أيّ تقدم أو درجات أحرزتها من جلستك الحالية."
 
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:326
 msgid "Are you sure that you want to leave this session?"
@@ -4782,7 +4713,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:54
 msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
-msgstr "قبل الاستِمرار، نرجو منك {htmlStart} {emailMsg} {htmlEnd}."
+msgstr "قبل الاستمرار، نرجو منك {htmlStart} {emailMsg} {htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:63
 msgid ""
@@ -4885,7 +4816,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:190
 msgid "Yes, Delete"
-msgstr "نعم، أحذف"
+msgstr "نعم، احذف"
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:204
 msgid "We're sorry to see you go! Your account will be deleted shortly."
@@ -4920,7 +4851,7 @@ msgstr "جاري إضافة المساق المختار إلى عربة مشتر
 
 #: lms/static/js/student_account/views/FinishAuthView.js:167
 msgid " redirect the user to the next page"
-msgstr "أعِد تَوجيه المُستَخدِم إلى الصَفحة القادِمة"
+msgstr "أعِد توجيه المستخدم إلى الصفحة القادمة"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
@@ -5076,7 +5007,7 @@ msgstr "الدفع بواسطة PayPal"
 #. vendor (example: "PayPal")
 #: lms/static/js/verify_student/views/make_payment_step_view.js:70
 msgid "Checkout with {processor}"
-msgstr "الدفع بواسطة {processor}"
+msgstr "أتِمَّ الدفع بـ {processor}"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:124
 msgid "All payment options are currently unavailable."
@@ -5189,7 +5120,7 @@ msgstr "صورة"
 
 #: lms/static/js/views/image_field.js:31
 msgid "An error has occurred. Refresh the page, and then try again."
-msgstr "نأسف لحدوث خطأ. يُرجى إعادة فتح الصفحة ثمّ إعادة المحاولة."
+msgstr "حصل خطأ. حدِّث الصفحة ثمّ حاوِل مجدداً."
 
 #: lms/static/js/views/image_field.js:172
 msgid "The file must be at least {size} in size."
@@ -5245,25 +5176,25 @@ msgstr "النتيجة الكلية"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:9
 msgid "Bookmark this page"
-msgstr "احفَظ هذه الصفحة في العلامات"
+msgstr "احفظ هذه الصفحة في الإشارات المرجعية"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
 #: xmodule/js/src/sequence/display.js:521
 msgid "Bookmarked"
-msgstr "حُفِظَت في الإشارات المرجعية"
+msgstr "حُفظت في الإشارات المرجعية"
 
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
-msgstr[0] "لم يُعثَر على أي نتيجة لـ \"{search_term}\""
-msgstr[1] "عُثِرَ على نتيجة واحدة لـ \"{search_term}\""
-msgstr[2] "عُثِرَ على نتيجتين لـ \"{search_term}\""
-msgstr[3] "عُثِرَ على {total_results} نتائج لـ \"{search_term}\""
-msgstr[4] "عُثِرَ على {total_results} نتيجةً لـ \"{search_term}\""
-msgstr[5] "عُثِرَ على {total_results} نتيجةٍ لـ \"{search_term}\""
+msgstr[0] "لم يُعثر على أيّ نتيجة لـ \"{search_term}\""
+msgstr[1] "عُثِر على نتيجة واحدة لـ \"{search_term}\""
+msgstr[2] "عُثِر على نتيجتين لـ \"{search_term}\""
+msgstr[3] "عُثِر على {total_results} نتائج لـ \"{search_term}\""
+msgstr[4] "عُثِر على {total_results} نتيجةً لـ \"{search_term}\""
+msgstr[5] "عُثِر على {total_results} نتيجةٍ لـ \"{search_term}\""
 
-#: xmodule/assets/library_content/public/js/library_content_edit.js:16
-#: xmodule/js/public/js/library_content_edit.js:16
+#: xmodule/assets/library_content/public/js/library_content_edit.js:44
+#: xmodule/js/public/js/library_content_edit.js:44
 msgid "Updating with latest library content"
 msgstr "جاري تحديث المحتوى"
 
@@ -5271,6 +5202,255 @@ msgstr "جاري تحديث المحتوى"
 #: xmodule/js/public/js/split_test_author_view.js:12
 msgid "Creating missing groups"
 msgstr "جاري إنشاء المجموعات الناقصة`"
+
+#: xmodule/assets/video/public/js/00_i18n.js:10
+#: xmodule/assets/video/public/js/09_play_pause_control.js:31
+#: xmodule/assets/video/public/js/09_play_pause_control.js:89
+#: xmodule/assets/video/public/js/09_play_skip_control.js:28
+msgid "Play"
+msgstr "تشغيل"
+
+#: xmodule/assets/video/public/js/00_i18n.js:11
+#: xmodule/assets/video/public/js/09_play_pause_control.js:79
+msgid "Pause"
+msgstr "إيقاف مؤقت"
+
+#: xmodule/assets/video/public/js/00_i18n.js:12
+msgid "Mute"
+msgstr "كتم الصوت"
+
+#: xmodule/assets/video/public/js/00_i18n.js:13
+msgid "Unmute"
+msgstr "إلغاء كتم الصوت"
+
+#: xmodule/assets/video/public/js/00_i18n.js:14
+#: xmodule/assets/video/public/js/04_video_full_screen.js:227
+msgid "Exit full browser"
+msgstr "الخروج من وضع ملء الشاشة"
+
+#: xmodule/assets/video/public/js/00_i18n.js:15
+#: xmodule/assets/video/public/js/04_video_full_screen.js:5
+#: xmodule/assets/video/public/js/04_video_full_screen.js:7
+#: xmodule/assets/video/public/js/04_video_full_screen.js:199
+msgid "Fill browser"
+msgstr "إدخال اسم المتصفّح "
+
+#: xmodule/assets/video/public/js/00_i18n.js:16
+#: xmodule/assets/video/public/js/08_video_speed_control.js:43
+msgid "Speed"
+msgstr "السرعة "
+
+#: xmodule/assets/video/public/js/00_i18n.js:17
+#: xmodule/assets/video/public/js/08_video_auto_advance_control.js:38
+#: xmodule/js/src/video/08_video_auto_advance_control.js:40
+msgid "Auto-advance"
+msgstr "تقدم تلقائي"
+
+#: xmodule/assets/video/public/js/00_i18n.js:18
+#: xmodule/assets/video/public/js/07_video_volume_control.js:70
+msgid "Volume"
+msgstr "الصوت "
+
+#. Translators: Volume level equals 0%.
+#: xmodule/assets/video/public/js/00_i18n.js:20
+msgid "Muted"
+msgstr "كتم الصوت"
+
+#. Translators: Volume level in range ]0,20]%
+#: xmodule/assets/video/public/js/00_i18n.js:22
+msgid "Very low"
+msgstr "منخفض جدّاً"
+
+#. Translators: Volume level in range ]20,40]%
+#: xmodule/assets/video/public/js/00_i18n.js:24
+msgid "Low"
+msgstr "منخفض"
+
+#. Translators: Volume level in range ]40,60]%
+#: xmodule/assets/video/public/js/00_i18n.js:26
+msgid "Average"
+msgstr "متوسّط"
+
+#. Translators: Volume level in range ]60,80]%
+#: xmodule/assets/video/public/js/00_i18n.js:28
+msgid "Loud"
+msgstr "عالٍ"
+
+#. Translators: Volume level in range ]80,99]%
+#: xmodule/assets/video/public/js/00_i18n.js:30
+msgid "Very loud"
+msgstr "عالٍ جداً"
+
+#. Translators: Volume level equals 100%.
+#: xmodule/assets/video/public/js/00_i18n.js:32
+msgid "Maximum"
+msgstr "الحدّ الأقصى"
+
+#: xmodule/assets/video/public/js/02_html5_video.js:82
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr ""
+"لا يمكن لهذا المتصفّح تشغيل الملفّات التي تحمل الامتداد .mp4 أو .ogg أو "
+".webm."
+
+#: xmodule/assets/video/public/js/02_html5_video.js:83
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "من فضلك جرِّب استخدام متصفح آخَر، على سبيل المثال، جوجل كروم."
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:22
+msgid "High Definition"
+msgstr "دقّة عالية"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:23
+#: xmodule/assets/video/public/js/05_video_quality_control.js:156
+msgid "off"
+msgstr "غير مفعّل"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:150
+msgid "on"
+msgstr "مفعّل"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:11
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:102
+msgid "Video position. Press space to toggle playback"
+msgstr "وضع الفيديو. اضغط على مسافة لتبديل التشغيل"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:299
+msgid "Video ended"
+msgstr "انتهى الفيديو"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:303
+msgid "Video position"
+msgstr "موقع الفيديو"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:319
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s ساعة"
+msgstr[1] "%(value)s ساعة"
+msgstr[2] "%(value)s ساعة"
+msgstr[3] "%(value)s ساعة"
+msgstr[4] "%(value)s ساعة"
+msgstr[5] "%(value)s ساعة"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:322
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s دقيقة"
+msgstr[1] "%(value)s دقيقة"
+msgstr[2] "%(value)s دقيقة"
+msgstr[3] "%(value)s دقيقة"
+msgstr[4] "%(value)s دقيقة"
+msgstr[5] "%(value)s دقيقة"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:325
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s ثانية"
+msgstr[1] "%(value)s ثانية"
+msgstr[2] "%(value)s ثانية"
+msgstr[3] "%(value)s ثانية"
+msgstr[4] "%(value)s ثانية"
+msgstr[5] "%(value)s ثانية"
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:68
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr ""
+"انقر على هذا الزر لكتم أو تشغيل صوت الفيديو. لرفع مستوى الصوت أو خفضه اضغط "
+"على زر \"أعلى\" أو \"أسفل\" من على لوحة المفاتيح."
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:69
+msgid "Adjust video volume"
+msgstr "ضبط مستوى صوت الفيديو"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:33
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr ""
+"اضغط على الزر \"أعلى\" للدخول إلى قائمة ضبط السرعة ومن ثم استخدام زريّ "
+"الأسهم \"أعلى\" و\"أسفل\" للانتقال بين السرعات المختلفة، ثم اضغط على زر "
+"\"إدخال\" لاعتماد السرعة المختارة."
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:37
+msgid "Adjust video speed"
+msgstr "ضبط سرعة الفيديو"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:268
+msgid "Video speed: "
+msgstr "سرعة الفيديو:"
+
+#: xmodule/assets/video/public/js/09_play_skip_control.js:77
+msgid "Skip"
+msgstr "تخطّي "
+
+#: xmodule/assets/video/public/js/09_poster.js:25
+msgid "Play video"
+msgstr "تشغيل الفيديو"
+
+#: xmodule/assets/video/public/js/09_skip_control.js:31
+msgid "Do not show again"
+msgstr "يُرجى عدم إظهار هذا مرّة أخرى."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:105
+msgid "Open language menu"
+msgstr "فتح قائمة اللغات"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:628
+msgid "Transcript will be displayed when you start playing the video."
+msgstr "سيظهر النص عند بدء تشغيل الفيديو"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:876
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr ""
+"سيؤدّي تفعيل رابط في هذه المجموعة إلى تقديم الفيديو نحو النقطة الزمنية "
+"الموافقة."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:879
+msgid "Video transcript"
+msgstr "نص الفيديو"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:882
+msgid "Start of transcript. Skip to the end."
+msgstr "بداية النص. تخط إلى النهاية."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:886
+msgid "End of transcript. Skip to the start."
+msgstr "نهاية النص. تخط إلى البداية."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:890
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
+" keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr ""
+"اضغط على الزر \"أعلى\" للدخول إلى قائمة ضبط اللغة ومن ثم استخدام زريّ الأسهم"
+" \"أعلى\" و\"أسفل\" للتنقل بين خيارات اللغات المختلفة، ثم اضغط على زر "
+"\"إدخال\" لاعتماد اللغة المختارة."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1246
+msgid "Hide closed captions"
+msgstr "إخفاء الشروحات التي تم إغلاقها"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1264
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr "(ستُعرض العناوين الفرعيّة مع بدء عرض مقطع الفيديو.)"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1271
+msgid "Turn on closed captioning"
+msgstr "تشغيل العناوين الفرعية المغلقة"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1379
+msgid "Turn on transcripts"
+msgstr "عرض نص الكلام"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1394
+msgid "Turn off transcripts"
+msgstr "إخفاء نص الكلام"
 
 #: xmodule/assets/word_cloud/src/js/word_cloud_main.js:258
 msgid "{start_strong}{total}{end_strong} words submitted in total."
@@ -5298,7 +5478,7 @@ msgstr "إخفاء الإيضاحات"
 
 #: xmodule/js/src/annotatable/display.js:300
 msgid "Expand Instructions"
-msgstr "كَبِّر التعليمات"
+msgstr "وسِّع التعليمات"
 
 #: xmodule/js/src/annotatable/display.js:302
 msgid "Collapse Instructions"
@@ -5314,89 +5494,89 @@ msgstr "الرد على الإيضاحات"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:235
+#: xmodule/js/src/capa/display.js:248
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
-msgstr[0] "لا درجات مُمكِنة (مُقيَّم، النتائج مخفية)"
-msgstr[1] "درجة واحدة مُمكِنة (مُقيَّم، النتائج مخفية)"
-msgstr[2] "درجتان مُمكِنتان (مُقيَّم، النتائج مخفية)"
-msgstr[3] "{num_points} درجات مُمكِنة (مُقيَّم، النتائج مخفية)"
-msgstr[4] "{num_points} درجةً مُمكِنة (مُقيَّم، النتائج مخفية)"
-msgstr[5] "{num_points} درجةٍ مُمكِنة (مُقيَّم، النتائج مخفية)"
+msgstr[0] "لا درجات ممكنة (مقيّم، النتائج مخفية)"
+msgstr[1] "درجة واحدة ممكنة (مقيّم، النتائج مخفية)"
+msgstr[2] "درجتان ممكنتان (مقيّم، النتائج مخفية)"
+msgstr[3] "{num_points} درجات ممكنة (مقيّم، النتائج مخفية)"
+msgstr[4] "{num_points} درجة ممكنة (مقيّم، النتائج مخفية)"
+msgstr[5] "{num_points} درجة ممكنة (مقيّم، النتائج مخفية)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:242
+#: xmodule/js/src/capa/display.js:255
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
-msgstr[0] "لا درجات مُمكِنة (غير مُقيَّم، النتائج مخفية)"
-msgstr[1] "درجة واحدة مُمكِنة (غير مُقيَّم، النتائج مخفية)"
-msgstr[2] "درجتان مُمكِنتان (غير مُقيَّم، النتائج مخفية)"
-msgstr[3] "{num_points} درجات مُمكِنة (غير مُقيَّم، النتائج مخفية)"
-msgstr[4] "{num_points} درجةً مُمكِنة (غير مُقيَّم، النتائج مخفية)"
-msgstr[5] "{num_points} درجةٍ مُمكِنة (غير مُقيَّم، النتائج مخفية)"
+msgstr[0] "لا درجات ممكنة (غير مقيّم، النتائج مخفية)"
+msgstr[1] "درجة واحدة ممكنة (غير مقيّم، النتائج مخفية)"
+msgstr[2] "درجتان ممكنتان (غير مقيّم، النتائج مخفية)"
+msgstr[3] "{num_points} درجات ممكنة (غير مقيّم، النتائج مخفية)"
+msgstr[4] "{num_points} درجة ممكنة (غير مقيّم، النتائج مخفية)"
+msgstr[5] "{num_points} درجة ممكنة (غير مقيّم، النتائج مخفية)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:253
+#: xmodule/js/src/capa/display.js:266
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
-msgstr[0] "لا درجات مُمكِنة (مُقيَّم)"
-msgstr[1] "درجة واحدة مُمكِنة (مُقيَّم)"
-msgstr[2] "درجتان مُمكِنتان (مُقيَّم)"
-msgstr[3] "{num_points} درجات مُمكِنة (مُقيَّم)"
-msgstr[4] "{num_points} درجةً مُمكِنة (مُقيَّم)"
-msgstr[5] "{num_points} درجةٍ مُمكِنة (مُقيَّم)"
+msgstr[0] "لا درجات ممكنة (مقيّم)"
+msgstr[1] "درجة واحدة ممكنة (مقيّم)"
+msgstr[2] "درجتان ممكنتان (مقيّم)"
+msgstr[3] "{num_points} درجات ممكنة (مقيّم)"
+msgstr[4] "{num_points} درجة ممكنة (مقيّم)"
+msgstr[5] "{num_points} درجة ممكنة (مقيّم)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:259
+#: xmodule/js/src/capa/display.js:273
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "لا درجات مُمكِنة (غير مُقيَّم)"
-msgstr[1] "درجة واحدة مُمكِنة (غير مُقيَّم)"
-msgstr[2] "درجتان مُمكِنتان (غير مُقيَّم)"
-msgstr[3] "{num_points} درجات مُمكِنة (غير مُقيَّم)"
-msgstr[4] "{num_points} درجةً مُمكِنة (غير مُقيَّم)"
-msgstr[5] "{num_points} درجةٍ مُمكِنة (غير مُقيَّم)"
+msgstr[0] "لا درجات ممكنة (غير مقيّم)"
+msgstr[1] "درجة واحدة ممكنة (غير مقيّم)"
+msgstr[2] "درجتان ممكنتان (غير مقيّم)"
+msgstr[3] "{num_points} درجات ممكنة (غير مقيّم)"
+msgstr[4] "{num_points} درجة ممكنة (غير مقيّم)"
+msgstr[5] "{num_points} درجة ممكنة (غير مقيّم)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:269
+#: xmodule/js/src/capa/display.js:284
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "صفر {earned}\\{possible} (مُقيَّم)"
-msgstr[1] "درجة واحدة {earned}\\{possible} (مُقيَّم)"
-msgstr[2] "درجتان {earned}/{possible} (مُقيَّم)"
-msgstr[3] "{earned}/{possible} درجات (مُقيَّم)"
-msgstr[4] "{earned}/{possible} درجة (مُقيَّم)"
-msgstr[5] "{earned}/{possible} درجة (مُقيَّم)"
+msgstr[0] "صفر {earned}\\{possible} (مقيّم)"
+msgstr[1] "درجة واحدة {earned}\\{possible} (مقيّم)"
+msgstr[2] "درجتان {earned}/{possible} (مقيّم)"
+msgstr[3] "{earned}/{possible} درجات (مقيّم)"
+msgstr[4] "{earned}/{possible} درجة (مقيّم)"
+msgstr[5] "{earned}/{possible} درجة (مقيّم)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:276
+#: xmodule/js/src/capa/display.js:292
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "صفر {earned}/{possible} (غير مُقيَّم)"
-msgstr[1] "درجة واحدة {earned}/{possible} (غير مُقيَّم)"
-msgstr[2] "درجتان {earned}/{possible} (غير مُقيَّم)"
-msgstr[3] "{earned}/{possible} درجات (غير مُقيَّم)"
-msgstr[4] "{earned}/{possible} درجة (غير مُقيَّم)"
-msgstr[5] "{earned}/{possible} درجة (غير مُقيَّم)"
+msgstr[0] "صفر {earned}/{possible} (غير مقيّم)"
+msgstr[1] "درجة واحدة {earned}/{possible} (غير مقيّم)"
+msgstr[2] "درجتان {earned}/{possible} (غير مقيّم)"
+msgstr[3] "{earned}/{possible} درجات (غير مقيّم)"
+msgstr[4] "{earned}/{possible} درجة (غير مقيّم)"
+msgstr[5] "{earned}/{possible} درجة (غير مقيّم)"
 
-#: xmodule/js/src/capa/display.js:349
+#: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr "جاري التقييم، يرجى تحديث الصفحة"
 
-#: xmodule/js/src/capa/display.js:458
+#: xmodule/js/src/capa/display.js:486
 msgid "Could not grade your answer. The submission was aborted."
-msgstr "تعذر التقييم، تم إيقاف عملية الإرسال قبل اكتمالها"
+msgstr "تعذّر تقييم جوابك. أُحبِطت عملية الإرسال قبل اكتمالها."
 
-#: xmodule/js/src/capa/display.js:522
+#: xmodule/js/src/capa/display.js:567
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5405,33 +5585,33 @@ msgstr ""
 "تم إيقاف عملية التسليم ! نعتذر لا يدعم متصفحك خاصية تحميل الملفات، يرجى "
 "استخدام متصفح Chrome أو Safari "
 
-#: xmodule/js/src/capa/display.js:548
+#: xmodule/js/src/capa/display.js:595
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "تم إرسال  {filename}؛ يسمح برفع ملفات {allowedFiles} فقط"
 
-#: xmodule/js/src/capa/display.js:561
+#: xmodule/js/src/capa/display.js:608
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "تجاوز حجم الملف {filename} الحد المسموح (max size: {maxSize}MB)."
 
-#: xmodule/js/src/capa/display.js:577
+#: xmodule/js/src/capa/display.js:624
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "تعذر إرسال الملفات المطلوبة: {requiredFiles}"
 
-#: xmodule/js/src/capa/display.js:587
+#: xmodule/js/src/capa/display.js:634
 msgid "You did not select any files to submit."
 msgstr "لم تحدد أي ملفات لتقديمها."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:681
+#: xmodule/js/src/capa/display.js:728
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
-#: xmodule/js/src/capa/display.js:712
+#: xmodule/js/src/capa/display.js:762
 msgid "This problem has been reset."
 msgstr "تم إعادة ضبط هذه المسألة."
 
-#: xmodule/js/src/capa/display.js:1018
+#: xmodule/js/src/capa/display.js:1071
 msgid "unsubmitted"
 msgstr "لم يتم التقديم"
 
@@ -5735,19 +5915,19 @@ msgstr "الإعداد الافتراضي"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:455
 msgid "Delete column"
-msgstr "حذف العمود"
+msgstr "احذف العمود"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:460
 msgid "Delete row"
-msgstr "حذف الصف"
+msgstr "احذف الصف"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:465
 msgid "Delete table"
-msgstr "حذف الجدول"
+msgstr "احذف الجدول"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -5786,7 +5966,7 @@ msgstr "خصائص المستند"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:495
 msgid "Edit HTML"
-msgstr "تعديل لغة HTML"
+msgstr "عدِّل لغة HTML"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -5797,7 +5977,6 @@ msgstr "تعديل لغة HTML"
 #: cms/templates/js/course_info_update.underscore:20
 #: cms/templates/js/group-configuration-details.underscore:45
 #: cms/templates/js/partition-group-details.underscore:28
-#: cms/templates/js/show-textbook.underscore:40
 #: cms/templates/js/signatory-details.underscore:5
 #: cms/templates/js/xblock-string-field-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:834
@@ -5838,13 +6017,13 @@ msgstr "إيجاد واستبدال"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:530
 msgid "Find next"
-msgstr "إيجاد التالي"
+msgstr "اعثُر على التالي"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:535
 msgid "Find previous"
-msgstr "إيجاد السابق"
+msgstr "اعثُر على السابق"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -5912,55 +6091,55 @@ msgstr "محاذاة أفقية"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:590
 msgid "Header 1"
-msgstr "الترويسة 1"
+msgstr "الرأس 1"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:595
 msgid "Header 2"
-msgstr "الترويسة 2"
+msgstr "الرأس 2"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:600
 msgid "Header 3"
-msgstr "الترويسة 3"
+msgstr "الرأس 3"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:605
 msgid "Header 4"
-msgstr "الترويسة 4"
+msgstr "الرأس 4"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:610
 msgid "Header 5"
-msgstr "الترويسة 5"
+msgstr "الرأس 5"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:615
 msgid "Header 6"
-msgstr "الترويسة 6"
+msgstr "الرأس 6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:620
 msgid "Header cell"
-msgstr "خليّة الترويسة"
+msgstr "خلية الرأس"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
+#: xmodule/js/src/html/edit.js:625
 msgid "Header"
-msgstr "ترويسة"
+msgstr "رأس"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:630
 msgid "Headers"
-msgstr "ترويسات"
+msgstr "رؤوس"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6098,19 +6277,19 @@ msgstr "إضافة"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:770
 msgid "Insert/edit image"
-msgstr "إضافة/تعديل صورة"
+msgstr "أضِف أو عدِّل الصورة"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:775
 msgid "Insert/edit link"
-msgstr "إضافة/تعديل رابط"
+msgstr "أضِف أو عدِّل الرابط"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:780
 msgid "Insert/edit video"
-msgstr "إضافة/تعديل فيديو"
+msgstr "أضِف أو عدِّل الفيديو"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6128,7 +6307,7 @@ msgstr "ضبط الهامشين"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:795
 msgid "Keywords"
-msgstr "كلمات مِفتاحية"
+msgstr "كلمات مفتاحية"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6170,7 +6349,7 @@ msgstr "مطابقة حالة الأحرف"
 #. browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:830
 msgid "Merge cells"
-msgstr "دمج الخلايا"
+msgstr "ادمِج الخلايا"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6644,7 +6823,7 @@ msgstr ""
 #. displayed in the browser when a user needs to edit HTML
 #: xmodule/js/src/html/edit.js:1262
 msgid "Insert/Edit Image"
-msgstr "إضافة/تعديل صورة"
+msgstr "أضِف أو عدِّل الصورة"
 
 #: xmodule/js/src/lti/lti.js:22
 msgid ""
@@ -6652,9 +6831,9 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
-"انقر ’موافق‘ لإرسال اسم المستخدم الذي أدخلته وعنوان بريدك الإلكتروني إلى التطبيق.\n"
+"انقُر على \"موافق\" لإرسال اسم المستخدم وعنوان البريد الإلكتروني إلى تطبيق تابع لجهة خارجية.\n"
 "\n"
-"انقر ’إلغاء‘ للعودة إلى هذه الصفحة دون إرسال معلوماتك."
+"انقُر على \"ألغِ\" للعودة إلى هذه الصفحة دون إرسال معلوماتك."
 
 #: xmodule/js/src/lti/lti.js:25
 msgid ""
@@ -6662,9 +6841,9 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
-"انقر ’موافق‘ لإرسال اسم المستخدم الذي أدخلته إلى التطبيق.\n"
+"انقر على \"موافق\" لإرسال اسم المستخدم الخاص بك إلى تطبيق تابع لجهة خارجية.\n"
 "\n"
-" انقر ’إلغاء‘ للعودة إلى هذه الصفحة دون إرسال معلوماتك."
+"انقُر على \"ألغِ\" للعودة إلى هذه الصفحة دون إرسال معلوماتك."
 
 #: xmodule/js/src/lti/lti.js:28
 msgid ""
@@ -6672,46 +6851,9 @@ msgid ""
 "\n"
 "Click Cancel to return to this page without sending your information."
 msgstr ""
-"انقر ’موافق‘ لإرسال عنوان بريدك الإلكتروني إلى التطبيق.\n"
+"انقر على \"موافق\" لإرسال عنوان بريدك الإلكتروني إلى تطبق تابع لجهة خارجية.\n"
 "\n"
-"انقر ’إلغاء‘ للعودة إلى هذه الصفحة دون إرسال معلوماتك."
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
-msgid "incorrect"
-msgstr "خاطئ"
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
-#: xmodule/js/src/problem/edit.js:47
-msgid "correct"
-msgstr "صحيح"
-
-#: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
-msgid "answer"
-msgstr "الإجابة"
-
-#: xmodule/js/src/problem/edit.js:53
-msgid "Short explanation"
-msgstr "شرح مختصر"
-
-#: xmodule/js/src/problem/edit.js:120
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-"إن كنت تستخدم المحرِّر المتقدِّم، فهذه المشكلة ستُحوَّل إلى ملف XML ولن تستطيع الرجوع إلى واجهة المحرِّر المبسَّط .\n"
-"\n"
-"هل تود الانتقال إلى المحرِّر المتقدِّم وتحويل هذه المشكلة إلى ملف XML؟ "
-
-#: xmodule/js/src/problem/edit.js:406 xmodule/js/src/problem/edit.js:439
-#: xmodule/js/src/problem/edit.js:502
-msgid ""
-"An answer option has been left blank. Please review and edit the component."
-msgstr "تم ترك احدى الخيارات فارعة, يرجى المراجعة والتعديل "
-
-#: xmodule/js/src/problem/edit.js:714
-msgid "Explanation"
-msgstr "الشرح"
+"انقر على \"ألغِ\" للعودة إلى هذه الصفحة دون إرسال معلوماتك."
 
 #: xmodule/js/src/sequence/display.js:406
 msgid ""
@@ -6720,254 +6862,6 @@ msgid ""
 msgstr ""
 "نأسف لحدوث خطأ في التسلسل! لا يمكنك الانتقال إلى التبويب %(tab_name)s في "
 "النموذج التسلسلي الحالي. يُرجى الاتصال بطاقم المساق."
-
-#: xmodule/js/src/video/00_i18n.js:15
-#: xmodule/js/src/video/09_play_pause_control.js:30
-#: xmodule/js/src/video/09_play_pause_control.js:88
-#: xmodule/js/src/video/09_play_skip_control.js:30
-msgid "Play"
-msgstr "تشغيل"
-
-#: xmodule/js/src/video/00_i18n.js:16
-#: xmodule/js/src/video/09_play_pause_control.js:78
-msgid "Pause"
-msgstr "إيقاف مؤقت"
-
-#: xmodule/js/src/video/00_i18n.js:17
-msgid "Mute"
-msgstr "كتم الصوت"
-
-#: xmodule/js/src/video/00_i18n.js:18
-msgid "Unmute"
-msgstr "إلغاء كتم الصوت"
-
-#: xmodule/js/src/video/00_i18n.js:19
-#: xmodule/js/src/video/04_video_full_screen.js:229
-msgid "Exit full browser"
-msgstr "الخروج من وضع ملء الشاشة"
-
-#: xmodule/js/src/video/00_i18n.js:20
-#: xmodule/js/src/video/04_video_full_screen.js:7
-#: xmodule/js/src/video/04_video_full_screen.js:9
-#: xmodule/js/src/video/04_video_full_screen.js:201
-msgid "Fill browser"
-msgstr "إدخال اسم المتصفّح "
-
-#: xmodule/js/src/video/00_i18n.js:21
-#: xmodule/js/src/video/08_video_speed_control.js:46
-msgid "Speed"
-msgstr "السرعة "
-
-#: xmodule/js/src/video/00_i18n.js:22
-#: xmodule/js/src/video/08_video_auto_advance_control.js:40
-msgid "Auto-advance"
-msgstr "تقدم تلقائي"
-
-#: xmodule/js/src/video/00_i18n.js:23
-#: xmodule/js/src/video/07_video_volume_control.js:72
-msgid "Volume"
-msgstr "الصوت "
-
-#. Translators: Volume level equals 0%.
-#: xmodule/js/src/video/00_i18n.js:25
-msgid "Muted"
-msgstr "كتم الصوت"
-
-#. Translators: Volume level in range ]0,20]%
-#: xmodule/js/src/video/00_i18n.js:27
-msgid "Very low"
-msgstr "منخفض جدّاً"
-
-#. Translators: Volume level in range ]20,40]%
-#: xmodule/js/src/video/00_i18n.js:29
-msgid "Low"
-msgstr "منخفض"
-
-#. Translators: Volume level in range ]40,60]%
-#: xmodule/js/src/video/00_i18n.js:31
-msgid "Average"
-msgstr "متوسّط"
-
-#. Translators: Volume level in range ]60,80]%
-#: xmodule/js/src/video/00_i18n.js:33
-msgid "Loud"
-msgstr "عالٍ"
-
-#. Translators: Volume level in range ]80,99]%
-#: xmodule/js/src/video/00_i18n.js:35
-msgid "Very loud"
-msgstr "عالٍ جداً"
-
-#. Translators: Volume level equals 100%.
-#: xmodule/js/src/video/00_i18n.js:37
-msgid "Maximum"
-msgstr "الحدّ الأقصى"
-
-#: xmodule/js/src/video/02_html5_video.js:87
-msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr ""
-"لا يمكن لهذا المتصفّح تشغيل الملفّات التي تحمل الامتداد .mp4 أو .ogg أو "
-".webm."
-
-#: xmodule/js/src/video/02_html5_video.js:88
-msgid "Try using a different browser, such as Google Chrome."
-msgstr "من فَضلِك جَرِّب استخدام مُتصفِّح آخَر، على سبيل المثال، جوجل كروم."
-
-#: xmodule/js/src/video/05_video_quality_control.js:25
-msgid "High Definition"
-msgstr "دقّة عالية"
-
-#: xmodule/js/src/video/05_video_quality_control.js:26
-#: xmodule/js/src/video/05_video_quality_control.js:159
-msgid "off"
-msgstr "غير مفعّل"
-
-#: xmodule/js/src/video/05_video_quality_control.js:153
-msgid "on"
-msgstr "مفعّل"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:16
-#: xmodule/js/src/video/06_video_progress_slider.js:107
-msgid "Video position. Press space to toggle playback"
-msgstr "وضع الفيديو. اضغط على مسافة لتبديل التشغيل"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:304
-msgid "Video ended"
-msgstr "انتهى الفيديو"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:308
-msgid "Video position"
-msgstr "موقع الفيديو"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:324
-msgid "%(value)s hour"
-msgid_plural "%(value)s hours"
-msgstr[0] "%(value)s ساعة"
-msgstr[1] "%(value)s ساعة"
-msgstr[2] "%(value)s ساعة"
-msgstr[3] "%(value)s ساعة"
-msgstr[4] "%(value)s ساعة"
-msgstr[5] "%(value)s ساعة"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:327
-msgid "%(value)s minute"
-msgid_plural "%(value)s minutes"
-msgstr[0] "%(value)s دقيقة"
-msgstr[1] "%(value)s دقيقة"
-msgstr[2] "%(value)s دقيقة"
-msgstr[3] "%(value)s دقيقة"
-msgstr[4] "%(value)s دقيقة"
-msgstr[5] "%(value)s دقيقة"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:330
-msgid "%(value)s second"
-msgid_plural "%(value)s seconds"
-msgstr[0] "%(value)s ثانية"
-msgstr[1] "%(value)s ثانية"
-msgstr[2] "%(value)s ثانية"
-msgstr[3] "%(value)s ثانية"
-msgstr[4] "%(value)s ثانية"
-msgstr[5] "%(value)s ثانية"
-
-#: xmodule/js/src/video/07_video_volume_control.js:70
-msgid ""
-"Click on this button to mute or unmute this video or press UP or DOWN "
-"buttons to increase or decrease volume level."
-msgstr ""
-"انقر على هذا الزر لكتم أو تشغيل صوت الفيديو. لرفع مستوى الصوت أو خفضه اضغط "
-"على زر \"أعلى\" أو \"أسفل\" من على لوحة المفاتيح."
-
-#: xmodule/js/src/video/07_video_volume_control.js:71
-msgid "Adjust video volume"
-msgstr "ضبط مستوى صوت الفيديو"
-
-#: xmodule/js/src/video/08_video_speed_control.js:36
-msgid ""
-"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
-"navigate the different speeds, then press ENTER to change to the selected "
-"speed."
-msgstr ""
-"اضغط على الزر \"أعلى\" للدخول إلى قائمة ضبط السرعة ومن ثم استخدام زريّ "
-"الأسهم \"أعلى\" و\"أسفل\" للانتقال بين السرعات المختلفة، ثم اضغط على زر "
-"\"إدخال\" لاعتماد السرعة المختارة."
-
-#: xmodule/js/src/video/08_video_speed_control.js:40
-msgid "Adjust video speed"
-msgstr "ضبط سرعة الفيديو"
-
-#: xmodule/js/src/video/08_video_speed_control.js:271
-msgid "Video speed: "
-msgstr "سرعة الفيديو:"
-
-#: xmodule/js/src/video/09_play_skip_control.js:79
-msgid "Skip"
-msgstr "تخطّي "
-
-#: xmodule/js/src/video/09_poster.js:31
-msgid "Play video"
-msgstr "تشغيل الفيديو"
-
-#: xmodule/js/src/video/09_skip_control.js:33
-msgid "Do not show again"
-msgstr "يُرجى عدم إظهار هذا مرّة أخرى."
-
-#: xmodule/js/src/video/09_video_caption.js:107
-msgid "Open language menu"
-msgstr "فتح قائمة اللغات"
-
-#: xmodule/js/src/video/09_video_caption.js:630
-msgid "Transcript will be displayed when you start playing the video."
-msgstr "سيظهر النص عند بدء تشغيل الفيديو"
-
-#: xmodule/js/src/video/09_video_caption.js:878
-msgid ""
-"Activating a link in this group will skip to the corresponding point in the "
-"video."
-msgstr ""
-"سيؤدّي تفعيل رابط في هذه المجموعة إلى تقديم الفيديو نحو النقطة الزمنية "
-"الموافقة."
-
-#: xmodule/js/src/video/09_video_caption.js:881
-msgid "Video transcript"
-msgstr "نص الفيديو"
-
-#: xmodule/js/src/video/09_video_caption.js:884
-msgid "Start of transcript. Skip to the end."
-msgstr "بداية النص. تخط إلى النهاية."
-
-#: xmodule/js/src/video/09_video_caption.js:888
-msgid "End of transcript. Skip to the start."
-msgstr "نهاية النص. تخط إلى البداية."
-
-#: xmodule/js/src/video/09_video_caption.js:892
-msgid ""
-"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
-" keys to navigate language options. Press ENTER to change to the selected "
-"language."
-msgstr ""
-"اضغط على الزر \"أعلى\" للدخول إلى قائمة ضبط اللغة ومن ثم استخدام زريّ الأسهم"
-" \"أعلى\" و\"أسفل\" للتنقل بين خيارات اللغات المختلفة، ثم اضغط على زر "
-"\"إدخال\" لاعتماد اللغة المختارة."
-
-#: xmodule/js/src/video/09_video_caption.js:1248
-msgid "Hide closed captions"
-msgstr "إخفاء الشروحات التي تم إغلاقها"
-
-#: xmodule/js/src/video/09_video_caption.js:1266
-msgid "(Caption will be displayed when you start playing the video.)"
-msgstr "(ستُعرض العناوين الفرعيّة مع بدء عرض مقطع الفيديو.)"
-
-#: xmodule/js/src/video/09_video_caption.js:1273
-msgid "Turn on closed captioning"
-msgstr "تشغيل العناوين الفرعية المغلقة"
-
-#: xmodule/js/src/video/09_video_caption.js:1381
-msgid "Turn on transcripts"
-msgstr "عرض نص الكلام"
-
-#: xmodule/js/src/video/09_video_caption.js:1396
-msgid "Turn off transcripts"
-msgstr "إخفاء نص الكلام"
 
 #: cms/templates/js/access-editor.underscore:3
 msgid "Limit Access"
@@ -6979,9 +6873,9 @@ msgid ""
 "minimum completion percentage to limit access to this subsection. Allowed "
 "values are 0-100"
 msgstr ""
-"حَدِّد قِسماً فرعياً كَمُتَطَلَّب وأدخِل النسبة المئوية الأدنى للدرجة والحد "
-"الأدنى لنسبة الإنجاز لتقييد الوصول إلى هذا القِسم الفرعي، القِيَم المسموح "
-"بها هي 0-100"
+"حدِّد قِسماً فرعياً كمتطلب وأدخِل النسبة المئوية الأدنى للدرجة والحدّ الأدنى"
+" لنسبة الإنجاز لتقييد الوصول إلى هذا القِسم الفرعي، القِيَم المسموح بها هي "
+"0-100"
 
 #: cms/templates/js/access-editor.underscore:11
 msgid "Prerequisite:"
@@ -7002,14 +6896,12 @@ msgstr "الحد الأدنى من الإنجاز:"
 #: cms/templates/js/access-editor.underscore:35
 msgid "The minimum score percentage must be a whole number between 0 and 100."
 msgstr ""
-"يَجِب أنْ يكون الحدّ الأدنى للنسبة المئوية للدرجة عدداً صحيحاً بين 0 و 100."
+"يجب أن يكون الحدّ الأدنى للنسبة المئوية للدرجة عدداً صحيحاً بين 0 و 100."
 
 #: cms/templates/js/access-editor.underscore:38
 msgid ""
 "The minimum completion percentage must be a whole number between 0 and 100."
-msgstr ""
-"يجب أن تكون النسبة المئوية للحد الأدنى من الإنجاز عدداً صحيحاً يتراوح بين 0 "
-"و 100."
+msgstr "يجب أن يكون الحدّ الأدنى لنسبة الإنجاز عدداً صحيحاً بين 0 و 100."
 
 #: cms/templates/js/access-editor.underscore:43
 msgid "Use as a Prerequisite"
@@ -7017,7 +6909,7 @@ msgstr "استخدمه كمتطلّب أساسي"
 
 #: cms/templates/js/access-editor.underscore:51
 msgid "Make this subsection available as a prerequisite to other content"
-msgstr "أَتِح هذا القِسم الفُرعي كَمُتَطَلَّب مُسبَق لِمُحتَوى آخَر"
+msgstr "أتِح هذا القِسم الفرعي كمتطلب مسبق لمحتوى آخَر"
 
 #: cms/templates/js/active-video-upload-list.underscore:14
 msgid "Active Uploads"
@@ -7037,7 +6929,7 @@ msgstr "أضِف مُكوّناً:"
 
 #: cms/templates/js/add-xblock-component-button.underscore:10
 msgid "Beta"
-msgstr "نُسخة تَجريبية"
+msgstr "نسخة تجريبية"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
@@ -7158,7 +7050,7 @@ msgstr "عنوان المساق"
 #: cms/templates/js/certificate-details.underscore:28
 #: cms/templates/js/certificate-editor.underscore:30
 msgid "Course Title Override"
-msgstr "استَبدِل عُنوان المُقَرَّر"
+msgstr "استبدِل عنوان المساق"
 
 #: cms/templates/js/certificate-details.underscore:36
 msgid "Course Number"
@@ -7166,12 +7058,12 @@ msgstr "رقم المساق "
 
 #: cms/templates/js/certificate-details.underscore:42
 msgid "Course Number Override"
-msgstr "استَبدِل رقم المُقَرَّر"
+msgstr "استبدِل رقم المساق"
 
 #: cms/templates/js/certificate-details.underscore:53
 #: cms/templates/js/certificate-editor.underscore:36
 msgid "Certificate Signatories"
-msgstr "الموقّعون على الشهادة"
+msgstr "المُوقِّعون على الشهادة"
 
 #: cms/templates/js/certificate-details.underscore:55
 #: cms/templates/js/certificate-editor.underscore:38
@@ -7220,7 +7112,7 @@ msgstr "إضافة مُوَقّع إضافي"
 
 #: cms/templates/js/certificate-editor.underscore:42
 msgid "(Add signatories for a certificate)"
-msgstr "(إضافة موقِّعين على شهادة معيّنة)"
+msgstr "(أضِف مُوقِّعين على الشهادة)"
 
 #: cms/templates/js/certificate-web-preview.underscore:1
 msgid "Choose mode"
@@ -7395,7 +7287,7 @@ msgstr "اسم المؤسسة"
 
 #: cms/templates/js/course-instructor-details.underscore:17
 msgid "Please add the institute where the instructor is associated"
-msgstr "الرجاء إضافة المعهد الذي ينتسب له المعلم"
+msgstr "من فضلك أضِف المعهد الذي ينتسب إليه المعلم"
 
 #: cms/templates/js/course-instructor-details.underscore:21
 msgid "Biography"
@@ -7425,9 +7317,7 @@ msgstr "رابط صورة المعلّم"
 msgid ""
 "Please add a photo of the instructor (Note: only JPEG or PNG format "
 "supported)"
-msgstr ""
-"مِن فَضلِك أضِف صورةً للمُعَلِّم (مُلاحَظة: يَدعَم الصور بِنَسَق JPEG أو PNG"
-" فقط)"
+msgstr "من فضلك أضِف صورة للمعلم (ملاحظة: يدعم الصور بنَسَق JPEG أو PNG فقط)"
 
 #: cms/templates/js/course-instructor-details.underscore:36
 msgid "Upload Photo"
@@ -7440,7 +7330,7 @@ msgstr "وُسوم المساق"
 #: cms/templates/js/course-manage-tags.underscore:7
 #: cms/templates/js/tag-list.underscore:28
 msgid "Manage tags"
-msgstr "أَدِر الوُسوم"
+msgstr "أدِر الوُسوم"
 
 #: cms/templates/js/course-outline.underscore:48
 #, python-format
@@ -7456,8 +7346,8 @@ msgid ""
 "Hidden in the course outline, but sections are accessible for your learners "
 "through their separate link."
 msgstr ""
-"مَخفِيّة في خُطَّة المُقَرَّر، ولكن يُمكِن للمُتَعَلِّمين عندك أنْ يَصِلوا "
-"للأقسام مِن خلال روابِطَ مُنفَصِلة خاصّة بهم."
+"مخفية في خطة المساق، ولكن يمكن للمتعلمين عندك أن يَصِلوا للأقسام من خلال "
+"روابط منفصلة خاصة بهم."
 
 #: cms/templates/js/course-outline.underscore:63
 msgid ""
@@ -7501,7 +7391,7 @@ msgstr "اختبار تهيئة"
 
 #: cms/templates/js/course-outline.underscore:116
 msgid "Practice proctored Exam"
-msgstr "جَرِّب خوض امتحان مُراقَب"
+msgstr "جرِّب خوض امتحان مُراقَب"
 
 #: cms/templates/js/course-outline.underscore:118
 msgid "Proctored Exam"
@@ -7509,13 +7399,13 @@ msgstr "امتحان مراقَب"
 
 #: cms/templates/js/course-outline.underscore:122
 msgid "Timed Exam"
-msgstr "امتِحان مُحَدَّد الوقت"
+msgstr "امتحان محدّد الوقت"
 
 #: cms/templates/js/course-outline.underscore:135
 #: cms/templates/js/xblock-outline.underscore:11
 #, python-format
 msgid "Collapse/Expand this %(xblock_type)s"
-msgstr "وسِّع/اطوِ هذه %(xblock_type)s"
+msgstr "وسِّع / اطوِ هذه %(xblock_type)s"
 
 #: cms/templates/js/course-outline.underscore:148
 #: cms/templates/js/course-outline.underscore:153
@@ -7524,7 +7414,7 @@ msgstr "اسم العرض"
 
 #: cms/templates/js/course-outline.underscore:169
 msgid "Discussions enabled"
-msgstr "فُعِّلَت المُناقَشات"
+msgstr "فُعِّلت المناقشات"
 
 #: cms/templates/js/course-outline.underscore:176
 #: cms/templates/js/course-outline.underscore:177
@@ -7541,11 +7431,11 @@ msgstr "ضبط الإعدادات"
 #: cms/templates/js/tag-count.underscore:2
 #: cms/templates/js/tag-count.underscore:5
 msgid "Manage Tags"
-msgstr "أَدِر الوُسوم"
+msgstr "أدِر الوُسوم"
 
 #: cms/templates/js/course-outline.underscore:220
 msgid "Copy to Clipboard"
-msgstr "انسَخ إلى الحافظة"
+msgstr "انسخ إلى الحافظة"
 
 #: cms/templates/js/course-outline.underscore:225
 #: cms/templates/js/course-outline.underscore:248
@@ -7594,7 +7484,7 @@ msgstr "مقيَّم بدرجة:"
 #: cms/templates/js/course-outline.underscore:325
 #: cms/templates/js/course-outline.underscore:355
 msgid "Due:"
-msgstr "يُستَحَقُّ في:"
+msgstr "يُستَحق في:"
 
 #: cms/templates/js/course-outline.underscore:410
 msgid "Subsection is hidden after course end date"
@@ -7614,8 +7504,8 @@ msgid ""
 "This subsection is configured as \\\"%(gradingType)s\\\", which doesn't "
 "exist in the current grading policy."
 msgstr ""
-"أٌعِدَّ هذا القِسم الفرعي كـ \\\"%(gradingType)s\\\" ، وهو إعداد غير موجود "
-"في سياسة التقييم الحالية."
+"أٌعِدّ هذا القسم الفرعي كـ \\\"%(gradingType)s\\\" ، وهو إعداد غير موجود في "
+"سياسة التقييم الحالية."
 
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
@@ -7645,11 +7535,11 @@ msgstr "ماذا يوجد في حافظتك؟"
 
 #: cms/templates/js/course-settings-learning-fields.underscore:2
 msgid "Learning Outcome"
-msgstr "المُخرَجات التَعَلُّمية"
+msgstr "المُخرَجات التعلّمية"
 
 #: cms/templates/js/course-settings-learning-fields.underscore:3
 msgid "Add a learning outcome here"
-msgstr "أضِف مُخرَج تَعَلُّمٍ هنا"
+msgstr "أضِف مُخرَج تعلّم هنا"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
 msgid "Press discard changes to discard your changes."
@@ -7686,7 +7576,7 @@ msgstr "مشاركة الفيديو"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
-msgstr "اِعرِف المَزيد"
+msgstr "اعرف المزيد"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:3
 msgid "Transcript Turnaround"
@@ -7694,7 +7584,7 @@ msgstr "مدة إنجاز التفريغ النصّي"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:8
 msgid "Transcript Fidelity"
-msgstr "دقة التفريغ النصي"
+msgstr "دقة التفريغ النصّي"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:13
 msgid "Video Source Language"
@@ -7717,11 +7607,11 @@ msgstr "اضغط على إضافة إلى اللغة"
 
 #: cms/templates/js/course-video-transcript-provider-empty.underscore:1
 msgid "Automated Transcripts"
-msgstr "تفريغات النصوص الآلية"
+msgstr "التفريغ التلقائي للنصوص "
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:1
 msgid "Transcript Provider"
-msgstr "مزوّد التفريغ النصي"
+msgstr "مُزوِّد النصوص"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:5
 msgid "Change"
@@ -7765,7 +7655,7 @@ msgid ""
 "grade, for example, 40. Do not include the percent symbol."
 msgstr ""
 "وزن جميع الواجبات من هذا النوع كنسبة مئوية للدرجة النهائية، على سبيل المثال،"
-" 40. لا تَستخدِم رمز النسبة المئوية."
+" 40. لا تستخدِم رمز النسبة المئوية."
 
 #: cms/templates/js/course_grade_policy.underscore:21
 msgid "Total Number"
@@ -7787,7 +7677,7 @@ msgid ""
 "The number of assignments of this type that will be dropped. The lowest "
 "scoring assignments are dropped first."
 msgstr ""
-"عدد المهام من هذا النوع التي لن تُحتسَب. المهام ذات الدرجات الأدنى هي التي "
+"عدد المهام من هذا النوع التي لن تُحتسب. المهام ذات الدرجات الأدنى هي التي "
 "ستُستثنى من حساب الدرجات أولاً."
 
 #: cms/templates/js/course_grade_policy.underscore:37
@@ -7800,24 +7690,24 @@ msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
 msgstr ""
-"عدد مهام {type} المُعرّفة هنا لا يتطابق مع العدد الحالي لمهام {type} في "
+"عدد مهام {type} المعرّفة هنا لا يتطابق مع العدد الحالي لمهام {type} في "
 "المساق:"
 
 #: cms/templates/js/course_grade_policy.underscore:47
 msgid "There are no assignments of this type in the course."
-msgstr "لا توجد واجِبات مِن هذا النَوْع في المُقَرَّر."
+msgstr "لا توجد واجبات من هذا النوع في المساق."
 
 #: cms/templates/js/course_grade_policy.underscore:51
 #, python-brace-format
 msgid "{assignment_count} {type} assignment(s) found:"
-msgstr "عُثِرَ على {assignment_count} {type} واجِب (واجِبات):"
+msgstr "عُثِر على {assignment_count} {type} واجب (واجبات):"
 
 #: cms/templates/js/course_grade_policy.underscore:71
 #, python-brace-format
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
-msgstr "يَتَطابق عدد واجِبات {type} في المُقَرَّر مع العدد المُحَدَّد هنا."
+msgstr "يتطابق عدد واجبات {type} في المساق مع العدد المحدّد هنا."
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
@@ -7841,7 +7731,7 @@ msgstr "التاريخ"
 
 #: cms/templates/js/course_info_update.underscore:14
 msgid "Post"
-msgstr "انشُر"
+msgstr "انشر"
 
 #: cms/templates/js/discussion-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:727
@@ -7850,19 +7740,19 @@ msgstr "صفحة المناقشة الرئيسية"
 
 #: cms/templates/js/discussion-editor.underscore:8
 msgid "Enable discussion"
-msgstr "فَعِّل المُناقَشة"
+msgstr "فعِّل المناقشة"
 
 #: cms/templates/js/discussion-editor.underscore:12
 msgid "Topics for unpublished units would not be created"
-msgstr "لن تُنشَأ مَواضيع للوَحدات غير المنشورة"
+msgstr "لن تُنشَأ مواضيع للوحدات غير المنشورة"
 
 #: cms/templates/js/discussion-editor.underscore:16
 msgid "Please enable discussions for graded units from the"
-msgstr "مِن فَضلِك فَعِّل المُناقَشات للوَحدات المُقَيَّمة مِن"
+msgstr "من فضلك فعِّل المناقشات للوحدات المقيّمة من"
 
 #: cms/templates/js/discussion-editor.underscore:24
 msgid "Discussion Configuration"
-msgstr "إعدادات المُناقَشة"
+msgstr "إعدادات المناقشة"
 
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
@@ -7910,41 +7800,15 @@ msgstr "تحميل ملف بصيغة PDF"
 
 #: cms/templates/js/edit-chapter.underscore:14
 msgid "delete chapter"
-msgstr "حذف الفصل"
-
-#: cms/templates/js/edit-textbook.underscore:10
-msgid "Textbook information"
-msgstr "معلومات عن الكتاب "
-
-#: cms/templates/js/edit-textbook.underscore:12
-msgid "Textbook Name"
-msgstr "اسم الكتاب "
-
-#: cms/templates/js/edit-textbook.underscore:13
-msgid "Introduction to Cookie Baking"
-msgstr "مقدّمة عن طريقة خَبز الكعك"
-
-#: cms/templates/js/edit-textbook.underscore:14
-msgid ""
-"provide the title/name of the text book as you would like your students to "
-"see it"
-msgstr "حدّد عنوان/اسم الكتاب كما تريد أن يراه طلابّك"
-
-#: cms/templates/js/edit-textbook.underscore:18
-msgid "Chapter information"
-msgstr "معلومات عن الفصل"
-
-#: cms/templates/js/edit-textbook.underscore:21
-msgid "Add a Chapter"
-msgstr "إضافة فصل"
+msgstr "احذف الفصل"
 
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
-msgstr "تحرير العنوان"
+msgstr "عدِّل العنوان"
 
 #: cms/templates/js/edit-upstream-alert.underscore:4
 msgid "You are editing content from a Library."
-msgstr "أنت تقوم حالِياً بتحرير مُحتَوى مِن مكتبة ما."
+msgstr "أنت تقوم حالياً بتحرير محتوى من مكتبة ما."
 
 #: cms/templates/js/edit-upstream-alert.underscore:6
 msgid ""
@@ -7956,15 +7820,15 @@ msgstr ""
 
 #: cms/templates/js/edit-upstream-alert.underscore:14
 msgid "View in Library"
-msgstr "اعرِض في المَكتبة"
+msgstr "اعرض في المكتبة"
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:5
 msgid ""
 "Embed your subsection content directly on a page using an iframe, and view "
 "it without the LMS header and footer."
 msgstr ""
-"ضَمِّن محتوى القِسم الفرعي في الصفحة مباشرة باستخدام iframe، واعرِضه بدون "
-"رأس وتذييل نظام إدارة التعلّم (LMS)."
+"ضَمِّن محتوى القسم الفرعي في الصفحة مباشرة باستخدام iframe، واعرضه بدون رأس "
+"وتذييل نظام إدارة التعلّم (LMS)."
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:11
 #: cms/templates/js/full-page-share-link-editor.underscore:11
@@ -7974,7 +7838,7 @@ msgstr "انقُر لنسخ الرابط إلى الحافظة"
 #: cms/templates/js/embed-link-share-link-editor.underscore:15
 #: cms/templates/js/full-page-share-link-editor.underscore:15
 msgid "Copy link"
-msgstr "انسَخ الرابط"
+msgstr "انسخ الرابط"
 
 #: cms/templates/js/full-page-share-link-editor.underscore:5
 msgid ""
@@ -8068,7 +7932,7 @@ msgstr ""
 
 #: cms/templates/js/group-edit.underscore:4
 msgid "delete group"
-msgstr "حذف المجموعة"
+msgstr "احذف المجموعة"
 
 #: cms/templates/js/highlights-editor.underscore:5
 msgid ""
@@ -8174,14 +8038,6 @@ msgstr "الموقع الحالي"
 msgid "Currently selected"
 msgstr "محدد حاليا"
 
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "You haven't added any textbooks to this course yet."
-msgstr "لم تُضِف بعد أي كتب إلى هذا المساق."
-
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "Add your first textbook"
-msgstr "أضِف أوّل كتاب لك."
-
 #: cms/templates/js/paging-header.underscore:7
 #: common/static/common/templates/components/paging-footer.underscore:2
 #: common/static/common/templates/discussion/templates.underscore:586
@@ -8211,7 +8067,7 @@ msgstr "تنزيل الشيفرات المتاحة (بصيغة .csv)"
 
 #: cms/templates/js/previous-video-upload-list.underscore:12
 msgid "Thumbnail"
-msgstr "صورة مصغرة"
+msgstr "صورة مصغّرة"
 
 #: cms/templates/js/previous-video-upload-list.underscore:16
 msgid "Video ID"
@@ -8270,7 +8126,7 @@ msgstr "نُشرت ومتاحة الآن عبر الإنترنت"
 
 #: cms/templates/js/publish-xblock.underscore:8
 msgid "Published (not yet released)"
-msgstr "نُشرت (لم تُصدر بعد)"
+msgstr "نُشرت (لم تُطرح بعد)"
 
 #: cms/templates/js/publish-xblock.underscore:10
 msgid "Draft (Unpublished changes)"
@@ -8339,7 +8195,7 @@ msgstr "ملاحظة: لا تخفِ الواجبات المُقيّمة بعد �
 
 #: cms/templates/js/publish-xblock.underscore:137
 msgid "Copy Unit"
-msgstr "اِنسَخ الوَحدة"
+msgstr "انسخ الوحدة"
 
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
@@ -8360,7 +8216,7 @@ msgstr "حذف تاريخ/توقيت الإصدار"
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:5
 msgid "Due in:"
-msgstr "تَبَقَّى لِمَوْعِد التسليم:"
+msgstr "تبقى لموعد التسليم:"
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:8
 msgid "weeks from learner enrollment date"
@@ -8380,8 +8236,8 @@ msgid ""
 "The minimum number of weeks this subsection can be due in is 1 week from the"
 " learner enrollment date."
 msgstr ""
-"الحد الأدنى لعدد الأسابيع الذي يتوجب فيها إتمام هذا القِسم الفرعي هو أُسبوع "
-"واحد مِن تاريخ تسجيل المُتَعَلِّم."
+"الحد الأدنى لعدد الأسابيع الذي يتوجب فيها إتمام هذا القِسم الفرعي هو أسبوع "
+"واحد من تاريخ تسجيل المتعلم."
 
 #: cms/templates/js/show-correctness-editor.underscore:2
 msgid "Assessment Results Visibility"
@@ -8431,14 +8287,6 @@ msgid ""
 msgstr ""
 "عند عدم وجود تاريخ استحقاق في القسم الفرعي فسيرى المتعلمون درجاتهم فور تقديم"
 " إجاباتهم على نماذج التقييم. "
-
-#: cms/templates/js/show-textbook.underscore:12
-msgid "PDF Chapters"
-msgstr "فصول PDF"
-
-#: cms/templates/js/show-textbook.underscore:37
-msgid "View Live"
-msgstr "اعرِض مُباشرة"
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -8498,7 +8346,7 @@ msgstr "المؤسّسة التي ينتمي إليها هذا الموقِّع�
 
 #: cms/templates/js/signatory-editor.underscore:43
 msgid "Path to Signature Image"
-msgstr "مسار موقع صورة التوقيع"
+msgstr "مسار صورة التوقيع"
 
 #: cms/templates/js/signatory-editor.underscore:44
 msgid "Image must be in PNG format"
@@ -8506,7 +8354,7 @@ msgstr "يجب أن تكون الصورة بصيغة PNG."
 
 #: cms/templates/js/signatory-editor.underscore:46
 msgid "Upload Signature Image"
-msgstr "تحميل صورة التوقيع"
+msgstr "ارفع صورة التوقيع"
 
 #: cms/templates/js/staff-lock-editor.underscore:4
 msgid "Unit Visibility"
@@ -8518,14 +8366,12 @@ msgstr "رؤية القسم"
 
 #: cms/templates/js/staff-lock-editor.underscore:14
 msgid "Visible to learners"
-msgstr "مَرئي للمُتَعَلِّمين"
+msgstr "مرئي للمتعلمين"
 
 #: cms/templates/js/staff-lock-editor.underscore:16
 msgid ""
 "It is visible to learners, ensuring that all learners can view its contents."
-msgstr ""
-"وهو مَرئي للمُتَعَلِّمين، مِما يَضمن أنَّ جميع المُتَعَلِّمين يُمكِنُهم عَرض"
-" مُحتَواه."
+msgstr "وهو مرئي للمتعلمين، مما يضمن أنّ جميع المتعلمين يمكنهم عرض محتواه."
 
 #: cms/templates/js/staff-lock-editor.underscore:22
 msgid "Hide in Course Outline, accessible via Link"
@@ -8544,16 +8390,16 @@ msgid ""
 "If you make this section visible in the table of content, learners will be "
 "able to see its content."
 msgstr ""
-"إذا جعلتَ هذا القِسم مرئياً في جدول المُحتَويات، فسيتمكن المُتعلِّمون من "
-"رؤية مُحتَواه."
+"إذا جعلت هذا القِسم مرئياً في جدول المحتويات، فسيتمكن المتعلمون من رؤية "
+"محتواه."
 
 #: cms/templates/js/staff-lock-editor.underscore:40
 msgid ""
 "It is intentionally hidden from learners, ensuring that only the course "
 "staff can view its contents."
 msgstr ""
-"لقد أُخفِيَ عَمداً عن المُتَعَلِّمين، مِما يَضمن أنَّ طاقِم المُقَرَّر هُم "
-"فقط مَن يُمكِنهم عَرض مُحتَوياته."
+"لقد أُخفِي عمداً عن المتعلمين، مما يضمن أنّ طاقم المساق هم فقط من يمكنهم عرض"
+" محتوياته."
 
 #: cms/templates/js/staff-lock-editor.underscore:45
 msgid ""
@@ -8581,7 +8427,7 @@ msgstr "ملخصات وحدة Xpert"
 
 #: cms/templates/js/summary-configuration-editor.underscore:8
 msgid "Enable summaries"
-msgstr "فَعِّل المُلَخَّصات"
+msgstr "فعِّل الملخصات"
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"
@@ -8598,7 +8444,7 @@ msgstr "أرسل رسالة إلكترونية إلى العنوان  {email} "
 
 #: cms/templates/js/team-member.underscore:32
 msgid "Promote another member to Admin to remove your admin rights"
-msgstr "رقِّ عضواً آخر إلى درجة مشرِف لتتمكن من إلغاء صلاحياتك كمشرِف."
+msgstr "رقِّ عضواً آخَر إلى درجة مشرف لتتمكن من إلغاء صلاحياتك كمشرف."
 
 #: cms/templates/js/team-member.underscore:35
 #, python-brace-format
@@ -8613,7 +8459,7 @@ msgstr "إلغاء صلاحية الوصول الخاصة بـ {role}"
 #: cms/templates/js/team-member.underscore:44
 #, python-brace-format
 msgid "Delete the user, {username}"
-msgstr "حذف المستخدم،  {username} "
+msgstr "احذف المستخدم، {username}"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:2
 msgid "Set as a Special Exam"
@@ -8688,10 +8534,10 @@ msgid ""
 "profile step prior to taking a proctored exam. Profile reviews take 2+ "
 "business days."
 msgstr ""
-"استَخدِم مرحلة الإعداد لتعريف المتعلمين بنظام بالمُراقَبة، والتحقّق من "
-"هُوِيّاتهم، وإنشاء ملف تسجيل خاص بهم. يجب على المتعلمين إكمال خُطوة ملف "
-"التسجيل قبل إجراءهم امتحاناتٍ مُراقَبة. تستغرق مراجعات ملف التسجيل يومَي عمل"
-" أو أكثر."
+"استخدِم مرحلة الإعداد لتعريف المتعلمين بنظام بالمُراقَبة، والتحقق من "
+"هوياتهم، وإنشاء ملف تسجيل خاص بهم. يجب على المتعلمين إكمال خُطوة ملف التسجيل"
+" قبل إجراءهم امتحاناتٍ مُراقَبة. تستغرق مراجعات ملف التسجيل يومَي عمل أو "
+"أكثر."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:58
 msgid "Practice Proctored"
@@ -8702,7 +8548,7 @@ msgid ""
 "Use a practice proctored exam to introduce learners to the proctoring tools "
 "and processes. Results of a practice exam do not affect a learner's grade."
 msgstr ""
-"استَخدِم امتحاناً مُراقَباً تدريبياً لتعريف المتعلمين بإجراءات المُراقَبة "
+"استخدِم امتحاناً مُراقَباً تدريبياً لتعريف المتعلمين بإجراءات المُراقَبة "
 "وأدواتها. لن تُؤثِّر نتائج الامتحان التدريبي على الدرجة النهائية الممنوحة "
 "للمتعلم."
 
@@ -8763,8 +8609,7 @@ msgstr "حساب"
 #, python-brace-format
 msgid ""
 "This action updates the {provider} information for your entire organization."
-msgstr ""
-"يُحَدِّث هذا الإجراء مَعلومات الـ {provider} لِمُؤَسَّسَتِك بِالكامِل."
+msgstr "يُحدِّث هذا الإجراء معلومات الـ {provider} لمؤسستك بالكامل."
 
 #: cms/templates/js/transcript-organization-credentials.underscore:7
 msgid "Enter the account information for your organization."
@@ -8815,8 +8660,7 @@ msgid ""
 "Please check the following validation feedbacks and reflect them in your "
 "course settings:"
 msgstr ""
-" يُرجى التحقُّق من الملاحظات التالية وأخذها في الحُسبان في إعدادات "
-"مُقَرَّرك:"
+"يُرجى التحقق من الملاحظات التالية وأخذها في الحُسبان في إعدادات مساقك:"
 
 #: cms/templates/js/verification-access-editor.underscore:3
 msgid "Verification Checkpoint"
@@ -8855,12 +8699,12 @@ msgstr "اقرأ المزيد"
 
 #: cms/templates/js/video-transcripts.underscore:9
 msgid "No transcript uploaded."
-msgstr "لم يتم تحميل نص."
+msgstr "لم يُحمّل أيّ نص."
 
 #: cms/templates/js/video-transcripts.underscore:17
 #, python-brace-format
 msgid "Show transcripts ({totalTranscripts})"
-msgstr "إظهار النصوص ({totalTranscripts})"
+msgstr "أظهِر النصوص ({totalTranscripts})"
 
 #: cms/templates/js/xblock-access-editor.underscore:3
 msgid "Set Access"
@@ -8869,7 +8713,7 @@ msgstr "تعيين الوصول"
 #: cms/templates/js/xblock-string-field-editor.underscore:9
 #, python-format
 msgid "Edit %(display_name)s (required)"
-msgstr "تعديل %(display_name)s (مطلوب)"
+msgstr "عدِّل %(display_name)s (مطلوب)"
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:3
 msgid ""
@@ -8980,7 +8824,7 @@ msgstr "تحميل نص جديد بصيغة .srt "
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:13
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:14
 msgid "Download Transcript for Editing"
-msgstr "تنزيل النص لتعديله"
+msgstr "نزِّل النص لتعديله"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:1
 msgid "No EdX Timed Transcript"
@@ -9185,12 +9029,12 @@ msgstr "تحديث المنشور."
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
-msgstr[0] "لا تعرض أي تعليقات"
-msgstr[1] "اعرِض تعليقاً واحداً"
-msgstr[2] "اعرِض تعليقين"
-msgstr[3] "اعرِض %(num_comments)s تعليقات"
-msgstr[4] "اعرِض %(num_comments)s تعليقاً"
-msgstr[5] "اعرِض %(num_comments)s تعليق "
+msgstr[0] "لا تعرض أيّ تعليقات"
+msgstr[1] "اعرض تعليقاً واحداً"
+msgstr[2] "اعرض تعليقين"
+msgstr[3] "اعرض %(num_comments)s تعليقات"
+msgstr[4] "اعرض %(num_comments)s تعليقاً"
+msgstr[5] "اعرض %(num_comments)s تعليق "
 
 #: common/static/common/templates/discussion/templates.underscore:164
 #: common/static/common/templates/discussion/templates.underscore:166
@@ -9616,7 +9460,7 @@ msgstr "تغيير التسجيل"
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:22
 msgid "Date Joined"
-msgstr "تاريخ الانضِمام"
+msgstr "تاريخ الانضمام"
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:23
 msgid "Password Status"
@@ -9666,11 +9510,11 @@ msgstr "عدّل فريق."
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:57
 msgid "Cancel team creating."
-msgstr "إلغاء عملية إنشاء الفريق"
+msgstr "ألغِ عملية إنشاء الفريق"
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:59
 msgid "Cancel team updating."
-msgstr "إلغاء عملية تحديث الفريق"
+msgstr "ألغِ تحديث الفريق"
 
 #: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:3
 msgid "Instructor tools"
@@ -9678,11 +9522,11 @@ msgstr "أدوات الأستاذ"
 
 #: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:7
 msgid "Delete Team"
-msgstr "حذف الفريق"
+msgstr "احذف الفريق"
 
 #: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore:10
 msgid "Edit Membership"
-msgstr "تعديل العضويّة"
+msgstr "عدِّل العضوية"
 
 #: lms/djangoapps/teams/static/teams/templates/manage.underscore:5
 msgid "View Current Team Memberships"
@@ -9755,7 +9599,7 @@ msgstr "الدورات التدريبية الخاصة بهذا الكتالوج
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
-msgstr "وَسِّع الكُل"
+msgstr "وسِّع الكل"
 
 #: lms/templates/ccx/schedule.underscore:6
 msgid "Collapse All"
@@ -9822,7 +9666,7 @@ msgstr "عداد الاختبار وزر إنهاء الاختبار"
 
 #: lms/templates/courseware/proctored-exam-status.underscore:13
 msgid "End My Exam"
-msgstr "أَنهِ امتحاني"
+msgstr "أنهِ امتحاني"
 
 #: lms/templates/courseware/proctored-exam-status.underscore:23
 msgid "Hide Timer"
@@ -9835,7 +9679,7 @@ msgstr "أنت تأخذ \"{exam_link}\" كـ {exam_type}."
 
 #: lms/templates/courseware/proctored-exam-status.underscore:30
 msgid "a timed exam"
-msgstr "امتِحان مُحَدَّد الوقت"
+msgstr "امتحان محدّد الوقت"
 
 #: lms/templates/courseware/proctored-exam-status.underscore:32
 msgid "The timer on the right shows the time remaining in the exam."
@@ -9846,8 +9690,8 @@ msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
 msgstr ""
-"من أجل الحصول على نقاط في مسألة معينة عليك اختيار \"إرسال\" لكل مسألة قبل "
-"احتيار \"انه الامتحان\"."
+"من أجل الحصول على درجات في مسألة معيّنة عليك اختيار \"أرسِل\" لكل مسألة قبل "
+"اختيار \"أنهِ امتحاني\"."
 
 #: lms/templates/courseware/proctored-exam-status.underscore:35
 msgid "Show More"
@@ -9907,7 +9751,7 @@ msgstr "حذف نتائج البحث"
 #: lms/templates/fields/field_dropdown_account.underscore:41
 #: lms/templates/fields/field_textarea.underscore:35
 msgid "Click to edit"
-msgstr "يُرجى النقر للتعديل"
+msgstr "انقُر للتعديل"
 
 #: lms/templates/fields/field_order_history.underscore:2
 msgid "Order Number"
@@ -9933,7 +9777,7 @@ msgstr "من أجل"
 
 #: lms/templates/fields/field_order_history.underscore:12
 msgid "Product Name"
-msgstr "اسم المُنتَج"
+msgstr "اسم المنتج"
 
 #: lms/templates/fields/field_textarea.underscore:52
 #, python-brace-format
@@ -9988,8 +9832,8 @@ msgid ""
 "Thank you for submitting your financial assistance application for "
 "{course_name}! You can expect a response in 2-4 business days."
 msgstr ""
-"نشكرك لتقديمك طلب دعم مالي للمساق {course_name}! يمكنك أن تتوقع استلام الردّ"
-" خلال 2-4 أيام عمل."
+"شكراً لك، لقد استلمنا طلبك للحصول على الدعم المالي لمساق {course_name}! "
+"سنوافيك بالرد خلال 2 إلى 4 أيام عمل."
 
 #: lms/templates/financial-assistance/financial_assessment_submitted.underscore:7
 msgid "Go to Dashboard"
@@ -10189,11 +10033,11 @@ msgstr "يدوي"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:56
 msgid ""
 "There must be one cohort to which students can automatically be assigned."
-msgstr "يَجِب أنْ تكون هناك شُعبة واحدة يُمكن توزيع الطلاب فيها تلقائياً."
+msgstr "يجب أن تكون هناك شُعبة واحدة يمكن توزيع الطلاب فيها تلقائياً."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:62
 msgid "Associated Content Group"
-msgstr "مجموعة المحتوى"
+msgstr "مجموعة المحتوى ذات الصِلة"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:64
 msgid "No Content Group"
@@ -10391,13 +10235,13 @@ msgstr "سجل الآن"
 msgid "Coming Soon"
 msgstr "قريباً"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:47
+#: lms/templates/learner_dashboard/course_enroll.underscore:48
 msgid "Enrollment Opens on"
 msgstr "يُفتح باب الانضمام في"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:54
+#: lms/templates/learner_dashboard/course_enroll.underscore:56
 msgid "Not Currently Available"
-msgstr "غير متاحٍ الآن"
+msgstr "غير متاح حالياً"
 
 #: lms/templates/learner_dashboard/course_entitlement.underscore:4
 msgid "More sessions coming soon."
@@ -10450,7 +10294,7 @@ msgstr "تصفح الفصول حديثة الإنشاء وشاهد الجديد 
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
 msgid "Explore new programs"
-msgstr "استَكشِف البَرامِج التَعليمية الجَديدة"
+msgstr "استكشِف البرامج التعليمية الجديدة"
 
 #: lms/templates/learner_dashboard/program_card.underscore:16
 #: lms/templates/learner_dashboard/program_card.underscore:24
@@ -10458,12 +10302,12 @@ msgstr "استَكشِف البَرامِج التَعليمية الجَديد�
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
 msgid "Course"
 msgid_plural "Courses"
-msgstr[0] "ولا مُقَرَّر"
-msgstr[1] "مُقَرَّر واحِد"
-msgstr[2] "مُقَرَّرَيْن اثنين"
-msgstr[3] "مُقَرَّرات"
-msgstr[4] "مُقَرَّرات"
-msgstr[5] "مُقَرَّرات"
+msgstr[0] "لا مساقات"
+msgstr[1] "مساق واحد"
+msgstr[2] "مساقين"
+msgstr[3] "مساقات"
+msgstr[4] "مساقاً"
+msgstr[5] "مساقٍ"
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -10550,7 +10394,7 @@ msgid ""
 "each course."
 msgstr ""
 "تتبَّع وخَطِّط تقدمك من خلال المساقات الـ %(count)s في هذا البرنامج. لإتمام "
-"البرنامج، يجب أن تحصل على شهادة مُوثّقة لكل مساق فيه."
+"البرنامج، يجب أن تحصل على شهادة موثّقة لكل مساق فيه."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
@@ -10598,7 +10442,7 @@ msgstr "أكمل المساقات في الجدول الزمني المحدد ل
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
 #, python-format
 msgid "Transform your %(org)s %(type)s into a full master’s degree"
-msgstr "حَوِّل مُقَرَّرات %(org)s %(type)s إلى درجة ماجستير كامِلة"
+msgstr "حوِّل مساقات %(org)s %(type)s إلى درجة ماجستير كاملة"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
 #, python-format
@@ -10608,7 +10452,7 @@ msgid ""
 "leading universities."
 msgstr ""
 "يمكن الاستفادة من اجتيازك %(org)s %(program)s بنجاح للحصول على درجات ماجستير"
-" مَرِنة وقوية وبأسعار معقولة من الجامعات الرائدة في العالم."
+" مرنة وقوية وبأسعار معقولة من الجامعات الرائدة في العالم."
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:18
 #, python-format
@@ -10734,7 +10578,7 @@ msgstr "تسجيل الدخول لمتابعة التعلم كـ {email}"
 
 #: lms/templates/student_account/login.underscore:16
 msgid "Sign in to continue learning"
-msgstr "تسجيل الدخول لمتابعة التعلم"
+msgstr "سجِّل دخولك لمتابعة التعلّم"
 
 #: lms/templates/student_account/login.underscore:19
 #, python-brace-format
@@ -10762,7 +10606,7 @@ msgstr ""
 
 #: lms/templates/student_account/login.underscore:25
 msgid "To continue learning with this account, sign in below."
-msgstr "لمتابعة التعلم باستخدام هذا الحساب ، قم بتسجيل الدخول أدناه."
+msgstr "لمتابعة التعلّم باستخدام هذا الحساب، سجِّل دخولك أدناه."
 
 #: lms/templates/student_account/login.underscore:27
 msgid "Sign In"
@@ -11044,7 +10888,7 @@ msgstr ""
 #: lms/templates/verify_student/intro_step.underscore:80
 #, python-format
 msgid "Next: %(nextStepTitle)s"
-msgstr "التالي: %(nextStepTitle)s"
+msgstr "الخطوة التالية: %(nextStepTitle)s"
 
 #: lms/templates/verify_student/id_photo_step.underscore:3
 msgid "Take a Photo of Your ID"
@@ -11362,7 +11206,7 @@ msgstr ""
 
 #: lms/templates/verify_student/reverify_success_step.underscore:2
 msgid "Identity Verification In Progress"
-msgstr "يجري الآن التحقّق من الهُوِيّة"
+msgstr "يجري الآن التحقق من الهوية"
 
 #: lms/templates/verify_student/reverify_success_step.underscore:5
 msgid ""
@@ -11421,7 +11265,7 @@ msgstr ""
 
 #: lms/templates/verify_student/review_photos_step.underscore:33
 msgid "Edit Your Name"
-msgstr "تعديل اسمك "
+msgstr "عدِّل اسمك "
 
 #: lms/templates/verify_student/review_photos_step.underscore:38
 msgid ""
@@ -11464,7 +11308,7 @@ msgstr "التقاط صورة "
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
 msgid "Bookmarked on"
-msgstr "حُفِظَت في الإشارات المرجعية في"
+msgstr "حُفظت في الإشارات المرجعية في"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
 msgid "You have not bookmarked any courseware pages yet"

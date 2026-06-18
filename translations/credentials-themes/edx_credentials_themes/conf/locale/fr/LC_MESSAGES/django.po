@@ -2,28 +2,31 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-#
+# 
+# Translators:
+# Eden Huthmacher, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
-"Language-Team: French <openedx-translation@googlegroups.com>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2023-10-25 21:30+0000\n"
+"Last-Translator: Eden Huthmacher, 2025\n"
+"Language-Team: French (https://app.transifex.com/open-edx/teams/6205/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: templates/edx.org/_footer.html:7
 msgid "Legal Policies"
-msgstr "Politiques légales"
+msgstr "Politiques juridiques"
 
 #: templates/edx.org/_footer.html:11
 msgid "Terms of Service & Honor Code"
-msgstr "Conditions d'utilisation et code d'honneur"
+msgstr "Conditions d'utilisation & Code D'honneur"
 
 #: templates/edx.org/_footer.html:16
 msgid "Privacy Policy"
@@ -35,23 +38,24 @@ msgstr "Politique en matière de cookies"
 
 #: templates/edx.org/_footer.html:26
 msgid "Your Privacy Choices"
-msgstr "Vos choix de confidentialité"
+msgstr "Vos choix en matière de confidentialité"
 
 #: templates/edx.org/_footer.html:36
 msgid ""
 "All rights reserved except where noted. edX, Open edX and the edX and Open "
 "edX logos are registered trademarks or trademarks of edX Inc."
 msgstr ""
-"Tous droits réservés sauf indication contraire. edX, Open edX et les logos edX et Open "
-"edX sont des marques déposées ou des marques de commerce d'edX Inc."
+"Tous droits réservés sauf indication contraire. edX, Open edX et les logos "
+"edX et Open edX sont des marques déposées ou des marques commerciales "
+"d&#39;edX Inc."
 
 #: templates/edx.org/_footer.html:46
 msgid "Powered by"
-msgstr "Propulsé par"
+msgstr "Alimenté par"
 
 #: templates/edx.org/credentials/programs/base.html:30
 msgid "About edX"
-msgstr "À propos d'edX"
+msgstr "À propos d&#39;edX"
 
 #: templates/edx.org/credentials/programs/base.html:33
 #, python-brace-format
@@ -61,10 +65,10 @@ msgid ""
 "of Texas, and many others. edX is an online initiative created by founding "
 "partners Harvard and MIT."
 msgstr ""
-"{link_start} edX{link_end} propose des cours interactifs en ligne et des "
-"MOOC des meilleures universités du monde, notamment le MIT, Harvard, Berkeley, l'Université "
-"du Texas et bien d'autres. edX est une initiative en ligne créée par les "
-"partenaires fondateurs Harvard et MIT."
+"{link_start} edX {link_end} propose des cours interactifs en ligne et des "
+"MOOC des meilleures universités du monde, notamment le MIT, Harvard, "
+"Berkeley, l&#39;Université du Texas et bien d&#39;autres. edX est une "
+"initiative en ligne créée par les partenaires fondateurs Harvard et MIT."
 
 #. Translators: MicroBachelors should not be translated, this phrase is
 #. preceded by the learner's name and followed by a program title
@@ -73,18 +77,18 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroBachelors program certificate in"
 msgstr ""
-"a terminé avec succès tous les cours et a reçu les notes de passage pour obtenir un"
-" certificat de programme MicroBachelors en"
+"a terminé avec succès tous les cours et obtenu la note de passage pour "
+"obtenir un certificat du programme MicroBachelors en"
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:12
 msgid "MicroBachelors program certificate"
-msgstr "Certificat de programme MicroBachelors"
+msgstr "Certificat du programme MicroBachelors"
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:17
 msgid "About the edX MicroBachelors program certificate"
-msgstr "À propos du certificat de programme edX MicroBachelors"
+msgstr "À propos du certificat du programme edX MicroBachelors"
 
 #. Translators: MicroBachelors should not be translated
 #: templates/edx.org/credentials/programs/microbachelors/certificate.html:22
@@ -96,11 +100,11 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the program."
 msgstr ""
-"Un titre de compétence edX MicroBachelors signifie que l'apprenant a suivi un "
-"groupe de cours qui aboutissent à une riche compréhension d'un domaine d'études. "
-"L'achèvement des programmes MicroBachelors exige que les apprenants obtiennent "
-"des {link_start}certificats vérifiés{link_end} de chacun des cours "
-"inclus dans le programme."
+"Un diplôme edX MicroBachelors signifie que l&#39;apprenant a suivi un groupe"
+" de cours qui s&#39;ajoutent à une riche compréhension d&#39;un domaine "
+"d&#39;études. L&#39;achèvement des programmes MicroBachelors nécessite que "
+"les apprenants obtiennent {link_start}Certificat Vérifiés{link_end} pour "
+"chacun des cours inclus dans le programme."
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:8
@@ -109,8 +113,8 @@ msgid ""
 "You worked hard to earn your MicroMasters Credential from "
 "%(organization_name)s."
 msgstr ""
-"Vous avez travaillé dur pour obtenir votre titre de compétence MicroMasters de "
-"%(organization_name)s."
+"Vous avez travaillé dur pour obtenir votre accréditation MicroMasters auprès"
+" de %(organization_name)s."
 
 #. Translators: MicroMasters should not be translated, this phrase is preceded
 #. by the learner's name and followed by a program title
@@ -119,18 +123,18 @@ msgid ""
 "has successfully completed all courses and received passing grades to earn a"
 " MicroMasters program certificate in"
 msgstr ""
-"a terminé avec succès tous les cours et a reçu les notes de passage pour obtenir un"
-" certificat de programme MicroMasters en"
+"Il a terminé avec succès tous les cours et a obtenu la note de passage pour "
+"obtenir un Certificat du programme MicroMasters en"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:21
 msgid "MicroMasters program certificate"
-msgstr "Certificat de programme MicroMasters"
+msgstr "Certificat du programme MicroMasters"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:26
 msgid "About the edX MicroMasters credential"
-msgstr "À propos du titre de compétence edX MicroMasters"
+msgstr "À propos du diplôme edX MicroMasters"
 
 #. Translators: MicroMasters should not be translated
 #: templates/edx.org/credentials/programs/micromasters/certificate.html:31
@@ -142,11 +146,11 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
-"Un titre de compétence edX MicroMasters signifie que l'apprenant a suivi un "
-"groupe de cours qui aboutissent à une riche compréhension d'un domaine d'études. "
-"L'achèvement des programmes MicroMasters exige que les apprenants obtiennent "
-"des {link_start}certificats vérifiés{link_end} de chacun des cours "
-"inclus dans le programme."
+"Un diplôme edX MicroMasters signifie que l&#39;apprenant a suivi un groupe "
+"de cours qui s&#39;ajoutent à une riche compréhension d&#39;un domaine "
+"d&#39;étude. L&#39;achèvement des programmes MicroMasters nécessite que les "
+"apprenants obtiennent {link_start}certificats vérifiés{link_end} pour chacun"
+" des cours inclus dans le programme."
 
 #. Translators: This phrase is preceded by the learner's name and followed by
 #. a program title
@@ -155,7 +159,7 @@ msgid ""
 "successfully completed all courses and received passing grades for a "
 "Professional Certificate in"
 msgstr ""
-"a terminé avec succès tous les cours et a reçu les notes de passage pour un "
+"J'ai bien terminé tous les cours et obtenu la note de passage pour un "
 "certificat professionnel en"
 
 #: templates/edx.org/credentials/programs/professional-certificate/certificate.html:11
@@ -175,11 +179,11 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
-"Un certificat professionnel edX signifie que l'apprenant a suivi un "
-"groupe de cours qui aboutissent à une riche compréhension d'un domaine d'études. "
-"L'achèvement des programmes de certificat professionnel exige que les apprenants obtiennent "
-"des {link_start}certificats vérifiés{link_end} de chacun des cours "
-"inclus dans le programme."
+"Un certificat professionnel edX signifie que l'apprenant a suivi un groupe "
+"de cours qui s'ajoutent à une riche compréhension d'un domaine d'étude. "
+"L'achèvement des programmes de certificat professionnel nécessite que les "
+"apprenants obtiennent {link_start}des certificats vérifiés{link_end} pour "
+"chacun des cours inclus dans le programme."
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:8
@@ -188,8 +192,8 @@ msgid ""
 "You worked hard to earn your XSeries Program certificate from "
 "%(organization_name)s."
 msgstr ""
-"Vous avez travaillé dur pour obtenir votre certificat de programme XSeries de "
-"%(organization_name)s."
+"Vous avez travaillé dur pour obtenir votre certificat du programme XSeries "
+"auprès de %(organization_name)s."
 
 #. Translators: XSeries should not be translated, this phrase is preceded by
 #. the learner's name and followed by a program title
@@ -198,18 +202,18 @@ msgid ""
 "has successfully completed all courses and received passing grades for an "
 "XSeries Program certificate in"
 msgstr ""
-"a terminé avec succès tous les cours et a reçu les notes de passage pour un "
-"certificat de programme XSeries en"
+"a bien terminé tous les cours et obtenu la note de passage pour un "
+"Certificat du programme XSeries en"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:21
 msgid "XSeries Program certificate"
-msgstr "Certificat de programme XSeries"
+msgstr "Certificat du programme XSeries"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:26
 msgid "About the edX XSeries Program certificate"
-msgstr "À propos du certificat de programme edX XSeries"
+msgstr "À propos du certificat du programme edX XSeries"
 
 #. Translators: XSeries should not be translated
 #: templates/edx.org/credentials/programs/xseries/certificate.html:31
@@ -221,13 +225,8 @@ msgid ""
 "{link_start}Verified Certificates{link_end} from each of the courses "
 "included in the Program."
 msgstr ""
-"Un certificat de programme edX XSeries signifie que l'apprenant a suivi "
-"un groupe de cours qui aboutissent à une riche compréhension d'un domaine d'études. "
-"L'achèvement des programmes XSeries exige que les apprenants obtiennent "
-"des {link_start}certificats vérifiés{link_end} de chacun des cours "
-"inclus dans le programme."
-
-
-
-
-
+"Un certificat du programme edX XSeries signifie que l'apprenant a suivi un "
+"groupe de cours qui s'ajoutent à une riche compréhension d'un domaine "
+"d'étude. Pour terminer les programmes XSeries, les apprenants doivent "
+"obtenir des {link_start}certificats vérifiés{link_end} pour chacun des cours"
+" inclus dans le programme."

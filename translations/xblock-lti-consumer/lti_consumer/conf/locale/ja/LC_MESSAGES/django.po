@@ -1,0 +1,770 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+# 
+# Translators:
+# Eden Huthmacher, 2025
+# Gerardo Núñez, 2026
+# Kaori Myatt <kaorimyatt@gmail.com>, 2026
+# Transifex Bot <>, 2026
+# Brian Smith, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-24 01:02+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
+"Language-Team: Japanese (https://app.transifex.com/open-edx/teams/6205/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:41
+msgid "Missing LTI 1.3 authentication token."
+msgstr "LTI 1.3認証トークンが見つかりません。"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:45
+msgid "Invalid token header. No credentials provided."
+msgstr "トークンヘッダーが無効です。資格情報が提供されていません。"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:49
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "トークンヘッダーが無効です。トークン文字列にスペースを含めないでください。"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:57
+msgid "LTI configuration not found."
+msgstr "LTI設定が見つかりません。"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:66
+msgid "Invalid token signature."
+msgstr "トークン署名が無効です。"
+
+#: lti_xblock.py:134
+msgid "No valid user id found in endpoint URL"
+msgstr "エンドポイントURLに有効なユーザーIDが見つかりませんでした"
+
+#: lti_xblock.py:147
+msgid "New"
+msgstr "新規"
+
+#: lti_xblock.py:151
+msgid "Database"
+msgstr "データベース"
+
+#: lti_xblock.py:154
+msgid "Existing"
+msgstr "既存"
+
+#: lti_xblock.py:262
+msgid "Display Name"
+msgstr "表示名"
+
+#: lti_xblock.py:264
+msgid ""
+"Enter the name learners see for this component. This name may also appear in"
+" reports."
+msgstr "学習者がこのコンポーネントで目にする名前を入力してください。この名前はレポートにも表示される場合があります。"
+
+#: lti_xblock.py:267
+msgid "LTI Consumer"
+msgstr "LTIコンシューマー"
+
+#: lti_xblock.py:270
+msgid "Data Sharing Notice"
+msgstr "データ共有に関する通知"
+
+#: lti_xblock.py:272
+msgid ""
+"Enter a short notice about the tool. Use this field to explain why learner "
+"data may be shared with it."
+msgstr ""
+"このツールに関する短い通知を入力してください。学習者のデータがこのツールと共有される理由を説明するために、このフィールドを使用してください。"
+
+#: lti_xblock.py:278
+msgid "Configuration Type"
+msgstr "設定タイプ"
+
+#: lti_xblock.py:283
+msgid ""
+"Select 'New' to configure a new LTI Tool. If your admin has provided you "
+"with ID of an existing reusable tool configuration, select 'Existing' and "
+"enter it in the text field on the right."
+msgstr ""
+"新しいLTIツールを設定するには「新規」を選択します。管理者が既存の再利用可能なツール設定のIDを提供している場合は、「既存」を選択し、右側のテキストフィールドに入力してください。"
+
+#: lti_xblock.py:289
+msgid "LTI Version"
+msgstr "LTIバージョン"
+
+#: lti_xblock.py:297
+msgid "Select the LTI version supported by your tool."
+msgstr "ツールがサポートするLTIバージョンを選択してください。"
+
+#: lti_xblock.py:302
+msgid "LTI Reusability ID"
+msgstr "LTI再利用ID"
+
+#: lti_xblock.py:304
+msgid "Enter the ID of an existing reusable tool configuration."
+msgstr "既存の再利用可能なツール設定のIDを入力してください。"
+
+#: lti_xblock.py:309
+msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
+msgstr "Lti1p3Passportテーブルを参照するLTI 1.3パスポートID"
+
+#: lti_xblock.py:312
+msgid "Passport ID for a reusable keys."
+msgstr "再利用可能なキーのパスポートID。"
+
+#: lti_xblock.py:316
+msgid "Launch URL"
+msgstr "起動URL"
+
+#: lti_xblock.py:320
+msgid ""
+"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
+"uses to launch the tool."
+msgstr "このツールの起動URLを入力してください。LTI 1.3の場合、これはOpen edXがツールを起動するために使用するURLです。"
+
+#: lti_xblock.py:324
+msgid "Tool Initiate Login URL (OIDC)"
+msgstr "ツールログイン開始URL (OIDC)"
+
+#: lti_xblock.py:328
+msgid ""
+"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
+"the LTI 1.3 login flow."
+msgstr "ツールのOIDCログイン開始URLを入力します。Open edXはこのURLを使用してLTI 1.3ログインフローを開始します。"
+
+#: lti_xblock.py:332
+msgid "Registered Redirect URIs"
+msgstr "登録済みリダイレクトURI"
+
+#: lti_xblock.py:342
+msgid "Tool Public Key Mode"
+msgstr "ツール公開鍵モード"
+
+#: lti_xblock.py:350
+msgid ""
+"Choose how Open edX will get the tool’s public key for validating signed "
+"messages."
+msgstr "Open edXが署名済みメッセージを検証するためのツールの公開鍵をどのように取得するかを選択してください。"
+
+#: lti_xblock.py:354
+msgid "Tool Keyset URL"
+msgstr "ツールキーセットURL"
+
+#: lti_xblock.py:358
+msgid ""
+"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
+"the public keys needed to validate signed messages."
+msgstr ""
+"ツールのJWKキーセットのURLを入力してください。Open edXはこのURLを使用して、署名済みメッセージの検証に必要な公開キーを取得します。"
+
+#: lti_xblock.py:363
+msgid "Tool Public Key"
+msgstr "ツール公開鍵"
+
+#: lti_xblock.py:368
+msgid ""
+"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
+"KEY-----). Use this when the tool provides a static public key directly."
+msgstr ""
+"ツールの公開鍵をPEM形式で入力します（「-----BEGIN PUBLIC "
+"KEY-----」で始まります）。ツールが静的な公開鍵を直接提供する場合に使用します。"
+
+#: lti_xblock.py:374
+msgid "Names & Roles (NRPS)"
+msgstr "氏名と役割 (NRPS)"
+
+#: lti_xblock.py:376
+msgid ""
+"Enable this to allow the tool to access the names and roles of enrolled "
+"learners, if the tool supports NRPS."
+msgstr "ツールがNRPSをサポートしている場合、登録済み学習者の名前と役割にアクセスできるようにするには、これを有効にします。"
+
+#: lti_xblock.py:385
+msgid "Deep linking"
+msgstr "ディープリンク"
+
+#: lti_xblock.py:387
+msgid ""
+"Enable this if you want to deep link content from within the tool, in "
+"Studio."
+msgstr "ツール内からStudioでコンテンツをディープリンクしたい場合は、これを有効にしてください。"
+
+#: lti_xblock.py:393
+msgid "Deep Linking Launch URL"
+msgstr "ディープリンク起動URL"
+
+#: lti_xblock.py:397
+msgid ""
+"Enter the deep linking URL for this tool. If the tool does not specify one, "
+"enter the 'Launch URL' here."
+msgstr "このツールのディープリンクURLを入力してください。ツールで指定されていない場合は、「起動URL」をここに入力してください。"
+
+#: lti_xblock.py:401
+msgid "Assignment and Grades"
+msgstr "課題と成績"
+
+#: lti_xblock.py:403
+msgid "Declarative"
+msgstr "宣言型"
+
+#: lti_xblock.py:404
+msgid "Programmatic"
+msgstr "プログラムによる"
+
+#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
+#: templates/html/lti_studio_edit/_step_advantage.html:114
+#: templates/html/lti_studio_edit/_step_review.html:97
+#: templates/html/lti_studio_edit/_step_review.html:218
+msgid "Disabled"
+msgstr "無効"
+
+#: lti_xblock.py:410
+msgid ""
+"Enable AGS and select functionality. 'Declarative' provides the tool with an"
+" existing line item. 'Programmatic' allows tools to create and manage line "
+"items."
+msgstr ""
+"AGSを有効にし、機能を選択します。「宣言型」は既存のラインアイテムをツールに提供し、「プログラム型」はツールがラインアイテムを作成・管理できるようにします。"
+
+#: lti_xblock.py:417
+msgid "LTI Passport ID"
+msgstr "LTIパスポートID"
+
+#: lti_xblock.py:419
+msgid ""
+"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
+" that you created on Advanced Settings page."
+msgstr "このツールのLTIパスポートIDを選択してください。これは、詳細設定ページで作成したLTIパスポートのIDです。"
+
+#: lti_xblock.py:426
+msgid "LTI URL"
+msgstr "LTI URL"
+
+#: lti_xblock.py:428
+msgid ""
+"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
+"edX uses to launch the tool."
+msgstr "このツールの起動URLを入力してください。LTI 1.1/1.2の場合、これはOpen edXがツールを起動するために使用するURLです。"
+
+#: lti_xblock.py:436
+msgid "Custom Parameters"
+msgstr "カスタムパラメータ"
+
+#: lti_xblock.py:438
+msgid ""
+"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
+"\"color=white\"]."
+msgstr "起動ごとに送信するキーと値のペアを入力します（例：[\"page=1\", \"color=white\"]）。"
+
+#: lti_xblock.py:443
+msgid "Open tool in"
+msgstr "ツールを開く"
+
+#: lti_xblock.py:456
+msgid "Launch Button Text"
+msgstr "起動ボタンのテキスト"
+
+#: lti_xblock.py:458
+msgid ""
+"Enter the label shown on the launch button when the tool opens in a modal or"
+" new window."
+msgstr "ツールがモーダルまたは新しいウィンドウで開くときに、起動ボタンに表示されるラベルを入力します。"
+
+#: lti_xblock.py:464
+msgid "Inline Height (px)"
+msgstr "インラインの高さ (px)"
+
+#: lti_xblock.py:466
+msgid "Enter the height of the inline iframe in pixels."
+msgstr "インラインiframeの高さをピクセル単位で入力してください。"
+
+#: lti_xblock.py:472
+msgid "Modal Height (%)"
+msgstr "モーダルの高さ（%）"
+
+#: lti_xblock.py:474
+msgid "Enter the modal height as a percentage of the browser window."
+msgstr "モーダルの高さをブラウザウィンドウのパーセンテージで入力します。"
+
+#: lti_xblock.py:480
+msgid "Modal Width (%)"
+msgstr "モーダルの幅（%）"
+
+#: lti_xblock.py:482
+msgid "Enter the modal width as a percentage of the browser window."
+msgstr "モーダルの幅をブラウザウィンドウのパーセンテージで入力します。"
+
+#: lti_xblock.py:489
+msgid "Enable this if the tool sends a numeric score back to Open edX."
+msgstr "ツールがOpen edXに数値スコアを送信する場合に、これを有効にします。"
+
+#: lti_xblock.py:494
+msgid "Grade Weight"
+msgstr "成績の重み"
+
+#: lti_xblock.py:496
+msgid "Enter the maximum number of points for this component."
+msgstr "このコンポーネントの最大点数を入力してください。"
+
+#: lti_xblock.py:503
+msgid ""
+"The score kept in the xblock KVS -- duplicate of the published score in "
+"django DB"
+msgstr "xblock KVSに保持されているスコア -- django DBに公開されたスコアの複製"
+
+#: lti_xblock.py:508
+msgid "Comment as returned from grader, LTI2.0 spec"
+msgstr "グレーダーから返されたコメント、LTI2.0仕様"
+
+#: lti_xblock.py:513
+msgid "Hide External Tool"
+msgstr "外部ツールを非表示"
+
+#: lti_xblock.py:515
+msgid ""
+"Enable this to hide launch button and iframe so you use the component for "
+"grade sync etc."
+msgstr "これを有効にすると、起動ボタンとiframeが非表示になり、成績同期などにコンポーネントを使用できます。"
+
+#: lti_xblock.py:522
+msgid ""
+"Enable this to allow the tool to send grades after the due date has passed."
+msgstr "これを有効にすると、期日を過ぎた後でもツールが成績を送信できるようになります。"
+
+#: lti_xblock.py:530
+msgid "Share Username"
+msgstr "ユーザー名を共有"
+
+#. Translators: This is used to request the user's username for a third party
+#. service.
+#: lti_xblock.py:532
+msgid "Enable this to send the learner’s username to the tool."
+msgstr "これを有効にすると、学習者のユーザー名がツールに送信されます。"
+
+#. Translators: This is used to request the user's full name for a third party
+#. service.
+#: lti_xblock.py:539
+msgid "Enable this to send the learner’s full name to the tool."
+msgstr "これを有効にすると、学習者の氏名がツールに送信されます。"
+
+#: lti_xblock.py:544
+msgid "Share Email"
+msgstr "メールを共有"
+
+#. Translators: This is used to request the user's email for a third party
+#. service.
+#: lti_xblock.py:546
+msgid "Enable this to send the learner’s email address to the tool."
+msgstr "これを有効にすると、学習者のメールアドレスがツールに送信されます。"
+
+#: lti_xblock.py:552
+msgid "Send extra parameters"
+msgstr "追加パラメータを送信"
+
+#: lti_xblock.py:553
+msgid ""
+"Enable this to send extra parameters (may contain PII). Consult site admin "
+"for details."
+msgstr ""
+"これを有効にすると、追加のパラメーター（個人を特定できる情報を含む場合があります）が送信されます。詳細については、サイト管理者にお問い合わせください。"
+
+#: lti_xblock.py:627
+msgid "Custom Parameters must be a list"
+msgstr "カスタムパラメータはリストでなければなりません"
+
+#: lti_xblock.py:634
+msgid "Custom Parameters should be strings in \"x=y\" format."
+msgstr "カスタムパラメータは「x=y」形式の文字列である必要があります。"
+
+#: lti_xblock.py:644
+msgid ""
+"Reusable configuration ID must be set when using external config (Example: "
+"\"x:y\")."
+msgstr "外部設定を使用する場合、再利用可能な設定IDを設定する必要があります（例：「x:y」）。"
+
+#: lti_xblock.py:668
+msgid ""
+"The specified LTI ID is not configured in this course's Advanced Settings."
+msgstr "このコースの詳細設定で指定されたLTI IDが構成されていません。"
+
+#: lti_xblock.py:802 lti_xblock.py:1119
+msgid "Could not get user data for current request"
+msgstr "現在のリクエストに対するユーザーデータを取得できませんでした。"
+
+#: lti_xblock.py:842
+msgid ""
+"Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
+"string."
+msgstr ""
+"LTIパスポートを解析できませんでした: {lti_passport!r}。「id:key:secret」形式の文字列である必要があります。"
+
+#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
+msgid "Could not get user id for current request"
+msgstr "現在のリクエストに対するユーザーIDを取得できませんでした"
+
+#: lti_xblock.py:1052
+msgid ""
+"Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
+"string."
+msgstr "カスタムパラメータを解析できませんでした: {custom_parameter!r}。 \"x=y\" 形式の文字列である必要があります。"
+
+#: lti_xblock.py:1507
+msgid "[LTI]: Real user not found against anon_id: {}"
+msgstr "[LTI]: 匿名IDに対して実際のユーザーが見つかりません: {}"
+
+#: models.py:61
+msgid "Platform's generated Private key. Keep this value secret."
+msgstr "プラットフォームが生成した秘密鍵。この値は秘密にしておいてください。"
+
+#: models.py:67
+msgid "Platform's generated Private key ID"
+msgstr "プラットフォーム生成の秘密鍵ID"
+
+#: models.py:72
+msgid "Platform's generated JWK keyset."
+msgstr "プラットフォームで生成されたJWKキーセット。"
+
+#: models.py:78
+msgid "Client ID used by LTI tool"
+msgstr "LTIツールで使用されるクライアントID"
+
+#: models.py:159
+msgid ""
+"LTI Configuration stored on the model for LTI 1.3 must have a value for one "
+"of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
+msgstr ""
+"LTI "
+"1.3のモデルに保存されているLTI設定には、lti_1p3_tool_public_keyまたはlti_1p3_tool_keyset_urlのいずれかの値が必要です。"
+
+#: models.py:203
+msgid "Configuration Stored on XBlock fields"
+msgstr "XBlockフィールドに保存された設定"
+
+#: models.py:204
+msgid "Configuration Stored on this model"
+msgstr "このモデルに保存された設定"
+
+#: models.py:205
+msgid "Configuration Stored on external service"
+msgstr "外部サービスに保存された設定"
+
+#: models.py:239
+msgid "LTI configuration data."
+msgstr "LTI構成データ。"
+
+#: models.py:246
+msgid "The URL of the external tool that initiates the launch."
+msgstr "外部ツールの起動を開始するURL。"
+
+#: models.py:251
+msgid "Client key provided by the LTI tool provider."
+msgstr "LTIツールプロバイダーによって提供されたクライアントキー。"
+
+#: models.py:257
+msgid "Client secret provided by the LTI tool provider."
+msgstr "LTIツールプロバイダーによって提供されたクライアントシークレット。"
+
+#: models.py:346
+msgid "LTI Configuration stores on XBlock needs a block location set."
+msgstr "LTI構成をXBlockに保存するには、ブロックの場所を設定する必要があります。"
+
+#: models.py:351
+msgid ""
+"LTI Configuration using reusable configuration needs a external ID in "
+"\"x:y\" format."
+msgstr "LTI構成で再利用可能な構成を使用する場合、外部IDは「x:y」形式である必要があります。"
+
+#: models.py:356
+msgid "LTI Configuration for 1.3 requires passport to be set."
+msgstr "LTI 1.3の構成には、パスポートの設定が必要です。"
+
+#: models.py:361
+msgid ""
+"CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
+"Proctoring Services."
+msgstr "LTI 1.3の試験監督サービスでは、CONFIG_ON_XBLOCKおよびCONFIG_EXTERNALはサポートされていません。"
+
+#: models.py:369
+msgid "Invalid LTI configuration."
+msgstr "LTI設定が無効です。"
+
+#: plugin/views.py:620
+msgid "The selected content type is not supported by Open edX."
+msgstr "選択されたコンテンツタイプはOpen edXでサポートされていません。"
+
+#: plugin/views.py:635
+msgid "You don't have access to save LTI Content Items."
+msgstr "LTIコンテンツアイテムを保存するアクセス権がありません。"
+
+#: plugin/views.py:636
+msgid ""
+"Please check that you have course staff permissions and double check this "
+"block's LTI settings."
+msgstr "コーススタッフの権限を持っていることを確認し、このブロックのLTI設定を再確認してください。"
+
+#: templates/html/lti-dl/dl_response_error.html:6
+msgid "LTI Deep Linking failed."
+msgstr "LTIディープリンクに失敗しました。"
+
+#: templates/html/lti-dl/dl_response_saved.html:6
+msgid "LTI Deep Linking"
+msgstr "LTIディープリンク"
+
+#: templates/html/lti-dl/dl_response_saved.html:10
+msgid "The LTI Deep Linking content was successfully saved in the LMS."
+msgstr "LTIディープリンクのコンテンツがLMSに正常に保存されました。"
+
+#: templates/html/lti-dl/dl_response_saved.html:13
+msgid "You can safely close this page now."
+msgstr "このページを閉じても安全です。"
+
+#: templates/html/lti_1p3_permission_error.html:10
+msgid "Unauthorized."
+msgstr "許可されていません。"
+
+#: templates/html/lti_1p3_permission_error.html:13
+msgid ""
+"Students don't have permissions to perform LTI Deep Linking configuration "
+"launches."
+msgstr "学生はLTIディープリンクの設定起動を行う権限がありません。"
+
+#: templates/html/lti_1p3_studio.html:3
+msgid "LTI 1.3 Launches can only be performed from the LMS."
+msgstr "LTI 1.3の起動はLMSからのみ実行できます。"
+
+#: templates/html/lti_1p3_studio.html:7
+msgid ""
+"To set up the LTI integration, you need to register the LMS in the tool with"
+" the information provided below."
+msgstr "LTI統合を設定するには、以下の情報を使用してツールにLMSを登録する必要があります。"
+
+#: templates/html/lti_1p3_studio.html:11
+msgid "Client ID: "
+msgstr "クライアントID: "
+
+#: templates/html/lti_1p3_studio.html:16
+msgid "Deployment ID: "
+msgstr "デプロイメントID: "
+
+#: templates/html/lti_1p3_studio.html:21
+msgid "Keyset URL: "
+msgstr "キーセットURL: "
+
+#: templates/html/lti_1p3_studio.html:26
+msgid "Access Token URL: "
+msgstr "アクセストークンURL: "
+
+#: templates/html/lti_1p3_studio.html:31
+msgid "Login URL: "
+msgstr "ログインURL: "
+
+#: templates/html/lti_1p3_studio.html:39
+msgid "Deep Linking is configured on this tool."
+msgstr "このツールにはディープリンクが設定されています。"
+
+#: templates/html/lti_1p3_studio.html:40
+msgid "The Deep Linking configuration stored is presented below:"
+msgstr "保存されたディープリンク設定は以下の通りです。"
+
+#: templates/html/lti_1p3_studio.html:45
+msgid "If you run deep linking again, the content above will be replaced."
+msgstr "再度ディープリンクを実行すると、上記のコンテンツが置き換えられます。"
+
+#: templates/html/lti_1p3_studio.html:49
+msgid "You can configure this tool's content using LTI Deep Linking."
+msgstr "このツールのコンテンツはLTIディープリンクを使用して構成できます。"
+
+#: templates/html/lti_1p3_studio.html:50
+msgid "To do that, make sure the block is published and click the link below:"
+msgstr "そのためには、ブロックが公開されていることを確認し、以下のリンクをクリックしてください。"
+
+#: templates/html/lti_1p3_studio.html:53
+msgid "Deep Linking Launch - Configure tool"
+msgstr "ディープリンク起動 - ツールの設定"
+
+#: templates/html/lti_launch.html:27
+msgid "Press to Launch"
+msgstr "起動するには押してください"
+
+#: templates/html/lti_launch_error.html:10
+msgid "There was an error while launching the LTI tool: "
+msgstr "LTIツールの起動中にエラーが発生しました: "
+
+#: templates/html/lti_launch_error.html:16
+#: templates/html/lti_proctoring_start_error.html:13
+msgid ""
+"If you're seeing this on a live course, please contact the course staff."
+msgstr "ライブコースでこれを見ている場合は、コーススタッフに連絡してください。"
+
+#: templates/html/lti_proctoring_start_error.html:10
+msgid "There was an error while starting your LTI proctored assessment."
+msgstr "LTI監督付き評価の開始中にエラーが発生しました。"
+
+#: templates/html/lti_start_assessment.html:11
+msgid "Sending you back to your exam."
+msgstr "試験に戻ります。"
+
+#: templates/html/lti_start_assessment.html:15
+msgid "Return to exam."
+msgstr "試験に戻る。"
+
+#: templates/html/lti_studio_edit/_actions.html:5
+msgid "Previous"
+msgstr "前へ"
+
+#: templates/html/lti_studio_edit/_actions.html:10
+#: static/js/xblock_lti_consumer.js:143
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: templates/html/lti_studio_edit/_actions.html:13
+msgid "Next"
+msgstr "次へ"
+
+#: templates/html/lti_studio_edit/_actions.html:16
+msgid "Save"
+msgstr "保存"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:20
+#: templates/html/lti_studio_edit/_step_advantage.html:104
+#: templates/html/lti_studio_edit/_step_review.html:87
+#: templates/html/lti_studio_edit/_step_review.html:208
+msgid "Enabled"
+msgstr "有効"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:142
+msgid "Public Key"
+msgstr "公開鍵"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:152
+msgid "Keyset URL"
+msgstr "キーセットURL"
+
+#: templates/html/lti_studio_edit/_step_review.html:22
+msgid "Grading"
+msgstr "採点"
+
+#: templates/html/lti_studio_edit/_step_review.html:39
+msgid "Graded"
+msgstr "採点済み"
+
+#: templates/html/lti_studio_edit/_step_review.html:49
+msgid "Ungraded"
+msgstr "未採点"
+
+#: templates/html/lti_studio_edit/_step_review.html:108
+msgid "Advanced Information Sharing"
+msgstr "高度な情報共有"
+
+#: templates/html/lti_studio_edit/_step_review.html:174
+msgid "Administrators can enable advanced sharing options for LTI components."
+msgstr "管理者は、LTIコンポーネントの詳細な共有オプションを有効にできます。"
+
+#: templates/html/lti_studio_edit/_step_review.html:179
+msgid "Learn more."
+msgstr "詳しくはこちら。"
+
+#: templates/html/lti_studio_edit/_step_review.html:229
+msgid "Appearance Options"
+msgstr "表示オプション"
+
+#: templates/html/lti_studio_edit/_step_review.html:246
+msgid "True"
+msgstr "真"
+
+#: templates/html/lti_studio_edit/_step_review.html:256
+msgid "False"
+msgstr "偽"
+
+#: templates/html/lti_studio_edit/_step_setup.html:5
+msgid "LTI Configuration"
+msgstr "LTI設定"
+
+#: templates/html/lti_studio_edit/_step_setup.html:105
+msgid "LTI 1.1/1.2 Configuration"
+msgstr "LTI 1.1/1.2 設定"
+
+#: templates/html/lti_studio_edit/_step_setup.html:119
+msgid "LTI 1.3 Configuration"
+msgstr "LTI 1.3 設定"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:10
+msgid "Setup"
+msgstr "設定"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:21
+msgid "Advantage Settings"
+msgstr "アドバンテージ設定"
+
+#: static/js/xblock_lti_consumer.js:145
+msgid "OK"
+msgstr "了解しました"
+
+#: static/js/xblock_lti_consumer.js:174
+msgid ""
+"Click OK to have your username, full name, and e-mail address sent to a 3rd "
+"party application."
+msgstr "OKをクリックすると、ユーザー名、フルネーム、メールアドレスが第三者のアプリケーションに送信されます。"
+
+#: static/js/xblock_lti_consumer.js:178
+msgid ""
+"Click OK to have your username and e-mail address sent to a 3rd party "
+"application."
+msgstr "OKをクリックすると、ユーザー名とメールアドレスが第三者のアプリケーションに送信されます。"
+
+#: static/js/xblock_lti_consumer.js:181
+msgid ""
+"Click OK to have your username and full name sent to a 3rd party "
+"application."
+msgstr "3rdパーティーアプリケーションにユーザー名とフルネームを送信するには、[OK]をクリックしてください。"
+
+#: static/js/xblock_lti_consumer.js:184
+msgid ""
+"Click OK to have your full name and e-mail address sent to a 3rd party "
+"application."
+msgstr "3rdパーティーアプリケーションにフルネームとメールアドレスを送信するには、OKをクリックしてください。"
+
+#: static/js/xblock_lti_consumer.js:187
+msgid "Click OK to have your username sent to a 3rd party application."
+msgstr "サードパーティのアプリケーションにユーザー名を送信するには、「OK」をクリックしてください。"
+
+#: static/js/xblock_lti_consumer.js:189
+msgid "Click OK to have your full name sent to a 3rd party application."
+msgstr "「OK」をクリックすると、あなたのフルネームが第三者のアプリケーションに送信されます。"
+
+#: static/js/xblock_lti_consumer.js:191
+msgid "Click OK to have your e-mail address sent to a 3rd party application."
+msgstr "サードパーティのアプリケーションにメールアドレスを送信するには、[OK]をクリックしてください。"
+
+#: static/js/xblock_lti_consumer.js:198
+msgid "Click Cancel to return to this page without sending your information."
+msgstr "キャンセルをクリックすると、情報を送信せずにこのページに戻ります。"
+
+#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
+#: static/js/xblock_studio_view.js:526
+msgid "Unable to update settings"
+msgstr "設定を更新できません"
+
+#: static/js/xblock_studio_view.js:477
+msgid "Unable to parse the custom parameters."
+msgstr "カスタムパラメーターを解析できません。"
+
+#: static/js/xblock_studio_view.js:491
+msgid "Unable to parse the redirect URIs."
+msgstr "リダイレクトURIを解析できません。"
+
+#: static/js/xblock_studio_view.js:511
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr ""
+"サーバーまたはユーザー側のインターネット接続の問題が原因でこのエラーが発生している可能性があります。ページを更新するか、インターネットに接続されているかどうかを確認してください。"

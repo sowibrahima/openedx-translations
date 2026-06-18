@@ -141,6 +141,7 @@
   "email.invalid.format.error": "Geçerli bir e-posta adresi girin",
   "username.validation.message": "Kullanıcı adı 2 ila 30 karakter içermelidir",
   "name.validation.message": "Geçerli bir ad giriniz",
+  "registration.name.validation.length.message": "Tam ad {limit} karakterden uzun olamaz",
   "username.format.validation.message": "Kullanıcı adları sadece harf (A-Z, a-z), rakam (0-9), alt çizgi (_) ve tire (-) içerebilir. Kullanıcı adları boşluk içeremez",
   "registration.request.failure.header": "Hesabınızı oluşturamadık.",
   "registration.empty.form.submission.error": "Lütfen yanıtlarınızı kontrol edin ve tekrar deneyin.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "profiliniz",
   "register.page.terms.of.service.and.honor.code": "Bir hesap oluşturarak {tosAndHonorCode} metnini kabul etmiş olursunuz ve {platformName} ile her Üyenin kişisel verilerinizi {privacyPolicy} uyarınca işlediğini kabul edersiniz.",
   "register.page.honor.code": "{platformName} {tosAndHonorCode} metnini kabul ediyorum",
-  "register.page.terms.of.service": "{platformName} {termsOfService} metnini kabul ediyorum"
+  "register.page.terms.of.service": "{platformName} {termsOfService} metnini kabul ediyorum",
+  "error.notfound.page.title": "Sayfa Bulunamadı | {siteName}"
 }

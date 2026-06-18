@@ -1,5 +1,8 @@
 en:
   '% Correct': '٪ درست'
+  '% Correct All Attempts': '% تصحیح همه تلاش ها'
+  '% Correct First Attempts': 'اولین تلاش های صحیح ٪'
+  '% Correct Last Attempts': '% آخرین تلاش های صحیح'
   '% Incorrect': '٪ غلط'
   '% Video Seconds Rewatched': '% ثانیه ویدیو دوباره تماشا شد'
   '% Video Seconds Watched': '% ثانیه ویدیو تماشا شده'
@@ -30,9 +33,11 @@ en:
   Approving State: دولت تایید کننده
   At Risk: در معرض خطر
   At-Risk Learners: فراگیران در معرض خطر
+  Attempt: تلاش
   Attempted All Problems: تمام مسائل، امتحان شد
   Attempted At Least One Problem: تلاش برای حداقل یک مسئله
   Attempts: تلاش‌ها
+  Average Score: میانگین امتیاز
   Avg % Correct on 1st Attempt: میانگین % درست در اولین تلاش
   Avg Attempts: میانگین تلاش‌ها
   Avg Correct Attempts Coursewide: میانگین تلاش های صحیح در سراسر دوره
@@ -40,6 +45,7 @@ en:
   Avg Course Grade: میانگین نمرۀ دوره
   Avg Incorrect Attempts Coursewide: میانگین تلاش های نادرست در سراسر دوره
   Avg Incorrect Attempts by Selected Learners: میانگین تلاش های نادرست توسط زبان آموزان منتخب
+  Avg Score: میانگین امتیاز
   Avg Video Length (seconds): میانگین طول ویدیو (ثانیه)
   Block ID: شناسۀ انسداد
   Block Id: شناسۀ بلوک
@@ -57,6 +63,7 @@ en:
   Correct Attempts by Selected Learner: تلاش های صحیح توسط یادگیرنده منتخب
   Count: تعداد
   Count of Passing Grades: تعداد نمرات قبولی
+  Count of Scores: تعداد امتیازات
   Count of unique users who performed an action in Superset over the selected time period.: تعداد کاربران منحصربه‌فردی که در بازۀ زمانی انتخاب‌شده اقدامی را در ابرمجموعه انجام دادند.
   Count over time of unique users who performed an action in Superset over the selected time period.: تعداد کاربران منحصربه‌فردی که در بازۀ زمانی انتخاب‌شده در ابرمجموعه اقداماتی انجام داده‌اند در طول زمان بشمارید.
   Course Comparison Dashboard: داشبورد مقایسه دوره
@@ -136,6 +143,7 @@ en:
   Event Time: زمان رویداد
   Events Cnt: رویدادها Cnt
   Fail Login Count: تعداد ورود ناموفق
+  Final Response Results: نتایج پاسخ نهایی
   First Name: نام کوچک
   Full Views: مشاهدۀ کامل
   Grade Bucket: سطل درجه
@@ -143,13 +151,21 @@ en:
   Grade range: دامنۀ درجه
   Graded: درجه‌بندی شد
   Graded Learners: فراگیران درجه‌بندی‌شده
+  Graded Subsection Engagement: درگیری در زیربخش درجه بندی شده
+  Graded Subsection Performance: عملکرد زیربخش درجه بندی شده
   Help: راهنما
   Http User Agent: عامل کاربر Http
   Id: شناسه
+  'In-Context Analytics: Course': 'تجزیه و تحلیل درون متنی: دوره'
+  'In-Context Analytics: Graded Subsection': 'تجزیه و تحلیل درون متنی: زیربخش درجه بندی شده'
+  'In-Context Analytics: Problem': 'تجزیه و تحلیل درون متنی: مشکل'
+  'In-Context Analytics: Video': 'تجزیه و تحلیل درون متنی: ویدئو'
   Incorrect Attempts: تلاش‌های نادرست
   Incorrect Attempts By Learner: تلاش های نادرست یادگیرنده
   Incorrect Attempts by Selected Learner: تلاش های نادرست توسط یادگیرنده منتخب
   Individual Learner: فراگیر انفرادی
+  Initial Numeric Responses: پاسخ های عددی اولیه
+  Initial Responses: پاسخ های اولیه
   Instance Health: سلامتی نمونه
   Interaction Type: نوع تعامل
   Last Course Published: آخرین دورۀ انتشار
@@ -175,11 +191,14 @@ en:
   Most-used Charts: نمودارهای پرمصرف
   Most-used Dashboards: پیشخوان‌های پرمصرف
   Name: نام
+  Name Org: نام سازمان
   Number of Learners: تعداد فراگیران
   Number of Learners who Attempted the Problem: تعداد فراگیرانی که برای حل مسئله تلاش کردند
   Number of Videos: تعداد ویدیوها
+  Number of Videos Watched: تعداد ویدیوهای تماشا شده
   Number of Views across Video Duration: تعداد بازدیدها در طول مدت ویدیو
   Object ID: شناسۀ شیء
+  Object Id: شناسه شی
   Object Type: نوع شیء
   Only available in versions Redwood and later: فقط در نسخه های Redwood و جدیدتر موجود است
   Operator Dashboard: پیشخوان متصدی
@@ -201,6 +220,7 @@ en:
   Performance: کارایی
   Problem Attempts: دفعات تلاش برای حل مسئله
   Problem Attempts and Results: تلاش ها و نتایج مشکل
+  Problem Engagement: درگیری مشکل
   Problem Engagement per Section: درگیری مسئله در هربخش
   Problem Engagement per Section/Subsection: درگیری مسئله در هر بخش/فرع
   Problem Engagement per Subsection: درگیری مسئله در هر زیربخش
@@ -208,20 +228,30 @@ en:
   Problem Link: پیوند مسئله
   Problem Location and Name: محل و نام مسئله
   Problem Name: نام مسئله
+  Problem Name Location: محل نام مشکل
   Problem Name With Location: نام مسئله با مکان
+  Problem Number: شماره مشکل
+  Problem Part: بخش مسئله
   Problem Results: نتایج مسئله
+  Problem Results Table: جدول نتایج مشکل
   Problems: مسائل
   Query: پرس‌وجو
   Query Duration Ms: 'مدت‌زمان استعلام '
   Query performance: عملکرد پرس‌وجو
   Read Rows: خواندن ردیف‌ها
   Repeat Views: تکرار نماها
+  Respondents: پاسخ دهندگان
+  Response: پاسخ
+  Response Count: تعداد پاسخ‌ها
+  Response Numeric: عددی پاسخ
   Responses: پاسخ‌ها
   Result: نتیجه
   Result Rows: ردیف‌های نتیجه
   Rewatched Time: زمان بازبینی شده
   Rownum: Rownum
   Run Metrics: Metrics را اجرا کنید
+  Scaled Score: امتیاز مقیاس شده
+  Score Range: محدوده نمره
   Section Location and Name: محل و نام بخش
   Section Name: نام بخش
   Section Subsection Video Engagement: بخش زیربخش تعامل ویدیویی
@@ -248,6 +278,7 @@ en:
   Started At: آغاز در
   Subsection Location and Name: قسمت فرعی مکان و نام
   Subsection Name: نام زیر بخش
+  Subsection Number: شماره زیربخش
   Subsection Summary: خلاصۀ زیربخش
   Subsection With Name: زیربخش با نام
   Subsection with name: زیربخش با نام
@@ -259,16 +290,20 @@ en:
   Tables: جداول
   Tag: برچسب بزنید
   Tags: برچسب ها
+  Tags Str: برچسب ها Str
   Time Grain: زمان هسته
   Time Last Dumped: زمان آخرین روبرداری
   Time Range: محدودۀ زمانی
+  Time Stamp: تمبر زمان
   ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
   : برای مشاهده تعداد بازدیدها در طول مدت یک ویدیو، روی نام ویدیو در ستون پیوند ویدیو در جدول بالا کلیک کنید.
   Total: مجموع
+  Total Avg: میانگین کل
   Total Courses: مجموع دوره‌ها
   Total Organizations: کل سازمان‌ها
   Total Views: کل بازدیدها
   Unique Viewers: بینندگان منحصربه‌فرد
+  Unique vs. Repeat Views: نماهای منحصر به فرد در مقابل تکرار
   User ID: شناسۀ کاربر
   User Info: اطلاعات کاربر
   User Name: نام کاربری
@@ -289,7 +324,9 @@ en:
   Video Link: پیوند ویدیو
   Video Location and Name: مکان و نام ویدیو
   Video Name: نام ویدیو
+  Video Name Location: مکان نام ویدیو
   Video Name With Location: نام ویدیو با موقعیت مکانی
+  Video Number: شماره ویدیو
   Video Position: جایگاه ویدیو
   Video Segment Count: تعداد بخش ویدیو
   Videos: ویدیوها
@@ -312,9 +349,13 @@ en:
   section_subsection_name: section_subsection_name
   section_subsection_page_engagement: section_subsection_page_engagement
   section_subsection_problem_engagement: section_subsection_problem_engagement
+  sort: مرتب کردن
+  success: موفقیت
   ungraded: غیرمدرج
   unregistered: ثبت نشده
   verified: تاییدشده
+  '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}'
   '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}'
   '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}': '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}'
+  '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}': '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}'
   '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'

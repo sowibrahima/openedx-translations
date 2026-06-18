@@ -1,0 +1,358 @@
+en:
+  '% Correct': '% Juist'
+  '% Correct All Attempts': '% Correct Alle pogingen'
+  '% Correct First Attempts': '% correct eerste pogingen'
+  '% Correct Last Attempts': '% Correcte Laatste Pogingen'
+  '% Incorrect': '% Niet correct'
+  '% Video Seconds Rewatched': '% video-seconden opnieuw bekeken'
+  '% Video Seconds Watched': '% bekeken video-seconden'
+  ? '<dl>
+
+    <dt>Avg % Correct on 1st Attempt </dt>
+
+    <dd> The average percentage of correct answers on the first attempt of the learners who attempted the problem. </dd>
+
+    </dl>'
+  : |-
+    <dl>
+    <dt>Gem % juist bij eerste poging </dt>
+    <dd> Het gemiddelde percentage correcte antwoorden bij de eerste poging van de leerlingen die het probleem hebben geprobeerd. </dd>
+    </dl>
+  Action: Actie
+  Action Count: Actieaantal
+  Action Date: Actiedatum
+  Active: Actief
+  Active Courses: Actieve Cursussen
+  Active Learner: Actieve leerling
+  Active Learners: Actieve leerlingen
+  Active Users Per Organization: Actieve gebruikers per organisatie
+  Active Within Last 7 Days: Actief binnen de laatste 7 dagen
+  Actor ID: Acteur-ID
+  Actor Id: Acteur-id
+  Actors Count: Acteurs tellen
+  Approving State: Goedkeurende staat
+  At Risk: In gevaar
+  At-Risk Learners: Risicovolle leerlingen
+  Attempt: Poging
+  Attempted All Problems: Alle problemen geprobeerd
+  Attempted At Least One Problem: Er is minstens één probleem geprobeerd.
+  Attempts: Pogingen
+  Average Score: Gemiddelde score
+  Avg % Correct on 1st Attempt: Gem. % correct bij de 1e poging
+  Avg Attempts: Gemiddeld pogingen
+  Avg Correct Attempts Coursewide: Gemiddeld aantal juiste pogingen Cursusbreed
+  Avg Correct Attempts by Selected Learners: Gemiddeld juiste pogingen door geselecteerde leerlingen
+  Avg Course Grade: Gemiddeld cursuscijfer
+  Avg Incorrect Attempts Coursewide: Avg foute pogingen Cursusbreed
+  Avg Incorrect Attempts by Selected Learners: Gem. foutieve pogingen van geselecteerde leerlingen
+  Avg Score: Gemiddelde score
+  Avg Video Length (seconds): Gemiddelde videolengte (seconden)
+  Block ID: Blok-ID
+  Block Id: Blok-ID
+  COUNT(*): SOM(*)
+  Changed By Fk: Gewijzigd door Fk
+  Changed On: Gewijzigd Op
+  Chart showing the number of Superset actions taken on each chart in the selected time period.: Grafiek met het aantal Superset-acties dat op elke kaart is uitgevoerd in de geselecteerde tijdsperiode.
+  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Grafiek met het aantal Superset-acties dat op elk dashboard is uitgevoerd in de geselecteerde periode.
+  Chart showing the number of registered users over the selected time period.: Grafiek met het aantal geregistreerde gebruikers gedurende de geselecteerde periode.
+  ClickHouse: KlikHuis
+  ClickHouse metrics: ClickHouse-statistieken
+  Content Level: Inhoudsniveau
+  Correct Attempts: Juiste pogingen
+  Correct Attempts By Learner: Juiste pogingen door leerling
+  Correct Attempts by Selected Learner: Correcte pogingen van de geselecteerde leerling
+  Count: Graaf
+  Count of Passing Grades: Aantal voldoendes
+  Count of Scores: Aantal Scores
+  Count of unique users who performed an action in Superset over the selected time period.: Aantal unieke gebruikers die gedurende de geselecteerde periode een actie in Superset hebben uitgevoerd.
+  Count over time of unique users who performed an action in Superset over the selected time period.: Tel het aantal unieke gebruikers die gedurende de geselecteerde periode een actie in Superset hebben uitgevoerd.
+  Course Comparison Dashboard: Dashboard Cursusvergelijking
+  Course Dashboard: Cursusdashboard
+  Course Data JSON: Cursusgegevens JSON
+  Course End: Cursus einde
+  Course Enrollment Mode Status Cnt: Cursusinschrijvingsmodus Status Cnt
+  Course Enrollments Over Time: Cursusinschrijvingen in de loop van de tijd
+  Course Grade: Cursuscijfer
+  Course Grade %: Cursus cijfer %
+  Course ID: Cursus id
+  Course Info: Cursusinfo
+  Course Information: Cursusinformatie
+  Course Key: Cursussleutel
+  Course Key Short: Cursussleutel kort
+  Course Metrics: Cursusgegevens
+  Course Name: Cursus naam
+  Course Order: Cursusvolgorde
+  Course Run: Cursus loopt
+  Course Start: Cursus start
+  Course Tag: Cursus label
+  Course grade: Cursus cijfer
+  Course name: Cursus naam
+  Course run: Cursus uitgevoerd
+  Courses: Cursussen
+  Courses Cnt: Cursussen Cnt
+  Courses Per Organization: Cursussen per organisatie
+  Coursewide % Correct: Cursusbreed % Correct
+  Coursewide Percent Correct: Coursewide Percentage correct
+  Coursewide averages are based on learners who attempted the problem.: De cursusgemiddelden zijn gebaseerd op leerlingen die het probleem hebben geprobeerd.
+  Coursewide percentages are based on learners who attempted the problem.: Cursusbrede percentages zijn gebaseerd op leerlingen die het probleem hebben geprobeerd.
+  Created: Gemaakt
+  Created By Fk: Gemaakt door Fk
+  Created On: Gemaakt op
+  Cumulative Enrollments by Track: Cumulatieve inschrijvingen per traject
+  Cumulative Interactions: Cumulatieve interacties
+  Current Active Enrollments By Mode: Huidige actieve inschrijvingen per modus
+  Current Enrollees: Huidige ingeschrevenen
+  Currently Enrolled Users: Momenteel ingeschreven gebruikers
+  Dashboard ID: Dashboard-ID
+  Dashboard Status: Dashboardstatus
+  Dashboard Title: Dashboardtitel
+  Datasource ID: Gegevensbron-ID
+  Datasource Name: Naam van gegevensbron
+  Datasource Type: Gegevensbrontype
+  Date: Datum
+  Description: Beschrijving
+  Display Name: Weergavenaam
+  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Toont de top 10 cursussen met de meeste inschrijvingen. Als je andere cursussen in de filter selecteert, worden die cursussen weergegeven.
+  Distribution of Course Grades: Verdeling van cursuscijfers
+  Distribution of Current Course Grade: Verdeling van het huidige cursuscijfer
+  Dump ID: Dump-ID
+  Duration (Seconds): Duurte (seconden)
+  Email: E-mail
+  Emission Day: Emissiedag
+  Emission Hour: Emissie-uur
+  Emission Time: Emissietijd
+  Engagement: Betrokkenheid
+  Enrolled At: Ingeschreven bij
+  Enrollees by Enrollment Track: Ingeschreven personen per inschrijvingstrack
+  Enrollees per Enrollment Track: Ingeschreven personen per inschrijvingstraject
+  Enrollment: Inschrijving
+  Enrollment Counts: Inschrijftellingen
+  Enrollment Date: Inschrijvingsdatum
+  Enrollment Dates: Inschrijvingsdata
+  Enrollment End: Einde inschrijving
+  Enrollment Mode: Inschrijvingsmodus
+  Enrollment Start: Inschrijving start
+  Enrollment Status: Inschrijvingsstatus
+  Enrollment Track: Inschrijvingstraject
+  Enrollment status: Inschrijving Status
+  Enrollment track: Inschrijvingstraject
+  Enrollments: Inschrijvingen
+  Event Activity: Evenement Activiteit
+  Event ID: Gebeurtenis-ID
+  Event String: Gebeurtenisreeks
+  Event Time: Evenemententijd
+  Events Cnt: Evenementen Cnt
+  Fail Login Count: Aantal mislukte aanmeldingen
+  Final Response Results: Definitieve responsresultaten
+  First Name: Voornaam
+  Full Views: Volledige weergaven
+  Grade Bucket: Graad emmer
+  Grade Range: Graadbereik
+  Grade range: Graadbereik
+  Graded: Beoordeeld
+  Graded Learners: Gegradueerde leerlingen
+  Graded Subsection Engagement: Gecategoriseerde subsectie Betrokkenheid
+  Graded Subsection Performance: Gegroepeerde prestaties subsectie
+  Help: Help
+  Http User Agent: HTTP-gebruikersagent
+  'In-Context Analytics: Course': 'In-Context Analyse: Cursus'
+  'In-Context Analytics: Graded Subsection': 'In-contextanalyse: Gegradueerde subsectie'
+  'In-Context Analytics: Problem': 'In-contextanalyse: Probleem'
+  'In-Context Analytics: Video': 'In-Context Analyseren: Video'
+  Incorrect Attempts: Onjuiste poging
+  Incorrect Attempts By Learner: Onjuiste pogingen van de leerling
+  Incorrect Attempts by Selected Learner: Onjuiste pogingen door de geselecteerde leerling
+  Individual Learner: Individuele leerling
+  Initial Numeric Responses: Initiële numerieke antwoorden
+  Initial Responses: Eerste reacties
+  Instance Health: Instantiestatus
+  Interaction Type: Interactietype
+  Last Course Published: Laatste cursus gepubliceerd
+  Last Login: Laatste aanmelding
+  Last Name: Achternaam
+  Last Received Event: Laatst ontvangen gebeurtenis
+  Last Visit Date: Laatste bezoekdatum
+  Last Visited: Laatst bezocht
+  Last course syncronized: Laatste cursus gesynchroniseerd
+  Learner Performance: Prestaties van de leerling
+  Learner Performance Breakdown: Verdeling van prestaties van leerlingen
+  Learner Summary: Samenvatting van de leerling
+  Learners: Studenten
+  Learners with Passing Grade: Leerlingen met een voldoende
+  Login Count: Aantal aanmeldingen
+  Median Attempts: Gemiddelde pogingen
+  Median Course Grade: Mediaan cursuscijfer
+  Memory Usage (KB): Geheugengebruik (KB)
+  Memory Usage Mb: Geheugengebruik Mb
+  Modified: Gewijzigd
+  More details: Meer informatie
+  Most-used Charts: Meest gebruikte grafieken
+  Most-used Dashboards: Meest gebruikte dashboards
+  Name: Naam
+  Name Org: Naam Org
+  Number of Learners: Aantal leerlingen
+  Number of Learners who Attempted the Problem: Aantal leerlingen dat het probleem heeft geprobeerd
+  Number of Videos: Aantal video's
+  Number of Videos Watched: Aantal bekeken video's
+  Number of Views across Video Duration: Aantal keer bekeken gedurende de videoduur
+  Object ID: Object-ID
+  Object Id: Object-id
+  Object Type: Object type
+  Only available in versions Redwood and later: Alleen beschikbaar in Redwood en later
+  Operator Dashboard: Operatordashboard
+  Org: Org
+  Organization: Organisatie
+  Organizations: Organisaties
+  Overview: Overzicht
+  Page Count: Aantal pagina's
+  Page Engagement Over Time: Paginabetrokkenheid in de loop van de tijd
+  Page Engagement per Section: Paginabetrokkenheid per sectie
+  Page Engagement per Section/Subsection: Paginabetrokkenheid per sectie/subsectie
+  Page Engagement per Subsection: Paginabetrokkenheid per subsectie
+  Pages: Pagina's
+  Partial Views: Gedeeltelijke weergaven
+  Partial and Full Video Views: Gedeeltelijke en volledige videoweergaven
+  Passed: Geslaagd
+  Passed/Failed: Geslaagd/mislukt
+  Password: Wachtwoord
+  Performance: Prestatie
+  Problem Attempts: Probleempogingen
+  Problem Attempts and Results: Probleempogingen en resultaten
+  Problem Engagement: Probleemstelling
+  Problem Engagement per Section: Probleembetrokkenheid per sectie
+  Problem Engagement per Section/Subsection: Probleembetrokkenheid per sectie/subsectie
+  Problem Engagement per Subsection: Probleembetrokkenheid per subsectie
+  Problem Id: Probleem-id
+  Problem Link: Probleem Link
+  Problem Location and Name: Probleem Locatie en naam
+  Problem Name: Probleemnaam
+  Problem Name Location: Probleem Naam Locatie
+  Problem Name With Location: Probleemnaam met locatie
+  Problem Number: Probleemnummer
+  Problem Part: Probleemonderdeel
+  Problem Results: Probleemresultaten
+  Problem Results Table: Tabel met probleemresultaten
+  Problems: Problemen
+  Query: Vraag
+  Query performance: Queryprestaties
+  Read Rows: Lees rijen
+  Repeat Views: Herhaalde weergaven
+  Respondents: Respondenten
+  Response: Reactie
+  Response Count: Antwoordtelling
+  Response Numeric: Antwoord Numeriek
+  Responses: Reacties
+  Result: Resultaat
+  Result Rows: Resultaatrijen
+  Rewatched Time: Herbekeken tijd
+  Rownum: Rownum
+  Run Metrics: Gegevens uitvoeren
+  Run Name: Run Name
+  Scaled Score: Schaalscore
+  Score Range: Scorebereik
+  Section Location and Name: Sectie locatie en naam
+  Section Name: Sectienaam
+  Section Subsection Video Engagement: Sectie Subsectie Videobetrokkenheid
+  Section Summary: Sectie Samenvatting
+  Section With Name: Sectie met naam
+  Section with name: Sectie met naam
+  Section/Subsection Name: Naam van sectie/subsectie
+  Section/Subsection Page Enggagement: Sectie/subsectie Paginabetrokkenheid
+  Section/Subsection Problem Engagement: Sectie/subsectie Probleembetrokkenheid
+  Section/Subsection Video Engagement: Sectie/subsectie Video-engagement
+  Segment Range: Segmentbereik
+  Segment Start: Segmentstart
+  Selected Learner % Correct: Geselecteerde leerling % correct
+  Selected Learner % Incorrect: Geselecteerde leerling % onjuist
+  Selected Learner Percent Correct: Geselecteerde leerling percentage correct
+  Selected Learner Percent Incorrect: Geselecteerde leerling percentage onjuist
+  Selected Learners % Correct: Geselecteerde leerlingen % correct
+  Selected Learners % Incorrect: Geselecteerde leerlingen % onjuist
+  Self Paced: Zelf-paced
+  Slice ID: Segment-ID
+  Slice Name: Segmentnaam
+  Slowest ClickHouse Queries: Langzaamste ClickHouse-query's
+  Start Position: Begin positie
+  Started At: Begon op
+  Subsection Location and Name: Onderafdeling Locatie en naam
+  Subsection Name: Naam van subsectie
+  Subsection Number: Onderafdeling Nummer
+  Subsection Summary: Onderafdeling Samenvatting
+  Subsection With Name: Onderafdeling met naam
+  Subsection with name: Onderafdeling met naam
+  Success: Succes
+  Superset: Superset
+  Superset Active Users: Superset actieve gebruikers
+  Superset Active Users Over Time: Superset actieve gebruikers in de loop van de tijd
+  Superset Registered Users Over Time: Superset geregistreerde gebruikers in de loop van de tijd
+  Tables: Tafels
+  Tag: Label
+  Tags: Tags
+  Tags Str: Tags Str
+  Time Grain: Tijd korrel
+  Time Last Dumped: Tijd voor het laatst gedumpt
+  Time Range: Tijdsbestek
+  Time Stamp: Tijdstempel
+  ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
+  : Om het aantal weergaven over de duur van een enkele video te bekijken, klik je op de naam van de video in de kolom Videolink in de bovenstaande tabel.
+  Total: Total
+  Total Avg: Totaal Gemiddeld.
+  Total Courses: Totaal aantal cursussen
+  Total Organizations: Totaal Organisaties
+  Total Views: Totaal aantal weergaven
+  Unique Viewers: Unieke kijkers
+  Unique vs. Repeat Views: Uniek vs. herhaaldelijk bekeken
+  User ID: Gebruikers-ID
+  User Info: gebruikers informatie
+  User Name: Gebruikersnaam
+  User Registration Date: Registratiedatum van gebruiker
+  Username: Gebruikersnaam
+  Value: Waarde
+  Verb: Werkwoord
+  Verb ID: Werkwoord-ID
+  Video Duration: Videoduur
+  Video Engagement: Videobetrokkenheid
+  Video Engagement per Section: Videobetrokkenheid per sectie
+  Video Engagement per Section/Subsection: Videobetrokkenheid per sectie/subsectie
+  Video Engagement per Subsection: Videobetrokkenheid per subsectie
+  Video Event: Video-evenement
+  Video ID: Video-ID
+  Video Id: Video-id
+  Video Link: Video link
+  Video Location and Name: Videolocatie en naam
+  Video Name: Videonaam
+  Video Name Location: Video Naam Locatie
+  Video Name With Location: Videonaam met locatie
+  Video Number: Videonummer
+  Video Position: Videopositie
+  Video Segment Count: Aantal videosegmenten
+  Videos: Videos
+  Viewed All Pages: Alle pagina's bekeken
+  Viewed All Videos: Alle video's bekeken
+  Viewed At Least One Page: Minstens één pagina bekeken
+  Viewed At Least One Video: Minstens één video bekeken
+  Visited On: Bezocht op
+  Visualization Bucket: Visualisatie-emmer
+  Watched Entire Video: Hele video bekeken
+  Watched Segment Count: Aantal bekeken segmenten
+  Watched Time: Gekeken tijd
+  audit: audit
+  failed: mislukt
+  graded: beoordeeld
+  honor: eer
+  order: bestel
+  passed: geslaagd
+  registered: geregistreerd
+  section_subsection_name: sectie_subsectienaam
+  section_subsection_page_engagement: section_subsection_page_engagement
+  section_subsection_problem_engagement: section_subsection_problem_engagement
+  sort: sorteren
+  success: succes
+  ungraded: niet beoordeeld
+  unregistered: niet geregistreerd
+  verified: geverifieerd
+  '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}'
+  '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}'
+  '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}': '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}'
+  '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}': '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}'
+  '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'

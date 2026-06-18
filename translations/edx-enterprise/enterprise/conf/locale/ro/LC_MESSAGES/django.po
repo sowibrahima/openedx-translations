@@ -1,0 +1,2970 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+# 
+# Translators:
+# Transifex Bot <>, 2024
+# Omar Al-Ithawi <i@omardo.com>, 2024
+# Adela Beca, 2025
+# Ramadan Omar, 2026
+# Gerardo Núñez, 2026
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
+"Language-Team: Romanian (https://app.transifex.com/open-edx/teams/6205/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: consent/admin/__init__.py:99
+msgid ""
+"Preview the data sharing consent page rendered in the context of a course "
+"enrollment."
+msgstr ""
+"Previzualizați pagina de consimțământ pentru partajarea datelor afișată în "
+"contextul înscrierii la un curs."
+
+#: consent/admin/__init__.py:110
+msgid ""
+"Preview the data sharing consent page rendered in the context of a program "
+"enrollment."
+msgstr ""
+"Vizualizați pagina de consimțământ pentru partajarea datelor afișată în "
+"contextul înscrierii unui program."
+
+#: consent/admin/__init__.py:119 enterprise/admin/__init__.py:721
+msgid "Preview (course)"
+msgstr "Previzualizare (curs)"
+
+#: consent/admin/__init__.py:120 enterprise/admin/__init__.py:734
+msgid "Preview (program)"
+msgstr "Previzualizare (program)"
+
+#: consent/models.py:213
+msgid "Name of the user whose consent state is stored."
+msgstr "Numele utilizatorului a cărui stare de consimțământ este stocată."
+
+#: consent/models.py:243
+msgid "Data Sharing Consent Record"
+msgstr "Înregistrarea consimțământului pentru partajarea Datelor"
+
+#: consent/models.py:244
+msgid "Data Sharing Consent Records"
+msgstr "Înregistrări de consimțământ pentru partajarea Dată"
+
+#: consent/models.py:252
+msgid "Course key for which data sharing consent is granted."
+msgstr ""
+"Cheia de curs pentru care se acordă consimțământul pentru partajarea "
+"datelor."
+
+#: consent/models.py:266
+msgid "Data sharing consent text overrides"
+msgstr "Textele de consimțământ pentru partajarea datelor înlocuiesc"
+
+#: consent/models.py:269
+msgid ""
+"Fill in a text for first paragraph of page. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>platform_name: Name of platform.</li><li>item: A string "
+"which is \"course\" or \"program\" depending on the type of "
+"consent.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li><li>course_start_date: Course start date. Available "
+"when type of consent is course.</li></ul>"
+msgstr ""
+"Completați un text pentru primul paragraf al paginii. Următoarele variabile "
+"pot fi disponibile:<br /><ul><li>enterprise_customer_name: Un nume al "
+"clientului companiei.</li><li>platform_name: Numele "
+"platformei.</li><li>item: Un șir care este „curs” sau „program”, în funcție "
+"de tipul de consimțământ.</li><li>course_title: Titlul cursului. Disponibil "
+"atunci când tipul de consimțământ este curs.</li><li>course_start_date: Data"
+" de începere a cursului. Disponibil atunci când tipul de consimțământ este "
+"curs.</li></ul>"
+
+#: consent/models.py:279
+msgid ""
+"Fill in a text for policy paragraph at the bottom of page. The following "
+"variables may be available:<br /><ul><li>enterprise_customer_name: A name of"
+" enterprise customer.</li><li>platform_name: Name of platform.</li><li>item:"
+" A string which is \"course\" or \"program\" depending on the type of "
+"consent.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li><li>course_start_date: Course start date. Available "
+"when type of consent is course.</li></ul>"
+msgstr ""
+"Completați un text pentru paragraful de politică în partea de jos a paginii."
+" Următoarele variabile pot fi disponibile:<br "
+"/><ul><li>enterprise_customer_name: Un nume al clientului "
+"companiei.</li><li>platform_name: Numele platformei.</li><li>item: Un șir "
+"care este „curs” sau „program”, în funcție de tipul de "
+"consimțământ.</li><li>course_title: Titlul cursului. Disponibil atunci când "
+"tipul de consimțământ este curs.</li><li>course_start_date: Data de începere"
+" a cursului. Disponibil atunci când tipul de consimțământ este "
+"curs.</li></ul>"
+
+#: consent/models.py:289
+msgid ""
+"Fill in a text for left sidebar paragraph. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>platform_name: Name of platform.</li><li>item: A string "
+"which is \"course\" or \"program\" depending on the type of "
+"consent.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li><li>course_start_date: Course start date. Available "
+"when type of consent is course.</li></ul>"
+msgstr ""
+"Completați un text pentru paragraful din bara laterală din stânga. "
+"Următoarele variabile pot fi disponibile:<br "
+"/><ul><li>enterprise_customer_name: Un nume al clientului "
+"companiei.</li><li>platform_name: Numele platformei.</li><li>item: Un șir "
+"care este „curs” sau „program”, în funcție de tipul de "
+"consimțământ.</li><li>course_title: Titlul cursului. Disponibil atunci când "
+"tipul de consimțământ este curs.</li><li>course_start_date: Data de începere"
+" a cursului. Disponibil atunci când tipul de consimțământ este "
+"curs.</li></ul>"
+
+#: consent/models.py:299
+msgid ""
+"Fill in a text for dialog which appears when user decline to provide "
+"consent. The following variables may be available:<br "
+"/><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>item: A string which is \"course\" or \"program\" "
+"depending on the type of consent.</li><li>course_title: Title of course. "
+"Available when type of consent is course.</li><li>course_start_date: Course "
+"start date. Available when type of consent is course.</li></ul>"
+msgstr ""
+"Completați un text pentru dialog care apare atunci când utilizatorul refuză "
+"să-și dea consimțământul. Următoarele variabile pot fi disponibile:<br "
+"/><ul><li>enterprise_customer_name: Un nume al clientului "
+"companiei.</li><li>item: Un șir care este „curs” sau „program”, în funcție "
+"de tipul de consimțământ.</li><li>course_title: Titlul cursului. Disponibil "
+"atunci când tipul de consimțământ este curs.</li><li>course_start_date: data"
+" de începere a cursului. Disponibil atunci când tipul de consimțământ este "
+"curs.</li></ul>"
+
+#: consent/models.py:309
+msgid ""
+"Fill in a text for title of the notification which appears on dashboard when"
+" user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li></ul>"
+msgstr ""
+"Completați un text pentru titlul notificării care apare pe tabloul de bord "
+"atunci când utilizatorul refuză să-și dea consimțământul. Următoarele "
+"variabile pot fi disponibile:<br /><ul><li>enterprise_customer_name: Un nume"
+" al clientului companiei.</li><li>course_title: Titlul cursului. Disponibil "
+"atunci când tipul de consimțământ este cursuri.</li></ul>"
+
+#: consent/models.py:318
+msgid ""
+"Fill in a text for message of the notification which appears on dashboard "
+"when user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li></ul>"
+msgstr ""
+"Completați un text pentru mesaj cu notificarea care apare pe tabloul de bord"
+" atunci când utilizatorul refuză să-și dea consimțământul. Următoarele "
+"variabile pot fi disponibile:<br /><ul><li> enterprise_customer_name: Un "
+"nume al clientului companiei.</li><li> course_title: Titlul cursului. "
+"Disponibil atunci când tipul de consimțământ este curs.</li></ul>"
+
+#: consent/models.py:329
+msgid "Title of page"
+msgstr "Titlul paginii"
+
+#: consent/models.py:344
+msgid "Text next to agreement check mark"
+msgstr "Text în apropierea bifa acordului"
+
+#: consent/models.py:348
+msgid "Text of agree button"
+msgstr "Textul butonului de acceptare"
+
+#: consent/models.py:352
+msgid "Text of decline link"
+msgstr "Textul linkului de refuz"
+
+#: consent/models.py:358
+msgid "Text of policy drop down"
+msgstr "Textul meniului vertical al politicii"
+
+#: consent/models.py:367
+msgid ""
+"Heading text of dialog box which appears when user decline to provide "
+"consent"
+msgstr ""
+"Titlul casetei de dialog care apare atunci când utilizatorul refuză să ofere"
+" consimțământul"
+
+#: consent/models.py:374
+msgid "Text of decline button on confirmation dialog box"
+msgstr "Textul butonului de refuz din caseta de dialog de confirmare"
+
+#: consent/models.py:378
+msgid "Text of abort decline link on confirmation dialog box"
+msgstr ""
+"Textul linkului de respingere a renunțării în caseta de dialog de confirmare"
+
+#: consent/models.py:393
+msgid "Specifies whether data sharing consent page is published."
+msgstr ""
+"Specifică dacă pagina de consimțământ pentru partajarea datelor este "
+"publicată."
+
+#: integrated_channels/canvas/models.py:112
+msgid ""
+"Account number to use during api calls. Called account_id in canvas.  "
+"Required to create courses etc."
+msgstr ""
+"Număr de cont de utilizat în timpul apelurilor API. Denumit account_id în "
+"canvas. Necesar pentru a crea cursuri etc."
+
+#: integrated_channels/canvas/models.py:121
+msgid ""
+"The base URL used for API requests to Canvas, i.e. https://instructure.com."
+msgstr ""
+"Adresa URL de bază utilizată pentru solicitările API către Canvas, adică "
+"https://instructure.com."
+
+#: integrated_channels/canvas/models.py:128
+msgid ""
+"The refresh token provided by Canvas along with the access token request, "
+"used to re-request the access tokens over multiple client sessions."
+msgstr ""
+"Jetonul de reîmprospătare furnizat de Canvas împreună cu solicitarea "
+"jetonului de acces, folosit pentru a solicita din nou tokenurile de acces în"
+" mai multe sesiuni client."
+
+#: integrated_channels/canvas/models.py:135
+#: integrated_channels/integrated_channel/models.py:155
+#: integrated_channels/moodle/models.py:163
+#: integrated_channels/sap_success_factors/models.py:198
+msgid ""
+"The maximum number of data items to transmit to the integrated channel with "
+"each request."
+msgstr ""
+"Numărul maxim de elemente de dată de transmis către canalul integrat cu "
+"fiecare solicitare."
+
+#: integrated_channels/canvas/models.py:247
+msgid "The amount of points that the learner scored on the subsection."
+msgstr "Numărul de puncte pe care cursantul le-a scorate la subsecțiune."
+
+#: integrated_channels/canvas/models.py:253
+msgid ""
+"The total amount of points that the learner could score on the subsection."
+msgstr ""
+"Suma totală de puncte pe care cursantul le-ar putea obține la subsecțiune."
+
+#: integrated_channels/canvas/models.py:326
+msgid ""
+"Represents the canvas representation of a timestamp: yyyy-mm-dd, which is "
+"always 10 characters. Can be left unset for audit transmissions."
+msgstr ""
+"Reprezintă reprezentarea pânza a unei mărci temporale: aaaa-ll-zz, care este"
+" întotdeauna de 10 caractere. Poate fi lăsat nesetat pentru transmisiile de "
+"audit."
+
+#: integrated_channels/cornerstone/models.py:39
+msgid "The API path for making completion POST requests to Cornerstone."
+msgstr ""
+"Calea API pentru efectuarea solicitărilor POST de finalizare către "
+"Cornerstone."
+
+#: integrated_channels/cornerstone/models.py:46
+msgid ""
+"The API path for making OAuth-related POST requests to Cornerstone. This "
+"will be used to gain the OAuth access token which is required for other API "
+"calls."
+msgstr ""
+"Calea API pentru trimiterea cererilor POST legate de OAuth către "
+"Cornerstone. Acesta va fi folosit pentru a obține simbolul de acces OAuth, "
+"care este necesar pentru alte apeluri API."
+
+#: integrated_channels/cornerstone/models.py:55
+msgid "Basic auth username for sending user completion status to cornerstone."
+msgstr ""
+"Nume de utilizator pentru autentificare de bază pentru trimiterea stării de "
+"finalizare a utilizatorului către piatra de temelie."
+
+#: integrated_channels/cornerstone/models.py:61
+msgid "Basic auth password for sending user completion status to cornerstone."
+msgstr ""
+"Parola de autentificare de bază pentru trimiterea stării de finalizare a "
+"utilizatorului către piatra de temelie."
+
+#: integrated_channels/cornerstone/models.py:66
+msgid "Key/value mapping cornerstone subjects to edX subjects list"
+msgstr "Maparea cheie/valoare subiecte de temelie la lista de subiecte edX"
+
+#: integrated_channels/cornerstone/models.py:71
+msgid "List of IETF language tags supported by cornerstone"
+msgstr "Lista etichetelor de limbă IETF acceptate de cornerstone"
+
+#: integrated_channels/cornerstone/models.py:100
+msgid ""
+"The base URL used for API requests to Cornerstone, i.e. "
+"https://portalName.csod.com"
+msgstr ""
+"Adresa URL de bază utilizată pentru solicitările API către Cornerstone, "
+"adică https://portalName.csod.com"
+
+#: integrated_channels/cornerstone/models.py:108
+msgid ""
+"The most current session token provided for authorization to make API calls "
+"to the customer's instance"
+msgstr ""
+"Cel mai actual token de sesiune pentru autorizare de a efectua apeluri API "
+"către instanța clientului"
+
+#: integrated_channels/cornerstone/models.py:116
+msgid "Date time when session token was last provided"
+msgstr "Data și ora la care a fost furnizat ultima dată jetonul de sesiune"
+
+#: integrated_channels/cornerstone/models.py:124
+msgid "If checked, subjects will not be sent to Cornerstone"
+msgstr "Dacă sunt bifate, subiectele nu vor fi trimise către Cornerstone"
+
+#: integrated_channels/cornerstone/models.py:311
+msgid "This is the edX course key that is used as a unique identifier."
+msgstr ""
+"Aceasta este cheia de curs edX care este folosită ca identificator unic."
+
+#: integrated_channels/cornerstone/models.py:318
+msgid "This is the course key that is being sent to our partners."
+msgstr "Aceasta este cheia de curs care trimite partenerilor noștri."
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:67
+msgid ""
+"Transmit data for only this EnterpriseCustomer. Omit this option to transmit"
+" to all EnterpriseCustomers with active integrated channels."
+msgstr ""
+"Transmite date numai pentru acest EnterpriseCustomer. Omiteți această "
+"opțiune pentru a transmite către toți Clientii Enterprise cu canale "
+"integrate active."
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:75
+msgid ""
+"Transmit data to this IntegrateChannel. Omit this option to transmit to all "
+"configured, active integrated channels."
+msgstr ""
+"Transmite date către acest IntegrateChannel. Omiteți această opțiune pentru "
+"a transmite către toate canalele integrate active configurate."
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:123
+#, python-brace-format
+msgid "Enterprise customer {uuid} not found, or not active"
+msgstr "Clientul Enterprise {uuid} nu a fost găsit sau nu este activ"
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:147
+#, python-brace-format
+msgid "Invalid integrated channel: {channel}"
+msgstr "Canal integrat invalid: {channel}"
+
+#: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:25
+msgid ""
+"\n"
+"    Verify and remove any duplicated assignments transmitted to the IntegratedChannel(s) configured for the given\n"
+"     EnterpriseCustomer.\n"
+"    "
+msgstr ""
+"\n"
+"    Verifică și elimină orice teme duplicate transmise către canalul(ele) integrat(e) configurat(e) pentru respectiva EnterpriseCustomer.\n"
+"    "
+
+#: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:39
+#: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:37
+#: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:37
+msgid "Username of a user authorized to fetch grades from the LMS API."
+msgstr ""
+"Numele de utilizator al unui utilizator autorizat să preia note din API-ul "
+"LMS."
+
+#: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:56
+#: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:51
+#: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:52
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:46
+#, python-brace-format
+msgid "A user with the username {username} was not found."
+msgstr "Nu a fost găsit un utilizator cu numele de utilizator {username}."
+
+#: integrated_channels/integrated_channel/management/commands/remove_duplicate_learner_transmission_audit_records.py:21
+#: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:23
+msgid ""
+"\n"
+"    Transmit Enterprise learner course completion data for the given EnterpriseCustomer.\n"
+"    "
+msgstr ""
+"\n"
+"    A transmite datele de finalizare a cursului cursantului Enterprise pentru EnterpriseCustomer dat.\n"
+"    "
+
+#: integrated_channels/integrated_channel/management/commands/remove_stale_integrated_channel_api_logs.py:22
+msgid ""
+"\n"
+"    This management command deletes records from the IntegratedChannelAPIRequestLogs model that are older than one month\n"
+"    "
+msgstr ""
+"\n"
+"    Această comandă de gestionare șterge înregistrările din modelul IntegratedChannelAPIRequestLogs care sunt mai vechi de o lună\n"
+"    "
+
+#: integrated_channels/integrated_channel/management/commands/reset_sapsf_learner_transmissions.py:38
+msgid "End date and time in YYYY-MM-DDTHH:MM:SSZ format."
+msgstr "Dăți și ora de încheiere în format YYYY-MM-DDTHH:MM:SSZ."
+
+#: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:23
+msgid ""
+"\n"
+"    Transmit Enterprise learner assessment level reporting data for the given EnterpriseCustomer.\n"
+"    "
+msgstr ""
+"\n"
+"    Transmiteți datele de raportare la nivel de evaluare a cursantului Enterprise pentru EnterpriseCustomer dat.\n"
+"    "
+
+#: integrated_channels/integrated_channel/models.py:115
+msgid "A configuration nickname."
+msgstr "O poreclă de configurație."
+
+#: integrated_channels/integrated_channel/models.py:122
+#: integrated_channels/xapi/models.py:30
+msgid "Enterprise Customer associated with the configuration."
+msgstr "Client Enterprise asociat cu configurația."
+
+#: integrated_channels/integrated_channel/models.py:130
+msgid "If provided, will be used as IDP slug to locate remote id for learners"
+msgstr ""
+"Dacă este furnizat, va fi folosit ca IDP slug pentru a localiza id-ul de la "
+"distanță pentru cursanți"
+
+#: integrated_channels/integrated_channel/models.py:136
+#: integrated_channels/xapi/models.py:40
+msgid "Is this configuration active?"
+msgstr "Este activă această configurație?"
+
+#: integrated_channels/integrated_channel/models.py:143
+msgid "Is this configuration in dry-run mode? (experimental)"
+msgstr "Această configurație este în mod uscat? (experimental)"
+
+#: integrated_channels/integrated_channel/models.py:150
+msgid "Displays course price"
+msgstr "Afișează prețul cursului"
+
+#: integrated_channels/integrated_channel/models.py:162
+msgid ""
+"Enterprise channel worker username to get JWT tokens for authenticating LMS "
+"APIs."
+msgstr ""
+"Nume de utilizator al lucrătorului canalului Enterprise pentru a obține "
+"jetoane JWT pentru autentificarea API-urilor LMS."
+
+#: integrated_channels/integrated_channel/models.py:168
+msgid ""
+"A comma-separated list of catalog UUIDs to transmit. If blank, all customer "
+"catalogs will be transmitted. If there are overlapping courses in the "
+"customer catalogs, the overlapping course metadata will be selected from the"
+" newest catalog."
+msgstr ""
+"O listă separată prin virgulă de UUID-uri de Catalog de transmis. Dacă este "
+"gol, toate cataloagele clienților vor fi transmise. Dacă există cursuri "
+"suprapuse în cataloagele clienților, metadatele cursurilor suprapuse vor fi "
+"selectate din cel mai nou Catalog."
+
+#: integrated_channels/integrated_channel/models.py:176
+msgid ""
+"When set to True, the configured customer will no longer receive learner "
+"data transmissions, both scheduled and signal based"
+msgstr ""
+"Când este setat la True, clientul configurat nu va mai primi transmisii de "
+"dată ale cursanților, atât programate, cât și bazate pe semnal"
+
+#: integrated_channels/moodle/admin/__init__.py:31
+msgid "Cannot set both a Username/Password and Token"
+msgstr "Nu se pot seta atât un nume de utilizator/parolă, cât și un token"
+
+#: integrated_channels/moodle/admin/__init__.py:33
+msgid "Must set both a Username and Password, not just one"
+msgstr ""
+"Trebuie să setați atât un nume de utilizator, cât și o parolă, nu doar una"
+
+#: integrated_channels/moodle/models.py:38
+msgid "The base URL used for API requests to Moodle"
+msgstr "Adresa URL de bază utilizată pentru solicitările API către Moodle"
+
+#: integrated_channels/moodle/models.py:46
+msgid "The short name for the Moodle webservice."
+msgstr "Numele scurt pentru serviciul web Moodle."
+
+#: integrated_channels/moodle/models.py:55
+msgid "The category ID for what edX courses should be associated with."
+msgstr "ID-ul categoriei cu care ar trebui să fie asociate cursurile edX."
+
+#: integrated_channels/moodle/models.py:64
+msgid ""
+"The encrypted API user's username used to obtain new tokens. It will be "
+"encrypted when stored in the database."
+msgstr ""
+"Numele de utilizator al utilizatorului API criptat folosit pentru a obține "
+"noi token-uri. Acesta va fi criptat atunci când este stocat în baza de date."
+
+#: integrated_channels/moodle/models.py:98
+msgid ""
+"The encrypted API user's password used to obtain new tokens. It will be "
+"encrypted when stored in the database."
+msgstr ""
+"Parola criptată a utilizatorului API utilizată pentru a obține noi token-"
+"uri. Acesta va fi criptat atunci când este stocat în baza de date."
+
+#: integrated_channels/moodle/models.py:132
+msgid ""
+"The encrypted API user's token used to obtain new tokens. It will be "
+"encrypted when stored in the database."
+msgstr ""
+"Tokenul utilizatorului API criptat folosit pentru a obține noi token-uri. "
+"Acesta va fi criptat atunci când este stocat în baza de date."
+
+#: integrated_channels/moodle/models.py:169
+msgid "The maximum grade points for the courses. Default: 100"
+msgstr "Punctele maxime pentru cursuri. Implicit: 100"
+
+#: integrated_channels/moodle/models.py:177
+msgid "The name for the grade assigment created for the grade integration."
+msgstr "Numele atribuirii de note create pentru integrarea notelor."
+
+#: integrated_channels/moodle/models.py:182
+msgid ""
+"When set to True, the configured customer will receive learner data "
+"transmissions, for incomplete courses as well"
+msgstr ""
+"Când este setat la True, clientul configurat va primi transmisii de date ale"
+" cursanților, de asemenea, pentru cursurile incomplete."
+
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
+#: enterprise/views.py:1608
+msgid "Starts"
+msgstr "Începe"
+
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:228
+msgid "Enrollment Closed"
+msgstr "Înscrierea Închisă"
+
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:307
+msgid "Ends"
+msgstr "Se încheie"
+
+#: integrated_channels/sap_success_factors/models.py:84
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"Identificatorul de client OAuth criptat. Acesta va fi criptat atunci când "
+"este stocat în baza de date."
+
+#: integrated_channels/sap_success_factors/models.py:117
+msgid "Base URL of success factors API."
+msgstr "Adresa URL de bază a API-ului factorilor de succes."
+
+#: integrated_channels/sap_success_factors/models.py:124
+msgid "Success factors company identifier."
+msgstr "Identificatorul factorilor de succes ai companiei."
+
+#: integrated_channels/sap_success_factors/models.py:140
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"Secretul clientului OAuth criptat. Acesta va fi criptat atunci când este "
+"stocat în baza de date."
+
+#: integrated_channels/sap_success_factors/models.py:173
+msgid "Type of SAP User (admin or user)."
+msgstr "Tip de utilizator SAP (administrator sau utilizator)."
+
+#: integrated_channels/sap_success_factors/models.py:179
+msgid "A comma-separated list of additional locales."
+msgstr "O listă separată prin virgulă de localizări suplimentare."
+
+#: integrated_channels/sap_success_factors/models.py:183
+msgid "Transmit Total Hours"
+msgstr "Transmiteți orele totale"
+
+#: integrated_channels/sap_success_factors/models.py:184
+msgid "Include totalHours in the transmitted completion data"
+msgstr "Include totalHours în dată de finalizare transmise"
+
+#: integrated_channels/sap_success_factors/models.py:189
+msgid ""
+"When set to True, the integration will use the generic edX service user "
+"('sapsf_user_id') defined in the SAP Customer Configuration for course "
+"completion."
+msgstr ""
+"Când este setată la True, integrarea va folosi utilizatorul de serviciu "
+"generic edX ('sapsf_user_id') definit în Configurația clientului SAP pentru "
+"finalizarea cursului."
+
+#: integrated_channels/xapi/models.py:33
+msgid "Version of xAPI."
+msgstr "Versiunea xAPI."
+
+#: integrated_channels/xapi/models.py:34
+msgid "URL of the LRS."
+msgstr "URL-ul LRS."
+
+#: integrated_channels/xapi/models.py:35
+msgid "Key of xAPI LRS."
+msgstr "Cheia xAPI LRS."
+
+#: integrated_channels/xapi/models.py:36
+msgid "secret of xAPI LRS."
+msgstr "secretul xAPI LRS."
+
+#: enterprise/admin/__init__.py:712
+msgid ""
+"Preview the HTML template rendered in the context of a course enrollment."
+msgstr ""
+"Previzualizați șablonul HTML redat în contextul unei înscrieri la cursuri."
+
+#: enterprise/admin/__init__.py:725
+msgid ""
+"Preview the HTML template rendered in the context of a program enrollment."
+msgstr ""
+"Previzualizați șablonul HTML redat în contextul unei înscrieri la program."
+
+#: enterprise/admin/forms.py:52
+msgid "To add a single learner, enter an email address or username."
+msgstr ""
+"Pentru a adăuga un singur cursant, introduceți o adresă de e-mail sau un "
+"utilizator."
+
+#: enterprise/admin/forms.py:56
+msgid ""
+"To add multiple learners, upload a .csv file that contains a column of email"
+" addresses."
+msgstr ""
+"Pentru a adăuga mai mulți cursanți, încărcați un fișier .csv care conține o "
+"coloană de adrese de e-mail."
+
+#: enterprise/admin/forms.py:61
+msgid ""
+"The .csv file must have a column of email addresses, indicated by the "
+"heading 'email' in the first row. Optionally, the .csv file may contain a "
+"column of course run keys, indicated by the heading 'course_id' in the first"
+" row, to enroll learners in multiple courses."
+msgstr ""
+"Fișierul .csv trebuie să aibă o coloană de adrese de e-mail, indicate de "
+"titlul „e-mail” din primul rând. Optional, fișierul .csv poate conține o "
+"coloană cu chei de rulare a cursului, indicate de titlul „course_id” din "
+"primul rând, pentru a înscrie cursanții la mai multe cursuri."
+
+#: enterprise/admin/forms.py:68
+msgid "Enroll these learners in this course"
+msgstr "Înscrieți acești cursanți la acest curs"
+
+#: enterprise/admin/forms.py:69
+msgid "To enroll learners in a course, enter a course ID."
+msgstr ""
+"Pentru a înscrie cursanții la un curs, introduceți identificatorul cursului."
+
+#: enterprise/admin/forms.py:72
+msgid "Course enrollment track"
+msgstr "Pista de înscriere la cursuri"
+
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
+msgid "Audit"
+msgstr "Audit"
+
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
+msgid "Verified"
+msgstr "Verificat"
+
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
+msgid "Professional Education"
+msgstr "Educație profesională"
+
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
+msgid "Professional Education (no ID)"
+msgstr "Educație profesională (fără id)"
+
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
+msgid "Credit"
+msgstr "Credit"
+
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
+msgid "Honor"
+msgstr "Onora"
+
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
+msgid "Unpaid Executive Education"
+msgstr "Educație executivă neplătită"
+
+#: enterprise/admin/forms.py:83
+msgid "Reason for manual enrollment"
+msgstr "Motivul înscrierii manuale"
+
+#: enterprise/admin/forms.py:84
+msgid "Salesforce Opportunity ID"
+msgstr "ID de oportunitate Salesforce"
+
+#: enterprise/admin/forms.py:86
+msgid "Discount percentage for manual enrollment"
+msgstr "Procent de reducere pentru înscrierea manuală"
+
+#: enterprise/admin/forms.py:87
+msgid "Discount percentage should be from 0 to 100"
+msgstr "Procentul de reducere ar trebui să fie de la 0 la 100"
+
+#: enterprise/admin/forms.py:102
+msgid "Notify learners of enrollment"
+msgstr "Anunțați cursanții cu privire la înscriere"
+
+#: enterprise/admin/forms.py:104
+msgid "Send email"
+msgstr "Trimiteți Email"
+
+#: enterprise/admin/forms.py:105
+msgid "Do not notify"
+msgstr "Nu anunta"
+
+#: enterprise/admin/forms.py:310
+msgid "Email/Username"
+msgstr "E-mail/Nume de utilizator"
+
+#: enterprise/admin/forms.py:311
+msgid "Enter an email address or username."
+msgstr "Introduceți o adresă de e-mail sau un nume de utilizator."
+
+#: enterprise/admin/forms.py:315
+msgid "Course"
+msgstr "Curs"
+
+#: enterprise/admin/forms.py:316
+msgid "Enter the course run key."
+msgstr "Introduceți cheia de rulare a cursului."
+
+#: enterprise/admin/forms.py:436
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: enterprise/admin/forms.py:437
+msgid "Hold Ctrl when clicking on button to open Preview in new tab"
+msgstr ""
+"Țineți apăsat pe Ctrl când faceți clic pe butonul pentru a deschide "
+"Previzualizare într-o filă nouă"
+
+#: enterprise/admin/forms.py:500
+msgid "Identity Provider"
+msgstr "Furnizor de identitate"
+
+#: enterprise/admin/forms.py:524
+msgid ""
+"The specified Identity Provider does not exist. For more information, "
+"contact a system administrator."
+msgstr ""
+"Furnizorul de identitate specificat nu există. Pentru mai multe informații, "
+"contactați un administrator de sistem."
+
+#: enterprise/admin/forms.py:535
+#, python-brace-format
+msgid ""
+"The site for the selected identity provider ({identity_provider_site}) does "
+"not match the site for this enterprise customer "
+"({enterprise_customer_site}). To correct this problem, select a site that "
+"has a domain of '{identity_provider_site}', or update the identity provider "
+"to '{enterprise_customer_site}'."
+msgstr ""
+"Site-ul pentru furnizorul de identitate selectat ({identity_provider_site}) "
+"nu se potrivește cu site-ul pentru acest client întreprindere "
+"({enterprise_customer_site}). Pentru a corecta această problemă, selectați "
+"un site care are un domeniu „{identity_provider_site}” sau actualizați "
+"furnizorul de identitate la „{enterprise_customer_site}”."
+
+#: enterprise/admin/forms.py:613
+#, python-brace-format
+msgid ""
+"\"{data_type}\" data type is not supported for enterprise customer "
+"\"{enterprise_customer.name}\". Please select a different data type."
+msgstr ""
+"Tipul de date „{data_type}” nu este acceptat pentru clientul companiei "
+"„{enterprise_customer.name}”. Vă rugăm să selectați un alt tip de date."
+
+#: enterprise/admin/forms.py:630
+#, python-brace-format
+msgid ""
+"These catalogs for reporting do not match enterprisecustomer "
+"{enterprise_customer}: {invalid_catalogs}"
+msgstr ""
+"Aceste Cataloge pentru raportare nu se potrivesc cu clientul enterprise "
+"{enterprise_customer} : {invalid_catalogs}"
+
+#: enterprise/admin/forms.py:654
+msgid "Enter enterprise channel worker username."
+msgstr ""
+"Introduceți numele de utilizator al lucrătorului canalului de companie."
+
+#: enterprise/admin/forms.py:723
+msgid ""
+"User specified is not linked to an active Enterprise Customer. Select "
+"`Applies to all contexts` or choose a different user."
+msgstr ""
+"Utilizatorul specificat nu este conectat la un Client Enterprise activ. "
+"Selectează „Se aplică tuturor contextelor” sau alegeți un alt utilizator."
+
+#: enterprise/admin/forms.py:783
+msgid ""
+"Please select different date range. There is another notification scheduled "
+"in this date range."
+msgstr ""
+"Vă rugăm să selectați un interval de dăți diferit. Există o altă notificare "
+"programată în acest interval de dăți."
+
+#: enterprise/admin/views.py:238
+msgid "Successfully requested the Data Sharing consent from learner."
+msgstr ""
+"A solicitat cu succes consimțământul de Partajare a Datelor de la cursant."
+
+#: enterprise/admin/views.py:478
+#, python-brace-format
+msgid "{count} new learner was added to {enterprise_customer_name}."
+msgid_plural "{count} new learners were added to {enterprise_customer_name}."
+msgstr[0] ""
+"{count} un nou cursant a fost adăugat la {enterprise_customer_name}."
+msgstr[1] ""
+"{count} noi cursanți au fost adăugați la {enterprise_customer_name}."
+msgstr[2] ""
+"{count} noi cursanți au fost adăugați la {enterprise_customer_name}."
+
+#: enterprise/admin/views.py:492
+#, python-brace-format
+msgid ""
+"The following learners were already associated with this Enterprise "
+"Customer: {list_of_emails}"
+msgstr ""
+"Următorii cursanți au fost deja asociați cu acest client Enterprise: "
+"{list_of_emails}"
+
+#: enterprise/admin/views.py:502
+#, python-brace-format
+msgid ""
+"The following learners are already associated with another Enterprise "
+"Customer. These learners were not added to {enterprise_customer_name}: "
+"{list_of_emails}"
+msgstr ""
+"Următorii cursanți sunt deja asociați cu un alt client Enterprise. Acești "
+"cursanți nu au fost adăugați la {enterprise_customer_name} : "
+"{list_of_emails}"
+
+#: enterprise/admin/views.py:514
+#, python-brace-format
+msgid ""
+"The following duplicate email addresses were not added: {list_of_emails}"
+msgstr ""
+"Următoarele adrese de e-mail duplicate nu au fost adăugate: {list_of_emails}"
+
+#: enterprise/admin/views.py:557
+#, python-brace-format
+msgid "Error at line {line}: {message}\n"
+msgstr "Eroare la linia {line}: {message}\n"
+
+#: enterprise/admin/views.py:632
+#, python-brace-format
+msgid "{enrolled_count} learner was enrolled in {enrolled_in}."
+msgid_plural "{enrolled_count} learners were enrolled in {enrolled_in}."
+msgstr[0] "{enrolled_count} cursantul a fost înscris în {enrolled_in}."
+msgstr[1] "{enrolled_count} cursanții au fost înscriși în {enrolled_in}."
+msgstr[2] "{enrolled_count} cursanții au fost înscriși în {enrolled_in}."
+
+#: enterprise/admin/views.py:657
+#, python-brace-format
+msgid ""
+"The following learners could not be enrolled in {enrolled_in}: {user_list}"
+msgstr ""
+"Următorii cursanți nu au putut fi înscriți în {enrolled_in} : {user_list}"
+
+#: enterprise/admin/views.py:680
+#, python-brace-format
+msgid ""
+"The following learners do not have an account on {platform_name}. They have "
+"not been enrolled in {enrolled_in}. When these learners create an account, "
+"they will be enrolled automatically: {pending_email_list}"
+msgstr ""
+"Următorii cursanți nu au un cont pe {platform_name}. Nu au fost înscriși în "
+"{enrolled_in}. Când acești cursanți își creează un cont, aceștia vor fi "
+"înscriși automat: {pending_email_list}"
+
+#: enterprise/admin/views.py:919
+#, python-brace-format
+msgid "Email {email} is not associated with Enterprise Customer {ec_name}"
+msgstr "E-mailul {email} nu este asociat cu Clientul Enterprise {ec_name}"
+
+#: enterprise/admin/views.py:983
+msgid ""
+"Successfully written the \"Auth org id\" field for this enterprise customer."
+msgstr ""
+"S-a scris cu succes câmpul „Auth org id” pentru acest client întreprindere."
+
+#: enterprise/api/utils.py:97
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
+"Additional Notes:\n"
+"{token_notes}."
+msgstr ""
+"{token_email} de la {token_enterprise_name} a solicitat {token_number_codes} coduri suplimentare. Vă rugăm să luați legătura cu ei.\n"
+"Note suplimentare:\n"
+"{token_notes}."
+
+#: enterprise/api/utils.py:104
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested "
+"{token_number_codes} additional codes. Please reach out to them."
+msgstr ""
+"{token_email} de la {token_enterprise_name} a solicitat {token_number_codes}"
+" coduri suplimentare. Vă rugăm să luați legătura cu ei."
+
+#: enterprise/api/utils.py:110
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
+"Additional Notes:\n"
+"{token_notes}."
+msgstr ""
+"{token_email} de la {token_enterprise_name} a solicitat coduri suplimentare. Vă rugăm să luați legătura cu ei.\n"
+"Note suplimentare:\n"
+"{token_notes}."
+
+#: enterprise/api/utils.py:116
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested additional codes. "
+"Please reach out to them."
+msgstr ""
+"{token_email} de la {token_enterprise_name} a solicitat coduri suplimentare."
+" Vă rugăm să luați legătura cu ei."
+
+#: enterprise/api/v1/serializers.py:95
+msgid "Total count of items."
+msgstr "Numărul total de articole."
+
+#: enterprise/api/v1/serializers.py:96
+msgid "URL to fetch next page of items."
+msgstr "URL pentru a prelua pagina următoare de articole."
+
+#: enterprise/api/v1/serializers.py:97
+msgid "URL to fetch previous page of items."
+msgstr "URL pentru a prelua pagina anterioară de articole."
+
+#: enterprise/api/v1/serializers.py:98
+msgid "List of items."
+msgstr "Lista articolelor."
+
+#: enterprise/api/v1/views/coupon_codes.py:96
+#, python-brace-format
+msgid "Code Management - Request for Codes by {token_enterprise_name}"
+msgstr ""
+"Managementul codurilor - Solicitare de coduri de către "
+"{token_enterprise_name}"
+
+#: enterprise/api/v1/views/coupon_codes.py:121
+#, python-brace-format
+msgid ""
+"[Enterprise API] Failure in sending e-mail to support. SupportEmail: "
+"{token_cs_email}, UserEmail: {token_email}, EnterpriseName: "
+"{token_enterprise_name}"
+msgstr ""
+"[Enterprise API] Eșec la trimiterea e-mailului către asistență. E-mail de "
+"asistență: {token_cs_email}, E-mail utilizator: {token_email}, "
+"EnterpriseName: {token_enterprise_name}"
+
+#: enterprise/api/v1/views/enterprise_customer_catalog.py:189
+#, python-brace-format
+msgid ""
+"[Enterprise API] CourseKey not found in the Catalog. Course: {course_key}, "
+"Catalog: {catalog_id}"
+msgstr ""
+"[Enterprise API] Cheia de curs nu a fost găsită în Catalog. Curs: "
+"{course_key}, Catalog: {catalog_id}"
+
+#: enterprise/api/v1/views/enterprise_customer_catalog.py:217
+#, python-brace-format
+msgid ""
+"[Enterprise API] CourseRun not found in the Catalog. CourseRun: {course_id},"
+" Catalog: {catalog_id}"
+msgstr ""
+"[Enterprise API] CourseRun nu se găsește în Catalog. CourseRun: "
+"identificatorul cursului {course_id}, Catalog: {catalog_id}"
+
+#: enterprise/api/v1/views/enterprise_customer_catalog.py:245
+#, python-brace-format
+msgid ""
+"[Enterprise API] Program not found in the Catalog. Program: {program_uuid}, "
+"Catalog: {catalog_id}"
+msgstr ""
+"[Enterprise API] Programul nu a fost găsit în Catalog. Program: "
+"{program_uuid}, Catalog: {catalog_id}"
+
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:500
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:554
+#: enterprise_learner_portal/api/v1/views.py:69
+#: enterprise_learner_portal/api/v1/views.py:132
+msgid ""
+"To use this endpoint, this package must be installed in an Open edX "
+"environment."
+msgstr ""
+"Pentru a utiliza acest punct final, acest pachet trebuie instalat într-un "
+"mediu Open edX."
+
+#: enterprise/api_client/discovery.py:60
+#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1642
+msgid ""
+"To get a CatalogIntegration object, this package must be installed in an "
+"Open edX environment."
+msgstr ""
+"Pentru a obține un obiect CatalogIntegration, acest pachet trebuie să fie "
+"instalat într-un mediu Open edX."
+
+#: enterprise/api_client/discovery.py:65
+msgid ""
+"To parse a Catalog API response, this package must be installed in an Open "
+"edX environment."
+msgstr ""
+"Pentru a analiza un răspuns API Catalog, acest pachet trebuie să fie "
+"instalat într-un mediu Open edX."
+
+#: enterprise/api_client/discovery.py:410
+msgid "The configured CatalogIntegration service user does not exist."
+msgstr "Utilizatorul configurat al serviciului CatalogIntegration nu există."
+
+#: enterprise/api_client/discovery.py:413
+msgid "There is no active CatalogIntegration."
+msgstr "Nu există un CatalogIntegration activă."
+
+#: enterprise/api_client/ecommerce.py:43
+msgid ""
+"To get a ecommerce_api_client, this package must be installed in an Open edX"
+" environment."
+msgstr ""
+"Pentru a obține un ecommerce_api_client, acest pachet trebuie să fie "
+"instalat într-un mediu Open edX."
+
+#: enterprise/constants.py:14
+#, python-brace-format
+msgid ""
+"To log in using this SSO identity provider and access special course offers,"
+" you must first consent to share your learning achievements with "
+"{enterprise_customer_name}."
+msgstr ""
+"Pentru a vă conecta utilizând acest furnizor de identitate SSO și pentru a "
+"accesa oferte speciale de cursuri, trebuie mai întâi să vă dați acordul "
+"pentru a vă împărtăși realizările de învățare cu {enterprise_customer_name}."
+
+#: enterprise/constants.py:18
+#, python-brace-format
+msgid ""
+"In order to sign in and access special offers, you must consent to share "
+"your course data with {enterprise_customer_name}."
+msgstr ""
+"Pentru a vă conecta și a accesa oferte speciale, trebuie să vă dați acordul "
+"pentru a partaja datele cursurilor cu {enterprise_customer_name}."
+
+#: enterprise/constants.py:22
+#, python-brace-format
+msgid ""
+"If you do not consent to share your course data, that information may be "
+"shared with {enterprise_customer_name}."
+msgstr ""
+"Dacă nu sunteți de acord să partajați datele cursurilor, aceste informații "
+"pot fi partajate cu {enterprise_customer_name}."
+
+#: enterprise/constants.py:25
+#, python-brace-format
+msgid "Welcome to {platform_name}."
+msgstr "Bun venit la {platform_name}."
+
+#: enterprise/constants.py:27
+#, python-brace-format
+msgid ""
+"You have left the {strong_start}{enterprise_customer_name}{strong_end} "
+"website and are now on the {platform_name} site. {enterprise_customer_name} "
+"has partnered with {platform_name} to offer you high-quality, always "
+"available learning programs to help you advance your knowledge and career. "
+"{line_break}Please note that {platform_name} has a different "
+"{privacy_policy_link_start}Privacy Policy {privacy_policy_link_end} from "
+"{enterprise_customer_name}."
+msgstr ""
+"Ați părăsit site-ul {strong_start}{enterprise_customer_name}{strong_end} și "
+"vă aflați acum pe site-ul {platform_name}. {enterprise_customer_name} a "
+"colaborat cu {platform_name} pentru a vă oferi programe de învățare de "
+"înaltă calitate, mereu disponibile, pentru a vă ajuta să vă avansați "
+"cunoștințele și cariera. {line_break}Vă rugăm să rețineți că {platform_name}"
+" are o altă {privacy_policy_link_start}Politică de "
+"confidențialitate{privacy_policy_link_end} față de "
+"{enterprise_customer_name}."
+
+#: enterprise/constants.py:88
+msgid ""
+"A series of Master’s-level courses to advance your career, created by top "
+"universities and recognized by companies. MicroMasters Programs are credit-"
+"eligible, provide in-demand knowledge and may be applied to accelerate a "
+"Master’s Degree."
+msgstr ""
+"O serie de cursuri la nivel de master pentru a-ți avansa cariera, create de "
+"universități de top și recunoscute de companii. Programele MicroMasters sunt"
+" eligibile pentru credite, oferă cunoștințe la cerere și pot fi aplicate "
+"pentru a accelera o diplomă de master."
+
+#: enterprise/constants.py:94
+msgid ""
+"Designed by industry leaders and top universities to enhance professional "
+"skills, Professional Certificates develop the proficiency and expertise that"
+" employers are looking for with specialized training and professional "
+"education."
+msgstr ""
+"Proiectate de lideri din industrie și universități de top pentru a "
+"îmbunătăți abilitățile profesionale, Certificatele Profesionale dezvoltă "
+"competența și expertiza pe care angajatorii le caută cu formare specializată"
+" și educație profesională."
+
+#: enterprise/constants.py:100
+msgid ""
+"Created by world-renowned experts and top universities, XSeries are designed"
+" to provide a deep understanding of key subjects through a series of "
+"courses. Complete the series to earn a valuable XSeries Certificate that "
+"illustrates your achievement."
+msgstr ""
+"Create de experți de renume mondial și universități de top, XSeries au fost "
+"concepute pentru a oferi o înțelegere profundă a subiectelor cheie printr-o "
+"serie de cursuri. Finalizează seria pentru a câștiga un Certificat XSeries "
+"valoros care ilustrează realizarea ta."
+
+#: enterprise/forms.py:15
+msgid ""
+"You have access to multiple organizations. Select the organization that you "
+"will use to sign up for courses. If you want to change organizations, sign "
+"out and sign back in."
+msgstr ""
+"Aveți acces la mai multe organizații. Selectează organizația pe care o veți "
+"folosi pentru a vă înscrie la cursuri. Dacă doriți să schimbați organizația,"
+" deconectați-vă și conectați-vă din nou."
+
+#: enterprise/forms.py:18
+msgid "Enter the organization name"
+msgstr "Introduceți numele organizației"
+
+#: enterprise/forms.py:20
+msgid ""
+"Have an account through your company, school, or organization? Enter your "
+"organization’s name below to sign in."
+msgstr ""
+"Aveți un cont prin intermediul companiei, școlii sau organizației dvs.? "
+"Introduceți mai jos numele organizației dvs. pentru a vă conecta."
+
+#: enterprise/forms.py:23
+msgid ""
+"The attempt to login with this organization name was not successful. Please "
+"try again, or contact our support."
+msgstr ""
+"Încercarea de a vă autentifica cu acest nume de organizație nu a reușit. Vă "
+"rugăm să încercați din nou sau să contactați asistența noastră."
+
+#: enterprise/forms.py:60
+msgid "Enterprise not found"
+msgstr "Întreprinderea nu a fost găsită"
+
+#: enterprise/forms.py:64
+msgid "Wrong Enterprise"
+msgstr "Întreprindere greșită"
+
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:30
+msgid "Username of a user authorized to access the Enterprise Catalog API."
+msgstr ""
+"Numele de utilizator al unui utilizator autorizat să acceseze API-ul "
+"catalogului Enterprise."
+
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:36
+msgid "Comma separated list of uuids of enterprise catalogs to migrate."
+msgstr ""
+"Lista separată prin virgulă de uuid-uri ale catalogelor de întreprindere de "
+"migrat."
+
+#: enterprise/messages.py:24
+#, python-brace-format
+msgid ""
+"{strong_start}We could not enroll you in "
+"{em_start}{item}{em_end}.{strong_end} {span_start}If you have questions or "
+"concerns about sharing your data, please contact your learning manager at "
+"{enterprise_customer_name}, or contact {link_start}{platform_name} "
+"support{link_end}.{span_end}"
+msgstr ""
+"{strong_start} Nu v-am putut înscrie în "
+"{em_start}{item}{em_end}.{strong_end} {span_start} Dacă aveți întrebări sau "
+"nelămuriri cu privire la partajarea datelor dvs., vă rugăm să contactați "
+"managerul dvs. de învățare la {enterprise_customer_name} sau contactați "
+"{link_start}{platform_name} support{link_end}.{span_end}"
+
+#: enterprise/messages.py:55
+#, python-brace-format
+msgid ""
+"{strong_start}We could not gather price information for "
+"{em_start}{item}{em_end}.{strong_end} {span_start}If you continue to have "
+"these issues, please contact {link_start}{platform_name} "
+"support{link_end}.{span_end}"
+msgstr ""
+"{strong_start} Nu am putut aduna informații despre preț pentru "
+"{em_start}{item}{em_end}.{strong_end} {span_start} Dacă aveți în continuare "
+"aceste probleme, vă rugăm să contactați {link_start}{platform_name} "
+"suport{link_end}.{span_end}"
+
+#: enterprise/messages.py:85
+#, python-brace-format
+msgid ""
+"{strong_start}Something happened.{strong_end} {span_start}This {item} is not"
+" currently open to new learners. Please start over and select a different "
+"{item}.{span_end}"
+msgstr ""
+"{strong_start} S-a întâmplat ceva. {strong_end} {span_start} Acest {item} nu"
+" este deschis momentan pentru noi cursanți. Vă rugăm să începeți din nou și "
+"să selectați un alt {item}. {span_end}"
+
+#: enterprise/messages.py:111
+#, python-brace-format
+msgid ""
+"{strong_start}Something happened.{strong_end} {span_start}Please reach out "
+"to your learning administrator with the following error code and they will "
+"be able to help you out.{span_end}{span_start}Error code: "
+"{error_code}{span_end}{span_start}Username: {username}{span_end}"
+msgstr ""
+"{strong_start} Sa întâmplat ceva. {strong_end} {span_start} Vă rugăm să "
+"contactați administratorul de învățare cu următorul cod de eroare și acesta "
+"vă va putea ajuta. {span_end} {span_start} Cod de eroare: {error_code} "
+"{span_end} {span_start} Nume utilizator: {username} {span_end}"
+
+#: enterprise/models.py:147
+msgid "Enterprise Customer Type"
+msgstr "Tip de client Enterprise"
+
+#: enterprise/models.py:148
+msgid "Enterprise Customer Types"
+msgstr "Tipuri de clienți pentru întreprinderi"
+
+#: enterprise/models.py:155
+msgid "Specifies enterprise customer type."
+msgstr "Specifică tipul de client întreprindere."
+
+#: enterprise/models.py:215 enterprise/models.py:3405
+msgid "Enterprise Customer"
+msgstr "Client Enterprise"
+
+#: enterprise/models.py:216
+msgid "Enterprise Customers"
+msgstr "Clienții Enterprise"
+
+#: enterprise/models.py:223
+msgid "Enterprise Customer name."
+msgstr "Nume client Enterprise."
+
+#: enterprise/models.py:243
+msgid "Hides course price on learning platform course confirmation screen."
+msgstr ""
+"Ascunde prețul cursurilor pe ecranul de confirmare a cursurilor platformei "
+"de învățare."
+
+#: enterprise/models.py:266
+msgid ""
+"Enables data sharing consent prompt for learners each time they enroll in a "
+"course. If left unchecked, the prompt will not appear and relevant data will"
+" not be shared."
+msgstr ""
+"Activează solicitarea de consimțământ pentru partajarea datelor pentru "
+"cursanți de fiecare dată când se înscriu la un curs. Dacă nu este bifată, "
+"solicitarea nu va apărea și datele relevante nu vor fi partajate."
+
+#: enterprise/models.py:278
+msgid ""
+"Setting to either require learners to accept data sharing consent at course "
+"enrollment, or through an external process."
+msgstr ""
+"Setați fie să solicitați cursanților să accepte consimțământul pentru "
+"partajarea datelor la înscrierea la curs, fie printr-un proces extern."
+
+#: enterprise/models.py:287
+msgid ""
+"Allows learners enrolling through learning platforms to select the audit "
+"track."
+msgstr ""
+"Permite cursanților care se înscriu prin platformele de învățare să "
+"selecteze pista de audit."
+
+#: enterprise/models.py:295
+msgid ""
+"Enables transmission of audit enrollment data from learning platform "
+"learners."
+msgstr ""
+"Permite transmiterea datelor de înscriere la audit de la cursanții "
+"platformei de învățare."
+
+#: enterprise/models.py:303
+msgid ""
+"Specifies whether to replace the display of potentially sensitive SSO "
+"usernames with a more generic name, e.g. EnterpriseLearner."
+msgstr ""
+"Specifică dacă se înlocuiește afișarea numelor de utilizator SSO potențial "
+"sensibile cu un nume mai generic, de exemplu EnterpriseLearner."
+
+#: enterprise/models.py:314
+msgid ""
+"Specifies whether the customer is able to assign learners to cohorts upon "
+"enrollment."
+msgstr ""
+"Specifică dacă clientul poate atribui cursanți în cohorte la înscriere."
+
+#: enterprise/models.py:319
+msgid "Customer Type"
+msgstr "Tipul de client"
+
+#: enterprise/models.py:327
+msgid ""
+"If checked, learners and admins will not receive notifications leading up to"
+" the expiration date for learner credit plans. This includes removing the "
+"expiration date from the subsidy box for upcoming expirations. The subsidy "
+"summary box will not display for expired plans. Other notifications "
+"signaling the expiration (and loss of usability) itself will still appear."
+msgstr ""
+"Dacă bifați, cursanții și administratorii nu vor primi notificări înainte de"
+" data de expirare a planurilor de credit pentru cursanți. Aceasta include "
+"eliminarea datei de expirare din caseta de subvenție pentru expirările "
+"viitoare. Caseta cu rezumatul subvenției nu se va afișa pentru planurile "
+"expirate. Alte notificări care semnalează expirarea (și pierderea "
+"utilizabilității) în sine vor apărea în continuare."
+
+#: enterprise/models.py:341
+msgid ""
+"Enables the scheduled reporting configurations screen on the administrator "
+"portal."
+msgstr ""
+"Activează ecranul de configurație de raportare programată pe portalul "
+"administratorului."
+
+#: enterprise/models.py:352
+msgid ""
+"Enables the Single Sign On (SSO) configuration screen on the administrator "
+"portal. "
+msgstr ""
+"Activează ecranul de configurație Single Sign On (SSO) pe portalul "
+"administratorului. "
+
+#: enterprise/models.py:367
+msgid ""
+"Automatically enabled. If unchecked, learners won't have access to the "
+"learner portal."
+msgstr ""
+"Activare automată. Dacă nu este bifată, cursanții nu vor avea acces la "
+"portalul pentru cursanți."
+
+#: enterprise/models.py:373
+msgid ""
+"Specifies whether enterprise offers will be made known to learners in the "
+"learner portal. This only applies to customers with “offers”, the old "
+"version of learner credit."
+msgstr ""
+"Specifică dacă ofertele întreprinderii vor fi făcute cunoscute cursanților "
+"în portalul pentru cursanți. Acest lucru se aplică numai clienților cu "
+"„oferte”, versiunea veche a creditului pentru cursanți."
+
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"Specifică dacă se afișează caseta de mesaj Credit cursant în portalul "
+"cursantului."
+
+#: enterprise/models.py:391
+msgid ""
+"Hides labor market data from learners (populated by features using Lightcast"
+" integration). "
+msgstr ""
+"Ascunde datele de pe piața muncii de la cursanți (populate cu funcții care "
+"utilizează integrarea Lightcast). "
+
+#: enterprise/models.py:398
+msgid ""
+"Automatically enabled. If unchecked, the learners won't be able to search "
+"for a course on the learner portal."
+msgstr ""
+"Activare automată. Dacă nu este bifată, cursanții nu vor putea căuta un curs"
+" pe portalul pentru cursanți."
+
+#: enterprise/models.py:407
+msgid ""
+"If checked, learners will be able to see content in the Learner Portal "
+"Sidebar found in the HTML box."
+msgstr ""
+"Dacă este bifat, cursanții vor putea vedea conținutul din bara laterală a "
+"portalului pentru elevi care se găsește în caseta HTML."
+
+#: enterprise/models.py:415
+msgid ""
+"If checked, the learners will be able to see the pathways on the learner "
+"portal dashboard."
+msgstr ""
+"Dacă este bifat, cursanții vor putea vedea căile pe tabloul de bord al "
+"portalului pentru cursanți."
+
+#: enterprise/models.py:423
+msgid ""
+"If checked, the learners will be able to see the programs on the learner "
+"portal dashboard."
+msgstr ""
+"Dacă este bifat, cursanții vor putea vedea programele pe tabloul de bord al "
+"portalului pentru cursanți."
+
+#: enterprise/models.py:431
+msgid ""
+"If checked, the learners will be able to see the academies on the learner "
+"portal dashboard."
+msgstr ""
+"Dacă este bifat, cursanții vor putea vedea academiile pe tabloul de bord al "
+"portalului pentru cursanți."
+
+#: enterprise/models.py:438
+msgid ""
+"If checked, search will be replaced with one academy on enterprise learner "
+"portal."
+msgstr ""
+"Dacă este bifată, căutarea va fi înlocuită cu o singură academie pe portalul"
+" pentru studenți pentru întreprinderi."
+
+#: enterprise/models.py:445
+msgid ""
+"If checked, videos will be displayed in the search results on the learner "
+"portal."
+msgstr ""
+"Dacă sunt bifate, videoclipurile vor fi afișate în rezultatele căutării de "
+"pe portalul cursantului."
+
+#: enterprise/models.py:451
+msgid ""
+"Automatically enabled. Displays advanced analytics page on the administrator"
+" portal, which includes skill and labor market data."
+msgstr ""
+"Activare automată. Afișează pagina de analiză avansată pe portalul "
+"administratorului, care include dată despre competențe și piața muncii."
+
+#: enterprise/models.py:459
+msgid ""
+"Enables the learning platform configuration screen on the administrator "
+"portal."
+msgstr ""
+"Activează ecranul de configurație a platformei de învățare pe portalul "
+"administratorului."
+
+#: enterprise/models.py:465
+msgid ""
+"Allows a learner to input customer slug to identify their org in the SSO "
+"process. Should be enabled for customers that leverage SSO."
+msgstr ""
+"Permite unui cursant să introducă slug-ul clientului pentru a-și identifica "
+"organizația în procesul SSO. Ar trebui să fie activat pentru clienții care "
+"folosesc SSO."
+
+#: enterprise/models.py:471
+msgid ""
+"Specifies whether the organization should have access to executive education"
+" 2U content."
+msgstr ""
+"Specifică dacă organizația ar trebui să aibă acces la conținutul 2U pentru "
+"educație executivă."
+
+#: enterprise/models.py:477
+msgid ""
+"Display Demo data from analyitcs and learner progress report for demo "
+"customer."
+msgstr ""
+"Afișați date demonstrative din analize și raportul de progres al cursanților"
+" pentru clientul demonstrativ."
+
+#: enterprise/models.py:484
+msgid ""
+"Email linked on learner portal as public point of contact, will default to "
+"all admin users associated with this customer if left blank."
+msgstr ""
+"E-mailul conectat pe portalul pentru cursanți ca punct de contact public, va"
+" fi implicit pentru toți utilizatorii administratori asociați cu acest "
+"client dacă este lăsat necompletat."
+
+#: enterprise/models.py:494
+msgid ""
+"Specifies the discount percent used for enrollments from the enrollment API "
+"where capturing the discount per order is not possible. This is passed to "
+"ecommerce when creating orders for financial data reporting."
+msgstr ""
+"Specifică procentul de reducere utilizat pentru înscriere din API-ul de "
+"înscriere, unde nu este posibilă captarea reducerii per comandă. Aceasta "
+"este transmisă comerțului electronic atunci când se creează comenzi pentru "
+"raportarea datelor financiare."
+
+#: enterprise/models.py:508
+msgid "Specifies the default language for learners of the organization."
+msgstr "Specifică limba implicită pentru cursanții organizației."
+
+#: enterprise/models.py:518
+msgid "Specifies the sender alias for automated emails from the edX system."
+msgstr ""
+"Specifică aliasul expeditorului pentru e-mailurile automate din sistemul "
+"edX."
+
+#: enterprise/models.py:526
+msgid ""
+"Email address that will receive learner replies to automated edX emails."
+msgstr ""
+"Adresă de e-mail care va primi răspunsuri ale cursanților la e-mailurile "
+"automate edX."
+
+#: enterprise/models.py:537
+msgid ""
+"Text shown on the learner portal dashboard for customer specific purposes. "
+"Open HTML field."
+msgstr ""
+"Text afișat pe tabloul de bord al portalului pentru cursanți în scopuri "
+"specifice clientului. Deschideți câmpul HTML."
+
+#: enterprise/models.py:867
+msgid ""
+"Course details were not found for course key {} - Course Catalog API "
+"returned nothing. Proceeding with enrollment, but notifications won't be "
+"sent"
+msgstr ""
+"Detaliile cursului nu au fost găsite pentru cheia cursului {} - API-ul "
+"catalogului cursului nu a returnat nimic. Se continuă înscrierea, dar "
+"notificările nu vor fi trimise"
+
+#: enterprise/models.py:1102
+msgid ""
+"When enabled along with `active`, all other linked enterprise customers for "
+"this user will be marked as inactive upon save."
+msgstr ""
+"Când este activat împreună cu `active`, toți ceilalți clienți de companie "
+"conectați pentru acest utilizator vor fi marcați ca inactivi la salvare."
+
+#: enterprise/models.py:1109
+msgid "Enterprise Customer Learner"
+msgstr "Învățător pentru clienți Enterprise"
+
+#: enterprise/models.py:1110
+msgid "Enterprise Customer Learners"
+msgstr "Cursanți pentru clienți Enterprise"
+
+#: enterprise/models.py:1739
+msgid "Logo images must be in .png format."
+msgstr "Imaginile logo trebuie să fie în format .png."
+
+#: enterprise/models.py:1766
+msgid "Branding Configuration"
+msgstr "Configurație branding"
+
+#: enterprise/models.py:1767
+msgid "Branding Configurations"
+msgstr "Configurații de branding"
+
+#: enterprise/models.py:1855
+msgid "Specifies whether this is default provider for enterprise customer."
+msgstr ""
+"Specifică dacă acesta este furnizor implicit pentru clientul companiei."
+
+#: enterprise/models.py:1940
+msgid ""
+"The UUID of the course (not course run) in which the learner is entitled."
+msgstr ""
+"UUID-ul cursului (nu se desfășoară cursul) la care are dreptul cursantul."
+
+#: enterprise/models.py:1950
+msgid "The enterprise learner to which this entitlement is attached."
+msgstr ""
+"Persoana care învață întreprinzător căruia îi este atașat acest drept."
+
+#: enterprise/models.py:2073
+msgid "The enterprise learner to which this enrollment is attached."
+msgstr "Persoana care învață la întreprindere are această înscriere atașată."
+
+#: enterprise/models.py:2080
+msgid "The ID of the course in which the learner was enrolled."
+msgstr "Identificatorul cursului la care cursantul a fost înscris."
+
+#: enterprise/models.py:2087
+msgid ""
+"Specifies whether a user marked this course as saved for later in the "
+"learner portal."
+msgstr ""
+"Specifică dacă un utilizator a marcat acest curs ca fiind salvat pentru mai "
+"târziu în portalul cursantului."
+
+#: enterprise/models.py:2103
+msgid ""
+"Specifies whether the enterprise course enrollment's course enrollment "
+"object was unenrolled."
+msgstr ""
+"Specifică dacă obiectul de înscriere la curs al cursului de companie a fost "
+"neînregistrat."
+
+#: enterprise/models.py:2113
+msgid ""
+"Specifies when an enterprise course enrollment's course enrollment object "
+"was unenrolled."
+msgstr ""
+"Specifică momentul în care obiectul de înscriere la curs al unei înscrieri "
+"la un curs de companie a fost dezînscriere."
+
+#: enterprise/models.py:2371
+msgid "The course entitlement the associated subsidy is for."
+msgstr "Dreptul de cursuri pentru care este subvenția asociată."
+
+#: enterprise/models.py:2382
+msgid "The course enrollment the associated subsidy is for."
+msgstr "Înscrierea la curs pentru care este subvenția asociată pentru."
+
+#: enterprise/models.py:2389
+msgid ""
+"Whether the enterprise subsidy is revoked, e.g., when a user's license is "
+"revoked."
+msgstr ""
+"Dacă subvenția întreprinderii este revocată, de exemplu, atunci când licența"
+" unui utilizator este revocată."
+
+#: enterprise/models.py:2550
+msgid "The customer for which this default enrollment will be realized."
+msgstr "Clientul pentru care se va realiza această înscriere implicită."
+
+#: enterprise/models.py:2559
+msgid "The type of content (e.g. a course vs. a course run)."
+msgstr "Tipul de conținut (de exemplu, un curs vs. un curs)."
+
+#: enterprise/models.py:2567
+msgid ""
+"A course or course run that related users should be automatically enrolled "
+"into."
+msgstr ""
+"Un curs sau cursuri în care ar trebui să fie înscriși automat utilizatorii "
+"afiliați."
+
+#: enterprise/models.py:2739
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"Există deja o intenție implicită de înscriere cu acest client și cheia "
+"conținut, dar este ștearsă. Vă rugăm să o restaurați <a "
+"href=\"{existing_record_admin_url}\">aici</a>."
+
+#: enterprise/models.py:2754
+msgid "The content key did not resolve to a valid course run."
+msgstr "Cheia de conținut nu s-a rezolvat într-un curs valid."
+
+#: enterprise/models.py:2822
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a JSON object. An empty JSON "
+"object means that all available content items will be included in the "
+"catalog.  Must be unique."
+msgstr ""
+"Parametrii de interogare care vor fi utilizați pentru a filtra rezultatele "
+"căutării/toate punctele finale ale serviciului de descoperire, specificate "
+"ca obiect JSON. Un obiect JSON gol înseamnă că toate elementele de conținut "
+"disponibile vor fi incluse în catalog. Trebuie să fie unic."
+
+#: enterprise/models.py:2837
+msgid ""
+"Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
+"This means that, when the content_filter specifies that 'course' content "
+"types should be included in the catalog, executive-education-2u course types"
+" won't be excluded from the content of the associated catalog."
+msgstr ""
+"Specifică dacă Catalogului i se permite să includă cursuri executive (2U). "
+"Aceasta înseamnă că, atunci când content_filter specifică că tipurile de "
+"conținut „curs” trebuie incluse în Catalog, tipurile de curs executive-"
+"education-2u nu vor fi excluse din conținutul Catalogului asociat."
+
+#: enterprise/models.py:2844
+msgid "Enterprise Catalog Query"
+msgstr "Catalogul întreprinderilor"
+
+#: enterprise/models.py:2845
+msgid "Enterprise Catalog Queries"
+msgstr "Interogări de Catalog pentru întreprinderi"
+
+#: enterprise/models.py:2958
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a Json object. An empty Json "
+"object means that all available content items will be included in the "
+"catalog."
+msgstr ""
+"Parametrii de interogare care vor fi utilizați pentru a filtra rezultatele "
+"căutării/toate punctele finale ale serviciului de descoperire, specificate "
+"ca obiect Json. Un obiect Json gol înseamnă că toate elementele de conținut "
+"disponibile vor fi incluse în catalog."
+
+#: enterprise/models.py:2966
+msgid ""
+"Ordered list of enrollment modes which can be displayed to learners for "
+"course runs in this catalog."
+msgstr ""
+"Lista ordonată a modurilor de înscriere care pot fi afișate cursanților "
+"pentru cursuri în acest catalog."
+
+#: enterprise/models.py:2972
+msgid ""
+"Specifies whether courses should be published with direct-to-audit "
+"enrollment URLs."
+msgstr ""
+"Specifică dacă cursurile trebuie publicate cu adrese URL de înscriere direct"
+" la audit."
+
+#: enterprise/models.py:2979
+msgid "Enterprise Customer Catalog"
+msgstr "Catalogul clienților Enterprise"
+
+#: enterprise/models.py:2980 enterprise/models.py:3527
+msgid "Enterprise Customer Catalogs"
+msgstr "Catalog pentru clienți Enterprise"
+
+#: enterprise/models.py:3247
+msgid ""
+"Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
+"<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
+msgstr ""
+"Completați un șablon standard Django care, atunci când este redat, produce e-mailul pe care doriți să îl trimiteți cursanților nou-înscriși din Enterprise Customer. Următoarele variabile pot fi disponibile:\n"
+"<ul><li> user_name: un nume care poate fi citit de om pentru persoana care ia fost trimisă prin e-mail. Asigurați-vă că tratați cazul în care acest lucru nu este definit, deoarece poate lipsi în unele cazuri. Poate fi, de asemenea, un nume de utilizator, dacă cursantul nu și-a configurat numele „real” în sistem.</li><li> organization_name: numele organizației care sponsorizează înscrierea.</li><li> enrolled_in: detalii despre cursul sau programul la care a fost înscris. Acesta poate conține:<ul><li> nume: numele articolului care poate fi înscris (de exemplu, „Curs demonstrativ”).</li><li> url: un link către pagina de pornire a articolului înscris.</li><li> branding: un nume de branding particularizat pentru articolul înscris. De exemplu, brandingul unui program MicroMasters ar fi „MicroMasters”.</li><li> start: data la care articolul înscris devine disponibil. Redați acest lucru în text folosind filtrul șablonului Django `date` (consultați <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">documentația Django</a> ).</li><li> tip: dacă elementul înscris este un curs, un program sau altceva.</li></ul></ul>"
+
+#: enterprise/models.py:3265
+#, python-brace-format
+msgid ""
+"Enter a string that can be used to generate a dynamic subject line for "
+"notification emails. The placeholder {course_name} will be replaced with the"
+" name of the course or program that was enrolled in."
+msgstr ""
+"Introduceți un șir care poate fi folosit pentru a genera un subiect dinamic "
+"pentru e-mailurile de notificare. Substituentul {course_name} va fi înlocuit"
+" cu numele cursului sau programului la care a fost înscris."
+
+#: enterprise/models.py:3407
+msgid "Active"
+msgstr "Activ"
+
+#: enterprise/models.py:3408
+msgid "Include Date"
+msgstr "Includeți data"
+
+#: enterprise/models.py:3409
+msgid "Include date in the report file name"
+msgstr "Includeți dăți în numele fișierului raportului"
+
+#: enterprise/models.py:3415
+msgid "Delivery Method"
+msgstr "Metoda de livrare"
+
+#: enterprise/models.py:3421
+msgid ""
+"Specifies whether report should be compressed. Without compression files "
+"will not be password protected or encrypted."
+msgstr ""
+"Specifică dacă raportul trebuie comprimat. Fără compresie, fișierele nu vor "
+"fi protejate prin parolă sau criptate."
+
+#: enterprise/models.py:3428
+msgid "PGP Encryption Key"
+msgstr "Cheie de criptare PGP"
+
+#: enterprise/models.py:3429
+msgid "The key for encryption, if PGP encrypted file is required."
+msgstr "Cheia pentru criptare, dacă este necesar fișierul criptat PGP."
+
+#: enterprise/models.py:3437
+msgid "Data Type"
+msgstr "Tip de date"
+
+#: enterprise/models.py:3438
+msgid "The type of data this report should contain."
+msgstr "Tipul de dată pe care trebuie să o conțină acest raport."
+
+#: enterprise/models.py:3445
+msgid "Report Type"
+msgstr "Tipul de raport"
+
+#: enterprise/models.py:3446
+msgid "The type this report should be sent as, e.g. CSV."
+msgstr "Tipul acestui raport ar trebui trimis ca, de exemplu, CSV."
+
+#: enterprise/models.py:3450
+msgid "Email"
+msgstr "E-mail"
+
+#: enterprise/models.py:3451
+msgid "The email(s), one per line, where the report should be sent."
+msgstr "E-mail-urile, câte unul pe rând, la care trebuie trimis raportul."
+
+#: enterprise/models.py:3458
+msgid "Frequency"
+msgstr "Frecvență"
+
+#: enterprise/models.py:3459
+msgid ""
+"The frequency interval (daily, weekly, or monthly) that the report should be"
+" sent."
+msgstr ""
+"Intervalul de frecvență (zilnic, săptămânal sau lunar) în care trebuie "
+"trimis raportul."
+
+#: enterprise/models.py:3464
+msgid "Day of Month"
+msgstr "Ziua lunii"
+
+#: enterprise/models.py:3465
+msgid ""
+"The day of the month to send the report. This field is required and only "
+"valid when the frequency is monthly."
+msgstr ""
+"Ziua lunii pentru trimiterea raportului. Acest câmp este obligatoriu și "
+"valabil numai când frecvența este lunară."
+
+#: enterprise/models.py:3473
+msgid "Day of Week"
+msgstr "Ziua săptămânii"
+
+#: enterprise/models.py:3474
+msgid ""
+"The day of the week to send the report. This field is required and only "
+"valid when the frequency is weekly."
+msgstr ""
+"Ziua săptămânii pentru trimiterea raportului. Acest câmp este obligatoriu și"
+" valabil numai când frecvența este săptămânală."
+
+#: enterprise/models.py:3478
+msgid "Hour of Day"
+msgstr "Ora din zi"
+
+#: enterprise/models.py:3479
+msgid ""
+"The hour of the day to send the report, in Eastern Standard Time (EST). This"
+" is required for all frequency settings."
+msgstr ""
+"Ora din zi pentru trimiterea raportului, în Eastern Standard Time (EST). "
+"Acest lucru este necesar pentru toate setările de frecvență."
+
+#: enterprise/models.py:3487
+msgid ""
+"This password will be used to secure the zip file. It will be encrypted when"
+" stored in the database."
+msgstr ""
+"Această parolă va fi folosită pentru a securiza fișierul zip. Acesta va fi "
+"criptat atunci când este stocat în baza de date."
+
+#: enterprise/models.py:3494
+msgid "SFTP Host name"
+msgstr "Nume gazdă SFTP"
+
+#: enterprise/models.py:3495
+msgid "If the delivery method is sftp, the host to deliver the report to."
+msgstr "Dacă metoda de livrare este sftp, gazda căreia îi va livra raportul."
+
+#: enterprise/models.py:3500
+msgid "SFTP Port"
+msgstr "Port SFTP"
+
+#: enterprise/models.py:3501
+msgid "If the delivery method is sftp, the port on the host to connect to."
+msgstr ""
+"Dacă metoda de livrare este sftp, portul de pe gazdă la care se conectează."
+
+#: enterprise/models.py:3508
+msgid "SFTP username"
+msgstr "Nume de utilizator SFTP"
+
+#: enterprise/models.py:3509
+msgid ""
+"If the delivery method is sftp, the username to use to securely access the "
+"host."
+msgstr ""
+"Dacă metoda de livrare este sftp, utilizatorul care trebuie folosit pentru a"
+" accesa în siguranță gazda."
+
+#: enterprise/models.py:3515
+msgid ""
+"If the delivery method is sftp, the password to use to securely access the "
+"host. The password will be encrypted when stored in the database."
+msgstr ""
+"Dacă metoda de livrare este sftp, parola de utilizat pentru a accesa în "
+"siguranță gazda. Parola va fi criptată atunci când este stocată în baza de "
+"date."
+
+#: enterprise/models.py:3522
+msgid "SFTP file path"
+msgstr "Calea fișierului SFTP"
+
+#: enterprise/models.py:3523
+msgid ""
+"If the delivery method is sftp, the path on the host to deliver the report "
+"to."
+msgstr ""
+"Dacă metoda de livrare este sftp, calea de pe gazdă către care să livreze "
+"raportul."
+
+#: enterprise/models.py:3631
+msgid "Delivery method cannot be updated"
+msgstr "Metoda de livrare nu poate fi actualizată"
+
+#: enterprise/models.py:3647
+msgid "Day of week must be set if the frequency is weekly."
+msgstr "Ziua săptămânii trebuie setată dacă frecvența este săptămânală."
+
+#: enterprise/models.py:3651
+msgid "Day of month must be set if the frequency is monthly."
+msgstr "Ziua lunii trebuie setată dacă frecvența este lunară."
+
+#: enterprise/models.py:3654
+msgid "Frequency must be set to either daily, weekly, or monthly."
+msgstr "Frecvența trebuie să fie setată fie zilnic, săptămânal sau lunar."
+
+#: enterprise/models.py:3660
+msgid "Email(s) must be set if the delivery method is email."
+msgstr "E-mailurile trebuie setate dacă metoda de livrare este e-mailul."
+
+#: enterprise/models.py:3664
+msgid "Decrypted password must be set if the delivery method is email."
+msgstr "Parola decriptată trebuie setată dacă metoda de livrare este e-mail."
+
+#: enterprise/models.py:3668
+msgid "SFTP Hostname must be set if the delivery method is sftp."
+msgstr "Numele de gazdă SFTP trebuie setat dacă metoda de livrare este sftp."
+
+#: enterprise/models.py:3670
+msgid "SFTP username must be set if the delivery method is sftp."
+msgstr ""
+"Numele de utilizator SFTP trebuie setat dacă metoda de livrare este sftp."
+
+#: enterprise/models.py:3672
+msgid "SFTP File Path must be set if the delivery method is sftp."
+msgstr ""
+"Calea fișierului SFTP trebuie setată dacă metoda de livrare este sftp."
+
+#: enterprise/models.py:3675
+msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
+msgstr ""
+"Parola SFTP decriptată trebuie setată dacă metoda de livrare este SFTP."
+
+#: enterprise/models.py:3738
+msgid ""
+"The EnterpriseCustomer for which the role is assigned to for the provided "
+"user. Defaults to the first active Enterprise Customer that the user is "
+"linked to.If another Enterprise Customer object is desired, please first "
+"create the record then modify the enterprise customer field by using the "
+"drop down."
+msgstr ""
+"EnterpriseCustomer căruia îi este atribuit rolul pentru utilizatorul "
+"furnizat. Implicit pentru primul Client Enterprise activ la care "
+"utilizatorul este conectat. Dacă se dorește un alt obiect Client Enterprise,"
+" creați mai întâi înregistrarea, apoi modificați câmpul Client Enterprise "
+"utilizând meniul drop-down."
+
+#: enterprise/models.py:4027
+msgid "Filters to show banner notifications conditionally."
+msgstr "Filtre pentru a afișa în mod condiționat notificările banner."
+
+#: enterprise/models.py:4032
+msgid "Admin Notification Filter"
+msgstr "Filtru de notificare pentru Administrator"
+
+#: enterprise/models.py:4033
+msgid "Admin Notification Filters"
+msgstr "Filtre de notificare pentru Administrator"
+
+#: enterprise/models.py:4059
+msgid ""
+"Notification banner title which will appear to enterprise admin on admin "
+"portal."
+msgstr ""
+"Titlul bannerului de notificare care va apărea administratorului "
+"întreprinderii pe portalul de administrare."
+
+#: enterprise/models.py:4067
+msgid ""
+"Notification banner text which will appear to enterprise admin on admin "
+"portal. You can enter maximum of 512 characters. This text support markdown."
+" See https://commonmark.org/help/ for the supported markdown features."
+msgstr ""
+"Textul bannerului de notificare care va apărea administratorului "
+"întreprinderii pe portalul de administrator. Puteți introduce maximum 512 "
+"caractere. Acest text acceptă markdown. Consultați "
+"https://commonmark.org/help/ pentru caracteristicile de markdown acceptate."
+
+#: enterprise/models.py:4084
+msgid "Admin Notification"
+msgstr "Notificare Administrator"
+
+#: enterprise/models.py:4085
+msgid "Admin Notifications"
+msgstr "Notificări de Administrator"
+
+#: enterprise/models.py:4123
+msgid "Admin Notification Read"
+msgstr "Notificarea Administratorului citită"
+
+#: enterprise/models.py:4124
+msgid "Admin Notifications Read"
+msgstr "Notificări Administrator Citite"
+
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
+msgid "The enterprise that can be linked using this key."
+msgstr "Întreprinderea care poate fi conectată folosind această cheie."
+
+#: enterprise/models.py:4166
+msgid "The number of times this key can be used to link a learner."
+msgstr "De câte ori această cheie poate fi folosită pentru a lega un cursant."
+
+#: enterprise/models.py:4175
+msgid "The key will no longer be valid after this date."
+msgstr "Cheia nu va mai fi valabilă după această dată."
+
+#: enterprise/models.py:4184
+msgid ""
+"Specifies if the key is active. Once deactivated, the key is no longer valid"
+" and cannot be reactivated."
+msgstr ""
+"Specifică dacă cheia este activă. Odată dezactivată, cheia nu mai este "
+"valabilă și nu mai poate fi reactivată."
+
+#: enterprise/models.py:4265
+msgid "ChatGPT prompt."
+msgstr "Solicitare ChatGPT."
+
+#: enterprise/models.py:4267
+msgid "ChatGPT response."
+msgstr "Răspuns ChatGPT."
+
+#: enterprise/models.py:4268
+msgid "Prompt type."
+msgstr "Tip prompt."
+
+#: enterprise/models.py:4272
+msgid "ChatGPT Response"
+msgstr "Răspuns ChatGPT"
+
+#: enterprise/models.py:4273
+msgid "ChatGPT Responses"
+msgstr "Răspunsuri ChatGPT"
+
+#: enterprise/models.py:4383
+msgid "Enterprise Customer SSO Configuration"
+msgstr "Configurație SSO pentru client Enterprise"
+
+#: enterprise/models.py:4384
+msgid "Enterprise Customer SSO Configurations"
+msgstr "Configurație SSO pentru clienți Enterprise"
+
+#: enterprise/models.py:4393
+msgid "The display name of the SSO configuration."
+msgstr "Numele afișat al configurației SSO."
+
+#: enterprise/models.py:4415
+msgid ""
+"Specifies whether the integration with the SSO orchestration is active."
+msgstr "Specifică dacă integrarea cu orchestrarea SSO este activă."
+
+#: enterprise/models.py:4433
+msgid "The metadata url of the identity provider."
+msgstr "Adresa URL a metadatelor furnizorului de identitate."
+
+#: enterprise/models.py:4441
+msgid "The metadata xml of the identity provider."
+msgstr "XML de metadata ale furnizorului de identitate."
+
+#: enterprise/models.py:4450
+msgid "The entity id of the identity provider."
+msgstr "ID-ul furnizorului de identitate."
+
+#: enterprise/models.py:4459
+msgid ""
+"Specifies whether the integration with the customer's identity provider "
+"should auto update metadata."
+msgstr ""
+"Specifică dacă integrarea cu furnizorul de identitate al clientului ar "
+"trebui să actualizeze automat metadatele."
+
+#: enterprise/models.py:4513
+msgid ""
+"The date and time when the configuration was submitted to the SSO "
+"orchestration."
+msgstr "Data și ora la care configurația a trimis orchestrației SSO."
+
+#: enterprise/models.py:4521
+msgid ""
+"The date and time when the configuration was completed by the SSO "
+"orchestration."
+msgstr "Orchestrația SSO a finalizat configurația la data și ora specificată."
+
+#: enterprise/models.py:4529
+msgid ""
+"The date and time when the configuration was validated and used for the "
+"first time."
+msgstr ""
+"Data și ora la care configurația a fost validată și utilizată pentru prima "
+"dată."
+
+#: enterprise/models.py:4537
+msgid ""
+"The date and time when the orchestrator encountered an error during "
+"configuration."
+msgstr ""
+"Data și ora la care orchestratorul a întâmpinat o eroare în timpul "
+"configurației."
+
+#: enterprise/models.py:4546
+msgid ""
+"Whether admin has indicated the service provider metadata was uploaded."
+msgstr ""
+"Administratorul a indicat că a încărcat metadatele furnizorului de servicii."
+
+#: enterprise/models.py:4556 enterprise/models.py:4592
+msgid ""
+"SAP specific configuration: the timeout interval for the OData API in "
+"seconds."
+msgstr ""
+"Configurație specifică SAP: intervalul de timeout pentru API-ul OData în "
+"secunde."
+
+#: enterprise/models.py:4566
+msgid "SAP specific configuration: the root url of the OData API."
+msgstr "Configurație specifică SAP: adresa URL rădăcină a API-ului OData."
+
+#: enterprise/models.py:4575
+msgid "SAP specific configuration: the company id of the OData API."
+msgstr "Configurație specifică SAP: id-ul companiei al API-ului OData."
+
+#: enterprise/models.py:4584
+msgid ""
+"SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
+"API."
+msgstr ""
+"Configurație specifică SAP: adresa URL rădăcină a API-ului SAP "
+"SuccessFactors OAuth."
+
+#: enterprise/models.py:4601
+msgid ""
+"SAP specific configuration: the private key used to sign the SAML assertion."
+msgstr ""
+"Configurație specifică SAP: cheia privată utilizată pentru a semna afirmația"
+" SAML."
+
+#: enterprise/models.py:4610
+msgid "SAP specific configuration: the client id of the OData API."
+msgstr "Configurație specifică SAP: id-ul client al API-ului OData."
+
+#: enterprise/models.py:4619
+msgid "SAP specific configuration: the user id of the OAuth API."
+msgstr "Configurație specifică SAP: id-ul de utilizator al API-ului OAuth."
+
+#: enterprise/models.py:4641
+msgid "Field is locked as the configuration has already been submitted."
+msgstr "Câmpul este blocat deoarece configurația a fost deja trimisă."
+
+#: enterprise/models.py:4679
+msgid "Record has already been submitted for configuration."
+msgstr "Înregistrarea a fost deja trimisă pentru configurație."
+
+#: enterprise/models.py:4729
+msgid "Specifies enterprise group name."
+msgstr "Specifică numele grupului de întreprinderi."
+
+#: enterprise/models.py:4744
+msgid "The type of enterprise group"
+msgstr "Tipul de grup de întreprinderi"
+
+#: enterprise/models.py:4750
+msgid "Enterprise Group"
+msgstr "Grupul de întreprinderi"
+
+#: enterprise/models.py:4751
+msgid "Enterprise Groups"
+msgstr "Grupuri de întreprinderi"
+
+#: enterprise/models.py:4864
+msgid ""
+"The moment at which the membership record is written with an Enterprise "
+"Customer User record."
+msgstr ""
+"Momentul în care se scrie înregistrarea de membru cu o înregistrare "
+"Enterprise Client Utilizator."
+
+#: enterprise/models.py:4874
+msgid "Current status of the membership record"
+msgstr "Starea actuală a evidenței de membru"
+
+#: enterprise/models.py:4881
+msgid ""
+"The moment at which the membership record was revoked by an Enterprise "
+"admin."
+msgstr ""
+"Momentul în care înregistrarea de membru a fost revocată de un administrator"
+" Enterprise."
+
+#: enterprise/models.py:4889
+msgid ""
+"The last time the membership action was in an error state. Null means the "
+"membership is not errored."
+msgstr ""
+"Ultima dată când acțiunea de membru a fost într-o stare de eroare. Null "
+"înseamnă că calitatea de membru nu este într-o stare de eroare."
+
+#: enterprise/models.py:4894
+msgid "Enterprise Group Membership"
+msgstr "Calitatea de membru al grupului de întreprinderi"
+
+#: enterprise/models.py:4895
+msgid "Enterprise Group Memberships"
+msgstr "Membrii Grupului Enterprise"
+
+#: enterprise/models.py:4964
+msgid "Title summarizing the onboarding flow."
+msgstr "Titlul care rezumă fluxul de onboarding."
+
+#: enterprise/models.py:4970
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Specifică dacă acest flux este activ și afișat utilizatorilor administrator "
+"în turul de îmbarcare."
+
+#: enterprise/models.py:4989
+msgid "The enterprise customer user who is an admin."
+msgstr "Utilizatorul clientului enterprise este administrator."
+
+#: enterprise/models.py:4994
+msgid "The last time the admin logged into the admin portal."
+msgstr ""
+"Ultima dată când administratorul s-a conectat la portalul administratorului."
+
+#: enterprise/models.py:4999
+msgid "The onboarding flows that this admin has completed."
+msgstr "Fluxurile de integrare pe care acest administrator le-a absolvit."
+
+#: enterprise/models.py:5003
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "Dacă administratorul a închis turul de integrare."
+
+#: enterprise/models.py:5007
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "Dacă administratorul a absolvit turul de integrare."
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admin"
+msgstr "administrator client Enterprise"
+
+#: enterprise/models.py:5013
+msgid "Enterprise Customer Admins"
+msgstr "Administratori de clienți Enterprise"
+
+#: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
+#: enterprise/views.py:1616 enterprise/views.py:2118
+msgid "Close"
+msgstr "Închide"
+
+#: enterprise/templates/enterprise/admin/clear_learners_data_sharing_consent.html:18
+#: enterprise/templates/enterprise/admin/manage_learners.html:47
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:6
+#: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:18
+msgid "Home"
+msgstr "Acasă"
+
+#: enterprise/templates/enterprise/admin/clear_learners_data_sharing_consent.html:33
+#: enterprise/templates/enterprise/admin/clear_learners_data_sharing_consent.html:40
+msgid "Clear Data Sharing Consent"
+msgstr "Clarificați consimțământul pentru partajarea Datălor"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:65
+msgid "Manage Learners"
+msgstr "Gestionați cursanții"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:68
+msgid "Search Term: "
+msgstr "Termen de căutare: "
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:87
+msgid "Search email address or username"
+msgstr "Căutați adresa de e-mail sau numele de utilizator"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:98
+msgid "User Email"
+msgstr "E-mail utilizator"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:99
+msgid "Username"
+msgstr "Nume de utilizator"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:100
+msgid "Linked Date"
+msgstr "Data legată"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:101
+#: enterprise/templates/enterprise/admin/manage_learners.html:141
+msgid "Enroll"
+msgstr "Înscrie"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:139
+msgid "Learner Email"
+msgstr "E-mail pentru cursant"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:140
+msgid "Date Added"
+msgstr "Data adăugată"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:162
+msgid "Link learners"
+msgstr "Conectați cursanții"
+
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:21
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:28
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:41
+msgid "Setup Auth org id"
+msgstr "Configurați id organizație de autentificare"
+
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:46
+msgid "Cancel"
+msgstr "Anulează"
+
+#: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:33
+#: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:40
+msgid "Transmit Courses Metadata"
+msgstr "Transmiteți metadatele Cursuri"
+
+#: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
+#: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
+#: enterprise/views.py:372 enterprise/views.py:1612
+msgid "Continue"
+msgstr "Continuă"
+
+#: enterprise/utils.py:149
+msgid ""
+"Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
+"both were."
+msgstr ""
+"Trebuie specificate fie „E-mail sau nume de utilizator”, fie „Încărcare în "
+"bloc CSV”, dar ambele au fost."
+
+#: enterprise/utils.py:152
+msgid "Error: Learners could not be added. Correct the following errors."
+msgstr ""
+"Eroare: cursanții nu au putut fi adăugați. Corectați următoarele erori."
+
+#: enterprise/utils.py:154
+#, python-brace-format
+msgid ""
+"Enrollment track {course_mode} is not available for course {course_id}."
+msgstr ""
+"Pista de înscriere {course_mode} nu este disponibilă pentru cursul "
+"{course_id}."
+
+#: enterprise/utils.py:156
+msgid "Select a course enrollment track for the given course(s)."
+msgstr "Selectează o pistă de înscriere la curs pentru cursurile date."
+
+#: enterprise/utils.py:158
+#, python-brace-format
+msgid ""
+"Could not retrieve details for the course ID {course_id}. Specify a valid "
+"ID."
+msgstr ""
+"Nu s-au putut prelua detaliile pentru Identificatorul Cursului {course_id}. "
+"Specificați un ID valid."
+
+#: enterprise/utils.py:161
+msgid ""
+"Either \"CSV bulk upload\" or a singular course ID may be used for manual "
+"enrollments, but not both together."
+msgstr ""
+"„Încărcare în bloc CSV” sau un identificator de curs singular poate fi "
+"folosit pentru înscrierile manuale, dar nu ambele împreună."
+
+#: enterprise/utils.py:165
+#, python-brace-format
+msgid "{argument} does not appear to be a valid email address."
+msgstr "{argument} nu este o adresă de e-mail validă."
+
+#: enterprise/utils.py:167
+#, python-brace-format
+msgid ""
+"{argument} does not appear to be a valid email address or known username"
+msgstr ""
+"{argument} nu apare a fi o adresă de e-mail validă sau un nume de utilizator"
+" cunoscut"
+
+#: enterprise/utils.py:170
+#, python-brace-format
+msgid ""
+"Expected a CSV file with [{expected_columns}] columns, but found "
+"[{actual_columns}] columns instead."
+msgstr ""
+"Se aștepta un fișier CSV cu [{expected_columns}] coloane, dar s-au găsit "
+"[{actual_columns}] coloane."
+
+#: enterprise/utils.py:174
+msgid "Reason field is required but was not filled."
+msgstr "Câmpul pentru motiv este obligatoriu, dar nu a fost completat."
+
+#: enterprise/utils.py:177
+msgid ""
+"Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
+"neither were."
+msgstr ""
+"Trebuie specificate fie „E-mail sau nume de utilizator”, fie „Încărcare în "
+"bloc CSV”, dar niciunul nu a fost."
+
+#: enterprise/utils.py:180
+#, python-brace-format
+msgid ""
+"User with email address {email} is already registered with Enterprise "
+"Customer {ec_name}"
+msgstr ""
+"Utilizatorul cu adresa de e-mail {email} este deja înregistrat la Enterprise"
+" Client {ec_name}"
+
+#: enterprise/utils.py:182
+msgid "User is not linked with Enterprise Customer"
+msgstr "Utilizatorul nu este conectat cu Enterprise Client"
+
+#: enterprise/utils.py:183
+#, python-brace-format
+msgid "User with email address {email} doesn't exist."
+msgstr "Utilizatorul cu adresa de e-mail {email} nu există."
+
+#: enterprise/utils.py:184
+#, python-brace-format
+msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
+msgstr ""
+"Identificatorul cursului {course_id} nu există în Catalogul clienților "
+"Enterprise"
+
+#: enterprise/utils.py:186
+#, python-brace-format
+msgid ""
+"Enterprise channel worker user with the username "
+"\"{channel_worker_username}\" was not found."
+msgstr ""
+"Utilizatorul lucrător al canalului Enterprise cu numele de utilizator "
+"„{channel_worker_username}” nu a fost găsit."
+
+#: enterprise/utils.py:189
+msgid ""
+"Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
+msgstr ""
+"Nu se poate analiza fișierul CSV. Vă rugăm să vă asigurați că este un fișier"
+" codificat CSV „utf-8”."
+
+#: enterprise/utils.py:192
+msgid "Discount percentage should be from 0 to 100."
+msgstr "Procentul de reducere ar trebui să fie de la 0 la 100."
+
+#: enterprise/utils.py:402
+#, python-brace-format
+msgid "You've been enrolled in {course_name}!"
+msgstr "Ați fost înscris în {course_name}!"
+
+#: enterprise/utils.py:561 enterprise/utils.py:640
+msgid "`user` must have one of either `email` or `user_email`."
+msgstr "`utilizator` trebuie să aibă unul dintre `email` sau `user_email`."
+
+#: enterprise/validators.py:30
+msgid "Value entered is not a valid hex color code."
+msgstr "Valoarea introdusă nu este un cod de culoare hexadecimal valid."
+
+#: enterprise/validators.py:41
+msgid "Unsupported file extension."
+msgstr "Extensia fișierului neacceptată."
+
+#: enterprise/validators.py:52
+#, python-format
+msgid "The logo image file size must be less than or equal to %s KB."
+msgstr ""
+"Dimensiunea fișierului cu imaginea siglei trebuie să fie mai mică sau egală "
+"cu %s KB."
+
+#: enterprise/views.py:211
+msgid ""
+"The following method from the Open edX platform is necessary for this view "
+"but isn't available."
+msgstr ""
+"Următoarea metodă de pe platforma Open edX este necesară pentru această "
+"vizualizare, dar nu este disponibilă."
+
+#: enterprise/views.py:232
+#, python-brace-format
+msgid "{platform_name} home page"
+msgstr "{platform_name} pagina de start"
+
+#: enterprise/views.py:352
+msgid "Data sharing consent required"
+msgstr "Este necesar consimțământul pentru partajarea datelor"
+
+#: enterprise/views.py:353
+msgid "Consent to share your data"
+msgstr "Consimțământul pentru a vă partaja datele"
+
+#: enterprise/views.py:355
+#, python-brace-format
+msgid ""
+"Per the {start_link}Data Sharing Policy{end_link}, "
+"{bold_start}{enterprise_customer_name}{bold_end} would like to know about:"
+msgstr ""
+"Conform {start_link} Politicii de partajare a datelor {end_link}, "
+"{bold_start} {enterprise_customer_name} {bold_end} ar dori să afle despre:"
+
+#: enterprise/views.py:366
+#, python-brace-format
+msgid ""
+"I agree to allow {platform_name} to share data about my enrollment, "
+"completion and performance in all {platform_name} courses and programs where"
+" my enrollment is sponsored by {enterprise_customer_name}."
+msgstr ""
+"Sunt de acord să permit {platform_name} să partajeze date despre înscrierea,"
+" finalizarea și performanța mea în toate cursurile și programele "
+"{platform_name} în care înscrierea mea este sponsorizată de "
+"{enterprise_customer_name}."
+
+#: enterprise/views.py:373
+msgid "Decline and go back"
+msgstr "Refuză și întoarce-te înapoi"
+
+#: enterprise/views.py:374
+msgid "Data Sharing Policy"
+msgstr "Politica de partajare a datelor"
+
+#: enterprise/views.py:376
+#, python-brace-format
+msgid ""
+"Enrollment, completion, and performance data that may be shared with "
+"{enterprise_customer_name} (or its designee) for these courses and programs "
+"are limited to the following:"
+msgstr ""
+"Datele de înscriere, finalizare și performanță care pot fi partajate cu "
+"{enterprise_customer_name} (sau reprezentantul acestuia) pentru aceste "
+"cursuri și programe sunt limitate la următoarele:"
+
+#: enterprise/views.py:383
+#, python-brace-format
+msgid ""
+"My email address for my {platform_name} account, and the date when I created"
+" my {platform_name} account"
+msgstr ""
+"Adresa mea de e-mail pentru contul meu {platform_name} și data la care mi-am"
+" creat contul {platform_name}"
+
+#: enterprise/views.py:389
+#, python-brace-format
+msgid ""
+"My {platform_name} ID, and if I log in via single sign-on, my "
+"{enterprise_customer_name} SSO user-ID"
+msgstr ""
+"ID-ul meu {platform_name} și, dacă mă conectez prin autentificare unică, id-"
+"ul meu de utilizator SSO {enterprise_customer_name}"
+
+#: enterprise/views.py:395
+#, python-brace-format
+msgid "My {platform_name} username"
+msgstr "Numele meu de utilizator {platform_name}"
+
+#: enterprise/views.py:396
+msgid "My country or region of residence"
+msgstr "Țara sau regiunea mea de reședință"
+
+#: enterprise/views.py:398
+msgid ""
+"What courses and/or programs I've enrolled in or unenrolled from, what track"
+" I enrolled in (audit or verified) and the date when I enrolled in each "
+"course or program"
+msgstr ""
+"La ce cursuri și/sau programe m-am înscris sau de înscris, la ce pistă m-am "
+"înscris (audit sau verificat) și data la care m-am înscris la fiecare curs "
+"sau program"
+
+#: enterprise/views.py:402
+msgid ""
+"Information about each course or program I've enrolled in, including its "
+"duration and level of effort required"
+msgstr ""
+"Informații despre fiecare curs sau program la care sunt înscris, inclusiv "
+"durata și nivelul de efort necesar"
+
+#: enterprise/views.py:406
+msgid ""
+"Whether I completed specific parts of each course or program (for example, "
+"whether I watched a given video or attempted or completed a given homework "
+"assignment)"
+msgstr ""
+"Fie că am finalizat anumite părți ale fiecărui curs sau program (de exemplu,"
+" dacă am vizionat un anumit videoclip sau am încercat sau am finalizat o "
+"anumită temă)"
+
+#: enterprise/views.py:410
+msgid ""
+"My overall percentage completion of each course or program on a periodic "
+"basis, including the total time spent in each course or program, the date "
+"when I last logged in to each course or program and how much of the course "
+"or program content I have consumed"
+msgstr ""
+"Procentul meu total de finalizare a fiecărui curs sau program în mod "
+"periodic, inclusiv timpul total petrecut în fiecare curs sau program, data "
+"la care m-am conectat ultima dată la fiecare curs sau program și cât de mult"
+" din conținutul cursului sau programului am consumat"
+
+#: enterprise/views.py:414
+msgid ""
+"My performance in each course or program, including, for example, my score "
+"on each assignment and current average of correct answers out of total "
+"attempted answers"
+msgstr ""
+"Performanța mea în fiecare curs sau program, inclusiv, de exemplu, scorul "
+"meu la fiecare temă și media curentă a răspunsurilor corecte din totalul "
+"răspunsurilor încercate"
+
+#: enterprise/views.py:416
+msgid ""
+"My final grade in each course or program, and the date when I completed each"
+" course or program"
+msgstr ""
+"Nota mea finală la fiecare curs sau program și dăți la care am finalizat "
+"fiecare curs sau program"
+
+#: enterprise/views.py:417
+msgid "Whether I received a certificate in each course or program"
+msgstr "Dacă am primit un Certificat la fiecare curs sau program"
+
+#: enterprise/views.py:420
+#, python-brace-format
+msgid ""
+"My permission applies only to data from courses or programs that are "
+"sponsored by {enterprise_customer_name}, and not to data from any "
+"{platform_name} courses or programs that I take on my own. I understand that"
+" I may withdraw my permission only by fully unenrolling from any courses or "
+"programs that are sponsored by {enterprise_customer_name}."
+msgstr ""
+"Permisiunea mea se aplică numai date din cursuri sau programe care sunt "
+"sponsorizate de {enterprise_customer_name} și nu date din cursurile sau "
+"programe {platform_name} pe care le fac pe cont propriu. Înțeleg că îmi pot "
+"retrage permisiunea numai prin anularea completă a înscrierii de la orice "
+"cursuri sau programe care sunt sponsorizate de {enterprise_customer_name}."
+
+#: enterprise/views.py:428
+msgid "Please note"
+msgstr "Vă rugăm să rețineți"
+
+#: enterprise/views.py:430
+#, python-brace-format
+msgid ""
+"If you decline to consent, that fact may be shared with "
+"{enterprise_customer_name}."
+msgstr ""
+"Dacă refuzați să vă dați consimțământul, acest fapt poate fi împărtășit cu "
+"{enterprise_customer_name}."
+
+#: enterprise/views.py:434
+msgid ""
+"Any version of this Data Sharing Policy in a language other than English is "
+"provided for convenience and you understand and agree that the English "
+"language version will control if there is any conflict."
+msgstr ""
+"Orice versiune a acestei Politici de partajare a Datelor într-o altă limbă "
+"decât engleza este furnizată pentru comoditate și înțelegeți și sunteți de "
+"acord că versiunea în limba engleză va controla dacă există vreun conflict."
+
+#: enterprise/views.py:439
+msgid "Are you sure you want to decline?"
+msgstr "Ești sigur că vrei să refuzi?"
+
+#: enterprise/views.py:440
+msgid "I decline"
+msgstr "refuz"
+
+#: enterprise/views.py:441
+msgid "View the data sharing policy"
+msgstr "Vizionați politica de partajare a datelor"
+
+#: enterprise/views.py:442
+#, python-brace-format
+msgid "View the {start_link}data sharing policy{end_link}."
+msgstr "Vizualizează {start_link}politica de partajare a datelor{end_link}."
+
+#: enterprise/views.py:447
+msgid "Return to Top"
+msgstr "Înapoi la început"
+
+#: enterprise/views.py:591
+#, python-brace-format
+msgid ""
+"To access this {item}, you must first consent to share your learning "
+"achievements with {bold_start}{enterprise_customer_name}{bold_end}. If you "
+"decline now, you will be redirected to the previous page."
+msgstr ""
+"Pentru a accesa acest {item}, trebuie mai întâi să fiți de acord să vă "
+"împărtășiți realizările de învățare cu "
+"{bold_start}{enterprise_customer_name}{bold_end}. Dacă refuzați acum, veți "
+"fi redirecționat către pagina anterioară."
+
+#: enterprise/views.py:601
+#, python-brace-format
+msgid ""
+"To access this {item} and use your discount, you {bold_start}must{bold_end} "
+"consent to sharing your {item} data with {enterprise_customer_name}. If you "
+"decline now, you will be redirected to the previous page."
+msgstr ""
+"Pentru a accesa acest {item} și a utiliza reducerea, "
+"{bold_start}trebuie{bold_end} să fiți de acord cu partajarea datelor dvs. "
+"{item} cu {enterprise_customer_name}. Dacă refuzați acum, veți fi "
+"redirecționat către pagina anterioară."
+
+#: enterprise/views.py:615
+#, python-brace-format
+msgid "your enrollment in this {item}"
+msgstr "înscrierea dumneavoastră în acest {item}"
+
+#: enterprise/views.py:616
+msgid "your learning progress"
+msgstr "progresul tău de învățare"
+
+#: enterprise/views.py:617
+msgid "course completion"
+msgstr "finalizarea cursului"
+
+#: enterprise/views.py:985
+msgid "Enterprise Slug Login"
+msgstr "Conectare la Enterprise Slug"
+
+#: enterprise/views.py:1109
+msgid "Select Organization"
+msgstr "Selectează Organizație"
+
+#: enterprise/views.py:1110
+msgid "Select an organization"
+msgstr "Selectează o organizație"
+
+#: enterprise/views.py:1264
+msgid "Instructor-Paced"
+msgstr "Programat de Profesor"
+
+#: enterprise/views.py:1265
+msgid "Self-Paced"
+msgstr "Cursuri individuale"
+
+#: enterprise/views.py:1455
+msgid "FREE"
+msgstr "GRATUIT"
+
+#: enterprise/views.py:1457
+msgid "Not eligible for a certificate."
+msgstr "Nu este eligibil pentru un Certificat."
+
+#: enterprise/views.py:1459
+msgid "Earn a verified certificate!"
+msgstr "Câștigați un Certificat verificat!"
+
+#: enterprise/views.py:1518
+#, python-brace-format
+msgid "{num_weeks}, starting on {start_date} and ending at {end_date}"
+msgstr "{num_weeks} , începând cu {start_date} și se termină la {end_date}"
+
+#: enterprise/views.py:1520 enterprise/views.py:1939
+msgid "{} week"
+msgid_plural "{} weeks"
+msgstr[0] "{} săptămână"
+msgstr[1] "{} săptămâni"
+msgstr[2] "{} săptămâni"
+
+#: enterprise/views.py:1580
+#, python-brace-format
+msgid ""
+"Discount provided by {strong_start}{enterprise_customer_name}{strong_end}"
+msgstr ""
+"Reducere oferită de {strong_start}{enterprise_customer_name}{strong_end}"
+
+#: enterprise/views.py:1606 enterprise/views.py:1607
+msgid "Confirm your course"
+msgstr "Confirmați-vă cursul"
+
+#: enterprise/views.py:1609
+msgid "View Course Details"
+msgstr "Vizualizează detaliile cursului"
+
+#: enterprise/views.py:1610
+msgid "Please select one:"
+msgstr "Te rog să selectează unul:"
+
+#: enterprise/views.py:1611 enterprise/views.py:2112
+msgid "Price"
+msgstr "Preț"
+
+#: enterprise/views.py:1613 enterprise/views.py:2115
+msgid "Level"
+msgstr "Nivel"
+
+#: enterprise/views.py:1614 enterprise/views.py:2114
+msgid "Effort"
+msgstr "Efort"
+
+#: enterprise/views.py:1615
+msgid "Duration"
+msgstr "Durată"
+
+#: enterprise/views.py:1617 enterprise/views.py:2104
+msgid "What you'll learn"
+msgstr "Ce vei învăța"
+
+#: enterprise/views.py:1618 enterprise/views.py:2116
+msgid "About This Course"
+msgstr "Despre acest curs"
+
+#: enterprise/views.py:1619 enterprise/views.py:2117
+msgid "Course Staff"
+msgstr "Personalul de curs"
+
+#: enterprise/views.py:2056
+#, python-brace-format
+msgid "{count} Course"
+msgid_plural "{count} Courses"
+msgstr[0] "{count} Cursuri"
+msgstr[1] "{count} Cursuri"
+msgstr[2] "{count} Cursuri"
+
+#: enterprise/views.py:2063
+msgid "{}-{} hours per week, per course"
+msgstr "{}-{} ore pe săptămână, per curs"
+
+#: enterprise/views.py:2070
+msgid "{}-{} weeks per course"
+msgstr "{}-{} săptămâni pe curs"
+
+#: enterprise/views.py:2077
+msgid "Purchase all unenrolled courses"
+msgstr "Cumpărați toate cursurile neînscrise"
+
+#: enterprise/views.py:2078
+msgid "enrollment"
+msgstr "înscriere"
+
+#: enterprise/views.py:2080
+msgid "Pursue the program"
+msgstr "Urmăriți programul"
+
+#: enterprise/views.py:2081
+msgid "program enrollment"
+msgstr "înscrierea la program"
+
+#: enterprise/views.py:2102
+msgid "enrolled"
+msgstr "înscris"
+
+#: enterprise/views.py:2103
+msgid "already enrolled, must pay for certificate"
+msgstr "deja înscris, trebuie să plătească pentru Certificat"
+
+#: enterprise/views.py:2106
+msgid "Real Career Impact"
+msgstr "Impact real în carieră"
+
+#: enterprise/views.py:2108
+msgid "See More"
+msgstr "Vezi mai multe"
+
+#: enterprise/views.py:2109
+msgid "See Less"
+msgstr "Vedeți mai puțin"
+
+#: enterprise/views.py:2110
+msgid "Confirm Program"
+msgstr "Confirmați programul"
+
+#: enterprise/views.py:2111
+msgid "Program Summary"
+msgstr "Rezumatul programului"
+
+#: enterprise/views.py:2113
+msgid "Length"
+msgstr "Lungime"
+
+#: enterprise/views.py:2119
+msgid "Program not eligible for one-click purchase."
+msgstr "Programul nu este eligibil pentru achiziție cu un singur clic."
+
+#: enterprise/views.py:2120
+#, python-brace-format
+msgid "What is an {platform_name} {program_type}?"
+msgstr "Ce este un {platform_name} {program_type} ?"
+
+#: enterprise/views.py:2124
+#, python-brace-format
+msgid "What is {platform_name}?"
+msgstr "Ce este {platform_name} ?"
+
+#: enterprise/views.py:2129
+#, python-brace-format
+msgid "Presented by {organization}"
+msgstr "Prezentat de {organization}"
+
+#: enterprise/views.py:2130
+#, python-brace-format
+msgid "Confirm your {item}"
+msgstr "Confirmă {item}"
+
+#: enterprise/views.py:2142
+msgid "Credit- and Certificate-eligible"
+msgstr "Eligibil pentru credit și Certificat"
+
+#: enterprise/views.py:2143
+msgid "Self-paced; courses can be taken in any order"
+msgstr "Auto-ritmat; cursurile pot fi urmate în orice comandă"
+
+#: enterprise/views.py:2145
+#, python-brace-format
+msgid "{purchase_action} for"
+msgstr "{purchase_action} pentru"
+
+#: enterprise_learner_portal/api/v1/serializers.py:40
+msgid ""
+"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
+"installed in an Open edX environment."
+msgstr ""
+"Pentru a utiliza acest EnterpriseCourseEnrollmentSerializer, acest pachet "
+"trebuie să fie instalat într-un mediu Open edX."
+
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr ""
+"Specifică ce atribuiri de roluri de utilizator trebuie actualizate. Dacă nu "
+"este specificat, se va actualiza pentru toate rolurile."
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"Numărul de atribuiri de rol de utilizator de actualizate în fiecare lot de "
+"actualizări."
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"Dacă este setat, nu vor avea loc actualizări sau creări; va itera în schimb "
+"asupra temelor care ar fi modificate sau create."

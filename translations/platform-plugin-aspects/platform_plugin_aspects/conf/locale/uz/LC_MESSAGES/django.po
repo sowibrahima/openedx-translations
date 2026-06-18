@@ -4,17 +4,15 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-# Eden Huthmacher, 2024
-# Alibek Anvarov, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-03 04:18+0000\n"
-"PO-Revision-Date: 2024-04-20 01:08+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"POT-Creation-Date: 2026-02-12 00:47+0000\n"
+"PO-Revision-Date: 2026-02-12 01:18+0000\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Uzbek (https://app.transifex.com/open-edx/teams/6205/uz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +35,22 @@ msgstr "O‘quvchilarning individual boshqaruv paneli"
 #: settings/common.py:43
 msgid "At-Risk Learners Dashboard"
 msgstr "Xavf ostidagi o‘quvchilar boshqaruv paneli"
+
+#: settings/common.py:114
+msgid "Course"
+msgstr "Kurs"
+
+#: settings/common.py:122
+msgid "Graded Subsection"
+msgstr "Baholangan kichik bo&#39;lim"
+
+#: settings/common.py:130
+msgid "Problem"
+msgstr "Muammo"
+
+#: settings/common.py:138
+msgid "Video"
+msgstr "Video"
 
 #: static/html/superset.html:9
 msgid ""
@@ -64,6 +78,16 @@ msgstr "Kurs topilmadi: '{course_id}';"
 msgid "Invalid course id: '{course_id}'"
 msgstr "Kurs identifikatori noto‘g‘ri: '{course_id}';"
 
+#: views.py:179
+#, python-brace-format
+msgid "Invalid usage id: '{usage_id}'"
+msgstr "Foydalanish identifikatori noto‘g‘ri: '{usage_id}'"
+
+#: views.py:208
+#, python-brace-format
+msgid "No dashboard for block type: '{block_type}'"
+msgstr "Blok turi uchun asboblar paneli yo‘q: '{block_type}'"
+
 #: xblock.py:48 xblock.py:49
 msgid "Display name"
 msgstr "Ko‘rsatiladigan ism"
@@ -88,7 +112,7 @@ msgstr ""
 msgid "Filters"
 msgstr "Filtrlar"
 
-#: xblock.py:66
+#: xblock.py:65
 msgid ""
 "List of SQL filters to apply to the\n"
 "               dashboard. E.g: [\"org='edX'\", \"country in ('us', 'co')\"]\n"

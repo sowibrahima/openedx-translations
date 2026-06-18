@@ -5,17 +5,17 @@
 # EdX Team <info@edx.org>, 2018.
 # 
 # Translators:
-# Sarina Canelake <sarina@tcril.org>, 2023
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Brian Smith, 2025
+# Eden Huthmacher, 2025
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-13 17:55-0500\n"
+"POT-Creation-Date: 2026-01-13 00:33+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/open-edx/teams/6205/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,6 +63,18 @@ msgstr "Esempio {example_number} ha un'opzione di meno per \"{criterion_name}\""
 #: assessment/score_type_constants.py:21 xblock/grade_mixin.py:547
 msgid "Peer"
 msgstr "Peer"
+
+#: assessment/score_type_constants.py:22
+msgid "Self"
+msgstr "Se stesso"
+
+#: assessment/score_type_constants.py:23
+msgid "Staff"
+msgstr "Personale"
+
+#: assessment/score_type_constants.py:25
+msgid "Unknown"
+msgstr "Sconosciuto"
 
 #: data.py:584
 #, python-brace-format
@@ -158,7 +170,7 @@ msgid "No description provided."
 msgstr "Descrizione non disponibile"
 
 #: data.py:1626 templates/legacy/edit/oa_edit_criterion.html:54
-#: xblock/studio_mixin.py:57
+#: xblock/studio_mixin.py:58
 msgid "None"
 msgstr "Nessuno"
 
@@ -322,6 +334,17 @@ msgstr "Le migliori risposte"
 msgid " (Disabled)"
 msgstr "(disattivato)"
 
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:117
+msgid ""
+"Specify the number of top scoring responses to display after the learner has"
+" submitted a response. Valid numbers are 0 to 99. If the number is 0, the "
+"Top Responses section does not appear to learners."
+msgstr ""
+"Specificare il numero di risposte con il punteggio più alto da visualizzare "
+"dopo che lo studente ha inviato una risposta. I numeri validi sono compresi "
+"tra 0 e 99. Se il numero è 0, la sezione Risposte principali non viene "
+"visualizzata dagli studenti."
+
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:122
 msgid "When Teams Enabled is set to true, Top Responses will be disabled."
 msgstr ""
@@ -352,6 +375,35 @@ msgid ""
 msgstr ""
 "Specificare se gli studenti possono visualizzare i criteri di valutazione "
 "mentre lavorano sulla risposta. "
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:167
+msgid "Allow Learner Resubmissions"
+msgstr "Permetti reinvii da parte degli studenti"
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:174
+msgid ""
+"Set to TRUE to allow learners to resubmit ungraded work. Set to FALSE if "
+"resubmissions are not allowed."
+msgstr ""
+"Impostato su TRUE per consentire agli studenti di inviare nuovamente il "
+"lavoro non valutato. Impostato su FALSE se i nuovi invii non sono "
+"consentiti."
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:178
+msgid "Resubmission Grace Period"
+msgstr "Periodo di grazia per la nuova presentazione"
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:187
+msgid ""
+"Specify the maximum period during which resubmissions are allowed. If left "
+"blank, learners will be able to reset their submission as long as it has not"
+" been graded. The grace period starts once the learner has submitted their "
+"response."
+msgstr ""
+"Specificare il periodo massimo durante il quale sono consentiti i nuovi "
+"invii. Se lasciato vuoto, gli studenti potranno reimpostare il proprio "
+"contributo finché non sarà stato valutato. Il periodo di grazia inizia una "
+"volta che lo studente ha inviato la propria risposta."
 
 #: templates/legacy/edit/oa_edit_criterion.html:6
 #: templates/legacy/staff_area/oa_student_info.html:122
@@ -386,14 +438,14 @@ msgstr "Aggiungi opzione"
 msgid "Feedback for This Criterion"
 msgstr "Commento a questa risposta."
 
-#: templates/legacy/edit/oa_edit_criterion.html:55 xblock/studio_mixin.py:56
+#: templates/legacy/edit/oa_edit_criterion.html:55 xblock/studio_mixin.py:57
 msgid "Optional"
 msgstr "Facoltativo"
 
 #: templates/legacy/edit/oa_edit_criterion.html:56
 #: templates/legacy/oa_rubric.html:13
 #: templates/legacy/student_training/student_training.html:93
-#: xblock/studio_mixin.py:55
+#: xblock/studio_mixin.py:56
 msgid "Required"
 msgstr "Richiesto"
 
@@ -512,6 +564,39 @@ msgstr ""
 "Quando è abilitata, gli studenti che hanno ricevuto almeno il 30%% della "
 "valutazione richiesta \\"
 
+#: templates/legacy/edit/oa_edit_peer_assessment.html:53
+msgid ""
+"This feature is being enabled by the course-level setting. It can be found "
+"under the Open Response Assessment Settings card on the Pages & Resources "
+"studio page."
+msgstr ""
+"Questa funzione è abilitata dall&#39;impostazione a livello di corso. Può "
+"essere trovata nella scheda Impostazioni di valutazione della risposta "
+"aperta nella pagina dello studio Pagine e risorse."
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:60
+msgid "Grading strategy for the peer assessment"
+msgstr "Strategia di valutazione per la valutazione tra collega"
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:62
+msgid "Mean"
+msgstr "Media"
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:63
+msgid "Median (default)"
+msgstr "Mediana (predefinita)"
+
+#: templates/legacy/edit/oa_edit_peer_assessment.html:66
+msgid ""
+"Select the preferred grading strategy for the peer assessment. By default, "
+"the median across all peer reviews is used to calculate the final grade. If "
+"you select the mean, the average of all peer reviews will be used."
+msgstr ""
+"Seleziona la strategia di valutazione preferita per la valutazione tra "
+"colleghi. Per impostazione predefinita, per calcolare il voto finale viene "
+"utilizzata la mediana di tutte le revisioni tra colleghi. Se selezioni la "
+"media, verrà utilizzata la media di tutte le revisioni tra colleghi."
+
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:5
 msgid "Peer Assessment Deadlines"
 msgstr "Scadenze valutazione dei colleghi "
@@ -610,6 +695,31 @@ msgstr ""
 "Immettere il testo del feedback che verrà visualizzato dagli studenti prima "
 "di immettere il proprio feedback. Utilizzare questo testo per mostrare un "
 "esempio di valutazione dei colleghi. "
+
+#: templates/legacy/edit/oa_edit_schedule.html:5
+msgid "Deadlines Configuration"
+msgstr "Configurazione delle scadenze"
+
+#: templates/legacy/edit/oa_edit_schedule.html:9
+msgid "Select a deadline configuration option"
+msgstr "Seleziona un'opzione per configurare la scadenza"
+
+#: templates/legacy/edit/oa_edit_schedule.html:14
+msgid "Configure deadlines manually"
+msgstr "Configura manualmente le scadenze"
+
+#: templates/legacy/edit/oa_edit_schedule.html:18
+msgid "Match deadlines to the subsection due date"
+msgstr "Abbina le scadenze alla data di scadenza della sottosezione"
+
+#: templates/legacy/edit/oa_edit_schedule.html:22
+msgid "Match deadlines to the course end date"
+msgstr "Far corrispondere le scadenze alla data di fine del corso"
+
+#: templates/legacy/edit/oa_edit_schedule.html:25
+msgid "Learn more about open response date settings"
+msgstr ""
+"Ulteriori informazioni sulle impostazioni della data di risposta aperta"
 
 #: templates/legacy/edit/oa_edit_schedule.html:35
 msgid "Response Start Date"
@@ -782,6 +892,29 @@ msgstr ""
 "\n"
 "                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
 "              "
+
+#: templates/legacy/grade/oa_assessment_title.html:7
+#, python-format
+msgid ""
+"\n"
+"                      %(assessment_title)s - %(points)s point\n"
+"                  "
+msgid_plural ""
+"\n"
+"                      %(assessment_title)s - %(points)s points\n"
+"                  "
+msgstr[0] ""
+"\n"
+"                      %(assessment_title)s - %(points)s punto\n"
+"                  "
+msgstr[1] ""
+"\n"
+"                      %(assessment_title)s - %(points)s punti\n"
+"                  "
+msgstr[2] ""
+"\n"
+"                      %(assessment_title)s - %(points)s punti\n"
+"                  "
 
 #: templates/legacy/grade/oa_assessment_title.html:24
 #, python-format
@@ -1480,9 +1613,61 @@ msgstr "In corso"
 msgid "Enter your team's response to the prompt."
 msgstr "Inserisci la risposta della tuo team nel campo di testo."
 
+#: templates/legacy/response/oa_response.html:68
+msgid ""
+"\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
+"                      "
+msgstr ""
+"\n"
+"                        \n"
+"Il tuo lavoro verrà salvato automaticamente e potrai tornare a completare la risposta del tuo team in qualsiasi momento prima della data di scadenza\n"
+"\n"
+"                      "
+
+#: templates/legacy/response/oa_response.html:86
+msgid ""
+"After you submit a response on behalf of your team, it cannot be edited."
+msgstr ""
+"Dopo aver inviato una risposta per conto del tuo team, non può essere "
+"modificata."
+
 #: templates/legacy/response/oa_response.html:89
 msgid "Enter your response to the prompt."
 msgstr "Scrivi la tua risposta."
+
+#: templates/legacy/response/oa_response.html:92
+msgid ""
+"Your work will save automatically and you can return to complete your "
+"response at any time before the subsection due date "
+msgstr ""
+"Il tuo lavoro verrà salvato automaticamente e potrai tornare per completare "
+"la risposta in qualsiasi momento prima della data di scadenza della "
+"sottosezione "
+
+#: templates/legacy/response/oa_response.html:94
+msgid ""
+"Your work will save automatically and you can return to complete your "
+"response at any time before the course ends "
+msgstr ""
+"Il tuo lavoro verrà salvato automaticamente e potrai tornare per completare "
+"la risposta in qualsiasi momento prima della fine del corso "
+
+#: templates/legacy/response/oa_response.html:96
+msgid ""
+"Your work will save automatically and you can return to complete your "
+"response at any time before the due date "
+msgstr ""
+"Il tuo lavoro verrà salvato automaticamente e potrai tornare per completare "
+"la risposta in qualsiasi momento prima della data di scadenza "
+
+#: templates/legacy/response/oa_response.html:108
+msgid ""
+"Your work will save automatically and you can return to complete your "
+"response at any time."
+msgstr ""
+"Il tuo lavoro verrà salvato automaticamente e potrai tornare a completare la"
+" tua risposta in qualsiasi momento."
 
 #: templates/legacy/response/oa_response.html:110
 msgid "After you submit your response, you cannot edit it"
@@ -1582,6 +1767,10 @@ msgstr ""
 msgid "We could not save your progress"
 msgstr "Impossibile salvare i tuoi progressi "
 
+#: templates/legacy/response/oa_response.html:232
+msgid "Status of Your Response"
+msgstr "Stato della Tua Risposta"
+
 #: templates/legacy/response/oa_response.html:245
 msgid "File Uploads "
 msgstr "Caricamenti file "
@@ -1616,19 +1805,19 @@ msgstr "Selezionare un file da caricare per questo inoltro. "
 msgid "Supported file types: "
 msgstr "Tipi di file supportati: "
 
-#: templates/legacy/response/oa_response.html:285
+#: templates/legacy/response/oa_response.html:286
 msgid "Upload files"
 msgstr "Carica file "
 
-#: templates/legacy/response/oa_response.html:287
+#: templates/legacy/response/oa_response.html:288
 msgid "Upload file"
 msgstr "Carica file"
 
-#: templates/legacy/response/oa_response.html:304
+#: templates/legacy/response/oa_response.html:305
 msgid "This is a team submission."
 msgstr "Questo è un inoltro del team. "
 
-#: templates/legacy/response/oa_response.html:306
+#: templates/legacy/response/oa_response.html:307
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
@@ -1636,7 +1825,7 @@ msgstr ""
 "Un membro del team deve inoltrare una risposta con i file condivisi del team"
 " ed una risposta di testo per conto dell'intero team. "
 
-#: templates/legacy/response/oa_response.html:308
+#: templates/legacy/response/oa_response.html:309
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
@@ -1644,18 +1833,18 @@ msgstr ""
 "Un membro del team deve inoltrare una risposta con i file condivisi del team"
 " per conto dell'intero team. "
 
-#: templates/legacy/response/oa_response.html:310
+#: templates/legacy/response/oa_response.html:311
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
 msgstr ""
 "Un membro del team deve inoltrare una risposta di testo per conto "
 "dell'intero team. "
 
-#: templates/legacy/response/oa_response.html:312
+#: templates/legacy/response/oa_response.html:313
 msgid "One team member should submit on behalf of the entire team."
 msgstr "Un membro del team deve inoltrare per conto dell'intero team. "
 
-#: templates/legacy/response/oa_response.html:314
+#: templates/legacy/response/oa_response.html:315
 msgid ""
 "\n"
 "                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
@@ -1664,11 +1853,11 @@ msgstr ""
 "\n"
 "Scopri di più sugli incarichi di squadra qui: ( <a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a> )"
 
-#: templates/legacy/response/oa_response.html:322
+#: templates/legacy/response/oa_response.html:323
 msgid "We could not submit your response"
 msgstr "Non abbiamo potuto inoltrare il tuo feedback"
 
-#: templates/legacy/response/oa_response.html:333
+#: templates/legacy/response/oa_response.html:334
 msgid "Submit your response and move to the next step"
 msgstr "Invia la tua risposta e passa alla fase successiva"
 
@@ -1785,6 +1974,14 @@ msgstr ""
 "\n"
 "                        È necessario completare il passo %(start_tag)s auto-valutazione%(end_tag)s .\n"
 "                    "
+
+#: templates/legacy/response/oa_response_submitted.html:63
+msgid "We could not reset your response"
+msgstr "Non possiamo reimpostare la tua risposta"
+
+#: templates/legacy/response/oa_response_submitted.html:69
+msgid "Reset response and submit again"
+msgstr "Reimposta la risposta e inviala nuovamente"
 
 #: templates/legacy/response/oa_response_team_already_submitted.html:15
 msgid "Error"
@@ -2136,6 +2333,29 @@ msgstr ""
 msgid "Final Grade Details"
 msgstr "Dettagli valutazione finale "
 
+#: templates/legacy/staff_area/oa_student_info.html:139
+#, python-format
+msgid ""
+"\n"
+"                                        %(assessment_label)s - %(points)s point\n"
+"                                    "
+msgid_plural ""
+"\n"
+"                                        %(assessment_label)s - %(points)s points\n"
+"                                    "
+msgstr[0] ""
+"\n"
+"                                        %(assessment_label)s - %(points)s punto\n"
+"                                    "
+msgstr[1] ""
+"\n"
+"                                        %(assessment_label)s - %(points)s punti\n"
+"                                    "
+msgstr[2] ""
+"\n"
+"                                        %(assessment_label)s - %(points)s punti\n"
+"                                    "
+
 #: templates/legacy/staff_area/oa_student_info.html:154
 msgid "Feedback Recorded"
 msgstr "Feedback Registrato "
@@ -2393,6 +2613,10 @@ msgid "The Learner Training Step of this assignment could not be loaded."
 msgstr ""
 "Impossibile caricare il passo Addestramento studente di questo compito. "
 
+#: templates/openassessmentblock/base.html:69
+msgid "Loading Open Response Assessment..."
+msgstr "Caricamento della valutazione a risposta aperta..."
+
 #: xblock/grade_mixin.py:78 xblock/leaderboard_mixin.py:61
 msgid "An unexpected error occurred."
 msgstr "Si è verificato un errore imprevisto. "
@@ -2438,6 +2662,10 @@ msgstr "La Tua Propria Valutazione"
 msgid "Your Comments"
 msgstr "Commenti personali "
 
+#: xblock/grade_mixin.py:429
+msgid "Peer Mean Grade"
+msgstr "Voto medio dei colleghi"
+
 #: xblock/grade_mixin.py:430
 msgid "Peer Median Grade"
 msgstr "Valutazione media colleghi "
@@ -2481,6 +2709,14 @@ msgstr ""
 "La valutazione per questo problema è determinata dal punteggio medio delle "
 "Valutazioni dei colleghi. "
 
+#: xblock/grade_mixin.py:715
+msgid ""
+"The grade for this problem is determined by the mean score of your Peer "
+"Assessments."
+msgstr ""
+"Il voto per questo problema è determinato dal punteggio medio delle tue "
+"valutazioni dei colleghi."
+
 #: xblock/openassesment_template_mixin.py:66
 msgid "Peer Assessment Only"
 msgstr "Solo valutazione dei colleghi "
@@ -2500,6 +2736,22 @@ msgstr "Da auto-valutazione a valutazione dei colleghi "
 #: xblock/openassesment_template_mixin.py:70
 msgid "Self Assessment to Staff Assessment"
 msgstr "Da auto-valutazione a valutazione dello staff "
+
+#: xblock/openassessmentblock.py:1365
+msgid "You can't reset your submission."
+msgstr "Non puoi reimpostare il tuo invio."
+
+#: xblock/openassessmentblock.py:1378
+msgid "The user does not exist."
+msgstr "L&#39;utente non esiste."
+
+#: xblock/openassessmentblock.py:1381
+msgid "There is no submission to reset."
+msgstr "Non è presente alcun invio da reimpostare."
+
+#: xblock/openassessmentblock.py:1383
+msgid "Submission reset successfully."
+msgstr "Invio ripristinato correttamente."
 
 #: xblock/rubric_reuse_mixin.py:62
 msgid "You must specify a block id from which to copy a rubric."
@@ -2626,36 +2878,36 @@ msgstr ""
 "problema non venga eliminato per consentire al team di inoltrare nuovamente "
 "una risposta. "
 
-#: xblock/studio_mixin.py:246 xblock/studio_mixin.py:258
+#: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
 msgid "Error updating XBlock configuration"
 msgstr "Errore durante la configurazione di XBlock "
 
-#: xblock/studio_mixin.py:263
+#: xblock/studio_mixin.py:264
 msgid "Error: Text Response and File Upload Response cannot both be disabled"
 msgstr ""
 "Errore: la risposta testuale e la risposta di caricamento file non possono "
 "essere entrambe disabilitate "
 
-#: xblock/studio_mixin.py:267
+#: xblock/studio_mixin.py:268
 msgid ""
 "Error: When Text Response is disabled, File Upload Response must be Required"
 msgstr ""
 "Errore: quando la risposta testuale è disabilitata, la risposta di "
 "caricamento file deve essere richiesta "
 
-#: xblock/studio_mixin.py:270
+#: xblock/studio_mixin.py:271
 msgid ""
 "Error: When File Upload Response is disabled, Text Response must be Required"
 msgstr ""
 "Errore: quando la risposta di caricamento file è disabilitata, la risposta "
 "testuale deve essere richiesta "
 
-#: xblock/studio_mixin.py:294
+#: xblock/studio_mixin.py:295
 #, python-brace-format
 msgid "Validation error: {error}"
 msgstr "Errore di convalida: {error}"
 
-#: xblock/studio_mixin.py:328
+#: xblock/studio_mixin.py:329
 msgid "Successfully updated OpenAssessment XBlock"
 msgstr "XBlock OpenAssessment aggiornato correttamente "
 
@@ -2771,9 +3023,21 @@ msgstr ""
 "Il tipo di valutazione non può essere modficata in seguito alla "
 "pubblicazione del problema"
 
+#: xblock/utils/validation.py:176
+msgid ""
+"The grading strategy for peer assessments cannot be changed after the "
+"problem has been released."
+msgstr ""
+"La strategia di valutazione per la valutazione tra colleghi non può essere "
+"cambiata dopo che il problema è stato rilasciato."
+
 #: xblock/utils/validation.py:200
 msgid "This rubric definition is not valid."
 msgstr "Questa definizione di criteri di valutazione non è valida. "
+
+#: xblock/utils/validation.py:203
+msgid "You must provide at least one prompt."
+msgstr "È necessario fornire almeno un prompt."
 
 #: xblock/utils/validation.py:209
 #, python-brace-format

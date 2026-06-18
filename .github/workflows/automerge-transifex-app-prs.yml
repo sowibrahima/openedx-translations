@@ -6,17 +6,21 @@ name: Automerge Transifex GH app PRs
 on:
   - pull_request
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   automerge-transifex-app-pr:
     runs-on: ubuntu-latest
     # Merges the pull request
     steps:
       - name: clone repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           fetch-depth: 0
       - name: merge pull request
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08 # v3.0.2
         id: mergePR
         env:
           # secrets can't be used in job conditionals, so we set them to env here
@@ -27,9 +31,9 @@ jobs:
           PR_NUMBER: ${{ github.event.number }}
         if: "${{ github.actor == env.TRANSIFEX_APP_ACTOR_NAME && github.actor_id == env.TRANSIFEX_APP_ACTOR_ID }}"
         with:
-          retry_wait_seconds: 180
-          max_attempts: 5
-          timeout_minutes: 15
+          retry_wait_seconds: 10
+          max_attempts: 2
+          timeout_minutes: 1
           retry_on: error
           command: |
             # Attempt to merge the PR

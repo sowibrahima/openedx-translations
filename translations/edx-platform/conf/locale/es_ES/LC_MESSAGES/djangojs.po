@@ -1,27 +1,28 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Brian Smith, 2025
+# Eden Huthmacher, 2025
+# Gerardo Núñez, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-23 00:45+0000\n"
+"POT-Creation-Date: 2026-01-23 00:39+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/open-edx/teams/6205/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,10 +56,8 @@ msgstr "Error al guardar el componente de respuesta abierta"
 #: cms/static/js/views/asset.js:85 cms/static/js/views/container.js:48
 #: cms/static/js/views/course_info_handout.js:58
 #: cms/static/js/views/course_info_update.js:170
-#: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:41
 #: cms/static/js/views/modals/edit_xblock.js:216
-#: cms/static/js/views/tabs.js:86 cms/static/js/views/tabs.js:118
 #: cms/static/js/views/utils/xblock_utils.js:287
 #: cms/static/js/views/utils/xblock_utils.js:302
 #: lms/static/js/ccx/schedule.js:256 lms/static/js/views/fields.js:72
@@ -130,7 +129,6 @@ msgstr "Esta acción es irreversible."
 #: cms/static/js/certificates/views/signatory_editor.js:140
 #: cms/static/js/views/asset.js:57 cms/static/js/views/list_item.js:60
 #: cms/static/js/views/manage_users_and_roles.js:32
-#: cms/static/js/views/show_textbook.js:39
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
 #: cms/templates/js/certificate-details.underscore:66
 #: cms/templates/js/certificate-details.underscore:67
@@ -152,7 +150,6 @@ msgstr "Esta acción es irreversible."
 #: cms/templates/js/partition-group-details.underscore:31
 #: cms/templates/js/partition-group-details.underscore:32
 #: cms/templates/js/partition-group-details.underscore:36
-#: cms/templates/js/show-textbook.underscore:43
 #: cms/templates/js/signatory-editor.underscore:5
 #: cms/templates/js/video-transcripts.underscore:47
 #: cms/templates/js/xblock-outline.underscore:31
@@ -163,8 +160,7 @@ msgstr "Eliminar"
 
 #: cms/static/js/certificates/views/signatory_editor.js:143
 #: cms/static/js/views/course_info_update.js:249
-#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
-#: cms/static/js/views/tabs.js:174
+#: cms/static/js/views/list_item.js:63
 #: cms/static/js/views/utils/xblock_utils.js:216
 msgid "Deleting"
 msgstr "Borrando"
@@ -183,7 +179,6 @@ msgstr "Borrando"
 #: cms/static/js/views/modals/course_outline_modals.js:260
 #: cms/static/js/views/modals/preview_v2_library_changes.js:37
 #: cms/static/js/views/modals/select_v2_library_content.js:60
-#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:188
 #: cms/static/js/views/validation.js:127
 #: common/static/common/js/components/utils/view_utils.js:68
 #: lms/static/js/Markdown.Editor.js:1092
@@ -196,7 +191,6 @@ msgstr "Borrando"
 #: cms/templates/js/content-group-editor.underscore:32
 #: cms/templates/js/course_info_handouts.underscore:20
 #: cms/templates/js/course_info_update.underscore:15
-#: cms/templates/js/edit-textbook.underscore:26
 #: cms/templates/js/group-configuration-editor.underscore:46
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
@@ -281,11 +275,6 @@ msgstr "Ocultar opciones obsoletas"
 msgid "Show Deprecated Settings"
 msgstr "Mostrar opciones obsoletas"
 
-#: cms/static/js/factories/textbooks.js:20
-#: cms/static/js/views/pages/group_configurations.js:84
-msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr "No has guardado los cambios. ¿Seguro que quieres abandonar la página?"
-
 #: cms/static/js/features/import/factories/import.js:22
 msgid "There was an error during the upload process."
 msgstr "Ha ocurrido un error durante el proceso de carga."
@@ -360,18 +349,6 @@ msgstr "Carga completada"
 #: cms/static/js/models/active_video_upload.js:16
 msgid "Upload failed"
 msgstr "La subida ha fallado"
-
-#: cms/static/js/models/chapter.js:35
-msgid "Chapter name and asset_path are both required"
-msgstr "El nombre del capítulo y la dirección del recurso son obligatorios"
-
-#: cms/static/js/models/chapter.js:40
-msgid "Chapter name is required"
-msgstr "El nombre del capítulo es obligatorio"
-
-#: cms/static/js/models/chapter.js:45
-msgid "asset_path is required"
-msgstr "La dirección del recurso es obligatoria"
 
 #: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
 msgid "You must specify a name"
@@ -498,18 +475,6 @@ msgstr ""
 "No se puede establecer la calificación de aprobado en menos del "
 "%(minimum_grade_cutoff)s%."
 
-#: cms/static/js/models/textbook.js:62
-msgid "Textbook name is required"
-msgstr "El nombre del libro de texto es obligatorio"
-
-#: cms/static/js/models/textbook.js:68
-msgid "Please add at least one chapter"
-msgstr "Por favor, añade al menos un capítulo"
-
-#: cms/static/js/models/textbook.js:81
-msgid "All chapters must have a name and asset"
-msgstr "Todos los capítulos deben tener un nombre y un recurso"
-
 #: cms/static/js/models/uploads.js:17
 msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
@@ -532,6 +497,10 @@ msgstr "Esta unidad tiene problemas de validación."
 #: cms/static/js/models/xblock_validation.js:25
 msgid "This component has validation issues."
 msgstr "Este componente tiene problemas de validación."
+
+#: cms/static/js/utils/copy_to_clipboard.js:24
+msgid "Copied"
+msgstr "Copiado"
 
 #: cms/static/js/views/active_video_upload.js:42
 #: cms/static/js/views/assets.js:213
@@ -679,9 +648,15 @@ msgstr "Subir nuevo archivo"
 msgid "Load Another File"
 msgstr "Cargar otro archivo"
 
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/components/add_library_content.js:23
+#: cms/static/js/views/modals/select_v2_library_content.js:18
+msgid "Add library content"
+msgstr "Añadir contenido a la biblioteca"
+
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:647
+#: cms/static/js/views/pages/container.js:655
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Añadiendo"
@@ -700,8 +675,8 @@ msgstr "¿Seguro que quieres borrar esta actualización?"
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:419
-#: cms/static/js/views/pages/container.js:431 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:426
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -711,37 +686,41 @@ msgid "OK"
 msgstr "De acuerdo"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:774
+#: cms/static/js/views/pages/container.js:782
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Copiando"
 
+#: cms/static/js/views/course_outline.js:331
+msgid "Copy of \"{componentDisplayName}\""
+msgstr "Copia de \"{componentDisplayName}\""
+
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:390
+#: cms/static/js/views/pages/container.js:397
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "Pegando"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:414
+#: cms/static/js/views/pages/container.js:421
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "Se produjeron algunos errores."
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:416
+#: cms/static/js/views/pages/container.js:423
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "Los siguientes archivos obligatorios no se pudieron agregar al curso:"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:424
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "Es posible que deba actualizar un archivo (s) manualmente"
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:427
+#: cms/static/js/views/pages/container.js:434
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
@@ -751,25 +730,25 @@ msgstr ""
 "versión utilizada por el componente que pegó:"
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:436
+#: cms/static/js/views/pages/container.js:443
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "Nuevos archivos agregados a Archivos y cargas."
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:438
+#: cms/static/js/views/pages/container.js:445
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "Los siguientes archivos requeridos fueron importados a este curso:"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:443
+#: cms/static/js/views/pages/container.js:450
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "Ver archivos"
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:452
+#: cms/static/js/views/pages/container.js:459
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "Descartar"
@@ -844,14 +823,6 @@ msgstr "La transcripción automática está deshabilitada."
 msgid "{selectedProvider} credentials saved"
 msgstr "Credenciales de {selectedProvider} guardadas"
 
-#: cms/static/js/views/edit_chapter.js:62
-msgid "Upload a new PDF to “<%- name %>”"
-msgstr "Subir un nuevo PDF a “<%- name %>”"
-
-#: cms/static/js/views/edit_chapter.js:64
-msgid "Please select a PDF file to upload."
-msgstr "Por favor, selecciona un archivo PDF para subir."
-
 #: cms/static/js/views/export.js:312
 msgid "There has been an error while exporting."
 msgstr "Ha ocurrido un error al exportar."
@@ -912,10 +883,31 @@ msgstr "El mensaje de error en bruto es:"
 msgid "There has been an error with your export."
 msgstr "Ha ocurrido un error con tu exportación."
 
+#. Translators: 'count' is number of groups that the group
+#. configuration contains.
+#: cms/static/js/views/group_configuration_details.js:71
+msgid "Contains {count} group"
+msgid_plural "Contains {count} groups"
+msgstr[0] "Contiene el grupo {count}"
+msgstr[1] "Contiene {count} grupos"
+msgstr[2] "Contiene {count} grupos"
+
 #: cms/static/js/views/group_configuration_details.js:82
 #: cms/static/js/views/partition_group_details.js:66
 msgid "Not in Use"
 msgstr "Sin usar"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#: cms/static/js/views/group_configuration_details.js:90
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] "Usado en la ubicación {count}"
+msgstr[1] "Utilizado en {count} ubicaciones"
+msgstr[2] "Utilizado en {count} ubicaciones"
 
 #. Translators: this refers to a collection of groups.
 #: cms/static/js/views/group_configuration_item.js:26
@@ -1105,7 +1097,6 @@ msgstr "Subir archivo"
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/course_info_handouts.underscore:19
-#: cms/templates/js/edit-textbook.underscore:25
 #: cms/templates/js/group-configuration-editor.underscore:45
 #: cms/templates/js/section-name-edit.underscore:3
 #: cms/templates/js/signatory-actions.underscore:3
@@ -1152,6 +1143,10 @@ msgstr "Habilitar"
 msgid "Not yet"
 msgstr "Aún no"
 
+#: cms/static/js/views/modals/course_outline_modals.js:338
+msgid "Share {display_name} subsection"
+msgstr "Compartir subsección {display_name}"
+
 #: cms/static/js/views/modals/course_outline_modals.js:973
 msgid "All Learners and Staff"
 msgstr "Todos los estudiantes y equipo del curso"
@@ -1172,6 +1167,14 @@ msgstr "Básico"
 #: cms/static/js/views/modals/course_outline_modals.js:1402
 msgid "Visibility"
 msgstr "Visibilidad"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1487
+msgid "Full Page"
+msgstr "Página completa"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1492
+msgid "Embed Link"
+msgstr "Incrustar enlace"
 
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js:23
@@ -1212,12 +1215,42 @@ msgstr "Elije una ubicación a la que mover tu componente"
 msgid "Move: {displayName}"
 msgstr "Mover: {displayName}"
 
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/preview_v2_library_changes.js:23
+msgid "Preview changes to: {title}"
+msgstr "Previsualizar cambios a: {title}"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:35
+msgid "Accept changes"
+msgstr "Aceptar cambios"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:36
+msgid "Ignore changes"
+msgstr "Ignorar cambios"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:99
+msgid "Ignore these changes?"
+msgstr "¿Ignorar estos cambios?"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:100
+msgid ""
+"Would you like to permanently ignore this updated version? If so, you won't "
+"be able to update this until a newer version is published (in the library)."
+msgstr ""
+"¿Quieres ignorar permanentemente esta versión actualizado? Si es así, no "
+"podrás actualizarla hasta que se publique una versión más reciente (en la "
+"biblioteca)."
+
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/preview_v2_library_changes.js:101
 #: xmodule/js/src/html/edit.js:695
 msgid "Ignore"
 msgstr "Ignorar"
+
+#: cms/static/js/views/modals/select_v2_library_content.js:59
+msgid "Add selected components"
+msgstr "Agregar componentes seleccionados"
 
 #: cms/static/js/views/modals/validation_error_modal.js:16
 msgid "Validation Error While Saving"
@@ -1268,7 +1301,7 @@ msgstr "Fecha de creación"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:726
+#: cms/static/js/views/pages/container.js:734
 msgid "Editing access for: {title}"
 msgstr "Editando acceso para: {title}"
 
@@ -1334,6 +1367,10 @@ msgstr "Índice del curso"
 #: cms/static/js/views/pages/course_outline.js:256
 msgid "There were errors reindexing course."
 msgstr "Se produjeron errores reindexando el curso."
+
+#: cms/static/js/views/pages/group_configurations.js:84
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "No has guardado los cambios. ¿Seguro que quieres abandonar la página?"
 
 #: cms/static/js/views/pages/paged_container.js:46
 msgid "Hide Previews"
@@ -1483,28 +1520,6 @@ msgstr "Sube la imagen promocional del curso."
 #: cms/static/js/views/settings/main.js:469
 msgid "Upload your video thumbnail image."
 msgstr "Sube la imagen en miniatura del vídeo."
-
-#: cms/static/js/views/show_textbook.js:33
-msgid "Delete “<%- name %>”?"
-msgstr "¿Eliminar “<%- name %>”?"
-
-#: cms/static/js/views/show_textbook.js:36
-msgid ""
-"Deleting a textbook cannot be undone and once deleted any reference to it in"
-" your courseware's navigation will also be removed."
-msgstr ""
-"Eliminar un libro de texto es irreversible. Una vez borrado, desparacerán "
-"también las referencias al mismo en la barra de navegación del contenido del"
-" curso."
-
-#: cms/static/js/views/tabs.js:160
-msgid "Delete Page Confirmation"
-msgstr "Confirmación del borrado de página"
-
-#: cms/static/js/views/tabs.js:161
-msgid ""
-"Are you sure you want to delete this page? This action cannot be undone."
-msgstr "¿Seguro que quieres borrar esta página? Esta acción es irreversible."
 
 #: cms/static/js/views/uploads.js:30
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
@@ -1969,6 +1984,20 @@ msgstr "Algunas imágenes en esta publicación se han omitido."
 msgid "image omitted"
 msgstr "Imagen omitida"
 
+#: common/static/common/js/discussion/views/discussion_content_view.js:285
+msgid "there is currently {numVotes} vote"
+msgid_plural "there are currently {numVotes} votes"
+msgstr[0] "actualmente hay {numVotes} votos"
+msgstr[1] "actualmente hay {numVotes} votos"
+msgstr[2] "actualmente hay {numVotes} votos"
+
+#: common/static/common/js/discussion/views/discussion_content_view.js:291
+msgid "{numVotes} Vote"
+msgid_plural "{numVotes} Votes"
+msgstr[0] "{numVotes} votos"
+msgstr[1] "{numVotes} Votos"
+msgstr[2] "{numVotes} Votos"
+
 #: common/static/common/js/discussion/views/discussion_content_view.js:359
 msgid ""
 "You could not be subscribed to this post. Refresh the page and try again."
@@ -2124,9 +2153,30 @@ msgstr ""
 "No se pudieron cargar respuestas adicionales. Actualice la página y vuelva a"
 " intentarlo."
 
+#: common/static/common/js/discussion/views/discussion_thread_view.js:251
+msgid "{numResponses} other response"
+msgid_plural "{numResponses} other responses"
+msgstr[0] "{numResponses} otra respuesta"
+msgstr[1] "{numResponses} otras respuestas"
+msgstr[2] "{numResponses} otras respuestas"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:258
+msgid "{numResponses} response"
+msgid_plural "{numResponses} responses"
+msgstr[0] "{numResponses} respuesta"
+msgstr[1] "{numResponses} respuestas"
+msgstr[2] "{numResponses} respuestas"
+
 #: common/static/common/js/discussion/views/discussion_thread_view.js:270
 msgid "Showing all responses"
 msgstr "Mostrando todas las respuestas"
+
+#: common/static/common/js/discussion/views/discussion_thread_view.js:274
+msgid "Showing first response"
+msgid_plural "Showing first {numResponses} responses"
+msgstr[0] "Muestra la primera respuesta"
+msgstr[1] "Mostrando las primeras {numResponses} respuestas"
+msgstr[2] "Mostrando las primeras {numResponses} respuestas"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:287
 msgid "Load all responses"
@@ -2222,21 +2272,61 @@ msgstr "menos de un minuto"
 msgid "about a minute"
 msgstr "apróximadamente un minuto"
 
+#: common/static/js/src/jquery.timeago.locale.js:8
+#, javascript-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
+msgstr[2] "%d minutos"
+
 #: common/static/js/src/jquery.timeago.locale.js:9
 msgid "about an hour"
 msgstr "apróximadamente una hora"
+
+#: common/static/js/src/jquery.timeago.locale.js:10
+#, javascript-format
+msgid "about %d hour"
+msgid_plural "about %d hours"
+msgstr[0] "aproximadamente %d horas"
+msgstr[1] "aproximadamente %d horas"
+msgstr[2] "aproximadamente %d horas"
 
 #: common/static/js/src/jquery.timeago.locale.js:11
 msgid "a day"
 msgstr "un día"
 
+#: common/static/js/src/jquery.timeago.locale.js:12
+#, javascript-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d día"
+msgstr[1] "%d días"
+msgstr[2] "%d días"
+
 #: common/static/js/src/jquery.timeago.locale.js:13
 msgid "about a month"
 msgstr "apróximadamente un mes"
 
+#: common/static/js/src/jquery.timeago.locale.js:14
+#, javascript-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d meses"
+msgstr[1] "%d meses"
+msgstr[2] "%d meses"
+
 #: common/static/js/src/jquery.timeago.locale.js:15
 msgid "about a year"
 msgstr "apróximadamente un año"
+
+#: common/static/js/src/jquery.timeago.locale.js:16
+#, javascript-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d año"
+msgstr[1] "%d años"
+msgstr[2] "%d años"
 
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:39
 msgid "Select a section or problem"
@@ -2683,6 +2773,13 @@ msgstr "Este equipo está completo."
 msgid "Cannot join instructor managed team"
 msgstr "No se puede unir al equipo administrado por el instructor"
 
+#: lms/djangoapps/teams/static/teams/js/views/team_utils.js:35
+msgid " Member"
+msgid_plural " Members"
+msgstr[0] " Miembro"
+msgstr[1] " Miembros"
+msgstr[2] " Miembros"
+
 #: lms/djangoapps/teams/static/teams/js/views/teams.js:16
 msgid "All teams"
 msgstr "Todos los equipos"
@@ -2808,6 +2905,13 @@ msgstr "No se pudo encontrar el tema \"{topic}\"."
 msgid "The team \"{team}\" could not be found."
 msgstr "No se pudo encontrar el equipo \"{team}\"."
 
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:28
+msgid "{team_count} Team"
+msgid_plural "{team_count} Teams"
+msgstr[0] "{team_count} Equipo"
+msgstr[1] "{team_count} Equipos"
+msgstr[2] "{team_count} Equipos"
+
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js:50
 msgid "Topic"
 msgstr "Tema"
@@ -2916,6 +3020,14 @@ msgstr "URL"
 #: lms/static/js/Markdown.Editor.js:50
 msgid "Please provide a valid URL."
 msgstr "Por favor, proporcione una URL válida."
+
+#. Translators: 'errorCount' is the number of errors found in the form.
+#: lms/static/js/Markdown.Editor.js:1062
+msgid "%(errorCount)s error found in form."
+msgid_plural "%(errorCount)s errors found in form."
+msgstr[0] "%(errorCount)s errores encontrados en el formulario."
+msgstr[1] "%(errorCount)s errores encontrados en el formulario."
+msgstr[2] "%(errorCount)s errores encontrados en el formulario."
 
 #: lms/static/js/Markdown.Editor.js:1451
 msgid "Bold (Ctrl+B)"
@@ -3331,6 +3443,14 @@ msgstr ""
 "No se puede determinar si debemos darle un reembolso debido a un error del "
 "sistema. Por favor, inténtelo de nuevo más tarde."
 
+#: lms/static/js/discovery/views/search_form.js:47
+#, javascript-format
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "Ver el curso %s"
+msgstr[1] "Ver %s cursos"
+msgstr[2] "Ver %s cursos"
+
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
 msgid "We couldn't find any results for \"%s\"."
@@ -3521,9 +3641,50 @@ msgstr "Error al agregar alumnos."
 msgid "Enter a username or email."
 msgstr "Escribe un nombre de usuario o un correo electrónico."
 
+#: lms/static/js/groups/views/cohort_editor.js:175
+msgid "{numUsersAdded} learner has been added to this cohort. "
+msgid_plural "{numUsersAdded} learners have been added to this cohort. "
+msgstr[0] "El estudiante {numUsersAdded} se ha agregado a esta cohorte. "
+msgstr[1] "{numUsersAdded} estudiantes se han agregado a esta cohorte. "
+msgstr[2] "{numUsersAdded} estudiantes se han agregado a esta cohorte. "
+
+#: lms/static/js/groups/views/cohort_editor.js:195
+msgid "{numMoved} learner was moved from {prevCohort}"
+msgid_plural "{numMoved} learners were moved from {prevCohort}"
+msgstr[0] "{numMoved} estudiante fue movida de {prevCohort}"
+msgstr[1] "{numMoved} estudiantes se han movido de {prevCohort}"
+msgstr[2] "{numMoved} estudiantes se han movido de {prevCohort}"
+
+#: lms/static/js/groups/views/cohort_editor.js:205
+msgid "{numPresent} learner was already in the cohort"
+msgid_plural "{numPresent} learners were already in the cohort"
+msgstr[0] "{numPresent} estudiante ya estaba en la cohorte"
+msgstr[1] "{numPresent} estudiantes ya estaban en la cohorte"
+msgstr[2] "{numPresent} estudiantes ya estaban en la cohorte"
+
 #: lms/static/js/groups/views/cohort_editor.js:231
 msgid "{email}"
 msgstr "{email}"
+
+#: lms/static/js/groups/views/cohort_editor.js:237
+msgid ""
+"{numPreassigned} learner was pre-assigned for this cohort. This learner will"
+" automatically be added to the cohort when they enroll in the course."
+msgid_plural ""
+"{numPreassigned} learners were pre-assigned for this cohort. These learners "
+"will automatically be added to the cohort when they enroll in the course."
+msgstr[0] ""
+"El estudiante {numPreassigned} fue preasignado para esta cohorte. Este "
+"estudiante se agregará automáticamente a la cohorte cuando se inscriba en el"
+" curso."
+msgstr[1] ""
+"{numPreassigned} estudiantes fueron asignados previamente a esta cohorte. "
+"Estos estudiantes se agregarán automáticamente a la cohorte cuando se "
+"inscriban en el curso."
+msgstr[2] ""
+"{numPreassigned} estudiantes fueron asignados previamente a esta cohorte. "
+"Estos estudiantes se agregarán automáticamente a la cohorte cuando se "
+"inscriban en el curso."
 
 #: lms/static/js/groups/views/cohort_editor.js:276
 msgid "Unknown username: {user}"
@@ -3536,6 +3697,13 @@ msgstr "Dirección de email no válida {email}"
 #: lms/static/js/groups/views/cohort_editor.js:284
 msgid "Cohort assignment not allowed: {email_or_username}"
 msgstr "Asignación de cohorte no permitida: {email_or_username}"
+
+#: lms/static/js/groups/views/cohort_editor.js:291
+msgid "There was an error when trying to add learners:"
+msgid_plural "{numErrors} learners could not be added to this cohort:"
+msgstr[0] "Se produjo un error al intentar agregar estudiantes:"
+msgstr[1] "{numErrors} estudiantes no se han podido incluir en esta cohorte:"
+msgstr[2] "{numErrors} estudiantes no se han podido incluir en esta cohorte:"
 
 #: lms/static/js/groups/views/cohort_editor.js:306
 msgid "View all errors"
@@ -3684,6 +3852,14 @@ msgstr ""
 "Error al generar la lista de alumnos que pueden matricularse. Intente de "
 "nuevo."
 
+#: lms/static/js/instructor_dashboard/data_download.js:327
+msgid ""
+"Error generating list of inactive students who are enrolled in a course. "
+"Please try again."
+msgstr ""
+"Error al generar la lista de estudiantes inactivos inscritos en un curso. "
+"Inténtalo de nuevo."
+
 #: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
 msgstr "Error al recuperar la configuración de calificaciones."
@@ -3822,6 +3998,12 @@ msgstr "Todas las cuentas se crearon satisfactoriamente."
 msgid "Error adding/removing users as beta testers."
 msgstr "Fallo al añadir/eliminar usuarios como probadores de beta"
 
+#. Translators: For cases when the input field is empty;
+#: lms/static/js/instructor_dashboard/membership.js:518
+#: lms/static/js/instructor_dashboard/membership.js:728
+msgid "This field must not be blank"
+msgstr "Este campo no debe quedar en blanco"
+
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
 msgid "These users were successfully added as beta testers:"
@@ -3886,9 +4068,27 @@ msgid "Successfully enrolled the following users:"
 msgstr "Alumnos inscritos correctamente:"
 
 #. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:792
+msgid ""
+"Email was sent to the following users. They will be allowed to enroll once "
+"they register:"
+msgstr ""
+"Se envió un correo electrónico a los siguientes usuarios. Podrán inscribirse"
+" una vez que se registren:"
+
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
 msgid "These users will be allowed to enroll once they register:"
 msgstr "Estos alumnos serán inscritos una vez se hayan registrado:"
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:816
+msgid ""
+"Email was sent to the following users. They will be enrolled once they "
+"register:"
+msgstr ""
+"Se envió un correo electrónico a los siguientes usuarios. Se les inscribirá "
+"una vez que se registren:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4576,6 +4776,17 @@ msgstr "Restablecer tu Contraseña"
 msgid "Error: "
 msgstr "Error: "
 
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:41
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:97
+msgid ""
+"You may also lose access to verified certificates and other program "
+"credentials. You can make a copy of these for your records before proceeding"
+" with deletion."
+msgstr ""
+"Es posible que pierdas el acceso a certificados verificados y a otras "
+"credenciales del programa. Puedes hacer una copia de estos registros antes "
+"de proceder con el borrado."
+
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:46
 msgid ""
 "Before proceeding, please {htmlStart}unlink all social media "
@@ -4716,6 +4927,14 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "Condiciones del servicio y código de honor"
 
+#: lms/static/js/student_account/views/FinishAuthView.js:71
+msgid "query param next is provide"
+msgstr "El siguiente parámetro de consulta es para proporcionar"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:73
+msgid "query param next is internal"
+msgstr "El siguiente parámetro de consulta es interno"
+
 #: lms/static/js/student_account/views/FinishAuthView.js:111
 msgid "Saving your email preference"
 msgstr "Guardando tus preferencias de correo electrónico"
@@ -4724,9 +4943,21 @@ msgstr "Guardando tus preferencias de correo electrónico"
 msgid "Enrolling you in the selected course"
 msgstr "Inscribiéndote en el curso seleccionado"
 
+#: lms/static/js/student_account/views/FinishAuthView.js:140
+msgid "course mode param is not provided"
+msgstr "El parámetro del modo del curso no está proporcionado."
+
+#: lms/static/js/student_account/views/FinishAuthView.js:148
+msgid "course mode param is provided"
+msgstr "El parámetro del modo de curso está proporcionado."
+
 #: lms/static/js/student_account/views/FinishAuthView.js:163
 msgid "Adding the selected course to your cart"
 msgstr "Añadiendo el curso seleccionado a tu carrito"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:167
+msgid " redirect the user to the next page"
+msgstr " Redirige al usuario a la página siguiente."
 
 #: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
@@ -5058,19 +5289,270 @@ msgid "Bookmark this page"
 msgstr "Marcar esta página"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
-#: xmodule/js/src/sequence/display.js:445
+#: xmodule/js/src/sequence/display.js:521
 msgid "Bookmarked"
 msgstr "Marcado como favorito"
 
-#: xmodule/assets/library_content/public/js/library_content_edit.js:16
-#: xmodule/js/public/js/library_content_edit.js:16
+#: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
+msgid "{total_results} result found for \"{search_term}\""
+msgid_plural "{total_results} results found for \"{search_term}\""
+msgstr[0] ""
+"{total_results} resultado encontrado para &quot;{search_term}&quot;"
+msgstr[1] "Se encontraron {total_results} resultados para \"{search_term}\""
+msgstr[2] "Se encontraron {total_results} resultados para \"{search_term}\""
+
+#: xmodule/assets/library_content/public/js/library_content_edit.js:44
+#: xmodule/js/public/js/library_content_edit.js:44
 msgid "Updating with latest library content"
 msgstr "Actualizando con el último contenido de la biblioteca."
+
+#: xmodule/assets/library_content/public/js/library_content_edit.js:64
+#: xmodule/js/public/js/library_content_edit.js:64
+msgid "Migrating to Problem Bank"
+msgstr "Migrando al Banco de Problemas"
 
 #: xmodule/assets/split_test/public/js/split_test_author_view.js:12
 #: xmodule/js/public/js/split_test_author_view.js:12
 msgid "Creating missing groups"
 msgstr "Creando grupos perdidos"
+
+#: xmodule/assets/video/public/js/00_i18n.js:10
+#: xmodule/assets/video/public/js/09_play_pause_control.js:31
+#: xmodule/assets/video/public/js/09_play_pause_control.js:89
+#: xmodule/assets/video/public/js/09_play_skip_control.js:28
+msgid "Play"
+msgstr "Reproducir"
+
+#: xmodule/assets/video/public/js/00_i18n.js:11
+#: xmodule/assets/video/public/js/09_play_pause_control.js:79
+msgid "Pause"
+msgstr "Pausa"
+
+#: xmodule/assets/video/public/js/00_i18n.js:12
+msgid "Mute"
+msgstr "Silenciar"
+
+#: xmodule/assets/video/public/js/00_i18n.js:13
+msgid "Unmute"
+msgstr "Activar sonido"
+
+#: xmodule/assets/video/public/js/00_i18n.js:14
+#: xmodule/assets/video/public/js/04_video_full_screen.js:227
+msgid "Exit full browser"
+msgstr "Salir de pantalla completa"
+
+#: xmodule/assets/video/public/js/00_i18n.js:15
+#: xmodule/assets/video/public/js/04_video_full_screen.js:5
+#: xmodule/assets/video/public/js/04_video_full_screen.js:7
+#: xmodule/assets/video/public/js/04_video_full_screen.js:199
+msgid "Fill browser"
+msgstr "al navegador"
+
+#: xmodule/assets/video/public/js/00_i18n.js:16
+#: xmodule/assets/video/public/js/08_video_speed_control.js:43
+msgid "Speed"
+msgstr "Velocidad"
+
+#: xmodule/assets/video/public/js/00_i18n.js:17
+#: xmodule/assets/video/public/js/08_video_auto_advance_control.js:38
+#: xmodule/js/src/video/08_video_auto_advance_control.js:40
+msgid "Auto-advance"
+msgstr "Avance automático"
+
+#: xmodule/assets/video/public/js/00_i18n.js:18
+#: xmodule/assets/video/public/js/07_video_volume_control.js:70
+msgid "Volume"
+msgstr "Volumen"
+
+#. Translators: Volume level equals 0%.
+#: xmodule/assets/video/public/js/00_i18n.js:20
+msgid "Muted"
+msgstr "Silenciado"
+
+#. Translators: Volume level in range ]0,20]%
+#: xmodule/assets/video/public/js/00_i18n.js:22
+msgid "Very low"
+msgstr "Muy bajo"
+
+#. Translators: Volume level in range ]20,40]%
+#: xmodule/assets/video/public/js/00_i18n.js:24
+msgid "Low"
+msgstr "Bajo"
+
+#. Translators: Volume level in range ]40,60]%
+#: xmodule/assets/video/public/js/00_i18n.js:26
+msgid "Average"
+msgstr "Media"
+
+#. Translators: Volume level in range ]60,80]%
+#: xmodule/assets/video/public/js/00_i18n.js:28
+msgid "Loud"
+msgstr "Alto"
+
+#. Translators: Volume level in range ]80,99]%
+#: xmodule/assets/video/public/js/00_i18n.js:30
+msgid "Very loud"
+msgstr "Muy alto"
+
+#. Translators: Volume level equals 100%.
+#: xmodule/assets/video/public/js/00_i18n.js:32
+msgid "Maximum"
+msgstr "Máximo"
+
+#: xmodule/assets/video/public/js/02_html5_video.js:82
+msgid "This browser cannot play .mp4, .ogg, or .webm files."
+msgstr "Este navegador no puede reproducir archivos .mp4, .ogg o .webm."
+
+#: xmodule/assets/video/public/js/02_html5_video.js:83
+msgid "Try using a different browser, such as Google Chrome."
+msgstr "Prueba a usar un navegador diferente, como Google Chrome."
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:22
+msgid "High Definition"
+msgstr "Alta Definición"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:23
+#: xmodule/assets/video/public/js/05_video_quality_control.js:156
+msgid "off"
+msgstr "Apagado"
+
+#: xmodule/assets/video/public/js/05_video_quality_control.js:150
+msgid "on"
+msgstr "Encendido"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:11
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:102
+msgid "Video position. Press space to toggle playback"
+msgstr "Posición del video. Pulsa espacio para alternar la reproducción"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:299
+msgid "Video ended"
+msgstr "Vídeo finalizado"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:303
+msgid "Video position"
+msgstr "Posición del vídeo"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:319
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s horas"
+msgstr[1] "%(value)s horas"
+msgstr[2] "%(value)s horas"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:322
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s minuto"
+msgstr[1] "%(value)s minutos"
+msgstr[2] "%(value)s minutos"
+
+#: xmodule/assets/video/public/js/06_video_progress_slider.js:325
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s segundo"
+msgstr[1] "%(value)s segundos"
+msgstr[2] "%(value)s segundos"
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:68
+msgid ""
+"Click on this button to mute or unmute this video or press UP or DOWN "
+"buttons to increase or decrease volume level."
+msgstr ""
+"Pulse en este botón para activar o desactivar el sonido del vídeo, o pulse "
+"los botones ARRIBA y ABAJO para subir o bajar el volumen."
+
+#: xmodule/assets/video/public/js/07_video_volume_control.js:69
+msgid "Adjust video volume"
+msgstr "Ajustar volumen del video"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:33
+msgid ""
+"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
+"navigate the different speeds, then press ENTER to change to the selected "
+"speed."
+msgstr ""
+"Presione ARRIBA para acceder al menú de velocidad, después utilice las "
+"flechas ARRIBA y ABAJO para navegar por las diferentes velocidades y pulse "
+"INTRO para cambiar a la velocidad seleccionada."
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:37
+msgid "Adjust video speed"
+msgstr "Ajustar velocidad del video"
+
+#: xmodule/assets/video/public/js/08_video_speed_control.js:268
+msgid "Video speed: "
+msgstr "Velocidad del video:"
+
+#: xmodule/assets/video/public/js/09_play_skip_control.js:77
+msgid "Skip"
+msgstr "Omitir"
+
+#: xmodule/assets/video/public/js/09_poster.js:25
+msgid "Play video"
+msgstr "Ver vídeo"
+
+#: xmodule/assets/video/public/js/09_skip_control.js:31
+msgid "Do not show again"
+msgstr "No volver a mostrar"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:105
+msgid "Open language menu"
+msgstr "Abrir menú de idioma"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:628
+msgid "Transcript will be displayed when you start playing the video."
+msgstr "La transcripción se mostrará cuando comience a reproducirse el video."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:876
+msgid ""
+"Activating a link in this group will skip to the corresponding point in the "
+"video."
+msgstr ""
+"Activar un enlace en este grupo saltará al punto correspondiente en el "
+"vídeo."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:879
+msgid "Video transcript"
+msgstr "Transcripción del vídeo"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:882
+msgid "Start of transcript. Skip to the end."
+msgstr "Principio de la transcripción. Saltar al final."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:886
+msgid "End of transcript. Skip to the start."
+msgstr "Final de la transcripción. Saltar al comienzo."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:890
+msgid ""
+"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
+" keys to navigate language options. Press ENTER to change to the selected "
+"language."
+msgstr ""
+"Pulse la flecha ARRIBA para acceder al menú de idiomas y después use las "
+"flechas ARRIBA y ABAJO para navegar por las diferentes opciones. Pulse INTRO"
+" para cambiar al idioma seleccionado."
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1246
+msgid "Hide closed captions"
+msgstr "Ocultar subtítulos ocultos"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1264
+msgid "(Caption will be displayed when you start playing the video.)"
+msgstr "(Los subtítulos se mostrarán cuando empiece a reproducir el vídeo)"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1271
+msgid "Turn on closed captioning"
+msgstr "Activar subtítulos ocultos"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1379
+msgid "Turn on transcripts"
+msgstr "Activar transcripciones"
+
+#: xmodule/assets/video/public/js/09_video_caption.js:1394
+msgid "Turn off transcripts"
+msgstr "Desactivar transcripciones"
 
 #: xmodule/assets/word_cloud/src/js/word_cloud_main.js:258
 msgid "{start_strong}{total}{end_strong} words submitted in total."
@@ -5112,17 +5594,75 @@ msgstr "Comentario"
 msgid "Reply to Annotation"
 msgstr "Responder a la anotación"
 
-#: xmodule/js/src/capa/display.js:349
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:248
+msgid "{num_points} point possible (graded, results hidden)"
+msgid_plural "{num_points} points possible (graded, results hidden)"
+msgstr[0] "{num_points} punto posible (calificado, resultados ocultos)"
+msgstr[1] "{num_points} puntos posibles (calificados, resultados ocultos)"
+msgstr[2] "{num_points} puntos posibles (calificados, resultados ocultos)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:255
+msgid "{num_points} point possible (ungraded, results hidden)"
+msgid_plural "{num_points} points possible (ungraded, results hidden)"
+msgstr[0] "{num_points} puntos posibles (sin calificar, resultados ocultos)"
+msgstr[1] "{num_points} puntos posibles (sin calificar, resultados ocultos)"
+msgstr[2] "{num_points} puntos posibles (sin calificar, resultados ocultos)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:266
+msgid "{num_points} point possible (graded)"
+msgid_plural "{num_points} points possible (graded)"
+msgstr[0] "{num_points} punto posible (calificado)"
+msgstr[1] "{num_points} puntos posibles (calificados)"
+msgstr[2] "{num_points} puntos posibles (calificados)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:273
+msgid "{num_points} point possible (ungraded)"
+msgid_plural "{num_points} points possible (ungraded)"
+msgstr[0] "{num_points} punto posible (sin calificar)"
+msgstr[1] "{num_points} puntos posibles (sin calificar)"
+msgstr[2] "{num_points} puntos posibles (sin calificar)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: xmodule/js/src/capa/display.js:284
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] "{earned}/{possible} puntos (calificado)"
+msgstr[1] "{earned}/{possible} puntos (calificados)"
+msgstr[2] "{earned}/{possible} puntos (calificados)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: xmodule/js/src/capa/display.js:292
+msgid "{earned}/{possible} point (ungraded)"
+msgid_plural "{earned}/{possible} points (ungraded)"
+msgstr[0] "{earned}/{possible} punto (sin calificar)"
+msgstr[1] "{earned}/{possible} puntos (sin calificar)"
+msgstr[2] "{earned}/{possible} puntos (sin calificar)"
+
+#: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "El proceso de evaluación aún está en proceso. Vuelve a cargar la página para"
 " ver las actualizaciones."
 
-#: xmodule/js/src/capa/display.js:458
+#: xmodule/js/src/capa/display.js:486
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "No se puede calificar tu respuesta. La presentación se abortó."
 
-#: xmodule/js/src/capa/display.js:522
+#: xmodule/js/src/capa/display.js:567
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5132,34 +5672,34 @@ msgstr ""
 "Si puedes, por favor, utiliza Chrome o Safari que se han verificado para "
 "permitir cargas de archivos."
 
-#: xmodule/js/src/capa/display.js:548
+#: xmodule/js/src/capa/display.js:595
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Envió {filename}; únicamente están permitidos {allowedFiles}."
 
-#: xmodule/js/src/capa/display.js:561
+#: xmodule/js/src/capa/display.js:608
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr ""
 "Su archivo {filename} es demasiado grande (tamaño máximo: {maxSize} MB)."
 
-#: xmodule/js/src/capa/display.js:577
+#: xmodule/js/src/capa/display.js:624
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "No has enviado los archivos necesarios: {requiredFiles}. "
 
-#: xmodule/js/src/capa/display.js:587
+#: xmodule/js/src/capa/display.js:634
 msgid "You did not select any files to submit."
 msgstr "Ningún archivo seleccionado para enviar."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:681
+#: xmodule/js/src/capa/display.js:728
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
-#: xmodule/js/src/capa/display.js:712
+#: xmodule/js/src/capa/display.js:762
 msgid "This problem has been reset."
 msgstr "Este problema ha sido restablecido."
 
-#: xmodule/js/src/capa/display.js:1018
+#: xmodule/js/src/capa/display.js:1071
 msgid "unsubmitted"
 msgstr "sin enviar"
 
@@ -5525,7 +6065,6 @@ msgstr "Editar HTML"
 #: cms/templates/js/course_info_update.underscore:20
 #: cms/templates/js/group-configuration-details.underscore:45
 #: cms/templates/js/partition-group-details.underscore:28
-#: cms/templates/js/show-textbook.underscore:40
 #: cms/templates/js/signatory-details.underscore:5
 #: cms/templates/js/xblock-string-field-editor.underscore:3
 #: common/static/common/templates/discussion/templates.underscore:834
@@ -5680,7 +6219,7 @@ msgstr "Celda de encabezado"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
+#: xmodule/js/src/html/edit.js:625
 msgid "Header"
 msgstr "Encabezado"
 
@@ -6409,268 +6948,13 @@ msgstr ""
 "aplicación de 3ros. Haga Clic en CANCELAR para volver a está página sin que "
 "se que envíe su información."
 
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
-msgid "incorrect"
-msgstr "incorrecto"
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
-#: xmodule/js/src/problem/edit.js:47
-msgid "correct"
-msgstr "correcto"
-
-#: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
-msgid "answer"
-msgstr "respuesta"
-
-#: xmodule/js/src/problem/edit.js:53
-msgid "Short explanation"
-msgstr "Breve explicación"
-
-#: xmodule/js/src/problem/edit.js:120
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-"Si utilizas el Editor Avanzado, este ejercicio se convertirá a XML y no "
-"podrás regresar a la interfaz del Editor Sencillo. ¿Desea pasar al Editor "
-"Avanzado y convertir este ejercicio a XML?"
-
-#: xmodule/js/src/problem/edit.js:406 xmodule/js/src/problem/edit.js:439
-#: xmodule/js/src/problem/edit.js:502
-msgid ""
-"An answer option has been left blank. Please review and edit the component."
-msgstr ""
-"Se ha dejado en blanco una opción de respuesta. Revise y edite el "
-"componente."
-
-#: xmodule/js/src/problem/edit.js:714
-msgid "Explanation"
-msgstr "Explicación"
-
-#: xmodule/js/src/sequence/display.js:330
+#: xmodule/js/src/sequence/display.js:406
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
 msgstr ""
 "¡Error de secuencia! No puedes navegar a %(tab_name)s en el SequenceModule "
 "actual. Por favor, contacte al personal del curso."
-
-#: xmodule/js/src/video/00_i18n.js:15
-#: xmodule/js/src/video/09_play_pause_control.js:30
-#: xmodule/js/src/video/09_play_pause_control.js:88
-#: xmodule/js/src/video/09_play_skip_control.js:30
-msgid "Play"
-msgstr "Reproducir"
-
-#: xmodule/js/src/video/00_i18n.js:16
-#: xmodule/js/src/video/09_play_pause_control.js:78
-msgid "Pause"
-msgstr "Pausa"
-
-#: xmodule/js/src/video/00_i18n.js:17
-msgid "Mute"
-msgstr "Silenciar"
-
-#: xmodule/js/src/video/00_i18n.js:18
-msgid "Unmute"
-msgstr "Activar sonido"
-
-#: xmodule/js/src/video/00_i18n.js:19
-#: xmodule/js/src/video/04_video_full_screen.js:229
-msgid "Exit full browser"
-msgstr "Salir de pantalla completa"
-
-#: xmodule/js/src/video/00_i18n.js:20
-#: xmodule/js/src/video/04_video_full_screen.js:7
-#: xmodule/js/src/video/04_video_full_screen.js:9
-#: xmodule/js/src/video/04_video_full_screen.js:201
-msgid "Fill browser"
-msgstr "al navegador"
-
-#: xmodule/js/src/video/00_i18n.js:21
-#: xmodule/js/src/video/08_video_speed_control.js:46
-msgid "Speed"
-msgstr "Velocidad"
-
-#: xmodule/js/src/video/00_i18n.js:22
-#: xmodule/js/src/video/08_video_auto_advance_control.js:40
-msgid "Auto-advance"
-msgstr "Avance automático"
-
-#: xmodule/js/src/video/00_i18n.js:23
-#: xmodule/js/src/video/07_video_volume_control.js:72
-msgid "Volume"
-msgstr "Volumen"
-
-#. Translators: Volume level equals 0%.
-#: xmodule/js/src/video/00_i18n.js:25
-msgid "Muted"
-msgstr "Silenciado"
-
-#. Translators: Volume level in range ]0,20]%
-#: xmodule/js/src/video/00_i18n.js:27
-msgid "Very low"
-msgstr "Muy bajo"
-
-#. Translators: Volume level in range ]20,40]%
-#: xmodule/js/src/video/00_i18n.js:29
-msgid "Low"
-msgstr "Bajo"
-
-#. Translators: Volume level in range ]40,60]%
-#: xmodule/js/src/video/00_i18n.js:31
-msgid "Average"
-msgstr "Media"
-
-#. Translators: Volume level in range ]60,80]%
-#: xmodule/js/src/video/00_i18n.js:33
-msgid "Loud"
-msgstr "Alto"
-
-#. Translators: Volume level in range ]80,99]%
-#: xmodule/js/src/video/00_i18n.js:35
-msgid "Very loud"
-msgstr "Muy alto"
-
-#. Translators: Volume level equals 100%.
-#: xmodule/js/src/video/00_i18n.js:37
-msgid "Maximum"
-msgstr "Máximo"
-
-#: xmodule/js/src/video/02_html5_video.js:87
-msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr "Este navegador no puede reproducir archivos .mp4, .ogg o .webm."
-
-#: xmodule/js/src/video/02_html5_video.js:88
-msgid "Try using a different browser, such as Google Chrome."
-msgstr "Prueba a usar un navegador diferente, como Google Chrome."
-
-#: xmodule/js/src/video/05_video_quality_control.js:25
-msgid "High Definition"
-msgstr "Alta Definición"
-
-#: xmodule/js/src/video/05_video_quality_control.js:26
-#: xmodule/js/src/video/05_video_quality_control.js:159
-msgid "off"
-msgstr "Apagado"
-
-#: xmodule/js/src/video/05_video_quality_control.js:153
-msgid "on"
-msgstr "Encendido"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:16
-#: xmodule/js/src/video/06_video_progress_slider.js:107
-msgid "Video position. Press space to toggle playback"
-msgstr "Posición del video. Pulsa espacio para alternar la reproducción"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:304
-msgid "Video ended"
-msgstr "Vídeo finalizado"
-
-#: xmodule/js/src/video/06_video_progress_slider.js:308
-msgid "Video position"
-msgstr "Posición del vídeo"
-
-#: xmodule/js/src/video/07_video_volume_control.js:70
-msgid ""
-"Click on this button to mute or unmute this video or press UP or DOWN "
-"buttons to increase or decrease volume level."
-msgstr ""
-"Pulse en este botón para activar o desactivar el sonido del vídeo, o pulse "
-"los botones ARRIBA y ABAJO para subir o bajar el volumen."
-
-#: xmodule/js/src/video/07_video_volume_control.js:71
-msgid "Adjust video volume"
-msgstr "Ajustar volumen del video"
-
-#: xmodule/js/src/video/08_video_speed_control.js:36
-msgid ""
-"Press UP to enter the speed menu then use the UP and DOWN arrow keys to "
-"navigate the different speeds, then press ENTER to change to the selected "
-"speed."
-msgstr ""
-"Presione ARRIBA para acceder al menú de velocidad, después utilice las "
-"flechas ARRIBA y ABAJO para navegar por las diferentes velocidades y pulse "
-"INTRO para cambiar a la velocidad seleccionada."
-
-#: xmodule/js/src/video/08_video_speed_control.js:40
-msgid "Adjust video speed"
-msgstr "Ajustar velocidad del video"
-
-#: xmodule/js/src/video/08_video_speed_control.js:271
-msgid "Video speed: "
-msgstr "Velocidad del video:"
-
-#: xmodule/js/src/video/09_play_skip_control.js:79
-msgid "Skip"
-msgstr "Omitir"
-
-#: xmodule/js/src/video/09_poster.js:31
-msgid "Play video"
-msgstr "Ver vídeo"
-
-#: xmodule/js/src/video/09_skip_control.js:33
-msgid "Do not show again"
-msgstr "No volver a mostrar"
-
-#: xmodule/js/src/video/09_video_caption.js:107
-msgid "Open language menu"
-msgstr "Abrir menú de idioma"
-
-#: xmodule/js/src/video/09_video_caption.js:630
-msgid "Transcript will be displayed when you start playing the video."
-msgstr "La transcripción se mostrará cuando comience a reproducirse el video."
-
-#: xmodule/js/src/video/09_video_caption.js:878
-msgid ""
-"Activating a link in this group will skip to the corresponding point in the "
-"video."
-msgstr ""
-"Activar un enlace en este grupo saltará al punto correspondiente en el "
-"vídeo."
-
-#: xmodule/js/src/video/09_video_caption.js:881
-msgid "Video transcript"
-msgstr "Transcripción del vídeo"
-
-#: xmodule/js/src/video/09_video_caption.js:884
-msgid "Start of transcript. Skip to the end."
-msgstr "Principio de la transcripción. Saltar al final."
-
-#: xmodule/js/src/video/09_video_caption.js:888
-msgid "End of transcript. Skip to the start."
-msgstr "Final de la transcripción. Saltar al comienzo."
-
-#: xmodule/js/src/video/09_video_caption.js:892
-msgid ""
-"Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
-" keys to navigate language options. Press ENTER to change to the selected "
-"language."
-msgstr ""
-"Pulse la flecha ARRIBA para acceder al menú de idiomas y después use las "
-"flechas ARRIBA y ABAJO para navegar por las diferentes opciones. Pulse INTRO"
-" para cambiar al idioma seleccionado."
-
-#: xmodule/js/src/video/09_video_caption.js:1248
-msgid "Hide closed captions"
-msgstr "Ocultar subtítulos ocultos"
-
-#: xmodule/js/src/video/09_video_caption.js:1266
-msgid "(Caption will be displayed when you start playing the video.)"
-msgstr "(Los subtítulos se mostrarán cuando empiece a reproducir el vídeo)"
-
-#: xmodule/js/src/video/09_video_caption.js:1273
-msgid "Turn on closed captioning"
-msgstr "Activar subtítulos ocultos"
-
-#: xmodule/js/src/video/09_video_caption.js:1381
-msgid "Turn on transcripts"
-msgstr "Activar transcripciones"
-
-#: xmodule/js/src/video/09_video_caption.js:1396
-msgid "Turn off transcripts"
-msgstr "Desactivar transcripciones"
 
 #: cms/templates/js/access-editor.underscore:3
 msgid "Limit Access"
@@ -6739,6 +7023,10 @@ msgstr "detalles sobre la falla"
 #: cms/templates/js/add-xblock-component-button.underscore:7
 msgid "Add Component:"
 msgstr "Añadir componente"
+
+#: cms/templates/js/add-xblock-component-button.underscore:10
+msgid "Beta"
+msgstr "Prueba"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
@@ -6992,6 +7280,14 @@ msgstr "No puede eliminarse mientras esté siendo utilizado por una unidad."
 msgid "Subsection Visibility"
 msgstr "Visibilidad de la Subsección"
 
+#: cms/templates/js/content-visibility-editor.underscore:7
+msgid ""
+"To hide the subsections and keep them accesible through links, you must "
+"adjust it from the section that contains them."
+msgstr ""
+"Para ocultar las subsecciones y mantenerlas accesibles a través de enlaces, "
+"debes ajustarlo desde la Sección que las contiene."
+
 #: cms/templates/js/content-visibility-editor.underscore:13
 msgid "Show entire subsection"
 msgstr "Mostrar toda la subsección"
@@ -7133,6 +7429,10 @@ msgstr ""
 msgid "Upload Photo"
 msgstr "Cargar foto"
 
+#: cms/templates/js/course-manage-tags.underscore:3
+msgid "Course tags"
+msgstr "Etiquetas del curso"
+
 #: cms/templates/js/course-manage-tags.underscore:7
 #: cms/templates/js/tag-list.underscore:28
 msgid "Manage tags"
@@ -7146,6 +7446,22 @@ msgstr "Prerrequisitos: %(prereq_display_name)s "
 #: cms/templates/js/course-outline.underscore:56
 msgid "Contains staff only content"
 msgstr "Contenido solo para personal."
+
+#: cms/templates/js/course-outline.underscore:60
+msgid ""
+"Hidden in the course outline, but sections are accessible for your learners "
+"through their separate link."
+msgstr ""
+"Oculto en la estructura del curso, pero los estudiantes pueden acceder a las"
+" secciones a través de su enlace separado."
+
+#: cms/templates/js/course-outline.underscore:63
+msgid ""
+"Subsections are not navigable between each other, they can only be accessed "
+"through their link."
+msgstr ""
+"Las subsecciones no son navegables entre sí, solo se puede acceder a ellas a"
+" través de su enlace."
 
 #: cms/templates/js/course-outline.underscore:71
 msgid "Unpublished changes to live content"
@@ -7285,6 +7601,10 @@ msgstr ""
 #: cms/templates/js/course-outline.underscore:412
 msgid "Subsection is hidden after due date"
 msgstr "La subsección está oculta después de la fecha límite"
+
+#: cms/templates/js/course-outline.underscore:428
+msgid "Share"
+msgstr "Compartir"
 
 #: cms/templates/js/course-outline.underscore:442
 #, python-format
@@ -7540,6 +7860,14 @@ msgstr "Habilitar debates"
 msgid "Topics for unpublished units would not be created"
 msgstr "No se crearían temas para unidades no publicadas"
 
+#: cms/templates/js/discussion-editor.underscore:16
+msgid "Please enable discussions for graded units from the"
+msgstr "Habilitar los foros para unidades calificadas desde el"
+
+#: cms/templates/js/discussion-editor.underscore:24
+msgid "Discussion Configuration"
+msgstr "Configuración de foro"
+
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
 msgstr "Fecha límite:"
@@ -7587,37 +7915,51 @@ msgstr "Colgar PDF"
 msgid "delete chapter"
 msgstr "borrar capítulo"
 
-#: cms/templates/js/edit-textbook.underscore:10
-msgid "Textbook information"
-msgstr "Información del libro de texto"
-
-#: cms/templates/js/edit-textbook.underscore:12
-msgid "Textbook Name"
-msgstr "Nombre del libro de texto"
-
-#: cms/templates/js/edit-textbook.underscore:13
-msgid "Introduction to Cookie Baking"
-msgstr "Introducción a las Ciencias de la Computación"
-
-#: cms/templates/js/edit-textbook.underscore:14
-msgid ""
-"provide the title/name of the text book as you would like your students to "
-"see it"
-msgstr ""
-"Proporciona el título/nombre del libro de texto como querrías que lo vean "
-"tus alumnos"
-
-#: cms/templates/js/edit-textbook.underscore:18
-msgid "Chapter information"
-msgstr "Información del capítulo"
-
-#: cms/templates/js/edit-textbook.underscore:21
-msgid "Add a Chapter"
-msgstr "Agregar un capítulo"
-
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
 msgstr "Editar el título"
+
+#: cms/templates/js/edit-upstream-alert.underscore:4
+msgid "You are editing content from a Library."
+msgstr "Estás editando contenido desde una biblioteca."
+
+#: cms/templates/js/edit-upstream-alert.underscore:6
+msgid ""
+"Edits made here will only be reflected in this course. These edits may be "
+"overridden later if updates are accepted."
+msgstr ""
+"Las modificaciones realizadas aquí solo se reflejarán en este curso. Estas "
+"modificaciones pueden anularse posteriormente si se aceptan actualizaciones."
+
+#: cms/templates/js/edit-upstream-alert.underscore:14
+msgid "View in Library"
+msgstr "Vista en la Biblioteca"
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:5
+msgid ""
+"Embed your subsection content directly on a page using an iframe, and view "
+"it without the LMS header and footer."
+msgstr ""
+"Incruste el contenido de su subsección directamente en una página usando un "
+"iframe y ver sin el encabezado y pie de página de LMS."
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:11
+#: cms/templates/js/full-page-share-link-editor.underscore:11
+msgid "Click to copy link to clipboard"
+msgstr "Pulsar para copiar el enlace al portapapeles"
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:15
+#: cms/templates/js/full-page-share-link-editor.underscore:15
+msgid "Copy link"
+msgstr "Copiar enlace"
+
+#: cms/templates/js/full-page-share-link-editor.underscore:5
+msgid ""
+"When sharing this link with your learners, they will see the content of the "
+"subsection along with the header and footer of your LMS."
+msgstr ""
+"Al compartir este enlace con sus estudiantes, verán el contenido de la "
+"subsección junto con el encabezado y pie de página de su LMS."
 
 #: cms/templates/js/grading-editor.underscore:1
 msgid "Grading"
@@ -7814,14 +8156,6 @@ msgstr "Ubicación actual"
 #: cms/templates/js/move-xblock-list.underscore:41
 msgid "Currently selected"
 msgstr "Actualmente seleccionado"
-
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "You haven't added any textbooks to this course yet."
-msgstr "Aún no se agregó ningún libro de texto a este curso."
-
-#: cms/templates/js/no-textbooks.underscore:2
-msgid "Add your first textbook"
-msgstr "Agregue su primer libro de texto"
 
 #: cms/templates/js/paging-header.underscore:7
 #: common/static/common/templates/components/paging-footer.underscore:2
@@ -8075,13 +8409,24 @@ msgstr ""
 "Si la subsección no tiene una fecha de finalización, los alumnos siempre ven"
 " sus calificaciones cuando envían respuestas a las evaluaciones."
 
-#: cms/templates/js/show-textbook.underscore:12
-msgid "PDF Chapters"
-msgstr "Capítulos PDF"
+#: cms/templates/js/show-correctness-editor.underscore:40
+msgid ""
+"Never show individual assessment results, but show overall assessment "
+"results after due date"
+msgstr ""
+"Nunca muestres los resultados individuales de las evaluaciones, pero muestra"
+" los resultados generales después de la fecha límite."
 
-#: cms/templates/js/show-textbook.underscore:37
-msgid "View Live"
-msgstr "Ver en vivo"
+#: cms/templates/js/show-correctness-editor.underscore:43
+msgid ""
+"Learners do not see question-level correctness or scores before or after the"
+" due date. However, once the due date passes, they can see their overall "
+"score for the subsection on the Progress page."
+msgstr ""
+"Los estudiantes no ven la corrección o las puntuaciones a nivel de pregunta "
+"antes o después de la fecha límite. Sin embargo, una vez que pasa la fecha "
+"límite, pueden ver su puntuación total para la Subsección en la página de "
+"Progreso."
 
 #: cms/templates/js/signatory-details.underscore:9
 #: cms/templates/js/signatory-editor.underscore:8
@@ -8160,6 +8505,45 @@ msgstr "Visibilidad de la unidad"
 #: cms/templates/js/staff-lock-editor.underscore:6
 msgid "Section Visibility"
 msgstr "Visibilidad de la sección"
+
+#: cms/templates/js/staff-lock-editor.underscore:14
+msgid "Visible to learners"
+msgstr "Visible a los estudiantes"
+
+#: cms/templates/js/staff-lock-editor.underscore:16
+msgid ""
+"It is visible to learners, ensuring that all learners can view its contents."
+msgstr ""
+"Es visible para los estudiantes, lo que garantiza que todos los estudiantes "
+"puedan ver su contenido."
+
+#: cms/templates/js/staff-lock-editor.underscore:22
+msgid "Hide in Course Outline, accessible via Link"
+msgstr "Ocultar en la estructura del curso, accesible a través de un enlace"
+
+#: cms/templates/js/staff-lock-editor.underscore:24
+msgid ""
+"It is intentionally hidden from standard navigation, ensuring that only "
+"individuals with the link can view its contents."
+msgstr ""
+"Está intencionalmente oculto de la navegación estándar, lo que garantiza que"
+" solo las personas con el enlace puedan ver su contenido."
+
+#: cms/templates/js/staff-lock-editor.underscore:27
+msgid ""
+"If you make this section visible in the table of content, learners will be "
+"able to see its content."
+msgstr ""
+"Si hace que esta sección sea visible en la tabla de contenido, los "
+"estudiantes podrán ver su contenido."
+
+#: cms/templates/js/staff-lock-editor.underscore:40
+msgid ""
+"It is intentionally hidden from learners, ensuring that only the course "
+"staff can view its contents."
+msgstr ""
+"Está intencionalmente oculto a los estudiantes, lo que garantiza que solo el"
+" personal del curso pueda ver su contenido."
 
 #: cms/templates/js/staff-lock-editor.underscore:45
 msgid ""
@@ -8799,6 +9183,14 @@ msgstr "Edita tu publicación a continuación."
 #: common/static/common/templates/discussion/templates.underscore:147
 msgid "Update post"
 msgstr "Actualizar entrada"
+
+#: common/static/common/templates/discussion/templates.underscore:154
+#, python-format
+msgid "Show Comment (%(num_comments)s)"
+msgid_plural "Show Comments (%(num_comments)s)"
+msgstr[0] "Mostrar Comentario (%(num_comments)s)"
+msgstr[1] "Mostrar comentarios (%(num_comments)s)"
+msgstr[2] "Mostrar comentarios (%(num_comments)s)"
 
 #: common/static/common/templates/discussion/templates.underscore:164
 #: common/static/common/templates/discussion/templates.underscore:166
@@ -9862,6 +10254,14 @@ msgstr ""
 msgid "Create a content group"
 msgstr "Crear un grupo de contenidos"
 
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
+#, python-format
+msgid "(contains %(student_count)s student)"
+msgid_plural "(contains %(student_count)s students)"
+msgstr[0] "(contiene %(student_count)s estudiante)"
+msgstr[1] "(contiene %(student_count)s estudiantes)"
+msgstr[2] "(contiene %(student_count)s estudiantes)"
+
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
 msgid ""
 "Learners are added to this cohort only when you provide their email "
@@ -10007,11 +10407,11 @@ msgstr "inscribirse ahora"
 msgid "Coming Soon"
 msgstr "Próximamente"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:47
+#: lms/templates/learner_dashboard/course_enroll.underscore:48
 msgid "Enrollment Opens on"
 msgstr "inscripción abierta"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:54
+#: lms/templates/learner_dashboard/course_enroll.underscore:56
 msgid "Not Currently Available"
 msgstr "Actualmente no disponible"
 
@@ -10069,6 +10469,16 @@ msgstr ""
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
 msgid "Explore new programs"
 msgstr "Explorar nuevos programas"
+
+#: lms/templates/learner_dashboard/program_card.underscore:16
+#: lms/templates/learner_dashboard/program_card.underscore:24
+#: lms/templates/learner_dashboard/program_card.underscore:32
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
+msgid "Course"
+msgid_plural "Courses"
+msgstr[0] "Curso"
+msgstr[1] "Cursos"
+msgstr[2] "Cursos"
 
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
@@ -11124,6 +11534,15 @@ msgstr ""
 "superior derecha de dicha página. Para ver una lista de todos sus "
 "marcadores, seleccionar \"Marcadores\" en la esquina superior izquierda de "
 "cualquier página del curso."
+
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+#, python-brace-format
+msgid "Load next {num_items} result"
+msgid_plural "Load next {num_items} results"
+msgstr[0] "Carga el siguiente resultado {num_items}"
+msgstr[1] "Carga los siguientes resultados {num_items}"
+msgstr[2] "Carga los siguientes resultados {num_items}"
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26

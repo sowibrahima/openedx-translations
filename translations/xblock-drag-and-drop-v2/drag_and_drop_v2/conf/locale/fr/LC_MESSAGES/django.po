@@ -1,21 +1,25 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
-#
+# EdX Team <info@edx.org>, 2026.
+# 
+# Translators:
+# Omar Al-Ithawi <i@omardo.com>, 2025
+# Eden Huthmacher, 2025
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-13 09:00+0000\n"
-"Last-Translator: \n"
-"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2023-04-21 00:43+0000\n"
+"Last-Translator: Eden Huthmacher, 2025\n"
+"Language-Team: French (https://app.transifex.com/open-edx/teams/6205/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: default_data.py:5
 msgid ""
@@ -24,8 +28,8 @@ msgid ""
 "layer is located at the top."
 msgstr ""
 "Un triangle isocèle avec trois couches de hauteur similaire. Il est affiché "
-"à la verticale, donc la couche la plus large est située en bas et la couche "
-"la plus étroite est située en haut."
+"à la verticale, donc la couche la plus large est localisée en bas et la "
+"couche la plus étroite est localisée en haut."
 
 #: default_data.py:14
 msgid "The Top Zone"
@@ -73,7 +77,7 @@ msgstr "Correct! Celui-ci appartient à The Bottom Zone."
 
 #: default_data.py:25
 msgid "No, this item does not belong here. Try again."
-msgstr "Non, cet article n'a pas sa place ici. Réessayez."
+msgstr "Non, cet élément n'appartient pas là. Essayez encore."
 
 #: default_data.py:26
 msgid "You silly, there are no zones for this one."
@@ -97,7 +101,7 @@ msgstr "Va au fond"
 
 #: default_data.py:32
 msgid "Goes anywhere"
-msgstr "Va n'importe où"
+msgstr "Va n&#39;importe où"
 
 #: default_data.py:33
 msgid "I don't belong anywhere"
@@ -109,7 +113,7 @@ msgstr "Faites glisser les éléments sur l'image ci-dessus."
 
 #: default_data.py:36
 msgid "Good work! You have completed this drag and drop problem."
-msgstr "Bon travail ! Vous avez résolu ce problème de glisser-déposer."
+msgstr "Bon travail! Vous avez complété cet exercice de glisser-déposer."
 
 #: drag_and_drop_v2.py:83
 msgid "Title"
@@ -119,7 +123,7 @@ msgstr "Titre"
 msgid ""
 "The title of the drag and drop problem. The title is displayed to learners."
 msgstr ""
-"Le titre du problème de glisser-déposer. Le titre est affiché aux "
+"Le titre de l'exercice de glisser-déposer. Le titre est affiché aux "
 "apprenants."
 
 #: drag_and_drop_v2.py:86
@@ -136,10 +140,10 @@ msgid ""
 "drops an item on a target zone. Assessment mode: the problem provides "
 "feedback only after a learner drops all available items on target zones."
 msgstr ""
-"Mode standard : le problème fournit un retour immédiat à chaque fois qu'un "
-"apprenant dépose un élément sur une zone cible. Mode d'évaluation : le "
-"problème fournit un retour d'information uniquement après qu'un apprenant "
-"ait déposé tous les éléments disponibles sur les zones cibles."
+"Mode standard: l'exercice fournit un commentaire immédiat à chaque fois "
+"qu'un apprenant dépose un élément sur une zone cible. Mode d'évaluation: "
+"l'exercice fournit un commentaire uniquement après qu'un apprenant ait "
+"déposé tous les éléments disponibles sur les zones cibles."
 
 #: drag_and_drop_v2.py:100
 msgid "Standard"
@@ -158,37 +162,39 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr ""
-"Définit le nombre de fois qu'un élève peut tenter de répondre à ce problème."
-" Si la valeur n'est pas définie, des tentatives infinies sont autorisées."
+"Définit le nombre de fois qu'un apprenant peut essayer de répondre à cet "
+"exercice. Si aucune valeur n'est précisée, un nombre infini d'essais est "
+"autorisé."
 
 #: drag_and_drop_v2.py:119
 msgid "Show title"
-msgstr "Afficher le titre"
+msgstr "Montrer le titre"
 
 #: drag_and_drop_v2.py:120
 msgid "Display the title to the learner?"
-msgstr "Afficher le titre à l'apprenant ?"
+msgstr "Afficher le titre à l&#39;apprenant ?"
 
 #: drag_and_drop_v2.py:127
 msgid "Problem text"
-msgstr "Texte du problème"
+msgstr "Texte de l'exercice"
 
 #: drag_and_drop_v2.py:128
 msgid "The description of the problem or instructions shown to the learner."
 msgstr ""
-"La description du problème ou les instructions présentées à l'apprenant."
+"La description de l'exercice ou les instructions présentées à "
+"l&#39;apprenant."
 
 #: drag_and_drop_v2.py:135
 msgid "Show \"Problem\" heading"
-msgstr "Afficher l'en-tête \"Problème\""
+msgstr "Afficher l'en-tête \"Exercice\""
 
 #: drag_and_drop_v2.py:136
 msgid "Display the heading \"Problem\" above the problem text?"
-msgstr "Afficher le titre « Problème » au-dessus du texte du problème ?"
+msgstr "Afficher l'en-tête « Exercice » au-dessus du texte de l'exercice ?"
 
 #: drag_and_drop_v2.py:142
 msgid "Show answer"
-msgstr "Afficher la réponse"
+msgstr "Montrer la réponse"
 
 #: drag_and_drop_v2.py:143
 msgid ""
@@ -196,9 +202,9 @@ msgid ""
 "in Advanced Settings. To revert setting a custom value, choose the 'Default'"
 " option."
 msgstr ""
-"Définit quand afficher la réponse au problème. Une valeur par défaut peut "
-"être définie dans les paramètres avancés. Pour annuler la définition d'une "
-"valeur personnalisée, choisissez l'option « Par défaut »."
+"Définit quand afficher la réponse à l'exercice. Une valeur par défaut peut "
+"être définie dans les Paramètres Avancés. Pour annuler la définition d'une "
+"valeur personnalisée, choisissez l'option \"Par défaut\"."
 
 #: drag_and_drop_v2.py:149
 msgid "Default"
@@ -214,7 +220,7 @@ msgstr "Répondu"
 
 #: drag_and_drop_v2.py:152
 msgid "Attempted or Past Due"
-msgstr "Tentative ou retard"
+msgstr "Tenté ou en retard"
 
 #: drag_and_drop_v2.py:153
 msgid "Closed"
@@ -226,7 +232,7 @@ msgstr "Fini"
 
 #: drag_and_drop_v2.py:155
 msgid "Correct or Past Due"
-msgstr "Correct ou en souffrance"
+msgstr "Correct ou en retard"
 
 #: drag_and_drop_v2.py:156
 msgid "Past Due"
@@ -242,19 +248,15 @@ msgstr "Après toutes les tentatives"
 
 #: drag_and_drop_v2.py:159
 msgid "After All Attempts or Correct"
-msgstr "Après toutes les tentatives ou correction"
-
-#: drag_and_drop_v2.py:160
-msgid "Attempted"
-msgstr "Tentative"
+msgstr "Après toutes les tentatives ou corrections"
 
 #: drag_and_drop_v2.py:166
 msgid "Problem Weight"
-msgstr "Problème de poids"
+msgstr "Coefficient de l'exercice"
 
 #: drag_and_drop_v2.py:167
 msgid "Defines the number of points the problem is worth."
-msgstr "Définit le nombre de points que vaut le problème."
+msgstr "Définit le nombre de points que l'exercice vaut."
 
 #: drag_and_drop_v2.py:174
 msgid "Item background color"
@@ -265,34 +267,34 @@ msgid ""
 "The background color of draggable items in the problem (example: 'blue' or "
 "'#0000ff')."
 msgstr ""
-"La couleur d'arrière-plan des éléments déplaçables dans le problème (exemple"
-" : « bleu » ou « #0000ff »)."
+"La couleur de fond des éléments glissables dans l'exercice (exemple : 'bleu'"
+" ou '#0000ff')."
 
 #: drag_and_drop_v2.py:182
 msgid "Item text color"
-msgstr "Couleur du texte de l'article"
+msgstr "Couleur du Texte de l'article"
 
 #: drag_and_drop_v2.py:183
 msgid "Text color to use for draggable items (example: 'white' or '#ffffff')."
 msgstr ""
-"Couleur du texte à utiliser pour les éléments déplaçables (exemple : "
-"« blanc » ou « #ffffff »)."
+"Texte couleur à utiliser pour les éléments déplaçables (exemple : « blanc » "
+"ou « #ffffff »)."
 
 #: drag_and_drop_v2.py:190
 msgid "Maximum items per zone"
-msgstr "Nombre maximum d'articles par zone"
+msgstr "Nombre maximum d&#39;articles par zone"
 
 #: drag_and_drop_v2.py:191
 msgid ""
 "This setting limits the number of items that can be dropped into a single "
 "zone."
 msgstr ""
-"Ce paramètre limite le nombre d'éléments pouvant être déposés dans une seule"
-" zone."
+"Ce paramètre limite le nombre d&#39;éléments pouvant être déposés dans une "
+"seule zone."
 
 #: drag_and_drop_v2.py:198
 msgid "Problem data"
-msgstr "Données du problème"
+msgstr "Données de l'exercice"
 
 #: drag_and_drop_v2.py:200
 msgid ""
@@ -300,45 +302,41 @@ msgid ""
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
 msgstr ""
-"Informations sur les zones, les éléments, les commentaires, l'explication et"
-" l'image d'arrière-plan de ce problème. Ces informations sont dérivées de "
-"l'entrée fournie par l'auteur du cours via l'éditeur interactif lors de la "
-"configuration du problème."
+"Information sur les zones, les éléments, les commentaires, les explications "
+"et le fonds d'écran de cet exercice. Ces informations sont dérivées des "
+"données fournies par l'auteur du cours via l'éditeur interactif lors de la "
+"configuration de l'exercice."
 
 #: drag_and_drop_v2.py:210
 msgid ""
 "Information about current positions of items that a learner has dropped on "
 "the target image."
 msgstr ""
-"Informations sur les positions actuelles des éléments qu'un apprenant a "
+"Information sur les positions actuelles des éléments qu'un apprenant a "
 "déposés sur l'image cible."
-
-#: drag_and_drop_v2.py:217
-msgid "Number of attempts learner used"
-msgstr "Nombre de tentatives utilisées par l'apprenant"
 
 #: drag_and_drop_v2.py:224
 msgid "Indicates whether a learner has completed the problem at least once"
-msgstr "Indique si un apprenant a résolu le problème au moins une fois"
+msgstr "Indique si un apprenant a résolu l'exercice au moins une fois"
 
 #: drag_and_drop_v2.py:231
 msgid ""
 "DEPRECATED. Keeps maximum score achieved by student as a weighted value."
 msgstr ""
-"DÉCONSEILLÉ. Conserve le score maximum obtenu par l’élève sous forme de "
+"OBSOLÈTE. Conserve le score maximum obtenu par l’apprenant sous forme de "
 "valeur pondérée."
 
 #: drag_and_drop_v2.py:237
 msgid ""
 "Keeps maximum score achieved by student as a raw value between 0 and 1."
 msgstr ""
-"Conserve le score maximum obtenu par l'élève sous forme de valeur brute "
-"comprise entre 0 et 1."
+"Conservez le score maximum obtenu par l&#39;apprenant sous forme de valeur "
+"brute comprise entre 0 et 1."
 
 #: drag_and_drop_v2.py:244
 msgid "Maximum score available of the problem as a raw value between 0 and 1."
 msgstr ""
-"Score maximum disponible du problème sous forme de valeur brute comprise "
+"Score maximum disponible de l'exercice sous forme de valeur brute comprise "
 "entre 0 et 1."
 
 #: drag_and_drop_v2.py:568
@@ -354,7 +352,7 @@ msgstr ""
 
 #: drag_and_drop_v2.py:648
 msgid "The answer is unavailable"
-msgstr "La réponse n'est pas disponible"
+msgstr "La réponse n&#39;est pas disponible"
 
 #: drag_and_drop_v2.py:789
 msgid "do_attempt handler should only be called for assessment mode"
@@ -367,11 +365,11 @@ msgstr "Nombre maximum de tentatives atteint"
 
 #: drag_and_drop_v2.py:799
 msgid "Submission deadline has passed."
-msgstr "La date limite de soumission est dépassée."
+msgstr "La date limite de réponse est dépassée."
 
 #: templates/html/drag_and_drop.html:4
 msgid "Loading drag and drop problem."
-msgstr "Problème de chargement par glisser-déposer."
+msgstr "Chargement du problème par glisser-déposer."
 
 #: templates/html/drag_and_drop_edit.html:10
 msgid "Basic Settings"
@@ -379,19 +377,19 @@ msgstr "Paramètres de base"
 
 #: templates/html/drag_and_drop_edit.html:53
 msgid "(inherited from Advanced Settings)"
-msgstr "(hérité des paramètres avancés)"
+msgstr "(hérité des Paramètres Avancés)"
 
 #: templates/html/drag_and_drop_edit.html:90
 msgid "Introductory feedback"
-msgstr "Commentaires introductifs"
+msgstr "Commentaire introductif"
 
 #: templates/html/drag_and_drop_edit.html:95
 msgid "Final feedback"
-msgstr "Commentaires finaux"
+msgstr "Commentaire final"
 
 #: templates/html/drag_and_drop_edit.html:100
 msgid "Explanation Text"
-msgstr "Texte d'explication"
+msgstr "Texte d&#39;explication"
 
 #: templates/html/drag_and_drop_edit.html:109
 msgid "Zones"
@@ -399,7 +397,7 @@ msgstr "Zones"
 
 #: templates/html/drag_and_drop_edit.html:114
 msgid "Background Image"
-msgstr "Image d'arrière-plan"
+msgstr "Image de fond"
 
 #: templates/html/drag_and_drop_edit.html:117
 msgid "Provide custom image"
@@ -407,7 +405,7 @@ msgstr "Fournir une image personnalisée"
 
 #: templates/html/drag_and_drop_edit.html:121
 msgid "Generate image automatically"
-msgstr "Générer automatiquement une image"
+msgstr "Vous générez automatiquement une image."
 
 #: templates/html/drag_and_drop_edit.html:126
 msgid "Background URL"
@@ -415,7 +413,7 @@ msgstr "URL d'arrière-plan"
 
 #: templates/html/drag_and_drop_edit.html:133
 msgid "Change background"
-msgstr "Changer l'arrière-plan"
+msgstr "Modifier de fond"
 
 #: templates/html/drag_and_drop_edit.html:135
 msgid ""
@@ -431,11 +429,11 @@ msgstr "Disposition des zones"
 
 #: templates/html/drag_and_drop_edit.html:142
 msgid "Number of columns"
-msgstr "Nombre de colonnes"
+msgstr "Le nombre de colonnes"
 
 #: templates/html/drag_and_drop_edit.html:150
 msgid "Number of rows"
-msgstr "Nombre de lignes"
+msgstr "Nombre de rangées"
 
 #: templates/html/drag_and_drop_edit.html:157
 msgid "Number of columns and rows."
@@ -455,7 +453,7 @@ msgstr "Hauteur de la zone"
 
 #: templates/html/drag_and_drop_edit.html:178
 msgid "Size of a single zone in pixels."
-msgstr "Taille d'une seule zone en pixels."
+msgstr "Taille d&#39;une seule zone en pixels."
 
 #: templates/html/drag_and_drop_edit.html:181
 msgid "Generate image and zones"
@@ -465,39 +463,25 @@ msgstr "Générer une image et des zones"
 msgid "Background description"
 msgstr "Description du contexte"
 
-#: templates/html/drag_and_drop_edit.html:189
-msgid ""
-"\n"
-"                            Please provide a description of the image for non-visual users.\n"
-"                            The description should provide sufficient information to allow anyone\n"
-"                            to solve the problem even without seeing the image.\n"
-"                        "
-msgstr ""
-"\n"
-"Veuillez fournir une description de l'image pour les utilisateurs non visuels.\n"
-"La description doit fournir suffisamment d'informations pour permettre à quiconque\n"
-"pour résoudre le problème même sans voir l'image.\n"
-"                        "
-
 #: templates/html/drag_and_drop_edit.html:199
 msgid "Zone labels"
 msgstr "Étiquettes de zones"
 
 #: templates/html/drag_and_drop_edit.html:202
 msgid "Display label names on the image"
-msgstr "Afficher les noms des étiquettes sur l'image"
+msgstr "Afficher les noms des étiquettes sur l&#39;image"
 
 #: templates/html/drag_and_drop_edit.html:206
 msgid "Zone borders"
-msgstr "Bordures de zones"
+msgstr "Frontières de zones"
 
 #: templates/html/drag_and_drop_edit.html:209
 msgid "Display zone borders on the image"
-msgstr "Afficher les bordures des zones sur l'image"
+msgstr "Afficher les bordures de zone sur l'image"
 
 #: templates/html/drag_and_drop_edit.html:215
 msgid "Display zone borders when dragging an item"
-msgstr "Afficher les bordures de zone lors du déplacement d'un élément"
+msgstr "Afficher les bordures de zone lors du déplacement d&#39;un élément"
 
 #: templates/html/drag_and_drop_edit.html:220
 msgid "Zone definitions"
@@ -507,25 +491,21 @@ msgstr "Définitions de zones"
 msgid "Add a zone"
 msgstr "Ajouter une zone"
 
-#: templates/html/drag_and_drop_edit.html:240
-msgid "Items"
-msgstr "Articles"
-
 #: templates/html/drag_and_drop_edit.html:274
 msgid "Item definitions"
-msgstr "Définitions d'éléments"
+msgstr "Définitions d&#39;éléments"
 
 #: templates/html/drag_and_drop_edit.html:278
 msgid "Add an item"
-msgstr "Ajouter un article"
+msgstr "Ajoutez un article"
 
 #: templates/html/drag_and_drop_edit.html:288
 msgid "Continue"
-msgstr "Continuer"
+msgstr "Continuez"
 
 #: templates/html/drag_and_drop_edit.html:292
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Enregistrer"
 
 #: templates/html/drag_and_drop_edit.html:296
 msgid "Cancel"
@@ -546,15 +526,17 @@ msgstr ""
 #, python-brace-format
 msgid "Correctly placed {correct_count} item"
 msgid_plural "Correctly placed {correct_count} items"
-msgstr[0] "Élément {correct_count} correctement placé"
-msgstr[1] "{correct_count} éléments correctement placés"
+msgstr[0] "{correct_count} élément correctement placé"
+msgstr[1] "Éléments {correct_count} correctement placés"
+msgstr[2] "Éléments {correct_count} correctement placés"
 
 #: utils.py:141
 #, python-brace-format
 msgid "Misplaced {misplaced_count} item"
 msgid_plural "Misplaced {misplaced_count} items"
-msgstr[0] "Objet {misplaced_count} égaré"
-msgstr[1] "{misplaced_count} objets égarés"
+msgstr[0] "{misplaced_count} élément mal placé"
+msgstr[1] "{misplaced_count} objets sont égarés"
+msgstr[2] "{misplaced_count} objets sont égarés"
 
 #: utils.py:152
 #, python-brace-format
@@ -565,22 +547,26 @@ msgid_plural ""
 "Misplaced {misplaced_count} items (misplaced items were returned to the item"
 " bank)"
 msgstr[0] ""
-"Objet {misplaced_count} égaré (l'objet égaré a été renvoyé à la banque "
-"d'articles)"
+"Objet {misplaced_count} égaré (l&#39;objet égaré a été renvoyé à la banque "
+"d&#39;articles)"
 msgstr[1] ""
 "Objets {misplaced_count} égarés (les objets égarés ont été retournés à la "
-"banque d'objets)"
+"banque d&#39;objets)"
+msgstr[2] ""
+"Objets {misplaced_count} égarés (les objets égarés ont été retournés à la "
+"banque d&#39;objets)"
 
 #: utils.py:163
 #, python-brace-format
 msgid "Did not place {missing_count} required item"
 msgid_plural "Did not place {missing_count} required items"
-msgstr[0] "N'a pas placé {missing_count} élément requis"
-msgstr[1] "N'a pas placé {missing_count} éléments requis"
+msgstr[0] "N&#39;a pas placé l&#39;élément requis {missing_count}"
+msgstr[1] "{missing_count} éléments requis n'ont pas été positionnés"
+msgstr[2] "{missing_count} éléments requis n'ont pas été positionnés"
 
 #: public/js/drag_and_drop.js:48 public/js/drag_and_drop.js:399
 msgid "Submitting"
-msgstr "Soumission"
+msgstr "Soumettre"
 
 #: public/js/drag_and_drop.js:162
 msgid "Unknown Zone"
@@ -620,7 +606,7 @@ msgstr "droppable"
 
 #: public/js/drag_and_drop.js:321 public/js/drag_and_drop.js:325
 msgid "Feedback"
-msgstr "Retour"
+msgstr "Commentaire"
 
 #: public/js/drag_and_drop.js:336 public/js/drag_and_drop.js:341
 msgid "Explanation"
@@ -636,7 +622,7 @@ msgstr "Aide du clavier"
 
 #: public/js/drag_and_drop.js:363
 msgid "This is a screen reader-friendly problem."
-msgstr "Il s'agit d'un problème convivial pour les lecteurs d'écran."
+msgstr "Il s'agit d'un exercice convivial pour les lecteurs d'écran."
 
 #: public/js/drag_and_drop.js:364
 msgid ""
@@ -644,7 +630,7 @@ msgid ""
 "should select a draggable item with their keyboard and then navigate to an "
 "appropriate dropzone to drop it."
 msgstr ""
-"Les problèmes de glisser-déposer consistent en des éléments déplaçables et "
+"Les exercices de glisser-déposer consistent en des éléments déplaçables et "
 "des zones de dépôt. Les utilisateurs doivent sélectionner un élément "
 "déplaçable avec leur clavier, puis accéder à une zone de dépôt appropriée "
 "pour le déposer."
@@ -654,8 +640,8 @@ msgid ""
 "You can complete this problem using only your keyboard by following the "
 "guidance below:"
 msgstr ""
-"Vous pouvez résoudre ce problème en utilisant uniquement votre clavier en "
-"suivant les instructions ci-dessous :"
+"Vous pouvez résoudre cet exercice en utilisant uniquement votre clavier en "
+"suivant les instructions ci-dessous :"
 
 #: public/js/drag_and_drop.js:367
 msgid ""
@@ -676,29 +662,29 @@ msgid ""
 "Navigate using TAB and SHIFT+TAB to the appropriate dropzone and press "
 "CTRL+M once more to drop it here."
 msgstr ""
-"Naviguez en utilisant TAB et SHIFT+TAB jusqu'à la zone de dépôt appropriée "
-"et appuyez à nouveau sur CTRL+M pour la déposer ici."
+"Naviguez en utilisant TAB et SHIFT+TAB jusqu'à la zone de dépôt adéquate et "
+"appuyez sur CTRL+M encore une fois pour la déposer là."
 
 #: public/js/drag_and_drop.js:370
 msgid ""
 "Press ESC if you want to cancel the drop operation (for example, to select a"
 " different item)."
 msgstr ""
-"Appuyez sur ESC si vous souhaitez annuler l'opération de dépôt (par exemple,"
-" pour sélectionner un élément différent)."
+"Appuyez sur ESC si vous voulez annuler l'opération de dépôt (par exemple, "
+"pour sélectionner un autre élément)."
 
 #: public/js/drag_and_drop.js:371
 msgid ""
 "TAB back to the list of draggable items and repeat this process until all of"
 " the draggable items have been placed on their respective dropzones."
 msgstr ""
-"TAB pour revenir à la liste des éléments déplaçables et répétez ce processus"
-" jusqu'à ce que tous les éléments déplaçables aient été placés sur leurs "
-"zones de dépôt respectives."
+"Appuyez à nouveau sur TAB pour revenir à la liste d’éléments glissables et "
+"répétez cette procédure jusqu’à ce que tous les éléments glissables aient "
+"été placés dans leur propre zone de dépôt."
 
 #: public/js/drag_and_drop.js:389
 msgid "You have used {used} of {total} attempts."
-msgstr "Vous avez utilisé {used} tentatives sur {total}."
+msgstr "Vous avez utilisé {used} sur {total} tentatives."
 
 #: public/js/drag_and_drop.js:412
 msgid "Submit"
@@ -706,7 +692,7 @@ msgstr "Soumettre"
 
 #: public/js/drag_and_drop.js:453
 msgid "Show Answer"
-msgstr "Afficher la réponse"
+msgstr "Montrer la réponse"
 
 #: public/js/drag_and_drop.js:466
 msgid "Go to Beginning"
@@ -722,7 +708,7 @@ msgstr "Certaines de vos réponses n'étaient pas correctes."
 
 #: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1246
 msgid "Hints:"
-msgstr "Conseils :"
+msgstr "Astuces :"
 
 #: public/js/drag_and_drop.js:577
 msgid "Correct"
@@ -739,8 +725,9 @@ msgstr "Incorrect"
 #: public/js/drag_and_drop.js:610
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned}/{possible} point (noté)"
+msgstr[0] "{earned} / {possible} points (noté)"
 msgstr[1] "{earned}/{possible} points (notés)"
+msgstr[2] "{earned}/{possible} points (notés)"
 
 #. Translators: {earned} is the number of points earned. {possible} is the
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
@@ -749,8 +736,9 @@ msgstr[1] "{earned}/{possible} points (notés)"
 #: public/js/drag_and_drop.js:617
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
-msgstr[0] "{earned}/{possible} point (non noté)"
+msgstr[0] "{earned}/{possible} point (non noté(e))"
 msgstr[1] "{earned}/{possible} points (non noté)"
+msgstr[2] "{earned}/{possible} points (non noté)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
@@ -758,41 +746,43 @@ msgstr[1] "{earned}/{possible} points (non noté)"
 msgid "{possible} point possible (graded)"
 msgid_plural "{possible} points possible (graded)"
 msgstr[0] "{possible} point possible (noté)"
-msgstr[1] "{possible} points possibles (notés)"
+msgstr[1] "{possible} points possibles (noté)"
+msgstr[2] "{possible} points possibles (noté)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:634
 msgid "{possible} point possible (ungraded)"
 msgid_plural "{possible} points possible (ungraded)"
-msgstr[0] "{possible} point possible (non noté)"
-msgstr[1] "{possible} points possibles (non noté)"
+msgstr[0] "{possible} point possible (non évalué)"
+msgstr[1] "{possible} points éventuels (non notés)"
+msgstr[2] "{possible} points éventuels (non notés)"
 
 #: public/js/drag_and_drop.js:660
 msgid "Drag and Drop Problem"
-msgstr "Problème de glisser-déposer"
+msgstr "Exercice de glisser-déposer"
 
 #: public/js/drag_and_drop.js:662
 msgid "Problem"
-msgstr "Problème"
+msgstr "Exercice"
 
 #: public/js/drag_and_drop.js:687
 msgid "Item Bank"
-msgstr "Banque d'articles"
+msgstr "Banque d&#39;articles"
 
 #: public/js/drag_and_drop.js:732
 msgid "Drop Targets"
-msgstr "Lâcher des cibles"
+msgstr "Cibles de dépôt"
 
 #: public/js/drag_and_drop.js:898
 msgid "An error occurred. Unable to load drag and drop problem."
 msgstr ""
-"Une erreur s'est produite. Impossible de charger le problème de glisser-"
+"Une erreur est survenue. Impossible de charger l'exercice de glisser-"
 "déposer."
 
 #: public/js/drag_and_drop.js:1387
 msgid "You cannot add any more items to this zone."
-msgstr "Vous ne pouvez plus ajouter d'éléments à cette zone."
+msgstr "Vous ne pouvez plus ajouter d&#39;éléments à cette zone."
 
 #: public/js/drag_and_drop_edit.js:123 public/js/drag_and_drop_edit.js:524
 #: public/js/drag_and_drop_edit.js:755
@@ -801,13 +791,14 @@ msgstr "Il y a eu une erreur avec votre formulaire."
 
 #: public/js/drag_and_drop_edit.js:124
 msgid "Please check over your submission."
-msgstr "Veuillez vérifier votre soumission."
+msgstr "Veuillez vérifier votre réponse."
 
 #: public/js/drag_and_drop_edit.js:374
 msgid "Zone {num}"
 msgid_plural "Zone {num}"
 msgstr[0] "Zone {num}"
 msgstr[1] "Zone {num}"
+msgstr[2] "Zone {num}"
 
 #: public/js/drag_and_drop_edit.js:525
 msgid "Please check the values you entered."
@@ -815,4 +806,4 @@ msgstr "Veuillez vérifier les valeurs que vous avez saisies."
 
 #: public/js/drag_and_drop_edit.js:748
 msgid "Saving"
-msgstr "Sauvegarde en cours"
+msgstr "Enregistrement"

@@ -6,15 +6,15 @@
 # 
 # Translators:
 # Brian Smith, 2023
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Eden Huthmacher, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-11 00:34+0000\n"
+"POT-Creation-Date: 2025-12-13 00:35+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Eden Huthmacher, 2025\n"
 "Language-Team: Italian (Italy) (https://app.transifex.com/open-edx/teams/6205/it_IT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -210,6 +210,18 @@ msgstr ""
 "        Il risultato sarà visibile dopo <strong id=\"wait_deadline\"> Caricamento in corso... </strong>\n"
 "    "
 
+#: templates/emails/proctoring_attempt_satisfactory_email.html:5
+#: templates/emails/proctoring_attempt_submitted_email.html:5
+#: templates/emails/proctoring_attempt_unsatisfactory_email.html:5
+msgid ""
+"\n"
+"        Hello,\n"
+"    "
+msgstr ""
+"\n"
+"        Ciao,\n"
+"    "
+
 #: templates/emails/proctoring_attempt_satisfactory_email.html:12
 #, python-format
 msgid ""
@@ -240,6 +252,25 @@ msgstr ""
 "        <a href=\"%(contact_url)s\">\n"
 "            %(contact_url_text)s\n"
 "        </a>.\n"
+"    "
+
+#: templates/emails/proctoring_attempt_submitted_email.html:12
+#, python-format
+msgid ""
+"\n"
+"        Your proctored exam \"%(exam_name)s\" in\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> was submitted\n"
+"        successfully and will now be reviewed to ensure all exam\n"
+"        rules were followed. You should receive an email with your exam\n"
+"        status within 5 business days. Final grades may take longer.\n"
+"    "
+msgstr ""
+"\n"
+"        Il tuo esame con supervisione \"%(exam_name)s\" nel\n"
+"        <a href=\"%(course_url)s\">%(course_name)s</a> è stato inviato\n"
+"        con successo e verrà ora esaminato per garantire che tutte le regole\n"
+"        dell'esame siano state rispettate. Riceverai un'email con lo stato del tuo esame\n"
+"        entro 5 giorni lavorativi. I voti finali potrebbero richiedere più tempo.\n"
 "    "
 
 #: templates/emails/proctoring_attempt_unsatisfactory_email.html:12

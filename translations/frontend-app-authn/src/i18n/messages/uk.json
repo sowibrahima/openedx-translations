@@ -141,6 +141,7 @@
   "email.invalid.format.error": "Введіть дійсну адресу електронної пошти",
   "username.validation.message": "Iм'я користувача повинно мати від 2 до 30 символів",
   "name.validation.message": "Введіть дійсне ім'я.",
+  "registration.name.validation.length.message": "Повне ім'я не може перевищувати {limit} символів",
   "username.format.validation.message": "Імена користувачів можуть містити лише літери (A-Z, a-z), цифри (0-9), підкреслення (_) та дефіси (-). Імена користувачів не можуть містити пробілів.",
   "registration.request.failure.header": "Нам не вдалося створити ваш обліковий запис.",
   "registration.empty.form.submission.error": "Будь ласка, перевірте свої відповіді та повторіть спробу.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "ваш профіль",
   "register.page.terms.of.service.and.honor.code": "Оформлюючи обліковий запис, ви погоджуєтесь з {tosAndHonorCode} та підтверджуєте, що {platformName} і кожен Учасник обробляють ваші персональні дані відповідно до {privacyPolicy}.",
   "register.page.honor.code": "Я погоджуюсь з {platformName}&nbsp;{tosAndHonorCode}",
-  "register.page.terms.of.service": "Я погоджуюсь з {platformName}&nbsp;{termsOfService}"
+  "register.page.terms.of.service": "Я погоджуюсь з {platformName}&nbsp;{termsOfService}",
+  "error.notfound.page.title": "Сторінку не знайдено | {siteName}"
 }

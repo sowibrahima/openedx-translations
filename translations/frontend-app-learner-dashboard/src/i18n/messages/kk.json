@@ -2,7 +2,6 @@
   "learner-dash.loadingSR": "Жүктелуде...",
   "learner-dash.error-page-message": "Қайталанатын сәтсіздіктерге тап болсаңыз, {supportEmail} мекенжайына қолдау көрсетуге электрондық хат жіберіңіз.",
   "learner-dash.title": "Білім алушының негізгі беті",
-  "learner-dash.notices.error404Message": "Бұл платформада ескертулер плагині орнатылмағандықтан орын алған болуы мүмкін.",
   "learner-dash.courseCard.bannerAlt": "Курстың нобайы",
   "learner-dash.courseCard.verifiedBanner": "Тексерілді",
   "learner-dash.courseCard.verifiedHoverDescription": "Сіз расталған студент ретінде тіркелдіңіз",
@@ -67,7 +66,7 @@
   "learner-dash.unenrollConfirm.reasons.quality": "Мазмұнның сапасына көңілім толмайды",
   "learner-dash.unenrollConfirm.reasons.easy": "Курстың материалы тым жеңіл болды",
   "learner-dash.unenrollConfirm.reasons.custom-placeholder": "Басқа",
-  "learner-dash.unenrollConfirm.reasons.prefer-not-to-say": "",
+  "learner-dash.unenrollConfirm.reasons.prefer-not-to-say": "Мен айтпауды жөн көремін",
   "WidgetSidebar.lookingForChallengePrompt": "Жаңа сынақ іздеп жүрсіз бе?",
   "WidgetSidebar.findCoursesButton": "{arrow} курсын табыңыз",
   "Dashboard.NoCoursesView.lookingForChallengePrompt": "Жаңа сынақ іздеп жүрсіз бе?",
@@ -81,10 +80,10 @@
   "leanerDashboard.confirmEmailModalBody": "Есептік жазбаңызды растау үшін сізге электрондық хат жібердік. Кіріс жәшігіңізді тексеріп, растау және оқуды жалғастыру үшін үлкен қызыл түймені басыңыз.",
   "leanerDashboard.confirmEmailImageAlt": "электрондық пошта фонын растаңыз",
   "learner-dash.unenrollConfirm.confirm.header": "Тіркеуден шығуды растау",
-  "learner-dash.unenrollConfirm.confirm.text": "",
+  "learner-dash.unenrollConfirm.confirm.text": "Сіз {courseTitle} курсынан шығуды қалайсыз ба?",
   "learner-dash.unenrollConfirm.confirm.cancel": "Болдырмау",
   "learner-dash.unenrollConfirm.confirm.unenroll": "Тіркелуден бас тарту",
-  "learner-dash.unenrollConfirm.confirm.reason.heading": "",
+  "learner-dash.unenrollConfirm.confirm.reason.heading": "Неліктен сіз курстан бас тарттыңыз?",
   "learner-dash.unenrollConfirm.confirm.reason.skip": "Сауалнаманы өткізіп жіберу",
   "learner-dash.unenrollConfirm.confirm.reason.submit": "Тіркелуден бас тарту",
   "learner-dash.unenrollConfirm.confirm.finish.heading": "Тіркеуден шығу сәтті өтті",
@@ -144,5 +143,6 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} курс кредитіне сұрауыңызды мақұлдамады. Қосымша ақпарат алу үшін {linkToProviderSite} тікелей хабарласыңыз.",
   "learner-dash.courseCard.banners.credit.requestCredit": "Кредит сұрау",
   "learner-dash.courseCard.banners.credit.viewCredit": "Кредитті көру",
-  "learner-dash.courseCard.banners.credit.viewDetails": "Мәліметтерді көру"
+  "learner-dash.courseCard.banners.credit.viewDetails": "Мәліметтерді көру",
+  "learner-dash.page.title": ""
 }

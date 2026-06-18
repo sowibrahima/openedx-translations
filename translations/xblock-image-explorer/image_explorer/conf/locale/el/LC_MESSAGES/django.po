@@ -1,11 +1,11 @@
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
+# Brian Smith, 2026
+# Gerardo Núñez, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-01 01:00+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"Last-Translator: Gerardo Núñez, 2026\n"
 "Language-Team: Greek (https://app.transifex.com/open-edx/teams/6205/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,33 +21,33 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: image_explorer.py:60
+#: image_explorer.py:59
 msgid "Display Name"
 msgstr "Εμφανιζόμενο όνομα"
 
-#: image_explorer.py:61
+#: image_explorer.py:60
 msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr ""
 "Αυτό το όνομα εμφανίζεται στην οριζόντια πλοήγηση στο επάνω μέρος της "
 "σελίδας."
 
-#: image_explorer.py:63
+#: image_explorer.py:62
 msgid "Image Explorer"
 msgstr "Εξερεύνηση εικόνων"
 
-#: image_explorer.py:67
+#: image_explorer.py:66
 msgid "Hot Spots Coordinates Centered"
 msgstr "Συντεταγμένες καυτών σημείων στο κέντρο"
 
-#: image_explorer.py:73
+#: image_explorer.py:72
 msgid "Store hotspots opened by student, for completion"
-msgstr "Σημεία πρόσβασης καταστημάτων που άνοιξε ο μαθητής, για συμπλήρωση"
+msgstr "Σημεία πρόσβασης καταστημάτων που ανοίγει ο μαθητής, για συμπλήρωση"
 
-#: image_explorer.py:78
+#: image_explorer.py:77
 msgid "XML contents to display for this module"
-msgstr "Περιεχόμενα XML για εμφάνιση για αυτήν την ενότητα"
+msgstr "Περιεχόμενο XML για εμφάνιση για αυτήν την ενότητα"
 
-#: image_explorer.py:231
+#: image_explorer.py:230
 msgid "Missing event_type in JSON data"
 msgstr "Λείπει το event_type στα δεδομένα JSON"
 

@@ -141,6 +141,7 @@
   "email.invalid.format.error": "یک آدرس ایمیل معتبر وارد کنید",
   "username.validation.message": "نام کاربری باید بین ۲ تا ۳۰ کاراکتر باشد",
   "name.validation.message": "یک نام معتبر وارد کنید",
+  "registration.name.validation.length.message": "نام کامل نمی‌تواند بیشتر از {limit} کاراکتر باشد",
   "username.format.validation.message": "نام کاربری فقط می‌تواند شامل حروف (AZ، az)، اعداد (0-9)، زیرخط (_) و خط فاصله (-) باشد. نام کاربری نمی‌تواند حاوی فاصله باشد",
   "registration.request.failure.header": "ما نتوانستیم حساب کاربری شما را ایجاد کنیم.",
   "registration.empty.form.submission.error": "لطفاً پاسخ‌های خود را بررسی و دوباره امتحان کنید.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "پروفایل شما",
   "register.page.terms.of.service.and.honor.code": "با ایجاد یک حساب کاربری، شما با {tosAndHonorCode} موافقت می کنید و تصدیق می کنید که {platformName} و هر عضو داده های شخصی شما را مطابق با {privacyPolicy} پردازش می کند.",
   "register.page.honor.code": "با {tosAndHonorCode} {platformName} موافقم",
-  "register.page.terms.of.service": "با {termsOfService} {platformName} موافقم"
+  "register.page.terms.of.service": "با {termsOfService} {platformName} موافقم",
+  "error.notfound.page.title": "صفحه پیدا نشد | {siteName}"
 }

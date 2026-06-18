@@ -296,6 +296,11 @@
   "enterprise.skills.quiz.v1.continue.button.label1": "Tiếp tục",
   "enterprise.skills.quiz.v1.continue.button.label2": "Tiếp tục",
   "enterprise.skills.quiz.v1.done.button.label": "Xong",
+  "enterprise.skills.goal.default": "Chọn một mục tiêu",
+  "enterprise.skills.goal.changeCareers": "Tôi muốn thay đổi nghề nghiệp",
+  "enterprise.skills.goal.getPromoted": "Tôi muốn được thăng chức",
+  "enterprise.skills.goal.improveCurrentRole": "Tôi muốn cải thiện vai trò hiện tại của mình",
+  "enterprise.skills.goal.other": "Khác",
   "enterprise.skills.quiz.v2.job.card.related.skills.label": "Các kỹ năng liên quan",
   "enterprise.skills.quiz.v2.see.more.recommendations.label": "Xem thêm đề xuất khóa học",
   "enterprise.skills.quiz.v2.skills.builder.title": "edx - Người xây dựng kỹ năng",
@@ -495,5 +500,12 @@
   "enterprise.dashboard.courses.tab.my.courses.section.available.date": "Có sẵn trên {upcomingDate}",
   "enterprise.learner_portal.dashbboard.enrollments.course.upgrade.overlay.text.covered_by_organization": "Được bảo vệ bởi tổ chức của bạn",
   "enterprise.learner_portal.dashbboard.enrollments.course.upgrade.button.text": "Nâng cấp miễn phí <s>{title}</s>",
-  "enterprise.dashboard.sidebar.license.requested.notice": "Chờ phê duyệt."
+  "enterprise.dashboard.sidebar.license.requested.notice": "Chờ phê duyệt.",
+  "enterprise.learner_portal.unenroll_modal.button.unenroll": "Hủy ghi danh",
+  "enterprise.learner_portal.unenroll_modal.title": "Hủy ghi danh khóa học?",
+  "enterprise.learner_portal.unenroll_modal.button.keep_learning": "Tiếp tục học hỏi",
+  "enterprise.learner_portal.unenroll_modal.error_message": "Đã xảy ra lỗi khi hủy ghi danh khỏi khóa học của bạn. Vui lòng thử lại.",
+  "enterprise.learner_portal.unenroll_modal.warning_message": "Tiến trình bạn đã thực hiện cho đến nay sẽ không được lưu lại.",
+  "enterprise.learner_portal.unenroll_modal.pending_message": "Đang hủy ghi danh...",
+  "enterprise.unenroll.success": "Bạn đã bị hủy ghi danh khỏi khóa học."
 }

@@ -1,11 +1,13 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Joel Edwards, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Afrikaans (South Africa) (https://app.transifex.com/open-edx/teams/6205/af_ZA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,16 +28,16 @@ msgid ""
 "Preview the data sharing consent page rendered in the context of a course "
 "enrollment."
 msgstr ""
-"Voorbeskou die toestemmingsbladsy vir datadeling wat in die konteks van "
-"&#39;n kursusinskrywing gelewer is."
+"Voorbeskou die toestemmingsbladsy vir datadeling wat in die konteks van 'n "
+"kursusinskrywing gelewer is."
 
 #: consent/admin/__init__.py:110
 msgid ""
 "Preview the data sharing consent page rendered in the context of a program "
 "enrollment."
 msgstr ""
-"Voorbeskou die toestemmingsbladsy vir datadeling wat in die konteks van "
-"&#39;n programinskrywing gelewer is."
+"Voorbeskou die toestemmingsbladsy vir datadeling wat in die konteks van 'n "
+"programinskrywing gelewer is."
 
 #: consent/admin/__init__.py:119 enterprise/admin/__init__.py:721
 msgid "Preview (course)"
@@ -80,14 +82,13 @@ msgid ""
 "consent is course.</li><li>course_start_date: Course start date. Available "
 "when type of consent is course.</li></ul>"
 msgstr ""
-"Vul &#39;n teks vir eerste paragraaf van bladsy in. Die volgende "
-"veranderlikes kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: "
-"&#39;n Naam van ondernemingsklant.</li><li> platform_name: Naam van "
-"platform.</li><li> item: &#39;n String wat &quot;kursus&quot; of "
-"&quot;program&quot; is, afhangende van die tipe toestemming.</li><li> "
-"kursus_titel: Titel natuurlik. Beskikbaar wanneer tipe toestemming natuurlik"
-" is.</li><li> kursus_begin_datum: Kursus begin datum. Beskikbaar wanneer "
-"tipe toestemming natuurlik is.</li></ul>"
+"Vul 'n teks vir eerste paragraaf van bladsy in. Die volgende veranderlikes "
+"kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: 'n Naam van "
+"ondernemingsklant.</li><li> platform_name: Naam van platform.</li><li> item:"
+" 'n String wat \"kursus\" of \"program\" is, afhangende van die tipe "
+"toestemming.</li><li> kursus_titel: Titel natuurlik. Beskikbaar wanneer tipe"
+" toestemming natuurlik is.</li><li> kursus_begin_datum: Kursus begin datum. "
+"Beskikbaar wanneer tipe toestemming natuurlik is.</li></ul>"
 
 #: consent/models.py:279
 msgid ""
@@ -99,14 +100,14 @@ msgid ""
 "consent is course.</li><li>course_start_date: Course start date. Available "
 "when type of consent is course.</li></ul>"
 msgstr ""
-"Vul &#39;n teks vir beleidsparagraaf onderaan bladsy in. Die volgende "
+"Vul 'n teks vir beleidsparagraaf onderaan bladsy in. Die volgende "
 "veranderlikes kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: "
-"&#39;n Naam van ondernemingsklant.</li><li> platform_name: Naam van "
-"platform.</li><li> item: &#39;n String wat &quot;kursus&quot; of "
-"&quot;program&quot; is, afhangende van die tipe toestemming.</li><li> "
-"kursus_titel: Titel natuurlik. Beskikbaar wanneer tipe toestemming natuurlik"
-" is.</li><li> kursus_begin_datum: Kursus begin datum. Beskikbaar wanneer "
-"tipe toestemming natuurlik is.</li></ul>"
+"'n Naam van ondernemingsklant.</li><li> platform_name: Naam van "
+"platform.</li><li> item: 'n String wat \"kursus\" of \"program\" is, "
+"afhangende van die tipe toestemming.</li><li> kursus_titel: Titel natuurlik."
+" Beskikbaar wanneer tipe toestemming natuurlik is.</li><li> "
+"kursus_begin_datum: Kursus begin datum. Beskikbaar wanneer tipe toestemming "
+"natuurlik is.</li></ul>"
 
 #: consent/models.py:289
 msgid ""
@@ -118,14 +119,13 @@ msgid ""
 "consent is course.</li><li>course_start_date: Course start date. Available "
 "when type of consent is course.</li></ul>"
 msgstr ""
-"Vul &#39;n teks vir linkerkantbalk paragraaf in. Die volgende veranderlikes "
-"kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: &#39;n Naam van"
-" ondernemingsklant.</li><li> platform_name: Naam van platform.</li><li> "
-"item: &#39;n String wat &quot;kursus&quot; of &quot;program&quot; is, "
-"afhangende van die tipe toestemming.</li><li> kursus_titel: Titel natuurlik."
-" Beskikbaar wanneer tipe toestemming natuurlik is.</li><li> "
-"kursus_begin_datum: Kursus begin datum. Beskikbaar wanneer tipe toestemming "
-"natuurlik is.</li></ul>"
+"Vul 'n teks vir linkerkantbalk paragraaf in. Die volgende veranderlikes kan "
+"beskikbaar wees:<br /><ul><li> enterprise_customer_name: 'n Naam van "
+"ondernemingsklant.</li><li> platform_name: Naam van platform.</li><li> item:"
+" 'n String wat \"kursus\" of \"program\" is, afhangende van die tipe "
+"toestemming.</li><li> kursus_titel: Titel natuurlik. Beskikbaar wanneer tipe"
+" toestemming natuurlik is.</li><li> kursus_begin_datum: Kursus begin datum. "
+"Beskikbaar wanneer tipe toestemming natuurlik is.</li></ul>"
 
 #: consent/models.py:299
 msgid ""
@@ -137,14 +137,13 @@ msgid ""
 "Available when type of consent is course.</li><li>course_start_date: Course "
 "start date. Available when type of consent is course.</li></ul>"
 msgstr ""
-"Vul &#39;n teks vir dialoog in wat verskyn wanneer gebruiker weier om "
+"Vul 'n teks vir dialoog in wat verskyn wanneer gebruiker weier om "
 "toestemming te gee. Die volgende veranderlikes kan beskikbaar wees:<br "
-"/><ul><li> enterprise_customer_name: &#39;n Naam van "
-"ondernemingsklant.</li><li> item: &#39;n String wat &quot;kursus&quot; of "
-"&quot;program&quot; is, afhangende van die tipe toestemming.</li><li> "
-"kursus_titel: Titel natuurlik. Beskikbaar wanneer tipe toestemming natuurlik"
-" is.</li><li> kursus_begin_datum: Kursus begin datum. Beskikbaar wanneer "
-"tipe toestemming natuurlik is.</li></ul>"
+"/><ul><li> enterprise_customer_name: 'n Naam van ondernemingsklant.</li><li>"
+" item: 'n String wat \"kursus\" of \"program\" is, afhangende van die tipe "
+"toestemming.</li><li> kursus_titel: Titel natuurlik. Beskikbaar wanneer tipe"
+" toestemming natuurlik is.</li><li> kursus_begin_datum: Kursus begin datum. "
+"Beskikbaar wanneer tipe toestemming natuurlik is.</li></ul>"
 
 #: consent/models.py:309
 msgid ""
@@ -154,11 +153,11 @@ msgid ""
 "customer.</li><li>course_title: Title of course. Available when type of "
 "consent is course.</li></ul>"
 msgstr ""
-"Vul &#39;n teks in vir die titel van die kennisgewing wat op dashboard "
-"verskyn wanneer gebruiker weier om toestemming te gee. Die volgende "
-"veranderlikes kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: "
-"&#39;n Naam van ondernemingsklant.</li><li> kursus_titel: Titel natuurlik. "
-"Beskikbaar wanneer tipe toestemming natuurlik is.</li></ul>"
+"Vul 'n teks in vir die titel van die kennisgewing wat op dashboard verskyn "
+"wanneer gebruiker weier om toestemming te gee. Die volgende veranderlikes "
+"kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: 'n Naam van "
+"ondernemingsklant.</li><li> kursus_titel: Titel natuurlik. Beskikbaar "
+"wanneer tipe toestemming natuurlik is.</li></ul>"
 
 #: consent/models.py:318
 msgid ""
@@ -168,10 +167,10 @@ msgid ""
 "customer.</li><li>course_title: Title of course. Available when type of "
 "consent is course.</li></ul>"
 msgstr ""
-"Vul &#39;n teks vir boodskap van die kennisgewing in wat op die paneelbord "
+"Vul 'n teks vir boodskap van die kennisgewing in wat op die paneelbord "
 "verskyn wanneer gebruiker weier om toestemming te gee. Die volgende "
 "veranderlikes kan beskikbaar wees:<br /><ul><li> enterprise_customer_name: "
-"&#39;n Naam van ondernemingsklant.</li><li> kursus_titel: Titel natuurlik. "
+"'n Naam van ondernemingsklant.</li><li> kursus_titel: Titel natuurlik. "
 "Beskikbaar wanneer tipe toestemming natuurlik is.</li></ul>"
 
 #: consent/models.py:329
@@ -265,9 +264,8 @@ msgid ""
 "Represents the canvas representation of a timestamp: yyyy-mm-dd, which is "
 "always 10 characters. Can be left unset for audit transmissions."
 msgstr ""
-"Verteenwoordig die skilderdoekvoorstelling van &#39;n tydstempel: jjjj-mm-"
-"dd, wat altyd 10 karakters is. Kan ongesteld gelaat word vir "
-"oudituitsendings."
+"Verteenwoordig die skilderdoekvoorstelling van 'n tydstempel: jjjj-mm-dd, "
+"wat altyd 10 karakters is. Kan ongesteld gelaat word vir oudituitsendings."
 
 #: integrated_channels/cornerstone/models.py:39
 msgid "The API path for making completion POST requests to Cornerstone."
@@ -326,13 +324,12 @@ msgstr "Datum tyd wanneer sessietoken laas verskaf is"
 msgid "If checked, subjects will not be sent to Cornerstone"
 msgstr "Indien gemerk, sal vakke nie na Cornerstone gestuur word nie"
 
-#: integrated_channels/cornerstone/models.py:306
+#: integrated_channels/cornerstone/models.py:311
 msgid "This is the edX course key that is used as a unique identifier."
 msgstr ""
-"Dit is die edX-kursussleutel wat as &#39;n unieke identifiseerder gebruik "
-"word."
+"Dit is die edX-kursussleutel wat as 'n unieke identifiseerder gebruik word."
 
-#: integrated_channels/cornerstone/models.py:313
+#: integrated_channels/cornerstone/models.py:318
 msgid "This is the course key that is being sent to our partners."
 msgstr "Dit is die kursussleutel wat aan ons vennote gestuur word."
 
@@ -399,8 +396,8 @@ msgstr ""
 #: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:37
 msgid "Username of a user authorized to fetch grades from the LMS API."
 msgstr ""
-"Gebruikersnaam van &#39;n gebruiker wat gemagtig is om punte van die LMS API"
-" af te haal."
+"Gebruikersnaam van 'n gebruiker wat gemagtig is om punte van die LMS API af "
+"te haal."
 
 #: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:56
 #: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:51
@@ -408,7 +405,7 @@ msgstr ""
 #: enterprise/management/commands/migrate_enterprise_catalogs.py:46
 #, python-brace-format
 msgid "A user with the username {username} was not found."
-msgstr "&#39;n Gebruiker met die gebruikersnaam {username} is nie gevind nie."
+msgstr "'n Gebruiker met die gebruikersnaam {username} is nie gevind nie."
 
 #: integrated_channels/integrated_channel/management/commands/remove_duplicate_learner_transmission_audit_records.py:21
 #: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:23
@@ -461,7 +458,7 @@ msgstr ""
 
 #: integrated_channels/integrated_channel/models.py:115
 msgid "A configuration nickname."
-msgstr "&#39;n Konfigurasiebynaam."
+msgstr "'n Konfigurasiebynaam."
 
 #: integrated_channels/integrated_channel/models.py:122
 #: integrated_channels/xapi/models.py:30
@@ -493,7 +490,7 @@ msgid ""
 "APIs."
 msgstr ""
 "Ondernemingskanaalwerker-gebruikernaam om JWT-tokens te kry vir die "
-"verifikasie van LMS-API&#39;s."
+"verifikasie van LMS-API's."
 
 #: integrated_channels/integrated_channel/models.py:168
 msgid ""
@@ -502,10 +499,10 @@ msgid ""
 "customer catalogs, the overlapping course metadata will be selected from the"
 " newest catalog."
 msgstr ""
-"&#39;n Komma-geskeide lys van katalogus UUID&#39;s om te versend. Indien "
-"leeg, sal alle klantekatalogusse versend word. As daar oorvleuelende "
-"kursusse in die kliëntkatalogusse is, sal die oorvleuelende kursusmetadata "
-"uit die nuutste katalogus gekies word."
+"'n Komma-geskeide lys van katalogus UUID's om te versend. Indien leeg, sal "
+"alle klantekatalogusse versend word. As daar oorvleuelende kursusse in die "
+"kliëntkatalogusse is, sal die oorvleuelende kursusmetadata uit die nuutste "
+"katalogus gekies word."
 
 #: integrated_channels/integrated_channel/models.py:176
 msgid ""
@@ -516,17 +513,17 @@ msgstr ""
 "leerderdata-uitsendings ontvang nie, beide geskeduleer en seingebaseer"
 
 #: integrated_channels/integrated_channel/models.py:537
-#: integrated_channels/integrated_channel/models.py:713
+#: integrated_channels/integrated_channel/models.py:718
 msgid "Data pertaining to the transmissions API request response."
 msgstr "Data wat betrekking het op die transmissie-API-versoekreaksie."
 
 #: integrated_channels/moodle/admin/__init__.py:31
 msgid "Cannot set both a Username/Password and Token"
-msgstr "Kan nie beide &#39;n Gebruikersnaam/Wagwoord en Token stel nie"
+msgstr "Kan nie beide 'n Gebruikersnaam/Wagwoord en Token stel nie"
 
 #: integrated_channels/moodle/admin/__init__.py:33
 msgid "Must set both a Username and Password, not just one"
-msgstr "Moet beide &#39;n gebruikersnaam en wagwoord stel, nie net een nie"
+msgstr "Moet beide 'n gebruikersnaam en wagwoord stel, nie net een nie"
 
 #: integrated_channels/moodle/models.py:38
 msgid "The base URL used for API requests to Moodle"
@@ -584,7 +581,7 @@ msgstr ""
 
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
 #: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
-#: enterprise/views.py:1604
+#: enterprise/views.py:1608
 msgid "Starts"
 msgstr "Begin"
 
@@ -630,7 +627,7 @@ msgstr "Tipe SAP-gebruiker (admin of gebruiker)."
 
 #: integrated_channels/sap_success_factors/models.py:179
 msgid "A comma-separated list of additional locales."
-msgstr "&#39;n Komma-geskeide lys van bykomende plekke."
+msgstr "'n Komma-geskeide lys van bykomende plekke."
 
 #: integrated_channels/sap_success_factors/models.py:183
 msgid "Transmit Total Hours"
@@ -647,8 +644,8 @@ msgid ""
 "completion."
 msgstr ""
 "Wanneer dit op True gestel is, sal die integrasie die generiese edX-"
-"diensgebruiker (&#39;sapsf_user_id&#39;) gebruik wat in die SAP-"
-"kliëntkonfigurasie gedefinieer is vir kursusvoltooiing."
+"diensgebruiker ('sapsf_user_id') gebruik wat in die SAP-kliëntkonfigurasie "
+"gedefinieer is vir kursusvoltooiing."
 
 #: integrated_channels/xapi/models.py:33
 msgid "Version of xAPI."
@@ -670,29 +667,28 @@ msgstr "geheim van xAPI LRS."
 msgid ""
 "Preview the HTML template rendered in the context of a course enrollment."
 msgstr ""
-"Voorbeskou die HTML-sjabloon wat in die konteks van &#39;n kursusinskrywing "
+"Voorbeskou die HTML-sjabloon wat in die konteks van 'n kursusinskrywing "
 "gelewer is."
 
 #: enterprise/admin/__init__.py:725
 msgid ""
 "Preview the HTML template rendered in the context of a program enrollment."
 msgstr ""
-"Voorbeskou die HTML-sjabloon wat in die konteks van &#39;n programinskrywing"
-" gelewer is."
+"Voorbeskou die HTML-sjabloon wat in die konteks van 'n programinskrywing "
+"gelewer is."
 
 #: enterprise/admin/forms.py:52
 msgid "To add a single learner, enter an email address or username."
 msgstr ""
-"Om &#39;n enkele leerder by te voeg, voer &#39;n e-posadres of "
-"gebruikersnaam in."
+"Om 'n enkele leerder by te voeg, voer 'n e-posadres of gebruikersnaam in."
 
 #: enterprise/admin/forms.py:56
 msgid ""
 "To add multiple learners, upload a .csv file that contains a column of email"
 " addresses."
 msgstr ""
-"Om veelvuldige leerders by te voeg, laai &#39;n .csv-lêer op wat &#39;n "
-"kolom van e-posadresse bevat."
+"Om veelvuldige leerders by te voeg, laai 'n .csv-lêer op wat 'n kolom van "
+"e-posadresse bevat."
 
 #: enterprise/admin/forms.py:61
 msgid ""
@@ -701,11 +697,10 @@ msgid ""
 "column of course run keys, indicated by the heading 'course_id' in the first"
 " row, to enroll learners in multiple courses."
 msgstr ""
-"Die .csv-lêer moet &#39;n kolom van e-posadresse hê, aangedui deur die "
-"opskrif &#39;e-pos&#39; in die eerste ry. Opsioneel kan die .csv-lêer &#39;n"
-" kolom van kursusrunsleutels bevat, aangedui deur die opskrif "
-"&#39;course_id&#39; in die eerste ry, om leerders in veelvuldige kursusse in"
-" te skryf."
+"Die .csv-lêer moet 'n kolom van e-posadresse hê, aangedui deur die opskrif "
+"'e-pos' in die eerste ry. Opsioneel kan die .csv-lêer 'n kolom van "
+"kursusrunsleutels bevat, aangedui deur die opskrif 'course_id' in die eerste"
+" ry, om leerders in veelvuldige kursusse in te skryf."
 
 #: enterprise/admin/forms.py:68
 msgid "Enroll these learners in this course"
@@ -713,37 +708,37 @@ msgstr "Skryf hierdie leerders vir hierdie kursus in"
 
 #: enterprise/admin/forms.py:69
 msgid "To enroll learners in a course, enter a course ID."
-msgstr "Om leerders vir &#39;n kursus in te skryf, voer &#39;n kursus-ID in."
+msgstr "Om leerders vir 'n kursus in te skryf, voer 'n kursus-ID in."
 
 #: enterprise/admin/forms.py:72
 msgid "Course enrollment track"
 msgstr "Kursus inskrywing spoor"
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1629
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
 msgid "Audit"
 msgstr "Oudit"
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1630
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
 msgid "Verified"
 msgstr "Geverifieer"
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1631
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
 msgid "Professional Education"
 msgstr "Professionele Onderwys"
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1632
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
 msgid "Professional Education (no ID)"
 msgstr "Professionele onderwys (geen ID)"
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1633
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
 msgid "Credit"
 msgstr "Krediet"
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1634
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
 msgid "Honor"
 msgstr "Eer"
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1635
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
 msgid "Unpaid Executive Education"
 msgstr "Onbetaalde Bestuursopleiding"
 
@@ -781,7 +776,7 @@ msgstr "E-pos/gebruikersnaam"
 
 #: enterprise/admin/forms.py:311
 msgid "Enter an email address or username."
-msgstr "Voer &#39;n e-posadres of gebruikersnaam in."
+msgstr "Voer 'n e-posadres of gebruikersnaam in."
 
 #: enterprise/admin/forms.py:315
 msgid "Course"
@@ -798,8 +793,8 @@ msgstr "Voorskou"
 #: enterprise/admin/forms.py:437
 msgid "Hold Ctrl when clicking on button to open Preview in new tab"
 msgstr ""
-"Hou Ctrl in wanneer u op die knoppie klik om Voorskou in &#39;n nuwe oortjie"
-" oop te maak"
+"Hou Ctrl in wanneer u op die knoppie klik om Voorskou in 'n nuwe oortjie oop"
+" te maak"
 
 #: enterprise/admin/forms.py:500
 msgid "Identity Provider"
@@ -811,7 +806,7 @@ msgid ""
 "contact a system administrator."
 msgstr ""
 "Die gespesifiseerde identiteitsverskaffer bestaan nie. Vir meer inligting, "
-"kontak &#39;n stelseladministrateur."
+"kontak 'n stelseladministrateur."
 
 #: enterprise/admin/forms.py:535
 #, python-brace-format
@@ -825,9 +820,9 @@ msgstr ""
 "Die webwerf vir die geselekteerde identiteitsverskaffer ( "
 "{identity_provider_site} ) stem nie ooreen met die webwerf vir hierdie "
 "ondernemingskliënt nie ( {enterprise_customer_site} ). Om hierdie probleem "
-"reg te stel, kies &#39;n webwerf wat &#39;n domein van &#39; "
-"{identity_provider_site} &#39; het, of dateer die identiteitsverskaffer op "
-"na &#39; {enterprise_customer_site} &#39;."
+"reg te stel, kies 'n webwerf wat 'n domein van ' {identity_provider_site} ' "
+"het, of dateer die identiteitsverskaffer op na ' {enterprise_customer_site} "
+"'."
 
 #: enterprise/admin/forms.py:613
 #, python-brace-format
@@ -836,8 +831,8 @@ msgid ""
 "\"{enterprise_customer.name}\". Please select a different data type."
 msgstr ""
 "&quot;{data_type}&quot;-datatipe word nie vir ondernemingskliënt "
-"&quot;{enterprise_customer.name}&quot; ondersteun nie. Kies asseblief &#39;n"
-" ander datatipe."
+"&quot;{enterprise_customer.name}&quot; ondersteun nie. Kies asseblief 'n "
+"ander datatipe."
 
 #: enterprise/admin/forms.py:630
 #, python-brace-format
@@ -857,17 +852,16 @@ msgid ""
 "User specified is not linked to an active Enterprise Customer. Select "
 "`Applies to all contexts` or choose a different user."
 msgstr ""
-"Gebruiker gespesifiseer is nie gekoppel aan &#39;n aktiewe ondernemingsklant"
-" nie. Kies `Van toepassing op alle kontekste` of kies &#39;n ander "
-"gebruiker."
+"Gebruiker gespesifiseer is nie gekoppel aan 'n aktiewe ondernemingsklant "
+"nie. Kies `Van toepassing op alle kontekste` of kies 'n ander gebruiker."
 
 #: enterprise/admin/forms.py:783
 msgid ""
 "Please select different date range. There is another notification scheduled "
 "in this date range."
 msgstr ""
-"Kies asseblief &#39;n ander datumreeks. Daar is nog &#39;n kennisgewing in "
-"hierdie datumreeks geskeduleer."
+"Kies asseblief 'n ander datumreeks. Daar is nog 'n kennisgewing in hierdie "
+"datumreeks geskeduleer."
 
 #: enterprise/admin/views.py:238
 msgid "Successfully requested the Data Sharing consent from learner."
@@ -897,9 +891,9 @@ msgid ""
 "Customer. These learners were not added to {enterprise_customer_name}: "
 "{list_of_emails}"
 msgstr ""
-"Die volgende leerders is reeds geassosieer met &#39;n ander "
-"Ondernemingskliënt. Hierdie leerders is nie by {enterprise_customer_name} "
-"gevoeg nie: {list_of_emails}"
+"Die volgende leerders is reeds geassosieer met 'n ander Ondernemingskliënt. "
+"Hierdie leerders is nie by {enterprise_customer_name} gevoeg nie: "
+"{list_of_emails}"
 
 #: enterprise/admin/views.py:514
 #, python-brace-format
@@ -935,23 +929,23 @@ msgid ""
 "not been enrolled in {enrolled_in}. When these learners create an account, "
 "they will be enrolled automatically: {pending_email_list}"
 msgstr ""
-"Die volgende leerders het nie &#39;n rekening op {platform_name} nie. Hulle "
-"is nie by {enrolled_in} ingeskryf nie. Wanneer hierdie leerders &#39;n "
-"rekening skep, sal hulle outomaties ingeskryf word: {pending_email_list}"
+"Die volgende leerders het nie 'n rekening op {platform_name} nie. Hulle is "
+"nie by {enrolled_in} ingeskryf nie. Wanneer hierdie leerders 'n rekening "
+"skep, sal hulle outomaties ingeskryf word: {pending_email_list}"
 
-#: enterprise/admin/views.py:912
+#: enterprise/admin/views.py:919
 #, python-brace-format
 msgid "Email {email} is not associated with Enterprise Customer {ec_name}"
 msgstr "E-pos {email} word nie geassosieer met ondernemingsklant {ec_name}"
 
-#: enterprise/admin/views.py:976
+#: enterprise/admin/views.py:983
 msgid ""
 "Successfully written the \"Auth org id\" field for this enterprise customer."
 msgstr ""
 "Die &quot;Auth org id&quot;-veld is suksesvol geskryf vir hierdie "
 "ondernemingsklant."
 
-#: enterprise/api/utils.py:97
+#: enterprise/api/utils.py:357
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -962,7 +956,7 @@ msgstr ""
 " Bykomende notas:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:104
+#: enterprise/api/utils.py:364
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
@@ -971,7 +965,7 @@ msgstr ""
 "{token_email} van {token_enterprise_name} het {token_number_codes} bykomende"
 " kodes versoek. Kontak hulle asseblief."
 
-#: enterprise/api/utils.py:110
+#: enterprise/api/utils.py:370
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -982,7 +976,7 @@ msgstr ""
 " Bykomende notas:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:116
+#: enterprise/api/utils.py:376
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
@@ -991,19 +985,19 @@ msgstr ""
 "{token_email} van {token_enterprise_name} het bykomende kodes versoek. "
 "Kontak hulle asseblief."
 
-#: enterprise/api/v1/serializers.py:95
+#: enterprise/api/v1/serializers.py:96
 msgid "Total count of items."
 msgstr "Totale aantal items."
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch next page of items."
 msgstr "URL om volgende bladsy items te gaan haal."
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:98
 msgid "URL to fetch previous page of items."
 msgstr "URL om vorige bladsy van items te gaan haal."
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:99
 msgid "List of items."
 msgstr "Lys van items."
 
@@ -1058,25 +1052,25 @@ msgid ""
 "To use this endpoint, this package must be installed in an Open edX "
 "environment."
 msgstr ""
-"Om hierdie eindpunt te gebruik, moet hierdie pakket in &#39;n Open edX-"
-"omgewing geïnstalleer word."
+"Om hierdie eindpunt te gebruik, moet hierdie pakket in 'n Open edX-omgewing "
+"geïnstalleer word."
 
 #: enterprise/api_client/discovery.py:60
-#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1638
+#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1642
 msgid ""
 "To get a CatalogIntegration object, this package must be installed in an "
 "Open edX environment."
 msgstr ""
-"Om &#39;n CatalogIntegration-objek te kry, moet hierdie pakket in &#39;n "
-"Open edX-omgewing geïnstalleer word."
+"Om 'n CatalogIntegration-objek te kry, moet hierdie pakket in 'n Open edX-"
+"omgewing geïnstalleer word."
 
 #: enterprise/api_client/discovery.py:65
 msgid ""
 "To parse a Catalog API response, this package must be installed in an Open "
 "edX environment."
 msgstr ""
-"Om &#39;n Catalog API-reaksie te ontleed, moet hierdie pakket in &#39;n Open"
-" edX-omgewing geïnstalleer word."
+"Om 'n Catalog API-reaksie te ontleed, moet hierdie pakket in 'n Open edX-"
+"omgewing geïnstalleer word."
 
 #: enterprise/api_client/discovery.py:410
 msgid "The configured CatalogIntegration service user does not exist."
@@ -1091,8 +1085,8 @@ msgid ""
 "To get a ecommerce_api_client, this package must be installed in an Open edX"
 " environment."
 msgstr ""
-"Om &#39;n ecommerce_api_client te kry, moet hierdie pakket in &#39;n Open "
-"edX-omgewing geïnstalleer word."
+"Om 'n ecommerce_api_client te kry, moet hierdie pakket in 'n Open edX-"
+"omgewing geïnstalleer word."
 
 #: enterprise/config/models.py:41
 msgid ""
@@ -1166,25 +1160,25 @@ msgid ""
 msgstr ""
 "Jy het die {strong_start} {enterprise_customer_name} {strong_end} webwerf "
 "verlaat en is nou op die {platform_name} webwerf. {enterprise_customer_name}"
-" het &#39;n vennootskap met {platform_name} aangegaan om vir jou hoëgehalte,"
-" altyd beskikbare leerprogramme te bied om jou te help om jou kennis en "
+" het 'n vennootskap met {platform_name} aangegaan om vir jou hoëgehalte, "
+"altyd beskikbare leerprogramme te bied om jou te help om jou kennis en "
 "loopbaan te bevorder. {line_break} Neem asseblief kennis dat {platform_name}"
 " n ander {privacy_policy_link_start} privaatheidsbeleid "
 "{privacy_policy_link_end} van {enterprise_customer_name} het."
 
-#: enterprise/constants.py:86
+#: enterprise/constants.py:92
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
 "eligible, provide in-demand knowledge and may be applied to accelerate a "
 "Master’s Degree."
 msgstr ""
-"&#39;n Reeks Meestersvlakkursusse om jou loopbaan te bevorder, geskep deur "
+"'n Reeks Meestersvlakkursusse om jou loopbaan te bevorder, geskep deur "
 "topuniversiteite en erken deur maatskappye. MicroMasters-programme is "
-"kredietwaardig, verskaf kennis wat in aanvraag is en kan toegepas word om "
-"&#39;n meestersgraad te versnel."
+"kredietwaardig, verskaf kennis wat in aanvraag is en kan toegepas word om 'n"
+" meestersgraad te versnel."
 
-#: enterprise/constants.py:92
+#: enterprise/constants.py:98
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1196,7 +1190,7 @@ msgstr ""
 "kundigheid waarna werkgewers soek met gespesialiseerde opleiding en "
 "professionele onderwys."
 
-#: enterprise/constants.py:98
+#: enterprise/constants.py:104
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1204,9 +1198,9 @@ msgid ""
 "illustrates your achievement."
 msgstr ""
 "Geskep deur wêreldbekende kundiges en topuniversiteite, is XSeries ontwerp "
-"om &#39;n diepgaande begrip van sleutelvakke deur middel van &#39;n reeks "
-"kursusse te bied. Voltooi die reeks om &#39;n waardevolle XSeries-"
-"sertifikaat te verdien wat jou prestasie illustreer."
+"om 'n diepgaande begrip van sleutelvakke deur middel van 'n reeks kursusse "
+"te bied. Voltooi die reeks om 'n waardevolle XSeries-sertifikaat te verdien "
+"wat jou prestasie illustreer."
 
 #: enterprise/forms.py:15
 msgid ""
@@ -1227,7 +1221,7 @@ msgid ""
 "Have an account through your company, school, or organization? Enter your "
 "organization’s name below to sign in."
 msgstr ""
-"Het jy &#39;n rekening deur jou maatskappy, skool of organisasie? Voer jou "
+"Het jy 'n rekening deur jou maatskappy, skool of organisasie? Voer jou "
 "organisasie se naam hieronder in om aan te meld."
 
 #: enterprise/forms.py:23
@@ -1249,7 +1243,7 @@ msgstr "Verkeerde onderneming"
 #: enterprise/management/commands/migrate_enterprise_catalogs.py:30
 msgid "Username of a user authorized to access the Enterprise Catalog API."
 msgstr ""
-"Gebruikersnaam van &#39;n gebruiker wat gemagtig is om toegang tot die "
+"Gebruikersnaam van 'n gebruiker wat gemagtig is om toegang tot die "
 "Enterprise Catalog API te verkry."
 
 #: enterprise/management/commands/migrate_enterprise_catalogs.py:36
@@ -1302,8 +1296,8 @@ msgid ""
 "{item}.{span_end}"
 msgstr ""
 "{strong_start} Iets het gebeur. {strong_end} {span_start} Hierdie {item} is "
-"nie tans oop vir nuwe leerders nie. Begin asseblief oor en kies &#39;n ander"
-" {item} . {span_end}"
+"nie tans oop vir nuwe leerders nie. Begin asseblief oor en kies 'n ander "
+"{item} . {span_end}"
 
 #: enterprise/messages.py:111
 #, python-brace-format
@@ -1330,7 +1324,7 @@ msgstr "Ondernemingskliënttipes"
 msgid "Specifies enterprise customer type."
 msgstr "Spesifiseer ondernemingskliënttipe."
 
-#: enterprise/models.py:215 enterprise/models.py:3382
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "Ondernemingskliënt"
 
@@ -1353,8 +1347,8 @@ msgid ""
 " not be shared."
 msgstr ""
 "Maak dit moontlik vir leerders om toestemming te deel elke keer wanneer "
-"hulle vir &#39;n kursus inskryf. As dit ongemerk gelaat word, sal die "
-"versoek nie verskyn nie en relevante data sal nie gedeel word nie."
+"hulle vir 'n kursus inskryf. As dit ongemerk gelaat word, sal die versoek "
+"nie verskyn nie en relevante data sal nie gedeel word nie."
 
 #: enterprise/models.py:278
 msgid ""
@@ -1362,7 +1356,7 @@ msgid ""
 "enrollment, or through an external process."
 msgstr ""
 "Instelling om óf van leerders te vereis om toestemming vir die deel van data"
-" te aanvaar by kursusinskrywing, óf deur &#39;n eksterne proses."
+" te aanvaar by kursusinskrywing, óf deur 'n eksterne proses."
 
 #: enterprise/models.py:287
 msgid ""
@@ -1385,7 +1379,7 @@ msgid ""
 "usernames with a more generic name, e.g. EnterpriseLearner."
 msgstr ""
 "Spesifiseer of die vertoon van potensieel sensitiewe SSO-gebruikersname met "
-"&#39;n meer generiese naam vervang moet word, bv. EnterpriseLearner."
+"'n meer generiese naam vervang moet word, bv. EnterpriseLearner."
 
 #: enterprise/models.py:314
 msgid ""
@@ -1448,6 +1442,14 @@ msgstr ""
 "bekend gemaak sal word. Dit geld slegs vir kliënte met “aanbiedings”, die ou"
 " weergawe van leerderkrediet."
 
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"Spesifiseer of die Leerderkrediet-boodskapboks in die leerderportaal vertoon"
+" moet word."
+
 #: enterprise/models.py:391
 msgid ""
 "Hides labor market data from learners (populated by features using Lightcast"
@@ -1461,8 +1463,8 @@ msgid ""
 "Automatically enabled. If unchecked, the learners won't be able to search "
 "for a course on the learner portal."
 msgstr ""
-"Outomaties geaktiveer. Indien nie gemerk nie, sal die leerders nie vir "
-"&#39;n kursus op die leerderportaal kan soek nie."
+"Outomaties geaktiveer. Indien nie gemerk nie, sal die leerders nie vir 'n "
+"kursus op die leerderportaal kan soek nie."
 
 #: enterprise/models.py:407
 msgid ""
@@ -1509,7 +1511,7 @@ msgid ""
 "If checked, videos will be displayed in the search results on the learner "
 "portal."
 msgstr ""
-"Indien gemerk, sal video&#39;s in die soekresultate op die leerderportaal "
+"Indien gemerk, sal video's in die soekresultate op die leerderportaal "
 "vertoon word."
 
 #: enterprise/models.py:451
@@ -1532,9 +1534,8 @@ msgid ""
 "Allows a learner to input customer slug to identify their org in the SSO "
 "process. Should be enabled for customers that leverage SSO."
 msgstr ""
-"Laat &#39;n leerder toe om klante-slak in te voer om hul organisasie in die "
-"SSO-proses te identifiseer. Moet geaktiveer word vir kliënte wat SSO "
-"gebruik."
+"Laat 'n leerder toe om klante-slak in te voer om hul organisasie in die SSO-"
+"proses te identifiseer. Moet geaktiveer word vir kliënte wat SSO gebruik."
 
 #: enterprise/models.py:471
 msgid ""
@@ -1622,50 +1623,50 @@ msgstr "Ondernemingskliëntleerder"
 msgid "Enterprise Customer Learners"
 msgstr "Ondernemingskliëntleerders"
 
-#: enterprise/models.py:1722
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "Logobeelde moet in .png-formaat wees."
 
-#: enterprise/models.py:1749
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "Handelsmerkkonfigurasie"
 
-#: enterprise/models.py:1750
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "Handelsmerkkonfigurasies"
 
-#: enterprise/models.py:1832
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr "Spesifiseer of dit verstekverskaffer vir ondernemingskliënt is."
 
-#: enterprise/models.py:1917
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
 "Die UUID van die kursus (nie kursuslopie nie) waarop die leerder geregtig "
 "is."
 
-#: enterprise/models.py:1927
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "Die ondernemingsleerder waaraan hierdie reg gekoppel is."
 
-#: enterprise/models.py:2050
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "Die ondernemingsleerder waaraan hierdie inskrywing geheg is."
 
-#: enterprise/models.py:2057
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "Die ID van die kursus waarin die leerder ingeskryf was."
 
-#: enterprise/models.py:2064
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
 msgstr ""
-"Spesifiseer of &#39;n gebruiker hierdie kursus gemerk het as gestoor vir "
-"later in die leerderportaal."
+"Spesifiseer of 'n gebruiker hierdie kursus gemerk het as gestoor vir later "
+"in die leerderportaal."
 
-#: enterprise/models.py:2080
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -1673,62 +1674,62 @@ msgstr ""
 "Spesifiseer of die ondernemingskursusinskrywing se kursusinskrywingsvoorwerp"
 " gederegistreer is."
 
-#: enterprise/models.py:2090
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
 msgstr ""
-"Spesifiseer wanneer &#39;n ondernemingskursus-inskrywing se "
+"Spesifiseer wanneer 'n ondernemingskursus-inskrywing se "
 "kursusinskrywingsvoorwerp gederegistreer is."
 
-#: enterprise/models.py:2348
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr "Die kursusreg waarvoor die gepaardgaande subsidie is."
 
-#: enterprise/models.py:2359
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr "Die kursusinskrywing waarvoor die gepaardgaande subsidie is."
 
-#: enterprise/models.py:2366
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
 msgstr ""
-"Of die ondernemingsubsidie herroep word, bv. wanneer &#39;n gebruiker se "
+"Of die ondernemingsubsidie herroep word, bv. wanneer 'n gebruiker se "
 "lisensie teruggetrek word."
 
-#: enterprise/models.py:2527
+#: enterprise/models.py:2550
 msgid "The customer for which this default enrollment will be realized."
 msgstr "Die kliënt vir wie hierdie verstek-inskrywing gerealiseer sal word."
 
-#: enterprise/models.py:2536
+#: enterprise/models.py:2559
 msgid "The type of content (e.g. a course vs. a course run)."
-msgstr "Die tipe inhoud (bv. &#39;n kursus vs. &#39;n kursuslopie)."
+msgstr "Die tipe inhoud (bv. 'n kursus vs. 'n kursuslopie)."
 
-#: enterprise/models.py:2544
+#: enterprise/models.py:2567
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
 msgstr ""
-"&#39;n Kursus of kursuslopie waarvoor verwante gebruikers outomaties "
-"ingeskryf moet word."
+"'n Kursus of kursuslopie waarvoor verwante gebruikers outomaties ingeskryf "
+"moet word."
 
-#: enterprise/models.py:2716
+#: enterprise/models.py:2739
 #, python-brace-format
 msgid ""
 "A default enrollment intention with this enterprise customer and content key"
 " already exists, but is soft-deleted. Please restore it <a "
 "href=\"{existing_record_admin_url}\">here</a>."
 msgstr ""
-"&#39;n Standaard inskrywingsvoorneme met hierdie ondernemingskliënt en "
+"'n Standaard inskrywingsvoorneme met hierdie ondernemingskliënt en "
 "inhoudsleutel bestaan reeds, maar word sag uitgevee. Herstel dit asseblief "
 "<a href=\"{existing_record_admin_url}\">hier</a> ."
 
-#: enterprise/models.py:2731
+#: enterprise/models.py:2754
 msgid "The content key did not resolve to a valid course run."
-msgstr "Die inhoudsleutel het nie opgelos na &#39;n geldige kursuslopie nie."
+msgstr "Die inhoudsleutel het nie opgelos na 'n geldige kursuslopie nie."
 
-#: enterprise/models.py:2799
+#: enterprise/models.py:2822
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1736,11 +1737,11 @@ msgid ""
 "catalog.  Must be unique."
 msgstr ""
 "Navraagparameters wat gebruik sal word om die ontdekkingsdiens se soek-/alle"
-" eindpuntresultate, gespesifiseer as &#39;n JSON-objek, te filter. &#39;n "
-"Leë JSON-voorwerp beteken dat alle beskikbare inhouditems in die katalogus "
-"ingesluit sal word. Moet uniek wees."
+" eindpuntresultate, gespesifiseer as 'n JSON-objek, te filter. 'n Leë JSON-"
+"voorwerp beteken dat alle beskikbare inhouditems in die katalogus ingesluit "
+"sal word. Moet uniek wees."
 
-#: enterprise/models.py:2814
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1749,19 +1750,19 @@ msgid ""
 msgstr ""
 "Spesifiseer of die katalogus toegelaat word om uitgevoerde (2U) kursusse in "
 "te sluit. Dit beteken dat, wanneer die content_filter spesifiseer dat "
-"&#39;kursus&#39; inhoudtipes by die katalogus ingesluit moet word, "
-"executive-education-2u kursustipes nie uitgesluit sal word van die inhoud "
-"van die geassosieerde katalogus nie."
+"'kursus' inhoudtipes by die katalogus ingesluit moet word, executive-"
+"education-2u kursustipes nie uitgesluit sal word van die inhoud van die "
+"geassosieerde katalogus nie."
 
-#: enterprise/models.py:2821
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "Ondernemingskatalogus-navraag"
 
-#: enterprise/models.py:2822
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "Ondernemingskatalogus navrae"
 
-#: enterprise/models.py:2935
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1769,11 +1770,11 @@ msgid ""
 "catalog."
 msgstr ""
 "Navraagparameters wat gebruik sal word om die ontdekkingsdiens se soek-/alle"
-" eindpuntresultate, gespesifiseer as &#39;n Json-objek, te filter. &#39;n "
-"Leë Json-voorwerp beteken dat alle beskikbare inhouditems in die katalogus "
-"ingesluit sal word."
+" eindpuntresultate, gespesifiseer as 'n Json-objek, te filter. 'n Leë Json-"
+"voorwerp beteken dat alle beskikbare inhouditems in die katalogus ingesluit "
+"sal word."
 
-#: enterprise/models.py:2943
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -1781,107 +1782,107 @@ msgstr ""
 "Geordende lys van inskrywingsmetodes wat aan leerders vertoon kan word vir "
 "kursuslopies in hierdie katalogus."
 
-#: enterprise/models.py:2949
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
 msgstr ""
-"Spesifiseer of kursusse met direk-na-oudit-inskrywing-URL&#39;s gepubliseer "
-"moet word."
+"Spesifiseer of kursusse met direk-na-oudit-inskrywing-URL's gepubliseer moet"
+" word."
 
-#: enterprise/models.py:2956
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "Ondernemingskliëntekatalogus"
 
-#: enterprise/models.py:2957 enterprise/models.py:3504
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "Ondernemingskliëntekatalogusse"
 
-#: enterprise/models.py:3224
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
 msgstr ""
-"Vul &#39;n standaard Django-sjabloon in wat, wanneer dit gelewer word, die e-pos produseer wat jy aan nuut-ingeskrewe Enterprise Customer-leerders wil stuur. Die volgende veranderlikes kan beskikbaar wees:\n"
-"<ul><li> user_name: &#39;n Mens-leesbare naam vir die persoon wat per e-pos gestuur word. Maak seker dat u die saak hanteer waar dit nie gedefinieer is nie, aangesien dit in sommige gevalle ontbreek. Dit kan ook &#39;n gebruikersnaam wees as die leerder nie hul &quot;regte&quot; naam in die stelsel gekonfigureer het nie.</li><li> organisasienaam: Die naam van die organisasie wat die inskrywing borg.</li><li> ingeskryf_in: Besonderhede van die kursus of program waarvoor ingeskryf is. Dit kan bevat:<ul><li> naam: Die naam van die inskryfbare item (bv. &quot;Demokursus&quot;).</li><li> url: &#39;n Skakel na die tuisblad van die ingeskrewe item.</li><li> handelsmerk: &#39;n Pasgemaakte handelsmerknaam vir die ingeskrewe item. Byvoorbeeld, die handelsmerk van &#39;n MicroMasters-program sal &quot;MicroMasters&quot; wees.</li><li> begin: Die datum waarop die ingeskrewe item beskikbaar word. Gee dit na teks deur die Django `datum`-sjabloonfilter te gebruik (sien <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">die Django-dokumentasie</a> ).</li><li> tipe: Of die ingeskrewe item &#39;n kursus, &#39;n program of iets anders is.</li></ul></ul>"
+"Vul 'n standaard Django-sjabloon in wat, wanneer dit gelewer word, die e-pos produseer wat jy aan nuut-ingeskrewe Enterprise Customer-leerders wil stuur. Die volgende veranderlikes kan beskikbaar wees:\n"
+"<ul><li> user_name: 'n Mens-leesbare naam vir die persoon wat per e-pos gestuur word. Maak seker dat u die saak hanteer waar dit nie gedefinieer is nie, aangesien dit in sommige gevalle ontbreek. Dit kan ook 'n gebruikersnaam wees as die leerder nie hul &quot;regte&quot; naam in die stelsel gekonfigureer het nie.</li><li> organisasienaam: Die naam van die organisasie wat die inskrywing borg.</li><li> ingeskryf_in: Besonderhede van die kursus of program waarvoor ingeskryf is. Dit kan bevat:<ul><li> naam: Die naam van die inskryfbare item (bv. &quot;Demokursus&quot;).</li><li> url: 'n Skakel na die tuisblad van die ingeskrewe item.</li><li> handelsmerk: 'n Pasgemaakte handelsmerknaam vir die ingeskrewe item. Byvoorbeeld, die handelsmerk van 'n MicroMasters-program sal &quot;MicroMasters&quot; wees.</li><li> begin: Die datum waarop die ingeskrewe item beskikbaar word. Gee dit na teks deur die Django `datum`-sjabloonfilter te gebruik (sien <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">die Django-dokumentasie</a> ).</li><li> tipe: Of die ingeskrewe item 'n kursus, 'n program of iets anders is.</li></ul></ul>"
 
-#: enterprise/models.py:3242
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
 "notification emails. The placeholder {course_name} will be replaced with the"
 " name of the course or program that was enrolled in."
 msgstr ""
-"Voer &#39;n string in wat gebruik kan word om &#39;n dinamiese onderwerpreël"
-" vir kennisgewing-e-posse te genereer. Die plekhouer {course_name} sal "
-"vervang word met die naam van die kursus of program waarin ingeskryf is."
+"Voer 'n string in wat gebruik kan word om 'n dinamiese onderwerpreël vir "
+"kennisgewing-e-posse te genereer. Die plekhouer {course_name} sal vervang "
+"word met die naam van die kursus of program waarin ingeskryf is."
 
-#: enterprise/models.py:3384
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "Aktief"
 
-#: enterprise/models.py:3385
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "Sluit datum in"
 
-#: enterprise/models.py:3386
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "Sluit datum by die verslaglêernaam in"
 
-#: enterprise/models.py:3392
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "aflewerings metode"
 
-#: enterprise/models.py:3393
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "Die metode waarop die data gestuur moet word."
 
-#: enterprise/models.py:3398
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
 msgstr ""
 "Spesifiseer of verslag saamgepers moet word. Sonder kompressie sal lêers nie"
-" met &#39;n wagwoord beskerm of geïnkripteer word nie."
+" met 'n wagwoord beskerm of geïnkripteer word nie."
 
-#: enterprise/models.py:3405
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "PGP-enkripsiesleutel"
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr ""
 "Die sleutel vir enkripsie, indien PGP-geënkripteerde lêer vereis word."
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "Datatipe"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "Die tipe data wat hierdie verslag moet bevat."
 
-#: enterprise/models.py:3422
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "Verslagtipe"
 
-#: enterprise/models.py:3423
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "Die tipe waarin hierdie verslag gestuur moet word, bv. CSV."
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "E-pos"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr "Die e-pos(se), een per reël, waarheen die verslag gestuur moet word."
 
-#: enterprise/models.py:3435
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "Frekwensie"
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
@@ -1889,11 +1890,11 @@ msgstr ""
 "Die frekwensie-interval (daagliks, weekliks of maandeliks) wat die verslag "
 "gestuur moet word."
 
-#: enterprise/models.py:3441
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "Dag van Maand"
 
-#: enterprise/models.py:3442
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -1901,11 +1902,11 @@ msgstr ""
 "Die dag van die maand om die verslag te stuur. Hierdie veld is verpligtend "
 "en slegs geldig wanneer die frekwensie maandeliks is."
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "Dag van die week"
 
-#: enterprise/models.py:3451
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -1913,11 +1914,11 @@ msgstr ""
 "Die dag van die week om die verslag te stuur. Hierdie veld word vereis en "
 "slegs geldig wanneer die frekwensie weekliks is."
 
-#: enterprise/models.py:3455
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "Uur van die dag"
 
-#: enterprise/models.py:3456
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -1925,7 +1926,7 @@ msgstr ""
 "Die uur van die dag om die verslag te stuur, in Eastern Standard Time (EST)."
 " Dit word vereis vir alle frekwensie-instellings."
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -1933,29 +1934,29 @@ msgstr ""
 "Hierdie wagwoord sal gebruik word om die zip-lêer te beveilig. Dit sal "
 "geïnkripteer word wanneer dit in die databasis gestoor word."
 
-#: enterprise/models.py:3471
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "SFTP-gasheernaam"
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr ""
 "As die afleweringsmetode sftp is, die gasheer om die verslag aan te lewer."
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "SFTP-poort"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr ""
 "As die afleweringsmetode sftp is, die poort op die gasheer om aan te koppel."
 
-#: enterprise/models.py:3485
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "SFTP-gebruikersnaam"
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1963,7 +1964,7 @@ msgstr ""
 "As die afleweringsmetode sftp is, die gebruikernaam om te gebruik om veilige"
 " toegang tot die gasheer te verkry."
 
-#: enterprise/models.py:3492
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1972,11 +1973,11 @@ msgstr ""
 "toegang tot die gasheer te verkry. Die wagwoord sal geïnkripteer word "
 "wanneer dit in die databasis gestoor word."
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "SFTP-lêerpad"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
@@ -1984,51 +1985,51 @@ msgstr ""
 "As die afleweringsmetode sftp is, die pad op die gasheer om die verslag aan "
 "te lewer."
 
-#: enterprise/models.py:3608
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "Afleweringsmetode kan nie opgedateer word nie"
 
-#: enterprise/models.py:3624
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr "Dag van die week moet gestel word as die frekwensie weekliks is."
 
-#: enterprise/models.py:3628
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "Dag van maand moet gestel word as die frekwensie maandeliks is."
 
-#: enterprise/models.py:3631
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr "Frekwensie moet óf daagliks, weekliks of maandeliks gestel word."
 
-#: enterprise/models.py:3637
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr "E-pos(e) moet gestel word as die afleweringsmetode e-pos is."
 
-#: enterprise/models.py:3641
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr ""
 "Gedekripteerde wagwoord moet gestel word as die afleweringsmetode e-pos is."
 
-#: enterprise/models.py:3645
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr "SFTP Gasheernaam moet gestel word as die afleweringsmetode sftp is."
 
-#: enterprise/models.py:3647
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr ""
 "SFTP-gebruikersnaam moet gestel word as die afleweringsmetode sftp is."
 
-#: enterprise/models.py:3649
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr "SFTP-lêerpad moet gestel word as die afleweringsmetode sftp is."
 
-#: enterprise/models.py:3652
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr ""
 "Gedekripteerde SFTP-wagwoord moet gestel word as die afleweringsmetode SFTP "
 "is."
 
-#: enterprise/models.py:3715
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -2038,23 +2039,23 @@ msgid ""
 msgstr ""
 "Die Ondernemingskliënt aan wie die rol toegeken is vir die verskafde "
 "gebruiker. Verstek na die eerste aktiewe Ondernemingskliënt waaraan die "
-"gebruiker gekoppel is. As &#39;n ander Ondernemingskliënt-objek verlang "
-"word, skep asseblief eers die rekord en wysig dan die ondernemingskliëntveld"
-" deur die aftreklys te gebruik."
+"gebruiker gekoppel is. As 'n ander Ondernemingskliënt-objek verlang word, "
+"skep asseblief eers die rekord en wysig dan die ondernemingskliëntveld deur "
+"die aftreklys te gebruik."
 
-#: enterprise/models.py:4004
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "Filters om banierkennisgewings voorwaardelik te wys."
 
-#: enterprise/models.py:4009
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "Admin kennisgewing filter"
 
-#: enterprise/models.py:4010
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "Admin kennisgewing filters"
 
-#: enterprise/models.py:4036
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
@@ -2062,7 +2063,7 @@ msgstr ""
 "Kennisgewingbaniertitel wat aan ondernemingsadmin op adminportaal sal "
 "verskyn."
 
-#: enterprise/models.py:4044
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -2073,38 +2074,38 @@ msgstr ""
 "markdown. Sien https://commonmark.org/help/ vir die ondersteunde "
 "afmerkkenmerke."
 
-#: enterprise/models.py:4061
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "Admin Kennisgewing"
 
-#: enterprise/models.py:4062
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "Admin Kennisgewings"
 
-#: enterprise/models.py:4100
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "Admin Kennisgewing Lees"
 
-#: enterprise/models.py:4101
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "Admin Kennisgewings Lees"
 
-#: enterprise/models.py:4134 enterprise/models.py:4238
-#: enterprise/models.py:4383
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "Die onderneming wat met hierdie sleutel gekoppel kan word."
 
-#: enterprise/models.py:4143
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr ""
-"Die aantal kere wat hierdie sleutel gebruik kan word om &#39;n leerder te "
+"Die aantal kere wat hierdie sleutel gebruik kan word om 'n leerder te "
 "koppel."
 
-#: enterprise/models.py:4152
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "Die sleutel sal na hierdie datum nie meer geldig wees nie."
 
-#: enterprise/models.py:4161
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2112,61 +2113,61 @@ msgstr ""
 "Spesifiseer of die sleutel aktief is. Sodra dit gedeaktiveer is, is die "
 "sleutel nie meer geldig nie en kan dit nie weer geaktiveer word nie."
 
-#: enterprise/models.py:4242
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "ChatGPT-opdrag."
 
-#: enterprise/models.py:4244
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "ChatGPT-reaksie."
 
-#: enterprise/models.py:4245
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "Tipe prompt."
 
-#: enterprise/models.py:4249
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "ChatGPT-reaksie"
 
-#: enterprise/models.py:4250
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "ChatGPT-antwoorde"
 
-#: enterprise/models.py:4360
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "Ondernemingskliënt SSO-konfigurasie"
 
-#: enterprise/models.py:4361
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "Ondernemingskliënt SSO-konfigurasies"
 
-#: enterprise/models.py:4370
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "Die vertoonnaam van die SSO-opstelling."
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr "Spesifiseer of die integrasie met die SSO-orkestrasie aktief is."
 
-#: enterprise/models.py:4401
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr ""
 "Die identiteitsverskaffer wat deur die SSO-orkeseerder geïntegreer is."
 
-#: enterprise/models.py:4410
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "Die metadata-URL van die identiteitsverskaffer."
 
-#: enterprise/models.py:4418
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "Die metadata xml van die identiteitsverskaffer."
 
-#: enterprise/models.py:4427
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "Die entiteit-ID van die identiteitsverskaffer."
 
-#: enterprise/models.py:4436
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2174,7 +2175,7 @@ msgstr ""
 "Spesifiseer of die integrasie met die kliënt se identiteitsverskaffer "
 "metadata outomaties moet opdateer."
 
-#: enterprise/models.py:4490
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
@@ -2182,7 +2183,7 @@ msgstr ""
 "Die datum en tyd wanneer die konfigurasie by die SSO-orkestrasie ingedien "
 "is."
 
-#: enterprise/models.py:4498
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
@@ -2190,7 +2191,7 @@ msgstr ""
 "Die datum en tyd wanneer die konfigurasie deur die SSO-orkestrasie voltooi "
 "is."
 
-#: enterprise/models.py:4506
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
@@ -2198,21 +2199,21 @@ msgstr ""
 "Die datum en tyd wanneer die opstelling bekragtig en vir die eerste keer "
 "gebruik is."
 
-#: enterprise/models.py:4514
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
 msgstr ""
-"Die datum en tyd wanneer die orkeseerder &#39;n fout tydens konfigurasie "
+"Die datum en tyd wanneer die orkeseerder 'n fout tydens konfigurasie "
 "ondervind het."
 
-#: enterprise/models.py:4523
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "Of admin aangedui het dat die diensverskaffer se metadata opgelaai is."
 
-#: enterprise/models.py:4533 enterprise/models.py:4569
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
@@ -2220,15 +2221,15 @@ msgstr ""
 "SAP-spesifieke konfigurasie: die uittelinterval vir die OData API in "
 "sekondes."
 
-#: enterprise/models.py:4543
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "SAP-spesifieke konfigurasie: die wortel-url van die OData API."
 
-#: enterprise/models.py:4552
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "SAP-spesifieke konfigurasie: die maatskappy-ID van die OData API."
 
-#: enterprise/models.py:4561
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
@@ -2236,83 +2237,125 @@ msgstr ""
 "SAP-spesifieke konfigurasie: die wortel-url van die SAP SuccessFactors OAuth"
 " API."
 
-#: enterprise/models.py:4578
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 "SAP-spesifieke konfigurasie: die private sleutel wat gebruik word om die "
 "SAML-bewering te onderteken."
 
-#: enterprise/models.py:4587
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "SAP-spesifieke konfigurasie: die kliënt-ID van die OData API."
 
-#: enterprise/models.py:4596
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "SAP-spesifieke konfigurasie: die gebruiker-ID van die OAuth API."
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "Veld is gesluit aangesien die opstelling reeds ingedien is."
 
-#: enterprise/models.py:4656
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "Rekord is reeds ingedien vir opstelling."
 
-#: enterprise/models.py:4706
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "Spesifiseer onderneminggroepnaam."
 
-#: enterprise/models.py:4721
+#: enterprise/models.py:4744
 msgid "The type of enterprise group"
 msgstr "Die tipe ondernemingsgroep"
 
-#: enterprise/models.py:4727
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "Ondernemingsgroep"
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "Ondernemingsgroepe"
 
-#: enterprise/models.py:4841
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
 msgstr ""
-"Die oomblik waarop die lidmaatskaprekord geskryf word met &#39;n Enterprise "
+"Die oomblik waarop die lidmaatskaprekord geskryf word met 'n Enterprise "
 "Customer User-rekord."
 
-#: enterprise/models.py:4851
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "Huidige status van die lidmaatskaprekord"
 
-#: enterprise/models.py:4858
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
 msgstr ""
-"Die oomblik waarop die lidmaatskaprekord deur &#39;n Enterprise-admin "
-"herroep is."
+"Die oomblik waarop die lidmaatskaprekord deur 'n Enterprise-admin herroep "
+"is."
 
-#: enterprise/models.py:4866
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
 msgstr ""
-"Die laaste keer dat die lidmaatskapaksie in &#39;n fouttoestand was. Nul "
-"beteken die lidmaatskap is nie foutief nie."
+"Die laaste keer dat die lidmaatskapaksie in 'n fouttoestand was. Nul beteken"
+" die lidmaatskap is nie foutief nie."
 
-#: enterprise/models.py:4871
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "Ondernemingsgroeplidmaatskap"
 
-#: enterprise/models.py:4872
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "Ondernemingsgroeplidmaatskap"
 
+#: enterprise/models.py:4964
+msgid "Title summarizing the onboarding flow."
+msgstr "Titel wat die aanboordvloei opsom."
+
+#: enterprise/models.py:4970
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Spesifiseer of hierdie vloei aktief is en aan admingebruikers in die "
+"aanboordtoer gewys word."
+
+#: enterprise/models.py:4989
+msgid "The enterprise customer user who is an admin."
+msgstr "Die ondernemingskliëntgebruiker wat 'n administrateur is."
+
+#: enterprise/models.py:4994
+msgid "The last time the admin logged into the admin portal."
+msgstr ""
+"Die laaste keer wat die administrateur by die administrateurportaal "
+"aangemeld het."
+
+#: enterprise/models.py:4999
+msgid "The onboarding flows that this admin has completed."
+msgstr "Die aanboordvloei wat hierdie administrateur voltooi het."
+
+#: enterprise/models.py:5003
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "Of die administrateur die aanboordtoer van die hand gewys het."
+
+#: enterprise/models.py:5007
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "Of die administrateur die aanboordtoer voltooi het."
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admin"
+msgstr "Ondernemingskliëntadministrateur"
+
+#: enterprise/models.py:5013
+msgid "Enterprise Customer Admins"
+msgstr "Ondernemingskliëntadministrateurs"
+
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
-#: enterprise/views.py:1612 enterprise/views.py:2114
+#: enterprise/views.py:1616 enterprise/views.py:2118
 msgid "Close"
 msgstr "Naby"
 
@@ -2386,11 +2429,11 @@ msgstr "Stuur kursusse metadata"
 
 #: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
 #: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
-#: enterprise/views.py:372 enterprise/views.py:1608
+#: enterprise/views.py:372 enterprise/views.py:1612
 msgid "Continue"
 msgstr "Aanhou"
 
-#: enterprise/utils.py:148
+#: enterprise/utils.py:149
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "both were."
@@ -2398,66 +2441,66 @@ msgstr ""
 "Óf &quot;E-pos of Gebruikersnaam&quot; of &quot;CSV-grootoplaai&quot; moet "
 "gespesifiseer word, maar albei was."
 
-#: enterprise/utils.py:151
+#: enterprise/utils.py:152
 msgid "Error: Learners could not be added. Correct the following errors."
 msgstr ""
 "Fout: Leerders kon nie bygevoeg word nie. Maak die volgende foute reg."
 
-#: enterprise/utils.py:153
+#: enterprise/utils.py:154
 #, python-brace-format
 msgid ""
 "Enrollment track {course_mode} is not available for course {course_id}."
 msgstr ""
 "Inskrywingsbaan {course_mode} is nie beskikbaar vir kursus {course_id} nie."
 
-#: enterprise/utils.py:155
+#: enterprise/utils.py:156
 msgid "Select a course enrollment track for the given course(s)."
-msgstr "Kies &#39;n kursusinskrywingsbaan vir die gegewe kursus(se)."
+msgstr "Kies 'n kursusinskrywingsbaan vir die gegewe kursus(se)."
 
-#: enterprise/utils.py:157
+#: enterprise/utils.py:158
 #, python-brace-format
 msgid ""
 "Could not retrieve details for the course ID {course_id}. Specify a valid "
 "ID."
 msgstr ""
 "Kon nie besonderhede vir die kursus-ID {course_id} ophaal nie. Spesifiseer "
-"&#39;n geldige ID."
+"'n geldige ID."
 
-#: enterprise/utils.py:160
+#: enterprise/utils.py:161
 msgid ""
 "Either \"CSV bulk upload\" or a singular course ID may be used for manual "
 "enrollments, but not both together."
 msgstr ""
-"Óf &quot;CSV grootmaat oplaai&quot; óf &#39;n enkelvoudige kursus-ID kan vir"
-" handmatige inskrywings gebruik word, maar nie albei saam nie."
+"Óf &quot;CSV grootmaat oplaai&quot; óf 'n enkelvoudige kursus-ID kan vir "
+"handmatige inskrywings gebruik word, maar nie albei saam nie."
 
-#: enterprise/utils.py:164
+#: enterprise/utils.py:165
 #, python-brace-format
 msgid "{argument} does not appear to be a valid email address."
-msgstr "{argument} blyk nie &#39;n geldige e-posadres te wees nie."
+msgstr "{argument} blyk nie 'n geldige e-posadres te wees nie."
 
-#: enterprise/utils.py:166
+#: enterprise/utils.py:167
 #, python-brace-format
 msgid ""
 "{argument} does not appear to be a valid email address or known username"
 msgstr ""
-"{argument} blyk nie &#39;n geldige e-posadres of bekende gebruikersnaam te "
-"wees nie"
+"{argument} blyk nie 'n geldige e-posadres of bekende gebruikersnaam te wees "
+"nie"
 
-#: enterprise/utils.py:169
+#: enterprise/utils.py:170
 #, python-brace-format
 msgid ""
 "Expected a CSV file with [{expected_columns}] columns, but found "
 "[{actual_columns}] columns instead."
 msgstr ""
-"Het &#39;n CSV-lêer verwag met [ {expected_columns} ] kolomme, maar het "
-"eerder [ {actual_columns} ] kolomme gekry."
+"Het 'n CSV-lêer verwag met [ {expected_columns} ] kolomme, maar het eerder ["
+" {actual_columns} ] kolomme gekry."
 
-#: enterprise/utils.py:173
+#: enterprise/utils.py:174
 msgid "Reason field is required but was not filled."
 msgstr "Rede-veld word vereis, maar is nie ingevul nie."
 
-#: enterprise/utils.py:176
+#: enterprise/utils.py:177
 msgid ""
 "Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
 "neither were."
@@ -2465,7 +2508,7 @@ msgstr ""
 "Óf &quot;E-pos of Gebruikernaam&quot; of &quot;CSV-grootoplaai&quot; moet "
 "gespesifiseer word, maar nie een was nie."
 
-#: enterprise/utils.py:179
+#: enterprise/utils.py:180
 #, python-brace-format
 msgid ""
 "User with email address {email} is already registered with Enterprise "
@@ -2474,22 +2517,22 @@ msgstr ""
 "Gebruiker met e-posadres {email} is reeds geregistreer by Enterprise "
 "Customer {ec_name}"
 
-#: enterprise/utils.py:181
+#: enterprise/utils.py:182
 msgid "User is not linked with Enterprise Customer"
 msgstr "Gebruiker is nie gekoppel aan ondernemingsklant nie"
 
-#: enterprise/utils.py:182
+#: enterprise/utils.py:183
 #, python-brace-format
 msgid "User with email address {email} doesn't exist."
 msgstr "Gebruiker met e-posadres {email} bestaan nie."
 
-#: enterprise/utils.py:183
+#: enterprise/utils.py:184
 #, python-brace-format
 msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
 msgstr ""
 "Kursus-ID {course_id} bestaan nie in Ondernemingskliënt se Katalogus nie"
 
-#: enterprise/utils.py:185
+#: enterprise/utils.py:186
 #, python-brace-format
 msgid ""
 "Enterprise channel worker user with the username "
@@ -2498,29 +2541,29 @@ msgstr ""
 "Ondernemingskanaalwerkergebruiker met die gebruikernaam &quot; "
 "{channel_worker_username} &quot; is nie gevind nie."
 
-#: enterprise/utils.py:188
+#: enterprise/utils.py:189
 msgid ""
 "Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
 msgstr ""
-"Kan nie CSV-lêer ontleed nie. Maak asseblief seker dit is &#39;n CSV "
-"&#39;utf-8&#39;-gekodeerde lêer."
+"Kan nie CSV-lêer ontleed nie. Maak asseblief seker dit is 'n CSV "
+"'utf-8'-gekodeerde lêer."
 
-#: enterprise/utils.py:191
+#: enterprise/utils.py:192
 msgid "Discount percentage should be from 0 to 100."
 msgstr "Afslagpersentasie moet van 0 tot 100 wees."
 
-#: enterprise/utils.py:401
+#: enterprise/utils.py:402
 #, python-brace-format
 msgid "You've been enrolled in {course_name}!"
 msgstr "Jy is ingeskryf by {course_name} !"
 
-#: enterprise/utils.py:560 enterprise/utils.py:639
+#: enterprise/utils.py:561 enterprise/utils.py:640
 msgid "`user` must have one of either `email` or `user_email`."
 msgstr "`gebruiker` moet een van `e-pos` of `gebruiker_e-pos` hê."
 
 #: enterprise/validators.py:30
 msgid "Value entered is not a valid hex color code."
-msgstr "Waarde wat ingevoer is, is nie &#39;n geldige hekskleurkode nie."
+msgstr "Waarde wat ingevoer is, is nie 'n geldige hekskleurkode nie."
 
 #: enterprise/validators.py:41
 msgid "Unsupported file extension."
@@ -2643,8 +2686,8 @@ msgid ""
 "assignment)"
 msgstr ""
 "Of ek spesifieke dele van elke kursus of program voltooi het (byvoorbeeld, "
-"of ek &#39;n gegewe video gekyk het of &#39;n gegewe huiswerkopdrag probeer "
-"of voltooi het)"
+"of ek 'n gegewe video gekyk het of 'n gegewe huiswerkopdrag probeer of "
+"voltooi het)"
 
 #: enterprise/views.py:410
 msgid ""
@@ -2653,7 +2696,7 @@ msgid ""
 "when I last logged in to each course or program and how much of the course "
 "or program content I have consumed"
 msgstr ""
-"My algehele persentasie voltooiing van elke kursus of program op &#39;n "
+"My algehele persentasie voltooiing van elke kursus of program op 'n "
 "periodieke basis, insluitend die totale tyd wat in elke kursus of program "
 "spandeer word, die datum waarop ek laas by elke kursus of program aangemeld "
 "het en hoeveel van die kursus- of programinhoud ek verbruik het"
@@ -2678,7 +2721,7 @@ msgstr ""
 
 #: enterprise/views.py:417
 msgid "Whether I received a certificate in each course or program"
-msgstr "Of ek &#39;n sertifikaat in elke kursus of program ontvang het"
+msgstr "Of ek 'n sertifikaat in elke kursus of program ontvang het"
 
 #: enterprise/views.py:420
 #, python-brace-format
@@ -2714,8 +2757,8 @@ msgid ""
 "provided for convenience and you understand and agree that the English "
 "language version will control if there is any conflict."
 msgstr ""
-"Enige weergawe van hierdie Datadelingbeleid in &#39;n ander taal as Engels "
-"word gerieflikheidshalwe verskaf en jy verstaan en stem in dat die Engelse "
+"Enige weergawe van hierdie Datadelingbeleid in 'n ander taal as Engels word "
+"gerieflikheidshalwe verskaf en jy verstaan en stem in dat die Engelse "
 "taalweergawe sal beheer as daar enige konflik is."
 
 #: enterprise/views.py:439
@@ -2785,7 +2828,7 @@ msgstr "Kies Organisasie"
 
 #: enterprise/views.py:1110
 msgid "Select an organization"
-msgstr "Kies &#39;n organisasie"
+msgstr "Kies 'n organisasie"
 
 #: enterprise/views.py:1264
 msgid "Instructor-Paced"
@@ -2795,172 +2838,172 @@ msgstr "Instrukteur-pas"
 msgid "Self-Paced"
 msgstr "Eie tempo"
 
-#: enterprise/views.py:1451
+#: enterprise/views.py:1455
 msgid "FREE"
 msgstr "VRY"
 
-#: enterprise/views.py:1453
+#: enterprise/views.py:1457
 msgid "Not eligible for a certificate."
-msgstr "Nie in aanmerking vir &#39;n sertifikaat nie."
+msgstr "Nie in aanmerking vir 'n sertifikaat nie."
 
-#: enterprise/views.py:1455
+#: enterprise/views.py:1459
 msgid "Earn a verified certificate!"
-msgstr "Verdien &#39;n geverifieerde sertifikaat!"
+msgstr "Verdien 'n geverifieerde sertifikaat!"
 
-#: enterprise/views.py:1514
+#: enterprise/views.py:1518
 #, python-brace-format
 msgid "{num_weeks}, starting on {start_date} and ending at {end_date}"
 msgstr "{num_weeks} , begin op {start_date} en eindig by {end_date}"
 
-#: enterprise/views.py:1516 enterprise/views.py:1935
+#: enterprise/views.py:1520 enterprise/views.py:1939
 msgid "{} week"
 msgid_plural "{} weeks"
 msgstr[0] "{} week"
 msgstr[1] "{} weke"
 
-#: enterprise/views.py:1576
+#: enterprise/views.py:1580
 #, python-brace-format
 msgid ""
 "Discount provided by {strong_start}{enterprise_customer_name}{strong_end}"
 msgstr ""
 "Afslag verskaf deur {strong_start} {enterprise_customer_name} {strong_end}"
 
-#: enterprise/views.py:1602 enterprise/views.py:1603
+#: enterprise/views.py:1606 enterprise/views.py:1607
 msgid "Confirm your course"
 msgstr "Bevestig jou kursus"
 
-#: enterprise/views.py:1605
+#: enterprise/views.py:1609
 msgid "View Course Details"
 msgstr "Bekyk kursusbesonderhede"
 
-#: enterprise/views.py:1606
+#: enterprise/views.py:1610
 msgid "Please select one:"
 msgstr "Kies asseblief een:"
 
-#: enterprise/views.py:1607 enterprise/views.py:2108
+#: enterprise/views.py:1611 enterprise/views.py:2112
 msgid "Price"
 msgstr "Prys"
 
-#: enterprise/views.py:1609 enterprise/views.py:2111
+#: enterprise/views.py:1613 enterprise/views.py:2115
 msgid "Level"
 msgstr "Vlak"
 
-#: enterprise/views.py:1610 enterprise/views.py:2110
+#: enterprise/views.py:1614 enterprise/views.py:2114
 msgid "Effort"
 msgstr "Poging"
 
-#: enterprise/views.py:1611
+#: enterprise/views.py:1615
 msgid "Duration"
 msgstr "Duur"
 
-#: enterprise/views.py:1613 enterprise/views.py:2100
+#: enterprise/views.py:1617 enterprise/views.py:2104
 msgid "What you'll learn"
 msgstr "Wat jy sal leer"
 
-#: enterprise/views.py:1614 enterprise/views.py:2112
+#: enterprise/views.py:1618 enterprise/views.py:2116
 msgid "About This Course"
 msgstr "Oor hierdie kursus"
 
-#: enterprise/views.py:1615 enterprise/views.py:2113
+#: enterprise/views.py:1619 enterprise/views.py:2117
 msgid "Course Staff"
 msgstr "Kursus Personeel"
 
-#: enterprise/views.py:2052
+#: enterprise/views.py:2056
 #, python-brace-format
 msgid "{count} Course"
 msgid_plural "{count} Courses"
 msgstr[0] "{count} Kursus"
 msgstr[1] "{count} Kursusse"
 
-#: enterprise/views.py:2059
+#: enterprise/views.py:2063
 msgid "{}-{} hours per week, per course"
 msgstr "{}-{} uur per week, per kursus"
 
-#: enterprise/views.py:2066
+#: enterprise/views.py:2070
 msgid "{}-{} weeks per course"
 msgstr "{}-{} weke per kursus"
 
-#: enterprise/views.py:2073
+#: enterprise/views.py:2077
 msgid "Purchase all unenrolled courses"
 msgstr "Koop alle ongeregistreerde kursusse"
 
-#: enterprise/views.py:2074
+#: enterprise/views.py:2078
 msgid "enrollment"
 msgstr "inskrywing"
 
-#: enterprise/views.py:2076
+#: enterprise/views.py:2080
 msgid "Pursue the program"
 msgstr "Volg die program"
 
-#: enterprise/views.py:2077
+#: enterprise/views.py:2081
 msgid "program enrollment"
 msgstr "program inskrywing"
 
-#: enterprise/views.py:2098
+#: enterprise/views.py:2102
 msgid "enrolled"
 msgstr "ingeskryf"
 
-#: enterprise/views.py:2099
+#: enterprise/views.py:2103
 msgid "already enrolled, must pay for certificate"
 msgstr "reeds ingeskryf, moet betaal vir sertifikaat"
 
-#: enterprise/views.py:2102
+#: enterprise/views.py:2106
 msgid "Real Career Impact"
 msgstr "Werklike loopbaanimpak"
 
-#: enterprise/views.py:2104
+#: enterprise/views.py:2108
 msgid "See More"
 msgstr "Sien meer"
 
-#: enterprise/views.py:2105
+#: enterprise/views.py:2109
 msgid "See Less"
 msgstr "Sien Minder"
 
-#: enterprise/views.py:2106
+#: enterprise/views.py:2110
 msgid "Confirm Program"
 msgstr "Bevestig program"
 
-#: enterprise/views.py:2107
+#: enterprise/views.py:2111
 msgid "Program Summary"
 msgstr "Programopsomming"
 
-#: enterprise/views.py:2109
+#: enterprise/views.py:2113
 msgid "Length"
 msgstr "Lengte"
 
-#: enterprise/views.py:2115
+#: enterprise/views.py:2119
 msgid "Program not eligible for one-click purchase."
 msgstr "Program kwalifiseer nie vir een-klik aankoop nie."
 
-#: enterprise/views.py:2116
+#: enterprise/views.py:2120
 #, python-brace-format
 msgid "What is an {platform_name} {program_type}?"
-msgstr "Wat is &#39;n {platform_name} {program_type} ?"
+msgstr "Wat is 'n {platform_name} {program_type} ?"
 
-#: enterprise/views.py:2120
+#: enterprise/views.py:2124
 #, python-brace-format
 msgid "What is {platform_name}?"
 msgstr "Wat is {platform_name} ?"
 
-#: enterprise/views.py:2125
+#: enterprise/views.py:2129
 #, python-brace-format
 msgid "Presented by {organization}"
 msgstr "Aangebied deur {organization}"
 
-#: enterprise/views.py:2126
+#: enterprise/views.py:2130
 #, python-brace-format
 msgid "Confirm your {item}"
 msgstr "Bevestig jou {item}"
 
-#: enterprise/views.py:2138
+#: enterprise/views.py:2142
 msgid "Credit- and Certificate-eligible"
 msgstr "Krediet- en Sertifikaat-kwalifiseer"
 
-#: enterprise/views.py:2139
+#: enterprise/views.py:2143
 msgid "Self-paced; courses can be taken in any order"
 msgstr "Eie tempo; kursusse kan in enige volgorde geneem word"
 
-#: enterprise/views.py:2141
+#: enterprise/views.py:2145
 #, python-brace-format
 msgid "{purchase_action} for"
 msgstr "{purchase_action} vir"
@@ -2971,4 +3014,4 @@ msgid ""
 "installed in an Open edX environment."
 msgstr ""
 "Om hierdie EnterpriseCourseEnrollmentSerializer te gebruik, moet hierdie "
-"pakket in &#39;n Open edX-omgewing geïnstalleer word."
+"pakket in 'n Open edX-omgewing geïnstalleer word."

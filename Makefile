@@ -3,16 +3,14 @@ validate_translation_files test_requirements test fix_transifex_resource_names_d
 retry_merge_transifex_bot_pull_requests
 
 # Default release/project to work on. Override to release project e.g. `zebrawood` when cutting a release.
-export RELEASE := main
+export RELEASE ?= main
 
 piptools:
 	pip install -q -r requirements/pip_tools.txt
 
 upgrade: export CUSTOM_COMPILE_COMMAND=make upgrade
 upgrade: piptools  ## update the requirements/*.txt files with the latest packages satisfying requirements/*.in
-	pip-compile --allow-unsafe --rebuild --upgrade -o requirements/pip.txt requirements/pip.in
-	pip-compile --rebuild --upgrade -o requirements/pip_tools.txt requirements/pip_tools.in
-	pip install -qr requirements/pip.txt
+	pip-compile --allow-unsafe --rebuild --upgrade -o requirements/pip_tools.txt requirements/pip_tools.in
 	pip install -qr requirements/pip_tools.txt
 	pip-compile --rebuild --upgrade -o requirements/translations.txt requirements/translations.in
 	pip-compile --rebuild --upgrade -o requirements/test.txt requirements/test.in

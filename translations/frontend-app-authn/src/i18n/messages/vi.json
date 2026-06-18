@@ -141,6 +141,7 @@
   "email.invalid.format.error": "Nhập địa chỉ email hợp lệ",
   "username.validation.message": "Tên tài khoản phải có từ 2 đến 30 ký tự",
   "name.validation.message": "Nhập tên hợp lệ",
+  "registration.name.validation.length.message": "Tên đầy đủ không được dài hơn {limit} ký tự",
   "username.format.validation.message": "Tên tài khoản chỉ có thể chứa các chữ cái (AZ, az), chữ số (0-9), dấu gạch dưới (_) và dấu gạch ngang (-). Tên tài khoản không thể chứa dấu cách",
   "registration.request.failure.header": "Chúng tôi không thể tạo tài khoản của bạn.",
   "registration.empty.form.submission.error": "Vui lòng kiểm tra phản hồi của bạn và thử lại.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "hồ sơ của bạn",
   "register.page.terms.of.service.and.honor.code": "Bằng cách tạo tài khoản, bạn đồng ý với {tosAndHonorCode} và bạn thừa nhận rằng {platformName} và mỗi Thành viên xử lý dữ liệu cá nhân của bạn theo {privacyPolicy} .",
   "register.page.honor.code": "Tôi đồng ý với {platformName} {tosAndHonorCode}",
-  "register.page.terms.of.service": "Tôi đồng ý với {platformName} {termsOfService}"
+  "register.page.terms.of.service": "Tôi đồng ý với {platformName} {termsOfService}",
+  "error.notfound.page.title": "Không tìm thấy trang | {siteName}"
 }

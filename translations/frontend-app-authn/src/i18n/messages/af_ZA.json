@@ -141,6 +141,7 @@
   "email.invalid.format.error": "Gee &#39;n geldige e-posadres",
   "username.validation.message": "Gebruikersnaam moet tussen 2 en 30 karakters wees",
   "name.validation.message": "Voer &#39;n geldige naam in",
+  "registration.name.validation.length.message": "Volle naam kan nie langer as {limit} karakters wees nie",
   "username.format.validation.message": "Gebruikersname kan slegs letters (AZ, az), syfers (0-9), onderstrepings (_) en koppeltekens (-) bevat. Gebruikersname kan nie spasies bevat nie",
   "registration.request.failure.header": "Ons kon nie jou rekening skep nie.",
   "registration.empty.form.submission.error": "Gaan asseblief jou antwoorde na en probeer weer.",
@@ -178,5 +179,6 @@
   "complete.your.profile.2": "jou profiel",
   "register.page.terms.of.service.and.honor.code": "Deur &#39;n rekening te skep, stem jy in tot die {tosAndHonorCode} en jy erken dat {platformName} en elke lid jou persoonlike data verwerk in ooreenstemming met die {privacyPolicy} .",
   "register.page.honor.code": "Ek stem in tot die {platformName} {tosAndHonorCode}",
-  "register.page.terms.of.service": "Ek stem in tot die {platformName} {termsOfService}"
+  "register.page.terms.of.service": "Ek stem in tot die {platformName} {termsOfService}",
+  "error.notfound.page.title": "Bladsy nie gevind nie | {siteName}"
 }

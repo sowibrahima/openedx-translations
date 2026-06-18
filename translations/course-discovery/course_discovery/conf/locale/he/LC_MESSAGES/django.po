@@ -5,17 +5,17 @@
 # 
 # Translators:
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Eden Huthmacher, 2025
+# Gerardo Núñez, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-16 00:21+0000\n"
+"POT-Creation-Date: 2026-05-20 01:05+0000\n"
 "PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Hebrew (https://app.transifex.com/open-edx/teams/6205/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,147 +23,155 @@ msgstr ""
 "Language: he\n"
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
-#: apps/api/filters.py:47
+#: apps/api/filters.py:48
 #, python-brace-format
 msgid "No user with the username [{username}] exists."
 msgstr "לא קיים משתמש בעל שם משתמש [{username}] "
 
-#: apps/api/filters.py:50
+#: apps/api/filters.py:51
 msgid ""
 "Only staff users are permitted to filter by username. Remove the username "
 "parameter."
 msgstr ""
 "רק משתמשים מתוך חברי הסגל רשאים לסנן על פי שם משתמש. הסר את פרמטר שם המשתמש."
 
-#: apps/api/serializers.py:818
+#: apps/api/serializers.py:850
 msgid "Number of courses contained in this catalog"
 msgstr "מספר הקורסים הנמצאים בקטלוג זה."
 
-#: apps/api/serializers.py:821
+#: apps/api/serializers.py:853
 msgid "Usernames of users with explicit access to view this catalog"
 msgstr "שמות משתמשים של משתמשים בעלי גישה מפורשת לצפייה בקטלוג זה"
 
-#: apps/api/serializers.py:989
+#: apps/api/serializers.py:1023
 msgid "Start date cannot be after the End date"
 msgstr "תאריך ההתחלה לא יכול להיות אחרי תאריך הסיום"
 
-#: apps/api/serializers.py:994
+#: apps/api/serializers.py:1028
 msgid "Term cannot be changed"
 msgstr "לא ניתן לשנות מונח"
 
-#: apps/api/serializers.py:1014
+#: apps/api/serializers.py:1048
 msgid "Language in which the course is administered"
 msgstr "השפה בה הקורס מנוהל"
 
-#: apps/api/serializers.py:1112
+#: apps/api/serializers.py:1152
 msgid "Course cannot be changed for an existing course run"
 msgstr "לא ניתן לשנות את הקורס עבור קורס קיים"
 
-#: apps/api/serializers.py:1117
+#: apps/api/serializers.py:1157
 msgid "Minimum effort cannot be greater than Maximum effort"
 msgstr "מינימום מאמץ לא יכול להיות גדול ממקסימום מאמץ"
 
-#: apps/api/serializers.py:1119
+#: apps/api/serializers.py:1159
 msgid "Minimum effort and Maximum effort cannot be the same"
 msgstr "מינימום מאמץ ומקסימום מאמץ לא יכולים להיות זהים"
 
-#: apps/api/serializers.py:1165
+#: apps/api/serializers.py:1205
 msgid "Dictionary mapping course run IDs to boolean values"
 msgstr "מיפוי מילוני להשלמת מזהי קורס לערכים בוליאניים"
 
-#: apps/api/serializers.py:1269
+#: apps/api/serializers.py:1309
 msgid "Restriction Type cannot be empty"
 msgstr "סוג הגבלה לא יכול להיות ריק"
 
-#: apps/api/serializers.py:1717
+#: apps/api/serializers.py:1775
 msgid "Dictionary mapping course IDs to boolean values"
 msgstr "מיפוי מילוני למזהי קורס לערכים בוליאניים"
 
-#: apps/api/serializers.py:2184
+#: apps/api/serializers.py:2242
 msgid "Languages that course runs in this program are offered in."
 msgstr "השפות המוצעות בהרצות קורס שבתכנית זו."
 
-#: apps/api/serializers.py:2188
+#: apps/api/serializers.py:2246
 msgid ""
 "Languages that course runs in this program have available transcripts in."
 msgstr "לשפות שהקורס מפעיל בתכנית זו יש תמלילים."
 
-#: apps/api/utils.py:327
+#: apps/api/utils.py:346
 #, python-brace-format
 msgid ""
 "An error occurred while setting the course run image for [{key}] in studio. "
 "All other fields were successfully saved in Studio."
 msgstr ""
-"אירעה שגיאה בעת הגדרת תמונת ריצת הקורס עבור [ {key} ] בסטודיו. כל שאר השדות "
+"אירעה שגיאה בעת הגדרת תמונת ריצת הקורס עבור [{key}] בסטודיו. כל שאר השדות "
 "נשמרו בהצלחה בסטודיו."
 
 #: apps/api/v1/exceptions.py:13
 msgid "Specifying both editable=1 and a q parameter is not supported."
-msgstr "אין תמיכה בציון של editable=1 וגם של פרמטר aq."
+msgstr "אין תמיכה בציון של editable=1 וגם של פרמטר q."
 
 #: apps/api/v1/views/comments.py:34
 msgid "You must include a course_uuid in your query parameters."
 msgstr "עליך לכלול course_uuid בפרמטרי השאילתה שלך."
 
-#: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:192
+#: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:205
 #, python-brace-format
 msgid "Missing value for: [{name}]. "
-msgstr "ערך חסר עבור: [ {name} ]. "
+msgstr "ערך חסר עבור: [{name}]. "
 
-#: apps/api/v1/views/comments.py:60 apps/api/v1/views/courses.py:203
+#: apps/api/v1/views/comments.py:60 apps/api/v1/views/courses.py:216
 msgid "Incorrect data sent. "
-msgstr "נשלחו נתונים שגויים. "
+msgstr "נתונים שגויים נשלחו. "
 
-#: apps/api/v1/views/course_runs.py:46
+#: apps/api/v1/views/course_runs.py:49
 msgid "Failed to set course run data: {}"
 msgstr "כשל בהגדרת נתוני ריצת הקורס: {}"
 
-#: apps/api/v1/views/course_runs.py:313
+#: apps/api/v1/views/course_runs.py:328
 msgid "Can only update status, ofac restrictions, and ofac comment"
-msgstr "יכול רק לעדכן את הסטטוס, הגבלות ה-OFAC והערת ה-OFAC"
+msgstr "יכול רק לעדכן את המצב, הגבלות ה-OFAC והערת ה-OFAC"
 
-#: apps/api/v1/views/course_runs.py:352
+#: apps/api/v1/views/course_runs.py:363
+#, python-brace-format
+msgid ""
+"The course run type '{course_run_type}' is not valid for this course type "
+"'{course_type}'."
+msgstr ""
+"סוג הקורס '{course_run_type}' אינו תקף עבור הקורס הזה '{course_type}'."
+
+#: apps/api/v1/views/course_runs.py:381
 msgid "Course run is in review. Editing disabled."
-msgstr "ריצת הקורס נמצאת בבדיקה. העריכה מושבתת."
+msgstr "ריצת הקורס נמצאת בבדיקה. העריכה מושבת."
 
-#: apps/api/v1/views/course_runs.py:359
+#: apps/api/v1/views/course_runs.py:388
 msgid "Invalid parameter"
 msgstr "פרמטר לא חוקי"
 
-#: apps/api/v1/views/courses.py:59
+#: apps/api/v1/views/courses.py:62
 msgid "Failed to set data: {}"
 msgstr "הגדרת הנתונים נכשלה: {}"
 
-#: apps/api/v1/views/courses.py:194
+#: apps/api/v1/views/courses.py:207
 #, python-brace-format
 msgid "Organization [{org}] does not exist. "
-msgstr "הארגון [ {org} ] אינו קיים. "
+msgstr "הארגון [{org}] אינו קיים. "
 
-#: apps/api/v1/views/courses.py:196
+#: apps/api/v1/views/courses.py:209
 #, python-brace-format
 msgid "Course Type [{course_type}] does not exist. "
-msgstr "סוג הקורס [ {course_type} ] אינו קיים. "
+msgstr "סוג הקורס [{course_type}] אינו קיים. "
 
-#: apps/api/v1/views/courses.py:199
+#: apps/api/v1/views/courses.py:212
 #, python-brace-format
 msgid "Product Source [{product_source}] does not exist. "
-msgstr "מקור המוצר [ {product_source} ] אינו קיים. "
+msgstr "מקור המוצר [{product_source}] אינו קיים. "
 
-#: apps/api/v1/views/courses.py:217
+#: apps/api/v1/views/courses.py:229
 #, python-brace-format
 msgid "A course with key [{key}] already exists."
-msgstr "קורס עם מפתח [ {key} ] כבר קיים."
+msgstr "קורס עם מפתח [{key}] כבר קיים."
 
-#: apps/api/v1/views/courses.py:225
+#: apps/api/v1/views/courses.py:237
 #, python-brace-format
 msgid ""
 "Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
 "already in use. Please update this field and try again."
 msgstr ""
-"יצירת הקורס לא הצליחה. שבלול ה-URL של הקורס &#39;[ {url_slug} ]&#39; כבר "
+"יצירת הקורס לא הצליחה. שם קצר לכתובת של הקורס &#39;[{url_slug}]&#39; כבר "
 "נמצא בשימוש. אנא עדכן שדה זה ונסה שוב."
 
-#: apps/api/v1/views/courses.py:284
+#: apps/api/v1/views/courses.py:298
 msgid ""
 "Switching entitlement types after being reviewed is not supported. Please "
 "reach out to your project coordinator for additional help if necessary."
@@ -171,16 +179,16 @@ msgstr ""
 "החלפת סוגי זכאות לאחר בדיקה אינה נתמכת. אנא פנה לרכז הפרויקט שלך לקבלת עזרה "
 "נוספת במידת הצורך."
 
-#: apps/api/v1/views/courses.py:394
+#: apps/api/v1/views/courses.py:408
 #, python-brace-format
 msgid ""
 "Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
 "in use. Please update this field and try again."
 msgstr ""
-"עריכת הקורס לא הצליחה. שבלול ה-URL של הקורס &#39;[ {url_slug} ]&#39; כבר "
-"נמצא בשימוש. אנא עדכן שדה זה ונסה שוב."
+"עריכת הקורס לא הצליחה. שם קצר למאמר הכתובת של הקורס &#39;[{url_slug}]&#39; "
+"כבר נמצא בשימוש. אנא עדכן שדה זה ונסה שוב."
 
-#: apps/api/views.py:58
+#: apps/api/views.py:57
 msgid "You are not permitted to access the API documentation."
 msgstr "אינך מורשה לגשת למסמכי ה-API"
 
@@ -233,7 +241,7 @@ msgstr ""
 
 #: apps/core/admin.py:58
 msgid "Analytics Configuration"
-msgstr "תצורת אנליטיקס"
+msgstr "הגדרת אנליטיקס"
 
 #: apps/core/admin.py:59
 msgid ""
@@ -284,7 +292,7 @@ msgstr "כתובת URL לממשק API של קורסים"
 
 #: apps/core/models.py:59
 msgid "Course Mode API URL"
-msgstr "כתובת ה-API של מצב קורס"
+msgstr "כתובת מצב קורס API"
 
 #: apps/core/models.py:60
 msgid "E-Commerce API URL"
@@ -320,35 +328,35 @@ msgstr "כתובת URL של הסטודיו"
 
 #: apps/core/models.py:75
 msgid "Publisher URL"
-msgstr "כתובת אתר של בעל אתר"
+msgstr "כתובת של בעל אתר"
 
 #: apps/core/models.py:76
 msgid ""
 "The base URL of your publisher service, if used. Example: "
 "https://publisher.example.com/"
 msgstr ""
-"כתובת האתר הבסיסית של שירות המפרסם שלך, אם נעשה בו שימוש. דוגמה: "
+"כתובת הבסיס של שירות המפרסם שלך, אם נעשה בו שימוש. דוגמה: "
 "https://publisher.example.com/"
 
 #: apps/core/models.py:79
 msgid "LMS URL"
-msgstr "כתובת אתר של LMS"
+msgstr "כתובת LMS"
 
 #: apps/core/models.py:81
 msgid "LMS Admin URL"
-msgstr "כתובת אתר לניהול LMS"
+msgstr "כתובת לניהול LMS"
 
 #: apps/core/models.py:82
 msgid ""
 "The public URL of your LMS Django admin. Example: https://lms-"
 "internal.example.com/admin"
 msgstr ""
-"כתובת האתר הציבורית של מנהל מערכת LMS Django שלך. דוגמה: https://lms-"
+"כתובת הציבורית של מנהל מערכת LMS Django שלך. דוגמה: https://lms-"
 "internal.example.com/admin"
 
 #: apps/core/models.py:84
 msgid "Analytics API URL"
-msgstr "כתובת האתר של Analytics API"
+msgstr "כתובת Analytics API"
 
 #: apps/core/models.py:85
 msgid "Analytics Access Token"
@@ -380,91 +388,96 @@ msgstr "אסימון אבטחה של Salesforce"
 
 #: apps/core/models.py:149
 msgid "Is a Salesforce Sandbox?"
-msgstr "האם ארגז חול של Salesforce?"
+msgstr "האם זהו ארגז חול של Salesforce?"
 
 #: apps/core/models.py:155
 msgid "Case Record Type Id"
 msgstr "מזהה סוג רשומת מקרה"
 
-#: apps/course_metadata/admin.py:36
+#: apps/course_metadata/admin.py:38
 #, python-brace-format
 msgid ""
 "An error occurred while publishing the {model} to the marketing site. Please"
 " try again. If the error persists, please contact the Engineering Team."
 msgstr ""
-"אירעה שגיאה בעת פרסום ה- {model} לאתר השיווקי. בבקשה נסה שוב. אם השגיאה "
-"נמשכת, אנא פנה לצוות ההנדסה."
+"אירעה שגיאה בעת פרסום ה- {model} לאתר השיווקי. אנא נסה שוב. אם השגיאה נמשכת,"
+" אנא פנה לצוות ההנדסה."
 
-#: apps/course_metadata/admin.py:56
+#: apps/course_metadata/admin.py:65
 msgid "eligible for one-click purchase"
 msgstr "זכאי לרכישה בקליק אחד"
 
-#: apps/course_metadata/admin.py:61
+#: apps/course_metadata/admin.py:70
 msgid "Yes"
 msgstr "כן"
 
-#: apps/course_metadata/admin.py:62
+#: apps/course_metadata/admin.py:71
 msgid "No"
 msgstr "לא"
 
-#: apps/course_metadata/admin.py:427 apps/course_metadata/admin.py:712
+#: apps/course_metadata/admin.py:538 apps/course_metadata/admin.py:883
 msgid "Included course runs"
 msgstr "כולל הרצות קורס"
 
-#: apps/course_metadata/admin.py:718
+#: apps/course_metadata/admin.py:889
 msgid "Edit link"
 msgstr "ערוך קישור"
 
-#: apps/course_metadata/admin.py:726
+#: apps/course_metadata/admin.py:897
 msgid "Edit course run exclusions"
 msgstr "ערוך אי הכללות של הפעלת קורסים"
 
-#: apps/course_metadata/admin.py:728
+#: apps/course_metadata/admin.py:899
 msgid "(save and continue editing to create a link)"
 msgstr "(שמור והמשך לערוך כדי ליצור קישור)"
 
-#: apps/course_metadata/admin.py:854
+#: apps/course_metadata/admin.py:1037
 #, python-format
 msgid "Successfully %(status)s %(count)d %(items)s."
 msgstr "בהצלחה %(status)s %(count)d %(items)s ."
 
-#: apps/course_metadata/algolia_models.py:95
-#: apps/course_metadata/algolia_models.py:637
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "תעודות"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "נתיבים לתארים"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "מחנות שטח"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "תואר ראשון"
+
+#: apps/course_metadata/algolia_models.py:66
+msgid "Master’s"
+msgstr "תואר שני"
+
+#: apps/course_metadata/algolia_models.py:116
+#: apps/course_metadata/algolia_models.py:667
 msgid "Available now"
 msgstr "זמין כעת"
 
-#: apps/course_metadata/algolia_models.py:97
-#: apps/course_metadata/models.py:2556
+#: apps/course_metadata/algolia_models.py:118
+#: apps/course_metadata/models.py:2757
 msgid "Upcoming"
 msgstr "בקרוב"
 
-#: apps/course_metadata/algolia_models.py:99
-#: apps/course_metadata/choices.py:71 apps/course_metadata/models.py:2550
-#: apps/course_metadata/models.py:2566
+#: apps/course_metadata/algolia_models.py:120
+#: apps/course_metadata/choices.py:100 apps/course_metadata/models.py:2751
+#: apps/course_metadata/models.py:2767
 msgid "Archived"
 msgstr "מאוחסן בארכיון"
 
-#: apps/course_metadata/algolia_models.py:304
-#: apps/course_metadata/algolia_models.py:314
-#: apps/course_metadata/algolia_models.py:581
-msgid "Certificate courses"
-msgstr "קורסי תעודה"
-
-#: apps/course_metadata/algolia_models.py:316
-#: apps/course_metadata/algolia_models.py:587
-msgid "Degrees"
-msgstr "מעלות"
-
-#: apps/course_metadata/algolia_models.py:318
-#: apps/course_metadata/algolia_models.py:589
-msgid "Paths to degrees"
-msgstr "שבילים למעלות"
-
-#: apps/course_metadata/algolia_models.py:648
+#: apps/course_metadata/algolia_models.py:678
 msgid "Available by subscription"
 msgstr "זמין במנוי"
 
-#: apps/course_metadata/choices.py:6 apps/course_metadata/choices.py:30
+#: apps/course_metadata/choices.py:6 apps/course_metadata/choices.py:22
+#: apps/course_metadata/choices.py:36
 msgid "Unpublished"
 msgstr "לא פורסם"
 
@@ -480,122 +493,167 @@ msgstr "ממתין לסקירה פנימית"
 msgid "Reviewed"
 msgstr "נבדק"
 
-#: apps/course_metadata/choices.py:10 apps/course_metadata/choices.py:72
+#: apps/course_metadata/choices.py:10 apps/course_metadata/choices.py:23
+#: apps/course_metadata/choices.py:101
 msgid "Published"
 msgstr "פורסם"
+
+#: apps/course_metadata/choices.py:24 apps/course_metadata/choices.py:38
+msgid "Retired"
+msgstr "פרש"
 
 #. Translators: Instructor-paced refers to course runs that operate on a
 #. schedule set by the instructor,
 #. similar to a normal university course.
-#: apps/course_metadata/choices.py:24
+#: apps/course_metadata/choices.py:30
 msgid "Instructor-paced"
 msgstr "מלווה במרצה"
 
 #. Translators: Self-paced refers to course runs that operate on the student's
 #. schedule.
-#: apps/course_metadata/choices.py:26
+#: apps/course_metadata/choices.py:32
 msgid "Self-paced"
 msgstr "קצב אישי"
 
-#: apps/course_metadata/choices.py:31 apps/learner_pathway/choices.py:6
+#: apps/course_metadata/choices.py:37 apps/learner_pathway/choices.py:6
 msgid "Active"
 msgstr "פעיל"
 
-#: apps/course_metadata/choices.py:32
-msgid "Retired"
-msgstr "פרש"
-
-#: apps/course_metadata/choices.py:33
+#: apps/course_metadata/choices.py:39
 msgid "Deleted"
 msgstr "נמחק"
 
-#: apps/course_metadata/choices.py:37
+#: apps/course_metadata/choices.py:43
 msgid "mooc"
 msgstr "mooc"
 
-#: apps/course_metadata/choices.py:38
+#: apps/course_metadata/choices.py:44
 msgid "spoc"
 msgstr "spoc"
 
-#: apps/course_metadata/choices.py:39
+#: apps/course_metadata/choices.py:45
 msgid "test"
 msgstr "מִבְחָן"
 
-#: apps/course_metadata/choices.py:40
+#: apps/course_metadata/choices.py:46
 msgid "demo"
 msgstr "הַדגָמָה"
 
-#: apps/course_metadata/choices.py:41
+#: apps/course_metadata/choices.py:47
 msgid "other"
 msgstr "אחר"
 
-#: apps/course_metadata/choices.py:45
-msgid "Honor"
-msgstr "מסלול תעודה"
+#: apps/course_metadata/choices.py:54
+msgid "Course Create"
+msgstr "קורס ליצור"
 
-#: apps/course_metadata/choices.py:46
-msgid "Credit"
-msgstr "נקודות זכות"
+#: apps/course_metadata/choices.py:55
+msgid "Partial Update"
+msgstr "עדכון חלקי"
 
-#: apps/course_metadata/choices.py:47
+#: apps/course_metadata/choices.py:56
+msgid "Course Rerun"
+msgstr "הפעלת הקורס מחדש"
+
+#: apps/course_metadata/choices.py:57
+msgid "Course Editor Update"
+msgstr "עדכון עורך הקורס"
+
+#: apps/course_metadata/choices.py:64
+msgid "Pending"
+msgstr "בהמתנה"
+
+#: apps/course_metadata/choices.py:65 apps/course_metadata/choices.py:76
 msgid "Verified"
 msgstr "מאומת"
 
-#: apps/course_metadata/choices.py:48
+#: apps/course_metadata/choices.py:66
+msgid "Processing"
+msgstr "מעבד"
+
+#: apps/course_metadata/choices.py:67
+msgid "Completed"
+msgstr "הושלמו"
+
+#: apps/course_metadata/choices.py:68
+msgid "Failed"
+msgstr "נכשל"
+
+#: apps/course_metadata/choices.py:70
+msgid "Errored"
+msgstr "שגיאה"
+
+#: apps/course_metadata/choices.py:74
+msgid "Honor"
+msgstr "מסלול תעודה"
+
+#: apps/course_metadata/choices.py:75
+msgid "Credit"
+msgstr "נקודות זכות"
+
+#: apps/course_metadata/choices.py:77
 msgid "Professional"
 msgstr "מקצועי"
 
-#: apps/course_metadata/choices.py:49
+#: apps/course_metadata/choices.py:78
 msgid "Executive Education"
 msgstr "חינוך מנהלים"
 
-#: apps/course_metadata/choices.py:50
+#: apps/course_metadata/choices.py:79
 msgid "Paid Executive Education"
 msgstr "השכלת מנהלים בתשלום"
 
-#: apps/course_metadata/choices.py:51
+#: apps/course_metadata/choices.py:80
 msgid "Unpaid Executive Education"
 msgstr "השכלת מנהלים ללא תשלום"
 
-#: apps/course_metadata/choices.py:52
+#: apps/course_metadata/choices.py:81
 msgid "Paid Bootcamp"
 msgstr "Bootcamp בתשלום"
 
-#: apps/course_metadata/choices.py:53
+#: apps/course_metadata/choices.py:82
 msgid "Unpaid Bootcamp"
 msgstr "Bootcamp ללא תשלום"
 
-#: apps/course_metadata/choices.py:57
+#: apps/course_metadata/choices.py:86
 msgid "Platform"
 msgstr "פלטפורמה"
 
-#: apps/course_metadata/choices.py:58
+#: apps/course_metadata/choices.py:87
 msgid "Organization"
 msgstr "ארגון"
 
-#: apps/course_metadata/choices.py:62
+#: apps/course_metadata/choices.py:91
 msgid "Short"
 msgstr "קצר"
 
-#: apps/course_metadata/choices.py:63
+#: apps/course_metadata/choices.py:92
 msgid "Medium"
 msgstr "בינוני"
 
-#: apps/course_metadata/choices.py:64
+#: apps/course_metadata/choices.py:93
 msgid "Long"
 msgstr "ארוך"
 
-#: apps/course_metadata/choices.py:79
+#: apps/course_metadata/choices.py:108
 msgid "Short Course"
 msgstr "מסלול קצר"
 
-#: apps/course_metadata/choices.py:80
+#: apps/course_metadata/choices.py:109
 msgid "Sprint"
 msgstr "ריצה מהירה"
 
-#: apps/course_metadata/choices.py:81
+#: apps/course_metadata/choices.py:110
 msgid "Course Stack"
 msgstr "מחסנית קורסים"
+
+#: apps/course_metadata/choices.py:114
+msgid "Custom B2B Enterprise"
+msgstr "ארגוני B2B מותאם אישית"
+
+#: apps/course_metadata/choices.py:115
+msgid "Custom B2C"
+msgstr "B2C מותאם אישית"
 
 #: apps/course_metadata/data_loaders/course_type.py:27
 #, python-brace-format
@@ -610,8 +668,8 @@ msgid ""
 "Existing run type {run_type} for {key} ({id}) doesn't match course type "
 "{type}.Skipping type."
 msgstr ""
-"סוג הריצה הקיים {run_type} עבור {key} ( {id} ) אינו תואם לסוג הקורס {type} "
-".סוג דילוג."
+"סוג הריצה הקיים {run_type} עבור {key} ({id}) אינו תואם לסוג הקורס {type}. "
+"סוג דילוג."
 
 #: apps/course_metadata/data_loaders/course_type.py:75
 #, python-brace-format
@@ -623,41 +681,41 @@ msgstr ""
 #: apps/course_metadata/data_loaders/course_type.py:91
 #, python-brace-format
 msgid "Course {key} ({id}) matched type {type}"
-msgstr "קורס {key} ( {id} ) תואם סוג {type}"
+msgstr "קורס {key} ({id}) תואם סוג {type}"
 
 #: apps/course_metadata/data_loaders/course_type.py:101
 #, python-brace-format
 msgid "Could not convert course {key} ({id}) to type {type}"
 msgstr "לא ניתן היה להמיר את הקורס {key} ( {id} ) לסוג {type}"
 
-#: apps/course_metadata/emails.py:36
+#: apps/course_metadata/emails.py:37
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no "
 "organization is defined for course {course}"
 msgstr ""
-"לא שולח אימייל התראה עבור תבנית {template} מכיוון שאף ארגון לא מוגדר לקורס "
+"לא שלחתי אימייל התראה עבור תבנית {template} מכיוון שאף ארגון לא מוגדר לקורס "
 "{course}"
 
-#: apps/course_metadata/emails.py:41
+#: apps/course_metadata/emails.py:42
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no project "
 "coordinator is defined for organization {org}"
 msgstr ""
-"לא שולח אימייל התראה עבור תבנית {template} כי לא מוגדר רכז פרויקט לארגון "
+"לא שולחים אימייל התראה עבור תבנית {template} כי לא מוגדר רכז פרויקט לארגון "
 "{org}"
 
-#: apps/course_metadata/emails.py:95
+#: apps/course_metadata/emails.py:96
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no publisher "
 "URL is defined for partner {partner}"
 msgstr ""
-"לא שולח אימייל התראה עבור תבנית {template} כי לא מוגדרת כתובת אתר של בעל אתר"
+"אני לא שולח אימייל התראה עבור תבנית {template} כי לא מוגדרת כתובת של בעל אתר"
 " עבור השותף {partner}"
 
-#: apps/course_metadata/emails.py:103
+#: apps/course_metadata/emails.py:104
 #, python-brace-format
 msgid ""
 "Not sending notification email for template {template} because no studio URL"
@@ -666,52 +724,52 @@ msgstr ""
 "לא שולח אימייל התראה עבור תבנית {template} מכיוון שלא מוגדרת כתובת אתר של "
 "סטודיו עבור השותף {partner}"
 
-#: apps/course_metadata/emails.py:169
+#: apps/course_metadata/emails.py:170
 msgid "legal team"
 msgstr "צוות משפטי"
 
-#: apps/course_metadata/emails.py:187
+#: apps/course_metadata/emails.py:188
 msgid "Project Coordinator team"
 msgstr "צוות רכז פרויקטים"
 
-#: apps/course_metadata/emails.py:211
+#: apps/course_metadata/emails.py:212
 msgid "course team"
 msgstr "צוות הקורס"
 
-#: apps/course_metadata/emails.py:220
+#: apps/course_metadata/emails.py:221
 #, python-brace-format
 msgid "Legal review requested: {title}"
 msgstr "ביקורת משפטית מתבקשת: {title}"
 
-#: apps/course_metadata/emails.py:233
+#: apps/course_metadata/emails.py:234
 #, python-brace-format
 msgid "Course URL for {title}"
-msgstr "כתובת האתר של הקורס עבור {title}"
+msgstr "כתובת הקורס עבור {title}"
 
-#: apps/course_metadata/emails.py:279
+#: apps/course_metadata/emails.py:280
 #, python-brace-format
 msgid "Review requested: {key} - {title}"
 msgstr "סקירה מתבקשת: {key} - {title}"
 
-#: apps/course_metadata/emails.py:291
+#: apps/course_metadata/emails.py:292
 #, python-brace-format
 msgid "Review complete: {title}"
 msgstr "הסקירה הושלמה: {title}"
 
-#: apps/course_metadata/emails.py:307
+#: apps/course_metadata/emails.py:308
 #, python-brace-format
 msgid "Published: {title}"
 msgstr "פורסם: {title}"
 
-#: apps/course_metadata/emails.py:311
+#: apps/course_metadata/emails.py:312
 #, python-brace-format
 msgid "Published: {key} - {title}"
 msgstr "פורסם: {key} - {title}"
 
-#: apps/course_metadata/emails.py:326
+#: apps/course_metadata/emails.py:327
 #, python-brace-format
 msgid "Comment added: {title}"
-msgstr "נוספה תגובה: {title}"
+msgstr "נוספה הערה: {title}"
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 #: apps/course_metadata/fields.py:33
@@ -719,20 +777,20 @@ msgid ""
 "Enter a valid “slug” consisting of letters, numbers, slashes, underscores or"
 " hyphens."
 msgstr ""
-"הזן &quot;שבלול&quot; חוקי המורכב מאותיות, מספרים, לוכסנים, קווים תחתונים או"
-" מקפים."
+"הזן \"שם קצר למאמר\" חוקי המורכב מאותיות, מספרים, לוכסנים, קווים תחתונים או "
+"מקפים."
 
-#: apps/course_metadata/forms.py:66
+#: apps/course_metadata/forms.py:102
 msgid "Programs can only be activated if they have a banner image."
 msgstr "ניתן להפעיל תכניות בעלי תמונת באנר בלבד."
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:15
 msgid "Tag to add to courses"
-msgstr "תייגו להוסיף לקורסים"
+msgstr "תגית להוסיף לקורסים"
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:16
 msgid "UUIDs of courses to tag"
-msgstr "UUIDs של קורסים לתיוג"
+msgstr "UUIDs של קורסים לתגית"
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:18
 msgid ""
@@ -755,23 +813,23 @@ msgstr "קוד"
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:16
 #: apps/course_metadata/management/commands/delete_person_dups.py:33
 msgid "Short code for a partner."
-msgstr "קוד קצר לבן זוג."
+msgstr "קוד קצר לשותף."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:20
-#: apps/course_metadata/models.py:233 apps/course_metadata/models.py:488
-#: apps/course_metadata/models.py:636 apps/course_metadata/models.py:669
-#: apps/course_metadata/models.py:693 apps/course_metadata/models.py:732
-#: apps/course_metadata/models.py:1003 apps/course_metadata/models.py:1144
-#: apps/course_metadata/models.py:1306 apps/course_metadata/models.py:2100
-#: apps/course_metadata/models.py:3110 apps/course_metadata/models.py:4041
-#: apps/course_metadata/models.py:4133 apps/learner_pathway/models.py:35
-#: apps/learner_pathway/models.py:84 apps/learner_pathway/models.py:159
+#: apps/course_metadata/models.py:238 apps/course_metadata/models.py:493
+#: apps/course_metadata/models.py:641 apps/course_metadata/models.py:674
+#: apps/course_metadata/models.py:698 apps/course_metadata/models.py:737
+#: apps/course_metadata/models.py:1054 apps/course_metadata/models.py:1275
+#: apps/course_metadata/models.py:1452 apps/course_metadata/models.py:2288
+#: apps/course_metadata/models.py:3372 apps/course_metadata/models.py:4422
+#: apps/course_metadata/models.py:4563 apps/learner_pathway/models.py:34
+#: apps/learner_pathway/models.py:83 apps/learner_pathway/models.py:158
 msgid "UUID"
 msgstr "UUID"
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:22
 msgid "Course to backpopulate."
-msgstr "קורס לאכלוס חוזר."
+msgstr "קורס למילוי נתונים מחדש."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:27
 msgid "KEY"
@@ -808,12 +866,12 @@ msgstr "עליך לציין --partner"
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:71
 #, python-brace-format
 msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
-msgstr "סוג ריצת קורס מסופק slug [ {rt_slug} ] אינו קיים."
+msgstr "שם קצר למאמר של סוג ריצת הקורס המסופק [{rt_slug}] אינו קיים."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:78
 #, python-brace-format
 msgid "Supplied Course Type slug [{ct_slug}] does not exist."
-msgstr "סוג הקורס המסופק slug [ {ct_slug} ] אינו קיים."
+msgstr "השם הקצר למאמר של סוג הקורס המסופק [{ct_slug}] אינו קיים."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:89
 msgid "No courses found. Did you specify an argument?"
@@ -828,7 +886,7 @@ msgstr "לא ניתן לאכלס מחדש סוג קורס עבור הקורסי�
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:21
 msgid "Delete duplicate persons in course_metadata."
-msgstr "מחק אנשים כפולים ב-course_metadata."
+msgstr "מחק כפילויות של אנשים ב-course_metadata."
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:26
 msgid "PERSON"
@@ -836,11 +894,7 @@ msgstr "אדם"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:28
 msgid "People to delete, in UUID:TARGET_UUID form."
-msgstr "אנשים למחיקה, בצורת UUID:TARGET_UUID."
-
-#: apps/course_metadata/management/commands/delete_person_dups.py:32
-msgid "PARTNER"
-msgstr "בת זוג"
+msgstr "אנשים למחוק, בצורת UUID:TARGET_UUID."
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:43
 msgid ""
@@ -858,7 +912,7 @@ msgstr "ארגומנט שגוי &quot;{}&quot;, מזהי UUID לא יכולים 
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:85
 msgid "Deleting"
-msgstr "מוחק"
+msgstr "מחק"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:85
 msgid "Would delete"
@@ -895,12 +949,12 @@ msgstr "עליך לציין לפחות אדם אחד"
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
 msgid "Publishing course run {key}"
-msgstr "קורס פרסום רץ {key}"
+msgstr "פרסם קורס רץ {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:28
 #, python-brace-format
 msgid "Failed to publish {key}"
-msgstr "נכשל פרסום {key}"
+msgstr "לא הצלחנו לפרסם {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:31
 #, python-brace-format
@@ -909,7 +963,7 @@ msgstr "פורסם בהצלחה {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:34
 msgid "One or more course runs failed to publish."
-msgstr "ריצת קורס אחת או יותר נכשלה בפרסום."
+msgstr "ריצות קורס אחת או יותר נכשלו לפרסם."
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
 msgid "Remove all redirects to all courses"
@@ -932,33 +986,33 @@ msgstr "טיעונים לא חוקיים"
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:56
 #, python-brace-format
 msgid "Cannot remove active url_slug {url_slug}"
-msgstr "לא ניתן להסיר את url_slug הפעיל {url_slug}"
+msgstr "לא ניתן להסיר את כתובת_slug הפעיל {url_slug}"
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
 #, python-brace-format
 msgid "Path /course/{url_slug} not in use, nothing to delete"
-msgstr "נתיב /course/ {url_slug} לא בשימוש, אין מה למחוק"
+msgstr "נתיב /course/ {url_slug} אינו בשימוש, לכן יש למחוק."
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:65
 #, python-brace-format
 msgid "Path {url_path} not in use, nothing to delete"
-msgstr "נתיב {url_path} אינו בשימוש, אין מה למחוק"
+msgstr "נתיב {url_path} אינו בשימוש, אין למחוק"
 
-#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:42
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:44
 msgid "One or more courses failed to unpublish."
-msgstr "ביטול הפרסום של קורס אחד או יותר נכשל."
+msgstr "לא הצלחנו לבטל את הפרסום של קורס אחד או יותר."
 
-#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:48
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:50
 #, python-brace-format
 msgid "Successfully unpublished runs in course {key}"
 msgstr "ריצות לא פורסמו בהצלחה בקורס {key}"
 
-#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:51
+#: apps/course_metadata/management/commands/unpublish_inactive_runs.py:53
 #, python-brace-format
 msgid "Failed to unpublish runs in course {key}"
-msgstr "ביטול הפרסום של ריצות בקורס {key} נכשל"
+msgstr "הפרסום של ריצות בקורס {key} נכשל בביטול"
 
-#: apps/course_metadata/models.py:234
+#: apps/course_metadata/models.py:239
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen. This key will be used in the course's course key."
@@ -966,77 +1020,77 @@ msgstr ""
 "נא לא להשתמש ברווחים או תווים מיוחדים מלבד נקודה, קו תחתון או מקף. מפתח זה "
 "ישמש במפתח הקורס של הקורס."
 
-#: apps/course_metadata/models.py:239
-msgid "If populated, this field will overwrite name in platform."
-msgstr "אם מאוכלס, שדה זה יחליף את השם בפלטפורמה."
-
 #: apps/course_metadata/models.py:244
+msgid "If populated, this field will overwrite name in platform."
+msgstr "אם מאוכלס, זה יחליף את השם בפלטפורמה."
+
+#: apps/course_metadata/models.py:249
 msgid "Spanish Description"
 msgstr "תיאור ספרדי"
 
-#: apps/course_metadata/models.py:245
+#: apps/course_metadata/models.py:250
 msgid ""
 "For seo, this field allows for alternate spanish description to be manually "
 "inputted"
-msgstr "עבור SEO, שדה זה מאפשר להזין תיאור ספרדי חלופי באופן ידני"
+msgstr "עבור SEO, זה שדה שמאפשר להזין תיאור ספרדי חלופי באופן ידני"
 
-#: apps/course_metadata/models.py:270 apps/course_metadata/models.py:1383
-#: apps/course_metadata/models.py:2177
+#: apps/course_metadata/models.py:275 apps/course_metadata/models.py:1529
+#: apps/course_metadata/models.py:2372
 msgid ""
 "Pick a tag from the suggestions. To make a new tag, add a comma after the "
 "tag name."
 msgstr "בחר תגית מהאפשרויות. על מנת ליצור תגית חדשה, הוסף פסיק לאחר שם התגית."
 
-#: apps/course_metadata/models.py:274
+#: apps/course_metadata/models.py:279
 msgid "Automatically generate course run keys"
 msgstr "צור באופן אוטומטי מפתחות הפעלת קורס"
 
-#: apps/course_metadata/models.py:276
+#: apps/course_metadata/models.py:281
 msgid ""
 "When this flag is enabled, the key of a new course run will be auto "
 "generated.  When this flag is disabled, the key can be manually set."
 msgstr ""
-"כאשר הדגל הזה מופעל, המפתח של ריצת קורס חדש ייווצר אוטומטית. כאשר הדגל הזה "
+"כאשר הדגל הזה אפשר, המפתח של ריצת קורס חדש ייווצר אוטומטית. כאשר הדגל הזה "
 "מושבת, ניתן להגדיר את המפתח באופן ידני."
 
-#: apps/course_metadata/models.py:282
+#: apps/course_metadata/models.py:287
 msgid ""
 "This field signifies if any of this org's courses are in the enterprise "
 "subscription catalog"
 msgstr ""
 "שדה זה מציין אם אחד מהקורסים של ארגון זה נמצא בקטלוג המנויים של הארגון"
 
-#: apps/course_metadata/models.py:285
+#: apps/course_metadata/models.py:290
 msgid ""
 "The 6 character-hex-value of the orgnization theme color,\n"
 "            all related course under same organization will use this color as theme color.\n"
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 msgstr ""
-"הערך של 6 תווים-הקסים של צבע ערכת הנושא של הארגון,\n"
-" כל הקורסים הקשורים תחת אותו ארגון ישתמשו בצבע זה כצבע נושא.\n"
-" (למשל &quot;#ff0000&quot; ששווה לאדום) אין צורך לספק את ה-#"
+"הערך של 6 תווים-הקסים של צבע ערכת הנושא של הארגון,  \n"
+"            כל הקורסים הקשורים תחת אותו ארגון ישתמשו בצבע זה כצבע נושא.  \n"
+"            (למשל \"#ff0000\" ששווה לאדום) אין צורך לספק את ה-#"
 
-#: apps/course_metadata/models.py:301
+#: apps/course_metadata/models.py:306
 msgid "The timestamp of the last time the organization data was modified."
 msgstr "חותמת הזמן של הפעם האחרונה שבה נתוני הארגון שונו."
 
-#: apps/course_metadata/models.py:317
+#: apps/course_metadata/models.py:322
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen in the key field."
 msgstr ""
-"נא לא להשתמש ברווחים או תווים מיוחדים מלבד נקודה, קו תחתון או מקף בשדה "
+"נא לא להשתמש ברווחים או תווים מיוחדים מלבד נקודה, קו תחתון או מקף בתוך שדה "
 "המפתח."
 
-#: apps/course_metadata/models.py:388
+#: apps/course_metadata/models.py:393
 msgid "Corresponding organization code in an external product source"
-msgstr "קוד ארגון מתאים במקור מוצר חיצוני"
+msgstr "קוד ארגון מתאים בתוך מקור מוצר חיצוני"
 
-#: apps/course_metadata/models.py:445
+#: apps/course_metadata/models.py:450
 msgid "LevelType model translations"
 msgstr "תרגומי מודל LevelType"
 
-#: apps/course_metadata/models.py:470
+#: apps/course_metadata/models.py:475
 msgid ""
 "Seat types that qualify for completion of programs of this type. Learners "
 "completing associated courses, but enrolled in other seat types, will NOT "
@@ -1046,288 +1100,288 @@ msgstr ""
 "סוגי המושב הכשירים להשלמת תכניות מסוג זה. הלומדים משלימים קורסים משויכים, אך"
 " נרשמים בסוגי כסאות אחרים, לא יוכלו להשלים את הקורס עד להשלמת התוכנית."
 
-#: apps/course_metadata/models.py:484
+#: apps/course_metadata/models.py:489
 msgid "Please provide an image file with transparent background"
 msgstr "אנא הזן קובץ תמונה עם רקע שקוף"
 
-#: apps/course_metadata/models.py:487 apps/course_metadata/models.py:531
-#: apps/course_metadata/models.py:697 apps/course_metadata/models.py:735
-#: apps/course_metadata/models.py:1318 apps/course_metadata/models.py:3124
+#: apps/course_metadata/models.py:492 apps/course_metadata/models.py:536
+#: apps/course_metadata/models.py:702 apps/course_metadata/models.py:740
+#: apps/course_metadata/models.py:1464 apps/course_metadata/models.py:3386
 msgid "Leave this field blank to have the value generated automatically."
 msgstr "השאר שדה זה ריק כדי שהערך יווצר באופן אוטומטי."
 
-#: apps/course_metadata/models.py:528
+#: apps/course_metadata/models.py:533
 msgid "Name of the external source."
 msgstr "שם המקור החיצוני."
 
-#: apps/course_metadata/models.py:533
+#: apps/course_metadata/models.py:538
 msgid "Description of the external source."
 msgstr "תיאור המקור החיצוני."
 
-#: apps/course_metadata/models.py:538
+#: apps/course_metadata/models.py:543
 msgid "Programs of these types will be OFAC restricted"
 msgstr "תוכניות מסוגים אלה יהיו מוגבלות ב-OFAC"
 
-#: apps/course_metadata/models.py:552
+#: apps/course_metadata/models.py:557
 msgid "ProgramType model translations"
 msgstr "תרגומי מודל ProgramType"
 
-#: apps/course_metadata/models.py:566
+#: apps/course_metadata/models.py:571
 msgid "This mode requires ID verification."
 msgstr "מצב זה דורש אימות מזהה."
 
-#: apps/course_metadata/models.py:569
+#: apps/course_metadata/models.py:574
 msgid "Completion can grant credit toward an organization’s degree."
 msgstr "השלמה יכולה להעניק קרדיט לתואר של ארגון."
 
-#: apps/course_metadata/models.py:573
+#: apps/course_metadata/models.py:578
 msgid ""
 "Certificate type granted if this mode is eligible for a certificate, or "
 "blank if not."
-msgstr "סוג אישור מוענק אם מצב זה מתאים לאישור, או ריק אם לא."
+msgstr "סוג תעודה מוענק אם מצב זה מתאים לתעודה, או ריק אם לא."
 
-#: apps/course_metadata/models.py:577
+#: apps/course_metadata/models.py:582
 msgid ""
 "Who gets paid for the course? Platform is the site owner, Organization is "
 "the school."
 msgstr ""
 "מי מקבל תשלום עבור הקורס? הפלטפורמה היא הבעלים של האתר, הארגון הוא בית הספר."
 
-#: apps/course_metadata/models.py:674
+#: apps/course_metadata/models.py:679
 msgid "Sets the order for displaying Course Run Types."
 msgstr "מגדיר את הסדר להצגת סוגי ריצת קורסים."
 
-#: apps/course_metadata/models.py:677
+#: apps/course_metadata/models.py:682
 msgid ""
 "Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
 "this course type in Publisher."
 msgstr ""
 "השאר את זה ריק כדי לאפשר את כל הארגונים. אחרת, מציין אילו ארגונים יכולים "
-"לראות את סוג הקורס הזה ב-Publisher."
+"לראות את הקורס הזה ב-Publisher."
 
-#: apps/course_metadata/models.py:727
+#: apps/course_metadata/models.py:732
 msgid "Subject model translations"
 msgstr "תרגומי מודל נושא"
 
-#: apps/course_metadata/models.py:774
+#: apps/course_metadata/models.py:779
 msgid "Topic model translations"
-msgstr "תרגומי מודל נושא"
+msgstr "תרגום מודל נושא"
 
-#: apps/course_metadata/models.py:833
+#: apps/course_metadata/models.py:846
 msgid "SEO Meta tags for Products"
-msgstr "SEO Meta Tags עבור מוצרים"
+msgstr "SEO Meta תגיות עבור מוצרים"
 
-#: apps/course_metadata/models.py:863
+#: apps/course_metadata/models.py:881
 msgid ""
 "The ID of the Taxi Form (by 2U) that would be rendered in place of the "
 "hubspot capture form"
 msgstr "המזהה של טופס המונית (על ידי 2U) שיוצג במקום טופס לכידת נקודת הרכזת"
 
-#: apps/course_metadata/models.py:869
+#: apps/course_metadata/models.py:887
 msgid ""
 "The grouping of the Taxi Form (by 2U) that would be rendered instead of the "
 "hubspot capture form"
-msgstr "הקיבוץ של טופס המונית (על ידי 2U) שיוצג במקום טופס לכידת נקודת הרכזת"
+msgstr "קבוצת טופס המונית (על ידי 2U) שיוצג במקום טופס לכידת נקודת הרכזת"
 
-#: apps/course_metadata/models.py:893
+#: apps/course_metadata/models.py:933
 msgid "The URL of the paid landing page on external site"
 msgstr "כתובת האתר של דף הנחיתה בתשלום באתר חיצוני"
 
-#: apps/course_metadata/models.py:899
+#: apps/course_metadata/models.py:939
 msgid "The URL of the organic landing page on external site"
 msgstr "כתובת האתר של דף הנחיתה האורגני באתר חיצוני"
 
-#: apps/course_metadata/models.py:910
+#: apps/course_metadata/models.py:950
 msgid "The start date of the external course offering for marketing purpose"
 msgstr "תאריך תחילת הצעת הקורס החיצוני למטרות שיווק"
 
-#: apps/course_metadata/models.py:914
+#: apps/course_metadata/models.py:954
 msgid "The ends date of the external course offering for marketing purpose"
-msgstr "תאריך סיום הצעת הקורס החיצוני למטרות שיווק"
+msgstr "תאריכי סיום הצעת הקורס החיצוני למטרות שיווק"
 
-#: apps/course_metadata/models.py:918
+#: apps/course_metadata/models.py:958
 msgid "The suggested deadline for enrollment for marketing purpose"
 msgstr "המועד המוצע להרשמה למטרות שיווק"
 
-#: apps/course_metadata/models.py:922
+#: apps/course_metadata/models.py:962
 msgid "The identifier for a product variant."
 msgstr "המזהה של וריאנט מוצר."
 
-#: apps/course_metadata/models.py:926
+#: apps/course_metadata/models.py:966
 msgid "Course override"
 msgstr "ביטול קורס"
 
-#: apps/course_metadata/models.py:927
+#: apps/course_metadata/models.py:967
 msgid "This field allows for override the default course term"
 msgstr "שדה זה מאפשר לעקוף את טווח ברירת המחדל של הקורס"
 
-#: apps/course_metadata/models.py:945
+#: apps/course_metadata/models.py:993
 msgid ""
 "This field contain external course marketing type specific to product lines"
 msgstr "שדה זה מכיל סוג שיווק חיצוני של קורסים ספציפיים לקווי מוצרים"
 
-#: apps/course_metadata/models.py:954
+#: apps/course_metadata/models.py:1002
 msgid ""
 "Determines weather the course should be displayed on the owning "
 "organization's page"
-msgstr "קובע את מזג האוויר שהקורס צריך להיות מוצג בדף הארגון שבבעלותו"
+msgstr "קובע אם יש להציג את הקורס בדף הארגון שבבעלותו"
 
-#: apps/course_metadata/models.py:1022
+#: apps/course_metadata/models.py:1073
 msgid "A list of major works by this person. Must be valid HTML."
 msgstr "רשימה של יצירות מרכזיות של אדם זה. חייב להיות HTML חוקי."
 
-#: apps/course_metadata/models.py:1030
+#: apps/course_metadata/models.py:1081
 msgid "People"
 msgstr "אנשים"
 
-#: apps/course_metadata/models.py:1141
+#: apps/course_metadata/models.py:1272
 msgid ""
 "Add the collaborator image, please make sure its dimensions are 200x100px"
-msgstr "הוסף את תמונת שותף עריכה, ודא שמידותיה הן 200x100 פיקסלים"
+msgstr "הוסף את תמונת שותף, ודא שמידותיה הן 200x100 פיקסלים"
 
-#: apps/course_metadata/models.py:1165
+#: apps/course_metadata/models.py:1296
 msgid "U.S. Value Per Lead"
 msgstr "ערך ארה&quot;ב לליד"
 
-#: apps/course_metadata/models.py:1166
+#: apps/course_metadata/models.py:1297
 msgid "U.S. value per lead in U.S. dollars."
-msgstr "ערך אמריקאי לליד בדולרים."
+msgstr "ערך אמריקאי לליד בתוך דולרים."
 
-#: apps/course_metadata/models.py:1171
+#: apps/course_metadata/models.py:1302
 msgid "International Value Per Lead"
 msgstr "ערך בינלאומי לליד"
 
-#: apps/course_metadata/models.py:1172
+#: apps/course_metadata/models.py:1303
 msgid "International value per lead in U.S. dollars."
-msgstr "ערך בינלאומי לליד בדולרים."
+msgstr "ערך בינלאומי לליד בתוך דולרים."
 
-#: apps/course_metadata/models.py:1177
+#: apps/course_metadata/models.py:1308
 msgid "U.S. Value Per Click"
 msgstr "ערך ארה&quot;ב לקליק"
 
-#: apps/course_metadata/models.py:1178
+#: apps/course_metadata/models.py:1309
 msgid "U.S. value per click in U.S. dollars."
 msgstr "ערך ארה&quot;ב לקליק בדולרים."
 
-#: apps/course_metadata/models.py:1183
+#: apps/course_metadata/models.py:1314
 msgid "International Value Per Click"
 msgstr "ערך בינלאומי לקליק"
 
-#: apps/course_metadata/models.py:1184
+#: apps/course_metadata/models.py:1315
 msgid "International value per click in U.S. dollars."
 msgstr "ערך בינלאומי לקליק בדולרים."
 
-#: apps/course_metadata/models.py:1222
+#: apps/course_metadata/models.py:1359
 msgid "Latitude"
 msgstr "קו רוחב"
 
-#: apps/course_metadata/models.py:1229
+#: apps/course_metadata/models.py:1366
 msgid "Longitude"
 msgstr "קו אורך"
 
-#: apps/course_metadata/models.py:1266
+#: apps/course_metadata/models.py:1409
 msgid "Allowlist"
 msgstr "רשימת ההיתרים"
 
-#: apps/course_metadata/models.py:1267
+#: apps/course_metadata/models.py:1410
 msgid "Blocklist"
 msgstr "רשימת חסומים"
 
-#: apps/course_metadata/models.py:1314
+#: apps/course_metadata/models.py:1460
 msgid ""
 "When making reruns for this course, they will use this key instead of the "
 "course key."
 msgstr ""
-"בעת ביצוע שידורים חוזרים של קורס זה, הם ישתמשו במפתח זה במקום במפתח הקורס."
+"בעת ביצוע שידורים חוזרים של הקורס הזה, הם ישתמשו במפתח זה במקום במפתח הקורס."
 
-#: apps/course_metadata/models.py:1331
+#: apps/course_metadata/models.py:1477
 msgid ""
 "The actual duration of this course as experienced by learners who complete "
 "it."
-msgstr "משך הקורס בפועל כפי שחוו הלומדים שמסיימים אותו."
+msgstr "משך הקורס בפועל כפי שחוו הלומדים שמסיימים את הקורס הזה."
 
-#: apps/course_metadata/models.py:1352
+#: apps/course_metadata/models.py:1498
 msgid "Add the course image"
 msgstr "הוסף את תמונת הקורס"
 
-#: apps/course_metadata/models.py:1355 apps/course_metadata/models.py:3096
+#: apps/course_metadata/models.py:1501 apps/course_metadata/models.py:3358
 msgid "FAQ"
 msgstr "שאלות נפוצות"
 
-#: apps/course_metadata/models.py:1358
+#: apps/course_metadata/models.py:1504
 msgid "Total number of learners who have enrolled in this course"
-msgstr "המספר הכולל של לומדים שנרשמו לקורס זה"
+msgstr "המספר הכולל של לומדים שנרשמו לקורס הזה"
 
-#: apps/course_metadata/models.py:1363
+#: apps/course_metadata/models.py:1509
 msgid ""
 "Total number of learners who have enrolled in this course in the last 6 "
 "months"
-msgstr "המספר הכולל של לומדים שנרשמו לקורס זה ב-6 החודשים האחרונים"
+msgstr "המספר הכולל של לומדים שנרשמו לקורס הזה ב-6 החודשים האחרונים"
 
-#: apps/course_metadata/models.py:1377
+#: apps/course_metadata/models.py:1523
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
 msgstr "תבנית מספר הקורס, לדוגמה CS002x‏ BIO1.1x, BIO1.2x"
 
-#: apps/course_metadata/models.py:1391
+#: apps/course_metadata/models.py:1537
 msgid "Additional Information"
 msgstr "מידע נוסף"
 
-#: apps/course_metadata/models.py:1413
+#: apps/course_metadata/models.py:1559
 msgid "The last time this course was modified in the database."
-msgstr "בפעם האחרונה שונתה קורס זה במסד הנתונים."
+msgstr "בפעם האחרונה שונה הקורס הזה במסד הנתונים."
 
-#: apps/course_metadata/models.py:1418
+#: apps/course_metadata/models.py:1564
 msgid ""
 "This field signifies if this course is in the enterprise subscription "
 "catalog"
-msgstr "שדה זה מציין אם קורס זה נמצא בקטלוג המנויים של הארגון"
+msgstr "שדה זה מציין אם הקורס הזה נמצא בקטלוג המנויים של הארגון"
 
-#: apps/course_metadata/models.py:1426 apps/course_metadata/models.py:3255
+#: apps/course_metadata/models.py:1572 apps/course_metadata/models.py:3517
 msgid ""
 "If checked, this item will not be indexed in Algolia and will not show up in"
 " search results."
 msgstr "אם מסומן, פריט זה לא יצורף לאינדקס באלגוליה ולא יופיע בתוצאות החיפוש."
 
-#: apps/course_metadata/models.py:1434 apps/course_metadata/models.py:3263
+#: apps/course_metadata/models.py:1580 apps/course_metadata/models.py:3525
 msgid "If checked, the About Page will have a meta tag with noindex value"
-msgstr "אם מסומן, לדף אודות יהיה מטא תג עם ערך noindex"
+msgstr "אם מסומן, לעמוד על אודות תהיה מטא תגית עם ערך noindex"
 
-#: apps/course_metadata/models.py:1439
+#: apps/course_metadata/models.py:1585
 msgid "Watchers"
 msgstr "צופים"
 
-#: apps/course_metadata/models.py:1441
+#: apps/course_metadata/models.py:1587
 msgid ""
 "The list of email addresses that will be notified if any of the course runs "
 "is published or scheduled."
 msgstr ""
-"רשימת כתובות הדואר האלקטרוני שתקבלו הודעה אם חלק מהקורסים יתפרסמו או "
-"מתוכננת."
+"רשימת כתובות הדואר האלקטרוני שתקבלו הודעה אם חלק מהקורסים יפורסמו או "
+"מתוכננים."
 
-#: apps/course_metadata/models.py:1680
+#: apps/course_metadata/models.py:1832
 msgid "Future"
 msgstr "עתיד"
 
-#: apps/course_metadata/models.py:1682
+#: apps/course_metadata/models.py:1834
 msgid "Past"
 msgstr "עבר"
 
-#: apps/course_metadata/models.py:2093 apps/course_metadata/models.py:3107
+#: apps/course_metadata/models.py:2276 apps/course_metadata/models.py:3369
 msgid "Blocked"
 msgstr "חָסוּם"
 
-#: apps/course_metadata/models.py:2094 apps/course_metadata/models.py:3108
+#: apps/course_metadata/models.py:2277 apps/course_metadata/models.py:3370
 msgid "Unrestricted"
 msgstr "ללא הגבלה"
 
-#: apps/course_metadata/models.py:2110
+#: apps/course_metadata/models.py:2298
 msgid ""
 "Title specific for this run of a course. Leave this value blank to default "
 "to the parent course's title."
 msgstr ""
 "כותרת ספציפית להשלמת קורס זה. השאר ערך זה ריק כברירת מחדל לכותרת קורס האב."
 
-#: apps/course_metadata/models.py:2119
+#: apps/course_metadata/models.py:2307
 msgid ""
 "Short description specific for this run of a course. Leave this value blank "
 "to default to the parent course's short_description attribute."
@@ -1335,7 +1389,7 @@ msgstr ""
 "תיאור קצר הספציפי להשלמת קורס זה. השאר ערך זה ריק כברירת מחדל למאפייני "
 "תיאור_קצר של קורס האב."
 
-#: apps/course_metadata/models.py:2123
+#: apps/course_metadata/models.py:2311
 msgid ""
 "Full description specific for this run of a course. Leave this value blank "
 "to default to the parent course's full_description attribute."
@@ -1343,45 +1397,53 @@ msgstr ""
 "תיאור מלא וממוקד להשלמת הרצת קורס זה. השאֵר ערך זה ריק כברירת מחדל למאפייני "
 "תיאור_מלא של קורס הבסיס."
 
-#: apps/course_metadata/models.py:2128
+#: apps/course_metadata/models.py:2316
 msgid ""
 "Estimated minimum number of hours per week needed to complete a course run."
 msgstr "הערכת מספר השעות המינימלי בשבוע הנדרש לצורך השלמת הקורס."
 
-#: apps/course_metadata/models.py:2131
+#: apps/course_metadata/models.py:2319
 msgid ""
 "Estimated maximum number of hours per week needed to complete a course run."
 msgstr "הערכת מספר השעות המרבי בשבוע הנדרש לצורך השלמת הקורס."
 
-#: apps/course_metadata/models.py:2134
+#: apps/course_metadata/models.py:2322
 msgid "Estimated number of weeks needed to complete this course run."
 msgstr "הערכת מספר השבועות הנדרש לצורך השלמת הקורס."
 
-#: apps/course_metadata/models.py:2141
-msgid "Total number of learners who have enrolled in this course run"
-msgstr "המספר הכולל של לומדים שנרשמו לקורס זה פועל"
+#: apps/course_metadata/models.py:2329
+msgid ""
+"A JSON dict detailing the available translations and transcriptions for this"
+" run. The dict has two keys: translation_languages and "
+"transcription_languages."
+msgstr ""
+"מילון JSON המפרט את התרגומים והתמלולים הזמינים עבור הפעלת זה. למילון שני "
+"מפתחות: translation_languages ו-transcription_languages."
 
-#: apps/course_metadata/models.py:2145
+#: apps/course_metadata/models.py:2336
+msgid "Total number of learners who have enrolled in this course run"
+msgstr "המספר הכולל של לומדים שנרשמו לקורס הזה"
+
+#: apps/course_metadata/models.py:2340
 msgid ""
 "Total number of learners who have enrolled in this course run in the last 6 "
 "months"
-msgstr "המספר הכולל של לומדים שנרשמו לקורס זה פועל ב-6 החודשים האחרונים"
+msgstr "המספר הכולל של לומדים שנרשמו לקורס הזה שהתקיים ב-6 החודשים האחרונים"
 
-#: apps/course_metadata/models.py:2158
+#: apps/course_metadata/models.py:2353
 msgid ""
 "Whether this run should be hidden from API responses.  Do not edit here - "
 "this value will be overwritten by the \"Course Visibility In Catalog\" field"
 " in Studio via Refresh Course Metadata."
 msgstr ""
 "האם יש להסתיר את הריצה הזו מתגובות API. אין לערוך כאן - ערך זה יוחלף על ידי "
-"השדה &quot;נראות הקורס בקטלוג&quot; בסטודיו באמצעות רענון מטא נתונים של "
-"הקורס."
+"השדה \"נראות הקורס בקטלוג\" בסטודיו באמצעות רענון מטא נתונים של הקורס."
 
-#: apps/course_metadata/models.py:2164
+#: apps/course_metadata/models.py:2359
 msgid "Indicates whether the course relation has been manually overridden."
 msgstr "מציין האם הקשר לקורס נעקף באופן ידני."
 
-#: apps/course_metadata/models.py:2171
+#: apps/course_metadata/models.py:2366
 msgid ""
 "'What You Will Learn' description for this particular course run. Leave this"
 " value blank to default to the parent course's Outcome attribute."
@@ -1389,33 +1451,33 @@ msgstr ""
 "תיאור &#39;מה תלמד&#39; עבור הקורס המסוים הזה. השאר ערך זה ריק לברירת המחדל "
 "של תכונת התוצאה של קורס האב."
 
-#: apps/course_metadata/models.py:2184 apps/course_metadata/models.py:3291
+#: apps/course_metadata/models.py:2379 apps/course_metadata/models.py:3553
 msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
-msgstr "הוסף טקסט הגבלה של OFAC לקטע השאלות הנפוצות של אתר השיווק"
+msgstr "הוסף טקסט הגבלה של OFAC למקטע השאלות הנפוצות של אתר השיווק"
 
-#: apps/course_metadata/models.py:2204
+#: apps/course_metadata/models.py:2399
 msgid ""
 "This calculated field signifies if this course run is in the enterprise "
 "subscription catalog"
-msgstr "שדה מחושב זה מציין אם ריצת הקורס הזו נמצאת בקטלוג המנויים הארגוני"
+msgstr "שדה מחושב זה מציין אם ריצת הקורס הזה נמצאת בקטלוג המנויים הארגוני"
 
-#: apps/course_metadata/models.py:2210
+#: apps/course_metadata/models.py:2405
 msgid ""
 "The identifier for a product variant. This is used to link a course run to a"
 " product variant for external LOBs (i.e; ExecEd & Bootcamps)."
 msgstr ""
-"המזהה של וריאנט מוצר. זה משמש לקישור קורס המופעל לגרסה של מוצר עבור LOBs "
-"חיצוניים (כלומר; ExecEd &amp; Bootcamps)."
+"המזהה של וריאנט מוצר. זה משמש לקישור מזהה קורס לגרסה של מוצר עבור LOBs "
+"חיצוניים (כלומר; ExecEd & Bootcamps)."
 
-#: apps/course_metadata/models.py:2552 apps/course_metadata/models.py:2565
+#: apps/course_metadata/models.py:2753 apps/course_metadata/models.py:2766
 msgid "Current"
 msgstr "נוכחי"
 
-#: apps/course_metadata/models.py:2554
+#: apps/course_metadata/models.py:2755
 msgid "Starting Soon"
 msgstr "מתחילים בקרוב"
 
-#: apps/course_metadata/models.py:2604
+#: apps/course_metadata/models.py:2805
 msgid ""
 "Switching seat types after being reviewed is not supported. Please reach out"
 " to your project coordinator for additional help if necessary."
@@ -1423,50 +1485,50 @@ msgstr ""
 "החלפת סוגי מושב לאחר בדיקה אינה נתמכת. אנא פנה לרכז הפרויקט שלך לקבלת עזרה "
 "נוספת במידת הצורך."
 
-#: apps/course_metadata/models.py:2906
+#: apps/course_metadata/models.py:3159
 msgid "Change careers"
 msgstr "שנה קריירה"
 
-#: apps/course_metadata/models.py:2907
+#: apps/course_metadata/models.py:3160
 msgid "Job advancement"
 msgstr "קידום בעבודה"
 
-#: apps/course_metadata/models.py:2908
+#: apps/course_metadata/models.py:3161
 msgid "Learn valuable skills"
 msgstr "למד מיומנויות יקרות ערך"
 
-#: apps/course_metadata/models.py:2909
+#: apps/course_metadata/models.py:3162
 msgid "Learn for fun"
 msgstr "למד בשביל הכיף"
 
-#: apps/course_metadata/models.py:3097
+#: apps/course_metadata/models.py:3359
 msgid "FAQs"
 msgstr "שאלות נפוצות"
 
-#: apps/course_metadata/models.py:3112
+#: apps/course_metadata/models.py:3374
 msgid "The user-facing display title for this Program."
 msgstr "כותרת שם הקמפוס של המשתמש לתכנית זו."
 
-#: apps/course_metadata/models.py:3114
+#: apps/course_metadata/models.py:3376
 msgid "A brief, descriptive subtitle for the Program."
 msgstr "כתובית קצרה ותיאורית של התכנית."
 
-#: apps/course_metadata/models.py:3116
+#: apps/course_metadata/models.py:3378
 msgid "A brief hook for the marketing website"
 msgstr "הוק קצר לאתר השיווק"
 
-#: apps/course_metadata/models.py:3119
+#: apps/course_metadata/models.py:3381
 msgid "The lifecycle status of this Program."
 msgstr "סטטוס אורך החיים של תכנית זו."
 
-#: apps/course_metadata/models.py:3131
+#: apps/course_metadata/models.py:3393
 msgid ""
 "If this box is not checked, courses will be ordered as in the courses select"
 " box above."
 msgstr ""
 "אם תיבה זו לא סומנה, הקורסים יוזמנו כפי שמוזמנים קורסים שסומנו בתיבה שלעיל."
 
-#: apps/course_metadata/models.py:3146
+#: apps/course_metadata/models.py:3408
 msgid ""
 "This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
 " complete a course run belonging to this program."
@@ -1474,11 +1536,11 @@ msgstr ""
 "שדה זה אינו מומלץ לשימוש (ECOM-6021). הערכת מספר השבועות הנדרש לצורך השלמת "
 "הקורס השייך לתוכנית זו."
 
-#: apps/course_metadata/models.py:3172
+#: apps/course_metadata/models.py:3434
 msgid "DEPRECATED: Use the card image field"
 msgstr "מבוטל: השתמש בשדה תמונת הכרטיס"
 
-#: apps/course_metadata/models.py:3179
+#: apps/course_metadata/models.py:3441
 msgid ""
 "This field can be used by API clients to determine the order in which "
 "instructors will be displayed on program pages. Instructors in this list "
@@ -1488,54 +1550,54 @@ msgstr ""
 "התוכנית. המדריכים ברשימה זו צריכים להופיע לפני הפעלת כל הקורסים האחרים "
 "הקשורים לתוכנית זו."
 
-#: apps/course_metadata/models.py:3190
+#: apps/course_metadata/models.py:3452
 msgid "The description of credit redemption for courses in program"
 msgstr "תיאור מימוש הזכות לקורסים בתכנית"
 
-#: apps/course_metadata/models.py:3195
+#: apps/course_metadata/models.py:3457
 msgid "Allow courses in this program to be purchased in a single transaction"
 msgstr "אפשר לרכוש קורסים בתוכנית זו בעסקה אחת"
 
-#: apps/course_metadata/models.py:3199
+#: apps/course_metadata/models.py:3461
 msgid ""
 "Hide program on marketing site landing and search pages. This program MAY "
 "have a detail page."
 msgstr ""
 "הסתר תוכנית בדפי נחיתה וחיפוש של אתר שיווק. לתוכנית זו עשוי להיות דף פרטים."
 
-#: apps/course_metadata/models.py:3202
+#: apps/course_metadata/models.py:3464
 msgid "Total number of learners who have enrolled in courses this program"
 msgstr "המספר הכולל של לומדים שנרשמו לקורסים בתוכנית זו"
 
-#: apps/course_metadata/models.py:3207
+#: apps/course_metadata/models.py:3469
 msgid ""
 "Total number of learners who have enrolled in courses in this program in the"
 " last 6 months"
 msgstr "המספר הכולל של לומדים שנרשמו לקורסים בתכנית זו ב-6 החודשים האחרונים"
 
-#: apps/course_metadata/models.py:3212
+#: apps/course_metadata/models.py:3474
 msgid ""
 "Number of credits a learner will earn upon successful completion of the "
 "program"
-msgstr "מספר נקודות זכות שלומד יזכה בסיום התוכנית בהצלחה"
+msgstr "מספר נקודות זכות לומד יזכה בסיום התוכנית בהצלחה"
 
-#: apps/course_metadata/models.py:3216
+#: apps/course_metadata/models.py:3478
 msgid ""
 "This calculated field signifies if all the courses in this program are "
 "included in the enterprise subscription catalog "
 msgstr ""
 "שדה מחושב זה מציין אם כל הקורסים בתוכנית זו כלולים בקטלוג המנויים של הארגון "
 
-#: apps/course_metadata/models.py:3220
+#: apps/course_metadata/models.py:3482
 msgid ""
 "A field to override Organization short code alias specific for this program."
 msgstr "שדה לעקוף כינוי קוד קצר של ארגון ספציפי לתוכנית זו."
 
-#: apps/course_metadata/models.py:3227
+#: apps/course_metadata/models.py:3489
 msgid "A field to override Organization logo specific for this program."
 msgstr "שדה לעקוף את לוגו הארגון הספציפי לתוכנית זו."
 
-#: apps/course_metadata/models.py:3231
+#: apps/course_metadata/models.py:3493
 msgid ""
 "Primary subject field specific for this program. Useful field in case there "
 "are no courses associated with this program."
@@ -1543,21 +1605,21 @@ msgstr ""
 "תחום נושא ראשוני ספציפי לתכנית זו. שדה שימושי למקרה שאין קורסים הקשורים "
 "לתוכנית זו."
 
-#: apps/course_metadata/models.py:3236
+#: apps/course_metadata/models.py:3498
 msgid ""
 "Level type specific for this program. Useful field in case there are no "
 "courses associated with this program."
 msgstr ""
 "סוג רמה ספציפי לתוכנית זו. שדה שימושי למקרה שאין קורסים הקשורים לתוכנית זו."
 
-#: apps/course_metadata/models.py:3241
+#: apps/course_metadata/models.py:3503
 msgid ""
 "Language code specific for this program. Useful field in case there are no "
 "courses associated with this program."
 msgstr ""
 "קוד שפה ספציפי לתוכנית זו. שדה שימושי למקרה שאין קורסים הקשורים לתוכנית זו."
 
-#: apps/course_metadata/models.py:3275
+#: apps/course_metadata/models.py:3537
 msgid ""
 "Useful field to overwrite the duration of a program. It can be a text "
 "describing a period of time, Ex: 6-9 months."
@@ -1565,273 +1627,265 @@ msgstr ""
 "שדה שימושי להחלפת משך התוכנית. זה יכול להיות טקסט המתאר פרק זמן, למשל: 6-9 "
 "חודשים."
 
-#: apps/course_metadata/models.py:3284
+#: apps/course_metadata/models.py:3546
 msgid ""
 "Pick a tag/label from the suggestions. To make a new tag, add a comma after "
 "the tag name."
-msgstr "בחר תג/תווית מתוך ההצעות. כדי ליצור תג חדש, הוסף פסיק אחרי שם התג."
+msgstr ""
+"בחר תגית/תווית מתוך ההצעות. כדי ליצור תגית חדשה, הוסף פסיק אחרי שם התגית."
 
-#: apps/course_metadata/models.py:3295
+#: apps/course_metadata/models.py:3557
 msgid "The last time this program was modified."
 msgstr "בפעם האחרונה שונתה תוכנית זו."
 
-#: apps/course_metadata/models.py:3723 apps/course_metadata/models.py:3740
+#: apps/course_metadata/models.py:4009 apps/course_metadata/models.py:4026
 msgid "ID"
-msgstr "מספר מזהה"
+msgstr "מזהה"
 
-#: apps/course_metadata/models.py:3759
+#: apps/course_metadata/models.py:4045
 msgid "The actual rank number"
 msgstr "מספר הדרגה בפועל"
 
-#: apps/course_metadata/models.py:3760
+#: apps/course_metadata/models.py:4046
 msgid "What does the rank number mean"
 msgstr "מה אומר מספר הדרגה"
 
-#: apps/course_metadata/models.py:3761
+#: apps/course_metadata/models.py:4047
 msgid "From where the rank is obtained"
 msgstr "מהמקום שבו מתקבלת הדרגה"
 
-#: apps/course_metadata/models.py:3777
+#: apps/course_metadata/models.py:4094
 msgid "Callback URL to partner application flow"
-msgstr "כתובת URL להתקשרות חזרה לזרימת יישום שותף"
+msgstr "כתובת להתקשרות חזרה לזרימת יישום שותף"
 
-#: apps/course_metadata/models.py:3780
+#: apps/course_metadata/models.py:4097
 msgid "Overall program ranking (e.g. \"#1 in the U.S.\")"
-msgstr "דירוג התוכנית הכולל (למשל &quot;מספר 1 בארה&quot;ב&quot;)"
+msgstr "דירוג התוכנית הכולל (למשל \"מספר 1 בארה\"ב\")"
 
-#: apps/course_metadata/models.py:3785
+#: apps/course_metadata/models.py:4102
 msgid ""
 "The 6 character hex value of the color to make the banner borders\n"
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 msgstr ""
-"ערך הקש של 6 תווים של הצבע כדי להפוך את גבולות הבאנר\n"
-" (למשל &quot;#ff0000&quot; ששווה לאדום) אין צורך לספק את ה-#"
+"ערך הקס של 6 תווים של הצבע כדי להפוך את גבולות הבאנר\n"
+"            (למשל \"#ff0000\" ששווה לאדום) אין צורך לספק את ה-#"
 
-#: apps/course_metadata/models.py:3794
+#: apps/course_metadata/models.py:4111
 msgid "Provide a campus image for the header of the degree"
 msgstr "ספק תמונת קמפוס לכותרת התואר"
 
-#: apps/course_metadata/models.py:3800
+#: apps/course_metadata/models.py:4117
 msgid "Provide a background image for the title section of the degree"
-msgstr "ספק תמונת רקע עבור חלק הכותרת של התואר"
+msgstr "ספק תמונת רקע עבור מקטע הכותרת של התואר"
 
-#: apps/course_metadata/models.py:3805
+#: apps/course_metadata/models.py:4122
 msgid "The fine print that displays at the Tuition section's bottom"
-msgstr "האותיות הקטנות שמוצגות בחלק התחתון של שכר הלימוד"
+msgstr "האותיות הקטנות שמוצגות בחלק התחתון של מקטע שכר הלימוד"
 
-#: apps/course_metadata/models.py:3810
+#: apps/course_metadata/models.py:4127
 msgid "The fine print that displays at the Deadline section's bottom"
-msgstr "האותיות הקטנות שמוצגות בחלק התחתון של תאריך היעד"
+msgstr "האותיות הקטנות שמוצגות בחלק התחתון של מקטע תאריך היעד"
 
-#: apps/course_metadata/models.py:3817
+#: apps/course_metadata/models.py:4134
 msgid "The sailthru email list name to capture leads"
 msgstr "שם רשימת הדוא&quot;ל של sailthru ללכידת לידים"
 
-#: apps/course_metadata/models.py:3831
+#: apps/course_metadata/models.py:4148
 msgid "Please provide an image file for the lead capture banner."
 msgstr "אנא ספק קובץ תמונה עבור הבאנר לכידת לידים."
 
-#: apps/course_metadata/models.py:3834
+#: apps/course_metadata/models.py:4151
 msgid "The Hubspot form ID for the lead capture form"
 msgstr "מזהה טופס Hubspot עבור טופס לכידת לידים"
 
-#: apps/course_metadata/models.py:3840
+#: apps/course_metadata/models.py:4157
 msgid "URL to micromasters landing page"
-msgstr "כתובת אתר לדף הנחיתה של micromasters"
+msgstr "כתובת לדף הנחיתה של micromasters"
 
-#: apps/course_metadata/models.py:3846
+#: apps/course_metadata/models.py:4163
 msgid "Micromasters verbose title"
 msgstr "כותרת מילולית של Micromasters"
 
-#: apps/course_metadata/models.py:3852
+#: apps/course_metadata/models.py:4169
 msgid "Micromasters descriptive paragraph"
 msgstr "פסקה תיאורית של Micromasters"
 
-#: apps/course_metadata/models.py:3865
+#: apps/course_metadata/models.py:4182
 msgid "Customized background image for the MicroMasters section."
-msgstr "תמונת רקע מותאמת אישית למדור MicroMasters."
+msgstr "תמונת רקע מותאמת אישית למקטע MicroMasters."
 
-#: apps/course_metadata/models.py:3869
+#: apps/course_metadata/models.py:4186
 msgid ""
 "Override org name if micromasters program comes from different organization "
 "than Masters program"
 msgstr ""
 "עוקף את שם הארגון אם תוכנית micromasters מגיעה מארגון שונה מתוכנית Masters"
 
-#: apps/course_metadata/models.py:3876
+#: apps/course_metadata/models.py:4193
 msgid "Ranking display for search card (e.g. \"#1 in the U.S.\""
-msgstr "תצוגת דירוג עבור כרטיס חיפוש (למשל &quot;מספר 1 בארה&quot;ב&quot;"
+msgstr "תצוגת דירוג עבור כרטיס חיפוש (למשל \"מספר 1 בתוך ארה\"ב\""
 
-#: apps/course_metadata/models.py:3882
-msgid "Cost display for search card (e.g. \"$9,999\""
-msgstr "תצוגת עלות עבור כרטיס חיפוש (למשל &quot;$9,999&quot;"
-
-#: apps/course_metadata/models.py:3888
+#: apps/course_metadata/models.py:4205
 msgid "Number of courses for search card (e.g. \"11 Courses\""
-msgstr "מספר הקורסים לכרטיס חיפוש (למשל &quot;11 קורסים&quot;"
+msgstr "מספר הקורסים לכרטיס חיפוש (למשל ״11 קורסים״)"
 
-#: apps/course_metadata/models.py:3896
+#: apps/course_metadata/models.py:4213
 msgid ""
 "Designates whether the degree should be displayed on the owning "
 "organization's page"
 msgstr "קובע אם יש להציג את התואר בדף הארגון שבבעלותו"
 
-#: apps/course_metadata/models.py:3913
+#: apps/course_metadata/models.py:4232
 msgid "The redirect URL of the degree on external site"
-msgstr "כתובת האתר להפניה מחדש של התואר באתר חיצוני"
+msgstr "כתובת ה-URL להפניה מחדש של התואר באתר חיצוני"
 
-#: apps/course_metadata/models.py:3918
+#: apps/course_metadata/models.py:4237
 msgid "The URL of the landing page on external site"
 msgstr "כתובת האתר של דף הנחיתה באתר חיצוני"
 
-#: apps/course_metadata/models.py:3953
+#: apps/course_metadata/models.py:4288
 msgid "Bell"
 msgstr "פַּעֲמוֹן"
 
-#: apps/course_metadata/models.py:3954
+#: apps/course_metadata/models.py:4289
 msgid "Certificate"
 msgstr "תעודה"
 
-#: apps/course_metadata/models.py:3955
+#: apps/course_metadata/models.py:4290
 msgid "Checkmark"
 msgstr "סימן ביקורת"
 
-#: apps/course_metadata/models.py:3956
+#: apps/course_metadata/models.py:4291
 msgid "Clock"
 msgstr "שעון"
 
-#: apps/course_metadata/models.py:3957
+#: apps/course_metadata/models.py:4292
 msgid "Desktop"
 msgstr "שולחן עבודה"
 
-#: apps/course_metadata/models.py:3958
+#: apps/course_metadata/models.py:4293
 msgid "Info"
 msgstr "מידע"
 
-#: apps/course_metadata/models.py:3959
+#: apps/course_metadata/models.py:4294
 msgid "Sitemap"
 msgstr "מפת אתר"
 
-#: apps/course_metadata/models.py:3960
+#: apps/course_metadata/models.py:4295
 msgid "User"
 msgstr "משתמש"
 
-#: apps/course_metadata/models.py:3961
+#: apps/course_metadata/models.py:4296
 msgid "Dollar"
 msgstr "דוֹלָר"
 
-#: apps/course_metadata/models.py:3962
+#: apps/course_metadata/models.py:4297
 msgid "Book"
 msgstr "סֵפֶר"
 
-#: apps/course_metadata/models.py:3963
+#: apps/course_metadata/models.py:4298
 msgid "Mortar Board"
 msgstr "מועצת מרגמות"
 
-#: apps/course_metadata/models.py:3964
+#: apps/course_metadata/models.py:4299
 msgid "Star"
 msgstr "כוכב"
 
-#: apps/course_metadata/models.py:3965
+#: apps/course_metadata/models.py:4300
 msgid "Trophy"
 msgstr "פְּרָס"
 
-#: apps/course_metadata/models.py:3969
+#: apps/course_metadata/models.py:4304
 msgid "Icon FA class"
 msgstr "סמל FA class"
 
-#: apps/course_metadata/models.py:3970
+#: apps/course_metadata/models.py:4305
 msgid "Paired text"
 msgstr "טקסט משויך"
 
-#: apps/course_metadata/models.py:3989
+#: apps/course_metadata/models.py:4340
 msgid "Deadline applies for this semester (e.g. Spring 2019"
 msgstr "המועד האחרון חל לסמסטר זה (למשל אביב 2019"
 
-#: apps/course_metadata/models.py:3993
+#: apps/course_metadata/models.py:4344
 msgid "Describes the deadline (e.g. Early Admission Deadline)"
 msgstr "מתאר את המועד האחרון (למשל מועד קבלה מוקדם)"
 
-#: apps/course_metadata/models.py:3997
+#: apps/course_metadata/models.py:4348
 msgid "The date after which the deadline expires (e.g. January 1, 2019)"
 msgstr "התאריך שאחריו יפוג המועד האחרון (למשל 1 בינואר 2019)"
 
-#: apps/course_metadata/models.py:4001
+#: apps/course_metadata/models.py:4352
 msgid "The time after which the deadline expires (e.g. 11:59 PM EST)."
-msgstr "הזמן שאחריו יפוג המועד האחרון (למשל 23:59 EST)."
+msgstr "הזמן שאחריו יפוג המועד האחרון (למשל 23:59)."
 
-#: apps/course_metadata/models.py:4022
+#: apps/course_metadata/models.py:4388
 msgid "Describes what the cost is for (e.g. Tuition)"
 msgstr "מתאר עבור מה העלות (למשל שכר לימוד)"
 
-#: apps/course_metadata/models.py:4026
+#: apps/course_metadata/models.py:4392
 msgid "String-based field stating how much the cost is (e.g. $1000)."
-msgstr "שדה מבוסס מחרוזת המציין כמה העלות היא (למשל 1000 $)."
+msgstr "שדה מבוסס מחרוזת המציין כמה העלות היא (למשל $1000)."
 
-#: apps/course_metadata/models.py:4054
-msgid ""
-"A high-level overview of the degree's courseware. The \"brief\"\n"
-"            text is the first 750 characters of \"marketing_text\" and must be\n"
-"            valid HTML."
-msgstr ""
-"סקירה ברמה גבוהה של כלי הקורס של התואר. ה&quot;קצר&quot;\n"
-" text הוא 750 התווים הראשונים של &quot;marketing_text&quot; וחייב להיות\n"
-" HTML חוקי."
-
-#: apps/course_metadata/models.py:4062
+#: apps/course_metadata/models.py:4443
 msgid "A high-level overview of the degree's courseware."
-msgstr "סקירה ברמה גבוהה של כלי הקורס של התואר."
+msgstr "סקירה ברמה גבוהה של לומדת התואר."
 
-#: apps/course_metadata/models.py:4138
+#: apps/course_metadata/models.py:4568
 msgid "Organization name"
 msgstr "שם ארגון"
 
-#: apps/course_metadata/models.py:4160
+#: apps/course_metadata/models.py:4595
 msgid "These programs are for a different partner than the pathway itself: {}"
 msgstr "תוכניות אלה מיועדות לשותף שונה מהמסלול עצמו: {}"
 
-#: apps/course_metadata/models.py:4187
+#: apps/course_metadata/models.py:4622
 msgid "Facebook"
 msgstr "פייסבוק"
 
-#: apps/course_metadata/models.py:4188
+#: apps/course_metadata/models.py:4623
 msgid "Twitter"
 msgstr "טוויטר"
 
-#: apps/course_metadata/models.py:4189
+#: apps/course_metadata/models.py:4624
 msgid "Blog"
 msgstr "בלוג"
 
-#: apps/course_metadata/models.py:4190
+#: apps/course_metadata/models.py:4625
 msgid "Others"
 msgstr "אחרים"
 
-#: apps/course_metadata/models.py:4250
+#: apps/course_metadata/models.py:4685
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url slug {url_slug}"
 msgstr ""
-"השותף {partner_key} והשותף לקורס {course_partner_key} אינם תואמים בעת ניסיון"
-" לשמור את slug url {url_slug}"
+"השותף {partner_key} והשותף לקורס {course_partner_key} אינו תואם בעת ניסיון "
+"לשמור את שם קצר למאמר כתובת {url_slug}"
 
-#: apps/course_metadata/models.py:4270
+#: apps/course_metadata/models.py:4705
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url redirect {url_path}"
 msgstr ""
 "השותף {partner_key} והשותף לקורס {course_partner_key} אינם תואמים בעת ניסיון"
-" לשמור הפניה מחדש של כתובת האתר {url_path}"
+" לשמור הפניה מחדש של כתובת {url_path}"
 
-#: apps/course_metadata/models.py:4291
+#: apps/course_metadata/models.py:4726
 msgid "It expects the data will be provided in a csv file format "
-msgstr "הוא מצפה שהנתונים יסופקו בפורמט קובץ csv "
+msgstr "הוא מצפה שהנתונים יסופקו בתוך פורמט קובץ csv "
 
-#: apps/course_metadata/models.py:4303 apps/course_metadata/models.py:4316
-#: apps/course_metadata/models.py:4329 apps/course_metadata/models.py:4349
-#: apps/course_metadata/models.py:4362 apps/course_metadata/models.py:4381
-#: apps/course_metadata/models.py:4401 apps/course_metadata/models.py:4416
+#: apps/course_metadata/models.py:4738
+msgid "A csv file containing uuid of the courses to be archived"
+msgstr "קובץ csv המכיל את ה-uuid של הקורסים שיש לארכוב"
+
+#: apps/course_metadata/models.py:4752 apps/course_metadata/models.py:4765
+#: apps/course_metadata/models.py:4778 apps/course_metadata/models.py:4813
+#: apps/course_metadata/models.py:4826 apps/course_metadata/models.py:4845
+#: apps/course_metadata/models.py:4865 apps/course_metadata/models.py:4880
+#: apps/course_metadata/models.py:5033
 msgid ""
 "It expects the data will be provided in a csv file format with first row "
 "containing all the headers."
@@ -1839,49 +1893,77 @@ msgstr ""
 "הוא מצפה שהנתונים יסופקו בפורמט קובץ csv כאשר שורה ראשונה מכילה את כל "
 "הכותרות."
 
-#: apps/course_metadata/models.py:4373
+#: apps/course_metadata/models.py:4837
 msgid "Open Courses"
 msgstr "קורסים פתוחים"
 
-#: apps/course_metadata/models.py:4374
+#: apps/course_metadata/models.py:4838
 msgid "2U Executive Education Courses"
 msgstr "קורסי חינוך מנהלים 2U"
 
-#: apps/course_metadata/models.py:4375
+#: apps/course_metadata/models.py:4839
 msgid "Bootcamps"
 msgstr "מחנות שטח"
 
-#: apps/course_metadata/models.py:4386 apps/course_metadata/models.py:4490
+#: apps/course_metadata/models.py:4850 apps/course_metadata/models.py:4954
 msgid "Course UUIDs"
 msgstr "מזהי UUID של הקורס"
 
-#: apps/course_metadata/models.py:4466
+#: apps/course_metadata/models.py:4930
 msgid "Course Run IDs"
 msgstr "מזהי ריצת קורס"
 
-#: apps/course_metadata/models.py:4482
+#: apps/course_metadata/models.py:4946
 msgid "Profile Image UUIDs"
-msgstr "מזהי UUID של תמונת פרופיל"
+msgstr "מזהי UUID של פרופיל"
 
-#: apps/course_metadata/models.py:4489
+#: apps/course_metadata/models.py:4953
 msgid "Tag"
 msgstr "תגית"
 
-#: apps/course_metadata/models.py:4505
+#: apps/course_metadata/models.py:4969
 msgid "Remove All Redirects"
 msgstr "הסר את כל ההפניות מחדש"
 
-#: apps/course_metadata/models.py:4506
+#: apps/course_metadata/models.py:4970
 msgid "Url Paths"
-msgstr "נתיבי כתובת אתר"
+msgstr "נתיבי כתובות אתר"
 
-#: apps/course_metadata/models.py:4514
+#: apps/course_metadata/models.py:4978
 msgid "Add redirects from all published course url slugs"
-msgstr "הוסף הפניות מחדש מכל שבלולות כתובות האתרים שפורסמו בקורס"
+msgstr "הוסף הפניות מחדש מכל שמות קצרים לכתובות האתרים שפורסמו בקורס"
 
-#: apps/course_metadata/models.py:4515 apps/taxonomy_support/models.py:55
+#: apps/course_metadata/models.py:4979 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
 msgstr "קורס uuids"
+
+#: apps/course_metadata/models.py:5044
+msgid "User who uploaded the file"
+msgstr "משתמש שהעלה את הקובץ"
+
+#: apps/course_metadata/models.py:5049
+msgid "Summary of the task"
+msgstr "סיכום משימות"
+
+#: apps/course_metadata/models.py:5052
+msgid "Task Type"
+msgstr "סוג משימות"
+
+#: apps/course_metadata/models.py:5055
+msgid "Type of Bulk Task to be performed"
+msgstr "סוג המשימות שיבוצעו"
+
+#: apps/course_metadata/models.py:5058
+msgid "Status"
+msgstr "מצב"
+
+#: apps/course_metadata/models.py:5061
+msgid "Status of the Bulk Task"
+msgstr "מצב של משימות המסה"
+
+#: apps/course_metadata/models.py:5069
+msgid "Identifier of the celery task associated with this bulk task"
+msgstr "זהות משימת הסלרי הקשורה למשימה זו"
 
 #: apps/course_metadata/salesforce.py:78
 msgid "Attempted to query Salesforce with no client for partner={}"
@@ -1889,7 +1971,7 @@ msgstr "ניסיון לשאול את Salesforce ללא לקוח עבור שות�
 
 #: apps/course_metadata/salesforce.py:237
 msgid "Unable to associate a case for comments for {}"
-msgstr "לא ניתן לשייך מקרה לתגובות עבור {}"
+msgstr "לא ניתן לשייך מקרה להערות עבור {}"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html:24
 msgid "Cancel"
@@ -1929,12 +2011,12 @@ msgid ""
 "%(user_name)s made the following comment on %(course_name)s on %(date)s at "
 "%(time)s"
 msgstr ""
-"%(user_name)s הגיב את ההערה הבאה על %(course_name)s על %(date)s ב- %(time)s"
+"%(user_name)s עשה את ההערה הבאה על %(course_name)s על %(date)s ב- %(time)s"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:19
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:9
 msgid "View comment in Publisher"
-msgstr "הצג תגובה ב-Publisher"
+msgstr "צפה בהערה ב-Publisher"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:21
 #: apps/course_metadata/templates/course_metadata/email/comment.txt:11
@@ -1949,8 +2031,238 @@ msgid ""
 msgstr ""
 "%(user_name)s הגיב את ההערה הבאה על %(course_name)s %(date)s ב- %(time)s"
 
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:8
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
+msgid "Hi Course Team,"
+msgstr "היי צוות הקורס,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:20
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
+msgid ""
+"If no action is taken, the course will be automatically archived after this "
+"date. If you decide not to extend the course or create a new run at this "
+"time, please inform your dedicated Project Coordinator and share your plans."
+" This helps ensure our internal teams remain aligned and can support you "
+"effectively."
+msgstr ""
+"אם לא תינקט פעולה, הקורס יאורכב אוטומטית לאחר תאריך זה. אם תחליטו לא להאריך "
+"את הקורס או ליצור הרצה חדשה בשלב זה, אנא הודיעו למתאם/ת הפרויקט הייעודי/ת "
+"שלכם ושתפו את התוכניות שלכם. זה עוזר להבטיח שהצוותים הפנימיים שלנו יישארו "
+"מתואמים ויוכלו לתמוך בכם ביעילות."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:24
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:12
+msgid ""
+"To ensure a smooth experience for our edX Learners, please take one of the "
+"following actions:"
+msgstr "כדי להבטיח חוויה חלקה ללומדי edX שלנו, אנא בצעו אחת מהפעולות הבאות:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:62
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:95
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:14
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:48
+msgid "Create a New Course Run:"
+msgstr "צור מחזור קורס חדש:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:30
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:63
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:96
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:15
+msgid ""
+"Planning to update the content or offer the course to a new cohort? We "
+"recommend setting up a new course run in Publisher."
+msgstr ""
+"מתכננים לעדכן את התוכן או להציע את הקורס לקבוצת לימוד חדשה? אנו ממליצים "
+"להגדיר הרצת קורס חדשה ב-Publisher."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:64
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:97
+msgid "You can get started"
+msgstr "תוכלו להתחיל"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:39
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:65
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:72
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:98
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:105
+msgid "here"
+msgstr "כאן"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:36
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:69
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:102
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:35
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:51
+msgid "Extend the Course End Date:"
+msgstr "הארכת תאריך סיום הקורס:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:70
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:103
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:19
+msgid ""
+"If the content is still relevant, you can extend the course end date in "
+"Studio."
+msgstr "אם התוכן עדיין רלוונטי, באפשרותך להאריך את תאריך סיום הקורס ב-סטודיו."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:46
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:24
+#, python-format
+msgid ""
+"\n"
+"Our records indicate that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in 7 days on %(course_end_date)s. Despite previous reminders, we’ve noticed that no action has been taken yet.\n"
+msgstr ""
+"\n"
+"הרשומות שלנו מצביעות על כך שהקורס \"%(course_name)s\" (מפתח קורס: %(course_key)s) מתוכנן להסתיים בעוד 7 ימים, ב- %(course_end_date)s. למרות תזכורות קודמות, שמנו לב שעדיין לא ננקטה כל פעולה.\n"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:52
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:85
+msgid "Important:"
+msgstr "חשוב:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:53
+msgid ""
+"If no action is taken, the course will be automatically archived after the "
+"current end date. If you choose not to extend or create a new course run at "
+"this time, you must inform your dedicated Project Coordinator with your "
+"reasons. This will ensure our internal teams are properly informed about "
+"your plans."
+msgstr ""
+"אם לא תינקט פעולה, הקורס יאורכב אוטומטית לאחר תאריך הסיום הנוכחי. אם תבחרו "
+"שלא להאריך או ליצור הרצת קורס חדשה בשלב זה, עליכם ליידע את רכז הפרויקט "
+"הייעודי שלכם ולפרט את הסיבות לכך. זה יבטיח שהצוותים הפנימיים שלנו יהיו "
+"מעודכנים כראוי לגבי התוכניות שלכם."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:57
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:30
+msgid ""
+"To prevent disruption to learner access, please choose one of the following "
+"options:"
+msgstr "כדי למנוע שיבושים בגישת הלומדים, אנא בחרו באחת מהאפשרויות הבאות:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:86
+msgid ""
+"If you decide not to extend the course or create a new course run at this "
+"time, you must inform your dedicated Project Coordinator with the reasons "
+"behind this. This will help ensure our internal teams are fully updated on "
+"your plans for the course."
+msgstr ""
+"אם תחליטו לא להאריך את הקורס או ליצור הרצת קורס חדשה בשלב זה, עליכם ליידע את"
+" רכז הפרויקט הייעודי שלכם ולציין את הסיבות לכך. זה יבטיח שהצוותים הפנימיים "
+"שלנו יהיו מעודכנים במלואם לגבי התוכניות שלכם לקורס."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:90
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:46
+msgid ""
+"If you wish to keep this course active, please choose one of the following "
+"options:"
+msgstr "אם ברצונך לשמור על הקורס הזה פעיל, אנא בחר/י באחת מהאפשרויות הבאות:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:112
+msgid "NOTE:"
+msgstr "NOTE:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:113
+msgid ""
+"This email address isn’t monitored for replies. If you have any questions or"
+" need assistance, please reach out to your dedicated Project Coordinator."
+msgstr ""
+"כתובת דוא\"ל זו אינה מנוטרת לתשובות. אם יש לכם שאלות או אתם זקוקים לסיוע, "
+"אנא פנו לרכז הפרויקט הייעודי שלכם."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:117
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:58
+msgid "Thank you for your attention to this—looking forward to your updates!"
+msgstr "תודה על תשומת לבכם לזה – מצפים לעדכונים שלכם!"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:121
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:60
+msgid "Best,"
+msgstr "Best,"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:122
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:61
+msgid "edX Operational Team"
+msgstr "צוות התפעול של edX"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
+msgid "You can get started here:"
+msgstr "תוכלו להתחיל כאן:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:20
+msgid "Simply visit the Schedule and Details tab here:"
+msgstr "כל שעליכם לעשות הוא לבקר בכרטיסיית \"לוח זמנים ופרטים\" כאן:"
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:28
+msgid ""
+"Important: If no action is taken, the course will be automatically archived "
+"after the current end date. If you choose not to extend or create a new "
+"course run at this time, you must inform your dedicated Project Coordinator "
+"with your reasons. This will ensure our internal teams are properly informed"
+" about your plans."
+msgstr ""
+"חשוב: אם לא תינקט פעולה, הקורס יאורכב אוטומטית לאחר תאריך הסיום הנוכחי. אם "
+"תבחרו שלא להאריך או ליצור הרצת קורס חדשה בשלב זה, עליכם ליידע את רכז הפרויקט"
+" הייעודי שלכם ולציין את הסיבות לכך. זה יבטיח שהצוותים הפנימיים שלנו יהיו "
+"מעודכנים כראוי לגבי התוכניות שלכם."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:44
+msgid ""
+"Important: If you decide not to extend the course or create a new course run"
+" at this time, you must inform your dedicated Project Coordinator with the "
+"reasons behind this. This will help ensure our internal teams are fully "
+"updated on your plans for the course."
+msgstr ""
+"חשוב: אם תחליטו לא להאריך את הקורס או ליצור הרצת קורס חדשה בשלב זה, עליכם "
+"ליידע את רכז/ת הפרויקט הייעודי/ת שלכם/ן ולציין את הסיבות לכך. זה יסייע "
+"להבטיח שהצוותים הפנימיים שלנו יהיו מעודכנים במלואם לגבי התוכניות שלכם/ן עבור"
+" הקורס."
+
+#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:56
+msgid ""
+"NOTE: This email address isn’t monitored for replies. If you have any "
+"questions or need assistance, please reach out to your dedicated Project "
+"Coordinator."
+msgstr ""
+"שימו לב: כתובת דוא\"ל זו אינה מנוטרת לתשובות. אם יש לכם שאלות או שאתם זקוקים"
+" לסיוע, אנא פנו לרכז הפרויקט הייעודי שלכם."
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:17
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
+#, python-format
+msgid ""
+"The About page for the %(course_run_number)s course run of %(course_name)s "
+"has been submitted for publishing. The new session will appear on the edX "
+"website following the next couple of deployments—typically within 24 to 48 "
+"business hours."
+msgstr ""
+"עמוד על אודות עבור מחזור הקורס %(course_run_number)s של %(course_name)s הוגש"
+" לפרסום. המפגש החדש יופיע באתר edX לאחר הפריסות הבאות—בדרך כלל תוך 24 עד 48 "
+"שעות עסקים."
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
+#, python-brace-format
+msgid ""
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
+msgstr ""
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
+msgid ""
+"Note: This is a no-reply email. For any questions or comments, please "
+"contact your Project Coordinator at"
+msgstr ""
+"שים לב: זהו דוא\"ל ללא מענה. לכל שאלה או הערה, אנא פנה למתאם הפרויקט שלך ב-"
+
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
@@ -1961,45 +2273,6 @@ msgstr ""
 msgid "Dear %(recipient_name)s,"
 msgstr "שלום %(recipient_name)s,"
 
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:17
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
-#, python-format
-msgid ""
-"The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been published. No further action is necessary."
-msgstr ""
-"דף אודות עבור הקורס %(course_run_number)s של %(course_name)s פורסם. אין צורך"
-" בפעולה נוספת."
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:24
-#, python-brace-format
-msgid "{link_start}{preview_url}{link_middle}View this About page.{link_end}"
-msgstr "{link_start} {preview_url} {link_middle} הצג דף מידע זה. {link_end}"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:33
-#: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
-#: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
-#, python-brace-format
-msgid ""
-"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
-msgstr ""
-"{link_start} {contact_us_email} {link_middle} {contact_us_email} {link_end}"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
-#, python-format
-msgid "View this About page. %(preview_url)s"
-msgstr "הצג דף מידע זה. %(preview_url)s"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:15
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
-msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, please contact your Project Coordinator(s):"
-msgstr ""
-"הערה: כתובת אימייל זו אינה יכולה לקבל תשובות. לשאלות או הערות, אנא צור קשר "
-"עם רכזי הפרויקט שלך:"
-
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
 #, python-brace-format
 msgid ""
@@ -2007,18 +2280,9 @@ msgid ""
 "{link_start}{course_page_url}{link_middle}View this course run in "
 "Publisher{link_end} to review the changes and mark it as reviewed."
 msgstr ""
-"{org_name} שלח את {course_key} לבדיקה. {link_start} {course_page_url} "
-"{link_middle} הצג את הקורס הזה המופעל ב-Publisher {link_end} כדי לסקור את "
-"השינויים ולסמן אותו כנבדק."
-
-#: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
-#, python-brace-format
-msgid ""
-"This is a good time to {link_start}{studio_url}{link_middle}review this "
-"course run in Studio{link_end}."
-msgstr ""
-"זה זמן טוב ל- {link_start} {studio_url} {link_middle} לסקור את הקורס הזה "
-"המופעל בסטודיו {link_end} ."
+"{org_name} הגיש את {course_key} לבדיקה. "
+"{link_start}{course_page_url}{link_middle} הצג את הקורס הזה המופעל "
+"ב-Publisher {link_end} כדי לסקור את השינויים ולסמן אותו כנבדק."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:27
 #, python-brace-format
@@ -2026,13 +2290,13 @@ msgid ""
 "Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
 "admin page{link_end} to set embargo rules for this course, as needed."
 msgstr ""
-"בקר בדף {link_start} {restricted_admin_url} {link_middle} בדף הניהול מוגבל "
-"של הקורס {link_end} כדי לקבוע כללי אמברגו עבור קורס זה, לפי הצורך."
+"בקר בדף {link_start}{restricted_admin_url}{link_middle}הניהול המוגבל של "
+"הקורס{link_end} כדי לקבוע כללי אמברגו עבור הקורס הזה, לפי הצורך."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:6
 #, python-format
 msgid "%(org_name)s has submitted %(course_key)s for review."
-msgstr "%(org_name)s שלח את %(course_key)s לבדיקה."
+msgstr "%(org_name)s הגיש את %(course_key)s לבדיקה."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:10
 #, python-format
@@ -2056,18 +2320,27 @@ msgid ""
 "{link_start}{course_page_url}{link_middle}View this course run in "
 "Publisher{link_end} to determine OFAC status."
 msgstr ""
-"{org_name} הגיש {course_name} לבדיקה. {link_start} {course_page_url} "
-"{link_middle} הצג קורס זה המופעל ב-Publisher {link_end} כדי לקבוע את סטטוס "
-"OFAC."
+"{org_name} הגיש {course_name} לבדיקה. "
+"{link_start}{course_page_url}{link_middle}הצג הקורס הזה המופעל "
+"ב-Publisher{link_end} כדי לקבוע את סטטוס OFAC."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
 #, python-format
 msgid "%(org_name)s has submitted %(course_name)s for review."
-msgstr "%(org_name)s שלח את %(course_name)s לבדיקה."
+msgstr "%(org_name)s הגיש את %(course_name)s לבדיקה."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
 msgid "View this course run in Publisher above to determine OFAC status."
-msgstr "הצג את הקורס הזה המופעל ב-Publisher למעלה כדי לקבוע את סטטוס OFAC."
+msgstr "צפה בקורס הזה המופעל ב-Publisher למעלה כדי לקבוע את מצב OFAC."
+
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"הערה: כתובת אימייל זו אינה יכולה לקבל תשובות. לשאלות או הערות, אנא צור קשר "
+"עם רכזי הפרויקט שלך:"
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
 #, python-brace-format
@@ -2076,8 +2349,8 @@ msgid ""
 "run{link_end} of {course_name} has been reviewed and approved by "
 "{platform_name}."
 msgstr ""
-"הקורס {link_start} {course_page_url} {link_middle} {course_run_number} רץ "
-"{link_end} של {course_name} נבדק על ידי {platform_name} נסקרה על ידי b01d7"
+"ההרצה {link_start}{course_page_url}{link_middle}{course_run_number} של "
+"הקורס{link_end} של {course_name} נבדקה ואושרה על ידי {platform_name}."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:22
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:12
@@ -2085,12 +2358,12 @@ msgstr ""
 msgid ""
 "The course run about page will be published on %(go_live_date)s, pending no "
 "further edits."
-msgstr "דף הרצת הקורס יפורסם ב- %(go_live_date)s , בהמתנה ללא עריכות נוספות."
+msgstr "דף הקורס יפורסם ב- %(go_live_date)s , בהמתנה ללא עריכות נוספות."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
 msgid "The course run about page is now published."
-msgstr "עמוד הקורס אודות פורסם כעת."
+msgstr "פרסם את עמוד על אודות הקורס כעת."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
 #, python-format
@@ -2099,7 +2372,7 @@ msgid ""
 "and approved by %(platform_name)s."
 msgstr ""
 "הקורס %(course_run_number)s של %(course_name)s נבדק ואושר על ידי "
-"%(platform_name)s ."
+"%(platform_name)s."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
 #, python-format
@@ -2114,7 +2387,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"הקורס &#39; %(course_name)s &#39; נבדק בהצלחה על ידי edX ופורסם כעת ב- %(course_publish_date)s . כדי לראות קורס חי, עבור לכאן: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"        הקורס '%(course_name)s' נבדק בהצלחה על ידי edX ופורסם כעת ב-%(course_publish_date)s. כדי לראות קורס חי, עבור לכאן: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
 "    "
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:12
@@ -2126,8 +2399,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"הקורס &#39; %(course_name)s &#39; נבדק בהצלחה על ידי edX והוא מוכן כעת לפרסום. הקורס יפורסם ב- %(course_publish_date)s .\n"
-" כדי לראות תצוגה מקדימה של דף אודות הקורס, עבור לכאן: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"        ```\n"
+"הקורס '%(course_name)s' נבדק בהצלחה על ידי edX והוא מוכן כעת לפרסום. הקורס יפורסם ב-%(course_publish_date)s.\n"
+"כדי לראות תצוגה מקדימה של עמוד על אודות הקורס, עבור לכאן: <a href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"```\n"
 "    "
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:4
@@ -2137,7 +2412,7 @@ msgid ""
 "    Course '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live course, go here: %(course_marketing_url)s\n"
 msgstr ""
 "\n"
-"הקורס &#39; %(course_name)s &#39; נבדק בהצלחה על ידי edX ופורסם כעת ב- %(course_publish_date)s . כדי לראות קורס חי, עבור לכאן: %(course_marketing_url)s\n"
+"    הקורס '%(course_name)s' נבדק בהצלחה על ידי edX ופורסם כעת ב-%(course_publish_date)s. כדי לראות קורס חי, עבור לכאן: %(course_marketing_url)s\n"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:8
 #, python-format
@@ -2147,10 +2422,10 @@ msgid ""
 "    To see a preview of the Course About Page, go here: %(course_preview_url)s\n"
 msgstr ""
 "\n"
-"הקורס &#39; %(course_name)s &#39; נבדק בהצלחה על ידי edX והוא מוכן כעת לפרסום. הקורס יפורסם ב- %(course_publish_date)s .\n"
-" כדי לראות תצוגה מקדימה של דף אודות הקורס, עבור לכאן: %(course_preview_url)s\n"
+"   הקורס '%(course_name)s' נבדק בהצלחה על ידי edX והוא מוכן כעת לפרסום. הקורס יפורסם ב-%(course_publish_date)s.  \n"
+"כדי לראות תצוגה מקדימה של עמוד על אודות הקורס, עבור לכאן: %(course_preview_url)s\n"
 
-#: apps/course_metadata/utils.py:380
+#: apps/course_metadata/utils.py:391
 msgid "Special characters not allowed in Course Number."
 msgstr "תווים מיוחדים אינם מותרים במספר הקורס."
 
@@ -2166,12 +2441,12 @@ msgstr "HTML לא חוקי התקבל"
 #: apps/course_metadata/validators.py:35 apps/course_metadata/validators.py:46
 #, python-brace-format
 msgid "{0} tag is not allowed"
-msgstr "תג {0} אסור"
+msgstr "תגית {0} אסור"
 
 #: apps/course_metadata/validators.py:42
 #, python-brace-format
 msgid "{0} attribute is not allowed on the {1} tag"
-msgstr "התכונה {0} אינה מותרת בתג {1}"
+msgstr "התכונה {0} אינה מותרת בתגית {1}"
 
 #: apps/course_metadata/views.py:38
 msgid "Update excluded course runs"
@@ -2212,51 +2487,51 @@ msgstr "תרגומי מודל LanguageTag"
 msgid "Inactive"
 msgstr "לא פעיל"
 
-#: apps/learner_pathway/models.py:85
+#: apps/learner_pathway/models.py:84
 msgid "Title of the learner pathway."
 msgstr "כותרת מסלול הלומד."
 
-#: apps/learner_pathway/models.py:88
+#: apps/learner_pathway/models.py:87
 msgid "Course/Program associated pathways also appear in search results"
 msgstr "מסלולים הקשורים לקורס/תוכנית מופיעים גם בתוצאות החיפוש"
 
-#: apps/learner_pathway/models.py:91
+#: apps/learner_pathway/models.py:90
 msgid "The active/inactive status of this Pathway."
-msgstr "הסטטוס הפעיל/לא פעיל של נתיב זה."
+msgstr "המצב הפעיל/לא פעיל של נתיב זה."
 
-#: apps/learner_pathway/models.py:119
+#: apps/learner_pathway/models.py:118
 msgid "Learner Pathway"
 msgstr "מסלול לומד"
 
-#: apps/learner_pathway/models.py:120
+#: apps/learner_pathway/models.py:119
 msgid "Learner Pathways"
 msgstr "מסלולי לומד"
 
-#: apps/learner_pathway/models.py:166
+#: apps/learner_pathway/models.py:165
 msgid "Minimum number of nodes to complete this step of the pathway"
 msgstr "מספר מינימלי של צמתים להשלמת שלב זה של המסלול"
 
-#: apps/learner_pathway/models.py:170
+#: apps/learner_pathway/models.py:169
 msgid "Learner Pathway Step"
 msgstr "שלב מסלול לומד"
 
-#: apps/learner_pathway/models.py:171
+#: apps/learner_pathway/models.py:170
 msgid "Learner Pathway Steps"
 msgstr "שלבי נתיב לומד"
 
-#: apps/learner_pathway/models.py:238
+#: apps/learner_pathway/models.py:237
 msgid "Learner Pathway Course"
 msgstr "קורס מסלול לומד"
 
-#: apps/learner_pathway/models.py:239
+#: apps/learner_pathway/models.py:238
 msgid "Learner Pathway Courses"
 msgstr "קורסי מסלול לומד"
 
-#: apps/learner_pathway/models.py:276
+#: apps/learner_pathway/models.py:275
 msgid "Learner Pathway Program"
 msgstr "תוכנית מסלול הלומדים"
 
-#: apps/learner_pathway/models.py:277
+#: apps/learner_pathway/models.py:276
 msgid "Learner Pathway Programs"
 msgstr "תוכניות מסלול ללמידה"
 
@@ -2312,14 +2587,14 @@ msgstr "המלצות הקורס"
 
 #: apps/taxonomy_support/models.py:54
 msgid "Adds recommendations for all published courses"
-msgstr "מוסיף המלצות לכל הקורסים שפורסמו"
+msgstr "מוסיפים המלצות לכל הקורסים שפורסמו"
 
 #: apps/taxonomy_support/models.py:58
 msgid ""
 "Adds recommendations for courses created or modified in the past num days"
 msgstr "מוסיף המלצות לקורסים שנוצרו או שונו במספר הימים האחרונים"
 
-#: apps/taxonomy_support/providers.py:162
+#: apps/taxonomy_support/providers.py:198
 msgid "No partner object found!"
 msgstr "לא נמצא אובייקט שותף!"
 
