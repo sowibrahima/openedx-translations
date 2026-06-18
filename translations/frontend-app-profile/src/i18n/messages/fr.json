@@ -2,7 +2,7 @@
   "profile.page.title": "Profil | {siteName}",
   "profile.certificate.organization.label": "Depuis",
   "profile.certificate.completion.date.label": "Terminé le {date}",
-  "profile.certificate.uuid": "Titre de compétence Identité {certificate_uuid}",
+  "profile.certificate.uuid": "Identifiant du certificat {certificate_uuid}",
   "profile.your.certificates": "Vos certificats",
   "profile.certificates.description": "Les informations de votre dossier apprenant ne sont visibles que par vous. Seuls votre nom d'utilisateur et votre image de profil sont visibles par d'autres personnes sur {siteName}.",
   "profile.no.certificates": "Vous n'avez pas encore de certificats.",
@@ -36,7 +36,7 @@
   "profile.education.levels.o": "Autre formation",
   "profile.name.full.name": "Nom complet",
   "profile.name.empty": "Ajouter le nom complet",
-  "profile.name.tooltip": "",
+  "profile.name.tooltip": "Le nom utilisé pour la vérification de l'identité et qui apparaît sur vos certificats",
   "profile.name.redirect": "Modifiez le nom complet à partir de la page Comptes",
   "profile.preferredlanguage.empty": "Ajouter une langue",
   "profile.preferredlanguage.label": "Première langue parlée",
@@ -55,5 +55,10 @@
   "profile.formcontrols.button.saving": "Enregistrement",
   "profile.formcontrols.button.saved": "Enregistré",
   "profile.visibility.who.just.me": "Juste moi",
-  "profile.visibility.who.everyone": "Tout le monde sur {siteName}"
+  "profile.visibility.who.everyone": "Tout le monde sur {siteName}",
+  "wuti.footer.copyright": "© {year} WutiSkill Inc. Tous droits réservés.",
+  "wuti.footer.help": "Centre d’aide",
+  "wuti.footer.nav": "Pied de page",
+  "wuti.footer.privacy": "Confidentialité",
+  "wuti.footer.terms": "Conditions"
 }

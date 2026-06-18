@@ -55,5 +55,10 @@
   "profile.formcontrols.button.saving": "Saving",
   "profile.formcontrols.button.saved": "Saved",
   "profile.visibility.who.just.me": "Just me",
-  "profile.visibility.who.everyone": "Everyone on {siteName}"
+  "profile.visibility.who.everyone": "Everyone on {siteName}",
+  "wuti.footer.copyright": "© {year} WutiSkill Inc. All rights reserved.",
+  "wuti.footer.help": "Help center",
+  "wuti.footer.nav": "Footer",
+  "wuti.footer.privacy": "Privacy",
+  "wuti.footer.terms": "Terms"
 }

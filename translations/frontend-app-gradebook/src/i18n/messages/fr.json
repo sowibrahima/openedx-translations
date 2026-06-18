@@ -29,7 +29,7 @@
   "gradebook.GradesTab.FilterBadges.assignment": "Devoir",
   "gradebook.GradesTab.FilterBadges.assignmentGrade": "Note du devoir",
   "gradebook.GradesTab.FilterBadges.assignmentType": "Type De Devoir",
-  "gradebook.GradesTab.FilterBadges.cohort": "",
+  "gradebook.GradesTab.FilterBadges.cohort": "Cohorte",
   "gradebook.GradesTab.FilterBadges.courseGrade": "Note du cours",
   "gradebook.GradesTab.FilterBadges.includeCourseRoleMembers": "Inclure les membres de l'Équipe de cours",
   "gradebook.GradesTab.FilterBadges.track": "Parcours",
@@ -73,5 +73,16 @@
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Note ajusté",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Date",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Évaluateur",
-  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Raison"
+  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Raison",
+  "gradebook.GradebookFilters.allOption": "Tous",
+  "gradebook.GradebookFilters.filtersTitle": "Filtres",
+  "gradebook.GradebookFilters.removeFilter": "Retirer le filtre",
+  "gradebook.footer.help": "Centre d'aide",
+  "gradebook.footer.nav": "Pied de page",
+  "gradebook.footer.privacy": "Confidentialité",
+  "gradebook.footer.rights": "Tous droits réservés.",
+  "gradebook.footer.terms": "Conditions",
+  "id": "ID",
+  "test.button.label": "Bouton de test",
+  "test.id": "un nom commun"
 }
