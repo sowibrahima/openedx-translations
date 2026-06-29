@@ -167,7 +167,6 @@
   "wuti.footer.terms": "Conditions",
   "learnerDashboard.programCard.duration": "{numWeeks} semaines",
   "learnerDashboard.programCard.logoAlt": "Logo de {provider}",
-  "learnerVariantDashboard.studio": "Studio",
   "leanerDashboard.confirmEmailDismiss": "Fermer",
   "learner-dash.courseList.paginationAria": "Pagination de la liste des cours",
   "learner-dash.courseListFilters.closePanel": "Fermer le panneau",
