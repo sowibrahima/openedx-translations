@@ -5693,7 +5693,7 @@ msgstr[2] "{num_points} points éventuels (non notés)"
 #: xmodule/js/src/capa/display.js:284
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
-msgstr[0] "{earned} / {possible} points (noté)"
+msgstr[0] "{earned}/{possible} point (noté)"
 msgstr[1] "{earned}/{possible} points (notés)"
 msgstr[2] "{earned}/{possible} points (notés)"
 

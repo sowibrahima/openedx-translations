@@ -273,5 +273,19 @@
   "catalog.static.terms.section.changes.title": "Évolutions et résiliation",
   "catalog.static.terms.section.usage.body": "Les contenus proposés sur la plateforme sont destinés à un usage d’apprentissage conforme à leur finalité. Toute tentative de détournement, d’accès abusif ou de reproduction non autorisée peut entraîner une restriction d’accès.",
   "catalog.static.terms.section.usage.title": "Utilisation des contenus",
-  "catalog.static.terms.title": "Conditions générales d’utilisation"
+  "catalog.static.terms.title": "Conditions générales d’utilisation",
+  "notification.app.discussion": "Discussions",
+  "notification.app.updates": "Actualités",
+  "notification.app.grading": "Évaluation",
+  "notification.title": "Notifications",
+  "notification.today.heading": "Dernières 24 heures",
+  "notification.earlier.heading": "Plus tôt",
+  "notification.mark.as.read": "Tout marquer comme lu",
+  "notification.fullStop": "•",
+  "notification.load.more.notifications": "Charger plus de notifications",
+  "notification.recent.all.message": "Vous avez consulté toutes vos notifications récentes.",
+  "notification.expired.delete.message": "Les notifications sont automatiquement effacées après {days} jours",
+  "notification.no.message": "Aucune notification pour le moment",
+  "notification.no.help.message": "Vos nouvelles notifications apparaîtront ici",
+  "notification.bell.icon.alt.message": "Icône de notifications"
 }

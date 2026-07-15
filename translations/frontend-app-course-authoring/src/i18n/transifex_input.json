@@ -2966,7 +2966,7 @@
   "course-authoring.course-unit.lesson-builder.open-response.title": "Open response",
   "course-authoring.course-unit.lesson-builder.other.description": "Show advanced components and less common options.",
   "course-authoring.course-unit.lesson-builder.other.title": "Other",
-  "course-authoring.course-unit.lesson-builder.pdf.description": "Direct PDF import. Coming soon.",
+  "course-authoring.course-unit.lesson-builder.pdf.description": "Upload a PDF file and configure how it appears in the course.",
   "course-authoring.course-unit.lesson-builder.pdf.title": "PDF file",
   "course-authoring.course-unit.lesson-builder.poll.description": "Ask learners a quick opinion or checkpoint question.",
   "course-authoring.course-unit.lesson-builder.poll.title": "Poll",
