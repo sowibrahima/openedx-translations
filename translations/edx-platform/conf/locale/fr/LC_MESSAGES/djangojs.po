@@ -7580,7 +7580,7 @@ msgstr "Paramètres de surveillance"
 #: cms/templates/js/course-outline.underscore:240
 #: cms/templates/js/course-outline.underscore:242
 msgid "Configure"
-msgstr "Configure"
+msgstr "Configurer"
 
 #: cms/templates/js/course-outline.underscore:215
 #: cms/templates/js/tag-count.underscore:2
@@ -7590,7 +7590,7 @@ msgstr "Gérer les balises"
 
 #: cms/templates/js/course-outline.underscore:220
 msgid "Copy to Clipboard"
-msgstr "Copier dans le Presse-papiers"
+msgstr "Copier dans le presse-papiers"
 
 #: cms/templates/js/course-outline.underscore:225
 #: cms/templates/js/course-outline.underscore:248
@@ -7611,7 +7611,7 @@ msgstr "Statut de sortie :"
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
-msgstr "Libéré :"
+msgstr "Publié :"
 
 #: cms/templates/js/course-outline.underscore:293
 #: cms/templates/js/publish-xblock.underscore:17

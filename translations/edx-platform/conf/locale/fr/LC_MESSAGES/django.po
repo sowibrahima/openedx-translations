@@ -15063,3 +15063,23 @@ msgid ""
 msgstr ""
 "{display_name} est accessible uniquement aux apprenants inscrits. Connectez-"
 "vous ou inscrivez-vous, et s'inscrire à ce cours pour le voir."
+
+#: cms/templates/studio_xblock_wrapper.html:212
+msgid "Manage Access"
+msgstr "Gérer l'accès"
+
+#: cms/templates/studio_xblock_wrapper.html:217
+msgid "Move"
+msgstr "Déplacer"
+
+#: cms/templates/studio_xblock_wrapper.html:226
+msgid "Copy to Clipboard"
+msgstr "Copier dans le presse-papiers"
+
+#: cms/templates/studio_xblock_wrapper.html:231
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: cms/templates/studio_xblock_wrapper.html:242
+msgid "Unlink from Library"
+msgstr "Dissocier de la bibliothèque"
