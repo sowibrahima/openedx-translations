@@ -1,7 +1,7 @@
 # Live Session XBlock translation file.
 # Copyright (C) 2026 WutiSkill
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# WutiSkill Team <support@wutiskill.com>, 2026.
+# WutiSkill Team <support@wutilms.com>, 2026.
 #
 msgid ""
 msgstr ""

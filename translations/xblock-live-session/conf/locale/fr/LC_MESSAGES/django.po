@@ -1,7 +1,7 @@
 # Live Session XBlock translation file.
 # Copyright (C) 2026 WutiSkill
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# WutiSkill Team <support@wutiskill.com>, 2026.
+# WutiSkill Team <support@wutilms.com>, 2026.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2026-01-23 15:00+0000\n"
 "PO-Revision-Date: 2026-01-23 15:00+0000\n"
-"Last-Translator: WutiSkill Team <support@wutiskill.com>\n"
+"Last-Translator: WutiSkill Team <support@wutilms.com>\n"
 "Language-Team: French <openedx-translation@googlegroups.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
