@@ -256,7 +256,7 @@
   "notification.preference.app.title": "{ key, select, discussion {Discussions} coursework {Travail du cours} updates {Mises à jour} grading {Notation} other {{key}} }",
   "notification.preference.title": "{ text, select, core {Notifications d'activité} newDiscussionPost {Nouvelles discussions} newQuestionPost {Nouvelles questions} contentReported {Contenu signalé} courseUpdates {Mises à jour du cours} oraStaffNotifications {Nouvelle soumission ORA pour notation par le personnel} oraGradeAssigned {Note de devoir de rédaction reçue} newInstructorAllLearnersPost {Nouveaux messages des instructeurs} other {{text}} }",
   "notification.preference.channel": "{ text, select, web {Web} email {E-mail} push {Notification push} other {{text}} }",
-  "notification.preference.emailCadence": "{ text, select, Daily {Daily} Hebdomadaire {Weekly} Immédiatement {Immediately} autre {{text}} }",
+  "notification.preference.emailCadence": "{ text, select, Daily {Quotidienne} Weekly {Hebdomadaire} Immediately {Immédiatement} other {{text}} }",
   "notification.preference.type.label": "Taper",
   "notification.preference.web.label": "Web",
   "notification.preference.help.email": "E-mail",

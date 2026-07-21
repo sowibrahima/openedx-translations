@@ -1202,7 +1202,7 @@ msgstr "Édition : {title}"
 
 #: cms/static/js/views/modals/edit_xblock.js:124
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Extensions"
 
 #: cms/static/js/views/modals/edit_xblock.js:159
 #: cms/static/js/views/modals/preview_v2_library_changes.js:76
@@ -9999,7 +9999,7 @@ msgstr "Détails de la commande"
 
 #: lms/templates/fields/field_order_history.underscore:7
 msgid "for"
-msgstr "for"
+msgstr "pour"
 
 #: lms/templates/fields/field_order_history.underscore:12
 msgid "Product Name"

@@ -1716,7 +1716,7 @@ msgstr "licence"
 
 #: common/djangoapps/student/models/user.py:481
 msgid "Associate degree"
-msgstr "Diplôme d&#39;associé"
+msgstr "Diplôme d’associé"
 
 #: common/djangoapps/student/models/user.py:482
 msgid "Secondary/high school"
@@ -1733,7 +1733,7 @@ msgstr "École primaire/élémentaire"
 #. Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models/user.py:486
 msgid "No formal education"
-msgstr "Pas d&#39;éducation formelle"
+msgstr "Pas d’éducation formelle"
 
 #. Translators: 'Other' refers to the student's level of education
 #: common/djangoapps/student/models/user.py:488
@@ -5094,7 +5094,7 @@ msgid ""
 " for further information."
 msgstr ""
 "Erreur '{error}' lors de l'envoi d'un courriel au nouvel utilisateur (user "
-"email={email}). Sans le courriel l'apprenant ne pourra se connecter. "
+"e-mail utilisateur={email}). Sans le courriel l'apprenant ne pourra se connecter. "
 "Veuillez contacter le support pour plus d'informations."
 
 #: lms/djangoapps/instructor/views/api.py:1109
@@ -11015,7 +11015,7 @@ msgstr "Partition pour segmenter les utilisateurs par ensemble d'équipes"
 #: openedx/features/calendar_sync/ics.py:36
 #, python-brace-format
 msgid "{assignment} is due for {course}."
-msgstr "{assignment} est due pour {course}."
+msgstr "{assignment} arrive à échéance pour {course}."
 
 #: openedx/features/calendar_sync/plugins.py:21
 msgid "Calendar Sync"
@@ -11059,7 +11059,7 @@ msgstr ""
 #: openedx/features/calendar_sync/utils.py:33
 #, python-brace-format
 msgid "{course} dates have been updated on your calendar"
-msgstr "{course} dates ont été mis à jour sur votre calendrier"
+msgstr "Les dates de {course} ont été mises à jour dans votre calendrier"
 
 #: openedx/features/calendar_sync/utils.py:34
 msgid ""
@@ -12682,11 +12682,11 @@ msgstr ""
 
 #: xmodule/course_block.py:456
 msgid "Discussions Plugin Settings"
-msgstr "Paramètres du plugin de discussion"
+msgstr "Paramètres de l’extension de discussion"
 
 #: xmodule/course_block.py:458
 msgid "Settings for discussions plugins."
-msgstr "Paramètres des plugins de discussion."
+msgstr "Paramètres des extensions de discussion."
 
 #: xmodule/course_block.py:466
 msgid "Course Announcement Date"
