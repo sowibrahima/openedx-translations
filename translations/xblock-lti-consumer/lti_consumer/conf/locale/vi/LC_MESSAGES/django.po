@@ -4,10 +4,6 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Hoang Truong <truonganhhoang@gmail.com>, 2024
-# Hoàng Trương <hoangta@vnu.edu.vn>, 2026
-# Transifex Bot <>, 2026
-# Gerardo Núñez, 2026
 # Brian Smith, 2026
 # 
 msgid ""
@@ -15,7 +11,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-24 01:02+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -52,302 +48,63 @@ msgstr "Chữ ký mã thông báo không hợp lệ."
 msgid "No valid user id found in endpoint URL"
 msgstr "Không tìm thấy id người dùng hợp lệ trong URL điểm cuối"
 
-#: lti_xblock.py:147
-msgid "New"
-msgstr "Mới"
-
-#: lti_xblock.py:151
-msgid "Database"
-msgstr "Cơ sở dữ liệu"
-
-#: lti_xblock.py:154
-msgid "Existing"
-msgstr "Hiện có"
-
 #: lti_xblock.py:262
 msgid "Display Name"
 msgstr "Tên hiển thị"
 
-#: lti_xblock.py:264
-msgid ""
-"Enter the name learners see for this component. This name may also appear in"
-" reports."
-msgstr ""
-"Nhập tên mà người học nhìn thấy cho thành phần này. Tên này cũng có thể xuất"
-" hiện trong báo cáo."
-
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "Người tiêu dùng LTI"
 
-#: lti_xblock.py:270
-msgid "Data Sharing Notice"
-msgstr "Thông báo chia sẻ dữ liệu"
-
-#: lti_xblock.py:272
-msgid ""
-"Enter a short notice about the tool. Use this field to explain why learner "
-"data may be shared with it."
-msgstr ""
-"Nhập một thông báo ngắn gọn về công cụ. Sử dụng trường này để giải thích lý "
-"do dữ liệu người học có thể được chia sẻ với công cụ."
-
-#: lti_xblock.py:278
+#: lti_xblock.py:281
 msgid "Configuration Type"
 msgstr "Loại cấu hình"
 
-#: lti_xblock.py:283
-msgid ""
-"Select 'New' to configure a new LTI Tool. If your admin has provided you "
-"with ID of an existing reusable tool configuration, select 'Existing' and "
-"enter it in the text field on the right."
-msgstr ""
-"Chọn 'Mới' để cấu hình Công cụ LTI mới. Nếu quản trị viên của bạn đã cung "
-"cấp cho bạn ID của cấu hình công cụ có thể tái sử dụng hiện có, hãy chọn "
-"'Hiện có' và nhập ID đó vào trường văn bản ở bên phải."
-
-#: lti_xblock.py:289
+#: lti_xblock.py:293
 msgid "LTI Version"
 msgstr "Phiên bản LTI"
 
-#: lti_xblock.py:297
-msgid "Select the LTI version supported by your tool."
-msgstr "Chọn phiên bản LTI mà công cụ của bạn hỗ trợ."
-
-#: lti_xblock.py:302
-msgid "LTI Reusability ID"
-msgstr "ID khả năng tái sử dụng LTI"
-
-#: lti_xblock.py:304
-msgid "Enter the ID of an existing reusable tool configuration."
-msgstr "Nhập ID của cấu hình công cụ có thể tái sử dụng hiện có."
-
-#: lti_xblock.py:309
+#: lti_xblock.py:315
 msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
 msgstr "ID hộ chiếu Lti 1.3 trỏ đến bảng Lti1p3Passport"
 
-#: lti_xblock.py:316
-msgid "Launch URL"
-msgstr "Khởi chạy URL"
-
-#: lti_xblock.py:320
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
-"uses to launch the tool."
-msgstr ""
-"Nhập URL khởi chạy cho công cụ này. Đối với LTI 1.3, đây là url mà Open edX "
-"sử dụng để khởi chạy công cụ."
-
-#: lti_xblock.py:324
-msgid "Tool Initiate Login URL (OIDC)"
-msgstr "URL Khởi tạo Đăng nhập Công cụ (OIDC)"
-
-#: lti_xblock.py:328
-msgid ""
-"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
-"the LTI 1.3 login flow."
-msgstr ""
-"Nhập URL khởi tạo đăng nhập OIDC của công cụ. Open edX sử dụng URL này để "
-"bắt đầu luồng đăng nhập LTI 1.3."
-
-#: lti_xblock.py:332
+#: lti_xblock.py:341
 msgid "Registered Redirect URIs"
 msgstr "URI chuyển hướng đã đăng ký"
 
-#: lti_xblock.py:342
+#: lti_xblock.py:353
 msgid "Tool Public Key Mode"
 msgstr "Chế độ khóa công khai của công cụ"
 
-#: lti_xblock.py:350
-msgid ""
-"Choose how Open edX will get the tool’s public key for validating signed "
-"messages."
-msgstr ""
-"Chọn cách Open edX sẽ nhận khóa công khai của công cụ để xác thực các tin "
-"nhắn đã ký."
-
-#: lti_xblock.py:354
+#: lti_xblock.py:365
 msgid "Tool Keyset URL"
 msgstr "URL bộ khóa công cụ"
 
-#: lti_xblock.py:358
-msgid ""
-"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
-"the public keys needed to validate signed messages."
-msgstr ""
-"Nhập URL của bộ khóa JWK của công cụ. Open edX sử dụng URL này để truy xuất "
-"các khóa công khai cần thiết để xác thực các tin nhắn đã ký."
-
-#: lti_xblock.py:363
+#: lti_xblock.py:382
 msgid "Tool Public Key"
 msgstr "Khóa công khai của công cụ"
 
-#: lti_xblock.py:368
-msgid ""
-"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
-"KEY-----). Use this when the tool provides a static public key directly."
-msgstr ""
-"Nhập khóa công khai của công cụ ở định dạng PEM (bắt đầu bằng -----BEGIN "
-"PUBLIC KEY-----). Sử dụng tùy chọn này khi công cụ cung cấp trực tiếp khóa "
-"công khai tĩnh."
-
-#: lti_xblock.py:374
-msgid "Names & Roles (NRPS)"
-msgstr "Tên & Vai trò (NRPS)"
-
-#: lti_xblock.py:376
-msgid ""
-"Enable this to allow the tool to access the names and roles of enrolled "
-"learners, if the tool supports NRPS."
-msgstr ""
-"Bật tùy chọn này để cho phép công cụ truy cập tên và vai trò của người học "
-"đã đăng ký, nếu công cụ hỗ trợ NRPS."
-
-#: lti_xblock.py:385
+#: lti_xblock.py:408
 msgid "Deep linking"
 msgstr "Liên kết sâu"
 
-#: lti_xblock.py:387
-msgid ""
-"Enable this if you want to deep link content from within the tool, in "
-"Studio."
-msgstr ""
-"Bật tùy chọn này nếu bạn muốn liên kết sâu nội dung từ bên trong công cụ, "
-"trong Studio."
-
-#: lti_xblock.py:393
+#: lti_xblock.py:414
 msgid "Deep Linking Launch URL"
 msgstr "URL khởi chạy liên kết sâu"
 
-#: lti_xblock.py:397
-msgid ""
-"Enter the deep linking URL for this tool. If the tool does not specify one, "
-"enter the 'Launch URL' here."
-msgstr ""
-"Nhập url liên kết sâu cho công cụ này. Nếu công cụ không chỉ định url nào, "
-"hãy nhập 'URL Khởi chạy' vào đây."
-
-#: lti_xblock.py:401
-msgid "Assignment and Grades"
-msgstr "Bài tập và Điểm số"
-
-#: lti_xblock.py:403
-msgid "Declarative"
-msgstr "Khai báo"
-
-#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
-#: templates/html/lti_studio_edit/_step_advantage.html:114
-#: templates/html/lti_studio_edit/_step_review.html:97
-#: templates/html/lti_studio_edit/_step_review.html:218
+#: lti_xblock.py:425
 msgid "Disabled"
 msgstr "Tàn tật"
 
-#: lti_xblock.py:410
-msgid ""
-"Enable AGS and select functionality. 'Declarative' provides the tool with an"
-" existing line item. 'Programmatic' allows tools to create and manage line "
-"items."
-msgstr ""
-"Bật AGS và chọn chức năng. 'Khai báo' cung cấp cho công cụ một mục dòng hiện"
-" có. 'Lập trình' cho phép các công cụ tạo và quản lý các mục dòng."
-
-#: lti_xblock.py:417
-msgid "LTI Passport ID"
-msgstr "ID Hộ chiếu LTI"
-
-#: lti_xblock.py:419
-msgid ""
-"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
-" that you created on Advanced Settings page."
-msgstr ""
-"Chọn ID hộ chiếu LTI cho công cụ này. Đây là ID của hộ chiếu LTI mà bạn đã "
-"tạo trên trang Thiết lập nâng cao."
-
-#: lti_xblock.py:426
+#: lti_xblock.py:454
 msgid "LTI URL"
 msgstr "URL LTI"
 
-#: lti_xblock.py:428
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
-"edX uses to launch the tool."
-msgstr ""
-"Nhập URL khởi chạy cho công cụ này. Đối với LTI 1.1/1.2, đây là URL mà Open "
-"edX sử dụng để khởi chạy công cụ."
-
-#: lti_xblock.py:436
+#: lti_xblock.py:469
 msgid "Custom Parameters"
 msgstr "Thông số tùy chỉnh"
 
-#: lti_xblock.py:438
-msgid ""
-"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
-"\"color=white\"]."
-msgstr ""
-"Nhập các cặp khóa-giá trị để gửi kèm mỗi lần khởi chạy, ví dụ: [\"page=1\", "
-"\"color=white\"]."
-
-#: lti_xblock.py:443
-msgid "Open tool in"
-msgstr "Mở công cụ trong"
-
-#: lti_xblock.py:445
-msgid ""
-"Choose how the tool opens for learners: inline in the page, in a modal, or "
-"in a new window."
-msgstr ""
-"Chọn cách công cụ mở cho người học: hiển thị cùng trang, trong cửa sổ bật "
-"lên hoặc trong cửa sổ mới."
-
-#: lti_xblock.py:458
-msgid ""
-"Enter the label shown on the launch button when the tool opens in a modal or"
-" new window."
-msgstr ""
-"Nhập nhãn hiển thị trên nút khởi chạy khi công cụ mở trong cửa sổ bật lên "
-"hoặc cửa sổ mới."
-
-#: lti_xblock.py:464
-msgid "Inline Height (px)"
-msgstr "Chiều cao nội tuyến (px)"
-
-#: lti_xblock.py:466
-msgid "Enter the height of the inline iframe in pixels."
-msgstr "Nhập chiều cao của iframe nội tuyến theo pixel."
-
-#: lti_xblock.py:474
-msgid "Enter the modal height as a percentage of the browser window."
-msgstr ""
-"Nhập chiều cao của cửa sổ bật lên dưới dạng phần trăm của cửa sổ trình "
-"duyệt."
-
-#: lti_xblock.py:480
-msgid "Modal Width (%)"
-msgstr "Chiều rộng cửa sổ bật lên (%)"
-
-#: lti_xblock.py:482
-msgid "Enter the modal width as a percentage of the browser window."
-msgstr ""
-"Nhập chiều rộng của cửa sổ bật lên dưới dạng phần trăm của cửa sổ trình "
-"duyệt."
-
-#: lti_xblock.py:488
-msgid "This activity is graded"
-msgstr "Hoạt động này được chấm điểm"
-
-#: lti_xblock.py:489
-msgid "Enable this if the tool sends a numeric score back to Open edX."
-msgstr "Bật tùy chọn này nếu công cụ gửi điểm số dạng số về Open edX."
-
-#: lti_xblock.py:494
-msgid "Grade Weight"
-msgstr "Trọng số điểm"
-
-#: lti_xblock.py:496
-msgid "Enter the maximum number of points for this component."
-msgstr "Nhập số điểm tối đa cho thành phần này."
-
-#: lti_xblock.py:503
+#: lti_xblock.py:554
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
@@ -355,75 +112,27 @@ msgstr ""
 "Điểm được lưu trong xblock KVS -- trùng lặp với điểm được công bố trong "
 "django DB"
 
-#: lti_xblock.py:508
+#: lti_xblock.py:559
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "Nhận xét được trả về từ học sinh, thông số LTI2.0"
 
-#: lti_xblock.py:513
+#: lti_xblock.py:564
 msgid "Hide External Tool"
 msgstr "Ẩn công cụ bên ngoài"
 
-#: lti_xblock.py:521
-msgid "Accept grades after due date"
-msgstr "Chấp nhận điểm sau ngày đến hạn"
-
-#: lti_xblock.py:522
-msgid ""
-"Enable this to allow the tool to send grades after the due date has passed."
-msgstr ""
-"Bật tùy chọn này để cho phép công cụ gửi điểm sau khi đã qua ngày đến hạn."
-
-#: lti_xblock.py:530
-msgid "Share Username"
-msgstr "Chia sẻ tên người dùng"
-
-#. Translators: This is used to request the user's username for a third party
-#. service.
-#: lti_xblock.py:532
-msgid "Enable this to send the learner’s username to the tool."
-msgstr "Bật tùy chọn này để gửi tên người dùng của người học đến công cụ."
-
-#: lti_xblock.py:537
-msgid "Share Full name"
-msgstr "Chia sẻ Họ và tên"
-
-#. Translators: This is used to request the user's full name for a third party
-#. service.
-#: lti_xblock.py:539
-msgid "Enable this to send the learner’s full name to the tool."
-msgstr "Bật tùy chọn này để gửi họ và tên của người học đến công cụ."
-
-#: lti_xblock.py:544
-msgid "Share Email"
-msgstr "Chia sẻ email"
-
-#. Translators: This is used to request the user's email for a third party
-#. service.
-#: lti_xblock.py:546
-msgid "Enable this to send the learner’s email address to the tool."
-msgstr "Bật tùy chọn này để gửi địa chỉ email của người học đến công cụ."
-
-#: lti_xblock.py:552
+#: lti_xblock.py:605
 msgid "Send extra parameters"
 msgstr "Gửi thông số bổ sung"
 
-#: lti_xblock.py:553
-msgid ""
-"Enable this to send extra parameters (may contain PII). Consult site admin "
-"for details."
-msgstr ""
-"Bật tùy chọn này để gửi các tham số bổ sung (có thể chứa PII). Tham khảo "
-"quản trị viên trang web để biết chi tiết."
-
-#: lti_xblock.py:627
+#: lti_xblock.py:681
 msgid "Custom Parameters must be a list"
 msgstr "Thông số tùy chỉnh phải là một danh sách"
 
-#: lti_xblock.py:634
+#: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "Thông số tùy chỉnh phải là chuỗi ở định dạng &quot;x=y&quot;."
 
-#: lti_xblock.py:644
+#: lti_xblock.py:698
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -431,18 +140,18 @@ msgstr ""
 "ID cấu hình có thể sử dụng lại phải được đặt khi sử dụng cấu hình bên ngoài "
 "(Ví dụ: &quot;x:y&quot;)."
 
-#: lti_xblock.py:668
+#: lti_xblock.py:722
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr ""
 "ID LTI được chỉ định không được định cấu hình trong Cài đặt nâng cao của "
 "khóa học này."
 
-#: lti_xblock.py:802 lti_xblock.py:1119
+#: lti_xblock.py:851 lti_xblock.py:1168
 msgid "Could not get user data for current request"
 msgstr "Không thể lấy dữ liệu người dùng cho yêu cầu hiện tại"
 
-#: lti_xblock.py:842
+#: lti_xblock.py:891
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -450,11 +159,11 @@ msgstr ""
 "Không thể phân tích cú pháp hộ chiếu LTI: {lti_passport!r}. Phải là chuỗi "
 "&quot;id:key:secret&quot;."
 
-#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
+#: lti_xblock.py:909 lti_xblock.py:923 lti_xblock.py:939
 msgid "Could not get user id for current request"
 msgstr "Không thể lấy id người dùng cho yêu cầu hiện tại"
 
-#: lti_xblock.py:1052
+#: lti_xblock.py:1101
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -462,7 +171,7 @@ msgstr ""
 "Không thể phân tích cú pháp thông số tùy chỉnh: {custom_parameter!r}. Phải "
 "là chuỗi &quot;x=y&quot;."
 
-#: lti_xblock.py:1507
+#: lti_xblock.py:1490
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: Không tìm thấy người dùng thực đối với anon_id: {}"
 
@@ -672,95 +381,9 @@ msgstr "Gửi bạn trở lại kỳ thi của bạn."
 msgid "Return to exam."
 msgstr "Trở lại bài thi."
 
-#: templates/html/lti_studio_edit/_actions.html:5
-msgid "Previous"
-msgstr "Trước"
-
-#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "Hủy bỏ"
-
-#: templates/html/lti_studio_edit/_actions.html:13
-msgid "Next"
-msgstr "Tiếp theo"
-
-#: templates/html/lti_studio_edit/_actions.html:16
-msgid "Save"
-msgstr "Lưu"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:20
-#: templates/html/lti_studio_edit/_step_advantage.html:104
-#: templates/html/lti_studio_edit/_step_review.html:87
-#: templates/html/lti_studio_edit/_step_review.html:208
-msgid "Enabled"
-msgstr "Đã bật"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:142
-msgid "Public Key"
-msgstr "Khóa công khai"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:152
-msgid "Keyset URL"
-msgstr "URL bộ khóa"
-
-#: templates/html/lti_studio_edit/_step_review.html:22
-msgid "Grading"
-msgstr "Chấm điểm"
-
-#: templates/html/lti_studio_edit/_step_review.html:39
-msgid "Graded"
-msgstr "Đã chấm điểm"
-
-#: templates/html/lti_studio_edit/_step_review.html:49
-msgid "Ungraded"
-msgstr "Chưa chấm"
-
-#: templates/html/lti_studio_edit/_step_review.html:108
-msgid "Advanced Information Sharing"
-msgstr "Chia sẻ thông tin nâng cao"
-
-#: templates/html/lti_studio_edit/_step_review.html:174
-msgid "Administrators can enable advanced sharing options for LTI components."
-msgstr ""
-"Quản trị viên có thể bật các tùy chọn chia sẻ nâng cao cho các thành phần "
-"LTI."
-
-#: templates/html/lti_studio_edit/_step_review.html:179
-msgid "Learn more."
-msgstr "Tìm hiểu thêm."
-
-#: templates/html/lti_studio_edit/_step_review.html:229
-msgid "Appearance Options"
-msgstr "Tùy chọn hiển thị"
-
-#: templates/html/lti_studio_edit/_step_review.html:246
-msgid "True"
-msgstr "ĐÚNG VẬY"
-
-#: templates/html/lti_studio_edit/_step_review.html:256
-msgid "False"
-msgstr "SAI"
-
-#: templates/html/lti_studio_edit/_step_setup.html:5
-msgid "LTI Configuration"
-msgstr "Cấu hình LTI"
-
-#: templates/html/lti_studio_edit/_step_setup.html:105
-msgid "LTI 1.1/1.2 Configuration"
-msgstr "Cấu hình LTI 1.1/1.2"
-
-#: templates/html/lti_studio_edit/_step_setup.html:119
-msgid "LTI 1.3 Configuration"
-msgstr "Cấu hình LTI 1.3"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:10
-msgid "Setup"
-msgstr "Thiết lập"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:21
-msgid "Advantage Settings"
-msgstr "Cài đặt Advantage"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -813,24 +436,3 @@ msgstr "Nhấp vào OK để gửi địa chỉ e-mail của bạn tới ứng d
 #: static/js/xblock_lti_consumer.js:198
 msgid "Click Cancel to return to this page without sending your information."
 msgstr "Bấm Hủy để quay lại trang này mà không gửi thông tin của bạn."
-
-#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
-#: static/js/xblock_studio_view.js:526
-msgid "Unable to update settings"
-msgstr "Không thể cập nhật cài đặt"
-
-#: static/js/xblock_studio_view.js:477
-msgid "Unable to parse the custom parameters."
-msgstr "Không thể phân tích các tham số tùy chỉnh."
-
-#: static/js/xblock_studio_view.js:491
-msgid "Unable to parse the redirect URIs."
-msgstr "Không thể phân tích các URI chuyển hướng."
-
-#: static/js/xblock_studio_view.js:511
-msgid ""
-"This may be happening because of an error with our server or your internet "
-"connection. Try refreshing the page or making sure you are online."
-msgstr ""
-"Điều này có thể xảy ra do lỗi với máy chủ của chúng tôi hoặc kết nối "
-"internet của bạn. Hãy thử làm mới trang hoặc đảm bảo bạn đang trực tuyến."

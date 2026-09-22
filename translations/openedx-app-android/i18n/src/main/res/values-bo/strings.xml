@@ -1,9 +1,200 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-	<string name="whatsnew.whats_new_title">གསར་བ་གང་བྱུང་།</string>
-	<string name="whatsnew.whats_new_navigation_previous">སྔོན་མ།</string>
-	<string name="whatsnew.whats_new_navigation_next">རྗེས་མ།</string>
-	<string name="whatsnew.whats_new_navigation_done">བྱས་ཟིན།</string>
+	<string name="course.course_you_earned_certificate">རྟེན་འབྲེལ་ཞུ། ཁྱེད་ཀྱིས་ \"%s\" འདི་ནས་སློབ་ཚན་འདིའི་ལག་ཁྱེར་ལོན་འདུག</string>
+	<string name="course.course_view_certificate">ལག་འཁྱེར་སྟོན།</string>
+	<string name="course.course_navigation_prev">སྔོན་ལྟ།</string>
+	<string name="course.course_navigation_next">རྗེས་མ།</string>
+	<string name="course.course_navigation_finish">ཚར།</string>
+	<string name="course.course_handouts">ཁྲིད་ཆས།</string>
+	<string name="course.course_announcements">གསར་བརྡ་རྣམས།</string>
+	<string name="course.course_find_important_info">སློབ་ཚན་གྱི་གནས་ཚུལ་གལ་ཆེན་རྣམས་ཚོལ།</string>
+	<string name="course.course_latest_news">གསར་འགྱུར་གསར་ཤོས་རྣམས་རྒྱུན་འཁྱོངས་བྱོས།</string>
+	<string name="course.course_good_job">བསྒྲུབས་པ་ལེགས།</string>
+	<string name="course.course_section_finished">ཁྱེད་ཀྱིས་ཆ་ཚང་གྲུབ་པའི་ཚད་ \"%s\" འདི་རེད།</string>
+	<string name="course.course_back_to_outline">ས་བཅད་ལ་ཕྱིར་ལོག</string>
+	<string name="course.course_next_section">སྡེ་ཚན་རྗེས་མ།</string>
+	<string name="course.course_not_started">སློབ་ཚན་འདི་ད་དུང་འགོ་བཙུགས་མ་བྱུང་།</string>
+	<string name="course.course_can_download_only_with_wifi">Wi-fi ཁོ་ནས་ནང་དོན་ཕབ་ལེན་བྱ་ཐུབ།</string>
+	<string name="course.course_this_interactive_component">འབྲེལ་འདྲིས་ཅན་གྱི་ཆ་ཤས་འདི་ད་དུང་ཐོབ་མི་ཐུབ།</string>
+	<string name="course.course_explore_other_parts_on_web">སློབ་ཚན་འདིའི་ཆ་ཤས་གཞན་དག་འཚོལ་ཞིབ་བྱེད་དགོས་ཡིན་པ་ཡང་ན་དྲ་རྒྱའི་ཐོག་ནས་བལྟ་རོགས།</string>
+	<string name="course.course_open_in_browser">ལྟ་བཤེར་མཉེན་ཆས་ནང་གཟིགས།</string>
+	<string name="course.course_subtitles">བརྙན་ཡིག</string>
+	<string name="course.course_to_proceed">ལས་མུ་མཐུད་དེ་ \"%s\" ལ་འགྲོ་བར་ \"སྡེ་ཚན་རྗེས་མ་\" ཟེར་བ་དེར་སྣུན།</string>
+	<string name="course.course_gated_content_label">སློབ་ཚན་འདིའི་ནང་དོན་གང་ཞིག་ལ་སྒོ་ལྕགས་བརྒྱབ་ཡོད། དེ་དག་ནི་རིམ་སྤར་བྱས་ཟིན་པའི་སྤྱོད་མཁན་ཁོ་ནས་ལོངས་སུ་སྤྱོད་ཆོག་པ་ཡིན།</string>
+	<string name="course.course_change_quality_when_downloading">བརྙན་ཆ་ཚང་ཕབ་ལེན་བྱེད་སྐབས་སུ་ཁྱེད་ཀྱིས་བརྙན་གྱི་སྤུས་ཚད་བསྒྱུར་མི་ཐུབ།</string>
+	<string name="course.course_dates_shifted_message">བརྗེ་སྤོ་བྱས་པའི་ཟླ་ཚེས།</string>
+	<string name="course.course_progress_completion_title">སློབ་ཚན་ཆ་ཚང་རང་བཞིན།</string>
+	<string name="course.course_progress_completion_description">དཔེ་རིས་འདིས་ཁྱེད་ཀྱིས་རང་གི་སློབ་ཚན་གྱི་ནང་དོན་ཚན་པའི་བརྒྱ་ཆ་ཇི་ཙམ་ཚར་ཡོད་མེད་ཤེས་ཐུབ། ངེས་དགོས་པ་ཞིག་ནི་སློབ་ཚན་འདིའི་ནང་དོན་ཚན་པ་རེ་ཟུང་ད་དུང་སྤེལ་མེད་སྲིད་པ་ཡིན།.</string>
+	<string name="course.course_progress_overall_title">སྤྱིའི་འཛིན་གྲྭ།</string>
+	<string name="course.course_progress_overall_description">འདིར་སློབ་ཚན་འདི་ལ་ངེས་པར་དགོས་པའི་སྐར་གྲངས་ཀྱི་ཚད་དང་། ཁྱེད་ཀྱིས་བླངས་ཟིན་པའི་སྐར་གྲངས་གཉིས་ཆ་བསྟན་ཡོད།.</string>
+	<string name="course.course_progress_current_overall">ད་ལྟོའི་སྤྱིར་བཏང་ཚད་མཐའ་མེད་བརྡ་འཕྲིན།</string>
+	<string name="course.course_progress_required_grade_percent">སློབ་ཚན་འདི་ལུ་ལེགས་སྤྱོད་བྱེད་ནི་དོན་ལུ་ %1$s%% གྱི་ལེགས་སྤྱོད་དགའ་བསམ་དགོ་པས།</string>
+	<string name="course.course_progress_grade_details">གོང་མཐོང་རྣམ་ཐར།</string>
+	<string name="course.course_progress_assignment_type">ལས་འགན་རིགས།</string>
+	<string name="course.course_progress_current_max">ད་ལྟ་ / མང་ཤོས་ སྐར་མ་</string>
+	<string name="course.course_container_nav_home">གཙོ་ངོས།</string>
+	<string name="course.course_container_nav_content">ནང་དོན</string>
+	<string name="course.course_container_nav_discussions">བགྲོ་གླེང་།</string>
+	<string name="course.course_container_nav_more">འདི་ལས་མང་།</string>
+	<string name="course.course_container_nav_dates">ཟླ་ཚེས།</string>
+	<string name="course.course_container_nav_downloads">ཕབ་ལེན།</string>
+	<string name="course.course_container_nav_progress">སྦྱངས་འབྲས།</string>
+	<string name="course.course_container_content_tab_all">ཚང་མ།</string>
+	<string name="course.course_container_content_tab_video">བརྙན་ཁག</string>
+	<string name="course.course_container_content_tab_assignment">ལས་འགན།</string>
+	<!-- Course Completion UI -->
+	<string name="course.course_completion_title">སློབ་ཚན་ཆ་ཚང་རང་བཞིན།</string>
+	<string name="course.course_completion_progress_label">ཡར་རྒྱས།</string>
+	<string name="course.course_completion_progress_description">སློབ་ཚན་གྱི་ནང་དོན་ %1$s%% ཆ་ཚང་གྲུབ་ཟིན།</string>
+	<string name="course.course_completion_completed">ཆ་ཚང་གྲུབ་ཟིན།</string>
+	<string name="course.course_completion_next_sequence">རྗེས་སྒྲིག</string>
+	<string name="course.course_completion_view_all_content">ནང་དོན་ཚང་མ་ལ་བལྟ།</string>
+	<!-- Accessibility -->
+	<string name="course.course_accessibility_video_player">བརྙན་གཏོང་ཆས།</string>
+	<string name="course.course_accessibility_remove_course_section">སློབ་ཚན་གྱི་སྡེ་ཚན་སུབ།</string>
+	<string name="course.course_accessibility_download_course_section">སློབ་ཚན་གྱི་སྡེ་ཚན་ཕབ་ལེན།</string>
+	<string name="course.course_accessibility_stop_downloading_course_section">སློབ་ཚན་གྱི་སྡེ་ཚན་ཕབ་ལེན་མཚམས་འཇོག</string>
+	<string name="course.course_accessibility_section_completed">སྡེ་ཚན་ཆ་ཚང་གྲུབ་པ།</string>
+	<string name="course.course_accessibility_section_uncompleted">སྡེ་ཚན་ཆ་ཚང་གྲུབ་མེད་པ།</string>
+	<string name="course.course_accessibility_video_watched">བརྙན་འཕྲིན་ལྟ་ཡོད།</string>
+	<string name="course.course_accessibility_assignment_completed">དོན་ལེགས་བྱས་པ།</string>
+	<string name="course.course_accessibility_assignment_due_date_past">དུས་ཚོད་འགོག་ཡོད་པའི་དོན་ལུགས་</string>
+	<string name="course.course_label_back">ཕྱིར་ལོགས།</string>
+	<string name="course.course_error_expired_not_upgradeable_title" formatted="false">ཁྱེད་ཀྱི་སློབ་ཚན་འདིར་རང་བཞིན་གྱི་སྤྱོད་ལམ་གྱི་དོན་རྒྱུན་འདི་སྤྱི་ཟླ་%sལ་མཇུག་བསྡུས་ཡོད།.</string>
+	<string name="course.course_error_not_started_title">སློབ་ཚན་འདི་གཞི་བཙུགས་འབད་དུས་སུ་འགོ་བཙུགས་ཡོང་། དེ་དུས་ལ་ལོག་ཡོང་ནས་སློབ་སྦྱོང་འགོ་བཙུགས་རོགས།</string>
+	<string name="course.course_an_error_occurred">ཁྱེད་ཀྱི་སློབ་ཚན་ལ་ལྟོགས་བྱེད་བཞིན་ཡོད་སྐབས་ན་འཛོལ་བ་བྱུང་བས།</string>
+	<string name="course.course_continue">མུ་མཐུད་དུ་</string>
+	<string name="course.course_view_completed">སྤྱིར་བཏང་མཐར་ཕྱིན་པ་ལྟ་བྱ།</string>
+	<string name="course.course_hide_completed">སྤྱིར་བཏགས་ཡོད་པའི་རྗེས་འཇུག་སྦས་</string>
+	<string name="course.course_completed">རྫོགས་སོ།</string>
+	<string name="course.course_progress_earned_possible_assignment_problems">%1$s / %2$s རྫོགས་སོང་།</string>
+	<string name="course.course_progress_of_grade">གྲྭ་ཚན།</string>
+	<string name="course.course_progress_current_and_max_weighted_graded_percent">%1$s / %2$s%%</string>
+	<string name="course.course_progress_no_assignments">སློབ་ཚན་འདི་ནང་སྡེབ་ཚན་སྡེབ་མེད།</string>
+	<string name="course.course_video_watched">%1$s/%2$s ལྟ་ཚར་ཡོད།</string>
+	<string name="course.course_completed_of">%1$s/%2$s རྫོགས་སོང་།</string>
+	<string name="course.course_complete_points">སྤྱི་ཚེས་བསྒྲགས་ - %1$s གྲངས་ཀྱི་དོན་ལུ་</string>
+	<string name="course.course_past_due">ལོ་རྒྱུས་མིན་པ་ - %1$s གྲངས།</string>
+	<string name="course.course_in_progress">- %1$s གྲངས།</string>
+	<string name="course.course_of_grade">%1$s %% སྡེ་རིམ་</string>
+	<string name="course.course_review_grading_policy">སློབ་ཚན་སྡེབ་སྒྲིག་སྲོལ་ལམ་ཞིབ་དློན།</string>
+	<string name="course.course_return_to_course_home">སློབ་ཚན་གྱི་གདོང་ཤོག་ལ་ལོག་རྒྱུ།</string>
+	<!-- Videos UI -->
+	<string name="course.course_continue_watching">མཐོང་རུང་མུ་བརྒྱབ་</string>
+	<string name="course.course_next_video">བརྙན་རྗེས་མ།</string>
+	<string name="course.course_view_all_videos">བརྙན་ཚང་མ་ལ་བལྟ།</string>
+	<string name="course.course_video_time_remaining">%1$s ལོག་ལུགས།</string>
+	<string name="course.course_videos_completed">བརྙན་འཕྲིན།\nམཇུག་བསྡུས།</string>
+	<!-- Assignments UI -->
+	<string name="course.course_assignments_completed">དོན་ལེགས་བྱས་པ།</string>
+	<string name="course.course_view_all_assignments">ལས་འགན་ཚུ་ཆ་མཉམ་སྟོན།</string>
+	<string name="course.course_next_assignment">ལས་འགན་རྗེས་མ།</string>
+	<string name="course.course_due_today">དེ་རིང་ལོགས་ལ། %1$s</string>
+	<string name="course.course_days_past_due">%1$d ཉིན་གྱིས་རྗེས་ལུས་ཡོད་པ། %2$s</string>
+	<string name="course.course_due_in_days">%1$d ཉིན་གྱིས་དུས་ཚོད་འགྲོལ་དུས། %2$s</string>
+	<string name="course.course_section">ཚན་ཁག: %1$s</string>
+	<!-- Grades UI -->
+	<string name="course.course_grades_title">གནས་རིམ་ཁག</string>
+	<string name="course.course_grades_description">འདིར་སློབ་ཚན་འདི་ལ་ངེས་པར་དགོས་པའི་སྐར་གྲངས་ཀྱི་ཚད་དང་། ཁྱེད་ཀྱིས་བླངས་ཟིན་པའི་སྐར་གྲངས་གཉིས་ཆ་བསྟན་ཡོད།.</string>
+	<string name="course.course_view_progress">རིམ་པ་སྟོན།</string>
+	<!-- Caught Up Messages -->
+	<string name="course.course_videos_caught_up">ཁྱེད་རང་གིས་བརྙན་རིས་ཚུ་གང་འདུག་སྒྲིག་ཡོད།</string>
+	<string name="course.course_assignments_caught_up">ཁྱེད་རང་གིས་ལས་འགན་ཚུགས་ཚར་ཡོད་!</string>
+
+	<string name="downloads.downloads">ཕབ་ལེན།</string>
+	<string name="downloads.downloads_download_course">སློབ་ཚན་ཕབ་ལེན།</string>
+	<string name="downloads.downloads_remove_course_downloads">སློབ་ཚན་གྱི་ཕབ་ལེན་བཏོན་གཏང་།</string>
+	<string name="downloads.downloads_cancel_download">ཕབ་ལེན་ཕྱིར་འཐེན།</string>
+	<string name="downloads.downloads_empty_state_title">ད་ལྟོ་སློབ་ཚན་ཡོད་པའི་སློབ་ཚན་མེད།</string>
+	<string name="downloads.downloads_empty_state_description">ཁྱེད་རང་ལ་ད་ལྟ་སློབ་ཚན་གྱི་ནང་དུ་ཕབ་ལེན་གྱི་དོན་ལུགས་ཀྱི་སློབ་ཚན་མེད།.</string>
+	<string name="downloads.downloaded_downloaded_size">%1$s ཕབ་ལེན་འབད་ཡོད་པས།</string>
+	<string name="downloads.downloaded_available_size">%1$s ཐོབ་ཐང་།</string>
+	<string name="downloads.downloads_accessibility_stop_downloading_course">སློབ་ཚན་ཕབ་ལེན་བརྡར་བཞག</string>
+	<string name="downloads.downloads_loading_course_structure">སློབ་ཚན་གྱི་གཞི་རིམ་འདྲེན་བྱེད་དོ་…</string>
+
+	<string name="discussion.discussion_all_posts">རྩོམ་ཡིག་ཆ་ཚང་།</string>
+	<string name="discussion.discussion_unread">བཀླགས་མེད་པ།</string>
+	<string name="discussion.discussion_unanswered">ལན་བཏབ་མེད་པ།</string>
+	<string name="discussion.discussion_posts_following">ངས་རྗེས་འཇུག་བྱེད་བཞིན་པའི་རྩོམ་ཡིག་ཁག</string>
+	<string name="discussion.discussion_recent_activity">ཉེ་ཆར་གྱི་བྱེད་སྒོ།</string>
+	<string name="discussion.discussion_most_activity">མང་ཤོས་ཀྱི་བྱེད་སྒོ།</string>
+	<string name="discussion.discussion_most_votes">འོས་མང་ཤོས།</string>
+	<string name="discussion.discussion_create_post">བགྲོ་གླེང་གསར་བཟོ།</string>
+	<string name="discussion.discussion_create_question">དྲི་བ་གསར་བཟོ།</string>
+	<string name="discussion.discussion_last_post">རྩོམ་སྤེལ་གསར་ཤོས་ནི་ %1$s</string>
+	<string name="discussion.discussion_follow">རྗེས་འཇུག</string>
+	<string name="discussion.discussion_report">སྙན་བསྡོམས།</string>
+	<string name="discussion.discussion_unreport">ཡར་ཞུ་མི་བྱེད།</string>
+	<string name="discussion.discussion_comments_title">མཆན།</string>
+	<string name="discussion.discussion_comment_added">མཆན་བཏབ་ཟིན།</string>
+	<string name="discussion.discussion_discussion">བགྲོ་གླེང་།</string>
+	<string name="discussion.discussion_question">དྲི་བ།</string>
+	<string name="discussion.discussion_title">མཚན་བྱང་།</string>
+	<string name="discussion.discussion_follow_discussion">བགྲོ་གླེང་འདིར་རྗེས་འཇུག་བྱེད།</string>
+	<string name="discussion.discussion_follow_question">དྲི་བ་འདིར་རྗེས་འཇུག་བྱོས།</string>
+	<string name="discussion.discussion_search_all_posts">རྩོམ་ཡིག་ཆ་ཚང་འཚོལ།</string>
+	<string name="discussion.discussion_main_categories">རྩ་བའི་རིགས་དབྱེ་ཁག</string>
+	<string name="discussion.discussion_select_post_type">རྩོམ་ཡིག་གི་རིགས་དབྱེ་འདེམས།</string>
+	<string name="discussion.discussion_topic">བརྗོད་གཞི།</string>
+	<string name="discussion.discussion_search_results">བཙལ་འབྲས།</string>
+	<string name="discussion.discussion_start_typing_to_find">འབྲེལ་ཡོད་བགྲོ་གླེང་དེ་འཚོལ་བྱེད་ཀྱི་མིང་ཕྲིས།</string>
+	<string name="discussion.discussion_anonymous">ངོས་འཛིན་མེད་པ།</string>
+	<string name="discussion.discussion_no_yet">ད་སྔ་བགྲོ་གླེང་མི་འདུག</string>
+	<string name="discussion.discussion_click_button_create_discussion">ཁྱེད་ཀྱི་ཆེས་ཐོག་མའི་བགྲོ་གླེང་གསར་བཟོ་དགོས་ན་གཤམ་གྱི་གནོན་ཐེབས་སྣུན།</string>
+	<string name="discussion.discussion_unnamed_subcategory">མིང་བཏགས་མེད་པའི་ནང་གསེས་རིགས་དབྱེ།</string>
+	<plurals name="discussion.discussion_votes">
+        <item quantity="other">%1$d འོས།</item>
+    </plurals>
+	<plurals name="discussion.discussion_missed_posts">
+        <item quantity="other">ཤོར་ཟིན་པའི་རྩོམ་ཡིག %1$d</item>
+    </plurals>
+	<plurals name="discussion.discussion_responses">
+        <item quantity="other">%1$d ལན་འདེབས།</item>
+    </plurals>
+	<plurals name="discussion.discussion_responses_capitalized">
+        <item quantity="other">%1$d ལན་འདེབས་རྣམས།</item>
+    </plurals>
+	<plurals name="discussion.discussion_found_threads">
+        <item quantity="other">རྙེད་ཟིན་པའི་ %s རྩོམ་ཡིག</item>
+    </plurals>
+
+	<string name="discovery.discovery_Discovery">གསལ་སྟོན།</string>
+	<string name="discovery.discovery_lets_find">གསར་པ་རྣམས་འཚོལ།</string>
+	<string name="discovery.discovery_search_results">བཙལ་འབྲས།</string>
+	<string name="discovery.discovery_start_typing_to_find">སློབ་ཚན་དེ་འཚོལ་བྱེད་ཀྱི་མིང་གཏག་རོགས།</string>
+	<string name="discovery.discovery_course_details">སློབ་ཚན་ཞིབ་ཕྲ།</string>
+	<string name="discovery.discovery_enroll_now">ཞུགས་ཐོ་ཁོད།</string>
+	<string name="discovery.discovery_view_course">སློབ་ཚན།</string>
+	<string name="discovery.discovery_you_cant_enroll">ཁྱེད་ཀྱིས་སློབ་ཚན་འདིར་ཐོ་འགོད་མི་ཐུབ། ཞུགས་ཐོ་འགོད་པའི་དུས་བཀག་ཡོལ་ཟིན་པས།</string>
+	<string name="discovery.discovery_no_internet_label">སློབ་ཚན་འདིར་ཞུགས་ཐོ་འགོད་དགོས་པར། ཁྱེད་རང་དྲ་རྒྱ་ལ་ངེས་པར་མཐུད་དགོས།</string>
+	<string name="discovery.discovery_enrolled_successfully">ཁྱེད་ཀྱིས་སློབ་ཚན་འདི་ལ་ཞུགས་ཐོ་བདེ་ལེགས་ངང་བཀོད་པ་ཡིན་པས།</string>
+	<string name="discovery.discovery_you_are_already_enrolled">སློབ་ཚན་འདིའི་ནང་ཁྱེད་ཀྱིས་ཞུགས་ཐོ་བཀོད་ཟིན་འདུག།</string>
+	<plurals name="discovery.discovery_found_courses">
+        <item quantity="other">ཁྱེད་ཀྱི་རེ་ཞུ་ལྟར་རྙེད་པའི་ %s སློབ་ཚན་རྣམས།</item>
+    </plurals>
+	<!-- Accessibility -->
+	<string name="discovery.discovery_accessibility_play_video">བརྙན་གཏོང་།</string>
+
+	<string name="auth.auth_forgot_password">གསང་ཚིག་བརྗེད་སོང་ངམ།</string>
+	<string name="auth.auth_email">ཡིག་ཟམ</string>
+	<string name="auth.auth_invalid_email">ཡིག་ཟམ་ཚུལ་མཐུན་མིན།</string>
+	<string name="auth.auth_invalid_password">གསང་ཚིག་ཐུང་དྲགས་འདུག</string>
+	<string name="auth.auth_welcome_back">ཕྱིར་ཕེབས་པར་དགའ་བསུ་ཞུ། སློབ་ཚན་ལ་གཟིགས་ཕྱིར་ནང་འཛུལ་བྱོས།</string>
+	<string name="auth.auth_show_optional_fields">གདམ་ཀ་ཅན་གྱི་སྡེ་ཚན་རྣམས་སྟོན།</string>
+	<string name="auth.auth_hide_optional_fields">གདམ་ཀ་ཅན་གྱི་ཚན་པ་རྣམས་སྦེད།</string>
+	<string name="auth.auth_create_account">ཁ་བྱང་གསར་བཟོ།</string>
+	<string name="auth.auth_reset_password">གསང་ཚིག་བསྐྱར་སྒྲིག</string>
+	<string name="auth.auth_forgot_your_password">གསང་ཚིག་བརྗེད་སོང་ངམ།</string>
+	<string name="auth.auth_please_enter_your_log_in">གཤམ་དུ་ཁྱེད་ཀྱི་ནང་འཛུལ་ཡིག་ཟམ་ཁ་བྱང་ངམ་སླར་གསོ་ཡིག་ཟམ་ཁ་བྱང་ནང་འཇུག་བྱེད། ང་ཚོས་ཁྱེད་ལ་ལམ་སྟོན་ཡིག་ཟམ་ཞིག་གཏོང་རྒྱུ་ཡིན།</string>
+	<string name="auth.auth_check_your_email">ཁྱེད་ཀྱི་ཡིག་ཟམ་གཟིགས་རོགས།</string>
+	<string name="auth.auth_restore_password_success">ང་ཚོས་ཁྱེད་ཀྱི་ཡིག་ཟམ་ནང་གསང་ཚིག་བསྐྱར་གསོ་ལམ་སྟོན་ཞིག་བཏང་ཡོད། %s</string>
+	<string name="auth.auth_error_empty_username_email">ཁྱེད་རང་གི་སྤྱོད་མཁན་མིང་ཡང་ན་གློག་འཕྲིན་ཁ་བྱང་བྲིས་ནས་བསྐྱར་བརྗེད་རོགས།</string>
+	<string name="auth.auth_error_empty_email">ཁྱེད་རང་གི་གློག་འཕྲིན་ཁ་བྱང་འགོད་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་རོགས།</string>
+	<string name="auth.auth_enter_password">གསང་ཚིག་ཞོག</string>
+	<string name="auth.auth_error_empty_password">གསང་གྲངས་བླུགས་ནས་བསྐྱར་ཚོད་ལྟ་རོགས།</string>
+	<string name="auth.auth_create_new_account">དེ་རིང་གི་སློབ་གཉེར་འགོ་རྩོམ་པ་ལ་ཁ་བྱང་ཞིག་བཟོས།</string>
+	<string name="auth.auth_accessibility_show_password">གསང་གྲངས་སྟོན།</string>
+	<string name="auth.auth_accessibility_hide_password">གསང་ཚིག་སྦས།</string>
 
 	<string name="core.core_error_invalid_grant">དཔང་ལྡན་མི་འདུག</string>
 	<string name="core.core_error_no_connection">དྲ་རྒྱ་ལ་མཐུད་མེད་པ་འམ་ཡང་ན་དལ་པོ་རེད་འདུག</string>
@@ -139,6 +330,11 @@
 	<string name="core.core_sso_sign_in">SSO ལྟོས་ནས་ཐོ་འཇུག་བྱོས།</string>
 	<string name="core.core_sign_in_sso_heading">དེ་རིང་ནས་འགོ་བཙུགས་ནས་ཁྱེད་ཀྱི་ལས་རིགས་ལ་དགའ་སྐྣེལ་བྱེད་པ།</string>
 	<string name="core.core_sign_in_sso_login_title">ནང་འཛུལ།</string>
+	<string name="whatsnew.whats_new_title">གསར་བ་གང་བྱུང་།</string>
+	<string name="whatsnew.whats_new_navigation_previous">སྔོན་མ།</string>
+	<string name="whatsnew.whats_new_navigation_next">རྗེས་མ།</string>
+	<string name="whatsnew.whats_new_navigation_done">བྱས་ཟིན།</string>
+
 	<string name="profile.profile_full_profile">ངོ་སྤྲོད་སྙིང་བསྡུས་ཆ་ཚང་།</string>
 	<string name="profile.profile_limited_profile">ཚད་བཀག་བྱས་པའི་ངོ་སྤྲོད་སྙིང་བསྡུས།</string>
 	<string name="profile.profile_edit_profile">ངོ་སྤྲོད་སྙིང་བསྡུས་བསྐྱར་སྒྲིག</string>
@@ -220,202 +416,6 @@
 	<string name="app.app_navigation_profile">གནས་ཚུལ།</string>
 	<string name="app.app_navigation_dates">ཟླ་ཚེས།</string>
 	<string name="app.app_navigation_downloads">ཕབ་ལེན།</string>
-
-	<string name="discovery.discovery_Discovery">གསལ་སྟོན།</string>
-	<string name="discovery.discovery_lets_find">གསར་པ་རྣམས་འཚོལ།</string>
-	<string name="discovery.discovery_search_results">བཙལ་འབྲས།</string>
-	<string name="discovery.discovery_start_typing_to_find">སློབ་ཚན་དེ་འཚོལ་བྱེད་ཀྱི་མིང་གཏག་རོགས།</string>
-	<string name="discovery.discovery_course_details">སློབ་ཚན་ཞིབ་ཕྲ།</string>
-	<string name="discovery.discovery_enroll_now">ཞུགས་ཐོ་ཁོད།</string>
-	<string name="discovery.discovery_view_course">སློབ་ཚན།</string>
-	<string name="discovery.discovery_you_cant_enroll">ཁྱེད་ཀྱིས་སློབ་ཚན་འདིར་ཐོ་འགོད་མི་ཐུབ། ཞུགས་ཐོ་འགོད་པའི་དུས་བཀག་ཡོལ་ཟིན་པས།</string>
-	<string name="discovery.discovery_no_internet_label">སློབ་ཚན་འདིར་ཞུགས་ཐོ་འགོད་དགོས་པར། ཁྱེད་རང་དྲ་རྒྱ་ལ་ངེས་པར་མཐུད་དགོས།</string>
-	<string name="discovery.discovery_enrolled_successfully">ཁྱེད་ཀྱིས་སློབ་ཚན་འདི་ལ་ཞུགས་ཐོ་བདེ་ལེགས་ངང་བཀོད་པ་ཡིན་པས།</string>
-	<string name="discovery.discovery_you_are_already_enrolled">སློབ་ཚན་འདིའི་ནང་ཁྱེད་ཀྱིས་ཞུགས་ཐོ་བཀོད་ཟིན་འདུག།</string>
-	<plurals name="discovery.discovery_found_courses">
-        <item quantity="other">ཁྱེད་ཀྱི་རེ་ཞུ་ལྟར་རྙེད་པའི་ %s སློབ་ཚན་རྣམས།</item>
-    </plurals>
-	<!-- Accessibility -->
-	<string name="discovery.discovery_accessibility_play_video">བརྙན་གཏོང་།</string>
-
-	<string name="course.course_you_earned_certificate">རྟེན་འབྲེལ་ཞུ། ཁྱེད་ཀྱིས་ \"%s\" འདི་ནས་སློབ་ཚན་འདིའི་ལག་ཁྱེར་ལོན་འདུག</string>
-	<string name="course.course_view_certificate">ལག་འཁྱེར་སྟོན།</string>
-	<string name="course.course_navigation_prev">སྔོན་ལྟ།</string>
-	<string name="course.course_navigation_next">རྗེས་མ།</string>
-	<string name="course.course_navigation_finish">ཚར།</string>
-	<string name="course.course_handouts">ཁྲིད་ཆས།</string>
-	<string name="course.course_announcements">གསར་བརྡ་རྣམས།</string>
-	<string name="course.course_find_important_info">སློབ་ཚན་གྱི་གནས་ཚུལ་གལ་ཆེན་རྣམས་ཚོལ།</string>
-	<string name="course.course_latest_news">གསར་འགྱུར་གསར་ཤོས་རྣམས་རྒྱུན་འཁྱོངས་བྱོས།</string>
-	<string name="course.course_good_job">བསྒྲུབས་པ་ལེགས།</string>
-	<string name="course.course_section_finished">ཁྱེད་ཀྱིས་ཆ་ཚང་གྲུབ་པའི་ཚད་ \"%s\" འདི་རེད།</string>
-	<string name="course.course_back_to_outline">ས་བཅད་ལ་ཕྱིར་ལོག</string>
-	<string name="course.course_next_section">སྡེ་ཚན་རྗེས་མ།</string>
-	<string name="course.course_not_started">སློབ་ཚན་འདི་ད་དུང་འགོ་བཙུགས་མ་བྱུང་།</string>
-	<string name="course.course_can_download_only_with_wifi">Wi-fi ཁོ་ནས་ནང་དོན་ཕབ་ལེན་བྱ་ཐུབ།</string>
-	<string name="course.course_this_interactive_component">འབྲེལ་འདྲིས་ཅན་གྱི་ཆ་ཤས་འདི་ད་དུང་ཐོབ་མི་ཐུབ།</string>
-	<string name="course.course_explore_other_parts_on_web">སློབ་ཚན་འདིའི་ཆ་ཤས་གཞན་དག་འཚོལ་ཞིབ་བྱེད་དགོས་ཡིན་པ་ཡང་ན་དྲ་རྒྱའི་ཐོག་ནས་བལྟ་རོགས།</string>
-	<string name="course.course_open_in_browser">ལྟ་བཤེར་མཉེན་ཆས་ནང་གཟིགས།</string>
-	<string name="course.course_subtitles">བརྙན་ཡིག</string>
-	<string name="course.course_to_proceed">ལས་མུ་མཐུད་དེ་ \"%s\" ལ་འགྲོ་བར་ \"སྡེ་ཚན་རྗེས་མ་\" ཟེར་བ་དེར་སྣུན།</string>
-	<string name="course.course_gated_content_label">སློབ་ཚན་འདིའི་ནང་དོན་གང་ཞིག་ལ་སྒོ་ལྕགས་བརྒྱབ་ཡོད། དེ་དག་ནི་རིམ་སྤར་བྱས་ཟིན་པའི་སྤྱོད་མཁན་ཁོ་ནས་ལོངས་སུ་སྤྱོད་ཆོག་པ་ཡིན།</string>
-	<string name="course.course_change_quality_when_downloading">བརྙན་ཆ་ཚང་ཕབ་ལེན་བྱེད་སྐབས་སུ་ཁྱེད་ཀྱིས་བརྙན་གྱི་སྤུས་ཚད་བསྒྱུར་མི་ཐུབ།</string>
-	<string name="course.course_dates_shifted_message">བརྗེ་སྤོ་བྱས་པའི་ཟླ་ཚེས།</string>
-	<string name="course.course_progress_completion_title">སློབ་ཚན་ཆ་ཚང་རང་བཞིན།</string>
-	<string name="course.course_progress_completion_description">དཔེ་རིས་འདིས་ཁྱེད་ཀྱིས་རང་གི་སློབ་ཚན་གྱི་ནང་དོན་ཚན་པའི་བརྒྱ་ཆ་ཇི་ཙམ་ཚར་ཡོད་མེད་ཤེས་ཐུབ། ངེས་དགོས་པ་ཞིག་ནི་སློབ་ཚན་འདིའི་ནང་དོན་ཚན་པ་རེ་ཟུང་ད་དུང་སྤེལ་མེད་སྲིད་པ་ཡིན།.</string>
-	<string name="course.course_progress_overall_title">སྤྱིའི་འཛིན་གྲྭ།</string>
-	<string name="course.course_progress_overall_description">འདིར་སློབ་ཚན་འདི་ལ་ངེས་པར་དགོས་པའི་སྐར་གྲངས་ཀྱི་ཚད་དང་། ཁྱེད་ཀྱིས་བླངས་ཟིན་པའི་སྐར་གྲངས་གཉིས་ཆ་བསྟན་ཡོད།.</string>
-	<string name="course.course_progress_current_overall">ད་ལྟོའི་སྤྱིར་བཏང་ཚད་མཐའ་མེད་བརྡ་འཕྲིན།</string>
-	<string name="course.course_progress_required_grade_percent">སློབ་ཚན་འདི་ལུ་ལེགས་སྤྱོད་བྱེད་ནི་དོན་ལུ་ %1$s%% གྱི་ལེགས་སྤྱོད་དགའ་བསམ་དགོ་པས།</string>
-	<string name="course.course_progress_grade_details">གོང་མཐོང་རྣམ་ཐར།</string>
-	<string name="course.course_progress_assignment_type">ལས་འགན་རིགས།</string>
-	<string name="course.course_progress_current_max">ད་ལྟ་ / མང་ཤོས་ སྐར་མ་</string>
-	<string name="course.course_container_nav_home">གཙོ་ངོས།</string>
-	<string name="course.course_container_nav_content">ནང་དོན</string>
-	<string name="course.course_container_nav_discussions">བགྲོ་གླེང་།</string>
-	<string name="course.course_container_nav_more">འདི་ལས་མང་།</string>
-	<string name="course.course_container_nav_dates">ཟླ་ཚེས།</string>
-	<string name="course.course_container_nav_downloads">ཕབ་ལེན།</string>
-	<string name="course.course_container_nav_progress">སྦྱངས་འབྲས།</string>
-	<string name="course.course_container_content_tab_all">ཚང་མ།</string>
-	<string name="course.course_container_content_tab_video">བརྙན་ཁག</string>
-	<string name="course.course_container_content_tab_assignment">ལས་འགན།</string>
-	<!-- Course Completion UI -->
-	<string name="course.course_completion_title">སློབ་ཚན་ཆ་ཚང་རང་བཞིན།</string>
-	<string name="course.course_completion_progress_label">ཡར་རྒྱས།</string>
-	<string name="course.course_completion_progress_description">སློབ་ཚན་གྱི་ནང་དོན་ %1$s%% ཆ་ཚང་གྲུབ་ཟིན།</string>
-	<string name="course.course_completion_completed">ཆ་ཚང་གྲུབ་ཟིན།</string>
-	<string name="course.course_completion_next_sequence">རྗེས་སྒྲིག</string>
-	<string name="course.course_completion_view_all_content">ནང་དོན་ཚང་མ་ལ་བལྟ།</string>
-	<!-- Accessibility -->
-	<string name="course.course_accessibility_video_player">བརྙན་གཏོང་ཆས།</string>
-	<string name="course.course_accessibility_remove_course_section">སློབ་ཚན་གྱི་སྡེ་ཚན་སུབ།</string>
-	<string name="course.course_accessibility_download_course_section">སློབ་ཚན་གྱི་སྡེ་ཚན་ཕབ་ལེན།</string>
-	<string name="course.course_accessibility_stop_downloading_course_section">སློབ་ཚན་གྱི་སྡེ་ཚན་ཕབ་ལེན་མཚམས་འཇོག</string>
-	<string name="course.course_accessibility_section_completed">སྡེ་ཚན་ཆ་ཚང་གྲུབ་པ།</string>
-	<string name="course.course_accessibility_section_uncompleted">སྡེ་ཚན་ཆ་ཚང་གྲུབ་མེད་པ།</string>
-	<string name="course.course_accessibility_video_watched">བརྙན་འཕྲིན་ལྟ་ཡོད།</string>
-	<string name="course.course_accessibility_assignment_completed">དོན་ལེགས་བྱས་པ།</string>
-	<string name="course.course_accessibility_assignment_due_date_past">དུས་ཚོད་འགོག་ཡོད་པའི་དོན་ལུགས་</string>
-	<string name="course.course_label_back">ཕྱིར་ལོགས།</string>
-	<string name="course.course_error_expired_not_upgradeable_title" formatted="false">ཁྱེད་ཀྱི་སློབ་ཚན་འདིར་རང་བཞིན་གྱི་སྤྱོད་ལམ་གྱི་དོན་རྒྱུན་འདི་སྤྱི་ཟླ་%sལ་མཇུག་བསྡུས་ཡོད།.</string>
-	<string name="course.course_error_not_started_title">སློབ་ཚན་འདི་གཞི་བཙུགས་འབད་དུས་སུ་འགོ་བཙུགས་ཡོང་། དེ་དུས་ལ་ལོག་ཡོང་ནས་སློབ་སྦྱོང་འགོ་བཙུགས་རོགས།</string>
-	<string name="course.course_an_error_occurred">ཁྱེད་ཀྱི་སློབ་ཚན་ལ་ལྟོགས་བྱེད་བཞིན་ཡོད་སྐབས་ན་འཛོལ་བ་བྱུང་བས།</string>
-	<string name="course.course_continue">མུ་མཐུད་དུ་</string>
-	<string name="course.course_view_completed">སྤྱིར་བཏང་མཐར་ཕྱིན་པ་ལྟ་བྱ།</string>
-	<string name="course.course_hide_completed">སྤྱིར་བཏགས་ཡོད་པའི་རྗེས་འཇུག་སྦས་</string>
-	<string name="course.course_completed">རྫོགས་སོ།</string>
-	<string name="course.course_progress_earned_possible_assignment_problems">%1$s / %2$s རྫོགས་སོང་།</string>
-	<string name="course.course_progress_of_grade">གྲྭ་ཚན།</string>
-	<string name="course.course_progress_current_and_max_weighted_graded_percent">%1$s / %2$s%%</string>
-	<string name="course.course_progress_no_assignments">སློབ་ཚན་འདི་ནང་སྡེབ་ཚན་སྡེབ་མེད།</string>
-	<string name="course.course_video_watched">%1$s/%2$s ལྟ་ཚར་ཡོད།</string>
-	<string name="course.course_completed_of">%1$s/%2$s རྫོགས་སོང་།</string>
-	<string name="course.course_complete_points">སྤྱི་ཚེས་བསྒྲགས་ - %1$s གྲངས་ཀྱི་དོན་ལུ་</string>
-	<string name="course.course_past_due">ལོ་རྒྱུས་མིན་པ་ - %1$s གྲངས།</string>
-	<string name="course.course_in_progress">- %1$s གྲངས།</string>
-	<string name="course.course_of_grade">%1$s %% སྡེ་རིམ་</string>
-	<string name="course.course_review_grading_policy">སློབ་ཚན་སྡེབ་སྒྲིག་སྲོལ་ལམ་ཞིབ་དློན།</string>
-	<string name="course.course_return_to_course_home">སློབ་ཚན་གྱི་གདོང་ཤོག་ལ་ལོག་རྒྱུ།</string>
-	<!-- Videos UI -->
-	<string name="course.course_continue_watching">མཐོང་རུང་མུ་བརྒྱབ་</string>
-	<string name="course.course_next_video">བརྙན་རྗེས་མ།</string>
-	<string name="course.course_view_all_videos">བརྙན་ཚང་མ་ལ་བལྟ།</string>
-	<string name="course.course_video_time_remaining">%1$s ལོག་ལུགས།</string>
-	<string name="course.course_videos_completed">བརྙན་འཕྲིན།\nམཇུག་བསྡུས།</string>
-	<!-- Assignments UI -->
-	<string name="course.course_assignments_completed">དོན་ལེགས་བྱས་པ།</string>
-	<string name="course.course_view_all_assignments">ལས་འགན་ཚུ་ཆ་མཉམ་སྟོན།</string>
-	<string name="course.course_next_assignment">ལས་འགན་རྗེས་མ།</string>
-	<string name="course.course_due_today">དེ་རིང་ལོགས་ལ། %1$s</string>
-	<string name="course.course_days_past_due">%1$d ཉིན་གྱིས་རྗེས་ལུས་ཡོད་པ། %2$s</string>
-	<string name="course.course_due_in_days">%1$d ཉིན་གྱིས་དུས་ཚོད་འགྲོལ་དུས། %2$s</string>
-	<string name="course.course_section">ཚན་ཁག: %1$s</string>
-	<!-- Grades UI -->
-	<string name="course.course_grades_title">གནས་རིམ་ཁག</string>
-	<string name="course.course_grades_description">འདིར་སློབ་ཚན་འདི་ལ་ངེས་པར་དགོས་པའི་སྐར་གྲངས་ཀྱི་ཚད་དང་། ཁྱེད་ཀྱིས་བླངས་ཟིན་པའི་སྐར་གྲངས་གཉིས་ཆ་བསྟན་ཡོད།.</string>
-	<string name="course.course_view_progress">རིམ་པ་སྟོན།</string>
-	<!-- Caught Up Messages -->
-	<string name="course.course_videos_caught_up">ཁྱེད་རང་གིས་བརྙན་རིས་ཚུ་གང་འདུག་སྒྲིག་ཡོད།</string>
-	<string name="course.course_assignments_caught_up">ཁྱེད་རང་གིས་ལས་འགན་ཚུགས་ཚར་ཡོད་!</string>
-
-	<string name="discussion.discussion_all_posts">རྩོམ་ཡིག་ཆ་ཚང་།</string>
-	<string name="discussion.discussion_unread">བཀླགས་མེད་པ།</string>
-	<string name="discussion.discussion_unanswered">ལན་བཏབ་མེད་པ།</string>
-	<string name="discussion.discussion_posts_following">ངས་རྗེས་འཇུག་བྱེད་བཞིན་པའི་རྩོམ་ཡིག་ཁག</string>
-	<string name="discussion.discussion_recent_activity">ཉེ་ཆར་གྱི་བྱེད་སྒོ།</string>
-	<string name="discussion.discussion_most_activity">མང་ཤོས་ཀྱི་བྱེད་སྒོ།</string>
-	<string name="discussion.discussion_most_votes">འོས་མང་ཤོས།</string>
-	<string name="discussion.discussion_create_post">བགྲོ་གླེང་གསར་བཟོ།</string>
-	<string name="discussion.discussion_create_question">དྲི་བ་གསར་བཟོ།</string>
-	<string name="discussion.discussion_last_post">རྩོམ་སྤེལ་གསར་ཤོས་ནི་ %1$s</string>
-	<string name="discussion.discussion_follow">རྗེས་འཇུག</string>
-	<string name="discussion.discussion_report">སྙན་བསྡོམས།</string>
-	<string name="discussion.discussion_unreport">ཡར་ཞུ་མི་བྱེད།</string>
-	<string name="discussion.discussion_comments_title">མཆན།</string>
-	<string name="discussion.discussion_comment_added">མཆན་བཏབ་ཟིན།</string>
-	<string name="discussion.discussion_discussion">བགྲོ་གླེང་།</string>
-	<string name="discussion.discussion_question">དྲི་བ།</string>
-	<string name="discussion.discussion_title">མཚན་བྱང་།</string>
-	<string name="discussion.discussion_follow_discussion">བགྲོ་གླེང་འདིར་རྗེས་འཇུག་བྱེད།</string>
-	<string name="discussion.discussion_follow_question">དྲི་བ་འདིར་རྗེས་འཇུག་བྱོས།</string>
-	<string name="discussion.discussion_search_all_posts">རྩོམ་ཡིག་ཆ་ཚང་འཚོལ།</string>
-	<string name="discussion.discussion_main_categories">རྩ་བའི་རིགས་དབྱེ་ཁག</string>
-	<string name="discussion.discussion_select_post_type">རྩོམ་ཡིག་གི་རིགས་དབྱེ་འདེམས།</string>
-	<string name="discussion.discussion_topic">བརྗོད་གཞི།</string>
-	<string name="discussion.discussion_search_results">བཙལ་འབྲས།</string>
-	<string name="discussion.discussion_start_typing_to_find">འབྲེལ་ཡོད་བགྲོ་གླེང་དེ་འཚོལ་བྱེད་ཀྱི་མིང་ཕྲིས།</string>
-	<string name="discussion.discussion_anonymous">ངོས་འཛིན་མེད་པ།</string>
-	<string name="discussion.discussion_no_yet">ད་སྔ་བགྲོ་གླེང་མི་འདུག</string>
-	<string name="discussion.discussion_click_button_create_discussion">ཁྱེད་ཀྱི་ཆེས་ཐོག་མའི་བགྲོ་གླེང་གསར་བཟོ་དགོས་ན་གཤམ་གྱི་གནོན་ཐེབས་སྣུན།</string>
-	<string name="discussion.discussion_unnamed_subcategory">མིང་བཏགས་མེད་པའི་ནང་གསེས་རིགས་དབྱེ།</string>
-	<plurals name="discussion.discussion_votes">
-        <item quantity="other">%1$d འོས།</item>
-    </plurals>
-	<plurals name="discussion.discussion_missed_posts">
-        <item quantity="other">ཤོར་ཟིན་པའི་རྩོམ་ཡིག %1$d</item>
-    </plurals>
-	<plurals name="discussion.discussion_responses">
-        <item quantity="other">%1$d ལན་འདེབས།</item>
-    </plurals>
-	<plurals name="discussion.discussion_responses_capitalized">
-        <item quantity="other">%1$d ལན་འདེབས་རྣམས།</item>
-    </plurals>
-	<plurals name="discussion.discussion_found_threads">
-        <item quantity="other">རྙེད་ཟིན་པའི་ %s རྩོམ་ཡིག</item>
-    </plurals>
-
-	<string name="downloads.downloads">ཕབ་ལེན།</string>
-	<string name="downloads.downloads_download_course">སློབ་ཚན་ཕབ་ལེན།</string>
-	<string name="downloads.downloads_remove_course_downloads">སློབ་ཚན་གྱི་ཕབ་ལེན་བཏོན་གཏང་།</string>
-	<string name="downloads.downloads_cancel_download">ཕབ་ལེན་ཕྱིར་འཐེན།</string>
-	<string name="downloads.downloads_empty_state_title">ད་ལྟོ་སློབ་ཚན་ཡོད་པའི་སློབ་ཚན་མེད།</string>
-	<string name="downloads.downloads_empty_state_description">ཁྱེད་རང་ལ་ད་ལྟ་སློབ་ཚན་གྱི་ནང་དུ་ཕབ་ལེན་གྱི་དོན་ལུགས་ཀྱི་སློབ་ཚན་མེད།.</string>
-	<string name="downloads.downloaded_downloaded_size">%1$s ཕབ་ལེན་འབད་ཡོད་པས།</string>
-	<string name="downloads.downloaded_available_size">%1$s ཐོབ་ཐང་།</string>
-	<string name="downloads.downloads_accessibility_stop_downloading_course">སློབ་ཚན་ཕབ་ལེན་བརྡར་བཞག</string>
-	<string name="downloads.downloads_loading_course_structure">སློབ་ཚན་གྱི་གཞི་རིམ་འདྲེན་བྱེད་དོ་…</string>
-
-	<string name="auth.auth_forgot_password">གསང་ཚིག་བརྗེད་སོང་ངམ།</string>
-	<string name="auth.auth_email">ཡིག་ཟམ</string>
-	<string name="auth.auth_invalid_email">ཡིག་ཟམ་ཚུལ་མཐུན་མིན།</string>
-	<string name="auth.auth_invalid_password">གསང་ཚིག་ཐུང་དྲགས་འདུག</string>
-	<string name="auth.auth_welcome_back">ཕྱིར་ཕེབས་པར་དགའ་བསུ་ཞུ། སློབ་ཚན་ལ་གཟིགས་ཕྱིར་ནང་འཛུལ་བྱོས།</string>
-	<string name="auth.auth_show_optional_fields">གདམ་ཀ་ཅན་གྱི་སྡེ་ཚན་རྣམས་སྟོན།</string>
-	<string name="auth.auth_hide_optional_fields">གདམ་ཀ་ཅན་གྱི་ཚན་པ་རྣམས་སྦེད།</string>
-	<string name="auth.auth_create_account">ཁ་བྱང་གསར་བཟོ།</string>
-	<string name="auth.auth_reset_password">གསང་ཚིག་བསྐྱར་སྒྲིག</string>
-	<string name="auth.auth_forgot_your_password">གསང་ཚིག་བརྗེད་སོང་ངམ།</string>
-	<string name="auth.auth_please_enter_your_log_in">གཤམ་དུ་ཁྱེད་ཀྱི་ནང་འཛུལ་ཡིག་ཟམ་ཁ་བྱང་ངམ་སླར་གསོ་ཡིག་ཟམ་ཁ་བྱང་ནང་འཇུག་བྱེད། ང་ཚོས་ཁྱེད་ལ་ལམ་སྟོན་ཡིག་ཟམ་ཞིག་གཏོང་རྒྱུ་ཡིན།</string>
-	<string name="auth.auth_check_your_email">ཁྱེད་ཀྱི་ཡིག་ཟམ་གཟིགས་རོགས།</string>
-	<string name="auth.auth_restore_password_success">ང་ཚོས་ཁྱེད་ཀྱི་ཡིག་ཟམ་ནང་གསང་ཚིག་བསྐྱར་གསོ་ལམ་སྟོན་ཞིག་བཏང་ཡོད། %s</string>
-	<string name="auth.auth_error_empty_username_email">ཁྱེད་རང་གི་སྤྱོད་མཁན་མིང་ཡང་ན་གློག་འཕྲིན་ཁ་བྱང་བྲིས་ནས་བསྐྱར་བརྗེད་རོགས།</string>
-	<string name="auth.auth_error_empty_email">ཁྱེད་རང་གི་གློག་འཕྲིན་ཁ་བྱང་འགོད་ནས་བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་རོགས།</string>
-	<string name="auth.auth_enter_password">གསང་ཚིག་ཞོག</string>
-	<string name="auth.auth_error_empty_password">གསང་གྲངས་བླུགས་ནས་བསྐྱར་ཚོད་ལྟ་རོགས།</string>
-	<string name="auth.auth_create_new_account">དེ་རིང་གི་སློབ་གཉེར་འགོ་རྩོམ་པ་ལ་ཁ་བྱང་ཞིག་བཟོས།</string>
-	<string name="auth.auth_accessibility_show_password">གསང་གྲངས་སྟོན།</string>
-	<string name="auth.auth_accessibility_hide_password">གསང་ཚིག་སྦས།</string>
 
 	<string name="dates.dates_title">ཟླ་ཚེས།</string>
 	<string name="dates.dates_empty_state_title">དུས་ཚོད་མེད།</string>

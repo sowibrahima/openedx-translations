@@ -331,14 +331,14 @@
   "id.verification.account.name.summary.alert": "Your account settings are managed by {managerTitle}. If the name on your photo ID does not match the name on your account, please contact your {profileDataManager} administrator or {support} for help.",
   "idv.submission.alert.error": "We encountered a technical error while trying to submit ID verification. This might be a temporary issue, so please try again in a few minutes. If the problem persists, please go to {support_link} for help.",
   "id.verification.account.name.edit": "Edit {sr}",
-  "account.settings.field.social.platform.name.twitter": "Twitter",
-  "account.settings.field.social.platform.name.twitter.empty": "Add an X profile",
   "account.settings.section.profile.information.description": "Manage your education, languages, and other public information.",
+  "wuti.footer.nav": "Footer",
+  "account.settings.field.social.platform.name.twitter.empty": "Add an X profile",
+  "wuti.footer.terms": "Terms",
+  "account.settings.field.social.platform.name.twitter": "Twitter",
   "account.settings.section.site.preferences.description": "Customize your WutiSkill experience.",
   "wuti.footer.copyright": "© {year} WutiSkill Inc. All rights reserved.",
-  "wuti.footer.help": "Help center",
-  "wuti.footer.nav": "Footer",
+  "confirmationMessageId": "Default Confirmation Message",
   "wuti.footer.privacy": "Privacy",
-  "wuti.footer.terms": "Terms",
-  "confirmationMessageId": "Default Confirmation Message"
+  "wuti.footer.help": "Help center"
 }

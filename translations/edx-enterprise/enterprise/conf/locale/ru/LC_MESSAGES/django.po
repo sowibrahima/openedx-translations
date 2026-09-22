@@ -4,16 +4,15 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Russian (https://app.transifex.com/open-edx/teams/6205/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -594,6 +593,14 @@ msgstr "Регистрация закрыта"
 msgid "Ends"
 msgstr "Заканчивается"
 
+#: integrated_channels/sap_success_factors/models.py:84
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"Зашифрованный идентификатор клиента OAuth. Он будет зашифрован при хранении "
+"в базе данных."
+
 #: integrated_channels/sap_success_factors/models.py:117
 msgid "Base URL of success factors API."
 msgstr "Базовый URL API факторов успеха."
@@ -605,6 +612,14 @@ msgstr "Идентификатор компании факторов успех�
 #: integrated_channels/sap_success_factors/models.py:131
 msgid "Success factors user identifier."
 msgstr "Идентификатор пользователя факторов успеха."
+
+#: integrated_channels/sap_success_factors/models.py:140
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"Зашифрованный секрет клиента OAuth. Он будет зашифрован при хранении в базе "
+"данных."
 
 #: integrated_channels/sap_success_factors/models.py:173
 msgid "Type of SAP User (admin or user)."
@@ -700,31 +715,31 @@ msgstr "Чтобы записать учащихся на курс, введит
 msgid "Course enrollment track"
 msgstr "Отслеживание записи на курс"
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
 msgid "Audit"
 msgstr "Бесплатный курс"
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
 msgid "Verified"
 msgstr "Подтверждено"
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
 msgid "Professional Education"
 msgstr "Профессиональное образование"
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
 msgid "Professional Education (no ID)"
 msgstr "Профессиональное образование (без удостоверения личности)"
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
 msgid "Credit"
 msgstr "Баллы"
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
 msgid "Honor"
 msgstr "Сертификат Кодекса чести"
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
 msgid "Unpaid Executive Education"
 msgstr "Неоплачиваемое обучение руководителей"
 
@@ -936,7 +951,7 @@ msgstr ""
 "Поле «Идентификатор организации для аутентификации» успешно записано для "
 "этого корпоративного клиента."
 
-#: enterprise/api/utils.py:97
+#: enterprise/api/utils.py:357
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -947,7 +962,7 @@ msgstr ""
 " Дополнительные замечания:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:104
+#: enterprise/api/utils.py:364
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
@@ -956,7 +971,7 @@ msgstr ""
 "{token_email} из {token_enterprise_name} запросил {token_number_codes} "
 "дополнительные коды. Пожалуйста, обратитесь к ним."
 
-#: enterprise/api/utils.py:110
+#: enterprise/api/utils.py:370
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -967,7 +982,7 @@ msgstr ""
 " Дополнительные замечания:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:116
+#: enterprise/api/utils.py:376
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
@@ -976,19 +991,19 @@ msgstr ""
 "{token_email} из {token_enterprise_name} запросил дополнительные коды. "
 "Пожалуйста, обратитесь к ним."
 
-#: enterprise/api/v1/serializers.py:95
+#: enterprise/api/v1/serializers.py:96
 msgid "Total count of items."
 msgstr "Общее количество предметов."
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch next page of items."
 msgstr "URL-адрес для получения следующей страницы элементов."
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:98
 msgid "URL to fetch previous page of items."
 msgstr "URL-адрес для получения предыдущей страницы элементов."
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:99
 msgid "List of items."
 msgstr "Список предметов."
 
@@ -1079,6 +1094,32 @@ msgstr ""
 "Чтобы получить ecommerce_api_client, этот пакет необходимо установить в "
 "среде Open edX."
 
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr ""
+"Указывает, какие назначения ролей пользователей необходимо обновить. Если не"
+" указано, будет обновляться для всех ролей."
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"Количество назначений ролей пользователей для обновления в каждом пакете "
+"обновлений."
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "Корпоративный клиент, которым можно ограничить назначение ролей."
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"Если установлено, никаких обновлений или созданий происходить не будет; "
+"вместо этого будет перебирать назначения, которые будут изменены или созданы"
+
 #: enterprise/constants.py:14
 #, python-brace-format
 msgid ""
@@ -1134,7 +1175,7 @@ msgstr ""
 " имеет другую политику конфиденциальности {privacy_policy_link_start} "
 "{privacy_policy_link_end} от {enterprise_customer_name} ."
 
-#: enterprise/constants.py:88
+#: enterprise/constants.py:92
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1146,7 +1187,7 @@ msgstr ""
 "имеют право на получение кредита, предоставляют востребованные знания и "
 "могут применяться для ускорения получения степени магистра."
 
-#: enterprise/constants.py:94
+#: enterprise/constants.py:98
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1158,7 +1199,7 @@ msgstr ""
 "опыт, которые работодатели ищут в рамках специализированной подготовки и "
 "профессионального образования."
 
-#: enterprise/constants.py:100
+#: enterprise/constants.py:104
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1411,6 +1452,14 @@ msgstr ""
 "для учащихся. Это относится только к клиентам с «предложениями» — старой "
 "версией обучающего кредита."
 
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"Указывает, следует ли отображать сообщение о кредите слушателя в портале "
+"слушателя."
+
 #: enterprise/models.py:391
 msgid ""
 "Hides labor market data from learners (populated by features using Lightcast"
@@ -1659,6 +1708,41 @@ msgid ""
 msgstr ""
 "Отменяется ли субсидия предприятия, например, при отзыве лицензии "
 "пользователя."
+
+#: enterprise/models.py:2550
+msgid "The customer for which this default enrollment will be realized."
+msgstr "Клиент реализует это зачисление по умолчанию."
+
+#: enterprise/models.py:2559
+msgid "The type of content (e.g. a course vs. a course run)."
+msgstr "Тип контента (например, курс или запуск курса)."
+
+#: enterprise/models.py:2739
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"Намерение по умолчанию на зачисление с корпоративным клиентом и ключом "
+"контент уже существует, но оно мягко удалено. Пожалуйста, восстановите его "
+"<a href=\"{existing_record_admin_url}\">здесь</a>."
+
+#: enterprise/models.py:2754
+msgid "The content key did not resolve to a valid course run."
+msgstr "Ключ контент не ссылается на действительный запуск курса."
+
+#: enterprise/models.py:2822
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a JSON object. An empty JSON "
+"object means that all available content items will be included in the "
+"catalog.  Must be unique."
+msgstr ""
+"Параметры запроса, которые будут использоваться для фильтрации результатов "
+"поиска/всех конечных точек службы обнаружения, заданные в виде JSON-объекта."
+" Пустой JSON-объект означает, что в каталог будут включены все доступные "
+"единицы контента.  Должен быть уникальным."
 
 #: enterprise/models.py:2837
 msgid ""
@@ -2176,6 +2260,10 @@ msgstr "Запись уже отправлена на настройку."
 msgid "Specifies enterprise group name."
 msgstr "Указывает имя корпоративной группы."
 
+#: enterprise/models.py:4744
+msgid "The type of enterprise group"
+msgstr "Тип предпринимательской группы"
+
 #: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "Группа предприятий"
@@ -2218,6 +2306,43 @@ msgstr "Членство в корпоративной группе"
 #: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "Членство в корпоративных группах"
+
+#: enterprise/models.py:4964
+msgid "Title summarizing the onboarding flow."
+msgstr "Заголовок, подводящий итоги процесса онбординга."
+
+#: enterprise/models.py:4970
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Указывает, активен ли этот поток и показан ли он администраторам в туре по "
+"вводу в должность."
+
+#: enterprise/models.py:4989
+msgid "The enterprise customer user who is an admin."
+msgstr ""
+"Корпоративный клиент, который является пользователем и администратором."
+
+#: enterprise/models.py:4994
+msgid "The last time the admin logged into the admin portal."
+msgstr "Последний раз, когда администратор входил в портал администратора."
+
+#: enterprise/models.py:5003
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "Отказался ли администратор от участия в туре."
+
+#: enterprise/models.py:5007
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "Завершил ли администратор тур по вводу в эксплуатацию."
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admin"
+msgstr "Администратор корпоративных клиентов"
+
+#: enterprise/models.py:5013
+msgid "Enterprise Customer Admins"
+msgstr "Администраторы корпоративных клиентов"
 
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
 #: enterprise/views.py:1616 enterprise/views.py:2118
@@ -2889,29 +3014,3 @@ msgid ""
 msgstr ""
 "Чтобы использовать этот EnterpriseCourseEnrollmentSerializer, этот пакет "
 "необходимо установить в среде Open edX."
-
-#: enterprise/config/models.py:41
-msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr ""
-"Указывает, какие назначения ролей пользователей необходимо обновить. Если не"
-" указано, будет обновляться для всех ролей."
-
-#: enterprise/config/models.py:45
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr ""
-"Количество назначений ролей пользователей для обновления в каждом пакете "
-"обновлений."
-
-#: enterprise/config/models.py:50
-msgid "The enterprise customer to limit role assignments to."
-msgstr "Корпоративный клиент, которым можно ограничить назначение ролей."
-
-#: enterprise/config/models.py:55
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr ""
-"Если установлено, никаких обновлений или созданий происходить не будет; "
-"вместо этого будет перебирать назначения, которые будут изменены или созданы"

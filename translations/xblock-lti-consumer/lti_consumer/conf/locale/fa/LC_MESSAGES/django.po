@@ -4,11 +4,6 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Somaye Julaie <joolaee@iingroups.com>, 2024
-# HeliaEnayati, 2024
-# Omar Al-Ithawi <i@omardo.com>, 2026
-# Transifex Bot <>, 2026
-# Gerardo Núñez, 2026
 # Brian Smith, 2026
 # 
 msgid ""
@@ -16,7 +11,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-24 01:02+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Persian (https://app.transifex.com/open-edx/teams/6205/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -49,293 +44,67 @@ msgstr "امضای رمز نامعتبر."
 msgid "No valid user id found in endpoint URL"
 msgstr "هیچ شناسه کاربری معتبری در URL نقطه پایانی یافت نشد"
 
-#: lti_xblock.py:147
-msgid "New"
-msgstr "جدید"
-
-#: lti_xblock.py:151
-msgid "Database"
-msgstr "پایگاه داده"
-
-#: lti_xblock.py:154
-msgid "Existing"
-msgstr "موجود"
-
 #: lti_xblock.py:262
 msgid "Display Name"
 msgstr "نام نمایشی"
 
-#: lti_xblock.py:264
-msgid ""
-"Enter the name learners see for this component. This name may also appear in"
-" reports."
-msgstr ""
-"نامی را وارد کنید که فراگیران برای این مؤلفه می‌بینند. این نام ممکن است در "
-"گزارش‌ها نیز ظاهر شود."
-
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "مصرف کننده LTI"
 
-#: lti_xblock.py:270
-msgid "Data Sharing Notice"
-msgstr "اطلاعیه اشتراک‌گذاری داده"
-
-#: lti_xblock.py:272
-msgid ""
-"Enter a short notice about the tool. Use this field to explain why learner "
-"data may be shared with it."
-msgstr ""
-"یک اطلاعیه کوتاه درباره ابزار وارد کنید. از این فیلد برای توضیح اینکه چرا "
-"داده‌های یادگیرنده ممکن است با آن به اشتراک گذاشته شود، استفاده کنید."
-
-#: lti_xblock.py:278
+#: lti_xblock.py:281
 msgid "Configuration Type"
 msgstr "نوع پیکربندی"
 
-#: lti_xblock.py:289
+#: lti_xblock.py:293
 msgid "LTI Version"
 msgstr "نسخه LTI"
 
-#: lti_xblock.py:297
-msgid "Select the LTI version supported by your tool."
-msgstr "نسخه LTI پشتیبانی شده توسط ابزار خود را انتخاب کنید."
-
-#: lti_xblock.py:302
-msgid "LTI Reusability ID"
-msgstr "شناسه قابلیت استفاده مجدد LTI"
-
-#: lti_xblock.py:304
-msgid "Enter the ID of an existing reusable tool configuration."
-msgstr "شناسه یک پیکربندی ابزار قابل استفاده مجدد موجود را وارد کنید."
-
-#: lti_xblock.py:309
+#: lti_xblock.py:315
 msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
 msgstr "شناسۀ گذرنامۀ Lti 1.3 که به جدول Lti1p3Passport اشاره دارد"
 
-#: lti_xblock.py:312
+#: lti_xblock.py:318
 msgid "Passport ID for a reusable keys."
 msgstr "شناسه گذرنامه برای کلیدهای قابل استفاده مجدد."
 
-#: lti_xblock.py:316
-msgid "Launch URL"
-msgstr "آدرس اینترنتی (URL) را راه‌اندازی کنید"
-
-#: lti_xblock.py:320
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
-"uses to launch the tool."
-msgstr ""
-"آدرس اینترنتی (URL) راه‌اندازی این ابزار را وارد کنید. برای LTI 1.3، این "
-"همان آدرس اینترنتی (URL) است که Open edX برای راه‌اندازی ابزار از آن استفاده"
-" می‌کند."
-
-#: lti_xblock.py:324
-msgid "Tool Initiate Login URL (OIDC)"
-msgstr "آدرس اینترنتی (URL) شروع ورود به ابزار (OIDC)"
-
-#: lti_xblock.py:328
-msgid ""
-"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
-"the LTI 1.3 login flow."
-msgstr ""
-"نشانی وب (URL) شروع ورود OIDC ابزار را وارد کنید. Open edX از این نشانی وب "
-"برای شروع جریان ورود LTI 1.3 استفاده می‌کند."
-
-#: lti_xblock.py:332
+#: lti_xblock.py:341
 msgid "Registered Redirect URIs"
 msgstr "URI های تغییر مسیر ثبت شده"
 
-#: lti_xblock.py:334
-msgid ""
-"Enter the redirect URIs this tool is allowed to use during login e.g. "
-"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
-"use the launch URL and deep linking URL by default."
-msgstr ""
-"URI‌های تغییر مسیر را که این ابزار مجاز به استفاده از آن‌ها در هنگام ورود "
-"است، وارد کنید؛ مثلاً [\"https://tool.com\", \"https://tool_deeplink.com\"]."
-" برای استفاده از URL راه‌اندازی و URL لینک عمیق به‌طور پیش‌فرض، این قسمت را "
-"خالی بگذارید."
-
-#: lti_xblock.py:342
+#: lti_xblock.py:353
 msgid "Tool Public Key Mode"
 msgstr "حالت کلید عمومی ابزار"
 
-#: lti_xblock.py:350
-msgid ""
-"Choose how Open edX will get the tool’s public key for validating signed "
-"messages."
-msgstr ""
-"نحوه دریافت کلید عمومی ابزار توسط Open edX را برای اعتبارسنجی پیام‌های امضا "
-"شده انتخاب کنید."
-
-#: lti_xblock.py:354
+#: lti_xblock.py:365
 msgid "Tool Keyset URL"
 msgstr "URL مجموعه ابزار"
 
-#: lti_xblock.py:358
-msgid ""
-"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
-"the public keys needed to validate signed messages."
-msgstr ""
-"نشانی وب (URL) مجموعه کلیدهای JWK ابزار را وارد کنید. Open edX از این نشانی "
-"وب برای بازیابی کلیدهای عمومی مورد نیاز برای اعتبارسنجی پیام‌های امضا شده "
-"استفاده می‌کند."
-
-#: lti_xblock.py:363
+#: lti_xblock.py:382
 msgid "Tool Public Key"
 msgstr "کلید عمومی ابزار"
 
-#: lti_xblock.py:368
-msgid ""
-"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
-"KEY-----). Use this when the tool provides a static public key directly."
-msgstr ""
-"کلید عمومی ابزار را در قالب PEM (با -----BEGIN PUBLIC KEY----- شروع می‌شود) "
-"وارد کنید. از این گزینه زمانی استفاده کنید که ابزار مستقیماً یک کلید عمومی "
-"ثابت ارائه می‌دهد."
-
-#: lti_xblock.py:374
-msgid "Names & Roles (NRPS)"
-msgstr "نام‌ها و نقش‌ها (NRPS)"
-
-#: lti_xblock.py:376
-msgid ""
-"Enable this to allow the tool to access the names and roles of enrolled "
-"learners, if the tool supports NRPS."
-msgstr ""
-"این گزینه را فعال کنید تا ابزار بتواند به نام‌ها و نقش‌های فراگیران "
-"ثبت‌نام‌شده دسترسی پیدا کند، در صورتی که ابزار از NRPS پشتیبانی می‌کند."
-
-#: lti_xblock.py:385
+#: lti_xblock.py:408
 msgid "Deep linking"
 msgstr "پیوند عمیق"
 
-#: lti_xblock.py:387
-msgid ""
-"Enable this if you want to deep link content from within the tool, in "
-"Studio."
-msgstr ""
-"اگر می‌خواهید محتوا را از داخل ابزار، در استودیو، به صورت عمیق پیوند دهید، "
-"این گزینه را فعال کنید."
-
-#: lti_xblock.py:393
+#: lti_xblock.py:414
 msgid "Deep Linking Launch URL"
 msgstr "آدرس راه‌اندازی پیوند عمیق"
 
-#: lti_xblock.py:397
-msgid ""
-"Enter the deep linking URL for this tool. If the tool does not specify one, "
-"enter the 'Launch URL' here."
-msgstr ""
-"نشانی وب عمیق این ابزار را وارد کنید. اگر ابزار نشانی وب مشخصی ندارد، «نشانی"
-" وب راه‌اندازی» را در اینجا وارد کنید."
-
-#: lti_xblock.py:401
-msgid "Assignment and Grades"
-msgstr "تکالیف و نمرات"
-
-#: lti_xblock.py:403
-msgid "Declarative"
-msgstr "اعلامی"
-
-#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
-#: templates/html/lti_studio_edit/_step_advantage.html:114
-#: templates/html/lti_studio_edit/_step_review.html:97
-#: templates/html/lti_studio_edit/_step_review.html:218
+#: lti_xblock.py:425
 msgid "Disabled"
 msgstr "غیرفعال"
 
-#: lti_xblock.py:417
-msgid "LTI Passport ID"
-msgstr "شناسه گذرنامه LTI"
-
-#: lti_xblock.py:419
-msgid ""
-"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
-" that you created on Advanced Settings page."
-msgstr ""
-"شناسه گذرنامه LTI را برای این ابزار انتخاب کنید. این شناسه گذرنامه LTI است "
-"که شما در صفحه تنظیمات پیشرفته ایجاد کرده‌اید."
-
-#: lti_xblock.py:426
+#: lti_xblock.py:454
 msgid "LTI URL"
 msgstr "URL LTI"
 
-#: lti_xblock.py:428
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
-"edX uses to launch the tool."
-msgstr ""
-"نشانی اینترنتی راه‌اندازی این ابزار را وارد کنید. برای LTI 1.1/1.2، این "
-"نشانی اینترنتی است که Open edX برای راه‌اندازی ابزار از آن استفاده می‌کند."
-
-#: lti_xblock.py:436
+#: lti_xblock.py:469
 msgid "Custom Parameters"
 msgstr "پارامترهای سفارشی"
 
-#: lti_xblock.py:438
-msgid ""
-"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
-"\"color=white\"]."
-msgstr ""
-"جفت‌های کلید-مقدار را برای ارسال با هر راه‌اندازی وارد کنید، مثلاً "
-"[\"page=1\", \"color=white\"]."
-
-#: lti_xblock.py:443
-msgid "Open tool in"
-msgstr "باز کردن ابزار در"
-
-#: lti_xblock.py:456
-msgid "Launch Button Text"
-msgstr "متن دکمه راه‌اندازی"
-
-#: lti_xblock.py:458
-msgid ""
-"Enter the label shown on the launch button when the tool opens in a modal or"
-" new window."
-msgstr ""
-"برچسبی را که روی دکمه راه‌اندازی نمایش داده می‌شود، هنگامی که ابزار در یک "
-"پنجره مودال یا پنجره جدید باز می‌شود، وارد کنید."
-
-#: lti_xblock.py:464
-msgid "Inline Height (px)"
-msgstr "ارتفاع درون‌خطی (پیکسل)"
-
-#: lti_xblock.py:466
-msgid "Enter the height of the inline iframe in pixels."
-msgstr "ارتفاع آی‌فریم درون‌خطی را بر حسب پیکسل وارد کنید."
-
-#: lti_xblock.py:472
-msgid "Modal Height (%)"
-msgstr "ارتفاع پنجره بازشو (درصد)"
-
-#: lti_xblock.py:474
-msgid "Enter the modal height as a percentage of the browser window."
-msgstr "ارتفاع مودال را به صورت درصدی از پنجره مرورگر وارد کنید."
-
-#: lti_xblock.py:482
-msgid "Enter the modal width as a percentage of the browser window."
-msgstr "عرض مودال را به صورت درصدی از پنجره مرورگر وارد کنید."
-
-#: lti_xblock.py:488
-msgid "This activity is graded"
-msgstr "این فعالیت نمره دارد"
-
-#: lti_xblock.py:489
-msgid "Enable this if the tool sends a numeric score back to Open edX."
-msgstr ""
-"اگر ابزار نمره عددی را به Open edX برمی‌گرداند، این گزینه را فعال کنید."
-
-#: lti_xblock.py:494
-msgid "Grade Weight"
-msgstr "وزن نمره"
-
-#: lti_xblock.py:496
-msgid "Enter the maximum number of points for this component."
-msgstr "حداکثر امتیاز این مؤلفه را وارد کنید."
-
-#: lti_xblock.py:503
+#: lti_xblock.py:554
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
@@ -343,72 +112,27 @@ msgstr ""
 "امتیاز در xblock KVS نگهداری می‌شود -- مقداری تکراری از امتیاز منتشرشده در "
 "جنگو DB"
 
-#: lti_xblock.py:508
+#: lti_xblock.py:559
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "نظر همانطور که از گریدر، مشخصات LTI2.0 برگردانده شده است"
 
-#: lti_xblock.py:513
+#: lti_xblock.py:564
 msgid "Hide External Tool"
 msgstr "پنهان‌سازی ابزار خارجی"
 
-#: lti_xblock.py:515
-msgid ""
-"Enable this to hide launch button and iframe so you use the component for "
-"grade sync etc."
-msgstr ""
-"این گزینه را فعال کنید تا دکمه راه‌اندازی و iframe پنهان شوند و بتوانید از "
-"این مؤلفه برای همگام‌سازی نمرات و غیره استفاده کنید."
-
-#: lti_xblock.py:522
-msgid ""
-"Enable this to allow the tool to send grades after the due date has passed."
-msgstr ""
-"این گزینه را فعال کنید تا ابزار بتواند پس از گذشت مهلت مقرر، نمرات را ارسال "
-"کند."
-
-#: lti_xblock.py:530
-msgid "Share Username"
-msgstr "نام کاربری را به اشتراک بگذارید"
-
-#. Translators: This is used to request the user's username for a third party
-#. service.
-#: lti_xblock.py:532
-msgid "Enable this to send the learner’s username to the tool."
-msgstr "این گزینه را فعال کنید تا نام کاربری فراگیر به ابزار ارسال شود."
-
-#. Translators: This is used to request the user's full name for a third party
-#. service.
-#: lti_xblock.py:539
-msgid "Enable this to send the learner’s full name to the tool."
-msgstr "این گزینه را فعال کنید تا نام کامل فراگیر به ابزار ارسال شود."
-
-#. Translators: This is used to request the user's email for a third party
-#. service.
-#: lti_xblock.py:546
-msgid "Enable this to send the learner’s email address to the tool."
-msgstr "این گزینه را فعال کنید تا آدرس ایمیل فراگیر به ابزار ارسال شود."
-
-#: lti_xblock.py:552
+#: lti_xblock.py:605
 msgid "Send extra parameters"
 msgstr "ارسال پارامترهای اضافی"
 
-#: lti_xblock.py:553
-msgid ""
-"Enable this to send extra parameters (may contain PII). Consult site admin "
-"for details."
-msgstr ""
-"این گزینه را فعال کنید تا پارامترهای اضافی (که ممکن است حاوی اطلاعات شخصی "
-"قابل شناسایی باشند) ارسال شوند. برای جزئیات بیشتر با مدیر سایت مشورت کنید."
-
-#: lti_xblock.py:627
+#: lti_xblock.py:681
 msgid "Custom Parameters must be a list"
 msgstr "پارامترهای سفارشی باید یک فهرست باشند"
 
-#: lti_xblock.py:634
+#: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "پارامترهای سفارشی باید رشته‌هایی در قالب &quot;x=y&quot; باشند."
 
-#: lti_xblock.py:644
+#: lti_xblock.py:698
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -416,16 +140,16 @@ msgstr ""
 "شناسۀ پیکربندی قابل استفادۀ مجدد باید هنگام استفاده از پیکربندی خارجی تنظیم "
 "شود (مثال: &quot;x:y&quot;)."
 
-#: lti_xblock.py:668
+#: lti_xblock.py:722
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr "شناسه LTI مشخص‌شده در تنظیمات پیشرفتۀ این دورۀ تنظیم نشده‌است."
 
-#: lti_xblock.py:802 lti_xblock.py:1119
+#: lti_xblock.py:851 lti_xblock.py:1168
 msgid "Could not get user data for current request"
 msgstr "اطلاعات کاربر برای درخواست فعلی دریافت نشد"
 
-#: lti_xblock.py:842
+#: lti_xblock.py:891
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -433,11 +157,11 @@ msgstr ""
 "گذرنامۀ LTI تجزیه نشد: {lti_passport!r}. باید رشته &quot;id:key:secret&quot;"
 " باشد."
 
-#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
+#: lti_xblock.py:909 lti_xblock.py:923 lti_xblock.py:939
 msgid "Could not get user id for current request"
 msgstr "شناسۀ کاربری برای درخواست فعلی دریافت نشد"
 
-#: lti_xblock.py:1052
+#: lti_xblock.py:1101
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -445,7 +169,7 @@ msgstr ""
 "پارامتر سفارشی تبیدل نشد: {custom_parameter!r}. باید رشته‌ای از "
 "&quot;x=y&quot; باشد."
 
-#: lti_xblock.py:1507
+#: lti_xblock.py:1490
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: کاربر واقعی در برابر anon_id پیدا نشد: {}"
 
@@ -658,99 +382,9 @@ msgstr "شما را به آزمون‌تان برمی‌گرداند."
 msgid "Return to exam."
 msgstr "بازگشت به آزمون"
 
-#: templates/html/lti_studio_edit/_actions.html:5
-msgid "Previous"
-msgstr "قبلی"
-
-#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "لغو"
-
-#: templates/html/lti_studio_edit/_actions.html:13
-msgid "Next"
-msgstr "بعدی"
-
-#: templates/html/lti_studio_edit/_actions.html:16
-msgid "Save"
-msgstr "ذخیره کردن"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:20
-#: templates/html/lti_studio_edit/_step_advantage.html:104
-#: templates/html/lti_studio_edit/_step_review.html:87
-#: templates/html/lti_studio_edit/_step_review.html:208
-msgid "Enabled"
-msgstr "فعال شد"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:142
-msgid "Public Key"
-msgstr "کلید عمومی"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:152
-msgid "Keyset URL"
-msgstr "URL مجموعه کلید"
-
-#: templates/html/lti_studio_edit/_step_review.html:22
-msgid "Grading"
-msgstr "نمره‌دهی"
-
-#: templates/html/lti_studio_edit/_step_review.html:39
-msgid "Graded"
-msgstr "درجه بندی شد"
-
-#: templates/html/lti_studio_edit/_step_review.html:49
-msgid "Ungraded"
-msgstr "بدون‌نمره"
-
-#: templates/html/lti_studio_edit/_step_review.html:108
-msgid "Advanced Information Sharing"
-msgstr "اشتراک‌گذاری پیشرفته اطلاعات"
-
-#: templates/html/lti_studio_edit/_step_review.html:174
-msgid "Administrators can enable advanced sharing options for LTI components."
-msgstr ""
-"مدیران می‌توانند گزینه‌های اشتراک‌گذاری پیشرفته را برای مؤلفه‌های LTI فعال "
-"کنند."
-
-#: templates/html/lti_studio_edit/_step_review.html:179
-msgid "Learn more."
-msgstr "بیشتر بدانید."
-
-#: templates/html/lti_studio_edit/_step_review.html:229
-msgid "Appearance Options"
-msgstr "گزینه‌های ظاهر"
-
-#: templates/html/lti_studio_edit/_step_review.html:246
-msgid "True"
-msgstr "درست"
-
-#: templates/html/lti_studio_edit/_step_review.html:256
-msgid "False"
-msgstr "نادرست"
-
-#: templates/html/lti_studio_edit/_step_setup.html:5
-msgid "LTI Configuration"
-msgstr "پیکربندی LTI"
-
-#: templates/html/lti_studio_edit/_step_setup.html:105
-msgid "LTI 1.1/1.2 Configuration"
-msgstr "پیکربندی LTI 1.1/1.2"
-
-#: templates/html/lti_studio_edit/_step_setup.html:119
-msgid "LTI 1.3 Configuration"
-msgstr "پیکربندی LTI 1.3"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:10
-msgid "Setup"
-msgstr "راه‌اندازی"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:21
-msgid "Advantage Settings"
-msgstr "تنظیمات مزیت"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:33
-msgid "Review Options"
-msgstr "گزینه‌های بازبینی"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -808,24 +442,3 @@ msgstr ""
 msgid "Click Cancel to return to this page without sending your information."
 msgstr ""
 "برای بازگشت به این صفحه، بدون ارسال اطلاعات خود، روی دکمۀ لغو کلیک کنید."
-
-#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
-#: static/js/xblock_studio_view.js:526
-msgid "Unable to update settings"
-msgstr "امکان به‌روزرسانی تنظیمات وجود ندارد"
-
-#: static/js/xblock_studio_view.js:477
-msgid "Unable to parse the custom parameters."
-msgstr "امکان تجزیه پارامترهای سفارشی وجود ندارد."
-
-#: static/js/xblock_studio_view.js:491
-msgid "Unable to parse the redirect URIs."
-msgstr "امکان تجزیه URI‌های تغییر مسیر وجود ندارد."
-
-#: static/js/xblock_studio_view.js:511
-msgid ""
-"This may be happening because of an error with our server or your internet "
-"connection. Try refreshing the page or making sure you are online."
-msgstr ""
-"این ممکن است به دلیل یک‌خطا در سرویس‌دهندۀ ما یا اتصال اینترنت شما رخ داده "
-"باشد. سعی کنید صفحه را تازه کنید یا مطمئن شوید که برخط هستید."

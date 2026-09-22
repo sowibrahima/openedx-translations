@@ -2,25 +2,22 @@
 # Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2026.
-# 
+#
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2025
-# Transifex Bot <>, 2026
-# Eden Huthmacher, 2026
 # Brian Smith, 2026
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-24 01:02+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: French (https://app.transifex.com/open-edx/teams/6205/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: lti_1p3/extensions/rest_framework/authentication.py:41
@@ -52,331 +49,67 @@ msgstr ""
 "Aucun identifiant utilisateur valide trouvé dans l'url du point de "
 "terminaison"
 
-#: lti_xblock.py:147
-msgid "New"
-msgstr "Nouveau"
-
-#: lti_xblock.py:151
-msgid "Database"
-msgstr "Base de données"
-
-#: lti_xblock.py:154
-msgid "Existing"
-msgstr "Existant"
-
 #: lti_xblock.py:262
 msgid "Display Name"
 msgstr "Nom d'affichage"
 
-#: lti_xblock.py:264
-msgid ""
-"Enter the name learners see for this component. This name may also appear in"
-" reports."
-msgstr ""
-"Saisissez le nom que les apprenants verront pour ce composant. Ce nom peut "
-"également apparaître dans les rapports."
-
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "Consommateur LTI"
 
-#: lti_xblock.py:270
-msgid "Data Sharing Notice"
-msgstr "Avis de partage de données"
-
-#: lti_xblock.py:272
-msgid ""
-"Enter a short notice about the tool. Use this field to explain why learner "
-"data may be shared with it."
-msgstr ""
-"Entrez une brève note sur l’outil. Utilisez ce champ pour expliquer pourquoi"
-" les données des apprenants peuvent être partagées avec cet outil."
-
-#: lti_xblock.py:278
+#: lti_xblock.py:281
 msgid "Configuration Type"
 msgstr "Type de Configuration"
 
-#: lti_xblock.py:283
-msgid ""
-"Select 'New' to configure a new LTI Tool. If your admin has provided you "
-"with ID of an existing reusable tool configuration, select 'Existing' and "
-"enter it in the text field on the right."
-msgstr ""
-"Sélectionnez « Nouveau » pour configurer un nouvel outil LTI. Si votre admin"
-" vous a fourni l'ID d'une configuration d'outil réutilisable existante, "
-"sélectionnez « Existant » et saisissez-le dans le champ de texte à droite."
-
-#: lti_xblock.py:289
+#: lti_xblock.py:293
 msgid "LTI Version"
 msgstr "Version LTI"
 
-#: lti_xblock.py:297
-msgid "Select the LTI version supported by your tool."
-msgstr "Sélectionnez la version LTI prise en charge par votre outil."
-
-#: lti_xblock.py:302
-msgid "LTI Reusability ID"
-msgstr "ID de réutilisation LTI"
-
-#: lti_xblock.py:304
-msgid "Enter the ID of an existing reusable tool configuration."
-msgstr "Entrez l’ID d’une configuration d’outil réutilisable existante."
-
-#: lti_xblock.py:309
+#: lti_xblock.py:315
 msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
 msgstr "Identité de passeport LTI 1.3 qui pointe vers la table Lti1p3Passport"
 
-#: lti_xblock.py:312
+#: lti_xblock.py:318
 msgid "Passport ID for a reusable keys."
 msgstr "ID de passeport pour des clés réutilisables."
 
-#: lti_xblock.py:316
-msgid "Launch URL"
-msgstr "URL de lancement"
-
-#: lti_xblock.py:320
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
-"uses to launch the tool."
-msgstr ""
-"Saisissez l’URL de lancement de cet outil. Pour LTI 1.3, il s’agit de l’URL "
-"qu’Open edX utilise pour lancer l’outil."
-
-#: lti_xblock.py:324
-msgid "Tool Initiate Login URL (OIDC)"
-msgstr "URL d'initialisation de la connexion de l'outil (OIDC)"
-
-#: lti_xblock.py:328
-msgid ""
-"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
-"the LTI 1.3 login flow."
-msgstr ""
-"Saisissez l’URL d’initialisation de la connexion OIDC de l’outil. Open edX "
-"utilise cette URL pour démarrer le flux de connexion LTI 1.3."
-
-#: lti_xblock.py:332
+#: lti_xblock.py:341
 msgid "Registered Redirect URIs"
 msgstr "URI de redirection enregistrés"
 
-#: lti_xblock.py:334
-msgid ""
-"Enter the redirect URIs this tool is allowed to use during login e.g. "
-"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
-"use the launch URL and deep linking URL by default."
-msgstr ""
-"Saisissez les URI de redirection que cet outil est autorisé à utiliser lors "
-"de la connexion, par exemple [\"https://tool.com\", "
-"\"https://tool_deeplink.com\"]. Laissez ce champ vide pour utiliser l'URL de"
-" lancement et l'URL de lien profond par défaut."
-
-#: lti_xblock.py:342
+#: lti_xblock.py:353
 msgid "Tool Public Key Mode"
 msgstr "Mode de clé publique de l'outil"
 
-#: lti_xblock.py:350
-msgid ""
-"Choose how Open edX will get the tool’s public key for validating signed "
-"messages."
-msgstr ""
-"Choisissez comment Open edX obtient la clé publique de l’outil pour valider "
-"les messages signés."
-
-#: lti_xblock.py:354
+#: lti_xblock.py:365
 msgid "Tool Keyset URL"
 msgstr "URL de la clé de l'outil"
 
-#: lti_xblock.py:358
-msgid ""
-"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
-"the public keys needed to validate signed messages."
-msgstr ""
-"Entrez l’URL de l’ensemble de clés JWK de l’outil. Open edX utilise cette "
-"URL pour récupérer les clés publiques nécessaires à la validation des "
-"messages signés."
-
-#: lti_xblock.py:363
+#: lti_xblock.py:382
 msgid "Tool Public Key"
 msgstr "Clé publique de l&#39;outil"
 
-#: lti_xblock.py:368
-msgid ""
-"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
-"KEY-----). Use this when the tool provides a static public key directly."
-msgstr ""
-"Entrez la clé publique de l’outil au format PEM (commence par -----BEGIN "
-"PUBLIC KEY-----). Utilisez cette option lorsque l’outil fournit directement "
-"une clé publique statique."
-
-#: lti_xblock.py:374
-msgid "Names & Roles (NRPS)"
-msgstr "Noms et rôles (NRPS)"
-
-#: lti_xblock.py:376
-msgid ""
-"Enable this to allow the tool to access the names and roles of enrolled "
-"learners, if the tool supports NRPS."
-msgstr ""
-"Activez cette option pour permettre à l'outil d'accéder aux noms et aux "
-"rôles des apprenants inscrits, si l'outil prend en charge NRPS."
-
-#: lti_xblock.py:385
+#: lti_xblock.py:408
 msgid "Deep linking"
 msgstr "Liens profonds"
 
-#: lti_xblock.py:387
-msgid ""
-"Enable this if you want to deep link content from within the tool, in "
-"Studio."
-msgstr ""
-"Activez cette option si vous souhaitez créer des liens profonds vers du "
-"contenu à partir de l'outil, dans Studio."
-
-#: lti_xblock.py:393
+#: lti_xblock.py:414
 msgid "Deep Linking Launch URL"
 msgstr "URL de lancement des liens profonds"
 
-#: lti_xblock.py:397
-msgid ""
-"Enter the deep linking URL for this tool. If the tool does not specify one, "
-"enter the 'Launch URL' here."
-msgstr ""
-"Entrez l'URL de lien profond pour cet outil. Si l'outil n'en spécifie pas, "
-"entrez l'« URL de lancement » ici."
-
-#: lti_xblock.py:401
-msgid "Assignment and Grades"
-msgstr "Devoirs et notes"
-
-#: lti_xblock.py:403
-msgid "Declarative"
-msgstr "Déclaratif"
-
-#: lti_xblock.py:404
-msgid "Programmatic"
-msgstr "Programmatique"
-
-#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
-#: templates/html/lti_studio_edit/_step_advantage.html:114
-#: templates/html/lti_studio_edit/_step_review.html:97
-#: templates/html/lti_studio_edit/_step_review.html:218
+#: lti_xblock.py:425
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: lti_xblock.py:410
-msgid ""
-"Enable AGS and select functionality. 'Declarative' provides the tool with an"
-" existing line item. 'Programmatic' allows tools to create and manage line "
-"items."
-msgstr ""
-"Activez AGS et sélectionnez la fonctionnalité. « Déclaratif » fournit à "
-"l'outil un élément de ligne existant. « Programmatique » permet aux outils "
-"de créer et de gérer des éléments de ligne."
-
-#: lti_xblock.py:417
-msgid "LTI Passport ID"
-msgstr "ID de passeport LTI"
-
-#: lti_xblock.py:419
-msgid ""
-"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
-" that you created on Advanced Settings page."
-msgstr ""
-"Sélectionnez l'ID de passeport LTI pour cet outil. Il s'agit de l'ID du "
-"passeport LTI que vous avez créé sur la page Paramètres avancés."
-
-#: lti_xblock.py:426
+#: lti_xblock.py:454
 msgid "LTI URL"
 msgstr "url LTI"
 
-#: lti_xblock.py:428
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
-"edX uses to launch the tool."
-msgstr ""
-"Saisissez l'URL de lancement de cet outil. Pour LTI 1.1/1.2, il s'agit de "
-"l'URL qu'Open edX utilise pour lancer l'outil."
-
-#: lti_xblock.py:436
+#: lti_xblock.py:469
 msgid "Custom Parameters"
 msgstr "Paramètres Personnalisés"
 
-#: lti_xblock.py:438
-msgid ""
-"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
-"\"color=white\"]."
-msgstr ""
-"Entrez des paires clé-valeur à envoyer à chaque lancement, par exemple "
-"[\"page=1\", \"color=white\"]."
-
-#: lti_xblock.py:443
-msgid "Open tool in"
-msgstr "Ouvrir l'outil dans"
-
-#: lti_xblock.py:445
-msgid ""
-"Choose how the tool opens for learners: inline in the page, in a modal, or "
-"in a new window."
-msgstr ""
-"Choisissez comment l'outil s'ouvre pour les apprenants : intégré à la page, "
-"dans une fenêtre modale ou dans une nouvelle fenêtre."
-
-#: lti_xblock.py:456
-msgid "Launch Button Text"
-msgstr "Texte du bouton de lancement"
-
-#: lti_xblock.py:458
-msgid ""
-"Enter the label shown on the launch button when the tool opens in a modal or"
-" new window."
-msgstr ""
-"Saisissez l'étiquette affichée sur le bouton de lancement lorsque l'outil "
-"s'ouvre dans une fenêtre modale ou une nouvelle fenêtre."
-
-#: lti_xblock.py:464
-msgid "Inline Height (px)"
-msgstr "Hauteur en ligne (px)"
-
-#: lti_xblock.py:466
-msgid "Enter the height of the inline iframe in pixels."
-msgstr "Entrez la hauteur du cadre intégré (iframe) en pixels."
-
-#: lti_xblock.py:472
-msgid "Modal Height (%)"
-msgstr "Hauteur du modal (%)"
-
-#: lti_xblock.py:474
-msgid "Enter the modal height as a percentage of the browser window."
-msgstr ""
-"Saisissez la hauteur de la fenêtre modale en pourcentage de la fenêtre du "
-"navigateur."
-
-#: lti_xblock.py:480
-msgid "Modal Width (%)"
-msgstr "Largeur modale (%)"
-
-#: lti_xblock.py:482
-msgid "Enter the modal width as a percentage of the browser window."
-msgstr ""
-"Entrez la largeur de la modale en pourcentage de la fenêtre du navigateur."
-
-#: lti_xblock.py:488
-msgid "This activity is graded"
-msgstr "Cette activité est notée"
-
-#: lti_xblock.py:489
-msgid "Enable this if the tool sends a numeric score back to Open edX."
-msgstr ""
-"Activez cette option si l'outil renvoie un score numérique à Open edX."
-
-#: lti_xblock.py:494
-msgid "Grade Weight"
-msgstr "Pondération de la note"
-
-#: lti_xblock.py:496
-msgid "Enter the maximum number of points for this component."
-msgstr "Nombre maximal de points pour ce composant."
-
-#: lti_xblock.py:503
+#: lti_xblock.py:554
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
@@ -384,92 +117,29 @@ msgstr ""
 "La partition conservée dans le xblock KVS -- doublon de la partition publiée"
 " dans Django DB"
 
-#: lti_xblock.py:508
+#: lti_xblock.py:559
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "Commentaire renvoyé par l'évaluateur, spécification LTI2.0"
 
-#: lti_xblock.py:513
+#: lti_xblock.py:564
 msgid "Hide External Tool"
 msgstr "Masquer l&#39;outil externe"
 
-#: lti_xblock.py:515
-msgid ""
-"Enable this to hide launch button and iframe so you use the component for "
-"grade sync etc."
-msgstr ""
-"Activez cette option pour masquer le bouton de lancement et l'iframe afin "
-"d'utiliser le composant pour la synchronisation des notes, etc."
-
-#: lti_xblock.py:521
-msgid "Accept grades after due date"
-msgstr "Acceptez les notes après la date limite"
-
-#: lti_xblock.py:522
-msgid ""
-"Enable this to allow the tool to send grades after the due date has passed."
-msgstr ""
-"Activez cette option pour permettre à l'outil d'envoyer les notes après la "
-"date limite."
-
-#: lti_xblock.py:530
-msgid "Share Username"
-msgstr "Partager le nom d'utilisateur"
-
-#. Translators: This is used to request the user's username for a third party
-#. service.
-#: lti_xblock.py:532
-msgid "Enable this to send the learner’s username to the tool."
-msgstr ""
-"Activez cette option pour que le nom d’utilisateur de l’apprenant soit "
-"envoyé à l’outil."
-
-#: lti_xblock.py:537
-msgid "Share Full name"
-msgstr "Partagez le nom complet"
-
-#. Translators: This is used to request the user's full name for a third party
-#. service.
-#: lti_xblock.py:539
-msgid "Enable this to send the learner’s full name to the tool."
-msgstr ""
-"Activez cette option pour envoyer le nom complet de l’apprenant à l’outil."
-
-#: lti_xblock.py:544
-msgid "Share Email"
-msgstr "Partager l'adresse courriel"
-
-#. Translators: This is used to request the user's email for a third party
-#. service.
-#: lti_xblock.py:546
-msgid "Enable this to send the learner’s email address to the tool."
-msgstr ""
-"Activez cette option pour que l’adresse courriel de l’apprenant soit envoyée"
-" à l’outil."
-
-#: lti_xblock.py:552
+#: lti_xblock.py:605
 msgid "Send extra parameters"
 msgstr "Envoyer des paramètres extra"
 
-#: lti_xblock.py:553
-msgid ""
-"Enable this to send extra parameters (may contain PII). Consult site admin "
-"for details."
-msgstr ""
-"Activez cette option pour envoyer des paramètres supplémentaires (peut "
-"contenir des renseignements personnels identifiables). Consultez l’admin du "
-"site pour plus de détails."
-
-#: lti_xblock.py:627
+#: lti_xblock.py:681
 msgid "Custom Parameters must be a list"
 msgstr "Les paramètres personnalisés doivent être une liste"
 
-#: lti_xblock.py:634
+#: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr ""
 "Les Paramètres Personnalisés doivent être des chaînes au format "
 "&quot;x=y&quot;."
 
-#: lti_xblock.py:644
+#: lti_xblock.py:698
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -478,19 +148,19 @@ msgstr ""
 "l&#39;utilisation d&#39;une configuration externe (Exemple : "
 "&quot;x:y&quot;)."
 
-#: lti_xblock.py:668
+#: lti_xblock.py:722
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr ""
 "L&#39;Identité LTI spécifiée n&#39;est pas configurée dans les Paramètres "
 "avancés de ce cours."
 
-#: lti_xblock.py:802 lti_xblock.py:1119
+#: lti_xblock.py:851 lti_xblock.py:1168
 msgid "Could not get user data for current request"
 msgstr ""
 "Impossible d&#39;obtenir les données utilisateur pour la demande actuelle"
 
-#: lti_xblock.py:842
+#: lti_xblock.py:891
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -498,13 +168,13 @@ msgstr ""
 "Impossible d'analyser le passeport LTI : {lti_passport!r}. Devrait être une "
 "chaîne \"id:key:secret\"."
 
-#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
+#: lti_xblock.py:909 lti_xblock.py:923 lti_xblock.py:939
 msgid "Could not get user id for current request"
 msgstr ""
 "Nous n&#39;arrivons pas à obtenir l&#39;identité utilisateur pour la demande"
 " en cours."
 
-#: lti_xblock.py:1052
+#: lti_xblock.py:1101
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -512,7 +182,7 @@ msgstr ""
 "Impossible d'analyser le paramètre personnalisé: {custom_parameter!r}. Doit "
 "être une chaîne \"x=y\"."
 
-#: lti_xblock.py:1507
+#: lti_xblock.py:1490
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI] : utilisateur réel introuvable pour anon_id : {}"
 
@@ -738,95 +408,9 @@ msgstr "Je te renvoie à ton examen."
 msgid "Return to exam."
 msgstr "Retour à l'examen."
 
-#: templates/html/lti_studio_edit/_actions.html:5
-msgid "Previous"
-msgstr "Précédent"
-
-#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "Annuler"
-
-#: templates/html/lti_studio_edit/_actions.html:13
-msgid "Next"
-msgstr "Suivant"
-
-#: templates/html/lti_studio_edit/_actions.html:16
-msgid "Save"
-msgstr "Sauvegarder"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:20
-#: templates/html/lti_studio_edit/_step_advantage.html:104
-#: templates/html/lti_studio_edit/_step_review.html:87
-#: templates/html/lti_studio_edit/_step_review.html:208
-msgid "Enabled"
-msgstr "Activé"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:142
-msgid "Public Key"
-msgstr "Clé publique"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:152
-msgid "Keyset URL"
-msgstr "URL du Keyset"
-
-#: templates/html/lti_studio_edit/_step_review.html:22
-msgid "Grading"
-msgstr "Évaluation"
-
-#: templates/html/lti_studio_edit/_step_review.html:39
-msgid "Graded"
-msgstr "Noté"
-
-#: templates/html/lti_studio_edit/_step_review.html:49
-msgid "Ungraded"
-msgstr "Non noté(e)"
-
-#: templates/html/lti_studio_edit/_step_review.html:108
-msgid "Advanced Information Sharing"
-msgstr "Partage avancé de l'information"
-
-#: templates/html/lti_studio_edit/_step_review.html:174
-msgid "Administrators can enable advanced sharing options for LTI components."
-msgstr ""
-"Les administrateurs peuvent activer les options de partage avancées pour les"
-" composants LTI."
-
-#: templates/html/lti_studio_edit/_step_review.html:179
-msgid "Learn more."
-msgstr "En savoir plus."
-
-#: templates/html/lti_studio_edit/_step_review.html:229
-msgid "Appearance Options"
-msgstr "Options d'apparence"
-
-#: templates/html/lti_studio_edit/_step_review.html:246
-msgid "True"
-msgstr "Vrai"
-
-#: templates/html/lti_studio_edit/_step_review.html:256
-msgid "False"
-msgstr "FAUX"
-
-#: templates/html/lti_studio_edit/_step_setup.html:5
-msgid "LTI Configuration"
-msgstr "Configuration LTI"
-
-#: templates/html/lti_studio_edit/_step_setup.html:105
-msgid "LTI 1.1/1.2 Configuration"
-msgstr "Configuration LTI 1.1/1.2"
-
-#: templates/html/lti_studio_edit/_step_setup.html:119
-msgid "LTI 1.3 Configuration"
-msgstr "Configuration LTI 1.3"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:10
-msgid "Setup"
-msgstr "Configuration"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:21
-msgid "Advantage Settings"
-msgstr "Paramètres Advantage"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -886,25 +470,3 @@ msgstr ""
 msgid "Click Cancel to return to this page without sending your information."
 msgstr ""
 "Cliquez sur Annuler pour revenir à cette page sans envoyer vos informations."
-
-#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
-#: static/js/xblock_studio_view.js:526
-msgid "Unable to update settings"
-msgstr "Impossible de mettre à jours les paramètres"
-
-#: static/js/xblock_studio_view.js:477
-msgid "Unable to parse the custom parameters."
-msgstr "Impossible d'analyser les paramètres personnalisés."
-
-#: static/js/xblock_studio_view.js:491
-msgid "Unable to parse the redirect URIs."
-msgstr "Nous ne pouvons pas analyser les URI de redirection."
-
-#: static/js/xblock_studio_view.js:511
-msgid ""
-"This may be happening because of an error with our server or your internet "
-"connection. Try refreshing the page or making sure you are online."
-msgstr ""
-"Cela peut être dû à une erreur avec notre serveur ou avec votre connexion "
-"Internet. Essayez d&#39;actualiser la page ou de vous assurer que vous êtes "
-"en ligne."

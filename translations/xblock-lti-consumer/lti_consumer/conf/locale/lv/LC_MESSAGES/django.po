@@ -4,9 +4,6 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Elita Leilande, 2026
-# Transifex Bot <>, 2026
-# Gerardo Núñez, 2026
 # Brian Smith, 2026
 # 
 msgid ""
@@ -14,7 +11,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-24 01:02+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Latvian (https://app.transifex.com/open-edx/teams/6205/lv/)\n"
 "MIME-Version: 1.0\n"
@@ -47,303 +44,59 @@ msgstr "Nederīgs marķiera paraksts."
 msgid "No valid user id found in endpoint URL"
 msgstr "Galapunkta URL nav atrasts derīgs lietotāja ID"
 
-#: lti_xblock.py:147
-msgid "New"
-msgstr "Jauns"
-
-#: lti_xblock.py:151
-msgid "Database"
-msgstr "Datu bāze"
-
-#: lti_xblock.py:154
-msgid "Existing"
-msgstr "Esošais"
-
 #: lti_xblock.py:262
 msgid "Display Name"
 msgstr "Parādāmais nosaukums"
 
-#: lti_xblock.py:264
-msgid ""
-"Enter the name learners see for this component. This name may also appear in"
-" reports."
-msgstr ""
-"Ievadiet nosaukumu, ko izglītojamie redzēs šim komponentam. Šis nosaukums "
-"var parādīties arī atskaitēs."
-
-#: lti_xblock.py:267
+#: lti_xblock.py:268
 msgid "LTI Consumer"
 msgstr "LTI patērētājs"
 
-#: lti_xblock.py:270
-msgid "Data Sharing Notice"
-msgstr "Paziņojums par datu koplietošanu"
-
-#: lti_xblock.py:272
-msgid ""
-"Enter a short notice about the tool. Use this field to explain why learner "
-"data may be shared with it."
-msgstr ""
-"Ievadiet īsu paziņojumu par rīku. Izmantojiet šo lauku, lai paskaidrotu, "
-"kāpēc ar to var koplietot izglītojamo datus."
-
-#: lti_xblock.py:278
+#: lti_xblock.py:281
 msgid "Configuration Type"
 msgstr "Konfigurācijas veids"
 
-#: lti_xblock.py:283
-msgid ""
-"Select 'New' to configure a new LTI Tool. If your admin has provided you "
-"with ID of an existing reusable tool configuration, select 'Existing' and "
-"enter it in the text field on the right."
-msgstr ""
-"Atlasiet “Jauns”, lai konfigurētu jaunu LTI rīku. Ja jūsu administrators ir "
-"nodrošinājis jums esošas atkārtoti lietojama rīka konfigurācijas ID, "
-"atlasiet “Esošs” un ievadiet to labajā tekstlodziņā."
-
-#: lti_xblock.py:289
+#: lti_xblock.py:293
 msgid "LTI Version"
 msgstr "LTI versija"
 
-#: lti_xblock.py:297
-msgid "Select the LTI version supported by your tool."
-msgstr "Atlasiet LTI versiju, ko atbalsta jūsu rīks."
-
-#: lti_xblock.py:302
-msgid "LTI Reusability ID"
-msgstr "LTI atkārtotas izmantojamības ID"
-
-#: lti_xblock.py:304
-msgid "Enter the ID of an existing reusable tool configuration."
-msgstr "Ievadiet esošas atkārtoti izmantojamas rīka konfigurācijas ID."
-
-#: lti_xblock.py:316
-msgid "Launch URL"
-msgstr "Uzsākšanas URL"
-
-#: lti_xblock.py:320
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
-"uses to launch the tool."
-msgstr ""
-"Ievadiet šī rīka uzsākšanas URL. LTI 1.3 gadījumā tas ir URL, ko Open edX "
-"izmanto rīka uzsākšanai."
-
-#: lti_xblock.py:324
-msgid "Tool Initiate Login URL (OIDC)"
-msgstr "Rīka pieteikšanās sākuma URL (OIDC)"
-
-#: lti_xblock.py:328
-msgid ""
-"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
-"the LTI 1.3 login flow."
-msgstr ""
-"Ievadiet rīka OIDC pieteikšanās uzsākšanas URL. Open edX izmanto šo URL, lai"
-" sāktu LTI 1.3 pieteikšanās plūsmu."
-
-#: lti_xblock.py:332
+#: lti_xblock.py:341
 msgid "Registered Redirect URIs"
 msgstr "Reģistrētie novirzīšanas URI"
 
-#: lti_xblock.py:334
-msgid ""
-"Enter the redirect URIs this tool is allowed to use during login e.g. "
-"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
-"use the launch URL and deep linking URL by default."
-msgstr ""
-"Ievadiet novirzīšanas URI, kurus šis rīks drīkst izmantot pieteikšanās "
-"laikā, piemēram, [\"https://tool.com\", \"https://tool_deeplink.com\"]. "
-"Atstājiet šo lauku tukšu, lai pēc noklusējuma izmantotu palaišanas URL un "
-"dziļās saites URL."
-
-#: lti_xblock.py:342
+#: lti_xblock.py:353
 msgid "Tool Public Key Mode"
 msgstr "Rīks Publiskās atslēgas režīms"
 
-#: lti_xblock.py:350
-msgid ""
-"Choose how Open edX will get the tool’s public key for validating signed "
-"messages."
-msgstr ""
-"Izvēlieties, kā Open edX iegūs rīka publisko atslēgu parakstīto ziņojumu "
-"apstiprināšanai."
-
-#: lti_xblock.py:354
+#: lti_xblock.py:365
 msgid "Tool Keyset URL"
 msgstr "Tool Keyset URL"
 
-#: lti_xblock.py:358
-msgid ""
-"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
-"the public keys needed to validate signed messages."
-msgstr ""
-"Ievadiet rīka JWK atslēgu kopas URL. Open edX izmanto šo URL, lai iegūtu "
-"publiskās atslēgas, kas nepieciešamas parakstīto ziņojumu validēšanai."
-
-#: lti_xblock.py:363
+#: lti_xblock.py:382
 msgid "Tool Public Key"
 msgstr "Rīka publiskā atslēga"
 
-#: lti_xblock.py:368
-msgid ""
-"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
-"KEY-----). Use this when the tool provides a static public key directly."
-msgstr ""
-"Ievadiet rīka publisko atslēgu PEM formātā (sākas ar -----BEGIN PUBLIC "
-"KEY-----). Izmantojiet to, ja rīks tieši nodrošina statisku publisko "
-"atslēgu."
-
-#: lti_xblock.py:374
-msgid "Names & Roles (NRPS)"
-msgstr "Vārdi un lomas (NRPS)"
-
-#: lti_xblock.py:376
-msgid ""
-"Enable this to allow the tool to access the names and roles of enrolled "
-"learners, if the tool supports NRPS."
-msgstr ""
-"Iespējojiet šo, lai rīks varētu piekļūt reģistrēto izglītojamo vārdiem un "
-"lomām, ja rīks atbalsta NRPS."
-
-#: lti_xblock.py:385
+#: lti_xblock.py:408
 msgid "Deep linking"
 msgstr "Dziļā saite"
 
-#: lti_xblock.py:387
-msgid ""
-"Enable this if you want to deep link content from within the tool, in "
-"Studio."
-msgstr ""
-"Iespējojiet šo, ja vēlaties izveidot dziļo saiti uz saturu no rīka, "
-"programmā Studio."
-
-#: lti_xblock.py:393
+#: lti_xblock.py:414
 msgid "Deep Linking Launch URL"
 msgstr "Dziļās saites palaišanas URL"
 
-#: lti_xblock.py:397
-msgid ""
-"Enter the deep linking URL for this tool. If the tool does not specify one, "
-"enter the 'Launch URL' here."
-msgstr ""
-"Ievadiet šī rīka dziļās saites URL. Ja rīks to nenorāda, ievadiet šeit "
-"\"Palaišanas URL\"."
-
-#: lti_xblock.py:401
-msgid "Assignment and Grades"
-msgstr "Uzdevumi un atzīmes"
-
-#: lti_xblock.py:403
-msgid "Declarative"
-msgstr "Deklaratīvs"
-
-#: lti_xblock.py:404
-msgid "Programmatic"
-msgstr "Programmatisks"
-
-#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
-#: templates/html/lti_studio_edit/_step_advantage.html:114
-#: templates/html/lti_studio_edit/_step_review.html:97
-#: templates/html/lti_studio_edit/_step_review.html:218
+#: lti_xblock.py:425
 msgid "Disabled"
 msgstr "Atspējots"
 
-#: lti_xblock.py:410
-msgid ""
-"Enable AGS and select functionality. 'Declarative' provides the tool with an"
-" existing line item. 'Programmatic' allows tools to create and manage line "
-"items."
-msgstr ""
-"Iespējot AGS un atlasīt funkcionalitāti. \"Deklaratīvs\" nodrošina rīkam "
-"esošu rindu vienumu. \"Programmatisks\" ļauj rīkiem izveidot un pārvaldīt "
-"rindu vienumus."
-
-#: lti_xblock.py:417
-msgid "LTI Passport ID"
-msgstr "LTI pases ID"
-
-#: lti_xblock.py:419
-msgid ""
-"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
-" that you created on Advanced Settings page."
-msgstr ""
-"Izvēlieties šī rīka LTI pases ID. Tas ir LTI pases ID, ko izveidojāt lapā "
-"Papildu iestatījumi."
-
-#: lti_xblock.py:426
+#: lti_xblock.py:454
 msgid "LTI URL"
 msgstr "LTI URL"
 
-#: lti_xblock.py:428
-msgid ""
-"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
-"edX uses to launch the tool."
-msgstr ""
-"Ievadiet šī rīka palaišanas URL. LTI 1.1/1.2 gadījumā tas ir URL, ko Open "
-"edX izmanto rīka palaišanai."
-
-#: lti_xblock.py:436
+#: lti_xblock.py:469
 msgid "Custom Parameters"
 msgstr "Pielāgoti parametri"
 
-#: lti_xblock.py:438
-msgid ""
-"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
-"\"color=white\"]."
-msgstr ""
-"Ievadiet atslēgu-vērtību pārus, ko sūtīt ar katru palaišanu, piemēram, "
-"[\"page=1\", \"color=white\"]."
-
-#: lti_xblock.py:458
-msgid ""
-"Enter the label shown on the launch button when the tool opens in a modal or"
-" new window."
-msgstr ""
-"Ievadiet etiķeti, kas redzama uz palaišanas pogas, kad rīks atveras modālajā"
-" vai jaunā logā."
-
-#: lti_xblock.py:464
-msgid "Inline Height (px)"
-msgstr "Iekļautais augstums (px)"
-
-#: lti_xblock.py:466
-msgid "Enter the height of the inline iframe in pixels."
-msgstr "Ievadiet iekļautā iframe augstumu pikseļos."
-
-#: lti_xblock.py:472
-msgid "Modal Height (%)"
-msgstr "Modālā loga augstums (%)"
-
-#: lti_xblock.py:474
-msgid "Enter the modal height as a percentage of the browser window."
-msgstr "Ievadiet modālā loga augstumu procentos no pārlūkprogrammas loga."
-
-#: lti_xblock.py:480
-msgid "Modal Width (%)"
-msgstr "Modālā loga platums (%)"
-
-#: lti_xblock.py:482
-msgid "Enter the modal width as a percentage of the browser window."
-msgstr "Ievadiet modālā loga platumu procentos no pārlūkprogrammas loga."
-
-#: lti_xblock.py:488
-msgid "This activity is graded"
-msgstr "Šī aktivitāte tiek vērtēta"
-
-#: lti_xblock.py:489
-msgid "Enable this if the tool sends a numeric score back to Open edX."
-msgstr ""
-"Iespējojiet šo, ja rīks nosūta skaitlisku vērtējumu atpakaļ uz Open edX."
-
-#: lti_xblock.py:494
-msgid "Grade Weight"
-msgstr "Atzīmes svars"
-
-#: lti_xblock.py:496
-msgid "Enter the maximum number of points for this component."
-msgstr "Ievadiet maksimālo punktu skaitu šim komponentam."
-
-#: lti_xblock.py:503
+#: lti_xblock.py:554
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
@@ -351,67 +104,27 @@ msgstr ""
 "Rezultāts, kas saglabāts xblock KVS — django DB publicētā rezultāta "
 "dublikāts"
 
-#: lti_xblock.py:508
+#: lti_xblock.py:559
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "Komentārs kā atgriezts no vērtētāja, LTI2.0 spec"
 
-#: lti_xblock.py:513
+#: lti_xblock.py:564
 msgid "Hide External Tool"
 msgstr "Slēpt ārējo rīku"
 
-#: lti_xblock.py:522
-msgid ""
-"Enable this to allow the tool to send grades after the due date has passed."
-msgstr ""
-"Iespējojiet šo, lai rīks varētu nosūtīt atzīmes pēc noteiktā termiņa beigām."
-
-#: lti_xblock.py:530
-msgid "Share Username"
-msgstr "Kopīgot lietotājvārdu"
-
-#. Translators: This is used to request the user's username for a third party
-#. service.
-#: lti_xblock.py:532
-msgid "Enable this to send the learner’s username to the tool."
-msgstr "Iespējot šo, lai nosūtītu izglītojamā lietotājvārda rīkam."
-
-#. Translators: This is used to request the user's full name for a third party
-#. service.
-#: lti_xblock.py:539
-msgid "Enable this to send the learner’s full name to the tool."
-msgstr "Iespējiet šo, lai nosūtītu izglītojamā pilnu vārdu rīkam."
-
-#: lti_xblock.py:544
-msgid "Share Email"
-msgstr "Kopīgot e-pastu"
-
-#. Translators: This is used to request the user's email for a third party
-#. service.
-#: lti_xblock.py:546
-msgid "Enable this to send the learner’s email address to the tool."
-msgstr "Iespējot šo, lai nosūtītu izglītojamā e-pasta adresi rīkam."
-
-#: lti_xblock.py:552
+#: lti_xblock.py:605
 msgid "Send extra parameters"
 msgstr "Nosūtiet papildu parametrus"
 
-#: lti_xblock.py:553
-msgid ""
-"Enable this to send extra parameters (may contain PII). Consult site admin "
-"for details."
-msgstr ""
-"Iespējojiet šo, lai nosūtītu papildu parametrus (var saturēt PII). Sīkāku "
-"informāciju jautājiet vietnes administratoram."
-
-#: lti_xblock.py:627
+#: lti_xblock.py:681
 msgid "Custom Parameters must be a list"
 msgstr "Pielāgotajiem parametriem ir jābūt sarakstam"
 
-#: lti_xblock.py:634
+#: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "Pielāgotajiem parametriem ir jābūt virknēm formātā “x=y”."
 
-#: lti_xblock.py:644
+#: lti_xblock.py:698
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -419,27 +132,27 @@ msgstr ""
 "Izmantojot ārējo konfigurāciju, ir jāiestata atkārtoti lietojamas "
 "konfigurācijas ID (piemērs: &quot;x:y&quot;)."
 
-#: lti_xblock.py:668
+#: lti_xblock.py:722
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr "Norādītais LTI ID nav konfigurēts šī kursa papildu iestatījumos."
 
-#: lti_xblock.py:802 lti_xblock.py:1119
+#: lti_xblock.py:851 lti_xblock.py:1168
 msgid "Could not get user data for current request"
 msgstr "Nevarēja iegūt lietotāja datus pašreizējam pieprasījumam"
 
-#: lti_xblock.py:842
+#: lti_xblock.py:891
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
 msgstr ""
 "Nevarēja parsēt LTI pasi: {lti_passport!r}. Jābūt virknei “id:key:secret”."
 
-#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
+#: lti_xblock.py:909 lti_xblock.py:923 lti_xblock.py:939
 msgid "Could not get user id for current request"
 msgstr "Pašreizējam pieprasījumam nevarēja iegūt lietotāja ID"
 
-#: lti_xblock.py:1052
+#: lti_xblock.py:1101
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -447,7 +160,7 @@ msgstr ""
 "Nevarēja parsēt pielāgoto parametru: {custom_parameter!r}. Jābūt virknei "
 "“x=y”."
 
-#: lti_xblock.py:1507
+#: lti_xblock.py:1490
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: īsts lietotājs netika atrasts pret anon_id: {}"
 
@@ -657,90 +370,9 @@ msgstr "Nosūtām jūs atpakaļ uz eksāmenu."
 msgid "Return to exam."
 msgstr "Atgriezties uz eksāmenu."
 
-#: templates/html/lti_studio_edit/_actions.html:5
-msgid "Previous"
-msgstr "Iepriekšējais"
-
-#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "Atcelt"
-
-#: templates/html/lti_studio_edit/_actions.html:13
-msgid "Next"
-msgstr "Nākamais"
-
-#: templates/html/lti_studio_edit/_actions.html:16
-msgid "Save"
-msgstr "Saglabāt"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:20
-#: templates/html/lti_studio_edit/_step_advantage.html:104
-#: templates/html/lti_studio_edit/_step_review.html:87
-#: templates/html/lti_studio_edit/_step_review.html:208
-msgid "Enabled"
-msgstr "Iespējots"
-
-#: templates/html/lti_studio_edit/_step_advantage.html:142
-msgid "Public Key"
-msgstr "Publiska atslēga"
-
-#: templates/html/lti_studio_edit/_step_review.html:22
-msgid "Grading"
-msgstr "Novērtēšana"
-
-#: templates/html/lti_studio_edit/_step_review.html:39
-msgid "Graded"
-msgstr "Novērtēts"
-
-#: templates/html/lti_studio_edit/_step_review.html:49
-msgid "Ungraded"
-msgstr "Nevērtēts"
-
-#: templates/html/lti_studio_edit/_step_review.html:108
-msgid "Advanced Information Sharing"
-msgstr "Paplašināta informācijas apmaiņa"
-
-#: templates/html/lti_studio_edit/_step_review.html:174
-msgid "Administrators can enable advanced sharing options for LTI components."
-msgstr ""
-"Administratori var iespējot papildu koplietošanas opcijas LTI komponentiem."
-
-#: templates/html/lti_studio_edit/_step_review.html:179
-msgid "Learn more."
-msgstr "Uzziniet vairāk."
-
-#: templates/html/lti_studio_edit/_step_review.html:246
-msgid "True"
-msgstr "True"
-
-#: templates/html/lti_studio_edit/_step_review.html:256
-msgid "False"
-msgstr "Nepatiesi"
-
-#: templates/html/lti_studio_edit/_step_setup.html:5
-msgid "LTI Configuration"
-msgstr "LTI konfigurācija"
-
-#: templates/html/lti_studio_edit/_step_setup.html:105
-msgid "LTI 1.1/1.2 Configuration"
-msgstr "LTI 1.1/1.2 konfigurācija"
-
-#: templates/html/lti_studio_edit/_step_setup.html:119
-msgid "LTI 1.3 Configuration"
-msgstr "LTI 1.3 konfigurācija"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:10
-msgid "Setup"
-msgstr "Iestatīšana"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:21
-msgid "Advantage Settings"
-msgstr "Advantage iestatījumi"
-
-#: templates/html/lti_studio_edit/_stepper_header.html:33
-msgid "Review Options"
-msgstr "Pārskatīšanas iespējas"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -800,20 +432,3 @@ msgstr ""
 msgid "Click Cancel to return to this page without sending your information."
 msgstr ""
 "Noklikšķiniet uz Atcelt, lai atgrieztos šajā lapā, nenosūtot informāciju."
-
-#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
-#: static/js/xblock_studio_view.js:526
-msgid "Unable to update settings"
-msgstr "Nav iespējams atjaunināt iestatījumus"
-
-#: static/js/xblock_studio_view.js:477
-msgid "Unable to parse the custom parameters."
-msgstr "Nevar parsēt pielāgotos parametrus."
-
-#: static/js/xblock_studio_view.js:511
-msgid ""
-"This may be happening because of an error with our server or your internet "
-"connection. Try refreshing the page or making sure you are online."
-msgstr ""
-"Tas var notikt mūsu servera vai jūsu interneta savienojuma kļūdas dēļ. "
-"Mēģiniet atsvaidzināt lapu vai pārliecinieties, vai esat tiešsaistē."

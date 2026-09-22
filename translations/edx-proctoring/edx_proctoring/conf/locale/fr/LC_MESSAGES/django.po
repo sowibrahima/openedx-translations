@@ -3,24 +3,22 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
-# Transifex Bot <>, 2025
-# Omar Al-Ithawi <i@omardo.com>, 2025
-# Eden Huthmacher, 2025
-# 
+# Brian Smith, 2026
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-13 00:33+0000\n"
-"PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: Eden Huthmacher, 2025\n"
+"POT-Creation-Date: 2026-04-30 01:03+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: French (https://app.transifex.com/open-edx/teams/6205/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: admin.py:112
@@ -172,6 +170,10 @@ msgstr "Question sur le statut d&#39;intégration"
 #: models.py:391
 msgid "Taking as Proctored"
 msgstr "Prendre comme surveillé"
+
+#: models.py:395
+msgid "Is Sample Attempt"
+msgstr "Est-ce qu'un échantillon est une tentative?"
 
 #: models.py:413
 msgid "Is Resumable"
@@ -345,6 +347,23 @@ msgstr ""
 "    Votre session d'intégration a été examinée, mais n'a pas satisfait à toutes les conditions nécessaires\n"
 "  "
 
+#: templates/onboarding_exam/rejected.html:12
+#, python-format
+msgid ""
+"\n"
+"      Please contact\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">\n"
+"        %(integration_specific_email)s\n"
+"      </a> if you have questions. You may retake this onboarding exam by clicking \"Retry my exam\".\n"
+"    "
+msgstr ""
+"\n"
+"      Veuillez contacter\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">\n"
+"        %(integration_specific_email)s\n"
+"      </a> si vous avez des questions. Vous pouvez repasser cet examen d'intégration en cliquant sur \"Réessayer mon examen\".\n"
+"    "
+
 #: templates/onboarding_exam/rejected.html:20
 #: templates/onboarding_exam/submitted.html:47
 #: templates/practice_exam/error.html:29
@@ -454,6 +473,18 @@ msgstr ""
 "Vous avez terminé cet examen pratique et pouvez continuer vos travaux de cours.\n"
 "      "
 
+#: templates/proctored_exam/confirm-decline.html:5
+msgid ""
+"\n"
+"        Are you sure you want to take this exam without proctoring?\n"
+"      "
+msgstr ""
+"\n"
+"        \n"
+"Êtes-vous sûr de vouloir passer cet examen sans surveillance ? \n"
+"\n"
+"      "
+
 #: templates/proctored_exam/confirm-decline.html:16
 msgid "Continue Exam Without Proctoring"
 msgstr "Continue l'examen sans surveillance"
@@ -535,6 +566,31 @@ msgstr ""
 #: templates/proctored_exam/error_wrong_browser.html:22
 msgid "End My Exam"
 msgstr "Terminer mon examen"
+
+#: templates/proctored_exam/footer.html:5
+msgid ""
+"\n"
+"        About Proctored Exams\n"
+"        "
+msgstr ""
+"\n"
+"        \n"
+"À propos des examens surveillés\n"
+"\n"
+"        "
+
+#: templates/proctored_exam/inactive_account.html:16
+#, python-format
+msgid ""
+"\n"
+"      Please check your registered email's Inbox and Spam folders for an activation email from\n"
+"      %(platform_name)s.\n"
+"    "
+msgstr ""
+"\n"
+"      \n"
+"Veuillez vérifier les dossiers Boîte de réception et Spam de votre e-mail enregistré pour un e-mail d'activation de %(platform_name)s.\n"
+"    "
 
 #: templates/proctored_exam/inactive_account.html:21
 #, python-format
@@ -728,17 +784,48 @@ msgstr ""
 "      Votre examen est prêt à être repris.\n"
 "    "
 
-#: templates/proctored_exam/ready_to_start.html:5
+#: templates/proctored_exam/submitted.html:13
+msgid ""
+"Proctoring results are usually available within 5 business days after you "
+"submit your exam."
+msgstr ""
+"Les résultats de la surveillance sont généralement disponibles dans les 5 "
+"jours ouvrables après que vous soumettez votre examen."
+
+#: templates/timed_exam/entrance.html:15
+msgid "I am ready to start this timed exam,"
+msgstr "Je suis prêt à commencer cet examen chronométré,"
+
+#: views.py:1858
+msgid "Cannot update attempt review status"
+msgstr "Impossible de mettre à jour l'état d'examen de la tentative"
+
+#: templates/proctored_exam/visit_exam_content.html:11
+msgid "View my exam"
+msgstr "Voir mon examen"
+
+#: views.py:1771
+msgid "allowance_value"
+msgstr "allocation_value"
+
+#: views.py:1771
+msgid "Enter a valid positive value number"
+msgstr "Entrez un nombre de valeur positive valide"
+
+#: templates/proctored_exam/ready_to_start.html:29
+#, python-format
 msgid ""
 "\n"
-"      Important\n"
-"    "
+"          %(platform_name)s Rules for Online Proctored Exams\n"
+"      "
 msgstr ""
 "\n"
-"      \n"
-"Important\n"
-"\n"
-"    "
+"          %(platform_name)s Règles pour les examens en ligne surveillés\n"
+"      "
+
+#: templates/timed_exam/entrance.html:9
+msgid "This exam has a time limit associated with it."
+msgstr "Cet examen est assorti d’une limite de temps."
 
 #: templates/proctored_exam/ready_to_start.html:10
 #, python-format
@@ -754,16 +841,97 @@ msgstr ""
 "        &#8226; Vous avez %(total_time)s pour terminer cet examen. </br> &#8226; Une fois que vous avez commencé l'examen, vous ne pouvez pas arrêter le chronomètre. </br> &#8226; Pour tous les types de questions, vous devez cliquer sur «soumettre» pour compléter votre réponse. </br> &#8226; Si le délai expire avant que vous ne cliquiez sur «Terminer mon examen», seules les réponses que vous avez soumises seront notées. </br>\n"
 "      "
 
-#: templates/proctored_exam/ready_to_start.html:29
+#: views.py:161 views.py:676
+msgid "Must be a Staff User to Perform this request."
+msgstr ""
+"Vous devez être un Utilisateur du personnel pour effectuer cette demande."
+
+#: utils.py:350
+msgid "a practice exam"
+msgstr "un examen pratique"
+
+#: views.py:664
+msgid "Missing required query parameter course_id"
+msgstr "Paramètre de requête obligatoire manquant Identifiant du cours"
+
+#: templates/timed_exam/entrance.html:4
 #, python-format
 msgid ""
 "\n"
-"          %(platform_name)s Rules for Online Proctored Exams\n"
+"    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
+"    "
+msgstr ""
+"\n"
+"    %(exam_name)s est un examen chronométré (%(total_time)s)\n"
+"    "
+
+#: templates/timed_exam/entrance.html:21
+msgid ""
+"\n"
+"        I am ready to start this timed exam.\n"
 "      "
 msgstr ""
 "\n"
-"          %(platform_name)s Règles pour les examens en ligne surveillés\n"
+"        \n"
+"Je suis prêt à commencer cet examen chronométré.\n"
+"\n"
 "      "
+
+#: views.py:2164
+#, python-brace-format
+msgid "No proctored exams in course {course_id}"
+msgstr "Aucun examen surveillé dans le cours {course_id}"
+
+#: utils.py:87
+#, python-brace-format
+msgid "{num_of_hours} hour"
+msgstr "{num_of_hours} heure"
+
+#: utils.py:101
+#, python-brace-format
+msgid " and {num_of_minutes} minute"
+msgstr " et {num_of_minutes} minutes"
+
+#: templates/proctored_exam/ready_to_submit.html:15
+msgid "Yes, end my proctored exam"
+msgstr "Oui, je mets fin à mon examen surveillé"
+
+#: templates/proctored_exam/submitted.html:11
+msgid ""
+"If the proctoring software window is still open, close it now and confirm "
+"that you want to quit the application."
+msgstr ""
+"Si la fenêtre du logiciel de surveillance est toujours ouverte, fermez-la "
+"maintenant et confirmez que vous souhaitez quitter l'application."
+
+#: views.py:1758
+msgid "user_info"
+msgstr "Utilisateur information"
+
+#: views.py:1303
+msgid "you have less than a minute remaining"
+msgstr "il vous reste moins d'une minute"
+
+#: utils.py:98 utils.py:108
+#, python-brace-format
+msgid "{num_of_minutes} minutes"
+msgstr "{num_of_minutes} minutes"
+
+#: views.py:2158
+#, python-brace-format
+msgid "No exams in course {course_id}."
+msgstr "Aucun examen dans le cours {course_id}."
+
+#: templates/timed_exam/entrance.html:11
+msgid "To pass this exam, you must complete the problems in the time allowed."
+msgstr ""
+"Pour réussir cet examen, vous devez résoudre les exercices dans le temps "
+"imparti."
+
+#: utils.py:90
+#, python-brace-format
+msgid "{num_of_hours} hours"
+msgstr "{num_of_hours} heures"
 
 #: templates/proctored_exam/ready_to_start.html:41
 #, python-format
@@ -780,21 +948,102 @@ msgstr ""
 "%(exam_review_policy)s </br>\n"
 "      "
 
+#: templates/timed_exam/entrance.html:17
+msgid " to complete and submit the exam."
+msgstr " pour que vous puissiez compléter et soumettre l'examen."
+
+#: views.py:152
+msgid "could not determine the course_id"
+msgstr "impossible de déterminer l'identifiant du cours"
+
+#: views.py:694 views.py:875
+msgid "There is no onboarding exam related to this course id."
+msgstr "Il n’y a aucun examen d’intégration lié à cet identifiant du cours."
+
+#: views.py:1758
+msgid "Enter a valid username or email"
+msgstr "Entrez un nom d'utilisateur ou une adresse e-mail valide"
+
+#: templates/proctored_exam/submitted.html:9
+msgid "Your recorded data should now be uploaded for review."
+msgstr ""
+"Vos données enregistrées doivent maintenant être chargées pour examen."
+
+#: views.py:773
+#, python-brace-format
+msgid "No onboarding status API for {proctor_service}"
+msgstr "Aucune API de statut d'intégration pour {proctor_service}"
+
+#: templates/timed_exam/ready_to_submit.html:9
+msgid ""
+"\n"
+"      Make sure that you have selected \"Submit\" for each problem before you submit your exam.\n"
+"    "
+msgstr ""
+"\n"
+"      Assurez-vous d'avoir sélectionné « Soumettre » pour chaque exercice avant de soumettre votre examen.\n"
+"    "
+
+#: utils.py:342
+msgid "a proctored exam"
+msgstr "un examen surveillé"
+
+#: templates/proctored_exam/ready_to_submit.html:16
+msgid "Ending Exam"
+msgstr "Fin de l'examen"
+
+#: utils.py:348
+msgid "an onboarding exam"
+msgstr "un examen d'intégration"
+
+#: utils.py:106
+#, python-brace-format
+msgid " and {num_of_minutes} minutes"
+msgstr " et {num_of_minutes} minutes"
+
+#: utils.py:345
+msgid "a timed exam"
+msgstr "un examen chronométré"
+
+#: views.py:2191
+#, python-brace-format
+msgid "No instructor dashboard for {proctor_service}"
+msgstr "Pas de tableau de bord instructeur pour {proctor_service}"
+
+#: views.py:925
+msgid ""
+"The onboarding service is temporarily unavailable. Please try again later."
+msgstr ""
+"Le service d'intégration est temporairement indisponible. Veuillez réessayer"
+" plus tard."
+
+#: templates/timed_exam/entrance.html:17
+msgid "you will have "
+msgstr "vous aurez "
+
 #: templates/proctored_exam/ready_to_start.html:49
 msgid "Start my exam"
 msgstr "Commencer mon examen"
 
+#: templates/timed_exam/ready_to_submit.html:25
+msgid ""
+"\n"
+"        No, I want to continue working.\n"
+"      "
+msgstr ""
+"\n"
+"        \n"
+"Non, je veux continuer à travailler.\n"
+"\n"
+"      "
+
+#: templates/timed_exam/footer.html:3
+msgid "Can I request additional time to complete my exam?"
+msgstr "Puis-je demander un délai supplémentaire pour terminer mon examen ?"
+
 #: templates/proctored_exam/ready_to_start.html:50
 msgid "Starting Exam"
 msgstr "Début de l'examen"
-
-#: templates/proctored_exam/ready_to_submit.html:10
-msgid ""
-"Make sure that you have selected \"Submit\" for each answer before you "
-"submit your exam."
-msgstr ""
-"Assurez-vous d'avoir sélectionné « Soumettre » pour chaque réponse avant de "
-"soumettre votre examen."
 
 #: templates/proctored_exam/ready_to_submit.html:12
 msgid ""
@@ -805,46 +1054,22 @@ msgstr ""
 "», l'examen sera fermé et votre session de surveillance sera soumise pour "
 "révision."
 
-#: templates/proctored_exam/ready_to_submit.html:15
-msgid "Yes, end my proctored exam"
-msgstr "Oui, je mets fin à mon examen surveillé"
+#: views.py:723
+msgid "There is no onboarding exam accessible to this user."
+msgstr "Aucun examen d'intégration n’est accessible à cet utilisateur."
 
-#: templates/proctored_exam/ready_to_submit.html:16
-msgid "Ending Exam"
-msgstr "Fin de l'examen"
+#: utils.py:103
+#, python-brace-format
+msgid "{num_of_minutes} minute"
+msgstr "{num_of_minutes} minute"
 
-#: templates/proctored_exam/ready_to_submit.html:21
+#: templates/proctored_exam/ready_to_submit.html:10
 msgid ""
-"\n"
-"        No, I'd like to continue working\n"
-"      "
-msgstr ""
-"\n"
-"        \n"
-"Non, j'aimerais continuer à travailler\n"
-"\n"
-"      "
-
-#: templates/proctored_exam/submitted.html:9
-msgid "Your recorded data should now be uploaded for review."
-msgstr ""
-"Vos données enregistrées doivent maintenant être chargées pour examen."
-
-#: templates/proctored_exam/submitted.html:11
-msgid ""
-"If the proctoring software window is still open, close it now and confirm "
-"that you want to quit the application."
-msgstr ""
-"Si la fenêtre du logiciel de surveillance est toujours ouverte, fermez-la "
-"maintenant et confirmez que vous souhaitez quitter l'application."
-
-#: templates/proctored_exam/submitted.html:13
-msgid ""
-"Proctoring results are usually available within 5 business days after you "
+"Make sure that you have selected \"Submit\" for each answer before you "
 "submit your exam."
 msgstr ""
-"Les résultats de la surveillance sont généralement disponibles dans les 5 "
-"jours ouvrables après que vous soumettez votre examen."
+"Assurez-vous d'avoir sélectionné « Soumettre » pour chaque réponse avant de "
+"soumettre votre examen."
 
 #: templates/proctored_exam/visit_exam_content.html:5
 msgid ""
@@ -856,73 +1081,6 @@ msgstr ""
 "      ```\n"
 "Pour voir vos questions et réponses d'examen, sélectionnez <strong>Voir mon examen</strong>. L'état de revue de l'examen est affiché dans le volet de navigation de gauche.\n"
 "```\n"
-"    "
-
-#: templates/proctored_exam/visit_exam_content.html:11
-msgid "View my exam"
-msgstr "Voir mon examen"
-
-#: templates/timed_exam/entrance.html:4
-#, python-format
-msgid ""
-"\n"
-"    %(exam_name)s is a Timed Exam (%(total_time)s)\n"
-"    "
-msgstr ""
-"\n"
-"    %(exam_name)s est un examen chronométré (%(total_time)s)\n"
-"    "
-
-#: templates/timed_exam/entrance.html:9
-msgid "This exam has a time limit associated with it."
-msgstr "Cet examen est assorti d’une limite de temps."
-
-#: templates/timed_exam/entrance.html:11
-msgid "To pass this exam, you must complete the problems in the time allowed."
-msgstr ""
-"Pour réussir cet examen, vous devez résoudre les exercices dans le temps "
-"imparti."
-
-#: templates/timed_exam/entrance.html:13
-msgid "After you select "
-msgstr "Après avoir sélectionné "
-
-#: templates/timed_exam/entrance.html:15
-msgid "I am ready to start this timed exam,"
-msgstr "Je suis prêt à commencer cet examen chronométré,"
-
-#: templates/timed_exam/entrance.html:17
-msgid "you will have "
-msgstr "vous aurez "
-
-#: templates/timed_exam/entrance.html:17
-msgid " to complete and submit the exam."
-msgstr " pour que vous puissiez compléter et soumettre l'examen."
-
-#: templates/timed_exam/entrance.html:21
-msgid ""
-"\n"
-"        I am ready to start this timed exam.\n"
-"      "
-msgstr ""
-"\n"
-"        \n"
-"Je suis prêt à commencer cet examen chronométré.\n"
-"\n"
-"      "
-
-#: templates/timed_exam/footer.html:3
-msgid "Can I request additional time to complete my exam?"
-msgstr "Puis-je demander un délai supplémentaire pour terminer mon examen ?"
-
-#: templates/timed_exam/ready_to_submit.html:9
-msgid ""
-"\n"
-"      Make sure that you have selected \"Submit\" for each problem before you submit your exam.\n"
-"    "
-msgstr ""
-"\n"
-"      Assurez-vous d'avoir sélectionné « Soumettre » pour chaque exercice avant de soumettre votre examen.\n"
 "    "
 
 #: templates/timed_exam/ready_to_submit.html:14
@@ -937,132 +1095,30 @@ msgstr ""
 "```\n"
 "    "
 
-#: templates/timed_exam/ready_to_submit.html:25
+#: templates/timed_exam/entrance.html:13
+msgid "After you select "
+msgstr "Après avoir sélectionné "
+
+#: templates/proctored_exam/ready_to_submit.html:21
 msgid ""
 "\n"
-"        No, I want to continue working.\n"
+"        No, I'd like to continue working\n"
 "      "
 msgstr ""
 "\n"
 "        \n"
-"Non, je veux continuer à travailler.\n"
+"Non, j'aimerais continuer à travailler\n"
 "\n"
 "      "
 
-#: utils.py:87
-#, python-brace-format
-msgid "{num_of_hours} hour"
-msgstr "{num_of_hours} heure"
-
-#: utils.py:90
-#, python-brace-format
-msgid "{num_of_hours} hours"
-msgstr "{num_of_hours} heures"
-
-#: utils.py:98 utils.py:108
-#, python-brace-format
-msgid "{num_of_minutes} minutes"
-msgstr "{num_of_minutes} minutes"
-
-#: utils.py:101
-#, python-brace-format
-msgid " and {num_of_minutes} minute"
-msgstr " et {num_of_minutes} minutes"
-
-#: utils.py:103
-#, python-brace-format
-msgid "{num_of_minutes} minute"
-msgstr "{num_of_minutes} minute"
-
-#: utils.py:106
-#, python-brace-format
-msgid " and {num_of_minutes} minutes"
-msgstr " et {num_of_minutes} minutes"
-
-#: utils.py:342
-msgid "a proctored exam"
-msgstr "un examen surveillé"
-
-#: utils.py:345
-msgid "a timed exam"
-msgstr "un examen chronométré"
-
-#: utils.py:348
-msgid "an onboarding exam"
-msgstr "un examen d'intégration"
-
-#: utils.py:350
-msgid "a practice exam"
-msgstr "un examen pratique"
-
-#: views.py:152
-msgid "could not determine the course_id"
-msgstr "impossible de déterminer l'identifiant du cours"
-
-#: views.py:161 views.py:676
-msgid "Must be a Staff User to Perform this request."
-msgstr ""
-"Vous devez être un Utilisateur du personnel pour effectuer cette demande."
-
-#: views.py:664
-msgid "Missing required query parameter course_id"
-msgstr "Paramètre de requête obligatoire manquant Identifiant du cours"
-
-#: views.py:694 views.py:875
-msgid "There is no onboarding exam related to this course id."
-msgstr "Il n’y a aucun examen d’intégration lié à cet identifiant du cours."
-
-#: views.py:723
-msgid "There is no onboarding exam accessible to this user."
-msgstr "Aucun examen d'intégration n’est accessible à cet utilisateur."
-
-#: views.py:773
-#, python-brace-format
-msgid "No onboarding status API for {proctor_service}"
-msgstr "Aucune API de statut d'intégration pour {proctor_service}"
-
-#: views.py:925
+#: templates/proctored_exam/ready_to_start.html:5
 msgid ""
-"The onboarding service is temporarily unavailable. Please try again later."
+"\n"
+"      Important\n"
+"    "
 msgstr ""
-"Le service d'intégration est temporairement indisponible. Veuillez réessayer"
-" plus tard."
-
-#: views.py:1303
-msgid "you have less than a minute remaining"
-msgstr "il vous reste moins d'une minute"
-
-#: views.py:1758
-msgid "Enter a valid username or email"
-msgstr "Entrez un nom d'utilisateur ou une adresse e-mail valide"
-
-#: views.py:1758
-msgid "user_info"
-msgstr "Utilisateur information"
-
-#: views.py:1771
-msgid "Enter a valid positive value number"
-msgstr "Entrez un nombre de valeur positive valide"
-
-#: views.py:1771
-msgid "allowance_value"
-msgstr "allocation_value"
-
-#: views.py:1858
-msgid "Cannot update attempt review status"
-msgstr "Impossible de mettre à jour l'état d'examen de la tentative"
-
-#: views.py:2158
-#, python-brace-format
-msgid "No exams in course {course_id}."
-msgstr "Aucun examen dans le cours {course_id}."
-
-#: views.py:2164
-#, python-brace-format
-msgid "No proctored exams in course {course_id}"
-msgstr "Aucun examen surveillé dans le cours {course_id}"
-
-#: views.py:2191
-#, python-brace-format
-msgid "No instructor dashboard for {proctor_service}"
-msgstr "Pas de tableau de bord instructeur pour {proctor_service}"
+"\n"
+"      \n"
+"Important\n"
+"\n"
+"    "

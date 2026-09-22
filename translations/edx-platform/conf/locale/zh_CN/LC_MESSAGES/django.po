@@ -4,8 +4,6 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Cecilia Liu, 2024
-# Eden Huthmacher, 2026
 # Brian Smith, 2026
 # 
 msgid ""
@@ -13,7 +11,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -13161,166 +13159,3 @@ msgstr "指定是否默认就显示字幕。"
 #: xmodule/video_block/video_xfields.py:123
 msgid "Show Transcript"
 msgstr "显示字幕"
-
-#: xmodule/video_block/video_xfields.py:129
-msgid ""
-"Add transcripts in different languages. Click below to specify a language "
-"and upload an .srt transcript file for that language."
-msgstr "添加不同语言的字幕。单击下方以指定语言并上传该语言对应的 .srt 字幕文件。"
-
-#: xmodule/video_block/video_xfields.py:131
-msgid "Transcript Languages"
-msgstr "字幕语言"
-
-#: xmodule/video_block/video_xfields.py:136
-msgid "Preferred language for transcript."
-msgstr "首选的字幕语言。"
-
-#: xmodule/video_block/video_xfields.py:137
-msgid "Preferred language for transcript"
-msgstr "首选的字幕语言"
-
-#: xmodule/video_block/video_xfields.py:142
-msgid "Transcript file format to download by user."
-msgstr "用户下载的字幕文件格式。"
-
-#. Translators: This is a type of file used for captioning in the video
-#. player.
-#: xmodule/video_block/video_xfields.py:146
-msgid "SubRip (.srt) file"
-msgstr "字幕 (.srt) 文件"
-
-#: xmodule/video_block/video_xfields.py:147
-msgid "Text (.txt) file"
-msgstr "文本 (.txt) 文件"
-
-#: xmodule/video_block/video_xfields.py:152
-msgid "The last speed that the user specified for the video."
-msgstr "该视频上一次用户指定的速度。"
-
-#: xmodule/video_block/video_xfields.py:156
-msgid "The default speed for the video."
-msgstr "该视频的默认速度。"
-
-#: xmodule/video_block/video_xfields.py:161
-msgid ""
-"Specify whether to advance automatically to the next unit when the video "
-"ends."
-msgstr "设置是否在该视频结束后自动播放下一单元的视频"
-
-#: xmodule/video_block/video_xfields.py:170
-msgid "Specify whether YouTube is available for the user."
-msgstr "指定 YouTube 是否对用户可用。"
-
-#: xmodule/video_block/video_xfields.py:175
-msgid ""
-"Upload a handout to accompany this video. Students can download the handout "
-"by clicking Download Handout under the video."
-msgstr "上传与该视频相关的讲义。学生可以单击视频下方的“下载讲义”按钮来下载该讲义。"
-
-#: xmodule/video_block/video_xfields.py:177
-msgid "Upload Handout"
-msgstr "上传讲义"
-
-#: xmodule/video_block/video_xfields.py:182
-msgid ""
-"Specify whether access to this video is limited to browsers only, or if it "
-"can be accessed from other applications including mobile apps."
-msgstr "指定是否限制为只有浏览器才能访问该视频，或可以再其他应用上访问，包括移动应用。"
-
-#: xmodule/video_block/video_xfields.py:185
-msgid "Video Available on Web Only"
-msgstr "视频只在网页板提供"
-
-#: xmodule/video_block/video_xfields.py:190
-msgid ""
-"If you were assigned a Video ID by edX for the video to play in this "
-"component, enter the ID here. In this case, do not enter values in the "
-"Default Video URL, the Video File URLs, and the YouTube ID fields. If you "
-"were not assigned a Video ID, enter values in those other fields and ignore "
-"this field."
-msgstr ""
-"如果您上传的视频分配了一个ID，请在此输入您的视频ID。请注意，如果您有被分配视频ID请不要输入默认视频ID，视频文件ID以及YouTube视频ID。如果您没有被分配ID请输入上述描述部分，这部分请不要填写。"
-
-#: xmodule/video_block/video_xfields.py:199
-msgid "Date of the last view of the bumper"
-msgstr "最近浏览片头的日期"
-
-#: xmodule/video_block/video_xfields.py:203
-msgid "Do not show bumper again"
-msgstr "不重复显示片头"
-
-#: xmodule/video_block/video_xfields.py:208
-msgid "Specify whether the video can be accessed publicly by learners."
-msgstr "指定学习者是否可以在公共环境下访问视频。"
-
-#: xmodule/video_block/video_xfields.py:209
-msgid "Public Access"
-msgstr "公共访问"
-
-#: xmodule/video_block/video_xfields.py:216
-msgid "Add a specific thumbnail for learners to see before playing the video."
-msgstr "添加特定的缩略图供学习者在播放视频之前查看。"
-
-#: xmodule/video_block/video_xfields.py:217
-msgid "Thumbnail"
-msgstr "缩略图"
-
-#: xmodule/word_cloud_block.py:69
-msgid "Instructions"
-msgstr "说明"
-
-#: xmodule/word_cloud_block.py:70
-msgid ""
-"Add instructions to help learners understand how to use the word cloud. "
-"Clear instructions are important, especially for learners who have "
-"accessibility requirements."
-msgstr "添加指引帮助学员了解词语云盘的使用方法，清晰的指引对有访问要求的学员特别重要。"
-
-#: xmodule/word_cloud_block.py:74
-msgid "Inputs"
-msgstr "投入"
-
-#: xmodule/word_cloud_block.py:75
-msgid ""
-"The number of text boxes available for learners to add words and sentences."
-msgstr "学员可用输入框的数量，添加文字与句子。"
-
-#: xmodule/word_cloud_block.py:81
-msgid "Maximum Words"
-msgstr "字数上限"
-
-#: xmodule/word_cloud_block.py:82
-msgid "The maximum number of words displayed in the generated word cloud."
-msgstr "能在生成的词汇云盘中显示的最大词汇数。"
-
-#: xmodule/word_cloud_block.py:88
-msgid "Show Percents"
-msgstr "显示百分比"
-
-#: xmodule/word_cloud_block.py:89
-msgid "Statistics are shown for entered words near that word."
-msgstr "展示了临近那个单词输入的单词的统计信息。"
-
-#: xmodule/word_cloud_block.py:96
-msgid "Whether this learner has posted words to the cloud."
-msgstr "此学员是否在云盘中发布过词汇"
-
-#: xmodule/word_cloud_block.py:101
-msgid "Student answer."
-msgstr "学生答案"
-
-#: xmodule/word_cloud_block.py:106
-msgid "All possible words from all learners."
-msgstr "所有学员发布的所有词汇"
-
-#: xmodule/word_cloud_block.py:110
-msgid "Top num_top_words words for word cloud."
-msgstr "词云中的最热门词汇"
-
-#: xmodule/x_module.py:717
-#, python-brace-format
-msgid ""
-"{display_name} is only accessible to enrolled learners. Sign in or register,"
-" and enroll in this course to view it."
-msgstr "{display_name} 仅供注册的学员使用。 登录或注册，并注册此课程以查看它。"

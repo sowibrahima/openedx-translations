@@ -2,30 +2,31 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2023
-# 
+# Brian Smith, 2026
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-09 00:36+0000\n"
-"PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2023\n"
+"POT-Creation-Date: 2026-04-30 00:59+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
+"Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: api.py:125
 msgid ""
 "The CSV does not match this problem. Check that you uploaded the right CSV."
 msgstr ""
-"Le fichier CSV ne correspond pas à ce problème. Vérifiez que vous avez téléversé le bon fichier CSV."
+"Le fichier CSV ne correspond pas à ce problème. Vérifiez que vous avez "
+"téléversé le bon fichier CSV."
 
 #: api.py:130
 msgid "Points must be numbers."

@@ -11,11 +11,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
-# Transifex Bot <>, 2025
-# Gerardo Núñez, 2026
-# Kaori Myatt <kaorimyatt@gmail.com>, 2026
 # Brian Smith, 2026
-# Eden Huthmacher, 2026
 # 
 #, fuzzy
 msgid ""
@@ -23,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-02-08 00:54+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Eden Huthmacher, 2026\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Japanese (https://app.transifex.com/open-edx/teams/6205/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -4864,6 +4860,13 @@ msgstr "ミュート解除"
 msgid "Exit full browser"
 msgstr "全画面表示を終了"
 
+#: xmodule/assets/video/public/js/00_i18n.js:15
+#: xmodule/assets/video/public/js/04_video_full_screen.js:5
+#: xmodule/assets/video/public/js/04_video_full_screen.js:7
+#: xmodule/assets/video/public/js/04_video_full_screen.js:199
+msgid "Fill browser"
+msgstr "ブラウザを埋める"
+
 #: xmodule/assets/video/public/js/00_i18n.js:16
 #: xmodule/assets/video/public/js/08_video_speed_control.js:43
 msgid "Speed"
@@ -4899,6 +4902,11 @@ msgstr "低い"
 #: xmodule/assets/video/public/js/00_i18n.js:26
 msgid "Average"
 msgstr "平均"
+
+#. Translators: Volume level in range ]60,80]%
+#: xmodule/assets/video/public/js/00_i18n.js:28
+msgid "Loud"
+msgstr "大きい音"
 
 #. Translators: Volume level in range ]80,99]%
 #: xmodule/assets/video/public/js/00_i18n.js:30
@@ -5366,6 +5374,12 @@ msgstr "セル"
 #: xmodule/js/src/html/edit.js:355
 msgid "Center"
 msgstr "センター"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: xmodule/js/src/html/edit.js:360
+msgid "Circle"
+msgstr "円形"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -6043,6 +6057,12 @@ msgstr "リンクを削除"
 #: xmodule/js/src/html/edit.js:965 xmodule/js/src/html/edit.js:970
 msgid "Replace all"
 msgstr "すべて置換"
+
+#. Translators: this is a message from the raw HTML editor displayed in the
+#. browser when a user needs to edit HTML
+#: xmodule/js/src/html/edit.js:975
+msgid "Replace with"
+msgstr "置換先"
 
 #. #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -6731,6 +6751,10 @@ msgstr "セクションを非表示にしてリンクからアクセスできる
 msgid "Show entire subsection"
 msgstr "サブセクション全体を表示"
 
+#: cms/templates/js/content-visibility-editor.underscore:15
+msgid "Learners see the published subsection and can access its content."
+msgstr "学習者は公開されたサブセクションを見て、その内容にアクセスできます。"
+
 #: cms/templates/js/content-visibility-editor.underscore:19
 msgid "Hide content after course end date"
 msgstr "コース終了日後にコンテンツを非表示にする"
@@ -7078,6 +7102,10 @@ msgstr "組織の情報を更新するには、設定を更新を押してくだ
 msgid "Press discard changes to discard changes."
 msgstr "変更を破棄するには、変更を破棄してください。"
 
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr "コースビデオ設定を更新するには、「設定を更新」を押してください。"
+
 #: cms/templates/js/course-video-settings.underscore:7
 msgid "Press close to hide course video settings"
 msgstr "コースビデオ設定を非表示にするには閉じるを押してください"
@@ -7265,6 +7293,11 @@ msgstr "期限:"
 msgid "Due Time in UTC:"
 msgstr "提出期限（UTC）："
 
+#: cms/templates/js/due-date-editor.underscore:17
+#: cms/templates/js/due-date-editor.underscore:19
+msgid "Clear Grading Due Date"
+msgstr "採点期限をクリア"
+
 #: cms/templates/js/edit-chapter.underscore:3
 msgid "Chapter Name"
 msgstr "章の名前"
@@ -7273,6 +7306,10 @@ msgstr "章の名前"
 #, python-brace-format
 msgid "Chapter {order}"
 msgstr "第{order}章"
+
+#: cms/templates/js/edit-chapter.underscore:5
+msgid "provide the title/name of the chapter that will be used in navigating"
+msgstr "章のナビゲーションに使用するタイトル/名前を提供する"
 
 #: cms/templates/js/edit-chapter.underscore:9
 msgid "Chapter Asset"
@@ -7957,6 +7994,15 @@ msgstr ""
 msgid "Timed"
 msgstr "時間制限付き"
 
+#: cms/templates/js/timed-examination-preference-editor.underscore:31
+msgid ""
+"Use a timed exam to limit the time learners can spend on problems in this "
+"subsection. Learners must submit answers before the time expires. You can "
+"allow additional time for individual learners through the Instructor "
+"Dashboard."
+msgstr ""
+"学習者がこのサブセクションの問題に費やす時間を制限するために、時間制限付きの試験を使用します。学習者は、時間が切れる前に回答を提出しなければなりません。インストラクターダッシュボードを通じて、個々の学習者に追加の時間を許可することができます。"
+
 #: cms/templates/js/timed-examination-preference-editor.underscore:38
 msgid "Proctored"
 msgstr "監督付き"
@@ -8098,6 +8144,10 @@ msgstr "検証チェックポイント"
 #: cms/templates/js/verification-access-editor.underscore:19
 msgid "Must complete verification checkpoint"
 msgstr "検証チェックポイントを完了する必要があります"
+
+#: cms/templates/js/verification-access-editor.underscore:23
+msgid "Verification checkpoint to be completed"
+msgstr "検証チェックポイントを完了すること"
 
 #: cms/templates/js/verification-access-editor.underscore:38
 msgid ""
@@ -8323,6 +8373,11 @@ msgstr "ズームイン"
 msgid "Zoom Out"
 msgstr "ズームアウト"
 
+#: common/static/common/templates/components/paging-footer.underscore:6
+#, python-format
+msgid "Page number out of %(total_pages)s"
+msgstr "ページ番号 / %(total_pages)s"
+
 #: common/static/common/templates/components/paging-footer.underscore:11
 msgid "Enter the page number you'd like to quickly navigate to."
 msgstr "移動したいページ番号を入力してください。"
@@ -8445,6 +8500,11 @@ msgstr "%(user)s により %(time_ago)s に回答としてマークされまし�
 msgid "marked as answer %(time_ago)s"
 msgstr "回答としてマークされました %(time_ago)s"
 
+#: common/static/common/templates/discussion/templates.underscore:199
+#, python-format
+msgid "endorsed %(time_ago)s by %(user)s"
+msgstr "%(user)s により %(time_ago)s に承認されました"
+
 #: common/static/common/templates/discussion/templates.underscore:203
 #, python-format
 msgid "endorsed %(time_ago)s"
@@ -8457,6 +8517,11 @@ msgstr "応答を編集"
 #: common/static/common/templates/discussion/templates.underscore:245
 msgid "Update response"
 msgstr "応答を更新"
+
+#: common/static/common/templates/discussion/templates.underscore:275
+#, python-format
+msgid "posted %(time_ago)s by %(author)s"
+msgstr "%(time_ago)sに%(author)sが投稿しました"
 
 #: common/static/common/templates/discussion/templates.underscore:289
 msgid "Editing comment"
@@ -10171,403 +10236,3 @@ msgid ""
 "What if I have difficulty holding my head in position relative to the "
 "camera?"
 msgstr "カメラに対して頭の位置を保つのが難しい場合はどうすればいいですか？"
-
-#: lms/templates/verify_student/face_photo_step.underscore:62
-#: lms/templates/verify_student/id_photo_step.underscore:57
-#: lms/templates/verify_student/incourse_reverify.underscore:53
-#, python-format
-msgid ""
-"If you require assistance with taking either photo for submission, contact "
-"%(platformName)s support for additional suggestions."
-msgstr "提出用の写真撮影に関してサポートが必要な場合は、追加の提案を得るために%(platformName)sサポートに連絡してください。"
-
-#: lms/templates/verify_student/face_photo_step.underscore:77
-#: lms/templates/verify_student/id_photo_step.underscore:69
-#: lms/templates/verify_student/intro_step.underscore:80
-#, python-format
-msgid "Next: %(nextStepTitle)s"
-msgstr "次へ: %(nextStepTitle)s"
-
-#: lms/templates/verify_student/id_photo_step.underscore:3
-msgid "Take a Photo of Your ID"
-msgstr "あなたのIDの写真を撮る"
-
-#: lms/templates/verify_student/id_photo_step.underscore:5
-msgid "Use your webcam to take a photo of your ID."
-msgstr "ウェブカメラを使って身分証明書の写真を撮影してください。"
-
-#: lms/templates/verify_student/id_photo_step.underscore:13
-msgid ""
-"You need an ID with your name and photo. A driver's license, passport, or ID"
-" are all acceptable."
-msgstr "あなたの名前と写真が入ったIDが必要です。運転免許証、パスポート、またはIDがすべて受け付けられます。"
-
-#: lms/templates/verify_student/id_photo_step.underscore:15
-#: lms/templates/verify_student/incourse_reverify.underscore:13
-msgid "Tips on taking a successful photo"
-msgstr "写真をうまく撮るためのヒント"
-
-#: lms/templates/verify_student/id_photo_step.underscore:19
-msgid "Ensure that you can see your photo and read your name"
-msgstr "自分の写真が見えて、名前が読めることを確認してください。"
-
-#: lms/templates/verify_student/id_photo_step.underscore:20
-msgid "Make sure your ID is well-lit"
-msgstr "IDが明るく照らされていることを確認してください"
-
-#: lms/templates/verify_student/id_photo_step.underscore:22
-#, python-brace-format
-msgid "Once in position, use the Take Photo button {icon} to capture your ID"
-msgstr "位置が決まったら、「写真を撮る」ボタン {icon} を使ってIDを撮影してください。"
-
-#: lms/templates/verify_student/id_photo_step.underscore:24
-#: lms/templates/verify_student/incourse_reverify.underscore:23
-msgid "Use the Retake Photo button if you are not pleased with your photo"
-msgstr "写真に満足していない場合は、「写真を撮り直す」ボタンを使用してください。"
-
-#: lms/templates/verify_student/id_photo_step.underscore:38
-msgid ""
-"As part of the verification process, you take a photo of both your face and "
-"a photo ID. Our authorization service confirms your identity by comparing "
-"the photo you take with the photo on your ID."
-msgstr ""
-"確認プロセスの一環として、顔写真と身分証明書の写真を撮影します。認証サービスは、撮影した写真と身分証明書の写真を比較して、本人確認を行います。"
-
-#: lms/templates/verify_student/id_photo_step.underscore:50
-msgid ""
-"You may be able to complete the image capture procedure without assistance, "
-"but it may take a couple of submission attempts to get the camera "
-"positioning right.  Optimal camera positioning varies with each computer, "
-"but generally, the best position for a photo of an ID card is 8-12 inches "
-"(20-30 centimeters) from the camera, with the ID card centered relative to "
-"the camera. "
-msgstr ""
-"画像キャプチャ手順は補助なしで完了できるかもしれませんが、カメラの位置を正しくするために数回の提出が必要になることがあります。最適なカメラの位置はコンピュータによって異なりますが、一般的にIDカードの写真を撮る際のベストな位置は、カメラから8〜12インチ（20〜30センチメートル）離れ、IDカードがカメラに対して中央に配置されていることです。"
-" "
-
-#: lms/templates/verify_student/id_photo_step.underscore:54
-msgid ""
-"What if I have difficulty holding my ID in position relative to the camera?"
-msgstr "カメラに対してIDをうまく保持できない場合はどうすればいいですか？"
-
-#: lms/templates/verify_student/image_input.underscore:1
-msgid "Preview of uploaded image"
-msgstr "アップロードされた画像のプレビュー"
-
-#: lms/templates/verify_student/image_input.underscore:3
-msgid "Upload an image or capture one with your web or phone camera."
-msgstr "画像をアップロードするか、ウェブカメラまたは携帯電話のカメラで撮影してください。"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:5
-msgid ""
-"Use your webcam to take a photo of your face. We will match this photo with "
-"the photo on your ID."
-msgstr "ウェブカメラを使って顔写真を撮影してください。この写真をIDの写真と照合します。"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:17
-msgid "Make sure your face is well-lit"
-msgstr "顔がよく照らされていることを確認してください"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:18
-msgid "Be sure your entire face is inside the frame"
-msgstr "顔全体が枠内に収まるようにしてください"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:20
-#, python-brace-format
-msgid ""
-"Once in position, use the Take Photo button {icon} to capture your photo"
-msgstr "位置が決まったら、「写真を撮る」ボタン {icon} を使って写真を撮影してください。"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:22
-msgid "Can we match the photo you took with the one on your ID?"
-msgstr "撮影した写真をIDの写真と照合できますか？"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:35
-msgid ""
-"As part of the verification process, you take a photo of both your face and "
-"a government-issued photo ID. Our authorization service confirms your "
-"identity by comparing the photo you take with the photo on your ID."
-msgstr ""
-"検証プロセスの一環として、顔写真と政府発行の写真付き身分証明書の両方を撮影します。認証サービスは、撮影した写真と身分証明書の写真を比較することで、あなたの身元を確認します。"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:40
-#, python-format
-msgid ""
-"We use the highest levels of security available to encrypt your photo and "
-"send it to our authorization service for review. Your photo and information "
-"are not saved or visible anywhere on %(platformName)s after the verification"
-" process is complete."
-msgstr ""
-"私たちは、利用可能な最高レベルのセキュリティを使用してあなたの写真を暗号化し、承認サービスに送信してレビューを行います。確認プロセスが完了した後、あなたの写真や情報は%(platformName)sのどこにも保存されず、表示されることはありません。"
-
-#: lms/templates/verify_student/intro_step.underscore:6
-#, python-brace-format
-msgid "Thanks for returning to verify your ID in: {courseName}"
-msgstr "{courseName}におけるID確認のために戻っていただきありがとうございます。"
-
-#: lms/templates/verify_student/intro_step.underscore:19
-msgid ""
-"You need to activate your account before you can enroll in courses. Check "
-"your inbox for an activation email. After you complete activation you can "
-"return and refresh this page."
-msgstr ""
-"アカウントを有効化する必要があります。コースに登録する前に、受信トレイで有効化メールを確認してください。有効化が完了したら、このページに戻って更新できます。"
-
-#: lms/templates/verify_student/intro_step.underscore:31
-msgid "Activate Your Account"
-msgstr "アカウントを有効化する"
-
-#: lms/templates/verify_student/intro_step.underscore:45
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
-msgid "Photo ID"
-msgstr "写真付き身分証明書"
-
-#: lms/templates/verify_student/intro_step.underscore:53
-msgid ""
-"A driver's license, passport, or other government-issued ID with your name "
-"and photo"
-msgstr "運転免許証、パスポート、または氏名と写真が記載されたその他の政府発行のID"
-
-#: lms/templates/verify_student/intro_step.underscore:61
-#: lms/templates/verify_student/make_payment_step.underscore:77
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:105
-msgid "Webcam"
-msgstr "ウェブカメラ"
-
-#: lms/templates/verify_student/make_payment_step.underscore:26
-msgid ""
-"You can now enter your payment information and complete your enrollment."
-msgstr "お支払い情報を入力し、登録を完了することができます。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:37
-#, python-brace-format
-msgid ""
-"You can pay now even if you don't have the following items available, but "
-"you will need to have these by {date} to qualify to earn a Verified "
-"Certificate."
-msgstr "必要な項目がなくても今すぐ支払うことができますが、認証済み証明書を取得するためには{date}までにこれらを用意する必要があります。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:44
-#, python-brace-format
-msgid ""
-"An email has been sent to {userEmail} with a link for you to activate your "
-"account."
-msgstr "{userEmail}にアカウントを有効化するためのリンクが記載されたメールが送信されました。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:48
-msgid "Why activate?"
-msgstr "なぜアクティベートするのか？"
-
-#: lms/templates/verify_student/make_payment_step.underscore:50
-msgid ""
-"We ask you to activate your account to ensure it is really you creating the "
-"account and to prevent fraud."
-msgstr "アカウントを有効化していただくことで、アカウントを作成しているのが本当にご本人であることを確認し、不正行為を防止します。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:53
-msgid ""
-"You can pay now even if you don't have the following items available, but "
-"you will need to have these to qualify to earn a Verified Certificate."
-msgstr "必要な項目が揃っていなくても今すぐ支払うことはできますが、認定証を取得するためにはこれらが必要です。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:65
-msgid "Government-Issued Photo ID"
-msgstr "政府発行の写真付き身分証明書"
-
-#: lms/templates/verify_student/make_payment_step.underscore:92
-msgid ""
-"ID-Verification is not required for this Professional Education course."
-msgstr "このプロフェッショナル教育コースにはID認証は必要ありません。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:93
-msgid ""
-"All professional education courses are fee-based, and require payment to "
-"complete the enrollment process."
-msgstr "すべての専門教育コースは有料であり、登録手続きを完了するには支払いが必要です。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:97
-msgid "You have already verified your ID!"
-msgstr "すでにIDが確認されています！"
-
-#: lms/templates/verify_student/make_payment_step.underscore:100
-#, python-brace-format
-msgid "Your verification status is good until {verificationGoodUntil}."
-msgstr "あなたの認証ステータスは{verificationGoodUntil}まで有効です。"
-
-#: lms/templates/verify_student/make_payment_step.underscore:112
-msgid "price"
-msgstr "価格"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
-msgid "Account Not Activated"
-msgstr "アカウントが有効化されていません"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
-#, python-brace-format
-msgid "Upgrade to a Verified Certificate for {courseName}"
-msgstr "{courseName}の認定証にアップグレードする"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
-msgid ""
-"Before you upgrade to a certificate track, you must activate your account."
-msgstr "証明書トラックにアップグレードする前に、アカウントを有効化する必要があります。"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
-msgid "Check your email for an activation message."
-msgstr "メールを確認して、アクティベーションメッセージを探してください。"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:40
-msgid "Total"
-msgstr "合計"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
-#, python-brace-format
-msgid "Professional Certificate for {courseName}"
-msgstr "{courseName}のプロフェッショナル認定証"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
-#, python-brace-format
-msgid "Verified Certificate for {courseName}"
-msgstr "{courseName} の認定証明書"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
-#, python-brace-format
-msgid ""
-"To receive a certificate, you must also verify your identity before {date}."
-msgstr "証明書を受け取るには、{date} までに本人確認を行う必要があります。"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
-msgid "To receive a certificate, you must also verify your identity."
-msgstr "証明書を受け取るには、本人確認も行う必要があります。"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
-msgid ""
-"To verify your identity, you need a webcam and a government-issued photo ID."
-msgstr "あなたの身元を確認するには、ウェブカメラと政府発行の写真付き身分証明書が必要です。"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
-msgid ""
-"Your ID must be a government-issued photo ID that clearly shows your face."
-msgstr "あなたのIDは、顔がはっきりと写っている政府発行の写真付きIDでなければなりません。"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
-msgid ""
-"You will use your webcam to take a picture of your face and of your "
-"government-issued photo ID."
-msgstr "ウェブカメラを使用して、自分の顔と政府発行の写真付き身分証明書の写真を撮影します。"
-
-#: lms/templates/verify_student/reverify_success_step.underscore:2
-msgid "Identity Verification In Progress"
-msgstr "本人確認を進行中"
-
-#: lms/templates/verify_student/reverify_success_step.underscore:5
-msgid ""
-"We have received your information and are verifying your identity. You will "
-"see a message on your dashboard when the verification process is complete "
-"(usually within 5-7 days). In the meantime, you can still access all "
-"available course content."
-msgstr ""
-"私たちはあなたの情報を受け取り、身元を確認しています。確認プロセスが完了すると（通常5〜7日以内）、ダッシュボードにメッセージが表示されます。その間も、すべての利用可能なコースコンテンツにアクセスできます。"
-
-#: lms/templates/verify_student/reverify_success_step.underscore:9
-msgid "Return to Your Dashboard"
-msgstr "ダッシュボードに戻る"
-
-#: lms/templates/verify_student/review_photos_step.underscore:3
-msgid "Review Your Photos"
-msgstr "写真を確認する"
-
-#: lms/templates/verify_student/review_photos_step.underscore:5
-msgid ""
-"Make sure we can verify your identity with the photos and information you "
-"have provided."
-msgstr "あなたが提供した写真と情報で、私たちがあなたの身元を確認できるようにしてください。"
-
-#: lms/templates/verify_student/review_photos_step.underscore:13
-#, python-format
-msgid "Photo of %(fullName)s"
-msgstr "%(fullName)sの写真"
-
-#: lms/templates/verify_student/review_photos_step.underscore:18
-#, python-format
-msgid "Photo of %(fullName)s's ID"
-msgstr "%(fullName)sのIDの写真"
-
-#: lms/templates/verify_student/review_photos_step.underscore:25
-msgid "Photo requirements:"
-msgstr "写真の要件:"
-
-#: lms/templates/verify_student/review_photos_step.underscore:27
-msgid "Does the photo of you show your whole face?"
-msgstr "あなたの写真は顔全体が写っていますか？"
-
-#: lms/templates/verify_student/review_photos_step.underscore:28
-msgid "Is your name on your ID readable?"
-msgstr "あなたのIDの名前は読めますか？"
-
-#: lms/templates/verify_student/review_photos_step.underscore:29
-#, python-format
-msgid "Does the name on your ID match your account name: %(fullName)s?"
-msgstr "あなたのIDの名前は、アカウント名: %(fullName)s と一致していますか？"
-
-#: lms/templates/verify_student/review_photos_step.underscore:33
-msgid "Edit Your Name"
-msgstr "名前を編集"
-
-#: lms/templates/verify_student/review_photos_step.underscore:38
-msgid ""
-"Make sure that the full name on your account matches the name on your ID."
-msgstr "アカウントの氏名がIDの氏名と一致していることを確認してください。"
-
-#: lms/templates/verify_student/review_photos_step.underscore:50
-msgid "Photos don't meet the requirements?"
-msgstr "写真が要件を満たしていませんか？"
-
-#: lms/templates/verify_student/review_photos_step.underscore:52
-msgid "Retake Your Photos"
-msgstr "写真を撮り直す"
-
-#: lms/templates/verify_student/review_photos_step.underscore:63
-msgid "Before proceeding, please confirm that your details match"
-msgstr "先に進む前に、詳細が一致していることを確認してください。"
-
-#: lms/templates/verify_student/webcam_photo.underscore:4
-msgid ""
-"Don't see your picture? Make sure to allow your browser to use your camera "
-"when it asks for permission."
-msgstr "写真が見えませんか？ブラウザがカメラの使用を許可するように設定してください。"
-
-#: lms/templates/verify_student/webcam_photo.underscore:7
-msgid "Live view of webcam"
-msgstr "ウェブカメラのライブビュー"
-
-#: lms/templates/verify_student/webcam_photo.underscore:24
-msgid "Retake Photo"
-msgstr "写真を撮り直す"
-
-#: lms/templates/verify_student/webcam_photo.underscore:28
-msgid "Take Photo"
-msgstr "写真を撮る"
-
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
-msgid "You have not bookmarked any courseware pages yet"
-msgstr "まだコースウェアのページをブックマークしていません。"
-
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
-msgid ""
-"Use bookmarks to help you easily return to courseware pages. To bookmark a "
-"page, click \"Bookmark this page\" under the page title."
-msgstr ""
-"コースウェアのページに簡単に戻るためにブックマークを使用してください。ページをブックマークするには、ページタイトルの下にある「このページをブックマーク」をクリックしてください。"
-
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
-#, python-brace-format
-msgid "Load next {num_items} result"
-msgid_plural "Load next {num_items} results"
-msgstr[0] "次の{num_items}件を読み込む"
-
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
-msgid "Sorry, no results were found."
-msgstr "申し訳ありませんが、結果が見つかりませんでした。"

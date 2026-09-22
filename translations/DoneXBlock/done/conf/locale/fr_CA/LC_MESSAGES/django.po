@@ -1,25 +1,23 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
-# 
+# EdX Team <info@edx.org>, 2026.
+#
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2023
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2023
-# Brian Smith, 2023
-# 
+# Brian Smith, 2026
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-04-25 01:51+0000\n"
-"Last-Translator: Brian Smith, 2023\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
+"Language: fr_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_CA\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: done.py:39
@@ -86,24 +84,26 @@ msgid ""
 "component, and students can see in their progress page which portions are "
 "completed and  which still need to be watched or read."
 msgstr ""
-"C'est un composant très simple sans options de configuration. Il est "
-"utilisé pour aider l'apprenant à suivre la partie d'un cours qu'il a "
-"terminée. Par exemple, vous pouvez le placer sous chaque composant de texte et de vidéo, "
-"et les apprenants peuvent voir sur leur page de progression quelles parties sont "
-"terminées et lesquelles doivent encore être regardées ou lues."
+"C'est un composant très simple sans options de configuration. Il est utilisé"
+" pour aider l'apprenant à suivre la partie d'un cours qu'il a terminée. Par "
+"exemple, vous pouvez le placer sous chaque composant de texte et de vidéo, "
+"et les apprenants peuvent voir sur leur page de progression quelles parties "
+"sont terminées et lesquelles doivent encore être regardées ou lues."
 
 #: templates/studioview.html:6
 msgid ""
 "It is also helpful to give students a way to sign off on having completed "
 "something. They are less likely to skip material that way."
 msgstr ""
-"Il est également utile de donner aux apprenants un moyen de signifier qu'ils ont terminé "
-"quelque chose. Ils sont moins susceptibles de sauter du matériel de cette façon."
+"Il est également utile de donner aux apprenants un moyen de signifier qu'ils"
+" ont terminé quelque chose. Ils sont moins susceptibles de sauter du "
+"matériel de cette façon."
 
 #: templates/studioview.html:8
 msgid ""
 "(If you're a real power-user, in OLX, we do allow you to add an align tag, "
 "which can left-, center-, or right-justify the XBlock)"
 msgstr ""
-"(Si vous êtes un vrai utilisateur expérimenté, dans OLX, nous vous permettons d'ajouter une balise d'alignement, "
-"qui peut justifier à gauche, au centre ou à droite le XBlock)"
+"(Si vous êtes un vrai utilisateur expérimenté, dans OLX, nous vous "
+"permettons d'ajouter une balise d'alignement, qui peut justifier à gauche, "
+"au centre ou à droite le XBlock)"

@@ -1,20 +1,18 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# Yagnesh nayi, 2025
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Yagnesh nayi, 2025\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Hindi (https://app.transifex.com/open-edx/teams/6205/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -717,31 +715,31 @@ msgstr ""
 msgid "Course enrollment track"
 msgstr "पाठ्यक्रम नामांकन ट्रैक"
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
 msgid "Audit"
 msgstr "परीक्षण"
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
 msgid "Verified"
 msgstr "प्रमाणित"
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
 msgid "Professional Education"
 msgstr "व्यावसायिक शिक्षा"
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
 msgid "Professional Education (no ID)"
 msgstr "व्यावसायिक शिक्षा (कोई आईडी नहीं)"
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
 msgid "Credit"
 msgstr "श्रेय"
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
 msgid "Honor"
 msgstr "सम्मान"
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
 msgid "Unpaid Executive Education"
 msgstr "अवैतनिक कार्यकारी शिक्षा"
 
@@ -946,7 +944,7 @@ msgstr ""
 "इस एंटरप्राइज़ ग्राहक के लिए &quot;प्रामाणिक संगठन आईडी&quot; फ़ील्ड "
 "सफलतापूर्वक लिखा गया।"
 
-#: enterprise/api/utils.py:97
+#: enterprise/api/utils.py:357
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -957,7 +955,7 @@ msgstr ""
 " अतिरिक्त टिप्पणी:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:104
+#: enterprise/api/utils.py:364
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
@@ -966,7 +964,7 @@ msgstr ""
 "{token_email} से {token_enterprise_name} ने {token_number_codes} अतिरिक्त "
 "कोड का अनुरोध किया है। कृपया उन तक पहुंचें."
 
-#: enterprise/api/utils.py:110
+#: enterprise/api/utils.py:370
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -977,7 +975,7 @@ msgstr ""
 " अतिरिक्त टिप्पणी:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:116
+#: enterprise/api/utils.py:376
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
@@ -986,19 +984,19 @@ msgstr ""
 "{token_enterprise_name} से {token_email} ने अतिरिक्त कोड का अनुरोध किया है। "
 "कृपया उन तक पहुंचें."
 
-#: enterprise/api/v1/serializers.py:95
+#: enterprise/api/v1/serializers.py:96
 msgid "Total count of items."
 msgstr "वस्तुओं की कुल गिनती."
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch next page of items."
 msgstr "आइटमों का अगला पृष्ठ लाने के लिए URL।"
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:98
 msgid "URL to fetch previous page of items."
 msgstr "आइटमों का पिछला पृष्ठ लाने के लिए URL।"
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:99
 msgid "List of items."
 msgstr "सामान सूची।"
 
@@ -1089,6 +1087,32 @@ msgstr ""
 "ecommerce_api_client प्राप्त करने के लिए, इस पैकेज को ओपन edX वातावरण में "
 "स्थापित किया जाना चाहिए।"
 
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr ""
+"निर्दिष्ट करता है कि किस उपयोगकर्ता भूमिका असाइनमेंट को अद्यतन करना है। यदि "
+"अनिर्दिष्ट है, तो सभी भूमिकाओं के लिए अद्यतन किया जाएगा।"
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"अद्यतनों के प्रत्येक बैच में अद्यतन करने के लिए उपयोगकर्ता भूमिका असाइनमेंट "
+"की संख्या।"
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "भूमिका असाइनमेंट को एंटरप्राइज़ ग्राहक तक सीमित करना।"
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"यदि सेट किया गया है, तो कोई अद्यतन या निर्माण नहीं होगा; इसके बजाय उन "
+"असाइनमेंट पर पुनरावृति करेगा जिन्हें संशोधित या बनाया जाएगा"
+
 #: enterprise/constants.py:14
 #, python-brace-format
 msgid ""
@@ -1142,7 +1166,7 @@ msgstr ""
 "{privacy_policy_link_start} गोपनीयता नीति {privacy_policy_link_end} "
 "{enterprise_customer_name} से भिन्न है।"
 
-#: enterprise/constants.py:88
+#: enterprise/constants.py:92
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1154,7 +1178,7 @@ msgstr ""
 "माइक्रोमास्टर्स प्रोग्राम क्रेडिट-योग्य हैं, मांग के अनुसार ज्ञान प्रदान "
 "करते हैं और मास्टर डिग्री में तेजी लाने के लिए इसे लागू किया जा सकता है।"
 
-#: enterprise/constants.py:94
+#: enterprise/constants.py:98
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1166,7 +1190,7 @@ msgstr ""
 "विकसित करता है जिसे नियोक्ता विशेष प्रशिक्षण और व्यावसायिक शिक्षा के साथ "
 "तलाश रहे हैं।"
 
-#: enterprise/constants.py:100
+#: enterprise/constants.py:104
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1302,7 +1326,7 @@ msgstr "एंटरप्राइज़ ग्राहक प्रकार"
 msgid "Specifies enterprise customer type."
 msgstr "एंटरप्राइज़ ग्राहक प्रकार निर्दिष्ट करता है।"
 
-#: enterprise/models.py:215 enterprise/models.py:3404
+#: enterprise/models.py:215 enterprise/models.py:3405
 msgid "Enterprise Customer"
 msgstr "एंटरप्राइज़ ग्राहक"
 
@@ -1605,42 +1629,42 @@ msgstr "एंटरप्राइज़ ग्राहक शिक्षा�
 msgid "Enterprise Customer Learners"
 msgstr "एंटरप्राइज़ ग्राहक शिक्षार्थी"
 
-#: enterprise/models.py:1738
+#: enterprise/models.py:1739
 msgid "Logo images must be in .png format."
 msgstr "लोगो छवियाँ .png प्रारूप में होनी चाहिए।"
 
-#: enterprise/models.py:1765
+#: enterprise/models.py:1766
 msgid "Branding Configuration"
 msgstr "ब्रांडिंग कॉन्फ़िगरेशन"
 
-#: enterprise/models.py:1766
+#: enterprise/models.py:1767
 msgid "Branding Configurations"
 msgstr "ब्रांडिंग विन्यास"
 
-#: enterprise/models.py:1854
+#: enterprise/models.py:1855
 msgid "Specifies whether this is default provider for enterprise customer."
 msgstr ""
 "निर्दिष्ट करता है कि क्या यह एंटरप्राइज़ ग्राहक के लिए डिफ़ॉल्ट प्रदाता है।"
 
-#: enterprise/models.py:1939
+#: enterprise/models.py:1940
 msgid ""
 "The UUID of the course (not course run) in which the learner is entitled."
 msgstr ""
 "पाठ्यक्रम का यूयूआईडी (पाठ्यक्रम संचालित नहीं) जिसमें शिक्षार्थी हकदार है।"
 
-#: enterprise/models.py:1949
+#: enterprise/models.py:1950
 msgid "The enterprise learner to which this entitlement is attached."
 msgstr "वह उद्यम शिक्षार्थी जिससे यह पात्रता जुड़ी हुई है।"
 
-#: enterprise/models.py:2072
+#: enterprise/models.py:2073
 msgid "The enterprise learner to which this enrollment is attached."
 msgstr "वह उद्यम शिक्षार्थी जिससे यह नामांकन संलग्न है।"
 
-#: enterprise/models.py:2079
+#: enterprise/models.py:2080
 msgid "The ID of the course in which the learner was enrolled."
 msgstr "उस पाठ्यक्रम की आईडी जिसमें शिक्षार्थी नामांकित था।"
 
-#: enterprise/models.py:2086
+#: enterprise/models.py:2087
 msgid ""
 "Specifies whether a user marked this course as saved for later in the "
 "learner portal."
@@ -1648,7 +1672,7 @@ msgstr ""
 "निर्दिष्ट करता है कि क्या उपयोगकर्ता ने इस पाठ्यक्रम को शिक्षार्थी पोर्टल "
 "में बाद के लिए सहेजे गए के रूप में चिह्नित किया है।"
 
-#: enterprise/models.py:2102
+#: enterprise/models.py:2103
 msgid ""
 "Specifies whether the enterprise course enrollment's course enrollment "
 "object was unenrolled."
@@ -1656,7 +1680,7 @@ msgstr ""
 "निर्दिष्ट करता है कि क्या एंटरप्राइज़ पाठ्यक्रम नामांकन का पाठ्यक्रम नामांकन"
 " ऑब्जेक्ट अनामांकित था।"
 
-#: enterprise/models.py:2112
+#: enterprise/models.py:2113
 msgid ""
 "Specifies when an enterprise course enrollment's course enrollment object "
 "was unenrolled."
@@ -1664,15 +1688,15 @@ msgstr ""
 "निर्दिष्ट करता है कि किसी एंटरप्राइज़ पाठ्यक्रम नामांकन के पाठ्यक्रम नामांकन"
 " ऑब्जेक्ट का नामांकन कब रद्द किया गया था।"
 
-#: enterprise/models.py:2370
+#: enterprise/models.py:2371
 msgid "The course entitlement the associated subsidy is for."
 msgstr "संबंधित सब्सिडी पाठ्यक्रम के लिए पात्र है।"
 
-#: enterprise/models.py:2381
+#: enterprise/models.py:2382
 msgid "The course enrollment the associated subsidy is for."
 msgstr "संबंधित सब्सिडी पाठ्यक्रम में नामांकन के लिए है।"
 
-#: enterprise/models.py:2388
+#: enterprise/models.py:2389
 msgid ""
 "Whether the enterprise subsidy is revoked, e.g., when a user's license is "
 "revoked."
@@ -1680,15 +1704,15 @@ msgstr ""
 "क्या उद्यम सब्सिडी रद्द कर दी गई है, उदाहरण के लिए, जब उपयोगकर्ता का लाइसेंस"
 " रद्द कर दिया जाता है।"
 
-#: enterprise/models.py:2549
+#: enterprise/models.py:2550
 msgid "The customer for which this default enrollment will be realized."
 msgstr "वह ग्राहक जिसके लिए यह डिफ़ॉल्ट नामांकन लागू किया जाएगा।"
 
-#: enterprise/models.py:2558
+#: enterprise/models.py:2559
 msgid "The type of content (e.g. a course vs. a course run)."
 msgstr "सामग्री का प्रकार (जैसे पाठ्यक्रम बनाम चलाया जाने वाला पाठ्यक्रम)।"
 
-#: enterprise/models.py:2566
+#: enterprise/models.py:2567
 msgid ""
 "A course or course run that related users should be automatically enrolled "
 "into."
@@ -1696,7 +1720,7 @@ msgstr ""
 "एक पाठ्यक्रम या पाठ्यक्रम चलाना जिसमें संबंधित उपयोगकर्ताओं को स्वचालित रूप "
 "से नामांकित किया जाना चाहिए।"
 
-#: enterprise/models.py:2738
+#: enterprise/models.py:2739
 #, python-brace-format
 msgid ""
 "A default enrollment intention with this enterprise customer and content key"
@@ -1707,11 +1731,11 @@ msgstr ""
 " से मौजूद है, लेकिन इसे सॉफ़्ट-डिलीट कर दिया गया है। कृपया इसे <a "
 "href=\"{existing_record_admin_url}\">यहाँ</a> पुनर्स्थापित करें।"
 
-#: enterprise/models.py:2753
+#: enterprise/models.py:2754
 msgid "The content key did not resolve to a valid course run."
 msgstr "सामग्री कुंजी वैध पाठ्यक्रम चलाने के लिए हल नहीं हुई।"
 
-#: enterprise/models.py:2821
+#: enterprise/models.py:2822
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a JSON object. An empty JSON "
@@ -1723,7 +1747,7 @@ msgstr ""
 "है। खाली JSON ऑब्जेक्ट का मतलब है कि सभी उपलब्ध सामग्री आइटम कैटलॉग में "
 "शामिल किए जाएंगे। अद्वितीय होना चाहिए।"
 
-#: enterprise/models.py:2836
+#: enterprise/models.py:2837
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
 "This means that, when the content_filter specifies that 'course' content "
@@ -1736,15 +1760,15 @@ msgstr ""
 " तो Executive-education-2u पाठ्यक्रम प्रकारों को संबंधित कैटलॉग की सामग्री "
 "से बाहर नहीं किया जाएगा।"
 
-#: enterprise/models.py:2843
+#: enterprise/models.py:2844
 msgid "Enterprise Catalog Query"
 msgstr "एंटरप्राइज़ कैटलॉग क्वेरी"
 
-#: enterprise/models.py:2844
+#: enterprise/models.py:2845
 msgid "Enterprise Catalog Queries"
 msgstr "एंटरप्राइज़ कैटलॉग क्वेरीज़"
 
-#: enterprise/models.py:2957
+#: enterprise/models.py:2958
 msgid ""
 "Query parameters which will be used to filter the discovery service's "
 "search/all endpoint results, specified as a Json object. An empty Json "
@@ -1755,7 +1779,7 @@ msgstr ""
 "खोज/सभी समापन बिंदु परिणामों को फ़िल्टर करने के लिए किया जाएगा। एक खाली Json"
 " ऑब्जेक्ट का मतलब है कि सभी उपलब्ध सामग्री आइटम कैटलॉग में शामिल किए जाएंगे।"
 
-#: enterprise/models.py:2965
+#: enterprise/models.py:2966
 msgid ""
 "Ordered list of enrollment modes which can be displayed to learners for "
 "course runs in this catalog."
@@ -1763,7 +1787,7 @@ msgstr ""
 "नामांकन मोड की क्रमबद्ध सूची जिसे इस कैटलॉग में पाठ्यक्रम के लिए "
 "शिक्षार्थियों को प्रदर्शित किया जा सकता है।"
 
-#: enterprise/models.py:2971
+#: enterprise/models.py:2972
 msgid ""
 "Specifies whether courses should be published with direct-to-audit "
 "enrollment URLs."
@@ -1771,15 +1795,15 @@ msgstr ""
 "निर्दिष्ट करता है कि क्या पाठ्यक्रमों को डायरेक्ट-टू-ऑडिट नामांकन यूआरएल के "
 "साथ प्रकाशित किया जाना चाहिए।"
 
-#: enterprise/models.py:2978
+#: enterprise/models.py:2979
 msgid "Enterprise Customer Catalog"
 msgstr "एंटरप्राइज़ ग्राहक सूची"
 
-#: enterprise/models.py:2979 enterprise/models.py:3526
+#: enterprise/models.py:2980 enterprise/models.py:3527
 msgid "Enterprise Customer Catalogs"
 msgstr "एंटरप्राइज़ ग्राहक कैटलॉग"
 
-#: enterprise/models.py:3246
+#: enterprise/models.py:3247
 msgid ""
 "Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
 "<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
@@ -1787,7 +1811,7 @@ msgstr ""
 "एक मानक Django टेम्प्लेट भरें, जो प्रस्तुत होने पर, वह ईमेल उत्पन्न करता है जिसे आप नव-नामांकित एंटरप्राइज़ ग्राहक शिक्षार्थियों को भेजना चाहते हैं। निम्नलिखित चर उपलब्ध हो सकते हैं:\n"
 "<ul><li> उपयोगकर्ता_नाम: ईमेल किए जाने वाले व्यक्ति का मानव-पठनीय नाम। उस मामले को संभालना सुनिश्चित करें जहां इसे परिभाषित नहीं किया गया है, क्योंकि कुछ मामलों में यह गायब हो सकता है। यह एक उपयोगकर्ता नाम भी हो सकता है, यदि शिक्षार्थी ने सिस्टम में अपना &quot;वास्तविक&quot; नाम कॉन्फ़िगर नहीं किया है।</li><li> संगठन_नाम: नामांकन प्रायोजित करने वाले संगठन का नाम।</li><li> नामांकित_इन: उस पाठ्यक्रम या कार्यक्रम का विवरण जिसमें नामांकित किया गया था। इसमें शामिल हो सकता है:<ul><li> नाम: नामांकन योग्य आइटम का नाम (उदाहरण के लिए, &quot;डेमो कोर्स&quot;)।</li><li> यूआरएल: नामांकित आइटम के मुखपृष्ठ का एक लिंक।</li><li> ब्रांडिंग: नामांकित आइटम के लिए एक कस्टम ब्रांडिंग नाम। उदाहरण के लिए, माइक्रोमास्टर्स प्रोग्राम की ब्रांडिंग &quot;माइक्रोमास्टर्स&quot; होगी।</li><li> प्रारंभ: वह दिनांक जब नामांकित आइटम उपलब्ध हो जाता है। Django `दिनांक` टेम्प्लेट फ़िल्टर का उपयोग करके इसे टेक्स्ट में प्रस्तुत करें ( <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">Django दस्तावेज़</a> देखें)।</li><li> प्रकार: क्या नामांकित वस्तु एक पाठ्यक्रम, एक कार्यक्रम, या कुछ और है।</li></ul></ul>"
 
-#: enterprise/models.py:3264
+#: enterprise/models.py:3265
 #, python-brace-format
 msgid ""
 "Enter a string that can be used to generate a dynamic subject line for "
@@ -1798,27 +1822,27 @@ msgstr ""
 " उत्पन्न करने के लिए किया जा सकता है। प्लेसहोल्डर {course_name} उस पाठ्यक्रम"
 " या कार्यक्रम के नाम से बदल दिया जाएगा जिसमें नामांकित किया गया था।"
 
-#: enterprise/models.py:3406
+#: enterprise/models.py:3407
 msgid "Active"
 msgstr "क्रियाशील"
 
-#: enterprise/models.py:3407
+#: enterprise/models.py:3408
 msgid "Include Date"
 msgstr "दिनांक शामिल करें"
 
-#: enterprise/models.py:3408
+#: enterprise/models.py:3409
 msgid "Include date in the report file name"
 msgstr "रिपोर्ट फ़ाइल नाम में दिनांक शामिल करें"
 
-#: enterprise/models.py:3414
+#: enterprise/models.py:3415
 msgid "Delivery Method"
 msgstr "डिलिवरी विधि"
 
-#: enterprise/models.py:3415
+#: enterprise/models.py:3416
 msgid "The method in which the data should be sent."
 msgstr "वह विधि जिसमें डेटा भेजा जाना चाहिए."
 
-#: enterprise/models.py:3420
+#: enterprise/models.py:3421
 msgid ""
 "Specifies whether report should be compressed. Without compression files "
 "will not be password protected or encrypted."
@@ -1826,54 +1850,54 @@ msgstr ""
 "निर्दिष्ट करता है कि रिपोर्ट को संपीड़ित किया जाना चाहिए या नहीं। संपीड़न के"
 " बिना फ़ाइलें पासवर्ड से सुरक्षित या एन्क्रिप्टेड नहीं होंगी।"
 
-#: enterprise/models.py:3427
+#: enterprise/models.py:3428
 msgid "PGP Encryption Key"
 msgstr "पीजीपी एन्क्रिप्शन कुंजी"
 
-#: enterprise/models.py:3428
+#: enterprise/models.py:3429
 msgid "The key for encryption, if PGP encrypted file is required."
 msgstr "एन्क्रिप्शन के लिए कुंजी, यदि पीजीपी एन्क्रिप्टेड फ़ाइल आवश्यक है।"
 
-#: enterprise/models.py:3436
+#: enterprise/models.py:3437
 msgid "Data Type"
 msgstr "डेटा प्रकार"
 
-#: enterprise/models.py:3437
+#: enterprise/models.py:3438
 msgid "The type of data this report should contain."
 msgstr "इस रिपोर्ट में किस प्रकार का डेटा होना चाहिए."
 
-#: enterprise/models.py:3444
+#: enterprise/models.py:3445
 msgid "Report Type"
 msgstr "आख्या की प्रकार"
 
-#: enterprise/models.py:3445
+#: enterprise/models.py:3446
 msgid "The type this report should be sent as, e.g. CSV."
 msgstr "इस रिपोर्ट को जिस प्रकार भेजा जाना चाहिए, उदाहरण के लिए सीएसवी।"
 
-#: enterprise/models.py:3449
+#: enterprise/models.py:3450
 msgid "Email"
 msgstr "ई-मेल"
 
-#: enterprise/models.py:3450
+#: enterprise/models.py:3451
 msgid "The email(s), one per line, where the report should be sent."
 msgstr "ईमेल, प्रति पंक्ति एक, जहां रिपोर्ट भेजी जानी चाहिए।"
 
-#: enterprise/models.py:3457
+#: enterprise/models.py:3458
 msgid "Frequency"
 msgstr "आवृत्ति"
 
-#: enterprise/models.py:3458
+#: enterprise/models.py:3459
 msgid ""
 "The frequency interval (daily, weekly, or monthly) that the report should be"
 " sent."
 msgstr ""
 "आवृत्ति अंतराल (दैनिक, साप्ताहिक, या मासिक) कि रिपोर्ट भेजी जानी चाहिए।"
 
-#: enterprise/models.py:3463
+#: enterprise/models.py:3464
 msgid "Day of Month"
 msgstr "महीने का दिन"
 
-#: enterprise/models.py:3464
+#: enterprise/models.py:3465
 msgid ""
 "The day of the month to send the report. This field is required and only "
 "valid when the frequency is monthly."
@@ -1881,11 +1905,11 @@ msgstr ""
 "रिपोर्ट भेजने के लिए महीने का दिन. यह फ़ील्ड आवश्यक है और केवल तभी मान्य है "
 "जब आवृत्ति मासिक हो।"
 
-#: enterprise/models.py:3472
+#: enterprise/models.py:3473
 msgid "Day of Week"
 msgstr "सप्ताह का दिन"
 
-#: enterprise/models.py:3473
+#: enterprise/models.py:3474
 msgid ""
 "The day of the week to send the report. This field is required and only "
 "valid when the frequency is weekly."
@@ -1893,11 +1917,11 @@ msgstr ""
 "रिपोर्ट भेजने के लिए सप्ताह का दिन. यह फ़ील्ड आवश्यक है और केवल तभी मान्य है"
 " जब आवृत्ति साप्ताहिक हो।"
 
-#: enterprise/models.py:3477
+#: enterprise/models.py:3478
 msgid "Hour of Day"
 msgstr "दिन का घंटा"
 
-#: enterprise/models.py:3478
+#: enterprise/models.py:3479
 msgid ""
 "The hour of the day to send the report, in Eastern Standard Time (EST). This"
 " is required for all frequency settings."
@@ -1905,7 +1929,7 @@ msgstr ""
 "रिपोर्ट भेजने का दिन का समय, पूर्वी मानक समय (ईएसटी) में। यह सभी "
 "फ़्रीक्वेंसी सेटिंग्स के लिए आवश्यक है।"
 
-#: enterprise/models.py:3486
+#: enterprise/models.py:3487
 msgid ""
 "This password will be used to secure the zip file. It will be encrypted when"
 " stored in the database."
@@ -1913,27 +1937,27 @@ msgstr ""
 "इस पासवर्ड का उपयोग ज़िप फ़ाइल को सुरक्षित करने के लिए किया जाएगा। डेटाबेस "
 "में संग्रहीत होने पर इसे एन्क्रिप्ट किया जाएगा।"
 
-#: enterprise/models.py:3493
+#: enterprise/models.py:3494
 msgid "SFTP Host name"
 msgstr "एसएफटीपी होस्ट नाम"
 
-#: enterprise/models.py:3494
+#: enterprise/models.py:3495
 msgid "If the delivery method is sftp, the host to deliver the report to."
 msgstr "यदि वितरण विधि एसएफटीपी है, तो मेजबान को रिपोर्ट वितरित करनी होगी।"
 
-#: enterprise/models.py:3499
+#: enterprise/models.py:3500
 msgid "SFTP Port"
 msgstr "एसएफटीपी पोर्ट"
 
-#: enterprise/models.py:3500
+#: enterprise/models.py:3501
 msgid "If the delivery method is sftp, the port on the host to connect to."
 msgstr "यदि डिलीवरी विधि एसएफटीपी है, तो कनेक्ट करने के लिए होस्ट पर पोर्ट।"
 
-#: enterprise/models.py:3507
+#: enterprise/models.py:3508
 msgid "SFTP username"
 msgstr "एसएफटीपी उपयोगकर्ता नाम"
 
-#: enterprise/models.py:3508
+#: enterprise/models.py:3509
 msgid ""
 "If the delivery method is sftp, the username to use to securely access the "
 "host."
@@ -1941,7 +1965,7 @@ msgstr ""
 "यदि डिलीवरी विधि sftp है, तो होस्ट तक सुरक्षित रूप से पहुंचने के लिए "
 "उपयोगकर्ता नाम का उपयोग करें।"
 
-#: enterprise/models.py:3514
+#: enterprise/models.py:3515
 msgid ""
 "If the delivery method is sftp, the password to use to securely access the "
 "host. The password will be encrypted when stored in the database."
@@ -1949,60 +1973,60 @@ msgstr ""
 "यदि डिलीवरी विधि sftp है, तो होस्ट तक सुरक्षित रूप से पहुंचने के लिए पासवर्ड"
 " का उपयोग करें। डेटाबेस में संग्रहीत होने पर पासवर्ड एन्क्रिप्ट किया जाएगा।"
 
-#: enterprise/models.py:3521
+#: enterprise/models.py:3522
 msgid "SFTP file path"
 msgstr "एसएफटीपी फ़ाइल पथ"
 
-#: enterprise/models.py:3522
+#: enterprise/models.py:3523
 msgid ""
 "If the delivery method is sftp, the path on the host to deliver the report "
 "to."
 msgstr "यदि वितरण विधि sftp है, तो रिपोर्ट वितरित करने के लिए होस्ट पर पथ।"
 
-#: enterprise/models.py:3630
+#: enterprise/models.py:3631
 msgid "Delivery method cannot be updated"
 msgstr "वितरण पद्धति अद्यतन नहीं की जा सकती"
 
-#: enterprise/models.py:3646
+#: enterprise/models.py:3647
 msgid "Day of week must be set if the frequency is weekly."
 msgstr "यदि आवृत्ति साप्ताहिक है तो सप्ताह का दिन निर्धारित किया जाना चाहिए।"
 
-#: enterprise/models.py:3650
+#: enterprise/models.py:3651
 msgid "Day of month must be set if the frequency is monthly."
 msgstr "यदि आवृत्ति मासिक है तो महीने का दिन निर्धारित किया जाना चाहिए।"
 
-#: enterprise/models.py:3653
+#: enterprise/models.py:3654
 msgid "Frequency must be set to either daily, weekly, or monthly."
 msgstr "आवृत्ति को दैनिक, साप्ताहिक या मासिक पर सेट किया जाना चाहिए।"
 
-#: enterprise/models.py:3659
+#: enterprise/models.py:3660
 msgid "Email(s) must be set if the delivery method is email."
 msgstr "यदि डिलीवरी विधि ईमेल है तो ईमेल सेट किया जाना चाहिए।"
 
-#: enterprise/models.py:3663
+#: enterprise/models.py:3664
 msgid "Decrypted password must be set if the delivery method is email."
 msgstr "यदि डिलीवरी विधि ईमेल है तो डिक्रिप्टेड पासवर्ड सेट किया जाना चाहिए।"
 
-#: enterprise/models.py:3667
+#: enterprise/models.py:3668
 msgid "SFTP Hostname must be set if the delivery method is sftp."
 msgstr "यदि डिलीवरी विधि sftp है तो SFTP होस्टनाम सेट होना चाहिए।"
 
-#: enterprise/models.py:3669
+#: enterprise/models.py:3670
 msgid "SFTP username must be set if the delivery method is sftp."
 msgstr "यदि डिलीवरी विधि sftp है तो SFTP उपयोगकर्ता नाम सेट होना चाहिए।"
 
-#: enterprise/models.py:3671
+#: enterprise/models.py:3672
 msgid "SFTP File Path must be set if the delivery method is sftp."
 msgstr ""
 "यदि डिलीवरी विधि एसएफटीपी है तो एसएफटीपी फ़ाइल पथ सेट किया जाना चाहिए।"
 
-#: enterprise/models.py:3674
+#: enterprise/models.py:3675
 msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
 msgstr ""
 "यदि डिलीवरी विधि एसएफटीपी है तो डिक्रिप्टेड एसएफटीपी पासवर्ड सेट किया जाना "
 "चाहिए।"
 
-#: enterprise/models.py:3737
+#: enterprise/models.py:3738
 msgid ""
 "The EnterpriseCustomer for which the role is assigned to for the provided "
 "user. Defaults to the first active Enterprise Customer that the user is "
@@ -2016,26 +2040,26 @@ msgstr ""
 "रिकॉर्ड बनाएं और फिर ड्रॉप डाउन का उपयोग करके एंटरप्राइज़ ग्राहक फ़ील्ड को "
 "संशोधित करें।"
 
-#: enterprise/models.py:4026
+#: enterprise/models.py:4027
 msgid "Filters to show banner notifications conditionally."
 msgstr "बैनर सूचनाएं सशर्त रूप से दिखाने के लिए फ़िल्टर।"
 
-#: enterprise/models.py:4031
+#: enterprise/models.py:4032
 msgid "Admin Notification Filter"
 msgstr "व्यवस्थापक अधिसूचना फ़िल्टर"
 
-#: enterprise/models.py:4032
+#: enterprise/models.py:4033
 msgid "Admin Notification Filters"
 msgstr "व्यवस्थापक अधिसूचना फ़िल्टर"
 
-#: enterprise/models.py:4058
+#: enterprise/models.py:4059
 msgid ""
 "Notification banner title which will appear to enterprise admin on admin "
 "portal."
 msgstr ""
 "अधिसूचना बैनर शीर्षक जो एडमिन पोर्टल पर एंटरप्राइज एडमिन को दिखाई देगा।"
 
-#: enterprise/models.py:4066
+#: enterprise/models.py:4067
 msgid ""
 "Notification banner text which will appear to enterprise admin on admin "
 "portal. You can enter maximum of 512 characters. This text support markdown."
@@ -2045,38 +2069,38 @@ msgstr ""
 "अधिकतम 512 अक्षर दर्ज कर सकते हैं। यह पाठ मार्कडाउन का समर्थन करता है। "
 "समर्थित मार्कडाउन सुविधाओं के लिए https://commonmark.org/help/ देखें।"
 
-#: enterprise/models.py:4083
+#: enterprise/models.py:4084
 msgid "Admin Notification"
 msgstr "व्यवस्थापक अधिसूचना"
 
-#: enterprise/models.py:4084
+#: enterprise/models.py:4085
 msgid "Admin Notifications"
 msgstr "व्यवस्थापक सूचनाएं"
 
-#: enterprise/models.py:4122
+#: enterprise/models.py:4123
 msgid "Admin Notification Read"
 msgstr "व्यवस्थापक अधिसूचना पढ़ें"
 
-#: enterprise/models.py:4123
+#: enterprise/models.py:4124
 msgid "Admin Notifications Read"
 msgstr "व्यवस्थापक अधिसूचनाएँ पढ़ें"
 
-#: enterprise/models.py:4156 enterprise/models.py:4260
-#: enterprise/models.py:4405
+#: enterprise/models.py:4157 enterprise/models.py:4261
+#: enterprise/models.py:4406
 msgid "The enterprise that can be linked using this key."
 msgstr "वह उद्यम जिसे इस कुंजी का उपयोग करके जोड़ा जा सकता है।"
 
-#: enterprise/models.py:4165
+#: enterprise/models.py:4166
 msgid "The number of times this key can be used to link a learner."
 msgstr ""
 "किसी शिक्षार्थी को लिंक करने के लिए इस कुंजी का उपयोग कितनी बार किया जा सकता"
 " है।"
 
-#: enterprise/models.py:4174
+#: enterprise/models.py:4175
 msgid "The key will no longer be valid after this date."
 msgstr "इस तिथि के बाद कुंजी मान्य नहीं होगी."
 
-#: enterprise/models.py:4183
+#: enterprise/models.py:4184
 msgid ""
 "Specifies if the key is active. Once deactivated, the key is no longer valid"
 " and cannot be reactivated."
@@ -2084,61 +2108,61 @@ msgstr ""
 "निर्दिष्ट करता है कि कुंजी सक्रिय है या नहीं। एक बार निष्क्रिय हो जाने पर, "
 "कुंजी वैध नहीं रहती और उसे पुनः सक्रिय नहीं किया जा सकता।"
 
-#: enterprise/models.py:4264
+#: enterprise/models.py:4265
 msgid "ChatGPT prompt."
 msgstr "चैटजीपीटी प्रॉम्प्ट."
 
-#: enterprise/models.py:4266
+#: enterprise/models.py:4267
 msgid "ChatGPT response."
 msgstr "चैटजीपीटी प्रतिक्रिया."
 
-#: enterprise/models.py:4267
+#: enterprise/models.py:4268
 msgid "Prompt type."
 msgstr "शीघ्र प्रकार."
 
-#: enterprise/models.py:4271
+#: enterprise/models.py:4272
 msgid "ChatGPT Response"
 msgstr "चैटजीपीटी प्रतिक्रिया"
 
-#: enterprise/models.py:4272
+#: enterprise/models.py:4273
 msgid "ChatGPT Responses"
 msgstr "चैटजीपीटी प्रतिक्रियाएँ"
 
-#: enterprise/models.py:4382
+#: enterprise/models.py:4383
 msgid "Enterprise Customer SSO Configuration"
 msgstr "एंटरप्राइज़ ग्राहक एसएसओ कॉन्फ़िगरेशन"
 
-#: enterprise/models.py:4383
+#: enterprise/models.py:4384
 msgid "Enterprise Customer SSO Configurations"
 msgstr "एंटरप्राइज़ ग्राहक एसएसओ कॉन्फ़िगरेशन"
 
-#: enterprise/models.py:4392
+#: enterprise/models.py:4393
 msgid "The display name of the SSO configuration."
 msgstr "SSO कॉन्फ़िगरेशन का प्रदर्शन नाम."
 
-#: enterprise/models.py:4414
+#: enterprise/models.py:4415
 msgid ""
 "Specifies whether the integration with the SSO orchestration is active."
 msgstr ""
 "निर्दिष्ट करता है कि एसएसओ ऑर्केस्ट्रेशन के साथ एकीकरण सक्रिय है या नहीं।"
 
-#: enterprise/models.py:4423
+#: enterprise/models.py:4424
 msgid "The identity provider integrated with by the SSO orchestrator ."
 msgstr "पहचान प्रदाता एसएसओ ऑर्केस्ट्रेटर द्वारा एकीकृत है।"
 
-#: enterprise/models.py:4432
+#: enterprise/models.py:4433
 msgid "The metadata url of the identity provider."
 msgstr "पहचान प्रदाता का मेटाडेटा यूआरएल."
 
-#: enterprise/models.py:4440
+#: enterprise/models.py:4441
 msgid "The metadata xml of the identity provider."
 msgstr "पहचान प्रदाता का मेटाडेटा xml."
 
-#: enterprise/models.py:4449
+#: enterprise/models.py:4450
 msgid "The entity id of the identity provider."
 msgstr "पहचान प्रदाता की इकाई आईडी."
 
-#: enterprise/models.py:4458
+#: enterprise/models.py:4459
 msgid ""
 "Specifies whether the integration with the customer's identity provider "
 "should auto update metadata."
@@ -2146,14 +2170,14 @@ msgstr ""
 "निर्दिष्ट करता है कि क्या ग्राहक के पहचान प्रदाता के साथ एकीकरण को मेटाडेटा "
 "को स्वचालित रूप से अपडेट करना चाहिए।"
 
-#: enterprise/models.py:4512
+#: enterprise/models.py:4513
 msgid ""
 "The date and time when the configuration was submitted to the SSO "
 "orchestration."
 msgstr ""
 "वह दिनांक और समय जब कॉन्फ़िगरेशन एसएसओ ऑर्केस्ट्रेशन में सबमिट किया गया था।"
 
-#: enterprise/models.py:4520
+#: enterprise/models.py:4521
 msgid ""
 "The date and time when the configuration was completed by the SSO "
 "orchestration."
@@ -2161,7 +2185,7 @@ msgstr ""
 "वह दिनांक और समय जब कॉन्फ़िगरेशन एसएसओ ऑर्केस्ट्रेशन द्वारा पूरा किया गया "
 "था।"
 
-#: enterprise/models.py:4528
+#: enterprise/models.py:4529
 msgid ""
 "The date and time when the configuration was validated and used for the "
 "first time."
@@ -2169,7 +2193,7 @@ msgstr ""
 "वह दिनांक और समय जब कॉन्फ़िगरेशन सत्यापित किया गया था और पहली बार उपयोग किया"
 " गया था।"
 
-#: enterprise/models.py:4536
+#: enterprise/models.py:4537
 msgid ""
 "The date and time when the orchestrator encountered an error during "
 "configuration."
@@ -2177,72 +2201,72 @@ msgstr ""
 "वह दिनांक और समय जब ऑर्केस्ट्रेटर को कॉन्फ़िगरेशन के दौरान त्रुटि का सामना "
 "करना पड़ा।"
 
-#: enterprise/models.py:4545
+#: enterprise/models.py:4546
 msgid ""
 "Whether admin has indicated the service provider metadata was uploaded."
 msgstr ""
 "क्या व्यवस्थापक ने संकेत दिया है कि सेवा प्रदाता मेटाडेटा अपलोड किया गया था।"
 
-#: enterprise/models.py:4555 enterprise/models.py:4591
+#: enterprise/models.py:4556 enterprise/models.py:4592
 msgid ""
 "SAP specific configuration: the timeout interval for the OData API in "
 "seconds."
 msgstr "SAP विशिष्ट कॉन्फ़िगरेशन: OData API के लिए सेकंड में टाइमआउट अंतराल।"
 
-#: enterprise/models.py:4565
+#: enterprise/models.py:4566
 msgid "SAP specific configuration: the root url of the OData API."
 msgstr "SAP विशिष्ट कॉन्फ़िगरेशन: OData API का रूट यूआरएल।"
 
-#: enterprise/models.py:4574
+#: enterprise/models.py:4575
 msgid "SAP specific configuration: the company id of the OData API."
 msgstr "SAP विशिष्ट कॉन्फ़िगरेशन: OData API की कंपनी आईडी।"
 
-#: enterprise/models.py:4583
+#: enterprise/models.py:4584
 msgid ""
 "SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
 "API."
 msgstr "SAP विशिष्ट कॉन्फ़िगरेशन: SAP सक्सेसफैक्टर्स OAuth API का रूट यूआरएल।"
 
-#: enterprise/models.py:4600
+#: enterprise/models.py:4601
 msgid ""
 "SAP specific configuration: the private key used to sign the SAML assertion."
 msgstr ""
 "SAP विशिष्ट कॉन्फ़िगरेशन: SAML दावे पर हस्ताक्षर करने के लिए उपयोग की जाने "
 "वाली निजी कुंजी।"
 
-#: enterprise/models.py:4609
+#: enterprise/models.py:4610
 msgid "SAP specific configuration: the client id of the OData API."
 msgstr "SAP विशिष्ट कॉन्फ़िगरेशन: OData API की क्लाइंट आईडी।"
 
-#: enterprise/models.py:4618
+#: enterprise/models.py:4619
 msgid "SAP specific configuration: the user id of the OAuth API."
 msgstr "SAP विशिष्ट कॉन्फ़िगरेशन: OAuth API की उपयोगकर्ता आईडी।"
 
-#: enterprise/models.py:4640
+#: enterprise/models.py:4641
 msgid "Field is locked as the configuration has already been submitted."
 msgstr "फ़ील्ड लॉक है क्योंकि कॉन्फ़िगरेशन पहले ही सबमिट किया जा चुका है।"
 
-#: enterprise/models.py:4678
+#: enterprise/models.py:4679
 msgid "Record has already been submitted for configuration."
 msgstr "कॉन्फ़िगरेशन के लिए रिकॉर्ड पहले ही सबमिट किया जा चुका है."
 
-#: enterprise/models.py:4728
+#: enterprise/models.py:4729
 msgid "Specifies enterprise group name."
 msgstr "एंटरप्राइज़ समूह का नाम निर्दिष्ट करता है."
 
-#: enterprise/models.py:4743
+#: enterprise/models.py:4744
 msgid "The type of enterprise group"
 msgstr "उद्यम समूह का प्रकार"
 
-#: enterprise/models.py:4749
+#: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "उद्यम समूह"
 
-#: enterprise/models.py:4750
+#: enterprise/models.py:4751
 msgid "Enterprise Groups"
 msgstr "उद्यम समूह"
 
-#: enterprise/models.py:4863
+#: enterprise/models.py:4864
 msgid ""
 "The moment at which the membership record is written with an Enterprise "
 "Customer User record."
@@ -2250,11 +2274,11 @@ msgstr ""
 "वह क्षण जब सदस्यता रिकॉर्ड एंटरप्राइज़ ग्राहक उपयोगकर्ता रिकॉर्ड के साथ लिखा"
 " जाता है।"
 
-#: enterprise/models.py:4873
+#: enterprise/models.py:4874
 msgid "Current status of the membership record"
 msgstr "सदस्यता रिकॉर्ड की वर्तमान स्थिति"
 
-#: enterprise/models.py:4880
+#: enterprise/models.py:4881
 msgid ""
 "The moment at which the membership record was revoked by an Enterprise "
 "admin."
@@ -2262,7 +2286,7 @@ msgstr ""
 "वह क्षण जब एंटरप्राइज़ व्यवस्थापक द्वारा सदस्यता रिकॉर्ड रद्द कर दिया गया "
 "था।"
 
-#: enterprise/models.py:4888
+#: enterprise/models.py:4889
 msgid ""
 "The last time the membership action was in an error state. Null means the "
 "membership is not errored."
@@ -2270,19 +2294,19 @@ msgstr ""
 "पिछली बार सदस्यता कार्रवाई त्रुटिपूर्ण स्थिति में थी। शून्य का अर्थ है कि "
 "सदस्यता में कोई त्रुटि नहीं है।"
 
-#: enterprise/models.py:4893
+#: enterprise/models.py:4894
 msgid "Enterprise Group Membership"
 msgstr "एंटरप्राइज़ समूह सदस्यता"
 
-#: enterprise/models.py:4894
+#: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "एंटरप्राइज़ समूह सदस्यता"
 
-#: enterprise/models.py:4963
+#: enterprise/models.py:4964
 msgid "Title summarizing the onboarding flow."
 msgstr "ऑनबोर्डिंग प्रवाह का सारांश देने वाला शीर्षक।"
 
-#: enterprise/models.py:4969
+#: enterprise/models.py:4970
 msgid ""
 "Specifies whether this flow is active and shown to admin users in the "
 "onboarding tour."
@@ -2290,31 +2314,31 @@ msgstr ""
 "यह निर्दिष्ट करता है कि क्या यह प्रवाह सक्रिय है और ऑनबोर्डिंग टूर में "
 "व्यवस्थापक उपयोगकर्ताओं को दिखाया गया है या नहीं।"
 
-#: enterprise/models.py:4988
+#: enterprise/models.py:4989
 msgid "The enterprise customer user who is an admin."
 msgstr "एंटरप्राइज़ ग्राहक उपयोगकर्ता जो व्यवस्थापक है।"
 
-#: enterprise/models.py:4993
+#: enterprise/models.py:4994
 msgid "The last time the admin logged into the admin portal."
 msgstr "अंतिम बार व्यवस्थापक ने व्यवस्थापक पोर्टल में लॉग इन किया था।"
 
-#: enterprise/models.py:4998
+#: enterprise/models.py:4999
 msgid "The onboarding flows that this admin has completed."
 msgstr "ऑनबोर्डिंग प्रवाह जो इस व्यवस्थापक ने पूरा किया है।"
 
-#: enterprise/models.py:5002
+#: enterprise/models.py:5003
 msgid "Whether the admin has dismissed the onboarding tour."
 msgstr "क्या एडमिन ने ऑनबोर्डिंग टूर को खारिज कर दिया है।"
 
-#: enterprise/models.py:5006
+#: enterprise/models.py:5007
 msgid "Whether the admin has completed the onboarding tour."
 msgstr "क्या एडमिन ने ऑनबोर्डिंग टूर पूरा कर लिया है।"
 
-#: enterprise/models.py:5011
+#: enterprise/models.py:5012
 msgid "Enterprise Customer Admin"
 msgstr "एंटरप्राइज़ ग्राहक व्यवस्थापक"
 
-#: enterprise/models.py:5012
+#: enterprise/models.py:5013
 msgid "Enterprise Customer Admins"
 msgstr "एंटरप्राइज़ ग्राहक व्यवस्थापक"
 
@@ -2984,29 +3008,3 @@ msgid ""
 msgstr ""
 "इस EnterpriseCourseEnrollmentSerializer का उपयोग करने के लिए, इस पैकेज को "
 "ओपन edX वातावरण में स्थापित किया जाना चाहिए।"
-
-#: enterprise/config/models.py:41
-msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr ""
-"निर्दिष्ट करता है कि किस उपयोगकर्ता भूमिका असाइनमेंट को अद्यतन करना है। यदि "
-"अनिर्दिष्ट है, तो सभी भूमिकाओं के लिए अद्यतन किया जाएगा।"
-
-#: enterprise/config/models.py:45
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr ""
-"अद्यतनों के प्रत्येक बैच में अद्यतन करने के लिए उपयोगकर्ता भूमिका असाइनमेंट "
-"की संख्या।"
-
-#: enterprise/config/models.py:50
-msgid "The enterprise customer to limit role assignments to."
-msgstr "भूमिका असाइनमेंट को एंटरप्राइज़ ग्राहक तक सीमित करना।"
-
-#: enterprise/config/models.py:55
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr ""
-"यदि सेट किया गया है, तो कोई अद्यतन या निर्माण नहीं होगा; इसके बजाय उन "
-"असाइनमेंट पर पुनरावृति करेगा जिन्हें संशोधित या बनाया जाएगा"

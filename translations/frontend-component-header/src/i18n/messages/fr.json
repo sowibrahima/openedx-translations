@@ -1,7 +1,5 @@
 {
   "header.links.courses": "Mes cours",
-  "header.links.explore": "Explorer",
-  "header.links.my.courses": "Mes cours",
   "header.links.programs": "Programmes",
   "header.links.content.search": "Découvrir Nouveaux",
   "header.links.schools": "Écoles et partenaires",
@@ -34,5 +32,7 @@
   "header.menu.aria-label": "Option utilisateur",
   "header.user.menu.studio": "Accueil Studio",
   "header.label.courseOutline": "Retour au plan du cours dans Studio",
-  "header.label.search.nav": "Rechercher du contenu"
+  "header.label.search.nav": "Rechercher du contenu",
+  "header.links.my.courses": "Mes cours",
+  "header.links.explore": "Explorer"
 }
