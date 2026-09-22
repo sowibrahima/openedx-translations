@@ -4,17 +4,15 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Omar Al-Ithawi <i@omardo.com>, 2023
-# Nathan Robertson, 2024
-# Sulaiman Muthanna, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-04-21 00:43+0000\n"
-"Last-Translator: Sulaiman Muthanna, 2026\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -716,11 +714,11 @@ msgstr "انتقل إلى البداية"
 msgid "Reset"
 msgstr "إعادة تعيين"
 
-#: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1243
+#: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1244
 msgid "Some of your answers were not correct."
 msgstr "بعض إجاباتك لم تكن صحيحة."
 
-#: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1246
+#: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1247
 msgid "Hints:"
 msgstr "تلميحات:"
 
@@ -800,11 +798,11 @@ msgstr "بنك العناصر"
 msgid "Drop Targets"
 msgstr "أهداف الإسقاط"
 
-#: public/js/drag_and_drop.js:898
+#: public/js/drag_and_drop.js:899 public/js/drag_and_drop.js:2144
 msgid "An error occurred. Unable to load drag and drop problem."
 msgstr "حدث خطأ ما. تعذّر تحميل مسألة السحب والإفلات."
 
-#: public/js/drag_and_drop.js:1387
+#: public/js/drag_and_drop.js:1388
 msgid "You cannot add any more items to this zone."
 msgstr "لا يمكنك إضافة المزيد من العناصر إلى هذه المنطقة."
 

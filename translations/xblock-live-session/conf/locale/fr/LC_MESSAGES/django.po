@@ -180,7 +180,9 @@ msgstr "Activer l'enregistrement"
 
 #: static/html/studio.html
 msgid "Record the session for later viewing by students who missed it"
-msgstr "Enregistrer la session pour que les apprenants absents puissent la visionner plus tard"
+msgstr ""
+"Enregistrer la session pour que les apprenants absents puissent la visionner"
+" plus tard"
 
 #: static/html/studio.html
 msgid "Enable Waiting Room"
@@ -188,7 +190,9 @@ msgstr "Activer la salle d'attente"
 
 #: static/html/studio.html
 msgid "Require moderator approval before participants can join"
-msgstr "Exiger l'approbation du modérateur avant que les participants puissent rejoindre"
+msgstr ""
+"Exiger l'approbation du modérateur avant que les participants puissent "
+"rejoindre"
 
 #: static/html/studio.html
 msgid "Allow Webcams"
@@ -227,7 +231,8 @@ msgstr "minutes avant"
 
 #: static/html/studio.html
 msgid "How early students can join before the start time"
-msgstr "Combien de temps avant l'heure de début les apprenants peuvent rejoindre"
+msgstr ""
+"Combien de temps avant l'heure de début les apprenants peuvent rejoindre"
 
 #: static/html/studio.html
 msgid "Late Access"
@@ -239,7 +244,9 @@ msgstr "minutes après"
 
 #: static/html/studio.html
 msgid "How late students can still join after the start time"
-msgstr "Combien de temps après l'heure de début les apprenants peuvent encore rejoindre"
+msgstr ""
+"Combien de temps après l'heure de début les apprenants peuvent encore "
+"rejoindre"
 
 #: static/html/studio.html
 msgid "Access Window Preview"
@@ -266,7 +273,8 @@ msgstr "Activer les notifications par e-mail"
 
 #: static/html/studio.html
 msgid "Send email reminders to enrolled students before sessions"
-msgstr "Envoyer des rappels par e-mail aux apprenants inscrits avant les sessions"
+msgstr ""
+"Envoyer des rappels par e-mail aux apprenants inscrits avant les sessions"
 
 #: static/html/studio.html
 msgid "Reminder Schedule"
@@ -328,7 +336,8 @@ msgstr "La date de session est requise pour les sessions uniques"
 
 #: static/html/studio.html
 msgid "At least one day of week is required for recurring sessions"
-msgstr "Au moins un jour de la semaine est requis pour les sessions récurrentes"
+msgstr ""
+"Au moins un jour de la semaine est requis pour les sessions récurrentes"
 
 #: static/html/studio.html
 msgid "Duration must be between 15 minutes and 24 hours"
@@ -336,7 +345,9 @@ msgstr "La durée doit être comprise entre 15 minutes et 24 heures"
 
 #: static/html/studio.html
 msgid "Session duration exceeds your organization maximum allowed duration"
-msgstr "La durée de la session dépasse la durée maximale autorisée par votre organisation"
+msgstr ""
+"La durée de la session dépasse la durée maximale autorisée par votre "
+"organisation"
 
 #: static/html/studio.html
 msgid "Saving..."
@@ -363,8 +374,13 @@ msgstr "Veuillez corriger les erreurs suivantes :"
 #. ==========================================
 #: live_session_xblock.py
 #, python-brace-format
-msgid "Session duration ({duration} min) exceeds your organization's maximum allowed duration ({max_duration} min). Please reduce the session length."
-msgstr "La durée de la session ({duration} min) dépasse la durée maximale autorisée par votre organisation ({max_duration} min). Veuillez réduire la durée de la session."
+msgid ""
+"Session duration ({duration} min) exceeds your organization's maximum "
+"allowed duration ({max_duration} min). Please reduce the session length."
+msgstr ""
+"La durée de la session ({duration} min) dépasse la durée maximale autorisée "
+"par votre organisation ({max_duration} min). Veuillez réduire la durée de la"
+" session."
 
 #. ==========================================
 #. Student view

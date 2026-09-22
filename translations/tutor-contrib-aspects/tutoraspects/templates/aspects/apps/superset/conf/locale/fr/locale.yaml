@@ -2,7 +2,7 @@ en:
   '% Correct': '% Correct'
   '% Correct All Attempts': '% Correct Toutes les tentatives'
   '% Correct First Attempts': '% de réponses correctes Premières tentatives'
-  '% Correct Last Attempts': 'Correct % Dernières tentatives'
+  '% Correct Last Attempts': Correct % Dernières tentatives
   '% Incorrect': '% Incorrect'
   '% Video Seconds Rewatched': '% de secondes de vidéo regardées à nouveau'
   '% Video Seconds Watched': '% de secondes de vidéo regardées'
@@ -10,14 +10,18 @@ en:
 
     <dt>Avg % Correct on 1st Attempt </dt>
 
-    <dd> The average percentage of correct answers on the first attempt of the learners who attempted the problem. </dd>
+    <dd> The average percentage of correct answers on the first attempt of the learners
+    who attempted the problem. </dd>
 
     </dl>'
-  : |-
-    <dl>
+  : '<dl>
+
     <dt>% moyen de réponses correctes à la première tentative </dt>
-    <dd> Le pourcentage moyen de réponses correctes à la première tentative des apprenants qui ont tenté de résoudre l'exercice. </dd>
-    </dl>
+
+    <dd> Le pourcentage moyen de réponses correctes à la première tentative des apprenants
+    qui ont tenté de résoudre l''exercice. </dd>
+
+    </dl>'
   Action: Action
   Action Count: Nombre d&#39;actions
   Action Date: Date d&#39;intervention
@@ -40,31 +44,45 @@ en:
   Average Score: Score moyen
   Avg % Correct on 1st Attempt: Moyenne % de réussite à la première tentative
   Avg Attempts: Nombre moyen de tentatives
-  Avg Correct Attempts Coursewide: Moyenne des tentatives correctes à l'échelle du cours
-  Avg Correct Attempts by Selected Learners: Les apprenants sélectionnés réalisent en moyenne des tentatives correctes.
+  Avg Correct Attempts Coursewide: Moyenne des tentatives correctes à l'échelle du
+    cours
+  Avg Correct Attempts by Selected Learners: Les apprenants sélectionnés réalisent
+    en moyenne des tentatives correctes.
   Avg Course Grade: Note moyenne du cours
-  Avg Incorrect Attempts Coursewide: Moyenne des tentatives erronées Ensemble des cours
-  Avg Incorrect Attempts by Selected Learners: Les apprenants sélectionnés font en moyenne des tentatives incorrectes.
+  Avg Incorrect Attempts Coursewide: Moyenne des tentatives erronées Ensemble des
+    cours
+  Avg Incorrect Attempts by Selected Learners: Les apprenants sélectionnés font en
+    moyenne des tentatives incorrectes.
   Avg Score: Score moyen
   Avg Video Length (seconds): Durée moyenne de la vidéo (secondes)
   Block ID: Identité de bloc
   COUNT(*): COUNT(*)
   Changed By Fk: Modifié par Fk
   Changed On: 'Date de modification :'
-  Chart showing the number of Superset actions taken on each chart in the selected time period.: Graphique montrant le nombre d&#39;actions Superset effectuées sur chaque graphique au cours de la période sélectionnée.
-  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Graphique montrant le nombre d&#39;actions Superset effectuées sur chaque tableau de bord au cours de la période sélectionnée.
-  Chart showing the number of registered users over the selected time period.: Graphique montrant le nombre d&#39;utilisateurs enregistrés sur la période sélectionnée.
+  Chart showing the number of Superset actions taken on each chart in the selected time period.: Graphique
+    montrant le nombre d&#39;actions Superset effectuées sur chaque graphique au cours
+    de la période sélectionnée.
+  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Graphique
+    montrant le nombre d&#39;actions Superset effectuées sur chaque tableau de bord
+    au cours de la période sélectionnée.
+  Chart showing the number of registered users over the selected time period.: Graphique
+    montrant le nombre d&#39;utilisateurs enregistrés sur la période sélectionnée.
   ClickHouse: ClickHouse
   ClickHouse metrics: Métriques ClickHouse
   Content Level: Niveau de Contenu
   Correct Attempts: Tentatives correctes
   Correct Attempts By Learner: L'Apprenant réussit les tentatives correctes
-  Correct Attempts by Selected Learner: Apprenant sélectionné a fait des tentatives correctes
+  Correct Attempts by Selected Learner: Apprenant sélectionné a fait des tentatives
+    correctes
   Count: Compter
   Count of Passing Grades: Nombre de notes réussies
   Count of Scores: Nombre de points
-  Count of unique users who performed an action in Superset over the selected time period.: Nombre d&#39;utilisateurs uniques qui ont effectué une action dans Superset au cours de la période sélectionnée.
-  Count over time of unique users who performed an action in Superset over the selected time period.: Comptez au fil du temps les utilisateurs uniques qui ont effectué une action dans Superset au cours de la période sélectionnée.
+  Count of unique users who performed an action in Superset over the selected time period.: Nombre
+    d&#39;utilisateurs uniques qui ont effectué une action dans Superset au cours
+    de la période sélectionnée.
+  Count over time of unique users who performed an action in Superset over the selected time period.: Comptez
+    au fil du temps les utilisateurs uniques qui ont effectué une action dans Superset
+    au cours de la période sélectionnée.
   Course Comparison Dashboard: Tableau de bord de comparaison des cours
   Course Dashboard: Tableau De Bord du cours
   Course Data JSON: Données de cours JSON
@@ -92,8 +110,11 @@ en:
   Courses Per Organization: Cours par organisation
   Coursewide % Correct: Pour tous les cours % de correction
   Coursewide Percent Correct: Pourcentage de correction à l'échelle du cours
-  Coursewide averages are based on learners who attempted the problem.: Les moyennes pour l'ensemble du cours sont basées sur les apprenants qui ont tenté de résoudre l'exercice.
-  Coursewide percentages are based on learners who attempted the problem.: Les pourcentages à l'échelle du cours sont basés sur les apprenants qui ont tenté de résoudre l'exercice.
+  Coursewide averages are based on learners who attempted the problem.: Les moyennes
+    pour l'ensemble du cours sont basées sur les apprenants qui ont tenté de résoudre
+    l'exercice.
+  Coursewide percentages are based on learners who attempted the problem.: Les pourcentages
+    à l'échelle du cours sont basés sur les apprenants qui ont tenté de résoudre l'exercice.
   Created: Créé
   Created By Fk: Créé par Fk
   Created On: Créé sur
@@ -111,7 +132,9 @@ en:
   Date: Date
   Description: Description
   Display Name: Nom d'affichage
-  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Affiche les 10 cours ayant le plus grand nombre d'inscriptions. Si vous sélectionnez d'autres cours dans le filtre, ils s'afficheront.
+  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Affiche
+    les 10 cours ayant le plus grand nombre d'inscriptions. Si vous sélectionnez d'autres
+    cours dans le filtre, ils s'afficheront.
   Distribution of Course Grades: Répartition des notes des cours
   Distribution of Current Course Grade: Répartition de la note actuelle du cours
   Dump ID: Identité de vidage
@@ -192,14 +215,16 @@ en:
   Name: Nom
   Name Org: Nom Org
   Number of Learners: Nombre d'apprenants
-  Number of Learners who Attempted the Problem: Nombre d&#39;Apprenants qui ont tenté l&#39;exercice
+  Number of Learners who Attempted the Problem: Nombre d&#39;Apprenants qui ont tenté
+    l&#39;exercice
   Number of Videos: Nombre de vidéos
   Number of Videos Watched: Nombre de vidéos visionnées
   Number of Views across Video Duration: Nombre de vues sur la durée de la vidéo
   Object ID: Identité d&#39;objet
   Object Id: Identité d'objet
   Object Type: Type d&#39;objet
-  Only available in versions Redwood and later: Disponible uniquement dans les versions Redwood et ultérieures
+  Only available in versions Redwood and later: Disponible uniquement dans les versions
+    Redwood et ultérieures
   Operator Dashboard: Tableau De Bord de l&#39;opérateur
   Org: Organisation
   Organization: Organisation
@@ -265,7 +290,8 @@ en:
   Selected Learner % Correct: Apprenant sélectionné % correct
   Selected Learner % Incorrect: Pourcentage d'erreurs de l'Apprenant sélectionné
   Selected Learner Percent Correct: Apprenant sélectionné Pourcentage correct
-  Selected Learner Percent Incorrect: Apprenant sélectionné Pourcentage d'erreurs incorrectes
+  Selected Learner Percent Incorrect: Apprenant sélectionné Pourcentage d'erreurs
+    incorrectes
   Selected Learners % Correct: Apprenant sélectionné % correct
   Selected Learners % Incorrect: Apprenants sélectionnés % incorrect
   Self Paced: À votre rythme
@@ -284,7 +310,8 @@ en:
   Superset: Surensemble
   Superset Active Users: Utilisateurs actifs du surensemble
   Superset Active Users Over Time: Superset des Utilisateurs actifs au fil du temps
-  Superset Registered Users Over Time: Superset des Utilisateurs enregistrés au fil du temps
+  Superset Registered Users Over Time: Superset des Utilisateurs enregistrés au fil
+    du temps
   Tables: des tables
   Tag: Étiquette
   Tags: Mots clés
@@ -293,8 +320,10 @@ en:
   Time Last Dumped: Heure du dernier dumping
   Time Range: Intervalle de temps
   Time Stamp: Horodatage
-  ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
-  : Pour voir le nombre de vues sur la durée d'une seule vidéo, cliquez sur le nom de la vidéo dans la colonne Lien vidéo du tableau ci-dessus.
+  ? To view the number of views across the duration of a single video, click the name
+    of the video in the Video Link column in table above.
+  : Pour voir le nombre de vues sur la durée d'une seule vidéo, cliquez sur le nom
+    de la vidéo dans la colonne Lien vidéo du tableau ci-dessus.
   Total: Total
   Total Avg: Total Moyenne
   Total Courses: Total des cours

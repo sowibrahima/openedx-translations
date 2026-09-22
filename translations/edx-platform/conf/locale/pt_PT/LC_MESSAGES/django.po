@@ -4,13 +4,6 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Carolina Amado, 2024
-# Eden Huthmacher, 2024
-# Ivo Branco <ivo.branco@fccn.pt>, 2025
-# Pedro Cabral, 2025
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# Gerardo Núñez, 2025
-# Cátia Lopes <catia.lopes@bridgelk.com>, 2025
 # Brian Smith, 2026
 # 
 msgid ""
@@ -18,7 +11,7 @@ msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
 "Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/open-edx/teams/6205/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -4576,10 +4569,6 @@ msgstr ""
 msgid "Course"
 msgstr "Curso"
 
-#: lms/djangoapps/courseware/tabs.py:63
-msgid "Syllabus"
-msgstr "Programa"
-
 #: lms/djangoapps/courseware/tabs.py:307
 msgid "Dates"
 msgstr "Datas"
@@ -4692,11 +4681,6 @@ msgstr "registar"
 #, python-brace-format
 msgid "{sign_in_link} or {register_link}."
 msgstr "{sign_in_link} ou {register_link}."
-
-#: lms/djangoapps/courseware/views/views.py:594
-#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
-msgid "Sign in"
-msgstr "Iniciar Sessão"
 
 #: lms/djangoapps/courseware/views/views.py:608
 #, python-brace-format
@@ -6746,11 +6730,6 @@ msgid "Are you sure you want to cancel retirement for user \"%(username)s\"? "
 msgstr ""
 "Tem certeza de que deseja cancelar a reforma para o utilizador "
 "\"%(username)s\"? "
-
-#: lms/templates/admin/user_api/accounts/cancel_retirement_action.html:38
-#: xmodule/capa_block.py:1001
-msgid "Submit"
-msgstr "Submeter"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:18
 #, python-format
@@ -10016,13 +9995,6 @@ msgstr ""
 "Os nomes de utilizador só podem conter letras, números e os caracteres "
 "@/./+/-/_."
 
-#. Translators: This message is shown to users who attempt to create a new
-#. account using
-#. an invalid email format.
-#: openedx/core/djangoapps/user_api/accounts/__init__.py:55
-msgid "Enter a valid email address"
-msgstr "Introduzir um endereço de correio electrónico válido"
-
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:60
 #, python-brace-format
 msgid ""
@@ -10141,22 +10113,6 @@ msgstr "Selecione o seu género"
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:112
 msgid "Enter your mailing address"
 msgstr "Insira a sua morada"
-
-#: openedx/core/djangoapps/user_api/accounts/__init__.py:116
-msgid ""
-"Our system detected that your password is vulnerable. Change your password "
-"so that your account stays secure."
-msgstr ""
-"O nosso sistema detectou que a sua palavra-passe é vulnerável. Altere a sua "
-"palavra-passe para que a sua conta permaneça segura."
-
-#: openedx/core/djangoapps/user_api/accounts/__init__.py:119
-msgid ""
-"Our system detected that your password is vulnerable. We recommend you "
-"change it so that your account stays secure."
-msgstr ""
-"O nosso sistema detectou que a sua palavra-passe é vulnerável. Recomendamos "
-"que a altere para que a sua conta permaneça segura."
 
 #: openedx/core/djangoapps/user_api/accounts/api.py:206
 #, python-brace-format
@@ -10556,10 +10512,6 @@ msgstr ""
 "redefinir a sua palavra-chave {link_start}aqui{link_end} antes de tentar "
 "novamente."
 
-#: openedx/core/djangoapps/user_authn/views/login.py:243
-msgid "Too many failed login attempts. Try again later."
-msgstr "Muitas tentativas de login sem sucesso. Tente novamente mais tarde."
-
 #: openedx/core/djangoapps/user_authn/views/login.py:285
 #, python-brace-format
 msgid ""
@@ -10615,14 +10567,6 @@ msgstr ""
 "O utilizador da conta associada a este endereço de email não pode redefinir "
 "a palavra-passe."
 
-#: openedx/core/djangoapps/user_authn/views/password_reset.py:307
-#: openedx/core/djangoapps/user_authn/views/password_reset.py:630
-msgid ""
-"Your previous request is in progress, please try again in a few moments."
-msgstr ""
-"O seu pedido anterior está a ser processado, por favor tente novamente "
-"dentro de momentos."
-
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:414
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:429
 msgid "Password reset unsuccessful"
@@ -10655,19 +10599,6 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:668
 msgid "No email address provided."
 msgstr "Nenhum endereço de email fornecido."
-
-#: openedx/core/djangoapps/user_authn/views/password_reset.py:746
-msgid ""
-"An error has occurred. Try refreshing the page, or check your internet "
-"connection."
-msgstr ""
-"Ocorreu um erro. Tente actualizar a página, ou verifique a sua ligação à "
-"Internet."
-
-#: openedx/core/djangoapps/user_authn/views/register.py:186
-#, python-brace-format
-msgid "Registration using {provider} has timed out."
-msgstr "O tempo para registo utilizando {provider} expirou."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:329
 msgid "An access_token is required when passing value ({}) for provider."
@@ -10876,10 +10807,6 @@ msgstr "{header_open}{title}{header_close}{body}"
 #, python-brace-format
 msgid "{header_open}{title}{header_close}"
 msgstr "{header_open}{title}{header_close}"
-
-#: openedx/core/djangoapps/util/user_messages.py:256
-msgid "Dismiss"
-msgstr "Ignorar"
 
 #: openedx/core/djangoapps/video_config/sharing_sites.py:77
 #, python-brace-format

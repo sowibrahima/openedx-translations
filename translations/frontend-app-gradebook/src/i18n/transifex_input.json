@@ -76,13 +76,13 @@
   "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Reason",
   "gradebook.GradebookFilters.allOption": "All",
   "gradebook.GradebookFilters.filtersTitle": "Filters",
-  "gradebook.GradebookFilters.removeFilter": "Remove filter",
-  "gradebook.footer.help": "Help center",
-  "gradebook.footer.nav": "Footer",
+  "test.button.label": "Test Button",
   "gradebook.footer.privacy": "Privacy",
-  "gradebook.footer.rights": "All rights reserved.",
-  "gradebook.footer.terms": "Terms",
   "test.id": "a common name",
+  "gradebook.GradebookFilters.removeFilter": "Remove filter",
+  "gradebook.footer.terms": "Terms",
+  "gradebook.footer.help": "Help center",
   "id": "defaultMessAge",
-  "test.button.label": "Test Button"
+  "gradebook.footer.rights": "All rights reserved.",
+  "gradebook.footer.nav": "Footer"
 }

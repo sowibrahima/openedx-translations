@@ -12,15 +12,5 @@
   "header.user.menu.profile": "Profil",
   "header.user.menu.register": "Regisztráció",
   "home.content": "Kezdőlap tartalma.",
-  "masquerade-widget.staff": "Stáb",
-  "masquerade-widget.userName.input.label": "Felhasználónév vagy e-mail cím",
-  "masquerade-widget.userName.submit": "Küldés",
-  "masquerade-widget.userName.submitting": "Beküldés",
-  "masquerade-widget.view.as": "Kurzus megtekintése másként:",
-  "masqueradeBar.ariaLabel": "",
-  "masqueradeBar.error.genericSubmit": "Hiba történt; kérjük, próbálja meg újra.",
-  "masqueradeBar.error.noStudentFound": "",
-  "masqueradeBar.studio": "Stúdió",
-  "masqueradeBar.viewCourse": "Tekintse meg a kurzust itt:",
   "org.openedx.frontend.slot.header.courseNavigationBar.tabs.label": "Kurzus navigációs sáv"
 }

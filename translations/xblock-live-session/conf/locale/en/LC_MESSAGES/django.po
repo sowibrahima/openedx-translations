@@ -260,8 +260,12 @@ msgstr "Please fix the following errors:"
 
 #. Python backend
 #: live_session_xblock.py
-msgid "Session duration ({duration} min) exceeds your organization's maximum allowed duration ({max_duration} min). Please reduce the session length."
-msgstr "Session duration ({duration} min) exceeds your organization's maximum allowed duration ({max_duration} min). Please reduce the session length."
+msgid ""
+"Session duration ({duration} min) exceeds your organization's maximum "
+"allowed duration ({max_duration} min). Please reduce the session length."
+msgstr ""
+"Session duration ({duration} min) exceeds your organization's maximum "
+"allowed duration ({max_duration} min). Please reduce the session length."
 
 #. Day names
 #: static/html/studio.html

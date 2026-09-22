@@ -56,9 +56,9 @@
   "profile.formcontrols.button.saved": "Enregistré",
   "profile.visibility.who.just.me": "Juste moi",
   "profile.visibility.who.everyone": "Tout le monde sur {siteName}",
-  "wuti.footer.copyright": "© {year} WutiSkill Inc. Tous droits réservés.",
-  "wuti.footer.help": "Centre d’aide",
   "wuti.footer.nav": "Pied de page",
+  "wuti.footer.terms": "Conditions",
+  "wuti.footer.copyright": "© {year} WutiSkill Inc. Tous droits réservés.",
   "wuti.footer.privacy": "Confidentialité",
-  "wuti.footer.terms": "Conditions"
+  "wuti.footer.help": "Centre d’aide"
 }

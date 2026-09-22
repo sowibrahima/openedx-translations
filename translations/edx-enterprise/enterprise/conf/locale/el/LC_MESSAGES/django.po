@@ -4,17 +4,15 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# Gerardo Núñez, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Gerardo Núñez, 2026\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Greek (https://app.transifex.com/open-edx/teams/6205/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -743,31 +741,31 @@ msgstr ""
 msgid "Course enrollment track"
 msgstr "Διαδρομή εγγραφής μαθημάτων"
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
 msgid "Audit"
 msgstr "Ακροατές"
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
 msgid "Verified"
 msgstr "Επαληθευμένοι"
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
 msgid "Professional Education"
 msgstr "Επαγγελματική Κατάρτιση"
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
 msgid "Professional Education (no ID)"
 msgstr "Επαγγελματική εκπαίδευση (χωρίς ταυτότητα)"
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
 msgid "Credit"
 msgstr "Αναγνώριση"
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
 msgid "Honor"
 msgstr "Με κώδικα τιμής"
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
 msgid "Unpaid Executive Education"
 msgstr "Απλήρωτη Εκπαίδευση Στελεχών"
 
@@ -977,7 +975,7 @@ msgstr ""
 "Έγινε επιτυχής εγγραφή του πεδίου &quot;Auth org id&quot; για αυτόν τον "
 "εταιρικό πελάτη."
 
-#: enterprise/api/utils.py:97
+#: enterprise/api/utils.py:357
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -988,7 +986,7 @@ msgstr ""
 " Επιπρόσθετες σημειώσεις:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:104
+#: enterprise/api/utils.py:364
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
@@ -997,7 +995,7 @@ msgstr ""
 "{token_email} από {token_enterprise_name} ζήτησε πρόσθετους κωδικούς "
 "{token_number_codes} . Παρακαλώ απευθυνθείτε σε αυτούς."
 
-#: enterprise/api/utils.py:110
+#: enterprise/api/utils.py:370
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -1008,7 +1006,7 @@ msgstr ""
 " Επιπρόσθετες σημειώσεις:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:116
+#: enterprise/api/utils.py:376
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
@@ -1017,19 +1015,19 @@ msgstr ""
 "{token_email} από {token_enterprise_name} ζήτησε πρόσθετους κωδικούς. "
 "Παρακαλώ απευθυνθείτε σε αυτούς."
 
-#: enterprise/api/v1/serializers.py:95
+#: enterprise/api/v1/serializers.py:96
 msgid "Total count of items."
 msgstr "Συνολικός αριθμός αντικειμένων."
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch next page of items."
 msgstr "URL για λήψη της επόμενης σελίδας των στοιχείων."
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:98
 msgid "URL to fetch previous page of items."
 msgstr "URL για τη λήψη της προηγούμενης σελίδας των στοιχείων."
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:99
 msgid "List of items."
 msgstr "Λίστα αντικειμένων."
 
@@ -1121,6 +1119,31 @@ msgstr ""
 "Για να αποκτήσετε ένα ecommerce_api_client, αυτό το πακέτο πρέπει να "
 "εγκατασταθεί σε περιβάλλον Open edX."
 
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr ""
+"Καθορίζει ποιες εκχωρήσεις ρόλων χρήστη θα ενημερωθούν. Εάν δεν καθορίζεται,"
+" θα ενημερωθεί για όλους τους ρόλους."
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"Αριθμός αναθέσεων ρόλων χρήστη προς ενημέρωση σε κάθε παρτίδα ενημερώσεων."
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "Ο εταιρικός πελάτης να περιορίσει τις αναθέσεις ρόλων σε."
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"Εάν οριστεί, δεν θα πραγματοποιηθούν ενημερώσεις ή δημιουργία. Αντίθετα, θα "
+"επαναλάβει τις εργασίες που θα τροποποιηθούν ή θα δημιουργηθούν"
+
 #: enterprise/constants.py:14
 #, python-brace-format
 msgid ""
@@ -1177,7 +1200,7 @@ msgstr ""
 "{privacy_policy_link_start} {privacy_policy_link_end} από "
 "{enterprise_customer_name} ."
 
-#: enterprise/constants.py:88
+#: enterprise/constants.py:92
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1190,7 +1213,7 @@ msgstr ""
 "απαιτούμενη γνώση και μπορούν να εφαρμοστούν για την επιτάχυνση ενός "
 "μεταπτυχιακού τίτλου."
 
-#: enterprise/constants.py:94
+#: enterprise/constants.py:98
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1202,7 +1225,7 @@ msgstr ""
 "αναπτύσσουν την επάρκεια και την τεχνογνωσία που αναζητούν οι εργοδότες με "
 "εξειδικευμένη κατάρτιση και επαγγελματική εκπαίδευση."
 
-#: enterprise/constants.py:100
+#: enterprise/constants.py:104
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -3069,28 +3092,3 @@ msgid ""
 msgstr ""
 "Για να χρησιμοποιήσετε αυτό το EnterpriseCourseEnrollmentSerializer, αυτό το"
 " πακέτο πρέπει να εγκατασταθεί σε περιβάλλον Open edX."
-
-#: enterprise/config/models.py:41
-msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr ""
-"Καθορίζει ποιες εκχωρήσεις ρόλων χρήστη θα ενημερωθούν. Εάν δεν καθορίζεται,"
-" θα ενημερωθεί για όλους τους ρόλους."
-
-#: enterprise/config/models.py:45
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr ""
-"Αριθμός αναθέσεων ρόλων χρήστη προς ενημέρωση σε κάθε παρτίδα ενημερώσεων."
-
-#: enterprise/config/models.py:50
-msgid "The enterprise customer to limit role assignments to."
-msgstr "Ο εταιρικός πελάτης να περιορίσει τις αναθέσεις ρόλων σε."
-
-#: enterprise/config/models.py:55
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr ""
-"Εάν οριστεί, δεν θα πραγματοποιηθούν ενημερώσεις ή δημιουργία. Αντίθετα, θα "
-"επαναλάβει τις εργασίες που θα τροποποιηθούν ή θα δημιουργηθούν"

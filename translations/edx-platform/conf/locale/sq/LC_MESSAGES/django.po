@@ -5,15 +5,14 @@
 # 
 # Translators:
 # Brian Smith, 2026
-# Omar Al-Ithawi <i@omardo.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2026\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Albanian (https://app.transifex.com/open-edx/teams/6205/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5786,6 +5785,10 @@ msgstr "Regjistrimet"
 msgid "Grading"
 msgstr "Notimi"
 
+#: lms/djangoapps/instructor/views/serializers_v2.py:133
+msgid "Bulk Email"
+msgstr "Email masiv"
+
 #: lms/djangoapps/instructor/views/serializers_v2.py:141
 msgid "Date Extensions"
 msgstr "Zgjatjet e Datave"
@@ -8514,6 +8517,11 @@ msgstr ""
 msgid "Content Groups"
 msgstr "Grupet e përmbajtjes"
 
+#: openedx/core/djangoapps/course_groups/constants.py:12
+msgid "Use this group configuration to control access to content."
+msgstr ""
+"Përdorni këtë konfigurim grupi për të kontrolluar aksesin në përmbajtje."
+
 #: openedx/core/djangoapps/course_groups/views.py:204
 msgid "A cohort with the same name already exists."
 msgstr "Një grup me të njëjtin emër ekziston tashmë."
@@ -9241,6 +9249,11 @@ msgstr "Përmbledhje Javore e Njoftimeve"
 #: openedx/core/djangoapps/notifications/templates/notifications/digest_header.html:27
 msgid "Daily Notifications Digest"
 msgstr "Përmbledhje Ditore e Njoftimeve"
+
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/batched_email/email/body.txt:3
+#: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/batched_email/email/subject.txt:3
+msgid "Recent activity on"
+msgstr "Aktiviteti i fundit në"
 
 #: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/body.txt:4
 #: openedx/core/djangoapps/notifications/templates/notifications/edx_ace/email_digest/email/subject.txt:4
@@ -11621,6 +11634,10 @@ msgstr "Përgjigja nuk është dhënë për {input_type}"
 #: xmodule/capa/responsetypes.py:3798
 msgid "The Staff answer could not be interpreted as a number."
 msgstr "Përgjigja e Stafit nuk mund të interpretohej si një numër."
+
+#: xmodule/capa/responsetypes.py:3808
+msgid "Could not interpret '{html.escape(answer_value)}' as a number."
+msgstr "Nuk mund të interpretohej '{html.escape(answer_value)}' si numër."
 
 #: xmodule/capa/safe_exec/remote_exec.py:120
 msgid ""

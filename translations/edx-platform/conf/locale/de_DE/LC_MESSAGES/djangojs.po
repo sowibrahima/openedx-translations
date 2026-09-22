@@ -1,30 +1,29 @@
 # #-#-#-#-#  djangojs.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# Brian Smith, 2025
+# Brian Smith, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-26 00:36+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"POT-Creation-Date: 2026-02-08 00:54+0000\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: German (Germany) (https://app.transifex.com/open-edx/teams/6205/de_DE/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 "Language: de_DE\n"
@@ -660,7 +659,7 @@ msgstr "Bibliothek hinzufügen Inhalt"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:656
+#: cms/static/js/views/pages/container.js:655
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Hinzufügen"
@@ -690,7 +689,7 @@ msgid "OK"
 msgstr "OK"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:783
+#: cms/static/js/views/pages/container.js:782
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Kopieren"
@@ -1319,7 +1318,7 @@ msgstr "Datum hinzugefügt"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:735
+#: cms/static/js/views/pages/container.js:734
 msgid "Editing access for: {title}"
 msgstr "Zugangseinstellungen bearbeiten für: {title}"
 
@@ -5630,7 +5629,7 @@ msgstr "Auf Anmerkung antworten"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:235
+#: xmodule/js/src/capa/display.js:248
 msgid "{num_points} point possible (graded, results hidden)"
 msgid_plural "{num_points} points possible (graded, results hidden)"
 msgstr[0] "{num_points} Punkt möglich (benotet, Ergebnisse ausgeblendet)"
@@ -5638,7 +5637,7 @@ msgstr[1] "{num_points} Punkte möglich (bewertet, Ergebnisse ausgeblendet)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:242
+#: xmodule/js/src/capa/display.js:255
 msgid "{num_points} point possible (ungraded, results hidden)"
 msgid_plural "{num_points} points possible (ungraded, results hidden)"
 msgstr[0] "{num_points} Punkt möglich (unbewertet, Ergebnisse ausgeblendet)"
@@ -5646,7 +5645,7 @@ msgstr[1] "{num_points} Punkte möglich (unbewertet, Ergebnisse ausgeblendet)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:253
+#: xmodule/js/src/capa/display.js:266
 msgid "{num_points} point possible (graded)"
 msgid_plural "{num_points} points possible (graded)"
 msgstr[0] "{num_points} Punkt möglich (benotet)"
@@ -5654,7 +5653,7 @@ msgstr[1] "{num_points} Punkte möglich (benotet)"
 
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
-#: xmodule/js/src/capa/display.js:259
+#: xmodule/js/src/capa/display.js:273
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
 msgstr[0] "{num_points} Punkt möglich (unbenotet)"
@@ -5664,7 +5663,7 @@ msgstr[1] "{num_points} Punkte möglich (unbenotet)"
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:269
+#: xmodule/js/src/capa/display.js:284
 msgid "{earned}/{possible} point (graded)"
 msgid_plural "{earned}/{possible} points (graded)"
 msgstr[0] "{earned} / {possible} Punkt (benotet)"
@@ -5674,24 +5673,24 @@ msgstr[1] "{earned} / {possible} Punkte (benotet)"
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: xmodule/js/src/capa/display.js:276
+#: xmodule/js/src/capa/display.js:292
 msgid "{earned}/{possible} point (ungraded)"
 msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "{earned} / {possible} Punkt (unbenotet)"
 msgstr[1] "{earned} / {possible} Punkte (unbenotet)"
 
-#: xmodule/js/src/capa/display.js:356
+#: xmodule/js/src/capa/display.js:373
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "Der Beurteilungsprozess läuft noch. Aktualisiere die Seite, um Updates zu "
 "sehen."
 
-#: xmodule/js/src/capa/display.js:465
+#: xmodule/js/src/capa/display.js:486
 msgid "Could not grade your answer. The submission was aborted."
 msgstr ""
 "Ihre Antwort konnte nicht benotet werden. Die Einreichung wurde abgebrochen."
 
-#: xmodule/js/src/capa/display.js:529
+#: xmodule/js/src/capa/display.js:567
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5701,34 +5700,34 @@ msgstr ""
 "Benutzen Sie bitte Chrome oder Safari. Diese Browser sind für den "
 "Dateiupload geeignet."
 
-#: xmodule/js/src/capa/display.js:555
+#: xmodule/js/src/capa/display.js:595
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Ihre Einreichung {filename}; Es sind nur {allowedFiles} erlaubt."
 
-#: xmodule/js/src/capa/display.js:568
+#: xmodule/js/src/capa/display.js:608
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "Ihre Datei {filename} ist zu groß (maximale Größe: {maxSize}MB)."
 
-#: xmodule/js/src/capa/display.js:584
+#: xmodule/js/src/capa/display.js:624
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr ""
 "Sie haben folgende benötigte Dateien nicht eingereicht: {requiredFiles}."
 
-#: xmodule/js/src/capa/display.js:594
+#: xmodule/js/src/capa/display.js:634
 msgid "You did not select any files to submit."
 msgstr "Sie haben keine Datei zur Einreichung ausgewählt."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:688
+#: xmodule/js/src/capa/display.js:728
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
-#: xmodule/js/src/capa/display.js:719
+#: xmodule/js/src/capa/display.js:762
 msgid "This problem has been reset."
 msgstr "Die Aufgabenstellung wurde zurückgesetzt."
 
-#: xmodule/js/src/capa/display.js:1025
+#: xmodule/js/src/capa/display.js:1071
 msgid "unsubmitted"
 msgstr "nicht eingereicht"
 
@@ -6248,7 +6247,7 @@ msgstr "Kopfzeilenzelle"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: xmodule/js/src/html/edit.js:625 xmodule/js/src/problem/edit.js:50
+#: xmodule/js/src/html/edit.js:625
 msgid "Header"
 msgstr "Kopfzeile"
 
@@ -6978,45 +6977,6 @@ msgstr ""
 "Kilcken Sie auf OK um Ihre E-Mail-Adresse an eine externe Anwendung weiterzuleiten.\n"
 "\n"
 "Klicken Sie auf Abbrechen um zu dieser Seite zurückzukehren ohne Daten zu senden."
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:47
-msgid "incorrect"
-msgstr "falsch"
-
-#: xmodule/js/src/problem/edit.js:35 xmodule/js/src/problem/edit.js:38
-#: xmodule/js/src/problem/edit.js:47
-msgid "correct"
-msgstr "richtig"
-
-#: xmodule/js/src/problem/edit.js:41 xmodule/js/src/problem/edit.js:44
-msgid "answer"
-msgstr "beantworten"
-
-#: xmodule/js/src/problem/edit.js:53
-msgid "Short explanation"
-msgstr "kurze Erklärung"
-
-#: xmodule/js/src/problem/edit.js:120
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-"Wenn Sie den erweiterten Editor verwenden, wird diese Aufgabe in XML umgewandelt und Sie können nicht zur einfachen Editor-Oberfläche zurückkehren.\n"
-"\n"
-"Fahren Sie mit dem erweiterten Editor fort und konvertieren Sie diese Aufgabe in XML?"
-
-#: xmodule/js/src/problem/edit.js:406 xmodule/js/src/problem/edit.js:439
-#: xmodule/js/src/problem/edit.js:502
-msgid ""
-"An answer option has been left blank. Please review and edit the component."
-msgstr ""
-"Eine Antwortoption wurde leer gelassen. Bitte überprüfen und bearbeiten Sie "
-"die Komponente."
-
-#: xmodule/js/src/problem/edit.js:714
-msgid "Explanation"
-msgstr "Erklärung"
 
 #: xmodule/js/src/sequence/display.js:406
 msgid ""
@@ -10375,1289 +10335,3 @@ msgstr "Was soll dies bedeuten?"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
 msgid "Learners are added to this cohort automatically."
 msgstr "Nutzer werden diesem Kohort automatisch zugefügt"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:2
-msgid "Select a cohort"
-msgstr "Wählen Sie einen Kohort"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
-#, python-format
-msgid "%(cohort_name)s (%(user_count)s)"
-msgstr "%(cohort_name)s (%(user_count)s)"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
-msgid "Enable Cohorts"
-msgstr "Kohort aktivieren"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
-msgid "Select a cohort to manage"
-msgstr "Zu verwaltenden Kohort wählen"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
-msgid "View Cohort"
-msgstr "Kohort ansehen"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
-msgid "Assign learners to cohorts by uploading a CSV file"
-msgstr "Nutzern einen Kohort zuweisen, mit hochladen einer CSV-Datei"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
-#, python-brace-format
-msgid ""
-"To review learner cohort assignments or see the results of uploading a CSV "
-"file, download course profile information or cohort results on the "
-"{link_start}Data Download{link_end} page."
-msgstr ""
-"Um die Kohortenzuordnungen der Lernenden zu überprüfen oder die Ergebnisse "
-"des Hochladens einer CSV-Datei zu sehen, laden Sie Kursprofilinformationen "
-"oder Kohortenergebnisse auf der Seite {link_start}Daten-Download{link_end} "
-"herunter."
-
-#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
-msgid "Specify whether discussion topics are divided"
-msgstr "Geben Sie an, ob die Diskussionsthemen aufgeteilt sind"
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
-msgid "Course-Wide Discussion Topics"
-msgstr "Kursweite Diskussionsthemen"
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
-msgid "Select the course-wide discussion topics that you want to divide."
-msgstr ""
-"Wählen Sie die kursweiten Diskussionsthemen aus, die Sie aufteilen möchten."
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
-msgid "Content-Specific Discussion Topics"
-msgstr "Inhalt-Spezifische Diskussion "
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
-msgid "Specify whether content-specific discussion topics are divided."
-msgstr ""
-"Geben Sie an, ob inhaltsspezifische Diskussionsthemen aufgeteilt werden."
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
-msgid "Always divide content-specific discussion topics"
-msgstr "Inhaltsspezifische Diskussionsthemen immer aufteilen"
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
-msgid "Divide the selected content-specific discussion topics"
-msgstr "Die ausgewählte inhaltsspezifischen Diskussionsthemen aufteilen"
-
-#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
-msgid "No content-specific discussion topics exist."
-msgstr "Nicht-Inhalt-Spezifische Diskussion "
-
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:4
-msgid "Used"
-msgstr "benutzt"
-
-#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:5
-msgid "Valid"
-msgstr "Gültig"
-
-#: lms/templates/learner_dashboard/certificate_status.underscore:2
-#: lms/templates/learner_dashboard/upgrade_message.underscore:2
-msgid "Certificate Status:"
-msgstr "Zertifikat Status:"
-
-#: lms/templates/learner_dashboard/certificate_status.underscore:4
-msgid "Certificate Purchased"
-msgstr "Zertifikat gekauft"
-
-#: lms/templates/learner_dashboard/course_card.underscore:21
-msgid "Change or Leave Session"
-msgstr "Sitzung ändern oder verlassen"
-
-#: lms/templates/learner_dashboard/course_card.underscore:29
-#, python-brace-format
-msgid "You must select a session by {expiration_date} to access the course."
-msgstr ""
-"Sie müssen eine Sitzung bis zum Ablaufdatum {expiration_date} auswählen, um "
-"auf den Kurs zugreifen zu können."
-
-#: lms/templates/learner_dashboard/course_card.underscore:33
-msgid "You can no longer change sessions."
-msgstr "Sie können die Sitzung nicht mehr ändern."
-
-#: lms/templates/learner_dashboard/course_card.underscore:35
-#, python-brace-format
-msgid "You can change sessions until {expiration_date}."
-msgstr "Sie können Sitzungen bis zum {expiration_date} ändern."
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:5
-msgid "View Archived Course"
-msgstr "Archivierte Kurse anzeigen"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:7
-msgid "View Course"
-msgstr "Anzeigen"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:15
-msgid "Select a session:"
-msgstr "Wählen Sie eine Sitzung aus:"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:34
-#: lms/templates/learner_dashboard/course_enroll.underscore:38
-msgid "Enroll Now"
-msgstr "Jetzt einschreiben"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:44
-msgid "Coming Soon"
-msgstr "Bald verfügbar"
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:48
-msgid "Enrollment Opens on"
-msgstr "Einschreibung öffnet am "
-
-#: lms/templates/learner_dashboard/course_enroll.underscore:56
-msgid "Not Currently Available"
-msgstr "Momentan nicht verfügbar"
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:4
-msgid "More sessions coming soon."
-msgstr "Weitere Sitzungen folgen in Kürze."
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:7
-msgid "Change to a different session or leave the current session."
-msgstr ""
-"Wechseln Sie zu einer anderen Sitzung oder verlassen Sie die aktuelle "
-"Sitzung."
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:9
-msgid "To access the course, select a session."
-msgstr "Um auf den Kurs zuzugreifen, wählen Sie eine Sitzung aus."
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:15
-#, python-brace-format
-msgid "Session Selection Dropdown for {courseName}"
-msgstr "Dropdown-Liste für die Sitzungsauswahl für {courseName}"
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:19
-#, python-brace-format
-msgid "{sessionDates} - Currently Selected"
-msgstr "{sessionDates} - Aktuell ausgewählt"
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:21
-#, python-brace-format
-msgid "{sessionDates} (Open until {enrollmentEnd})"
-msgstr "{sessionDates} (geöffnet bis {enrollmentEnd})"
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:27
-msgid "More sessions coming soon"
-msgstr "Weitere Sitzungen folgen in Kürze"
-
-#: lms/templates/learner_dashboard/course_entitlement.underscore:28
-msgid "Leave the current session and decide later"
-msgstr "Aktuelle Sitzung verlassen und später entscheiden"
-
-#: lms/templates/learner_dashboard/empty_programs_list.underscore:2
-msgid "You are not enrolled in any programs yet."
-msgstr "Sie sind bisher in keinem Programm eingeschrieben."
-
-#: lms/templates/learner_dashboard/empty_programs_list.underscore:5
-msgid "Explore Programs"
-msgstr "Nach Programmen suchen"
-
-#: lms/templates/learner_dashboard/explore_new_programs.underscore:2
-msgid ""
-"Browse recently launched courses and see what\\'s new in your favorite "
-"subjects"
-msgstr "Neue Kurse durchsuchen"
-
-#: lms/templates/learner_dashboard/explore_new_programs.underscore:6
-msgid "Explore new programs"
-msgstr "Entdecken Sie neue Programme"
-
-#: lms/templates/learner_dashboard/program_card.underscore:16
-#: lms/templates/learner_dashboard/program_card.underscore:24
-#: lms/templates/learner_dashboard/program_card.underscore:32
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
-msgid "Course"
-msgid_plural "Courses"
-msgstr[0] "Kurs"
-msgstr[1] "Kurse"
-
-#: lms/templates/learner_dashboard/program_card.underscore:18
-msgid "Completed"
-msgstr "Abgeschlossen"
-
-#: lms/templates/learner_dashboard/program_card.underscore:34
-msgid "Remaining"
-msgstr "Verblieben"
-
-#: lms/templates/learner_dashboard/program_card.underscore:60
-#, python-format
-msgid "%(programName)s Home Page."
-msgstr "%(programName)s Home Page."
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
-#, python-brace-format
-msgid "Your {program} Certificate"
-msgstr "Ihr {program} Zertifikat"
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
-#, python-format
-msgid "Open the certificate you earned for the %(title)s program."
-msgstr ""
-"Öffnen Sie das Zertifikat, welches Sie für den Kurs %(title)s erhalten "
-"haben."
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
-msgid "Program Record"
-msgstr "Programmprotokoll"
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
-msgid ""
-"Once you complete one of the program requirements you have a program record."
-" This record is marked complete once you meet all program requirements. A "
-"program record can be used to continue your learning journey and demonstrate"
-" your learning to others."
-msgstr ""
-"Sobald Sie eine der Programmanforderungen erfüllt haben, haben Sie eine "
-"Programmaufzeichnung. Dieser Datensatz wird als vollständig markiert, wenn "
-"Sie alle Programmanforderungen erfüllen. Ein Programmprotokoll kann "
-"verwendet werden, um Ihre Lernreise fortzusetzen und anderen Ihren "
-"Lernfortschritt zu demonstrieren."
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
-msgid "View Program Record"
-msgstr "Programmprotokoll einsehen"
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:27
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:120
-msgid "Additional Credit Opportunities"
-msgstr "Zusätzliche Möglichkeiten für Credits"
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:41
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:67
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:143
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:172
-msgid "Learn More"
-msgstr "Lerne mehr"
-
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:53
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:157
-msgid "Additional Professional Opportunities"
-msgstr "Zusätzliche professionelle Möglichkeiten"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:33
-#: lms/templates/learner_dashboard/program_details_view.underscore:8
-msgid "Congratulations!"
-msgstr "Glückwunsch!"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:35
-#: lms/templates/learner_dashboard/program_details_view.underscore:10
-#, python-format
-msgid ""
-"You have successfully completed all the requirements for the %(title)s "
-"%(type)s."
-msgstr ""
-"Sie haben alle Anforderungen für %(title)s %(type)s erfolgreich erfüllt."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:40
-#: lms/templates/learner_dashboard/program_details_view.underscore:15
-msgid "Your Program Journey"
-msgstr "Ihr Programmverlauf"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:43
-#, python-format
-msgid ""
-"Track and plan your progress through the %(count)s course(s) in this "
-"program. To complete the program, you must earn a verified certificate for "
-"each course."
-msgstr ""
-"Verfolgen und planen Sie Ihren Fortschritt durch die %(count)s-Kurse in "
-"diesem Programm. Um das Programm abzuschließen, müssen Sie für jeden Kurs "
-"ein verifiziertes Zertifikat erwerben."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
-#: lms/templates/learner_dashboard/program_details_view.underscore:28
-msgid "Upgrade All Remaining Courses ("
-msgstr "Upgraden Sie alle übrigen Kurse ("
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
-#: lms/templates/learner_dashboard/program_details_view.underscore:32
-#, python-brace-format
-msgid "${listPrice}"
-msgstr "${listPrice}"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
-#: lms/templates/learner_dashboard/program_details_view.underscore:38
-#, python-brace-format
-msgid " ${price} {currency} )"
-msgstr " ${price} {currency} )"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:73
-#: lms/templates/learner_dashboard/program_details_view.underscore:49
-msgid "COURSES IN PROGRESS"
-msgstr "LAUFENDE KURSE"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:82
-#: lms/templates/learner_dashboard/program_details_view.underscore:58
-msgid "REMAINING COURSES"
-msgstr "VERBLEIBENDE KURSE"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
-#: lms/templates/learner_dashboard/program_details_view.underscore:66
-msgid "COMPLETED COURSES"
-msgstr "ABGESCHLOSSENE KURSE"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:97
-#: lms/templates/learner_dashboard/program_details_view.underscore:73
-msgid "As you complete courses, you will see them listed here."
-msgstr "Wenn Sie Kurse absolvieren, werden Sie diese hier aufgelistet sehen."
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
-#: lms/templates/learner_dashboard/program_details_view.underscore:74
-msgid ""
-"Complete courses on your schedule to ensure you stand out in your field!"
-msgstr ""
-"Absolvieren Sie Kurse nach Ihrem Zeitplan, um sicherzustellen, dass Sie in "
-"Ihrem Bereich herausstechen!"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
-#, python-format
-msgid "Transform your %(org)s %(type)s into a full master’s degree"
-msgstr ""
-"Verwandeln Sie Ihren %(org)s %(type)s in einen vollständigen Master-"
-"Abschluss"
-
-#: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
-#, python-format
-msgid ""
-"Successful completion of %(org)s %(program)s credential can be applied "
-"towards flexible, rigorous, and affordable masters degrees from the world’s "
-"leading universities."
-msgstr ""
-"Der erfolgreiche Abschluss des %(org)s %(program)s-Zertifikats kann für "
-"flexible, anspruchsvolle und erschwingliche Masterabschlüsse an den weltweit"
-" führenden Universitäten angewendet werden."
-
-#: lms/templates/learner_dashboard/program_details_view.underscore:18
-#, python-format
-msgid ""
-"Track and plan your progress through the %(count)s courses in this program. "
-"To complete the program, you must earn a verified certificate for each "
-"course."
-msgstr ""
-"Verfolgen und planen Sie Ihre Fortschritte in den %(count)s-Kursen dieses "
-"Programms. Um das Programm abzuschließen, müssen Sie für jeden Kurs ein "
-"verifiziertes Zertifikat erwerben."
-
-#: lms/templates/learner_dashboard/program_header_view.underscore:15
-#, python-brace-format
-msgid "{organization}\\'s logo"
-msgstr "{organization}\\'s Logo"
-
-#: lms/templates/learner_dashboard/program_list_header_view.underscore:1
-msgid "My programs"
-msgstr "Meine Programme"
-
-#: lms/templates/learner_dashboard/upgrade_message.underscore:3
-msgid "Needs verified certificate "
-msgstr "Benötigt ein verifiziertes Zertifikat"
-
-#: lms/templates/learner_dashboard/upgrade_message.underscore:9
-msgid "Upgrade to Verified"
-msgstr "Upgrade auf Verifiziert"
-
-#: lms/templates/student_account/account.underscore:2
-msgid "New Address"
-msgstr "Neue Adresse"
-
-#: lms/templates/student_account/account.underscore:6
-msgid "Password"
-msgstr "Passwort"
-
-#: lms/templates/student_account/account.underscore:11
-msgid "Change My Email Address"
-msgstr "Meine E-Mail-Adresse ändern"
-
-#: lms/templates/student_account/account.underscore:16
-msgid "Reset Password"
-msgstr "Passwort zurücksetzen"
-
-#: lms/templates/student_account/form_field.underscore:139
-msgid "Need help signing in?"
-msgstr "Brauchen Sie Hilfe bei der Anmeldung?"
-
-#: lms/templates/student_account/form_field.underscore:141
-msgid "Forgot my password"
-msgstr "Passwort vergessen"
-
-#: lms/templates/student_account/form_field.underscore:143
-#: lms/templates/student_account/form_field.underscore:157
-msgid "Other sign-in issues"
-msgstr "Andere Probleme beim Anmelden"
-
-#: lms/templates/student_account/form_field.underscore:147
-msgid "Sign in with your company or school"
-msgstr "Über Ihr Unternehmen oder Schule anmelden"
-
-#: lms/templates/student_account/form_field.underscore:151
-msgid "Need other help signing in?"
-msgstr "Brauchen Sie weitere Hilfe bei der Anmeldung?"
-
-#: lms/templates/student_account/form_field.underscore:154
-msgid "Create an account"
-msgstr "Neues Konto erstellen"
-
-#: lms/templates/student_account/hinted_login.underscore:4
-#: lms/templates/student_account/login.underscore:56
-msgid "Sign in"
-msgstr "Anmelden"
-
-#: lms/templates/student_account/hinted_login.underscore:8
-#, python-format
-msgid "Would you like to sign in using your %(providerName)s credentials?"
-msgstr ""
-"Würden Sie sich gerne mit Ihren %(providerName)s Zugangsdaten anmelden?"
-
-#: lms/templates/student_account/hinted_login.underscore:16
-#, python-format
-msgid "Sign in using %(providerName)s"
-msgstr "Melden Sie sich über %(providerName)s an"
-
-#: lms/templates/student_account/hinted_login.underscore:26
-msgid "Show me other ways to sign in or register"
-msgstr "Andere Möglichkeiten für die Anmeldung oder Registrierung"
-
-#: lms/templates/student_account/institution_login.underscore:4
-msgid "Sign in with Institution/Campus Credentials"
-msgstr "Anmelden mit Institution/Campus Zugangsdaten"
-
-#: lms/templates/student_account/institution_login.underscore:8
-#: lms/templates/student_account/institution_register.underscore:9
-msgid "Choose your institution from the list below:"
-msgstr "Wählen Sie Ihre Institution aus der untenstehenden Liste aus:"
-
-#: lms/templates/student_account/institution_login.underscore:27
-msgid "Back to sign in"
-msgstr "Zurück zum Einloggen"
-
-#: lms/templates/student_account/institution_register.underscore:5
-msgid "Register with Institution/Campus Credentials"
-msgstr "Registrieren mit Institution/Campus Zugangsdaten"
-
-#: lms/templates/student_account/institution_register.underscore:28
-#: lms/templates/student_account/register.underscore:50
-msgid "Create an Account"
-msgstr "Einen Account erstellen"
-
-#: lms/templates/student_account/login.underscore:6
-msgid "First time here?"
-msgstr "Zum ersten Mal hier?"
-
-#: lms/templates/student_account/login.underscore:7
-msgid "Create an Account."
-msgstr "Einen Account erstellen."
-
-#: lms/templates/student_account/login.underscore:14
-#, python-brace-format
-msgid "Sign in to continue learning as {email}"
-msgstr "Melden Sie sich an, um als {email} fortzufahren"
-
-#: lms/templates/student_account/login.underscore:16
-msgid "Sign in to continue learning"
-msgstr "Melden Sie sich an, um das Lernen fortzusetzen"
-
-#: lms/templates/student_account/login.underscore:19
-#, python-brace-format
-msgid ""
-"You already have an edX account with your {enterprise_name} email address."
-msgstr ""
-"Sie haben bereits ein edX Account mit dieser {enterprise_name} E-Mail "
-"Adresse."
-
-#: lms/templates/student_account/login.underscore:21
-#, python-brace-format
-msgid ""
-"Going forward, your account information will be updated and maintained by "
-"{enterprise_name}."
-msgstr ""
-"In Zukunft werden Ihre Kontoinformationen von {enterprise_name} aktualisiert"
-" und gepflegt."
-
-#: lms/templates/student_account/login.underscore:23
-#, python-brace-format
-msgid ""
-"You can view your information or unlink from {enterprise_name} anytime in "
-"your Account Settings."
-msgstr ""
-"Sie können Ihre Informationen oder den Link von {enterprise_name} jederzeit "
-"in Ihren Kontoeinstellungen einsehen."
-
-#: lms/templates/student_account/login.underscore:25
-msgid "To continue learning with this account, sign in below."
-msgstr "Um mit diesem Konto weiter zu lernen, melden Sie sich unten an."
-
-#: lms/templates/student_account/login.underscore:27
-msgid "Sign In"
-msgstr "Anmelden"
-
-#: lms/templates/student_account/login.underscore:34
-msgid ""
-"Sign in here using your email address and password, or use one of the "
-"providers listed below."
-msgstr ""
-"Um sich anzumelden, nutzen Sie bitte Ihre E-Mail Adresse und das Passwort "
-"oder nutzen Sie einen der gelisteten Provider."
-
-#: lms/templates/student_account/login.underscore:36
-msgid "Sign in here using your email address and password."
-msgstr ""
-"Um sich anzumelden nutzen Sie bitte Ihre E-Mail Adresse und Ihr Passwort"
-
-#: lms/templates/student_account/login.underscore:38
-msgid "If you do not yet have an account, use the button below to register."
-msgstr ""
-"Wenn Sie noch kein Account haben, nutzen Sie den unteren Button, um sich zu "
-"registrieren."
-
-#: lms/templates/student_account/login.underscore:43
-msgid "Use my university info"
-msgstr "Meine Universitätsinformationen verwenden"
-
-#: lms/templates/student_account/login.underscore:48
-#: lms/templates/student_account/login.underscore:63
-msgid "or sign in with"
-msgstr "oder einloggen mit"
-
-#: lms/templates/student_account/login.underscore:76
-#, python-format
-msgid "Sign in with %(providerName)s"
-msgstr "Melden Sie sich über %(providerName)s an"
-
-#: lms/templates/student_account/password_reset.underscore:4
-msgid "Password assistance"
-msgstr "Passwort Hilfe"
-
-#: lms/templates/student_account/password_reset.underscore:8
-msgid ""
-"Please enter your log-in or recovery email address below and we will send "
-"you an email with instructions."
-msgstr ""
-"Bitte geben Sie unten Ihre Anmelde- oder Wiederherstellungs-E-Mail-Adresse "
-"ein und wir senden Ihnen eine E-Mail mit Anweisungen."
-
-#: lms/templates/student_account/password_reset.underscore:12
-msgid "Recover my password"
-msgstr "Mein Passwort wiederherstellen"
-
-#: lms/templates/student_account/register.underscore:6
-#, python-brace-format
-msgid "Already have an {platformName} account?"
-msgstr "Haben Sie bereits einen {platformName} Account?"
-
-#: lms/templates/student_account/register.underscore:7
-msgid "Sign in."
-msgstr "Anmelden"
-
-#: lms/templates/student_account/register.underscore:18
-msgid "Create an account using"
-msgstr "Einen Account erstellen"
-
-#: lms/templates/student_account/register.underscore:31
-#, python-format
-msgid "Create account using %(providerName)s."
-msgstr "Erstelle ein Konto mit  %(providerName)s."
-
-#: lms/templates/student_account/register.underscore:38
-msgid "Use my institution/campus credentials"
-msgstr "Nutze meine Institutions/Campus Nutzerdaten"
-
-#: lms/templates/student_account/register.underscore:45
-msgid "or create a new one here"
-msgstr "oder erstelle ein neues hier."
-
-#: lms/templates/student_account/register.underscore:63
-msgid "Support education research by providing additional information"
-msgstr ""
-"Hilf uns, unsere Lernplattform zu verbessern, indem Du uns weitere "
-"Informationen gibst."
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:3
-#, python-format
-msgid "Congratulations! You are now verified on %(platformName)s!"
-msgstr "Herzlichen Glückwunsch! Sie sind nun überprüft auf %(platformName)s!"
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
-msgid "You are now enrolled as a verified student for:"
-msgstr "Sie sind nun als überprüfter Student angemeldet für:"
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
-msgid "A list of courses you have just enrolled in as a verified student"
-msgstr ""
-"Eine Liste von Kurse für die Sie sich eben als überprüfter Student "
-"registriert haben."
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
-msgid "Explore your course!"
-msgstr "Erkunde ihr Kurs!"
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
-msgid "Go to your Dashboard"
-msgstr "Zu \"Meine Kurse\""
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:46
-msgid "Verified Status"
-msgstr "Geprüfter Status"
-
-#: lms/templates/verify_student/enrollment_confirmation_step.underscore:48
-#, python-format
-msgid ""
-"Thank you for submitting your photos. We will review them shortly. You can "
-"now sign up for any %(platformName)s course that offers verified "
-"certificates. Verification is good for one year. After one year, you must "
-"submit photos for verification again."
-msgstr ""
-"Danke für das Einsenden ihre Fotos. Wir werden diese zeitnah prüfen. Sie "
-"können sich jetzt für jeden von %(platformName)s Kurse mit geprüftem "
-"Zertifikat anmelden. Ihre Überprüfung ist gültig für ein Jahr. Nach einem "
-"Jahr müssen Sie ihre Fotos wieder zur Überprüfungeinsenden. "
-
-#: lms/templates/verify_student/error.underscore:6
-msgid "Error:"
-msgstr "Fehler:"
-
-#: lms/templates/verify_student/face_photo_step.underscore:4
-msgid "What You Need for Verification"
-msgstr "Was du zur Verifizierung benötigst"
-
-#: lms/templates/verify_student/face_photo_step.underscore:6
-msgid "Device with Camera"
-msgstr "Gerät mit Kamera"
-
-#: lms/templates/verify_student/face_photo_step.underscore:7
-msgid ""
-"You need a device that has a webcam. If you receive a browser prompt for "
-"access to your camera, please make sure to click 'Allow'."
-msgstr ""
-"Sie benötigen ein Gerät, welches über eine Webcam verfügt.  Wenn Sie eine "
-"Browser-Eingabeaufforderung für den Zugriff auf Ihre Kamera erhalten, "
-"stellen Sie bitte sicher, dass Sie auf 'Zulassen' klicken. "
-
-#: lms/templates/verify_student/face_photo_step.underscore:10
-msgid "Photo Identification"
-msgstr "Fotoidentifikation"
-
-#: lms/templates/verify_student/face_photo_step.underscore:11
-msgid "You need a valid ID that contains your full name and photo."
-msgstr ""
-"Sie benötigen eine gültige ID, welche Ihren vollständigen Namen und ein Foto"
-" zeigt."
-
-#: lms/templates/verify_student/face_photo_step.underscore:17
-#: lms/templates/verify_student/incourse_reverify.underscore:3
-msgid "Take Your Photo"
-msgstr "Nehmen Sie ihr Foto auf"
-
-#: lms/templates/verify_student/face_photo_step.underscore:19
-#, python-brace-format
-msgid ""
-"When your face is in position, use the Take Photo button {icon} below to "
-"take your photo."
-msgstr ""
-"Wenn Ihr Gesicht in Position ist, klicken Sie auf die Schaltfläche des "
-"Auslösers {icon} unten, um ein Foto aufzunehmen."
-
-#: lms/templates/verify_student/face_photo_step.underscore:25
-msgid "To take a successful photo, make sure that:"
-msgstr "Um ein erfolgreiches Bild zu machen, stell sicher dass:"
-
-#: lms/templates/verify_student/face_photo_step.underscore:29
-msgid "Your face is well-lit."
-msgstr "Dein Gesicht ist gut beleuchtet."
-
-#: lms/templates/verify_student/face_photo_step.underscore:30
-msgid "Your entire face fits inside the frame."
-msgstr "Dein ganzes Gesicht passt in den Rahmen."
-
-#: lms/templates/verify_student/face_photo_step.underscore:33
-#, python-brace-format
-msgid ""
-"To take the photo of your face, click on the camera button {icon}. If you "
-"need to try again, click 'Retake Photo'."
-msgstr ""
-"Um ein Foto von Ihrem Gesicht zu machen, klicken Sie auf den Kamera Button "
-"{icon}. Wenn Sie ein neues Foto aufnehmen möchten, klicken Sie auf 'Foto "
-"erneut aufnehmen'."
-
-#: lms/templates/verify_student/face_photo_step.underscore:38
-#: lms/templates/verify_student/id_photo_step.underscore:30
-#: lms/templates/verify_student/incourse_reverify.underscore:29
-msgid "Frequently Asked Questions"
-msgstr "Häufig gestellte Fragen"
-
-#: lms/templates/verify_student/face_photo_step.underscore:42
-#: lms/templates/verify_student/id_photo_step.underscore:35
-#: lms/templates/verify_student/incourse_reverify.underscore:33
-#, python-format
-msgid "Why does %(platformName)s need my photo?"
-msgstr "Wieso braucht %(platformName)s mein Foto?"
-
-#: lms/templates/verify_student/face_photo_step.underscore:44
-msgid ""
-"We use your verification photos to confirm your identity and ensure the "
-"validity of your certificate."
-msgstr ""
-"Wir nutzen Ihre Fotos , um Ihre Identität zu bestätigen und die Gültigkeit "
-"Ihres Zertifikates zu grantieren."
-
-#: lms/templates/verify_student/face_photo_step.underscore:46
-#: lms/templates/verify_student/id_photo_step.underscore:41
-#: lms/templates/verify_student/incourse_reverify.underscore:37
-#, python-format
-msgid "What does %(platformName)s do with this photo?"
-msgstr "Was macht %(platformName)s mit dieses Foto?"
-
-#: lms/templates/verify_student/face_photo_step.underscore:49
-#: lms/templates/verify_student/id_photo_step.underscore:44
-#, python-format
-msgid ""
-"We securely encrypt your photo and send it to our authorization service for "
-"review. Your photo and information are not saved or visible anywhere on "
-"%(platformName)s after the verification process is complete."
-msgstr ""
-"Wir verschlüsseln Ihr Foto sicher und senden es zur Überprüfung an unsere "
-"autorisierten Mitarbeiter. Ihr Foto und Ihre Informationen werden nach "
-"Abschluss des Verifizierungsprozesses nicht auf "
-"der%(platformName)sgespeichert oder veröffentlicht."
-
-#: lms/templates/verify_student/face_photo_step.underscore:52
-#: lms/templates/verify_student/id_photo_step.underscore:47
-#: lms/templates/verify_student/incourse_reverify.underscore:43
-msgid ""
-"What if I can't see the camera image, or if I can't see my photo do "
-"determine which side is visible?"
-msgstr "Was, wenn ich mein Kamerabild  oder mein Foto nicht sehen kann?"
-
-#: lms/templates/verify_student/face_photo_step.underscore:55
-#: lms/templates/verify_student/incourse_reverify.underscore:46
-msgid ""
-"You may be able to complete the image capture procedure without assistance, "
-"but it may take a couple of submission attempts to get the camera "
-"positioning right.  Optimal camera positioning varies with each computer, "
-"but generally the best position for a headshot is approximately 12-18 inches"
-" (30-45 centimeters) from the camera, with your head centered relative to "
-"the computer screen. "
-msgstr ""
-"Möglicherweise können Sie den Bildaufnahmevorgang ohne Unterstützung "
-"abschließen, aber es kann einige Versuche dauern, die Kamera richtig zu "
-"positionieren. Die optimale Kamerapositionierung variiert von Computer zu "
-"Computer, aber im Allgemeinen ist die beste Position für eine Kopfaufnahme "
-"etwa 30-45 Zentimeter (12-18 Zoll) von der Kamera entfernt, wobei der Kopf "
-"zum Computerbildschirm zentriert ist. "
-
-#: lms/templates/verify_student/face_photo_step.underscore:56
-#: lms/templates/verify_student/id_photo_step.underscore:51
-#: lms/templates/verify_student/incourse_reverify.underscore:47
-msgid ""
-"If the photos you submit are rejected, try moving the computer or camera "
-"orientation to change the lighting angle.  The most common reason for "
-"rejection is inability to read the text on the ID card."
-msgstr ""
-"Wenn die von Ihnen eingereichten Fotos abgelehnt werden, versuchen Sie, die "
-"Ausrichtung des Computers oder der Kamera zu ändern, um den "
-"Beleuchtungswinkel zu ändern. Der häufigste Grund für die Ablehnung ist, "
-"wenn der Text auf dem Ausweis unlesbar ist."
-
-#: lms/templates/verify_student/face_photo_step.underscore:59
-#: lms/templates/verify_student/incourse_reverify.underscore:50
-msgid ""
-"What if I have difficulty holding my head in position relative to the "
-"camera?"
-msgstr ""
-"Was, wenn ich Schwierigkeiten habe, meinen Kopf in der richtigen Position "
-"zur Kamera zu halten?"
-
-#: lms/templates/verify_student/face_photo_step.underscore:62
-#: lms/templates/verify_student/id_photo_step.underscore:57
-#: lms/templates/verify_student/incourse_reverify.underscore:53
-#, python-format
-msgid ""
-"If you require assistance with taking either photo for submission, contact "
-"%(platformName)s support for additional suggestions."
-msgstr ""
-"Wenn Sie Hilfe bei der Aufnahme oder Einreichung der Fotos benötigen, "
-"kontaktieren Sie den %(platformName)s Support."
-
-#: lms/templates/verify_student/face_photo_step.underscore:77
-#: lms/templates/verify_student/id_photo_step.underscore:69
-#: lms/templates/verify_student/intro_step.underscore:80
-#, python-format
-msgid "Next: %(nextStepTitle)s"
-msgstr "Kommend: %(nextStepTitle)s"
-
-#: lms/templates/verify_student/id_photo_step.underscore:3
-msgid "Take a Photo of Your ID"
-msgstr "Nehmen Sie ein Foto von ihr Ausweis"
-
-#: lms/templates/verify_student/id_photo_step.underscore:5
-msgid "Use your webcam to take a photo of your ID."
-msgstr "Nutzen Sie Ihre Webcam, um ein Foto Ihrer ID zu machen."
-
-#: lms/templates/verify_student/id_photo_step.underscore:13
-msgid ""
-"You need an ID with your name and photo. A driver's license, passport, or ID"
-" are all acceptable."
-msgstr ""
-"Sie benötigen einen amtlichen Lichtbildausweis mit Ihrem vollständigen "
-"Namen. Ein Führerschein, Pass oder ein Personalausweis werden akzeptiert"
-
-#: lms/templates/verify_student/id_photo_step.underscore:15
-#: lms/templates/verify_student/incourse_reverify.underscore:13
-msgid "Tips on taking a successful photo"
-msgstr "Tipps zum erfolgreichem Aufnehmen eines Bildes"
-
-#: lms/templates/verify_student/id_photo_step.underscore:19
-msgid "Ensure that you can see your photo and read your name"
-msgstr ""
-"Vergewissere dich, dass du dein Foto sehen und deinen Namen lesen kannst."
-
-#: lms/templates/verify_student/id_photo_step.underscore:20
-msgid "Make sure your ID is well-lit"
-msgstr "Stelle sicher, dass Dein Ausweis gut ausgeleuchtet ist."
-
-#: lms/templates/verify_student/id_photo_step.underscore:22
-#, python-brace-format
-msgid "Once in position, use the Take Photo button {icon} to capture your ID"
-msgstr ""
-"Sobald Sie in Postition sind, benuzten Sie den Auslöser {icon} um ihren "
-"Ausweis zu fotografieren"
-
-#: lms/templates/verify_student/id_photo_step.underscore:24
-#: lms/templates/verify_student/incourse_reverify.underscore:23
-msgid "Use the Retake Photo button if you are not pleased with your photo"
-msgstr ""
-"Nutzen Sie den Wiederholungsknopf, wenn Sie unzufrieden mit Ihrer Aufnahme "
-"sind."
-
-#: lms/templates/verify_student/id_photo_step.underscore:38
-msgid ""
-"As part of the verification process, you take a photo of both your face and "
-"a photo ID. Our authorization service confirms your identity by comparing "
-"the photo you take with the photo on your ID."
-msgstr ""
-"Als Teil des Verifizierungsprozesses machen Sie ein Foto von Ihrem Gesicht "
-"und von Ihrem amtlichen Lichtbildausweis. Unsere Mitarbeiter bestätigen Ihre"
-" Identität, indem sie das von Ihnen gemachte Foto mit dem Foto auf Ihrem "
-"Ausweis vergleicht."
-
-#: lms/templates/verify_student/id_photo_step.underscore:50
-msgid ""
-"You may be able to complete the image capture procedure without assistance, "
-"but it may take a couple of submission attempts to get the camera "
-"positioning right.  Optimal camera positioning varies with each computer, "
-"but generally, the best position for a photo of an ID card is 8-12 inches "
-"(20-30 centimeters) from the camera, with the ID card centered relative to "
-"the camera. "
-msgstr ""
-"Möglicherweise können Sie den Bildaufnahmevorgang ohne Unterstützung "
-"abschließen, aber es kann einige Versuche dauern, die Kamera richtig zu "
-"positionieren. Die optimale Kamerapositionierung variiert von Computer zu "
-"Computer, aber im Allgemeinen ist die beste Position für eine "
-"Ausweisaufnahme etwa 20-30 Zentimeter (8-12 Zoll) von der Kamera entfernt, "
-"wobei der Ausweis zum Computerbildschirm zentriert ist. "
-
-#: lms/templates/verify_student/id_photo_step.underscore:54
-msgid ""
-"What if I have difficulty holding my ID in position relative to the camera?"
-msgstr ""
-"Was, wenn ich Schwierigkeiten habe, meinen Ausweis in der richtigen Position"
-" zur Kamera zu halten?"
-
-#: lms/templates/verify_student/image_input.underscore:1
-msgid "Preview of uploaded image"
-msgstr "Vorshau von das Hochgeladenes Bild"
-
-#: lms/templates/verify_student/image_input.underscore:3
-msgid "Upload an image or capture one with your web or phone camera."
-msgstr ""
-"Bitte laden Sie ein Bild hoch oder nehmen Sie ein Foto mit ihr webcam oder "
-"Handy."
-
-#: lms/templates/verify_student/incourse_reverify.underscore:5
-msgid ""
-"Use your webcam to take a photo of your face. We will match this photo with "
-"the photo on your ID."
-msgstr ""
-"Benutze ihre Webcam um ein Foto von ihren Gesicht aufzunehmen damit wir "
-"dieses mit dem Foto ihres Ausweises abgleichen können."
-
-#: lms/templates/verify_student/incourse_reverify.underscore:17
-msgid "Make sure your face is well-lit"
-msgstr "Vergewissere dich, dass dein Gesicht gut ausgeleuchtet ist"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:18
-msgid "Be sure your entire face is inside the frame"
-msgstr "Vergewissere dich, dass dein ganzes Gesicht im Bildrahmen ist"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:20
-#, python-brace-format
-msgid ""
-"Once in position, use the Take Photo button {icon} to capture your photo"
-msgstr ""
-"Sobald Sie in Postition sind, benuzten Sie den Auslöser {icon} um zu "
-"fotografieren"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:22
-msgid "Can we match the photo you took with the one on your ID?"
-msgstr ""
-"Dürfen wir das von dir gemachte Foto mit dem aus deinem Identitätsnachweis "
-"vergleichen?"
-
-#: lms/templates/verify_student/incourse_reverify.underscore:35
-msgid ""
-"As part of the verification process, you take a photo of both your face and "
-"a government-issued photo ID. Our authorization service confirms your "
-"identity by comparing the photo you take with the photo on your ID."
-msgstr ""
-"Als teil unsere Überprüfung Prozess brauchen wir ein Foto von ihr Gesicht "
-"und ein Bildausweis mit amtlichen Licht. Unser Autorisierungsdienst "
-"bestätigt ihre Identität durch das vergleichen von beide Fotos."
-
-#: lms/templates/verify_student/incourse_reverify.underscore:40
-#, python-format
-msgid ""
-"We use the highest levels of security available to encrypt your photo and "
-"send it to our authorization service for review. Your photo and information "
-"are not saved or visible anywhere on %(platformName)s after the verification"
-" process is complete."
-msgstr ""
-"Wir verwenden die höchste Sicherheit zur Verfügung um das Foto zu "
-"verschlüsseln und senden es an unsere Autorisierungsdienst für Kritik. Ihre "
-"Fotos und Daten sind nicht gespeichert und auch nicht sichtbar auf "
-"%(platformName)s nach das Überprüfung Prozess."
-
-#: lms/templates/verify_student/intro_step.underscore:6
-#, python-brace-format
-msgid "Thanks for returning to verify your ID in: {courseName}"
-msgstr ""
-"Vielen Dank für Ihre Rückkehr zur Bestätigung Ihrer Identität für: "
-"{courseName}"
-
-#: lms/templates/verify_student/intro_step.underscore:19
-msgid ""
-"You need to activate your account before you can enroll in courses. Check "
-"your inbox for an activation email. After you complete activation you can "
-"return and refresh this page."
-msgstr ""
-"Vor Sie sich in Kurse eingeladen können, müssen Sie ihr Konto aktivieren. "
-"Kontrollieren Sie ihr Posteingang für das Aktivierungsmail. Nach Sie ihre "
-"Aktivierung bestätigen, können Sie diese Seite neuladen."
-
-#: lms/templates/verify_student/intro_step.underscore:31
-msgid "Activate Your Account"
-msgstr "Aktivieren Sie Ihr Konto"
-
-#: lms/templates/verify_student/intro_step.underscore:45
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
-msgid "Photo ID"
-msgstr "Fotokennung"
-
-#: lms/templates/verify_student/intro_step.underscore:53
-msgid ""
-"A driver's license, passport, or other government-issued ID with your name "
-"and photo"
-msgstr ""
-"Ein Führerschein, Reisepass, oder ein anderes Bildausweis mit amtliches "
-"Licht"
-
-#: lms/templates/verify_student/intro_step.underscore:61
-#: lms/templates/verify_student/make_payment_step.underscore:77
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:105
-msgid "Webcam"
-msgstr "Webcam"
-
-#: lms/templates/verify_student/make_payment_step.underscore:6
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
-#, python-brace-format
-msgid "You are enrolling in: {courseName}"
-msgstr "Sie haben sich eingeschrieben für: {courseName}"
-
-#: lms/templates/verify_student/make_payment_step.underscore:17
-#, python-brace-format
-msgid "You are upgrading your enrollment for: {courseName}"
-msgstr "Sie upgraden Ihre Einschreibung für: {courseName}"
-
-#: lms/templates/verify_student/make_payment_step.underscore:26
-msgid ""
-"You can now enter your payment information and complete your enrollment."
-msgstr ""
-"Sie können jetzt ihre Bezahlungsinformation eingeben und ihre Bewerbung "
-"vervollständigen. "
-
-#: lms/templates/verify_student/make_payment_step.underscore:37
-#, python-brace-format
-msgid ""
-"You can pay now even if you don't have the following items available, but "
-"you will need to have these by {date} to qualify to earn a Verified "
-"Certificate."
-msgstr ""
-"Sie können jetzt bezahlen, auch wenn Sie die folgenden Elemente nicht zur "
-"Verfügung haben, aber Sie müssen diese bis zum {date} haben, um sich für ein"
-" verifiziertes Zertifikat zu qualifizieren."
-
-#: lms/templates/verify_student/make_payment_step.underscore:44
-#, python-brace-format
-msgid ""
-"An email has been sent to {userEmail} with a link for you to activate your "
-"account."
-msgstr ""
-"Eine E-Mail wurde gesendet an: {userEmail} mit einem Link, um Ihren Account "
-"zu aktivieren."
-
-#: lms/templates/verify_student/make_payment_step.underscore:48
-msgid "Why activate?"
-msgstr "Wieso aktivieren?"
-
-#: lms/templates/verify_student/make_payment_step.underscore:50
-msgid ""
-"We ask you to activate your account to ensure it is really you creating the "
-"account and to prevent fraud."
-msgstr ""
-"Wir bitten Sie, Ihr Konto zu aktivieren, um sicherzustellen, dass Sie "
-"wirklich das Konto erstellt haben und um Betrug zu verhindern"
-
-#: lms/templates/verify_student/make_payment_step.underscore:53
-msgid ""
-"You can pay now even if you don't have the following items available, but "
-"you will need to have these to qualify to earn a Verified Certificate."
-msgstr ""
-"Sie können jetzt zahlen, auch wenn Sie nicht die folgenden Elemente zur "
-"Verfügung haben, aber Sie werden sie brauche um ein geprüftes Zertifikat zu "
-"erwerben."
-
-#: lms/templates/verify_student/make_payment_step.underscore:65
-msgid "Government-Issued Photo ID"
-msgstr "Bildausweis mit amtlichen Licht"
-
-#: lms/templates/verify_student/make_payment_step.underscore:92
-msgid ""
-"ID-Verification is not required for this Professional Education course."
-msgstr "ID-Verifikation ist für diesen Kurs nicht erforderlich."
-
-#: lms/templates/verify_student/make_payment_step.underscore:93
-msgid ""
-"All professional education courses are fee-based, and require payment to "
-"complete the enrollment process."
-msgstr ""
-"Alle zertifizierten Kurse sind gegen Bezahlung erhältlich. Dazu müssen Sie "
-"Ihre Bezahlinformationen angeben."
-
-#: lms/templates/verify_student/make_payment_step.underscore:97
-msgid "You have already verified your ID!"
-msgstr "Du hast deine ID bereits verifiziert!"
-
-#: lms/templates/verify_student/make_payment_step.underscore:100
-#, python-brace-format
-msgid "Your verification status is good until {verificationGoodUntil}."
-msgstr "Der Status Ihrer Verifikation ist gut bis {verificationGoodUntil}."
-
-#: lms/templates/verify_student/make_payment_step.underscore:112
-msgid "price"
-msgstr "Preis"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
-msgid "Account Not Activated"
-msgstr "Konto nicht aktiviert"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
-#, python-brace-format
-msgid "Upgrade to a Verified Certificate for {courseName}"
-msgstr "Upgrade auf ein verifiziertes Zertifikat für {courseName}"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
-msgid ""
-"Before you upgrade to a certificate track, you must activate your account."
-msgstr ""
-"Bevor Sie auf einen verifizierten Modus upgraden können, müssen Sie Ihren "
-"Account aktivieren."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
-msgid "Check your email for an activation message."
-msgstr "Überprüfen Sie Ihre E-Mail auf eine Aktivierungsnachricht."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:40
-msgid "Total"
-msgstr "Gesamt"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
-#, python-brace-format
-msgid "Professional Certificate for {courseName}"
-msgstr "Professionelles Zertifikat für {courseName}"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
-#, python-brace-format
-msgid "Verified Certificate for {courseName}"
-msgstr "Verifiziertes Zertifikat für {courseName}"
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
-#, python-brace-format
-msgid ""
-"To receive a certificate, you must also verify your identity before {date}."
-msgstr ""
-"Um ein Zertifikat zu erhalten, müssen Sie auch Ihre Identität verifizieren "
-"vor dem {date}."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
-msgid "To receive a certificate, you must also verify your identity."
-msgstr ""
-"Um ein Zertifikat zu erhalten, müssen Sie auch Ihre Identität verifizieren."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
-msgid ""
-"To verify your identity, you need a webcam and a government-issued photo ID."
-msgstr ""
-"Um Ihre Identität zu verifizieren, benötigen Sie eine Webcam und einen "
-"staatlich ausgestellten Lichtbildausweis."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
-msgid ""
-"Your ID must be a government-issued photo ID that clearly shows your face."
-msgstr ""
-"Ihr Ausweis muss ein staatlich ausgestellter Lichtbildausweis sein, der Ihr "
-"Gesicht deutlich zeigt."
-
-#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
-msgid ""
-"You will use your webcam to take a picture of your face and of your "
-"government-issued photo ID."
-msgstr ""
-"Sie werden Ihre Webcam verwenden, um ein Bild von Ihrem Gesicht und Ihrem "
-"staatlich ausgestellten Lichtbildausweis zu machen."
-
-#: lms/templates/verify_student/reverify_success_step.underscore:2
-msgid "Identity Verification In Progress"
-msgstr "Verifikation Ihrer Identität in Bearbeitung"
-
-#: lms/templates/verify_student/reverify_success_step.underscore:5
-msgid ""
-"We have received your information and are verifying your identity. You will "
-"see a message on your dashboard when the verification process is complete "
-"(usually within 5-7 days). In the meantime, you can still access all "
-"available course content."
-msgstr ""
-"Wir haben Ihre Informationen erhalten und sind dabei, Ihre Identität zu "
-"überprüfen. Sie werden eine Nachricht auf Ihrem Dashboard sehen, wenn der "
-"Verifizierungsprozess abgeschlossen ist (normalerweise innerhalb von 5-7 "
-"Tagen). In der Zwischenzeit können Sie immer noch auf alle verfügbaren "
-"Kursinhalte zugreifen."
-
-#: lms/templates/verify_student/reverify_success_step.underscore:9
-msgid "Return to Your Dashboard"
-msgstr "Zurück zu \"Meine Kurse\""
-
-#: lms/templates/verify_student/review_photos_step.underscore:3
-msgid "Review Your Photos"
-msgstr "Fotos kontrollieren"
-
-#: lms/templates/verify_student/review_photos_step.underscore:5
-msgid ""
-"Make sure we can verify your identity with the photos and information you "
-"have provided."
-msgstr ""
-"Stellen Sie sich sicher, dass wir ihre Identität mit die Informationen und "
-"Fotos die Sie uns zur verfügung gestellt haben bestätigen können."
-
-#: lms/templates/verify_student/review_photos_step.underscore:13
-#, python-format
-msgid "Photo of %(fullName)s"
-msgstr "Foto von %(fullName)s"
-
-#: lms/templates/verify_student/review_photos_step.underscore:18
-#, python-format
-msgid "Photo of %(fullName)s's ID"
-msgstr "Foto von %(fullName)s's Ausweis "
-
-#: lms/templates/verify_student/review_photos_step.underscore:25
-msgid "Photo requirements:"
-msgstr "Fotovoraussetzungen:"
-
-#: lms/templates/verify_student/review_photos_step.underscore:27
-msgid "Does the photo of you show your whole face?"
-msgstr "Zeiget das Foto ihr vollständiges Gesicht?"
-
-#: lms/templates/verify_student/review_photos_step.underscore:28
-msgid "Is your name on your ID readable?"
-msgstr "Ist ihr Name auf ihr Ausweis lesbar?"
-
-#: lms/templates/verify_student/review_photos_step.underscore:29
-#, python-format
-msgid "Does the name on your ID match your account name: %(fullName)s?"
-msgstr "Passt der Name auf ihr Ausweis zu ihr Kontoname: %(fullName)s?"
-
-#: lms/templates/verify_student/review_photos_step.underscore:33
-msgid "Edit Your Name"
-msgstr "Ihren Namen bearbeiten"
-
-#: lms/templates/verify_student/review_photos_step.underscore:38
-msgid ""
-"Make sure that the full name on your account matches the name on your ID."
-msgstr ""
-"Kontrollieren sie das der Name auf ihr Konto zum Name auf ihr Ausweis passt."
-
-#: lms/templates/verify_student/review_photos_step.underscore:50
-msgid "Photos don't meet the requirements?"
-msgstr "Bilder erfüllen nicht die Anforderungen?"
-
-#: lms/templates/verify_student/review_photos_step.underscore:52
-msgid "Retake Your Photos"
-msgstr "Nimm deine Fotos neu auf"
-
-#: lms/templates/verify_student/review_photos_step.underscore:63
-msgid "Before proceeding, please confirm that your details match"
-msgstr ""
-"Bevor du weiter machst, bestätige bitte, dass deine Detailangaben "
-"übereinstimmen"
-
-#: lms/templates/verify_student/webcam_photo.underscore:4
-msgid ""
-"Don't see your picture? Make sure to allow your browser to use your camera "
-"when it asks for permission."
-msgstr ""
-"Wir sehen dein Bild nicht? Vergewissere dich, deinem Browser die Nutzung der"
-" Kamera zu erlauben, wenn er nach der Genehmigung fragt."
-
-#: lms/templates/verify_student/webcam_photo.underscore:7
-msgid "Live view of webcam"
-msgstr "Live-Ansicht von die Webcam"
-
-#: lms/templates/verify_student/webcam_photo.underscore:24
-msgid "Retake Photo"
-msgstr "Foto neu aufnehmen"
-
-#: lms/templates/verify_student/webcam_photo.underscore:28
-msgid "Take Photo"
-msgstr "Bild aufnehmen"
-
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
-msgid "Bookmarked on"
-msgstr "Lesezeichen gesetzt"
-
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
-msgid "You have not bookmarked any courseware pages yet"
-msgstr "Du hast noch keine Lesezeichen hinzugefügt"
-
-#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
-msgid ""
-"Use bookmarks to help you easily return to courseware pages. To bookmark a "
-"page, click \"Bookmark this page\" under the page title."
-msgstr ""
-"Benutze Lesezeichen, um Kursinhalt einfach wieder zu finden. Um ein "
-"Lesezeichen hinzuzufügen, klicken Sie einfach \"Diese Seite merken\" unter "
-"der Überschrift."
-
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
-#, python-brace-format
-msgid "Load next {num_items} result"
-msgid_plural "Load next {num_items} results"
-msgstr[0] "Nächstes {num_items} -Ergebnis laden"
-msgstr[1] "Nächste {num_items} -Ergebnisse laden"
-
-#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
-#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
-msgid "Sorry, no results were found."
-msgstr "Es wurden leider keine Ergebnisse gefunden."

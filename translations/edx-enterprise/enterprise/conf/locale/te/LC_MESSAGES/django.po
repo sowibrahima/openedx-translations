@@ -4,16 +4,15 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Nathan Robertson, 2024
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024\n"
+"PO-Revision-Date: 2026-08-07 10:24+0000\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Telugu (https://app.transifex.com/open-edx/teams/6205/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -589,6 +588,14 @@ msgstr "నమోదు మూసివేయబడింది"
 msgid "Ends"
 msgstr "ముగుస్తుంది"
 
+#: integrated_channels/sap_success_factors/models.py:84
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"గుప్తీకరించిన OAuth క్లయింట్ ఐడెంటిఫైయర్. ఇది డేటాబేస్‌లో నిల్వ "
+"చేయబడినప్పుడు గుప్తీకరించబడుతుంది."
+
 #: integrated_channels/sap_success_factors/models.py:117
 msgid "Base URL of success factors API."
 msgstr "విజయ కారకాల API యొక్క ఆధార URL."
@@ -600,6 +607,14 @@ msgstr "విజయ కారకాలు కంపెనీ ఐడెంటి
 #: integrated_channels/sap_success_factors/models.py:131
 msgid "Success factors user identifier."
 msgstr "విజయ కారకాల వినియోగదారు ఐడెంటిఫైయర్."
+
+#: integrated_channels/sap_success_factors/models.py:140
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"గుప్తీకరించిన OAuth క్లయింట్ రహస్యం. ఇది డేటాబేస్‌లో నిల్వ చేయబడినప్పుడు "
+"గుప్తీకరించబడుతుంది."
 
 #: integrated_channels/sap_success_factors/models.py:173
 msgid "Type of SAP User (admin or user)."
@@ -694,31 +709,31 @@ msgstr "అభ్యాసకులను కోర్సులో నమోద�
 msgid "Course enrollment track"
 msgstr "కోర్సు నమోదు ట్రాక్"
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
 msgid "Audit"
 msgstr "ఆడిట్"
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
 msgid "Verified"
 msgstr "ధృవీకరించబడింది"
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
 msgid "Professional Education"
 msgstr "వృత్తి విద్య"
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
 msgid "Professional Education (no ID)"
 msgstr "వృత్తి విద్య (ID లేదు)"
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
 msgid "Credit"
 msgstr "క్రెడిట్"
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
 msgid "Honor"
 msgstr "గౌరవం"
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
 msgid "Unpaid Executive Education"
 msgstr "చెల్లించని కార్యనిర్వాహక విద్య"
 
@@ -921,7 +936,7 @@ msgstr ""
 "ఈ ఎంటర్‌ప్రైజ్ కస్టమర్ కోసం &quot;Auth org id&quot; ఫీల్డ్ విజయవంతంగా "
 "వ్రాయబడింది."
 
-#: enterprise/api/utils.py:97
+#: enterprise/api/utils.py:357
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -932,7 +947,7 @@ msgstr ""
 " అదనపు గమనికలు:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:104
+#: enterprise/api/utils.py:364
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
@@ -941,7 +956,7 @@ msgstr ""
 "{token_email} నుండి {token_enterprise_name} {token_number_codes} అదనపు "
 "కోడ్‌లను అభ్యర్థించింది. దయచేసి వారిని చేరుకోండి."
 
-#: enterprise/api/utils.py:110
+#: enterprise/api/utils.py:370
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -952,7 +967,7 @@ msgstr ""
 " అదనపు గమనికలు:\n"
 " {token_notes} ."
 
-#: enterprise/api/utils.py:116
+#: enterprise/api/utils.py:376
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
@@ -961,19 +976,19 @@ msgstr ""
 "{token_enterprise_name} నుండి {token_email} అదనపు కోడ్‌లను అభ్యర్థించింది. "
 "దయచేసి వారిని చేరుకోండి."
 
-#: enterprise/api/v1/serializers.py:95
+#: enterprise/api/v1/serializers.py:96
 msgid "Total count of items."
 msgstr "వస్తువుల మొత్తం గణన."
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch next page of items."
 msgstr "అంశాల తదుపరి పేజీని పొందేందుకు URL."
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:98
 msgid "URL to fetch previous page of items."
 msgstr "అంశాల మునుపటి పేజీని పొందేందుకు URL."
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:99
 msgid "List of items."
 msgstr "వస్తువుల జాబితా."
 
@@ -1064,6 +1079,31 @@ msgstr ""
 "ecommerce_api_clientని పొందడానికి, ఈ ప్యాకేజీ తప్పనిసరిగా ఓపెన్ edX "
 "వాతావరణంలో ఇన్‌స్టాల్ చేయబడాలి."
 
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr ""
+"ఏ యూజర్ రోల్ అసైన్‌మెంట్‌లను అప్‌డేట్ చేయాలో పేర్కొంటుంది. పేర్కొనబడకపోతే, "
+"అన్ని పాత్రల కోసం నవీకరించబడుతుంది."
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"ప్రతి బ్యాచ్ అప్‌డేట్‌లలో అప్‌డేట్ చేయాల్సిన యూజర్ రోల్ అసైన్‌మెంట్‌ల సంఖ్య."
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "ఎంటర్‌ప్రైజ్ కస్టమర్ రోల్ అసైన్‌మెంట్‌లను పరిమితం చేయాలి."
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"సెట్ చేస్తే, అప్‌డేట్‌లు లేదా క్రియేట్‌లు జరగవు; బదులుగా సవరించబడిన లేదా "
+"సృష్టించబడిన అసైన్‌మెంట్‌లపై మళ్ళిస్తుంది"
+
 #: enterprise/constants.py:14
 #, python-brace-format
 msgid ""
@@ -1117,7 +1157,7 @@ msgstr ""
 "వేరే {privacy_policy_link_start} గోప్యతా విధానం {privacy_policy_link_end} "
 "కలిగి ఉందని గమనించండి."
 
-#: enterprise/constants.py:88
+#: enterprise/constants.py:92
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -1130,7 +1170,7 @@ msgstr ""
 "జ్ఞానాన్ని అందిస్తాయి మరియు మాస్టర్స్ డిగ్రీని వేగవంతం చేయడానికి "
 "వర్తించవచ్చు."
 
-#: enterprise/constants.py:94
+#: enterprise/constants.py:98
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -1142,7 +1182,7 @@ msgstr ""
 "మరియు వృత్తిపరమైన విద్యతో యజమానులు వెతుకుతున్న నైపుణ్యం మరియు నైపుణ్యాన్ని "
 "అభివృద్ధి చేస్తాయి."
 
-#: enterprise/constants.py:100
+#: enterprise/constants.py:104
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
@@ -1396,6 +1436,14 @@ msgstr ""
 "నిర్దేశిస్తుంది. లెర్నర్ క్రెడిట్ యొక్క పాత వెర్షన్ అయిన “ఆఫర్‌లు” ఉన్న "
 "కస్టమర్‌లకు మాత్రమే ఇది వర్తిస్తుంది."
 
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"లెర్నర్ పోర్టల్‌లో లెర్నర్ క్రెడిట్ మెసేజ్ బాక్స్‌ను ప్రదర్శించాలా వద్దా అని"
+" నిర్దేశిస్తుంది."
+
 #: enterprise/models.py:391
 msgid ""
 "Hides labor market data from learners (populated by features using Lightcast"
@@ -1640,6 +1688,48 @@ msgid ""
 msgstr ""
 "ఎంటర్‌ప్రైజ్ సబ్సిడీ రద్దు చేయబడిందా, ఉదా, వినియోగదారు లైసెన్స్ రద్దు "
 "చేయబడినప్పుడు."
+
+#: enterprise/models.py:2550
+msgid "The customer for which this default enrollment will be realized."
+msgstr "ఈ డిఫాల్ట్ ఎన్‌రోల్‌మెంట్‌ను గ్రహించే కస్టమర్."
+
+#: enterprise/models.py:2559
+msgid "The type of content (e.g. a course vs. a course run)."
+msgstr "కంటెంట్ రకం (ఉదా. కోర్సు వర్సెస్ కోర్సు రన్)."
+
+#: enterprise/models.py:2567
+msgid ""
+"A course or course run that related users should be automatically enrolled "
+"into."
+msgstr ""
+"సంబంధిత వినియోగదారులు స్వయంచాలకంగా నమోదు చేయబడే కోర్సు లేదా కోర్సు రన్."
+
+#: enterprise/models.py:2739
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"ఈ ఎంటర్‌ప్రైజ్ కస్టమర్ మరియు కంటెంట్ కీతో డిఫాల్ట్ ఎన్‌రోల్‌మెంట్ ఉద్దేశం "
+"ఇప్పటికే ఉంది, కానీ సాఫ్ట్‌గా తొలగించబడింది. దయచేసి దాన్ని <a "
+"href=\"{existing_record_admin_url}\">ఇక్కడ</a> పునరుద్ధరించండి."
+
+#: enterprise/models.py:2754
+msgid "The content key did not resolve to a valid course run."
+msgstr "కంటెంట్ కీ చెల్లుబాటు అయ్యే కోర్సు అమలును పరిష్కరించలేదు."
+
+#: enterprise/models.py:2822
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a JSON object. An empty JSON "
+"object means that all available content items will be included in the "
+"catalog.  Must be unique."
+msgstr ""
+"JSON ఆబ్జెక్ట్‌గా పేర్కొనబడిన డిస్కవరీ సర్వీస్ శోధన/అన్ని ఎండ్‌పాయింట్ "
+"ఫలితాలను ఫిల్టర్ చేయడానికి ఉపయోగించే ప్రశ్న పారామీటర్‌లు. ఖాళీ JSON "
+"ఆబ్జెక్ట్ అంటే అందుబాటులో ఉన్న అన్ని కంటెంట్ అంశాలు కేటలాగ్‌లో చేర్చబడతాయి. "
+"ప్రత్యేకంగా ఉండాలి."
 
 #: enterprise/models.py:2837
 msgid ""
@@ -2147,6 +2237,10 @@ msgstr "కాన్ఫిగరేషన్ కోసం రికార్డ�
 msgid "Specifies enterprise group name."
 msgstr "ఎంటర్‌ప్రైజ్ గ్రూప్ పేరును నిర్దేశిస్తుంది."
 
+#: enterprise/models.py:4744
+msgid "The type of enterprise group"
+msgstr "ఎంటర్ప్రైజ్ గ్రూప్ రకం"
+
 #: enterprise/models.py:4750
 msgid "Enterprise Group"
 msgstr "ఎంటర్ప్రైజ్ గ్రూప్"
@@ -2186,6 +2280,46 @@ msgstr "ఎంటర్‌ప్రైజ్ గ్రూప్ మెంబర�
 #: enterprise/models.py:4895
 msgid "Enterprise Group Memberships"
 msgstr "ఎంటర్‌ప్రైజ్ గ్రూప్ మెంబర్‌షిప్‌లు"
+
+#: enterprise/models.py:4964
+msgid "Title summarizing the onboarding flow."
+msgstr "ఆన్‌బోర్డింగ్ ఫ్లోను సంగ్రహించే శీర్షిక."
+
+#: enterprise/models.py:4970
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"ఈ ప్రవాహం యాక్టివ్‌గా ఉందా మరియు ఆన్‌బోర్డింగ్ టూర్‌లో నిర్వాహక "
+"వినియోగదారులకు చూపబడుతుందో లేదో పేర్కొంటుంది."
+
+#: enterprise/models.py:4989
+msgid "The enterprise customer user who is an admin."
+msgstr "అడ్మిన్ అయిన ఎంటర్‌ప్రైజ్ కస్టమర్ యూజర్."
+
+#: enterprise/models.py:4994
+msgid "The last time the admin logged into the admin portal."
+msgstr "అడ్మిన్ అడ్మిన్ పోర్టల్‌లోకి చివరిసారిగా లాగిన్ అయ్యారు."
+
+#: enterprise/models.py:4999
+msgid "The onboarding flows that this admin has completed."
+msgstr "ఈ నిర్వాహకుడు పూర్తి చేసిన ఆన్‌బోర్డింగ్ ప్రవాహాలు."
+
+#: enterprise/models.py:5003
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "అడ్మిన్ ఆన్‌బోర్డింగ్ టూర్‌ను తోసిపుచ్చినారా."
+
+#: enterprise/models.py:5007
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "అడ్మిన్ ఆన్‌బోర్డింగ్ టూర్‌ను పూర్తి చేశారా లేదా."
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admin"
+msgstr "ఎంటర్‌ప్రైజ్ కస్టమర్ అడ్మిన్"
+
+#: enterprise/models.py:5013
+msgid "Enterprise Customer Admins"
+msgstr "ఎంటర్‌ప్రైజ్ కస్టమర్ నిర్వాహకులు"
 
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
 #: enterprise/views.py:1616 enterprise/views.py:2118
@@ -2637,241 +2771,3 @@ msgstr ""
 "{bold_start} తప్పనిసరిగా {bold_end} మీ {item} డేటాను "
 "{enterprise_customer_name} తో భాగస్వామ్యం చేయడానికి సమ్మతించాలి మీరు ఇప్పుడు"
 " తిరస్కరిస్తే, మీరు మునుపటి పేజీకి దారి మళ్లించబడతారు."
-
-#: enterprise/views.py:615
-#, python-brace-format
-msgid "your enrollment in this {item}"
-msgstr "ఈ {item} లో మీ నమోదు"
-
-#: enterprise/views.py:616
-msgid "your learning progress"
-msgstr "మీ అభ్యాస పురోగతి"
-
-#: enterprise/views.py:617
-msgid "course completion"
-msgstr "కోర్సు పూర్తి"
-
-#: enterprise/views.py:985
-msgid "Enterprise Slug Login"
-msgstr "ఎంటర్‌ప్రైజ్ స్లగ్ లాగిన్"
-
-#: enterprise/views.py:1109
-msgid "Select Organization"
-msgstr "సంస్థను ఎంచుకోండి"
-
-#: enterprise/views.py:1110
-msgid "Select an organization"
-msgstr "ఒక సంస్థను ఎంచుకోండి"
-
-#: enterprise/views.py:1264
-msgid "Instructor-Paced"
-msgstr "బోధకుడు-పేస్డ్"
-
-#: enterprise/views.py:1265
-msgid "Self-Paced"
-msgstr "స్వయం గమనం"
-
-#: enterprise/views.py:1455
-msgid "FREE"
-msgstr "ఉచిత"
-
-#: enterprise/views.py:1457
-msgid "Not eligible for a certificate."
-msgstr "సర్టిఫికేట్‌కు అర్హత లేదు."
-
-#: enterprise/views.py:1459
-msgid "Earn a verified certificate!"
-msgstr "ధృవీకరించబడిన ప్రమాణపత్రాన్ని పొందండి!"
-
-#: enterprise/views.py:1518
-#, python-brace-format
-msgid "{num_weeks}, starting on {start_date} and ending at {end_date}"
-msgstr ""
-"{num_weeks} , {start_date} నుండి ప్రారంభమై {end_date} వద్ద ముగుస్తుంది"
-
-#: enterprise/views.py:1520 enterprise/views.py:1939
-msgid "{} week"
-msgid_plural "{} weeks"
-msgstr[0] "{} వారం"
-msgstr[1] "{} వారాలు"
-
-#: enterprise/views.py:1580
-#, python-brace-format
-msgid ""
-"Discount provided by {strong_start}{enterprise_customer_name}{strong_end}"
-msgstr ""
-"{strong_start} {enterprise_customer_name} {strong_end} ద్వారా తగ్గింపు "
-"అందించబడింది"
-
-#: enterprise/views.py:1606 enterprise/views.py:1607
-msgid "Confirm your course"
-msgstr "మీ కోర్సును నిర్ధారించండి"
-
-#: enterprise/views.py:1609
-msgid "View Course Details"
-msgstr "కోర్సు వివరాలను చూడండి"
-
-#: enterprise/views.py:1610
-msgid "Please select one:"
-msgstr "దయచేసి ఒకదాన్ని ఎంచుకోండి:"
-
-#: enterprise/views.py:1611 enterprise/views.py:2112
-msgid "Price"
-msgstr "ధర"
-
-#: enterprise/views.py:1613 enterprise/views.py:2115
-msgid "Level"
-msgstr "స్థాయి"
-
-#: enterprise/views.py:1614 enterprise/views.py:2114
-msgid "Effort"
-msgstr "ప్రయత్నం"
-
-#: enterprise/views.py:1615
-msgid "Duration"
-msgstr "వ్యవధి"
-
-#: enterprise/views.py:1617 enterprise/views.py:2104
-msgid "What you'll learn"
-msgstr "మీరు ఏమి నేర్చుకుంటారు"
-
-#: enterprise/views.py:1618 enterprise/views.py:2116
-msgid "About This Course"
-msgstr "ఈ కోర్సు గురించి"
-
-#: enterprise/views.py:1619 enterprise/views.py:2117
-msgid "Course Staff"
-msgstr "కోర్సు సిబ్బంది"
-
-#: enterprise/views.py:2056
-#, python-brace-format
-msgid "{count} Course"
-msgid_plural "{count} Courses"
-msgstr[0] "{count} కోర్సు"
-msgstr[1] "{count} కోర్సులు"
-
-#: enterprise/views.py:2063
-msgid "{}-{} hours per week, per course"
-msgstr "వారానికి {}-{} గంటలు, ఒక్కో కోర్సుకు"
-
-#: enterprise/views.py:2070
-msgid "{}-{} weeks per course"
-msgstr "ఒక్కో కోర్సుకు {}-{} వారాలు"
-
-#: enterprise/views.py:2077
-msgid "Purchase all unenrolled courses"
-msgstr "నమోదు చేయని అన్ని కోర్సులను కొనుగోలు చేయండి"
-
-#: enterprise/views.py:2078
-msgid "enrollment"
-msgstr "నమోదు"
-
-#: enterprise/views.py:2080
-msgid "Pursue the program"
-msgstr "కార్యక్రమాన్ని కొనసాగించండి"
-
-#: enterprise/views.py:2081
-msgid "program enrollment"
-msgstr "ప్రోగ్రామ్ నమోదు"
-
-#: enterprise/views.py:2102
-msgid "enrolled"
-msgstr "నమోదు చేసుకున్నారు"
-
-#: enterprise/views.py:2103
-msgid "already enrolled, must pay for certificate"
-msgstr "ఇప్పటికే నమోదు చేసుకున్నారు, సర్టిఫికేట్ కోసం చెల్లించాలి"
-
-#: enterprise/views.py:2106
-msgid "Real Career Impact"
-msgstr "రియల్ కెరీర్ ప్రభావం"
-
-#: enterprise/views.py:2108
-msgid "See More"
-msgstr "ఇంకా చూడండి"
-
-#: enterprise/views.py:2109
-msgid "See Less"
-msgstr "తక్కువ చూడండి"
-
-#: enterprise/views.py:2110
-msgid "Confirm Program"
-msgstr "ప్రోగ్రామ్‌ని నిర్ధారించండి"
-
-#: enterprise/views.py:2111
-msgid "Program Summary"
-msgstr "ప్రోగ్రామ్ సారాంశం"
-
-#: enterprise/views.py:2113
-msgid "Length"
-msgstr "పొడవు"
-
-#: enterprise/views.py:2119
-msgid "Program not eligible for one-click purchase."
-msgstr "ప్రోగ్రామ్ ఒక్క క్లిక్ కొనుగోలుకు అర్హత లేదు."
-
-#: enterprise/views.py:2120
-#, python-brace-format
-msgid "What is an {platform_name} {program_type}?"
-msgstr "{platform_name} {program_type} అంటే ఏమిటి?"
-
-#: enterprise/views.py:2124
-#, python-brace-format
-msgid "What is {platform_name}?"
-msgstr "{platform_name} అంటే ఏమిటి?"
-
-#: enterprise/views.py:2129
-#, python-brace-format
-msgid "Presented by {organization}"
-msgstr "{organization} ద్వారా సమర్పించబడింది"
-
-#: enterprise/views.py:2130
-#, python-brace-format
-msgid "Confirm your {item}"
-msgstr "మీ {item} ని నిర్ధారించండి"
-
-#: enterprise/views.py:2142
-msgid "Credit- and Certificate-eligible"
-msgstr "క్రెడిట్- మరియు సర్టిఫికేట్-అర్హత"
-
-#: enterprise/views.py:2143
-msgid "Self-paced; courses can be taken in any order"
-msgstr "స్వీయ-వేగం; కోర్సులు ఏ క్రమంలోనైనా తీసుకోవచ్చు"
-
-#: enterprise/views.py:2145
-#, python-brace-format
-msgid "{purchase_action} for"
-msgstr "కోసం {purchase_action}"
-
-#: enterprise_learner_portal/api/v1/serializers.py:40
-msgid ""
-"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
-"installed in an Open edX environment."
-msgstr ""
-"ఈ EnterpriseCourseEnrollmentSerializerని ఉపయోగించడానికి, ఈ ప్యాకేజీ "
-"తప్పనిసరిగా ఓపెన్ edX వాతావరణంలో ఇన్‌స్టాల్ చేయబడాలి."
-
-#: enterprise/config/models.py:41
-msgid ""
-"Specifies which user role assignments to update.  If unspecified, will "
-"update for all roles."
-msgstr ""
-"ఏ యూజర్ రోల్ అసైన్‌మెంట్‌లను అప్‌డేట్ చేయాలో పేర్కొంటుంది. పేర్కొనబడకపోతే, "
-"అన్ని పాత్రల కోసం నవీకరించబడుతుంది."
-
-#: enterprise/config/models.py:45
-msgid "Number of user role asssignments to update in each batch of updates."
-msgstr ""
-"ప్రతి బ్యాచ్ అప్‌డేట్‌లలో అప్‌డేట్ చేయాల్సిన యూజర్ రోల్ అసైన్‌మెంట్‌ల సంఖ్య."
-
-#: enterprise/config/models.py:50
-msgid "The enterprise customer to limit role assignments to."
-msgstr "ఎంటర్‌ప్రైజ్ కస్టమర్ రోల్ అసైన్‌మెంట్‌లను పరిమితం చేయాలి."
-
-#: enterprise/config/models.py:55
-msgid ""
-"If set, no updates or creates will occur; will instead iterate over the "
-"assignments that would be modified or created"
-msgstr ""
-"సెట్ చేస్తే, అప్‌డేట్‌లు లేదా క్రియేట్‌లు జరగవు; బదులుగా సవరించబడిన లేదా "
-"సృష్టించబడిన అసైన్‌మెంట్‌లపై మళ్ళిస్తుంది"

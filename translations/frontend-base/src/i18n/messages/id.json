@@ -12,15 +12,5 @@
   "header.user.menu.profile": "Profil",
   "header.user.menu.register": "Daftar",
   "home.content": "Konten halaman beranda.",
-  "masquerade-widget.staff": "Staff",
-  "masquerade-widget.userName.input.label": "Nama Pengguna atau email",
-  "masquerade-widget.userName.submit": "Kirim",
-  "masquerade-widget.userName.submitting": "Mengirimkan",
-  "masquerade-widget.view.as": "Lihat kursus ini sebagai:",
-  "masqueradeBar.ariaLabel": "",
-  "masqueradeBar.error.genericSubmit": "Kesalahan telah terjadi; silakan coba lagi.",
-  "masqueradeBar.error.noStudentFound": "",
-  "masqueradeBar.studio": "Studio",
-  "masqueradeBar.viewCourse": "Lihat kursus dalam:",
   "org.openedx.frontend.slot.header.courseNavigationBar.tabs.label": "Bilah Navigasi Kursus"
 }

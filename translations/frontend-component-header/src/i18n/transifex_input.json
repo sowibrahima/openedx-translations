@@ -1,7 +1,5 @@
 {
   "header.links.courses": "Courses",
-  "header.links.explore": "Discover",
-  "header.links.my.courses": "My courses",
   "header.links.programs": "Programs",
   "header.links.content.search": "Discover New",
   "header.links.schools": "Schools & Partners",
@@ -34,5 +32,7 @@
   "header.menu.aria-label": "User Options",
   "header.user.menu.studio": "Studio Home",
   "header.label.courseOutline": "Back to course outline in Studio",
-  "header.label.search.nav": "Search content"
+  "header.label.search.nav": "Search content",
+  "header.links.explore": "Discover",
+  "header.links.my.courses": "My courses"
 }
